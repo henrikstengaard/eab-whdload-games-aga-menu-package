@@ -1,0 +1,37 @@
+; EAB WHDLoad Games AGA Menu Package Install Script
+; -------------------------------------------------
+;
+; Author: Henrik Noerfjand Stengaard
+; Date: 2016-11-14
+;
+; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
+
+echo "Installing HstWB Games..."
+unzip -qq -o -x PACKAGEDIR:hstwb-games.zip -d SYSTEMDIR:Games/
+
+echo "Installing Menu and WHDLoad drawers..."
+unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR:
+
+echo "Installing AGS2 Games Menu..."
+unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/
+
+echo "Installing iGame WHDLoad Games Screenshots..."
+unzip -qq -o -x PACKAGEDIR:igame-screenshots.zip -d WORKDIR:WHDLoad/Games/
+
+; Add A-Games to user-assign, if it doesn't exist
+search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
+IF WARN 
+	echo "Assign A-Games: DH1:WHDLoad/Games" >>SYSTEMDIR:S/User-Assign
+ENDIF
+
+; Add HD-Games to user assign, if it doesn't exist
+search SYSTEMDIR:S/User-Assign "HD-Games:" >NIL:
+IF WARN 
+	echo "Assign HD-Games: DH1:HD-Games" >>SYSTEMDIR:S/User-Assign
+ENDIF
+
+; Add ags2gamespath to user env, if it doesn't exist
+search SYSTEMDIR:S/User-Env "ags2gamespath" >NIL:
+IF WARN 
+	echo "setenv ags2gamespath *"DH1:Menu/AGS2Games*"" >>SYSTEMDIR:S/User-Env
+ENDIF

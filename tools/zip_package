@@ -1,0 +1,30 @@
+; ags2games-menu
+IF EXISTS "PACKAGEDIR:package/ags2games-menu.zip"
+  delete >NIL: "PACKAGEDIR:package/ags2games-menu.zip"
+ENDIF
+cd "PACKAGEDIR:ags2games-menu/"
+"PACKAGEDIR:tools/zip" -r "PACKAGEDIR:package/ags2games-menu.zip" *
+
+
+; hstwb-games
+IF EXISTS "PACKAGEDIR:package/hstwb-games.zip"
+  delete >NIL: "PACKAGEDIR:package/hstwb-games.zip"
+ENDIF
+cd "PACKAGEDIR:hstwb-games/"
+"PACKAGEDIR:tools/zip" -r "PACKAGEDIR:package/hstwb-games.zip" *
+
+
+; menu-whdload-drawers
+IF EXISTS "PACKAGEDIR:package/menu-whdload-drawers.zip"
+  delete >NIL: "PACKAGEDIR:package/menu-whdload-drawers.zip"
+ENDIF
+cd "PACKAGEDIR:menu-whdload-drawers/"
+"PACKAGEDIR:tools/zip" -r "PACKAGEDIR:package/menu-whdload-drawers.zip" *
+
+
+; igame-screenshots
+IF EXISTS "PACKAGEDIR:package/igame-screenshots.zip"
+  delete >NIL: "PACKAGEDIR:package/igame-screenshots.zip"
+ENDIF
+cd "PACKAGEDIR:igame-screenshots/"
+"PACKAGEDIR:tools/zip" -r "PACKAGEDIR:package/igame-screenshots.zip" *
