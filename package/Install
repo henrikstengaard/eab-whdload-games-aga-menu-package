@@ -16,7 +16,7 @@ echo "Installing AGS2 Games Menu..."
 unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/
 
 echo "Installing Menu WHDLoad Content..."
-unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip.zip -d WORKDIR:WHDLoad/Games/
+unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WORKDIR:WHDLoad/Games/
 
 ; Add A-Games to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
