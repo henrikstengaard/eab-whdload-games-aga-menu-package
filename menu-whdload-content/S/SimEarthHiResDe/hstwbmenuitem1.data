@@ -1,0 +1,7 @@
+;HstWB menu item data
+Name=SimEarth DE HiRes
+RunFile=SimEarthHiResDe.Slave
+AGS2Name=SimEarth DE HiRes
+AGS2IndexName=S
+AGS2FileName=SimEarth DE HiRes
+iGameName=SimEarth DE HiRes
