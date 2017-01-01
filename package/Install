@@ -15,8 +15,8 @@ unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR:
 echo "Installing AGS2 Games Menu..."
 unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/
 
-echo "Installing iGame WHDLoad Games Screenshots..."
-unzip -qq -o -x PACKAGEDIR:igame-screenshots.zip -d WORKDIR:WHDLoad/Games/
+echo "Installing Menu WHDLoad Content..."
+unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip.zip -d WORKDIR:WHDLoad/Games/
 
 ; Add A-Games to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
