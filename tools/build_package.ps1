@@ -2,7 +2,7 @@
 # -------------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-01-01
+# Date:   2017-01-02
 #
 # A PowerShell script to build package for HstWB Installer.
 
@@ -13,6 +13,33 @@ Add-Type -Assembly System.IO.Compression.FileSystem
 $compressionLevel = [System.IO.Compression.CompressionLevel]::Optimal
 $rootDir = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath("..")
 $packageDir = [System.IO.Path]::Combine($rootDir, "package")
+
+
+# c# code for forward slash encoder used to create zip files with forward slash as path separator in entries compatible with amiga
+$source = @"
+using System.Text;
+
+namespace HstWB.Package
+{ 
+	public class ForwardSlashEncoder : UTF8Encoding
+	{
+		public ForwardSlashEncoder() : base(true)
+		{
+		}
+
+		public override byte[] GetBytes(string s)
+		{
+			s = s.Replace("\\", "/");
+			return base.GetBytes(s);
+		}
+	}
+}
+"@
+Add-Type -TypeDefinition $source -Language CSharp 
+
+
+# create instance of forward slash encoder
+$forwardSlashEncoder = New-Object 'HstWB.Package.ForwardSlashEncoder'
 
 
 # read package ini lines
@@ -46,7 +73,7 @@ foreach ($contentDir in $contentDirs)
 	}
 
 	# compress content directory
-	[System.IO.Compression.ZipFile]::CreateFromDirectory($contentDir.FullName, $contentZipFile, $compressionLevel, $false)	
+	[System.IO.Compression.ZipFile]::CreateFromDirectory($contentDir.FullName, $contentZipFile, $compressionLevel, $false, $forwardSlashEncoder)	
 }
 
 
@@ -63,7 +90,7 @@ if (test-path -path $packageFile)
 }
 
 # compress package directory
-[System.IO.Compression.ZipFile]::CreateFromDirectory($packageDir, $packageFile, $compressionLevel, $false)
+[System.IO.Compression.ZipFile]::CreateFromDirectory($packageDir, $packageFile, $compressionLevel, $false, $forwardSlashEncoder)
 
 
 # write progress message
