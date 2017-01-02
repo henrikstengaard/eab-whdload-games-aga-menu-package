@@ -2,21 +2,24 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2016-11-14
+; Date: 2017-01-02
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
 echo "Installing HstWB Games..."
-unzip -qq -o -x PACKAGEDIR:hstwb-games.zip -d SYSTEMDIR:Games/ >NIL:
+unzip -qq -o -x PACKAGEDIR:hstwb-games.zip -d SYSTEMDIR:Games/
 
 echo "Installing Menu and WHDLoad drawers..."
-unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR: >NIL:
+unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR:
 
 echo "Installing AGS2 Games Menu..."
-unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/ >NIL:
+unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/
+protect >NIL: WORKDIR:Menu/AGS2Games/AGS2 +rwe
+protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Helper +rwe
+protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Menu +rwe
 
 echo "Installing Menu WHDLoad Content..."
-unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WORKDIR:WHDLoad/Games/ >NIL:
+unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WORKDIR:WHDLoad/Games/
 
 ; Add A-Games to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
