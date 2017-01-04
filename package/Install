@@ -17,6 +17,9 @@ unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/
 protect >NIL: WORKDIR:Menu/AGS2Games/AGS2 +rwe
 protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Helper +rwe
 protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Menu +rwe
+IF NOT EXISTS "WORKDIR:Menu/AGS2Games/Music"
+  makedir "WORKDIR:Menu/AGS2Games/Music" >NIL:
+ENDIF
 
 echo "Installing Menu WHDLoad Content..."
 unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WORKDIR:WHDLoad/Games/
