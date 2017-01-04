@@ -2,6 +2,4 @@
 Name=A-Train ConstrSet 512K
 RunFile=ATrain512k.slave
 AGS2Name=A-Train ConstrSet 512K
-AGS2IndexName=A
-AGS2FileName=A-Train ConstrSet 512K
 iGameName=A-Train ConstrSet 512K
