@@ -1,5 +1,5 @@
 echo "*ec"
-echo "remove" > ENV:favouritesmode
+echo "remove" > ENV:ags2favouritesmode
 echo "Set favourites mode to remove"
 wait 3
 echo "*ec"

@@ -1,5 +1,5 @@
 echo "*ec"
-echo "add" > ENV:favouritesmode
+echo "add" > ENV:ags2favouritesmode
 echo "Set favourites mode to add"
 wait 3
 echo "*ec"
