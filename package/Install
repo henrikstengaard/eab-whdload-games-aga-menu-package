@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-01-04
+; Date: 2017-01-06
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -19,6 +19,11 @@ protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Helper +rwe
 protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Menu +rwe
 IF NOT EXISTS "WORKDIR:Menu/AGS2Games/Music"
   makedir "WORKDIR:Menu/AGS2Games/Music" >NIL:
+ENDIF
+IF NOT EXISTS "WORKDIR:Menu/AGS2Games/.Favourites.ags"
+  IF NOT EXISTS "WORKDIR:Menu/AGS2Games/.Favourites.ag_"
+    makedir "WORKDIR:Menu/AGS2Games/.Favourites.ag_" >NIL:
+  ENDIF
 ENDIF
 
 echo "Installing Menu WHDLoad Content..."
