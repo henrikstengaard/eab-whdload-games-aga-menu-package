@@ -8,14 +8,14 @@ ELSE
 ENDIF
 
 echo ""
-IF EXISTS ENV:favouritesmode
-	IF $favouritesmode EQ "add"
+IF EXISTS ENV:ags2favouritesmode
+	IF $ags2favouritesmode EQ "add"
 		echo "Favourites mode is add"
 	ENDIF
-	IF $favouritesmode EQ "addrun"
+	IF $ags2favouritesmode EQ "addrun"
 		echo "Favourites mode is add & run"
 	ENDIF
-	IF $favouritesmode EQ "remove"
+	IF $ags2favouritesmode EQ "remove"
 		echo "Favourites mode is remove"
 	ENDIF
 ELSE
