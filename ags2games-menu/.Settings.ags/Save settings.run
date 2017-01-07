@@ -2,8 +2,8 @@ echo "*ec"
 IF EXISTS ENV:whdloadargs
 	copy >NIL: ENV:whdloadargs S:Settings/whdloadargs 
 ENDIF
-IF EXISTS ENV:favouritesmode
-	copy >NIL: ENV:favouritesmode S:Settings/favouritesmode 
+IF EXISTS ENV:ags2favouritesmode
+	copy >NIL: ENV:ags2favouritesmode S:Settings/ags2favouritesmode 
 ENDIF
 IF EXISTS ENV:ags2music
 	copy >NIL: ENV:ags2music S:Settings/ags2music 
