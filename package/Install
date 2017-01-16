@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-01-06
+; Date: 2017-01-16
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -10,24 +10,24 @@ echo "Installing HstWB Games..."
 unzip -qq -o -x PACKAGEDIR:hstwb-games.zip -d SYSTEMDIR:Games/
 
 echo "Installing Menu and WHDLoad drawers..."
-unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WORKDIR:
+unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WHDLOADDIR:
 
 echo "Installing AGS2 Games Menu..."
-unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WORKDIR:Menu/AGS2Games/
-protect >NIL: WORKDIR:Menu/AGS2Games/AGS2 +rwe
-protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Helper +rwe
-protect >NIL: WORKDIR:Menu/AGS2Games/AGS2Menu +rwe
-IF NOT EXISTS "WORKDIR:Menu/AGS2Games/Music"
-  makedir "WORKDIR:Menu/AGS2Games/Music" >NIL:
+unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WHDLOADDIR:Menu/AGS2Games/
+protect >NIL: WHDLOADDIR:Menu/AGS2Games/AGS2 +rwe
+protect >NIL: WHDLOADDIR:Menu/AGS2Games/AGS2Helper +rwe
+protect >NIL: WHDLOADDIR:Menu/AGS2Games/AGS2Menu +rwe
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/Music"
+  makedir "WHDLOADDIR:Menu/AGS2Games/Music" >NIL:
 ENDIF
-IF NOT EXISTS "WORKDIR:Menu/AGS2Games/.Favourites.ags"
-  IF NOT EXISTS "WORKDIR:Menu/AGS2Games/.Favourites.ag_"
-    makedir "WORKDIR:Menu/AGS2Games/.Favourites.ag_" >NIL:
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ags"
+  IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
+    makedir "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_" >NIL:
   ENDIF
 ENDIF
 
 echo "Installing Menu WHDLoad Content..."
-unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WORKDIR:WHDLoad/Games/
+unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WHDLOADDIR:WHDLoad/Games/
 
 ; Add A-Games to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
