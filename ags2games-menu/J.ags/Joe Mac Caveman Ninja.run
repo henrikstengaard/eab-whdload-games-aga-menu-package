@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:L/Limes&Napoleon/Limes&Napoleon.Slave
+;RunFile=A-Games:J/Joe&MacCavemanNinja/Joe&MacCavemanNinja.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "L" "Limes & Napoleon"
+  execute S:AGS2Favourites "J" "Joe Mac Caveman Ninja"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:L/Limes&Napoleon/"
+cd "A-Games:J/Joe&MacCavemanNinja/"
 IF EXISTS ENV:whdloadargs
-  whdload "Limes&Napoleon.Slave" $whdloadargs
+  whdload "Joe&MacCavemanNinja.Slave" $whdloadargs
 ELSE
-  whdload "Limes&Napoleon.Slave"
+  whdload "Joe&MacCavemanNinja.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

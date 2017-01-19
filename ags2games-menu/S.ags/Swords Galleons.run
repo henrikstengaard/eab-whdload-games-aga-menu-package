@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:N/NorthAndSouthImage/NorthAndSouthImage.Slave
+;RunFile=A-Games:S/Swords&Galleons/Swords&Galleons.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "N" "North & South Image"
+  execute S:AGS2Favourites "S" "Swords Galleons"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:N/NorthAndSouthImage/"
+cd "A-Games:S/Swords&Galleons/"
 IF EXISTS ENV:whdloadargs
-  whdload "NorthAndSouthImage.Slave" $whdloadargs
+  whdload "Swords&Galleons.slave" $whdloadargs
 ELSE
-  whdload "NorthAndSouthImage.Slave"
+  whdload "Swords&Galleons.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

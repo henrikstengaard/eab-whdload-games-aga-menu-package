@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:P/PixieAndDixie/Pixie&Dixie.slave
+;RunFile=A-Games:N/NorthAndSouthImageNTSC/NorthAndSouthImageNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "P" "Pixie and Dixie Pixie&Dixi"
+  execute S:AGS2Favourites "N" "North South NTSC Image"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:P/PixieAndDixie/"
+cd "A-Games:N/NorthAndSouthImageNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Pixie&Dixie.slave" $whdloadargs
+  whdload "NorthAndSouthImageNTSC.Slave" $whdloadargs
 ELSE
-  whdload "Pixie&Dixie.slave"
+  whdload "NorthAndSouthImageNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:0-9/4th&Inches/4th&Inches.Slave
+;RunFile=A-Games:C/Classic&BabyArcadia/Classic&BabyArcadia.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "0" "4th & Inches"
+  execute S:AGS2Favourites "C" "Classic Arcadia Baby Arcad"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:0-9/4th&Inches/"
+cd "A-Games:C/Classic&BabyArcadia/"
 IF EXISTS ENV:whdloadargs
-  whdload "4th&Inches.Slave" $whdloadargs
+  whdload "Classic&BabyArcadia.Slave" $whdloadargs
 ELSE
-  whdload "4th&Inches.Slave"
+  whdload "Classic&BabyArcadia.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

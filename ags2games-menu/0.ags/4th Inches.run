@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:N/NorthAndSouthFilesNTSC/NorthAndSouthFilesNTSC.Slave
+;RunFile=A-Games:0-9/4th&Inches/4th&Inches.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "N" "North & South NTSC Files"
+  execute S:AGS2Favourites "0" "4th Inches"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:N/NorthAndSouthFilesNTSC/"
+cd "A-Games:0-9/4th&Inches/"
 IF EXISTS ENV:whdloadargs
-  whdload "NorthAndSouthFilesNTSC.Slave" $whdloadargs
+  whdload "4th&Inches.Slave" $whdloadargs
 ELSE
-  whdload "NorthAndSouthFilesNTSC.Slave"
+  whdload "4th&Inches.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

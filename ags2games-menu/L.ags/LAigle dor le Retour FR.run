@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/AigleDOrFr/IntroFr.slave
+;RunFile=A-Games:A/AigleDOrFr/AigleDOrFr.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "L" "LAigle dor  le Retour Intr"
+  execute S:AGS2Favourites "L" "LAigle dor le Retour FR"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:A/AigleDOrFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "IntroFr.slave" $whdloadargs
+  whdload "AigleDOrFr.slave" $whdloadargs
 ELSE
-  whdload "IntroFr.slave"
+  whdload "AigleDOrFr.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

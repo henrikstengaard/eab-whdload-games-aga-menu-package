@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:H/Harpoon&Battleset1/Harpoon&Battleset1.Slave
+;RunFile=A-Games:F/Fire&Forget2/Fire&Forget2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "H" "Harpoon & Battleset 1 Gree"
+  execute S:AGS2Favourites "F" "Fire Forget II The Death C"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:H/Harpoon&Battleset1/"
+cd "A-Games:F/Fire&Forget2/"
 IF EXISTS ENV:whdloadargs
-  whdload "Harpoon&Battleset1.Slave" $whdloadargs
+  whdload "Fire&Forget2.Slave" $whdloadargs
 ELSE
-  whdload "Harpoon&Battleset1.Slave"
+  whdload "Fire&Forget2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

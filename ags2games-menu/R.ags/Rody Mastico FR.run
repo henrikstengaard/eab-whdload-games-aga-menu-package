@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:N/NorthAndSouthImageNTSC/NorthAndSouthImageNTSC.Slave
+;RunFile=A-Games:R/Rody&MasticoFr/Rody&MasticoFr.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "N" "North & South NTSC Image"
+  execute S:AGS2Favourites "R" "Rody Mastico FR"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:N/NorthAndSouthImageNTSC/"
+cd "A-Games:R/Rody&MasticoFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "NorthAndSouthImageNTSC.Slave" $whdloadargs
+  whdload "Rody&MasticoFr.Slave" $whdloadargs
 ELSE
-  whdload "NorthAndSouthImageNTSC.Slave"
+  whdload "Rody&MasticoFr.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

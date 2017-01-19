@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:N/North&South/North&South.Slave
+;RunFile=A-Games:S/Skull&Crossbones/Skull&CrossBones.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "N" "North & South"
+  execute S:AGS2Favourites "S" "Skull Crossbones"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:N/North&South/"
+cd "A-Games:S/Skull&Crossbones/"
 IF EXISTS ENV:whdloadargs
-  whdload "North&South.Slave" $whdloadargs
+  whdload "Skull&CrossBones.slave" $whdloadargs
 ELSE
-  whdload "North&South.Slave"
+  whdload "Skull&CrossBones.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

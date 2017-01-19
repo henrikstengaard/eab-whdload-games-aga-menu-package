@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/AdventuresOfQuik&Silva/AdventuresOfQuik&Silva.Slave
+;RunFile=A-Games:N/NorthAndSouthFilesNTSC/NorthAndSouthFilesNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "A" "Adventures of Quik & Silva"
+  execute S:AGS2Favourites "N" "North South NTSC Files"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:A/AdventuresOfQuik&Silva/"
+cd "A-Games:N/NorthAndSouthFilesNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "AdventuresOfQuik&Silva.Slave" $whdloadargs
+  whdload "NorthAndSouthFilesNTSC.Slave" $whdloadargs
 ELSE
-  whdload "AdventuresOfQuik&Silva.Slave"
+  whdload "NorthAndSouthFilesNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

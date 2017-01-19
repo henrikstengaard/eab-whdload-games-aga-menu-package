@@ -1,10 +1,10 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:C/Classic&BabyArcadia/Classic&BabyArcadia.Slave
+;RunFile=A-Games:S/Saint&Greavsie/Saint&Greavsie.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "C" "Classic Arcadia & Baby Arc"
+  execute S:AGS2Favourites "S" "Saint Greavsie"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:C/Classic&BabyArcadia/"
+cd "A-Games:S/Saint&Greavsie/"
 IF EXISTS ENV:whdloadargs
-  whdload "Classic&BabyArcadia.Slave" $whdloadargs
+  whdload "Saint&Greavsie.Slave" $whdloadargs
 ELSE
-  whdload "Classic&BabyArcadia.Slave"
+  whdload "Saint&Greavsie.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
