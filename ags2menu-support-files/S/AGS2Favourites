@@ -1,0 +1,82 @@
+.KEY ags2indexname/a,ags2name/a
+.BRA {
+.KET }
+
+; AGS2 Favourites Script
+; ----------------------
+
+; Clear screen
+echo "*ec"
+
+
+; End, if ags2 favourites mode is off or doesn't exist
+IF NOT EXISTS ENV:ags2favouritesmode
+  SKIP end
+ENDIF
+
+; End, if ags2 menu path doesn't exist
+IF NOT EXISTS ENV:ags2menupath
+  SKIP end
+ENDIF
+
+; Show ags2 favourites directory, if ags2 favourites directory is hidden
+IF EXISTS "$ags2menupath/.Favourites.ag_/"
+  rename "$ags2menupath/.Favourites.ag_" "$ags2menupath/.Favourites.ags" >NIL:
+ENDIF
+
+; Create ags2 favourites directory, if ags2 favourites directory doesn't exist
+IF NOT EXISTS "$ags2menupath/.Favourites.ags/"
+  makedir "$ags2menupath/.Favourites.ags" >NIL:
+ENDIF
+
+
+; AGS2 favourites mode
+IF $ags2favouritesmode EQ "add"
+  SKIP ags2favouritesadd
+ENDIF
+IF $ags2favouritesmode EQ "addrun"
+  SKIP ags2favouritesadd
+ENDIF
+IF $ags2favouritesmode EQ "remove"
+  SKIP ags2favouritesremove
+ENDIF
+
+SKIP end
+
+
+; Add to AGS2 favourites
+LAB ags2favouritesadd
+
+IF NOT EXISTS "$ags2menupath/.Favourites.ags/{ags2name}.run"
+  IF EXISTS "$ags2menupath/{ags2indexname}.ags/{ags2name}.run"
+    CD "$ags2menupath/.Favourites.ags/"
+    COPY >NIL: "$ags2menupath/{ags2indexname}.ags/{ags2name}.#?" ""
+    ECHO "Added '{ags2name}' to favourites"
+    WAIT 1
+  ENDIF
+ENDIF
+
+SKIP end
+
+
+; Remove from AGS2 favourites
+LAB ags2favouritesremove
+
+echo "IF EXISTS *"$ags2menupath/.Favourites.ags/*"" >> S:RemoveAgs2Favourites
+echo "  DELETE >NIL: *"$ags2menupath/.Favourites.ags/{ags2name}.#?*"" >> S:RemoveAgs2Favourites
+echo "ENDIF" >> S:RemoveAgs2Favourites
+echo "IF EXISTS *"$ags2menupath/.Favourites.ag_/*"" >> S:RemoveAgs2Favourites
+echo "  DELETE >NIL: *"$ags2menupath/.Favourites.ag_/{ags2name}.#?*"" >> S:RemoveAgs2Favourites
+echo "ENDIF" >> S:RemoveAgs2Favourites
+
+echo "Queued '{ags2name}' to be removed from favourites"
+wait 3
+
+SKIP end
+
+
+; End
+LAB end
+
+; Clear screen
+echo "*ec"

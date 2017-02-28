@@ -1,0 +1,48 @@
+; Arcade Game Selector 2 Games Startup Script
+; -------------------------------------------
+
+
+; End, if S:AGSMenu.data file doesn't exist
+IF NOT EXISTS "S:AGS2Menu.data"
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!" "OK" >NIL:
+  SKIP end
+ENDIF
+
+; End, if S:AGSMenu.data file doesn't contain 'AGS2GamesMenuDir'
+search "S:AGS2Menu.data" "AGS2GamesMenuDir=" NONUM >T:_ags2gamesmenudir
+IF WARN
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2GamesMenuDir'!" "OK" >NIL:
+  SKIP end
+ENDIF
+
+; Set ags2 menu path to ags2 games menu dir
+setenv ags2menupath `sed "s/^AGS2GamesMenuDir=//" T:_ags2gamesmenudir`
+delete "T:_ags2gamesmenudir" >NIL:
+
+
+; Assign AGS
+Assign AGS: "$ags2menupath"
+
+
+; Start AGS2
+IF EXISTS AGS:AGS2
+  ; AGS2 Music Start
+  IF EXISTS S:AGS2MusicStart
+    execute S:AGS2MusicStart
+  ENDIF
+
+  AGS:AGS2
+
+  ; AGS2 Music Stop
+  IF EXISTS S:AGS2MusicStop
+    execute S:AGS2MusicStop
+  ENDIF
+ENDIF
+
+
+; Remove AGS assign
+ASSIGN AGS: "$ags2menupath" REMOVE
+
+
+; End
+LAB end
