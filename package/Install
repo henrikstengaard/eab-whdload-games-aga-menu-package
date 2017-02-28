@@ -66,12 +66,14 @@ IF WARN
 	echo "Assign >NIL: HD-Games: DH1:HD-Games" >>SYSTEMDIR:S/Assign-Startup
 ENDIF
 
-; Add remove ags2 favorites to user startup
+; Add ags2 startup to user startup, if it doesn't exist
 IF EXISTS SYSTEMDIR:S/User-Startup
-	echo "IF EXISTS S:RemoveAgs2Favourites" >>SYSTEMDIR:S/User-Startup
-	echo "  execute S:RemoveAgs2Favourites" >>SYSTEMDIR:S/User-Startup
-	echo "  delete >NIL: S:RemoveAgs2Favourites" >>SYSTEMDIR:S/User-Startup
-	echo "ENDIF" >>SYSTEMDIR:S/User-Startup
+  search SYSTEMDIR:S/User-Startup "S:AGS2-Startup" >NIL:
+  IF WARN 
+    echo "IF EXISTS S:AGS2-Startup" >>SYSTEMDIR:S/User-Startup
+    echo "  execute S:AGS2-Startup" >>SYSTEMDIR:S/User-Startup
+    echo "ENDIF" >>SYSTEMDIR:S/User-Startup
+  ENDIF
 ENDIF
 
 ; Delete ClassicWB games files
