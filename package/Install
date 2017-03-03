@@ -46,8 +46,8 @@ IF NOT EXISTS SYSTEMDIR:S/Settings
 ENDIF
 
 ; Create default whdloadargs for ags2 menus, if it doesn't exist
-IF NOT EXISTS SYSTEMDIR:S:Settings/whdloadargs
-  echo "Preload" > S:Settings/whdloadargs
+IF NOT EXISTS SYSTEMDIR:S/Settings/whdloadargs
+  echo "Preload" > SYSTEMDIR:S/Settings/whdloadargs
 ENDIF
 
 
