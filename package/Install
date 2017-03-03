@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-02-28
+; Date: 2017-03-03
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -35,9 +35,19 @@ ENDIF
 echo "Installing AGS2 menu support files..."
 unzip -qq -o -x PACKAGEDIR:ags2menu-support-files.zip -d SYSTEMDIR:
 
+; Fix read write execute flags for ags2 menu support files
+protect >NIL: SYSTEMDIR:C/EasyMOD +rwe
+protect >NIL: SYSTEMDIR:C/filepick +rwe
+protect >NIL: SYSTEMDIR:C/sed +rwe
+
 ; Create settings directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:S/Settings
   makedir >NIL: SYSTEMDIR:S/Settings
+ENDIF
+
+; Create default whdloadargs for ags2 menus, if it doesn't exist
+IF NOT EXISTS SYSTEMDIR:S:Settings/whdloadargs
+  echo "Preload" > S:Settings/whdloadargs
 ENDIF
 
 
@@ -76,11 +86,13 @@ IF EXISTS SYSTEMDIR:S/User-Startup
   ENDIF
 ENDIF
 
-; Delete ClassicWB games files
-delete >NIL: SYSTEMDIR:Games ALL
+; Delete systemdir games directory, if "ags2 games" file doesn't exist
+IF NOT EXISTS "SYSTEMDIR:Games/AGS2 Games"
+  delete >NIL: SYSTEMDIR:Games ALL
+  makedir >NIL: SYSTEMDIR:Games
+ENDIF
 
-echo "Installing HstWB Games..."
-unzip -qq -o -x PACKAGEDIR:hstwb-games.zip -d SYSTEMDIR:Games/
+SKIP configuremenus
 
 
 ; Configure HstWB
@@ -105,6 +117,11 @@ search SYSTEMDIR:S/User-Assign "HD-Games:" >NIL:
 IF WARN 
 	echo "Assign >NIL: HD-Games: DH1:HD-Games" >>SYSTEMDIR:S/User-Assign
 ENDIF
+
+
+; Configure menus
+; ------------------------
+LAB configuremenus
 
 ; Add ags2 games menu dir to ags2menu.data, if it doesn't exist
 search SYSTEMDIR:S/AGS2Menu.data "AGS2GamesMenuDir=" >NIL:
