@@ -78,10 +78,10 @@ ENDIF
 
 ; Add ags2 startup to user startup, if it doesn't exist
 IF EXISTS SYSTEMDIR:S/User-Startup
-  search SYSTEMDIR:S/User-Startup "S:AGS2-Startup" >NIL:
+  search SYSTEMDIR:S/User-Startup "S:AGS2Startup" >NIL:
   IF WARN 
-    echo "IF EXISTS S:AGS2-Startup" >>SYSTEMDIR:S/User-Startup
-    echo "  execute S:AGS2-Startup" >>SYSTEMDIR:S/User-Startup
+    echo "IF EXISTS S:AGS2Startup" >>SYSTEMDIR:S/User-Startup
+    echo "  execute S:AGS2Startup" >>SYSTEMDIR:S/User-Startup
     echo "ENDIF" >>SYSTEMDIR:S/User-Startup
   ENDIF
 ENDIF
