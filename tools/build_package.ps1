@@ -57,7 +57,7 @@ Write-Host "Build package '$packageName' v$packageVersion"
 
 
 # compress content directories to zip files
-$contentDirs = Get-ChildItem -Path $rootDir | Where-Object { $_.PSIsContainer -and $_.Name -notmatch '(package|tools)' }
+$contentDirs = Get-ChildItem -Path $rootDir | Where-Object { $_.PSIsContainer -and $_.Name -notmatch '(package|screenshots|tools)' }
 foreach ($contentDir in $contentDirs)
 {
 	# write progress message
