@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-03-03
+; Date: 2017-03-09
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -20,25 +20,64 @@ IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/Music"
 ENDIF
 IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ags"
   IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
-    makedir "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_" >NIL:
+    makedir >NIL: "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
   ENDIF
 ENDIF
 
 echo "Installing Menu WHDLoad Content..."
 unzip -qq -o -x PACKAGEDIR:menu-whdload-content.zip -d WHDLOADDIR:WHDLoad/Games/
 
-; End, if systemdir games directory doesn't exist
+; Create systemdir games directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Games
-  SKIP end
+  makedir >NIL: SYSTEMDIR:Games
 ENDIF
 
 echo "Installing AGS2 menu support files..."
 unzip -qq -o -x PACKAGEDIR:ags2menu-support-files.zip -d SYSTEMDIR:
 
+; Add icon for configuration drawer, if it doesn't exist
+IF NOT EXISTS SYSTEMDIR:Programs/Configuration.info
+  rename >NIL: SYSTEMDIR:Programs/Configuration.info.new SYSTEMDIR:Programs/Configuration.info
+ELSE
+  delete >NIL: SYSTEMDIR:Programs/Configuration.info.new
+ENDIF
+
+; Create default folder icon for systemdir games and programs
+IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
+  IF NOT EXISTS SYSTEMDIR:Games.info
+    copy SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info SYSTEMDIR:Games.info
+  ENDIF
+  IF NOT EXISTS SYSTEMDIR:Programs.info
+    copy SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info SYSTEMDIR:Programs.info
+  ENDIF
+ELSE
+  IF EXISTS SYSTEMDIR:System.info
+    IF NOT EXISTS SYSTEMDIR:Games.info
+      copy SYSTEMDIR:System.info SYSTEMDIR:Games.info
+    ENDIF
+    IF NOT EXISTS SYSTEMDIR:Programs.info
+      copy SYSTEMDIR:System.info SYSTEMDIR:Programs.info
+    ENDIF
+  ENDIF
+ENDIF
+
 ; Fix read write execute flags for ags2 menu support files
+protect >NIL: SYSTEMDIR:C/Aren +rwe
+protect >NIL: SYSTEMDIR:C/basename +rwe
+protect >NIL: SYSTEMDIR:C/cut +rwe
+protect >NIL: SYSTEMDIR:C/dirname +rwe
 protect >NIL: SYSTEMDIR:C/EasyMOD +rwe
 protect >NIL: SYSTEMDIR:C/filepick +rwe
+protect >NIL: SYSTEMDIR:C/FRSort +rwe
+protect >NIL: SYSTEMDIR:C/FSearch +rwe
+protect >NIL: SYSTEMDIR:C/GetLines +rwe
+protect >NIL: SYSTEMDIR:C/Rep +rwe
+protect >NIL: SYSTEMDIR:C/ReqList +rwe
+protect >NIL: SYSTEMDIR:C/RequestString +rwe
 protect >NIL: SYSTEMDIR:C/sed +rwe
+protect >NIL: SYSTEMDIR:C/tail +rwe
+protect >NIL: SYSTEMDIR:C/tr +rwe
+protect >NIL: SYSTEMDIR:C/wc +rwe
 
 ; Create settings directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:S/Settings
@@ -100,11 +139,18 @@ SKIP configuremenus
 LAB hstwb
 
 ; Skip, if user assign doesn't exist
-IF NOT EXISTS SYSTEMDIR:S/User-Assign
-  SKIP end
+IF EXISTS SYSTEMDIR:S/User-Assign
+  echo "Configuring HstWB..."
+ELSE
+  echo "Configuring Workbench..."
+	echo "" NOLINE >SYSTEMDIR:S/User-Assign
 ENDIF
 
-echo "Configuring HstWB..."
+; Add execute user assign, if it doesn't exist
+search SYSTEMDIR:S/Startup-Sequence "execute S:User-Assign" >NIL:
+IF WARN 
+  rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "execute S:User-Assign*N*NBindDrivers"
+ENDIF
 
 ; Add A-Games to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
