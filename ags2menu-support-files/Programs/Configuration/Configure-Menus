@@ -72,9 +72,14 @@ set cancelselectags2name "0"
 echo "[CANCEL]*N0*NA*NB*NC*ND*NE*NF*NG*NH*NI*NJ*NK*NL*NM*NN*NO*NP*NQ*NR*NS*NT*NU*NV*NW*NX*NY*NZ" >T:ags2indexlist
 
 ; Show ags2 index list
+set ags2indexline ""
 set ags2indexline `C:ReqList CLONERT I=T:ags2indexlist H="$ags2menuname" PAGE=18`
 
-; Back, if cancel is selected
+; Back, if reqlist is closed or cancel is selected
+IF "$ags2indexline" EQ ""
+  set cancelselectags2name "1"
+  SKIP $returnlab
+ENDIF
 IF "$ags2indexline" EQ "1"
   set cancelselectags2name "1"
   SKIP $returnlab
@@ -278,7 +283,12 @@ LAB ags2add
 
 ; Select AGS2 run file
 set runfile ""
-set runfile `REQUESTFILE TITLE "Select AGS2 run file" NOICONS`
+set runfile `REQUESTFILE DRAWER SYS: TITLE "Select AGS2 run file" NOICONS`
+
+; Skip, if runfile is empty
+IF "$runfile" EQ ""
+  SKIP BACK mainmenu
+ENDIF
 
 
 ; End, if run file doesn't exist 
