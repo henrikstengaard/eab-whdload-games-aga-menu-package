@@ -187,14 +187,14 @@ LAB ags2games
 
 ; Show error message and go back to main menu, if S:AGSMenu.data file doesn't exist
 IF NOT EXISTS "S:AGS2Menu.data"
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!" "OK" >NIL:
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!*NMenu is most likely not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
 ; Show error message and go back to main menu, if S:AGSMenu.data file doesn't contain 'AGS2GamesMenuDir'
 search "S:AGS2Menu.data" "AGS2GamesMenuDir=" NONUM >T:_ags2gamesmenudir
 IF WARN
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2GamesMenuDir'!" "OK" >NIL:
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2GamesMenuDir'!*NMenu is most likely not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
@@ -211,14 +211,14 @@ LAB ags2demos
 
 ; Show error message and go back to main menu, if S:AGSMenu.data file doesn't exist
 IF NOT EXISTS "S:AGS2Menu.data"
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!" "OK" >NIL:
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!*NMenu is most likely not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
 ; Show error message and go back to main menu, if S:AGSMenu.data file doesn't contain 'AGS2DemosMenuDir'
 search "S:AGS2Menu.data" "AGS2DemosMenuDir=" NONUM >T:_ags2demosmenudir
 IF WARN
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2DemosMenuDir'!" "OK" >NIL:
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2DemosMenuDir'!*NMenu is most likely not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
