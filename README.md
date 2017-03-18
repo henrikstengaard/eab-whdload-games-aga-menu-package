@@ -87,3 +87,59 @@ For manual installation without HstWB or ClassicWB, use following guides:
 ## Installation
 
 Download latest release [here](../../releases) and copy it to HstWB Installer "packages" directory, which typically is "c:\Program Files (x86)\HstWB Installer\Packages".
+
+## Screenshots
+
+### AGS2
+
+Following screenshots show examples of games in AGS2:
+
+![ags21.png](screenshots/ags21.png?raw=true)
+
+![ags22.png](screenshots/ags22.png?raw=true)
+
+### iGame
+
+Following screenshots show examples of games in iGame:
+
+![igame1.png](screenshots/igame1.png?raw=true)
+
+![igame2.png](screenshots/igame2.png?raw=true)
+
+### HstWB 
+
+![hstwb1.png](screenshots/hstwb1.png?raw=true)
+
+![hstwb2.png](screenshots/hstwb2.png?raw=true)
+
+![hstwb3.png](screenshots/hstwb3.png?raw=true)
+
+![hstwb4.png](screenshots/hstwb4.png?raw=true)
+
+### ClassicWB
+
+![classicwb1.png](screenshots/classicwb1.png?raw=true)
+
+![classicwb2.png](screenshots/classicwb2.png?raw=true)
+
+![classicwb3.png](screenshots/classicwb3.png?raw=true)
+
+![classicwb4.png](screenshots/classicwb4.png?raw=true)
+
+### Workbench
+
+![workbench1.png](screenshots/workbench1.png?raw=true)
+
+![workbench2.png](screenshots/workbench2.png?raw=true)
+
+![workbench3.png](screenshots/workbench3.png?raw=true)
+
+![workbench4.png](screenshots/workbench4.png?raw=true)
+
+### WHDLoad games
+
+![dopus_whdload_games.png](screenshots/dopus_whdload_games.png?raw=true)
+
+### Music for AGS2
+
+![dopus_ags2games_music.png](screenshots/dopus_ags2games_music.png?raw=true)
