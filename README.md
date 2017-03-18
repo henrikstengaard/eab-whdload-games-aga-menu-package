@@ -112,7 +112,7 @@ Open system and games drawer.
 
 ![hstwb1.png](screenshots/hstwb1.png?raw=true)
 
-Start either AGS2 or iGame.
+Start either AGS2 Games or iGame.
 
 ![hstwb2.png](screenshots/hstwb2.png?raw=true)
 
@@ -128,7 +128,7 @@ Open system and games drawer.
 
 ![classicwb1.png](screenshots/classicwb1.png?raw=true)
 
-Start either AGS2 or iGame.
+Start either AGS2 Games or iGame.
 
 ![classicwb2.png](screenshots/classicwb2.png?raw=true)
 
@@ -144,7 +144,7 @@ Open system and games drawer.
 
 ![workbench1.png](screenshots/workbench1.png?raw=true)
 
-Start either AGS2 or iGame.
+Start either AGS2 Games or iGame.
 
 ![workbench2.png](screenshots/workbench2.png?raw=true)
 
