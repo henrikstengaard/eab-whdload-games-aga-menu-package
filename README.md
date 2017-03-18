@@ -92,7 +92,7 @@ Download latest release [here](../../releases) and copy it to HstWB Installer "p
 
 ### AGS2
 
-Following screenshots show examples of games in AGS2:
+Examples of browsing games in AGS2:
 
 ![ags21.png](screenshots/ags21.png?raw=true)
 
@@ -100,17 +100,23 @@ Following screenshots show examples of games in AGS2:
 
 ### iGame
 
-Following screenshots show examples of games in iGame:
+Examples of browsing games in iGame:
 
 ![igame1.png](screenshots/igame1.png?raw=true)
 
 ![igame2.png](screenshots/igame2.png?raw=true)
 
-### HstWB 
+### Using HstWB 
+
+Open system and games drawer.
 
 ![hstwb1.png](screenshots/hstwb1.png?raw=true)
 
+Start either AGS2 or iGame.
+
 ![hstwb2.png](screenshots/hstwb2.png?raw=true)
+
+---
 
 ![hstwb3.png](screenshots/hstwb3.png?raw=true)
 
@@ -118,9 +124,15 @@ Following screenshots show examples of games in iGame:
 
 ### ClassicWB
 
+Open system and games drawer.
+
 ![classicwb1.png](screenshots/classicwb1.png?raw=true)
 
+Start either AGS2 or iGame.
+
 ![classicwb2.png](screenshots/classicwb2.png?raw=true)
+
+---
 
 ![classicwb3.png](screenshots/classicwb3.png?raw=true)
 
@@ -128,9 +140,15 @@ Following screenshots show examples of games in iGame:
 
 ### Workbench
 
+Open system and games drawer.
+
 ![workbench1.png](screenshots/workbench1.png?raw=true)
 
+Start either AGS2 or iGame.
+
 ![workbench2.png](screenshots/workbench2.png?raw=true)
+
+---
 
 ![workbench3.png](screenshots/workbench3.png?raw=true)
 
