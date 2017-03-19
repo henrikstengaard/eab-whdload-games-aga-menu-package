@@ -39,13 +39,43 @@ A configure menus script is installed to DH0:Programs/Configuration to assist wi
 
 **Add**
 
+Add action adds a game or demo to AGS2 menu. It supports any executable, WHDLoad slave or hstwbmenuitem.data file.
+
+Configure menus will present a file selection dialog to select file or a game or demo to add.
+To determine how the selected file will be added, it's will be defined in the following order:
+
+1. HstWB menu item: If filename is "hstwbmenuitem.data".
+2. WHDLoad slave: If filename ends with ".slave".
+3. Start run file: If filename doesn't match any of the above.
+
+For a filename of type HstWB menu item, configure menus will check if hstwbmenuitem.run exists and use it as .run file for AGS2 menu.
+
+For a filename of type WHDLoad slave, configure menus will use S:AGS2WHDLoadRunTemplate to build a .run script for WHDLoad slave.
+
+For a filename of type start run file, configure menus will create a simple .run script that runs the selected file. 
+
 **Rename**
+
+Rename action renames a game or demo in AGS2 menu.
+
+Configure menus will present lists to select the game or demo to delete. 
+First selecting 0-Z index and the game or demo within that index to rename.
+Finally a dialog is presented to enter new name for the selected game or demo. 
 
 **Delete**
 
+Delete action deletes a game or demo from AGS2 menu. It doesn't delete the game or demo itself, it's only deleted from AGS2 menu.
+
+Configure menus will present lists to select the game or demo to delete. 
+First selecting 0-Z index and the game or demo within that index to delete.
+Finally a dialog is presented to confirm deleting the selected game or demo. 
+
 **Show existing**
 
-Show existing iterates through all .run and .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and check if it's "RunFile" exists. 
+Show existing action updates AGS2 menu, so only installed games or demos are shown. Games or demos that aren't installed are hidden.
+This can be used each time games or demos are installed or deleted to update AGS2 menu.
+
+Configure menus iterates through all .run and .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and check if it's "RunFile" exists. 
 This is typically a full path to WHDLoad slave like "A-Games:B/BubbleBobble/BubbleBobble.Slave" for the game Bubble Bobble. 
 Since .run files are AmigaDOS scripts the "RunFile" is added as a comment, so it doesn't disturb the script.
 Here an example what the "RunFile" looks like in a .run script.
@@ -58,11 +88,15 @@ Vice versa if the "RunFile" exist, then the AGS2 menu item is renamed from .ru_ 
 
 **Show all**
 
-Show all iterates through all .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .ru_ files to .run to show them in AGS2 menu. 
+Show all action updates AGS2 menu to show all games or demos regardless of them being installed or not.
+
+Configure menus iterates through all .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .ru_ files to .run to show them in AGS2 menu. 
 
 **Hide all**
 
-Hide all iterates through all .run files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .run files to .ru_ to hide them from AGS2 menu. 
+Hide all action updates AGS2 menu to hide all games or demos regardless of them being installed or not.
+
+Configure menus iterates through all .run files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .run files to .ru_ to hide them from AGS2 menu. 
 
 ## Requirements
 
