@@ -1,0 +1,27 @@
+; AGS2 Startup
+; ------------
+
+
+; Execute remove AGS2 favourites, if it exists
+IF EXISTS S:RemoveAgs2Favourites
+	execute S:RemoveAgs2Favourites
+	delete >NIL: S:RemoveAgs2Favourites
+ENDIF 
+
+
+; Load whdloadargs to env, if it exists
+IF EXISTS S:Settings/whdloadargs
+  copy >NIL: S:Settings/whdloadargs ENV:whdloadargs
+ENDIF
+
+
+; Load ags2 favouritesmode to env, if it exists
+IF EXISTS S:Settings/ags2favouritesmode
+  copy >NIL: S:Settings/ags2favouritesmode ENV:ags2favouritesmode
+ENDIF
+
+
+; Load ags2music to env, if it exists
+IF EXISTS S:Settings/ags2music
+  copy >NIL: S:Settings/ags2music ENV:ags2music
+ENDIF

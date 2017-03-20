@@ -1,0 +1,738 @@
+; Configure Menus Script
+; ----------------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2017-01-07
+;
+; This script configures menus for AGS2 games and demos.
+; Menu items can be added, renamed and deleted.
+; It also supports hiding and showing menu items based on the existence of run file references.
+; A run file reference is a commented line (;RunFile=) in each AGS2 run file.
+; Using show existing check if run file reference exists. If it exists menu item is shown, otherwise it's hidden.
+
+SKIP mainmenu
+
+
+; Enter AGS2 name function
+; ------------------------
+LAB functionenterags2name
+set ags2nameerror ""
+
+LAB enterags2name
+set ags2name `RequestString "AGS2 Name" "Enter name for AGS2 (max 26 chars)*N$ags2nameerror" default="$ags2name"`
+
+; Trim ags2 filename to length of 26 chars
+echo "$ags2name" >T:_ags2name
+cut -c 1-26 T:_ags2name >T:_ags2name2
+set ags2name `tail -n1 T:_ags2name2`
+
+; Remove invalid characters from ags2 name
+echo "$ags2name" >T:_ags2name
+set ags2name `sed "s/[^a-zA-Z0-9\.&\-+_ ]//g" T:_ags2name`
+
+; Get ags2 index name
+echo "$ags2name" >T:_ags2name
+sed "s/^\(.\)/echo *"\1*";/" T:_ags2name >T:_ags2indexname
+set ags2indexname `execute T:_ags2indexname`
+echo "$ags2indexname" >T:_ags2indexname
+set ags2indexname `tr "[a-z]" "[A-Z]" <T:_ags2indexname`
+echo "$ags2indexname" >T:_ags2indexname
+set ags2indexname `sed "s/^[0-9]/0/" T:_ags2indexname`
+IF "$ags2indexname" EQ ""
+  set ags2indexname "0"
+ENDIF
+
+; Skip to enter ags2 name, if ags2 file name already exists
+IF EXISTS "$ags2menupath/$ags2indexname.ags/$ags2name.run"
+  set ags2nameerror "Error: AGS2 name '$ags2name' already exists!"
+  SKIP enterags2name back
+ENDIF
+IF EXISTS "$ags2menupath/$ags2indexname.ags/$ags2name.ru_"
+  set ags2nameerror "Error: AGS2 name '$ags2name' already exists!"
+  SKIP enterags2name back
+ENDIF
+IF EXISTS "$ags2menupath/$ags2indexname.ag_/$ags2name.run"
+  set ags2nameerror "Error: AGS2 name '$ags2name' already exists!"
+  SKIP enterags2name back
+ENDIF
+IF EXISTS "$ags2menupath/$ags2indexname.ag_/$ags2name.ru_"
+  set ags2nameerror "Error: AGS2 name '$ags2name' already exists!"
+  SKIP enterags2name back
+ENDIF
+
+SKIP $returnlab
+
+
+; Select AGS2 Name function
+; -------------------------
+LAB functionselectags2name
+
+set cancelselectags2name "0"
+
+; Build ags2 index list
+echo "[CANCEL]*N0*NA*NB*NC*ND*NE*NF*NG*NH*NI*NJ*NK*NL*NM*NN*NO*NP*NQ*NR*NS*NT*NU*NV*NW*NX*NY*NZ" >T:ags2indexlist
+
+; Show ags2 index list
+set ags2indexline ""
+set ags2indexline `C:ReqList CLONERT I=T:ags2indexlist H="$ags2menuname" PAGE=18`
+
+; Back, if reqlist is closed or cancel is selected
+IF "$ags2indexline" EQ ""
+  set cancelselectags2name "1"
+  SKIP $returnlab
+ENDIF
+IF "$ags2indexline" EQ "1"
+  set cancelselectags2name "1"
+  SKIP $returnlab
+ENDIF
+
+; Get selected ags2 index name
+echo "$ags2indexline" >T:ags2indexline
+set ags2indexline `sed "s/\(.\)*$/\1q;d/" T:ags2indexline`
+set ags2indexname `sed "$ags2indexline" T:ags2indexlist`
+
+; Build ags2 name list from run files in ags2 index
+IF EXISTS "$ags2menupath/$ags2indexname.ags"
+  fsearch "$ags2menupath/$ags2indexname.ags" PAT #?.ru? >T:ags2namelist1
+ENDIF
+IF EXISTS "$ags2menupath/$ags2indexname.ag_"
+  fsearch "$ags2menupath/$ags2indexname.ag_" PAT #?.ru? >T:ags2namelist1
+ENDIF
+
+; Remove paths from ags2 name list
+rep T:ags2namelist1 "$ags2menupath/$ags2indexname.ags/" ""
+rep T:ags2namelist1 "$ags2menupath/$ags2indexname.ag_/" ""
+sed "s/\.ru.*$//" T:ags2namelist1 >T:ags2namelist2
+sed "/^$/d" T:ags2namelist2 >T:ags2namelist3
+frsort <T:ags2namelist3 >T:ags2namelist4
+
+set ags2namelisttotal `wc -l <T:ags2namelist4`
+set ags2namelistfrom "1"
+set ags2namelistto "200"
+
+LAB ags2namelist
+IF $ags2namelisttotal GT 200
+  GetLines T:ags2namelist4 $ags2namelistfrom $ags2namelistto T:ags2namelist5
+ELSE
+  copy T:ags2namelist4 T:ags2namelist5 >NIL:
+ENDIF
+
+; Build ags2 name lines
+echo "[CANCEL]" >T:ags2namelist6
+IF $ags2namelistfrom GT 1 VAL
+  echo "[PREV]" >>T:ags2namelist6
+ENDIF
+IF NOT $ags2namelistto GT $ags2namelisttotal VAL
+  echo "[NEXT]" >>T:ags2namelist6
+ENDIF
+type T:ags2namelist5 >>T:ags2namelist6
+
+; Show ags2 name list
+set ags2nameline `C:ReqList CLONERT I=T:ags2namelist6 H="$ags2menuname, $ags2indexname" PAGE=18`
+
+; Back, if cancel is selected
+IF "$ags2nameline" EQ "1"
+  SKIP BACK ags2rename
+ENDIF
+
+; Get selected ags2 name
+echo "$ags2nameline" >T:ags2nameline
+set ags2nameline `sed "s/\(.\)*$/\1q;d/" T:ags2nameline`
+set ags2name `sed "$ags2nameline" T:ags2namelist6`
+
+; Skip to prev 200 ags2 name lines
+IF "$ags2name" EQ "[PREV]"
+  set ags2namelistfrom `eval $ags2namelistfrom - 200`
+  set ags2namelistto `eval $ags2namelistto - 200`
+  SKIP BACK ags2namelist
+ENDIF
+
+; Skip to next 200 ags2 name lines
+IF "$ags2name" EQ "[NEXT]"
+  set ags2namelistfrom `eval $ags2namelistfrom + 200`
+  set ags2namelistto `eval $ags2namelistto + 200`
+  SKIP BACK ags2namelist
+ENDIF
+
+SKIP $returnlab
+
+
+; Main Menu
+; ---------
+LAB mainmenu
+
+echo "AGS2 Games" >T:mainmenu
+echo "AGS2 Demos" >>T:mainmenu
+echo "Exit" >>T:mainmenu
+
+; Show main menu
+C:ReqList CLONERT BUTTONS I T:mainmenu O ENV:mainmenu H "Configure Menus"
+delete >NIL: T:mainmenu
+
+; AGS2 Games
+IF "$mainmenu" eq "1" 
+	SKIP ags2games
+ENDIF 
+
+; AGS2 Demos
+IF "$mainmenu" eq "2" 
+	SKIP ags2demos
+ENDIF 
+
+SKIP end
+
+
+; AGS2 Games
+; ----------
+LAB ags2games
+
+; Show error message and go back to main menu, if S:AGSMenu.data file doesn't exist
+IF NOT EXISTS "S:AGS2Menu.data"
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!*NMenu is most likely not installed." "OK" >NIL:
+  SKIP BACK mainmenu
+ENDIF
+
+; Show error message and go back to main menu, if S:AGSMenu.data file doesn't contain 'AGS2GamesMenuDir'
+search "S:AGS2Menu.data" "AGS2GamesMenuDir=" NONUM >T:_ags2gamesmenudir
+IF WARN
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2GamesMenuDir'!*NMenu is most likely not installed." "OK" >NIL:
+  SKIP BACK mainmenu
+ENDIF
+
+set ags2menuname "AGS2 Games"
+set ags2menupath `sed "s/^AGS2GamesMenuDir=//" T:_ags2gamesmenudir`
+delete "T:_ags2gamesmenudir" >NIL:
+
+SKIP ags2menu
+
+
+; AGS2 Demos
+; ----------
+LAB ags2demos
+
+; Show error message and go back to main menu, if S:AGSMenu.data file doesn't exist
+IF NOT EXISTS "S:AGS2Menu.data"
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!*NMenu is most likely not installed." "OK" >NIL:
+  SKIP BACK mainmenu
+ENDIF
+
+; Show error message and go back to main menu, if S:AGSMenu.data file doesn't contain 'AGS2DemosMenuDir'
+search "S:AGS2Menu.data" "AGS2DemosMenuDir=" NONUM >T:_ags2demosmenudir
+IF WARN
+  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2DemosMenuDir'!*NMenu is most likely not installed." "OK" >NIL:
+  SKIP BACK mainmenu
+ENDIF
+
+set ags2menuname "AGS2 Demos"
+set ags2menupath `sed "s/^AGS2DemosMenuDir=//" T:_ags2demosmenudir`
+delete "T:_ags2demosmenudir" >NIL:
+
+
+; AGS2 Menu
+; ---------
+LAB ags2menu
+
+; Build ags2 menu
+echo "Add" >T:ags2menu
+echo "Rename" >>T:ags2menu
+echo "Delete" >>T:ags2menu
+echo "Show Existing" >>T:ags2menu
+echo "Show All" >>T:ags2menu
+echo "Hide All" >>T:ags2menu
+echo "Back" >>T:ags2menu
+
+; Show ags2 menu
+C:ReqList CLONERT BUTTONS I T:ags2menu O ENV:ags2menu H "$ags2menuname"
+delete >NIL: T:ags2menu
+
+; Add
+IF "$ags2menu" eq "1" 
+	SKIP ags2add
+ENDIF 
+
+; Rename
+IF "$ags2menu" eq "2" 
+	SKIP ags2rename
+ENDIF 
+
+; Delete
+IF "$ags2menu" eq "3" 
+	SKIP ags2delete
+ENDIF 
+
+; Show existing
+IF "$ags2menu" eq "4" 
+  SKIP ags2showexisting
+ENDIF 
+
+; Show all
+IF "$ags2menu" eq "5" 
+  SKIP ags2showall
+ENDIF 
+
+; Hide all
+IF "$ags2menu" eq "6" 
+  SKIP ags2hideall
+ENDIF 
+
+SKIP BACK mainmenu
+
+
+; AGS2 Add
+; --------
+LAB ags2add
+
+; Select AGS2 run file
+set runfile ""
+set runfile `REQUESTFILE DRAWER SYS: TITLE "Select AGS2 run file" NOICONS`
+
+; Skip, if runfile is empty
+IF "$runfile" EQ ""
+  SKIP BACK ags2menu
+ENDIF
+
+
+; End, if run file doesn't exist 
+IF NOT EXISTS "$runfile"
+  echo "Error: Run file '$runfile' doesn't exist"
+  SKIP end
+ENDIF
+
+
+; Get run dir
+set rundir `dirname "$runfile"`
+echo "$rundir" >T:_rundir
+search T:_rundir ":" NONUM >NIL:
+IF WARN
+  set rundir "$rundir:"
+ENDIF
+
+; Get run filename
+echo "$runfile" >T:_runfile
+rep T:_runfile ":" ":/"
+set runfilename `type T:_runfile`
+set runfilename `basename "$runfilename"`
+echo "$runfile" >T:_runfile
+echo "$runfilename" >T:_runfilename
+
+
+; Clear ags2 menu item variables
+set ags2menuitemrunfile ""
+set ags2menuitemifffile ""
+set ags2menuitemtxtfile ""
+
+
+; Check, if run file is HstWB Menu Item
+; -------------------------------------
+
+; Skip, if run filename doesn't contain "_runfilename"
+search T:_runfilename "hstwbmenuitem" NONUM >NIL:
+IF WARN
+  SKIP whdloadslave
+ENDIF
+
+; Skip, if run file doesn't contain ".data"
+tr "[A-Z]" "[a-z]" <T:_runfilename >T:_hstwbmenuitem
+search T:_hstwbmenuitem ".data" NONUM >NIL:
+IF WARN
+  SKIP whdloadslave
+ENDIF
+
+; Skip, if HstWB Menu Item run file doesn't exist
+set hstwbmenuitem ""
+set hstwbmenuitem `sed "s/\.[Dd][Aa][Tt][Aa]$//" T:_runfilename`
+IF NOT EXISTS "$rundir/$hstwbmenuitem.run"
+  SKIP whdloadslave
+ENDIF
+
+; Set AGS2 menu item variables
+search "$runfile" "RunFile=" NONUM >T:_hstwbmenuitemdata
+IF WARN
+  SKIP whdloadslave
+ENDIF
+set hstwbrunfile `sed "s/^RunFile=//" T:_hstwbmenuitemdata`
+
+search "$runfile" "AGS2Name=" NONUM >T:_hstwbmenuitemdata
+IF WARN
+  SKIP whdloadslave
+ENDIF
+
+set ags2name `sed "s/^AGS2Name=//" T:_hstwbmenuitemdata`
+set ags2runfile "$rundir/$hstwbrunfile"
+set ags2menuitemrunfile "$rundir/$hstwbmenuitem.run"
+
+; Set ags2 menu item iff file, if iff file exists
+IF EXISTS "$rundir/$hstwbmenuitem.iff"
+  set ags2menuitemifffile "$rundir/$hstwbmenuitem.iff"
+ENDIF
+
+; Set ags2 menu item txt file, if txt file exists
+IF EXISTS "$rundir/$hstwbmenuitem.txt"
+  set ags2menuitemtxtfile "$rundir/$hstwbmenuitem.txt"
+ENDIF
+
+SKIP addags2menuitemname
+
+
+; Check, if run file is whdload slave
+; -----------------------------------
+LAB whdloadslave
+
+; Skip, if run filename doesn't end with ".slave"
+tr "[A-Z]" "[a-z]" <T:_runfilename >T:_whdloadslave
+search T:_whdloadslave ".slave" NONUM >NIL:
+IF WARN
+  SKIP startrunfile
+ENDIF
+
+; Get ags2 name
+set ags2name `sed "s/\.[Ss][Ll][Aa][Vv][Ee]$//" T:_runfilename`
+
+; Build ags2 run script using AGS2 whdload run template
+copy >NIL: S:AGS2WhdloadRunTemplate T:_ags2runscript
+rep T:_ags2runscript "[*$RunDir]" "$rundir"
+rep T:_ags2runscript "[*$RunFileName]" "$runfilename"
+
+; Set HstWB menu item variables
+set ags2menuitemrunfile "T:_ags2runscript"
+set ags2runfile "$runfile"
+
+; Set ags2 menu item iff file, if iff file exists
+IF EXISTS "$rundir/$ags2name.iff"
+  set ags2menuitemifffile "$rundir/$ags2name.iff"
+ENDIF
+
+; Set ags2 menu item txt file, if txt file exists
+IF EXISTS "$rundir/$ags2name.txt"
+  set ags2menuitemtxtfile "$rundir/$ags2name.txt"
+ENDIF
+
+SKIP addags2menuitemname
+
+
+; Start run file
+; --------------
+LAB startrunfile
+
+echo "cd *"$rundir*"" >T:ags2runscript
+echo "$runfilename" >>T:ags2runscript
+set ags2name "$runfilename"
+set ags2menuitemrunfile "T:ags2runscript"
+set ags2runfile "$runfile"
+
+; Set ags2 menu item iff file, if iff file exists
+IF EXISTS "$rundir/$ags2name.iff"
+  set ags2menuitemifffile "$rundir/$ags2name.iff"
+ENDIF
+
+; Set ags2 menu item txt file, if txt file exists
+IF EXISTS "$rundir/$ags2name.txt"
+  set ags2menuitemtxtfile "$rundir/$ags2name.txt"
+ENDIF
+
+
+; Add AGS2 Menu Item
+; -------------------
+LAB addags2menuitemname
+
+; Skip to enter ags2 name function and return
+set returnlab "addags2nameentered"
+SKIP BACK functionenterags2name
+LAB addags2nameentered
+
+; Show ags2 index directory, if it's hidden
+IF EXISTS "$ags2menupath/$ags2indexname.ag_"
+  rename "$ags2menupath/$ags2indexname.ag_" "$ags2menupath/$ags2indexname.ags"
+ENDIF
+
+; Make AGS2 index directory, if it doesn't exist
+IF NOT EXISTS "$ags2menupath/$ags2indexname.ags"
+  makedir "$ags2menupath/$ags2indexname.ags"
+ENDIF
+
+
+; Build ags2 run pre template
+copy >NIL: S:AGS2RunPreTemplate T:_ags2runpretemplate
+rep T:_ags2runpretemplate "[*$RunFile]" "$ags2runfile"
+rep T:_ags2runpretemplate "[*$AGS2IndexName]" "$ags2indexname"
+rep T:_ags2runpretemplate "[*$AGS2Name]" "$ags2name"
+
+; Build ags2 menu item run file
+echo "" NOLINE >"$ags2menupath/$ags2indexname.ags/$ags2name.run"
+type "T:_ags2runpretemplate" >>"$ags2menupath/$ags2indexname.ags/$ags2name.run"
+echo "" >>"$ags2menupath/$ags2indexname.ags/$ags2name.run"
+type "$ags2menuitemrunfile" >>"$ags2menupath/$ags2indexname.ags/$ags2name.run"
+echo "" >>"$ags2menupath/$ags2indexname.ags/$ags2name.run"
+type "S:AGS2RunPostTemplate" >>"$ags2menupath/$ags2indexname.ags/$ags2name.run"
+
+; Copy ags2 menu item iff file
+IF NOT "$ags2menuitemifffile" EQ ""
+  IF EXISTS "$ags2menuitemifffile"
+    copy "$ags2menuitemifffile" "$ags2menupath/$ags2indexname.ags/$ags2name.iff" >NIL:
+  ENDIF
+ENDIF
+
+; Copy ags2 menu item txt file
+IF NOT "$ags2menuitemtxtfile" EQ ""
+  IF EXISTS "$ags2menuitemtxtfile"
+    copy "$ags2menuitemtxtfile" "$ags2menupath/$ags2indexname.ags/$ags2name.txt" >NIL:
+  ENDIF
+ENDIF
+
+; Clean temp files
+delete T:_runfile >NIL:
+delete T:_rundir >NIL:
+delete T:_runfilename >NIL:
+delete T:_ags2name >NIL:
+delete T:_ags2name2 >NIL:
+delete T:_ags2indexname >NIL:
+delete T:_ags2runpretemplate >NIL:
+IF EXISTS T:_whdloadslave
+  delete T:_whdloadslave >NIL:
+ENDIF
+IF EXISTS T:_hstwbmenuitemdata
+  delete T:_hstwbmenuitemdata >NIL:
+ENDIF
+IF EXISTS T:_ags2runscript
+  delete T:_ags2runscript >NIL:
+ENDIF
+IF EXISTS T:_hstwbmenuitem
+  delete T:_hstwbmenuitem >NIL:
+ENDIF
+
+SKIP BACK ags2menu
+
+
+; AGS2 Rename
+; -----------
+LAB ags2rename
+
+; Skip to select ags2 name function and return
+set returnlab "renameags2nameselected"
+SKIP BACK functionselectags2name
+
+LAB renameags2nameselected
+IF "$cancelselectags2name" EQ "1"
+  SKIP BACK ags2menu
+ENDIF
+set ags2indexnameold "$ags2indexname"
+set ags2nameold "$ags2name"
+
+; Skip to enter ags2 name function and return
+set returnlab "renameags2nameentered"
+SKIP BACK functionenterags2name
+
+LAB renameags2nameentered
+
+; Set ags2 menuitem old dir
+IF EXISTS "$ags2menupath/$ags2indexnameold.ags"
+  set ags2menuitemolddir "$ags2menupath/$ags2indexnameold.ags"
+  SKIP ags2renamerunnewdir
+ENDIF
+IF EXISTS "$ags2menupath/$ags2indexnameold.ag_"
+  set ags2menuitemolddir "$ags2menupath/$ags2indexnameold.ag_"
+  SKIP ags2renamerunnewdir
+ENDIF
+
+; Fail, if AGS2 menuitem old dir doesn't exist
+echo "Error: AGS2 menuitem old dir doesn't exist!"
+wait 2
+SKIP BACK ags2rename
+
+; Set ags2 menuitem newdir
+LAB ags2renamerunnewdir
+IF EXISTS "$ags2menupath/$ags2indexname.ags"
+  set ags2menuitemnewdir "$ags2menupath/$ags2indexname.ags"
+  SKIP ags2renamerunfileset
+ENDIF
+IF EXISTS "$ags2menupath/$ags2indexname.ag_"
+  set ags2menuitemnewdir "$ags2menupath/$ags2indexname.ag_"
+  SKIP ags2renamerunfileset
+ENDIF
+
+; Fail, if AGS2 menuitem new dir doesn't exist
+echo "Error: AGS2 menuitem new dir doesn't exist!"
+wait 2
+SKIP BACK ags2rename
+
+; Set ags2 run file
+LAB ags2renamerunfileset
+IF EXISTS "$ags2menuitemolddir/$ags2nameold.run"
+  set ags2runfile "$ags2menuitemolddir/$ags2nameold.run"
+  SKIP ags2renamerunfileupdate
+ENDIF
+IF EXISTS "$ags2menuitemolddir/$ags2nameold.ru_"
+  set ags2runfile "$ags2menuitemolddir/$ags2nameold.ru_"
+  SKIP ags2renamerunfileupdate
+ENDIF
+
+; Fail, if ags2 run file doesn't exist
+echo "Error: AGS2 run file doesn't exist!"
+wait 2
+SKIP BACK ags2rename
+
+; Update ags2 favourites line in ags2 run file
+LAB ags2renamerunfileupdate
+rep "$ags2runfile" "execute S:AGS2Favourites *"$ags2indexnameold*" *"$ags2nameold*"" "execute S:AGS2Favourites *"$ags2indexname*" *"$ags2name*""
+
+; Move files to new ags2 index, if it's changed
+IF NOT $ags2indexnameold EQ $ags2indexname
+  rename "$ags2menuitemolddir/$ags2nameold.#?" "$ags2menuitemnewdir"
+ENDIF
+
+; Rename ags2 name files in index
+Aren "$ags2nameold" "$ags2name" "$ags2menuitemnewdir/$ags2nameold.#?"
+
+; Set ags2 menu favourites path
+set ags2menufavouritespath ""
+IF EXISTS "$ags2menupath/.Favourites.ags"
+  set ags2menufavouritespath "$ags2menupath/.Favourites.ags"
+  SKIP ags2renamefavourites
+ENDIF
+IF EXISTS "$ags2menupath/.Favourites.ag_"
+  set ags2menufavouritespath "$ags2menupath/.Favourites.ag_"
+  SKIP ags2renamefavourites
+ENDIF
+
+; Skip to ags2 rename, if ags2 favourites doesn't exist
+SKIP BACK ags2rename
+
+; Rename ags2 name files in favourites
+LAB ags2renamefavourites
+delete "$ags2menufavouritespath/$ags2nameold.#?" >NIL:
+copy "$ags2menuitemnewdir/$ags2name.#?" "$ags2menufavouritespath" >NIL:
+
+SKIP BACK ags2rename
+
+
+; AGS2 Delete
+; -----------
+LAB ags2delete
+
+; Skip to select ags2 name function and return
+set returnlab "deleteags2nameselected"
+SKIP BACK functionselectags2name
+
+LAB deleteags2nameselected
+IF "$cancelselectags2name" EQ "1"
+  SKIP BACK ags2menu
+ENDIF
+
+set confirmags2delete `RequestChoice "Confirm Delete" "Are you sure you want to delete '$ags2name'?" "Yes|No"`
+IF "$confirmags2delete" eq "1" 
+  IF EXISTS "$ags2menupath/$ags2indexname.ags"
+    delete "$ags2menupath/$ags2indexname.ags/$ags2name.#?" >NIL:
+  ENDIF
+  IF EXISTS "$ags2menupath/$ags2indexname.ag_"
+    delete "$ags2menupath/$ags2indexname.ag_/$ags2name.#?" >NIL:
+  ENDIF
+  IF EXISTS "$ags2menupath/.Favourites.ags"
+    delete "$ags2menupath/.Favourites.ags/$ags2name.#?" >NIL:
+  ENDIF
+  IF EXISTS "$ags2menupath/.Favourites.ag_"
+    delete "$ags2menupath/.Favourites.ag_/$ags2name.#?" >NIL:
+  ENDIF
+ENDIF 
+
+SKIP BACK ags2menu
+
+
+; AGS2 Show Existing
+; ------------------
+LAB ags2showexisting
+
+; Clear screen
+echo "*ec"
+
+fsearch "$ags2menupath" PAT #?.ru#? ALL >T:_ags2menuitemrunfiles1
+sed "s/^\(.\)/execute S:AGS2RunUpdate *"\1/" "T:_ags2menuitemrunfiles1" >"T:_ags2menuitemrunfiles2"
+sed "s/\(.\)$/\1*" *"EXIST*"/" "T:_ags2menuitemrunfiles2" >"T:_ags2menuitemrunfiles3"
+echo "Updating $ags2menuname to only show existing..."
+echo "(this can take several minutes)"
+execute "T:_ags2menuitemrunfiles3"
+echo "Done"
+echo ""
+delete T:_ags2menuitemrunfiles#? >NIL:
+
+SKIP ags2indexupdate
+
+
+; AGS2 Show All
+; -------------
+LAB ags2showall
+
+; Clear screen
+echo "*ec"
+
+fsearch "$ags2menupath" PAT #?.ru_ ALL >T:_ags2menuitemrunfiles1
+sed "s/^\(.\)/execute S:AGS2RunUpdate *"\1/" "T:_ags2menuitemrunfiles1" >"T:_ags2menuitemrunfiles2"
+sed "s/\(.\)$/\1*" *"SHOW*"/" "T:_ags2menuitemrunfiles2" >"T:_ags2menuitemrunfiles3"
+rep T:_ags2menuitemrunfiles3 "execute S:AGS2RunUpdate *"$ags2menupath/.Settings.ags" ";"
+echo "Updating $ags2menuname to show all..."
+echo "(this can take several minutes)"
+execute "T:_ags2menuitemrunfiles3"
+echo "Done"
+echo ""
+delete T:_ags2menuitemrunfiles#? >NIL:
+
+SKIP ags2indexupdate
+
+
+; AGS2 Hide All
+; -------------
+LAB ags2hideall
+
+; Clear screen
+echo "*ec"
+
+fsearch "$ags2menupath" PAT #?.run ALL >T:_ags2menuitemrunfiles1
+sed "s/^\(.\)/execute S:AGS2RunUpdate *"\1/" "T:_ags2menuitemrunfiles1" >"T:_ags2menuitemrunfiles2"
+sed "s/\(.\)$/\1*" *"HIDE*"/" "T:_ags2menuitemrunfiles2" >"T:_ags2menuitemrunfiles3"
+rep T:_ags2menuitemrunfiles3 "execute S:AGS2RunUpdate *"$ags2menupath/.Settings.ags" ";"
+echo "Updating $ags2menuname to hide all..."
+echo "(this can take several minutes)"
+execute "T:_ags2menuitemrunfiles3"
+echo "Done"
+echo ""
+delete T:_ags2menuitemrunfiles#? >NIL:
+
+
+; AGS2 Index Update
+; -----------------
+LAB ags2indexupdate
+
+echo "Updating $ags2menuname indexes..."
+execute S:AGS2IndexUpdate "$ags2menupath" "0"
+execute S:AGS2IndexUpdate "$ags2menupath" "A"
+execute S:AGS2IndexUpdate "$ags2menupath" "B"
+execute S:AGS2IndexUpdate "$ags2menupath" "C"
+execute S:AGS2IndexUpdate "$ags2menupath" "D"
+execute S:AGS2IndexUpdate "$ags2menupath" "E"
+execute S:AGS2IndexUpdate "$ags2menupath" "F"
+execute S:AGS2IndexUpdate "$ags2menupath" "G"
+execute S:AGS2IndexUpdate "$ags2menupath" "H"
+execute S:AGS2IndexUpdate "$ags2menupath" "I"
+execute S:AGS2IndexUpdate "$ags2menupath" "J"
+execute S:AGS2IndexUpdate "$ags2menupath" "K"
+execute S:AGS2IndexUpdate "$ags2menupath" "L"
+execute S:AGS2IndexUpdate "$ags2menupath" "M"
+execute S:AGS2IndexUpdate "$ags2menupath" "N"
+execute S:AGS2IndexUpdate "$ags2menupath" "O"
+execute S:AGS2IndexUpdate "$ags2menupath" "P"
+execute S:AGS2IndexUpdate "$ags2menupath" "Q"
+execute S:AGS2IndexUpdate "$ags2menupath" "R"
+execute S:AGS2IndexUpdate "$ags2menupath" "S"
+execute S:AGS2IndexUpdate "$ags2menupath" "T"
+execute S:AGS2IndexUpdate "$ags2menupath" "U"
+execute S:AGS2IndexUpdate "$ags2menupath" "V"
+execute S:AGS2IndexUpdate "$ags2menupath" "W"
+execute S:AGS2IndexUpdate "$ags2menupath" "X"
+execute S:AGS2IndexUpdate "$ags2menupath" "Y"
+execute S:AGS2IndexUpdate "$ags2menupath" "Z"
+echo "Done"
+echo ""
+ask "Press ENTER to continue"
+
+
+; End
+; ---
+LAB end

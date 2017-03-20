@@ -1,0 +1,24 @@
+; AGS2 Music Stop Script
+; ----------------------
+
+; List running processes
+status >T:_stop1
+
+; Find "easymod" processes
+search T:_stop1 "easymod" NONUM >T:_stop2
+
+; Skip to end, if "easymod" was not found
+If WARN
+	SKIP end
+EndIf
+
+; Create script to stop easymod processes
+sed "s/^Process/break/" T:_stop2 >T:_stop3
+sed "s/\([0-9]*\):/\1;/" T:_stop3 >T:_stop4
+
+; Execute and delete stop easymod processes script
+execute T:_stop4
+delete >NIL: T:_stop#?
+
+; End
+LAB end

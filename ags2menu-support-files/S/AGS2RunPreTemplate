@@ -1,0 +1,19 @@
+; HstWB Menu Item Run script for AGS2
+; -----------------------------------
+;RunFile=[$RunFile]
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "[$AGS2IndexName]" "[$AGS2Name]"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF

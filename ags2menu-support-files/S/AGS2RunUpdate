@@ -1,0 +1,115 @@
+.KEY ags2runfile/a,updatemode/a
+.BRA {
+.KET }
+
+
+; AGS2 Run Update Script
+; ----------------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2017-01-03
+;
+; This script updates ags2 run files to show if it's run file exists, show or hide depending on update mode.
+
+
+; Fail, if ags2 run file doesn't exist 
+IF NOT EXISTS "{ags2runfile}"
+  echo "Error: AGS2 run file '{ags2runfile}' doesn't exist!"
+  SKIP end
+ENDIF
+
+; Skip, if ags2 run file doesn't contain run file reference
+search "{ags2runfile}" ";RunFile=" NONUM >T:_runfile
+IF WARN
+  SKIP end
+ENDIF
+set runfile `sed "s/^;RunFile=//" T:_runfile`
+
+echo "{ags2runfile}" >T:_ags2runfile
+
+
+; Update Mode
+; -----------
+IF "{updatemode}" EQ "EXIST"
+  SKIP exist
+ENDIF
+IF "{updatemode}" EQ "SHOW"
+  SKIP ishidden
+ENDIF
+IF "{updatemode}" EQ "HIDE"
+  SKIP isshown
+ENDIF
+
+SKIP end
+
+
+; Exist
+; -----
+LAB exist
+
+; Show menuitem in AGS2, if whdload slave file exists. Otherwise hide it
+IF EXISTS "$runfile"
+  ; Show ags2 run file, if it ends with '.ru_'
+  search T:_ags2runfile ".ru_" NONUM >NIL:
+  IF WARN
+    SKIP end
+  ENDIF
+  SKIP show
+ELSE
+  ; Hide ags2 run file, if it ends with '.run'
+  search T:_ags2runfile ".run" NONUM >NIL:
+  IF WARN
+    SKIP end
+  ENDIF
+  SKIP hide
+ENDIF
+
+SKIP end
+
+
+; Check, if ags2 run file is hidden
+; ---------------------------------
+LAB ishidden
+
+; Skip, if ags2 run file doesn't end with '.ru_'
+search T:_ags2runfile ".ru_" NONUM >NIL:
+IF WARN
+  SKIP end
+ENDIF
+
+
+; Show run file in AGS2
+; ---------------------
+LAB show
+
+; Rename AGS2 run file to end with '.run' to show it in AGS2
+sed "s/_*$/n/" T:_ags2runfile >T:_ags2runfilenew
+set ags2runfilenew `type T:_ags2runfilenew`
+rename "{ags2runfile}" "$ags2runfilenew"
+
+SKIP end
+
+
+; Check, if ags2 run file is shown
+; --------------------------------
+LAB isshown
+
+; Skip, if ags2 run file doesn't end with '.run'
+search T:_ags2runfile ".run" NONUM >NIL:
+IF WARN
+  SKIP end
+ENDIF
+
+
+; Hide run file in AGS2
+; ---------------------
+LAB hide
+
+; Rename AGS2 run file to end with '.ru_' to hide it in AGS2
+sed "s/n*$/_/" T:_ags2runfile >T:_ags2runfilenew
+set ags2runfilenew `type T:_ags2runfilenew`
+rename "{ags2runfile}" "$ags2runfilenew"
+
+
+; End
+; ---
+LAB end
