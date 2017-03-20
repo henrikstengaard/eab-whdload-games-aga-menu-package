@@ -72,6 +72,8 @@ To determine how the selected file will be added, it's will be defined in the fo
 2. WHDLoad slave: If filename ends with ".slave".
 3. Start run file: If filename doesn't match any of the above.
 
+**Note: Using hstwbmenuitem.data gives most flexibility as it allows custom run script to be used for starting a game or demo.**
+
 A AGS2 .run file is created by following parts:
 
 1. S:AGS2RunPreTemplate template: A script template executed before run script for selected file.
