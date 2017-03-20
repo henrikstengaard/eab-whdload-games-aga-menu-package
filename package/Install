@@ -11,6 +11,9 @@ echo "Installing Menu and WHDLoad drawers..."
 unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WHDLOADDIR:
 
 echo "Installing AGS2 Games Menu..."
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games"
+  makedir "WHDLOADDIR:Menu/AGS2Games" >NIL:
+ENDIF
 unzip -qq -o -x PACKAGEDIR:ags2games-menu.zip -d WHDLOADDIR:Menu/AGS2Games/
 protect >NIL: WHDLOADDIR:Menu/AGS2Games/AGS2 +rwe
 protect >NIL: WHDLOADDIR:Menu/AGS2Games/AGS2Helper +rwe
