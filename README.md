@@ -212,7 +212,7 @@ Configure menus iterates through all .run files in DH1:Menu/AGS2Games or DH1:Men
 
 ### AGS2
 
-Examples of browsing games in AGS2:
+Screenshots of browsing games in AGS2:
 
 ![ags21.png](screenshots/ags21.png?raw=true)
 
@@ -220,7 +220,7 @@ Examples of browsing games in AGS2:
 
 ### iGame
 
-Examples of browsing games in iGame:
+Screenshots of browsing games in iGame:
 
 ![igame1.png](screenshots/igame1.png?raw=true)
 
@@ -228,11 +228,9 @@ Examples of browsing games in iGame:
 
 ### Using HstWB 
 
-Open system and games drawer.
+Screenshots of AGS2 Games and iGame installed in system games drawer for HstWB.
 
 ![hstwb1.png](screenshots/hstwb1.png?raw=true)
-
-Start either AGS2 Games or iGame.
 
 ![hstwb2.png](screenshots/hstwb2.png?raw=true)
 
@@ -244,11 +242,9 @@ Start either AGS2 Games or iGame.
 
 ### ClassicWB
 
-Open system and games drawer.
+Screenshots of AGS2 Games and iGame installed in system games drawer for ClassicWB.
 
 ![classicwb1.png](screenshots/classicwb1.png?raw=true)
-
-Start either AGS2 Games or iGame.
 
 ![classicwb2.png](screenshots/classicwb2.png?raw=true)
 
@@ -260,11 +256,9 @@ Start either AGS2 Games or iGame.
 
 ### Workbench
 
-Open system and games drawer.
+Screenshots of AGS2 Games and iGame installed in system games drawer for Workbench.
 
 ![workbench1.png](screenshots/workbench1.png?raw=true)
-
-Start either AGS2 Games or iGame.
 
 ![workbench2.png](screenshots/workbench2.png?raw=true)
 
@@ -276,8 +270,12 @@ Start either AGS2 Games or iGame.
 
 ### WHDLoad games
 
+Screenshot of Directory Opus with left panel at DH1:WHDLoad/Games and right panel at PC: (added through WinUAE) ready for copying WHDLoad games from PC to WHDLoad games drawer.
+
 ![dopus_whdload_games.png](screenshots/dopus_whdload_games.png?raw=true)
 
 ### Music for AGS2
+
+Screenshot of Directory Opus with left panel at DH1:Menu/AGS2Games/Music and right panel at PC: (added through WinUAE) ready for copying mod music files from PC to AGS2 games menu.
 
 ![dopus_ags2games_music.png](screenshots/dopus_ags2games_music.png?raw=true)
