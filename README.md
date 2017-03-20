@@ -72,7 +72,7 @@ To determine how the selected file will be added, it's will be defined in the fo
 2. WHDLoad slave: If filename ends with ".slave".
 3. Start run file: If filename doesn't match any of the above.
 
-**Note: Using hstwbmenuitem.data gives most flexibility as it allows custom run script to be used for starting a game or demo.**
+**Note: Using hstwbmenuitem.data gives most flexibility as it allows custom run script to start a game or demo.**
 
 A AGS2 .run file is created by following parts:
 
@@ -185,6 +185,8 @@ Finally a dialog is presented to confirm deleting the selected game or demo.
 Show existing action updates AGS2 menu, so only installed games or demos are shown. Games or demos that aren't installed are hidden.
 This can be used each time games or demos are installed or deleted to update AGS2 menu.
 
+**Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
+
 Configure menus iterates through all .run and .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and check if it's "RunFile" exists. 
 This is typically a full path to WHDLoad slave like "A-Games:B/BubbleBobble/BubbleBobble.Slave" for the game Bubble Bobble. 
 Since .run files are AmigaDOS scripts the "RunFile" is added as a comment, so it doesn't disturb the script.
@@ -200,11 +202,15 @@ Vice versa if the "RunFile" exist, then the AGS2 menu item is renamed from .ru_ 
 
 Show all action updates AGS2 menu to show all games or demos regardless of them being installed or not.
 
+**Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
+
 Configure menus iterates through all .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .ru_ files to .run to show them in AGS2 menu. 
 
 ### Hide all
 
 Hide all action updates AGS2 menu to hide all games or demos regardless of them being installed or not.
+
+**Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
 Configure menus iterates through all .run files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .run files to .ru_ to hide them from AGS2 menu. 
 
@@ -226,47 +232,69 @@ Screenshots of browsing games in iGame:
 
 ![igame2.png](screenshots/igame2.png?raw=true)
 
-### Using HstWB 
+### HstWB installation
 
-Screenshots of AGS2 Games and iGame installed in system games drawer for HstWB.
+Screenshots of HstWB with AGS2 Games and iGame installed in System, Games drawer.
 
 ![hstwb1.png](screenshots/hstwb1.png?raw=true)
 
 ![hstwb2.png](screenshots/hstwb2.png?raw=true)
 
----
+Screenshots of HstWB with configure menus installed in System, Programs, Configuration drawer.
 
 ![hstwb3.png](screenshots/hstwb3.png?raw=true)
 
 ![hstwb4.png](screenshots/hstwb4.png?raw=true)
 
-### ClassicWB
+### ClassicWB installation
 
-Screenshots of AGS2 Games and iGame installed in system games drawer for ClassicWB.
+Screenshots of ClassicWB with AGS2 Games and iGame installed in System, Games drawer.
 
 ![classicwb1.png](screenshots/classicwb1.png?raw=true)
 
 ![classicwb2.png](screenshots/classicwb2.png?raw=true)
 
----
+Screenshots of ClassicWB with configure menus installed in System, Programs, Configuration drawer.
 
 ![classicwb3.png](screenshots/classicwb3.png?raw=true)
 
 ![classicwb4.png](screenshots/classicwb4.png?raw=true)
 
-### Workbench
+### Workbench installation
 
-Screenshots of AGS2 Games and iGame installed in system games drawer for Workbench.
+Screenshots of Workbench with AGS2 Games and iGame installed in System, Games drawer.
 
 ![workbench1.png](screenshots/workbench1.png?raw=true)
 
 ![workbench2.png](screenshots/workbench2.png?raw=true)
 
----
+Screenshots of Workbench with configure menus installed in System, Programs, Configuration drawer.
 
 ![workbench3.png](screenshots/workbench3.png?raw=true)
 
 ![workbench4.png](screenshots/workbench4.png?raw=true)
+
+### Configure Menus
+
+Screenshots of configure menus.
+
+![configure_menus1.png](screenshots/configure_menus1.png?raw=true)
+
+![configure_menus2.png](screenshots/configure_menus2.png?raw=true)
+
+![configure_menus3.png](screenshots/configure_menus3.png?raw=true)
+
+![configure_menus4.png](screenshots/configure_menus4.png?raw=true)
+
+![configure_menus5.png](screenshots/configure_menus5.png?raw=true)
+
+![configure_menus6.png](screenshots/configure_menus6.png?raw=true)
+
+![configure_menus7.png](screenshots/configure_menus7.png?raw=true)
+
+![configure_menus8.png](screenshots/configure_menus8.png?raw=true)
+
+![configure_menus9.png](screenshots/configure_menus9.png?raw=true)
 
 ### WHDLoad games
 
