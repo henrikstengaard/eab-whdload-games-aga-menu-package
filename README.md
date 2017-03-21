@@ -6,7 +6,7 @@ EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screen
 
 ## Requirements
 
-EAB WHDLoad Games AGA Menu Package requires following applications and libraries are installed:
+EAB WHDLoad Games AGA Menu package requires following applications and libraries are installed:
 - MUI: Install MUI from http://aminet.net/util/libs/mui38usr.lha.
 - GuigFX MCC for MUI: Install "guigfx.mcc" from http://aminet.net/dev/mui/MCC_Guigfx.lha.
 - TextEditor MCC for MUI: Install "TextEditor.mcc" from http://aminet.net/dev/mui/MCC_TextEditor-15.47.lha or http://aminet.net/dev/mui/MCC_TextEditor_68k.lha depending on CPU is 68000 or better.
@@ -49,6 +49,17 @@ When turned on music a random .mod file is played while AGS2 menu is shown and w
 WHDLoad Preload option can be turned on and off depending on the Amiga hardware. By default WHDLoad Preload is turned on to improve performance and avoid screen flickering, when games or demos are loading data files. WHDLoad Preload can be turned off for Amiga's without fastmem or accelerators, so they can still run most WHDLoad games and demos.
 
 To preserve settings between reboots, use "Save settings" to write settings to harddisk.
+
+## Assigns and settings
+
+During installation of EAB WHDLoad Games AGA Menu package it automatically updates S:User-Assign, S:Assign-Startup or S:Startup-Sequence with following assigns:
+
+- A-Games: DH1:WHDLoad/Games
+- HD-Games: DH1:HD-Games
+
+These assigns are required for AGS2 to work as run files use them to start games or demos. 
+
+If whdloadargs for AGS2 settings doesn't exist, default "Preload" whdloadargs is written to S:Settings/whdloadargs.
 
 ## Configure menus
 
