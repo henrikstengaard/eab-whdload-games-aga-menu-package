@@ -184,8 +184,8 @@ IF WARN
 	echo "iGameGamesMenuDir=DH0:Games" >>SYSTEMDIR:S/iGameMenu.data
 ENDIF
 
-echo "Installing Games Frontends..."
-unzip -qq -o -x PACKAGEDIR:games-frontends.zip -d SYSTEMDIR:Games/
+echo "Installing Game Frontends..."
+unzip -qq -o -x PACKAGEDIR:game-frontends.zip -d SYSTEMDIR:Games/
 
 
 ; End
