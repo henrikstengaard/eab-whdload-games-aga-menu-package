@@ -1,1 +1,5 @@
-*.zip
+/*.zip
+package/*.zip
+package/README.guide
+package/README.html
+package/screenshots

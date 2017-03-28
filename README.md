@@ -1,7 +1,5 @@
 # EAB WHDLoad Games AGA Menu Package
 
-## Description
-
 EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all games currently available in English Board Amiga WHDLoad packs with update 2.6 applied. 
 
 ## Requirements
@@ -26,7 +24,9 @@ For manual installation without HstWB or ClassicWB, use following guides:
 
 ## Installation
 
-Download latest release [here](../../releases) and copy it to HstWB Installer "packages" directory, which typically is "c:\Program Files (x86)\HstWB Installer\Packages".
+Download latest release from https://github.com/henrikstengaard/eab-whdload-games-aga-menu-package/releases and copy it to HstWB Installer "packages" directory, which typically is "c:\Program Files (x86)\HstWB Installer\Packages".
+
+Installation through HstWB Installer will install and configure EAB WHDLoad Games AGA Menu package using defined assigns.
 
 ## AGS2
 
@@ -227,93 +227,95 @@ Configure menus iterates through all .run files in DH1:Menu/AGS2Games or DH1:Men
 
 ## Screenshots
 
-### AGS2
+Screenshots of EAB WHDLoad Games AGA Menu package.
 
-Screenshots of browsing games in AGS2:
+### AGS2 screenshots
 
-![ags21.png](screenshots/ags21.png?raw=true)
+Screenshots of browsing games in AGS2.
 
-![ags22.png](screenshots/ags22.png?raw=true)
+![AGS2 1](screenshots/ags21.png?raw=true)
 
-### iGame
+![AGS2 2](screenshots/ags22.png?raw=true)
 
-Screenshots of browsing games in iGame:
+### iGame screenshots
 
-![igame1.png](screenshots/igame1.png?raw=true)
+Screenshots of browsing games in iGame.
 
-![igame2.png](screenshots/igame2.png?raw=true)
+![iGame 1](screenshots/igame1.png?raw=true)
 
-### HstWB installation
+![iGame 2](screenshots/igame2.png?raw=true)
 
-Screenshots of HstWB with AGS2 Games and iGame installed in System, Games drawer.
+### HstWB screenshots
 
-![hstwb1.png](screenshots/hstwb1.png?raw=true)
+Screenshots of AGS2 Games and iGame installed in System, Games drawer for HstWB.
 
-![hstwb2.png](screenshots/hstwb2.png?raw=true)
+![HstWB 1](screenshots/hstwb1.png?raw=true)
 
-Screenshots of HstWB with configure menus installed in System, Programs, Configuration drawer.
+![HstWB 2](screenshots/hstwb2.png?raw=true)
 
-![hstwb3.png](screenshots/hstwb3.png?raw=true)
+Screenshots of Configure Menus installed in System, Programs, Configuration drawer for HstWB.
 
-![hstwb4.png](screenshots/hstwb4.png?raw=true)
+![HstWB 3](screenshots/hstwb3.png?raw=true)
 
-### ClassicWB installation
+![HstWB 4](screenshots/hstwb4.png?raw=true)
 
-Screenshots of ClassicWB with AGS2 Games and iGame installed in System, Games drawer.
+### ClassicWB screenshots
 
-![classicwb1.png](screenshots/classicwb1.png?raw=true)
+Screenshots of AGS2 Games and iGame installed in System, Games drawer for ClassicWB.
 
-![classicwb2.png](screenshots/classicwb2.png?raw=true)
+![ClassicWB 1](screenshots/classicwb1.png?raw=true)
 
-Screenshots of ClassicWB with configure menus installed in System, Programs, Configuration drawer.
+![ClassicWB 2](screenshots/classicwb2.png?raw=true)
 
-![classicwb3.png](screenshots/classicwb3.png?raw=true)
+Screenshots of Configure Menus installed in System, Programs, Configuration drawer for ClassicWB.
 
-![classicwb4.png](screenshots/classicwb4.png?raw=true)
+![ClassicWB 3](screenshots/classicwb3.png?raw=true)
 
-### Workbench installation
+![ClassicWB 4](screenshots/classicwb4.png?raw=true)
 
-Screenshots of Workbench with AGS2 Games and iGame installed in System, Games drawer.
+### Workbench screenshots
 
-![workbench1.png](screenshots/workbench1.png?raw=true)
+Screenshots of AGS2 Games and iGame installed in System, Games drawer for Workbench.
 
-![workbench2.png](screenshots/workbench2.png?raw=true)
+![Workbench 1](screenshots/workbench1.png?raw=true)
 
-Screenshots of Workbench with configure menus installed in System, Programs, Configuration drawer.
+![Workbench 2](screenshots/workbench2.png?raw=true)
 
-![workbench3.png](screenshots/workbench3.png?raw=true)
+Screenshots of Configure Menus installed in System, Programs, Configuration drawer for Workbench.
 
-![workbench4.png](screenshots/workbench4.png?raw=true)
+![Workbench 3](screenshots/workbench3.png?raw=true)
 
-### Configure Menus
+![Workbench 4](screenshots/workbench4.png?raw=true)
+
+### Configure Menus screenshots
 
 Screenshots of configure menus.
 
-![configure_menus1.png](screenshots/configure_menus1.png?raw=true)
+![Configure Menus 1](screenshots/configure_menus1.png?raw=true)
 
-![configure_menus2.png](screenshots/configure_menus2.png?raw=true)
+![Configure Menus 2](screenshots/configure_menus2.png?raw=true)
 
-![configure_menus3.png](screenshots/configure_menus3.png?raw=true)
+![Configure Menus 3](screenshots/configure_menus3.png?raw=true)
 
-![configure_menus4.png](screenshots/configure_menus4.png?raw=true)
+![Configure Menus 4](screenshots/configure_menus4.png?raw=true)
 
-![configure_menus5.png](screenshots/configure_menus5.png?raw=true)
+![Configure Menus 5](screenshots/configure_menus5.png?raw=true)
 
-![configure_menus6.png](screenshots/configure_menus6.png?raw=true)
+![Configure Menus 6](screenshots/configure_menus6.png?raw=true)
 
-![configure_menus7.png](screenshots/configure_menus7.png?raw=true)
+![Configure Menus 7](screenshots/configure_menus7.png?raw=true)
 
-![configure_menus8.png](screenshots/configure_menus8.png?raw=true)
+![Configure Menus 8](screenshots/configure_menus8.png?raw=true)
 
-![configure_menus9.png](screenshots/configure_menus9.png?raw=true)
+![Configure Menus 9](screenshots/configure_menus9.png?raw=true)
 
-### WHDLoad games
+### WHDLoad games screenshots
 
 Screenshot of Directory Opus with left panel at DH1:WHDLoad/Games and right panel at PC: (added through WinUAE) ready for copying WHDLoad games from PC to WHDLoad games drawer.
 
 ![dopus_whdload_games.png](screenshots/dopus_whdload_games.png?raw=true)
 
-### Music for AGS2
+### Music for AGS2 screenshots
 
 Screenshot of Directory Opus with left panel at DH1:Menu/AGS2Games/Music and right panel at PC: (added through WinUAE) ready for copying mod music files from PC to AGS2 games menu.
 
