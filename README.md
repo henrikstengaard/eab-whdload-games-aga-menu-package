@@ -28,6 +28,22 @@ Download latest release from https://github.com/henrikstengaard/eab-whdload-game
 
 Installation through HstWB Installer will install and configure EAB WHDLoad Games AGA Menu package using defined assigns.
 
+## Assigns
+
+Installation of EAB WHDLoad Games AGA Menu package requires and uses following assigns:
+
+- SYSTEMDIR: = DH0:
+- WHDLOADDIR: = DH1:
+
+AGS2 and iGame game frontends, AGS2 support files will be installed and configured in SYSTEMDIR: assign. AGS2 menus and WHDLOAD directories will be installed in WHDLOADDIR: assign.
+
+EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/User-Assign, SYSTEMDIR:S/Assign-Startup or SYSTEMDIR:S/Startup-Sequence with following assigns:
+
+- A-Games: = WHDLOADDIR:WHDLoad/Games
+- HD-Games: = WHDLOADDIR:HD-Games
+
+These assigns are required for AGS2 to work as run files use them to start games or demos. 
+
 ## AGS2
 
 For AGS2 following features had been added in ".Settings" folder:
@@ -44,26 +60,15 @@ Favourites mode can be set to the following:
 - Remove: Queues game or demo to be removed from favourites and returns to AGS2 menu.
 - Off: Default run game or demo using WHDLoad.
 
-When turned on music a random .mod file is played while AGS2 menu is shown and will stop before running a game or demo. By default there aren't installed any music .mod files. They can be must copied to directory "DH1:Menu/AGS2Games/Music" (unless changed).
+When turned on music a random .mod file is played while AGS2 menu is shown and will stop before running a game or demo. By default there aren't installed any music .mod files. They can be must copied to directory "WHDLOADDIR:Menu/AGS2Games/Music" (unless changed).
 
 WHDLoad Preload option can be turned on and off depending on the Amiga hardware. By default WHDLoad Preload is turned on to improve performance and avoid screen flickering, when games or demos are loading data files. WHDLoad Preload can be turned off for Amiga's without fastmem or accelerators, so they can still run most WHDLoad games and demos.
 
 To preserve settings between reboots, use "Save settings" to write settings to harddisk.
 
-## Assigns and settings
-
-During installation of EAB WHDLoad Games AGA Menu package it automatically updates S:User-Assign, S:Assign-Startup or S:Startup-Sequence with following assigns:
-
-- A-Games: DH1:WHDLoad/Games
-- HD-Games: DH1:HD-Games
-
-These assigns are required for AGS2 to work as run files use them to start games or demos. 
-
-If whdloadargs for AGS2 settings doesn't exist, default "Preload" whdloadargs is written to S:Settings/whdloadargs.
-
 ## Configure menus
 
-A configure menus script is installed to DH0:Programs/Configuration to assist with following AGS2 actions:
+A configure menus script is installed to SYSTEMDIR:Programs/Configuration to assist with following AGS2 actions:
 
 - Add: Add a game or demo to AGS2 menu.
 - Rename: Rename a game or demo in AGS2 menu.
@@ -198,7 +203,7 @@ This can be used each time games or demos are installed or deleted to update AGS
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .run and .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and check if it's "RunFile" exists. 
+Configure menus iterates through all .run and .ru_ files in WHDLOADDIR:Menu/AGS2Games or WHDLOADDIR:Menu/AGS2Demos and check if it's "RunFile" exists. 
 This is typically a full path to WHDLoad slave like "A-Games:B/BubbleBobble/BubbleBobble.Slave" for the game Bubble Bobble. 
 Since .run files are AmigaDOS scripts the "RunFile" is added as a comment, so it doesn't disturb the script.
 Here an example what the "RunFile" looks like in a .run script.
@@ -215,7 +220,7 @@ Show all action updates AGS2 menu to show all games or demos regardless of them 
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .ru_ files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .ru_ files to .run to show them in AGS2 menu. 
+Configure menus iterates through all .ru_ files in WHDLOADDIR:Menu/AGS2Games or WHDLOADDIR:Menu/AGS2Demos and renames .ru_ files to .run to show them in AGS2 menu. 
 
 ### Hide all
 
@@ -223,7 +228,7 @@ Hide all action updates AGS2 menu to hide all games or demos regardless of them 
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .run files in DH1:Menu/AGS2Games or DH1:Menu/AGS2Demos and renames .run files to .ru_ to hide them from AGS2 menu. 
+Configure menus iterates through all .run files in WHDLOADDIR:Menu/AGS2Games or WHDLOADDIR:Menu/AGS2Demos and renames .run files to .ru_ to hide them from AGS2 menu. 
 
 ## Screenshots
 
