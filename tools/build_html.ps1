@@ -2,7 +2,7 @@
 # ----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-03-28
+# Date:   2017-04-03
 #
 # A PowerShell script to build html from markdown and embeds github styling.
 #

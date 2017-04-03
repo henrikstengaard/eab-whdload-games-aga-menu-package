@@ -2,7 +2,7 @@
 # -----------
 #
 # Author: Henrik Nørfjand Stengaard
-# Date:   2017-03-28
+# Date:   2017-04-03
 #
 # A PowerShell script to build amiga guide from markdown.
 #
