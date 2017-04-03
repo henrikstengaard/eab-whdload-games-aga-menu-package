@@ -75,11 +75,10 @@ function ConvertImages($markdownFile, $outputDir)
 
         # image magick
 	    $imageMagickConvertArgs = """$imageFile"" -resize 610x190! -filter Point -depth 8 -colors 255 ""$tempFile"""
-        Write-Host $imageMagickConvertArgs
-        $imageMagickConvertProcess = Start-Process -FilePath $imageMagickConvertPath -ArgumentList $imageMagickConvertArgs -Wait -NoNewWindow -PassThru
+        $imageMagickConvertProcess = Start-Process -FilePath $imageMagickFile -ArgumentList $imageMagickConvertArgs -Wait -NoNewWindow -PassThru
         if ($imageMagickConvertProcess.ExitCode -ne 0)
         {
-            Write-Error "Failed to run '$imageMagickConvertPath' with arguments '$imageMagickConvertArgs'"
+            Write-Error "Failed to run '$imageMagickFile' with arguments '$imageMagickConvertArgs'"
             exit 1
         }
 
@@ -102,10 +101,10 @@ function ConvertImages($markdownFile, $outputDir)
 
 	    # nconvert
 	    $nconvertArgs = "-out iff -c 1 -o ""$imageIffFile"" ""$tempFile"""
-        $nconvertProcess = Start-Process -FilePath $nconvertPath -ArgumentList $nconvertArgs -Wait -NoNewWindow -PassThru
+        $nconvertProcess = Start-Process -FilePath $xnViewNconvertFile -ArgumentList $nconvertArgs -Wait -NoNewWindow -PassThru
         if ($nconvertProcess.ExitCode -ne 0)
         {
-            Write-Error "Failed to run '$nconvertPath' with arguments '$nconvertArgs'"
+            Write-Error "Failed to run '$xnViewNconvertFile' with arguments '$nconvertArgs'"
             exit 1
         }
     }
@@ -233,27 +232,57 @@ function BuildGuideLines($markdownFile, $guideFileName)
     return $guideLines
 }
 
+# get image magick directory from program files
+$imageMagickDirectory = Get-ChildItem $env:ProgramFiles | Where-Object { $_.Name -match 'ImageMagick' } | Select-Object -First 1
+
+# fail, if image magick directory doesn't exist
+if (!$imageMagickDirectory)
+{
+	Write-Error "Error: Image Magick doesn't exist in program files '$env:ProgramFiles'!"
+	exit 1
+}
+
+# image magick v7 file 
+$imageMagickFile = Join-Path -Path $imageMagickDirectory.FullName -ChildPath 'magick.exe'
+
+# check if image magick v6 file exist, if image magick v7 doesn't exist
+if (!(Test-Path -path $imageMagickFile))
+{
+    $imageMagickFile = Join-Path -Path $imageMagickDirectory.FullName -ChildPath 'convert.exe'
+
+    if (!(Test-Path -path $imageMagickFile))
+    {
+        Write-Error "Error: Image Magick 'magick.exe' or 'convert.exe' file doesn't exist!"
+        exit 1
+    }
+}
+
+
+# get xnview directory from program files x86
+$xnViewDirectory = Get-ChildItem ${Env:ProgramFiles(x86)} | Where-Object { $_.Name -match 'XnView' } | Select-Object -First 1
+
+# fail, if xnview directory doesn't exist
+if (!$xnViewDirectory)
+{
+	Write-Error "Error: XnView doesn't exist in program files '${Env:ProgramFiles(x86)}'!"
+	exit 1
+}
+
+# xnview nconvert file
+$xnViewNconvertFile = Join-Path -Path $xnViewDirectory.FullName -ChildPath 'nconvert.exe'
+
+# fail, if xnview nconvert file doesn't exist
+if (!(Test-Path -path $xnViewNconvertFile))
+{
+	Write-Error "Error: XnView nconvert file '$xnViewNconvertFile' doesn't exist!"
+	exit 1
+}
+
 
 # paths
-$nconvertPath = "${Env:ProgramFiles(x86)}\XnView\nconvert.exe"
-$imageMagickConvertPath = "$env:ProgramFiles\ImageMagick-6.9.3-Q8\convert.exe"
 $tempFile = [System.IO.Path]::Combine($env:TEMP, "build_guide_" + [System.IO.Path]::GetRandomFileName())
 $guideDir = Split-Path $guideFile -Parent
 $guideFileName = Split-Path $guideFile -Leaf
-
-# fail, if XnView nconvert file doesn't exist
-if (!(Test-Path -path $nconvertPath))
-{
-	Write-Error "Error: XnView nconvert file '$nconvertPath' doesn't exist!"
-	exit 1
-}
-
-# fail, if Image Magick convert file doesn't exist
-if (!(Test-Path -path $imageMagickConvertPath))
-{
-	Write-Error "Error: Image Magick convert file '$imageMagickConvertPath' doesn't exist!"
-	exit 1
-}
 
 
 # convert images

@@ -11,7 +11,8 @@
 # PanDoc:
 # https://github.com/jgm/pandoc/releases
 # https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-windows.msi
-
+# 
+# Note: Pandoc is installed in local appdata and might be caught to AntiVirus as malware
 
 Param(
 	[Parameter(Mandatory=$true)]
