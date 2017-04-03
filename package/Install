@@ -109,13 +109,16 @@ ENDIF
 
 echo "Configuring ClassicWB..."
 
+
 ; Update default A-Games assign
-rep SYSTEMDIR:S/Assign-Startup "SYS:Games" "DH1:WHDLoad/Games"
+set gamespath "``execute PACKAGES:CombinePath "$WHDLOADDIR" "WHDLoad/Games"``"
+rep SYSTEMDIR:S/Assign-Startup "SYS:Games" "$gamespath"
 
 ; Add HD-Games to assign startup, if it doesn't exist
 search SYSTEMDIR:S/Assign-Startup "HD-Games:" >NIL:
 IF WARN 
-	echo "Assign >NIL: HD-Games: DH1:HD-Games" >>SYSTEMDIR:S/Assign-Startup
+  set hdgamespath "``execute PACKAGES:CombinePath "$WHDLOADDIR" "HD-Games"``"
+	echo "Assign >NIL: HD-Games: $hdgamespath" >>SYSTEMDIR:S/Assign-Startup
 ENDIF
 
 ; Add ags2 startup to user startup, if it doesn't exist
@@ -158,13 +161,15 @@ ENDIF
 ; Add A-Games to user-assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
 IF WARN 
-	echo "Assign >NIL: A-Games: DH1:WHDLoad/Games" >>SYSTEMDIR:S/User-Assign
+  set gamespath "``execute PACKAGES:CombinePath "$WHDLOADDIR" "WHDLoad/Games"``"
+	echo "Assign >NIL: A-Games: $gamespath" >>SYSTEMDIR:S/User-Assign
 ENDIF
 
 ; Add HD-Games to user assign, if it doesn't exist
 search SYSTEMDIR:S/User-Assign "HD-Games:" >NIL:
 IF WARN 
-	echo "Assign >NIL: HD-Games: DH1:HD-Games" >>SYSTEMDIR:S/User-Assign
+  set hdgamespath "``execute PACKAGES:CombinePath "$WHDLOADDIR" "HD-Games"``"
+	echo "Assign >NIL: HD-Games: $hdgamespath" >>SYSTEMDIR:S/User-Assign
 ENDIF
 
 
@@ -175,13 +180,15 @@ LAB configuremenus
 ; Add ags2 games menu dir to ags2menu.data, if it doesn't exist
 search SYSTEMDIR:S/AGS2Menu.data "AGS2GamesMenuDir=" >NIL:
 IF WARN 
-	echo "AGS2GamesMenuDir=DH1:Menu/AGS2Games" >>SYSTEMDIR:S/AGS2Menu.data
+  set ags2gamesmenupath "``execute PACKAGES:CombinePath "$WHDLOADDIR" "Menu/AGS2Games"``"
+	echo "AGS2GamesMenuDir=$ags2gamesmenupath" >>SYSTEMDIR:S/AGS2Menu.data
 ENDIF
 
 ; Add igame games menu dir to igamemenu.data, if it doesn't exist
 search SYSTEMDIR:S/iGameMenu.data "iGameGamesMenuDir=" >NIL:
 IF WARN 
-	echo "iGameGamesMenuDir=DH0:Games" >>SYSTEMDIR:S/iGameMenu.data
+  set igamegamesmenupath "``execute PACKAGES:CombinePath "$SYSTEMDIR" "Games"``"
+	echo "iGameGamesMenuDir=$igamegamesmenupath" >>SYSTEMDIR:S/iGameMenu.data
 ENDIF
 
 echo "Installing Game Frontends..."
