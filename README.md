@@ -294,23 +294,39 @@ Screenshots of Configure Menus installed in System, Programs, Configuration draw
 
 ### Configure Menus screenshots
 
-Screenshots of configure menus.
+Screenshot of configure menus main menu.
 
 ![Configure Menus 1](screenshots/configure_menus1.png?raw=true)
 
+Screenshot of AGS2 Games menu.
+
 ![Configure Menus 2](screenshots/configure_menus2.png?raw=true)
+
+Screenshot of select run file dialog, when adding game in AGS2 menu.
 
 ![Configure Menus 3](screenshots/configure_menus3.png?raw=true)
 
+Screenshot of enter name for AGS2 dialog shown after selecting run file, when adding game in AGS2 menu.
+
 ![Configure Menus 4](screenshots/configure_menus4.png?raw=true)
+
+Screenshot of select game dialog first selecting index, when renaming or deleting a game.
 
 ![Configure Menus 5](screenshots/configure_menus5.png?raw=true)
 
+Screenshot of select game dialog selecting game in index, when renaming or deleting a game.
+
 ![Configure Menus 6](screenshots/configure_menus6.png?raw=true)
+
+Screenshot of show existing updating AGS2 menu to only show games that are installed in A-Games: assign.
 
 ![Configure Menus 7](screenshots/configure_menus7.png?raw=true)
 
+Screenshot of show all updating AGS2 menu to show all games.
+
 ![Configure Menus 8](screenshots/configure_menus8.png?raw=true)
+
+Screenshot of hide all updating AGS2 menu to hide all games.
 
 ![Configure Menus 9](screenshots/configure_menus9.png?raw=true)
 
