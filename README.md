@@ -40,9 +40,8 @@ AGS2 and iGame game frontends, AGS2 support files will be installed and configur
 EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/User-Assign, SYSTEMDIR:S/Assign-Startup or SYSTEMDIR:S/Startup-Sequence with following assigns:
 
 - A-Games: = WHDLOADDIR:WHDLoad/Games
-- HD-Games: = WHDLOADDIR:HD-Games
 
-These assigns are required for AGS2 to work as run files use them to start games or demos. 
+This assign is required for AGS2 to work as run files use them to start games. 
 
 ## AGS2
 
