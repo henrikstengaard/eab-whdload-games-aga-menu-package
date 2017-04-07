@@ -41,7 +41,7 @@ EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/User-As
 
 - A-Games: = WHDLOADDIR:WHDLoad/Games
 
-This assign is required for AGS2 to work as run files use them to start games. 
+This assign is required for AGS2 to work as run files use it to start games. 
 
 ## AGS2
 

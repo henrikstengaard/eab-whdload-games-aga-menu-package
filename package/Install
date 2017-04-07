@@ -7,6 +7,19 @@
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
 
+; Copy readme and screenshots to locale help for EAB WHDLoad Games AGA Menu
+IF NOT EXISTS SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+  makepath >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+ENDIF
+copy >NIL: PACKAGEDIR:README SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+copy >NIL: PACKAGEDIR:README.guide SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+copy >NIL: PACKAGEDIR:README.info SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+IF NOT EXISTS SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu/screenshots
+  makepath >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu/screenshots
+ENDIF
+copy >NIL: PACKAGEDIR:screenshots/#?.iff SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu/screenshots
+
+
 echo "Installing Menu and WHDLoad drawers..."
 unzip -qq -o -x PACKAGEDIR:menu-whdload-drawers.zip -d WHDLOADDIR:
 
@@ -90,6 +103,13 @@ ENDIF
 ; Create default whdloadargs for ags2 menus, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:S/Settings/whdloadargs
   echo "Preload" > SYSTEMDIR:S/Settings/whdloadargs
+ENDIF
+
+; Set A-Games assign, if it doesn't exist
+Assign >NIL: EXISTS A-Games:
+IF WARN
+  set gamespath "`execute PACKAGES:CombinePath "$WHDLOADDIR" "WHDLoad/Games"`"
+  Assign >NIL: A-Games: "$gamespath"
 ENDIF
 
 
