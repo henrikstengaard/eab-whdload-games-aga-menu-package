@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-04-07
+; Date: 2017-04-13
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -105,13 +105,6 @@ IF NOT EXISTS SYSTEMDIR:S/Settings/whdloadargs
   echo "Preload" > SYSTEMDIR:S/Settings/whdloadargs
 ENDIF
 
-; Set A-Games assign, if it doesn't exist
-Assign >NIL: EXISTS A-Games:
-IF WARN
-  set gamespath "`execute PACKAGES:CombinePath "$WHDLOADDIR" "WHDLoad/Games"`"
-  Assign >NIL: A-Games: "$gamespath"
-ENDIF
-
 
 ; Configure ClassicWB
 ; -------------------
@@ -136,7 +129,7 @@ search SYSTEMDIR:S/Assign-Startup "A-Games:" >NIL:
 IF WARN 
 	echo "Assign >NIL: A-Games: $gamespath" >>SYSTEMDIR:S/Assign-Startup
 ELSE
-  setenv updateassign `RequestChoice "Update assign" "A-Games: assign already exists and must be updated to*Npath '$gamespath' for AGS2 and iGame.*N*NNote: Updating assign requires a reboot after installation is done!*N*NDo you want to update A-Games: assign?" "Yes|No"`
+  setenv updateassign `RequestChoice "Update assign" "A-Games: assign already exists and must be updated to*Npath '$gamespath'.*N*NNote: Updating assign requires a reboot after*Ninstallation is done!*N*NDo you want to update A-Games: assign?" "Yes|No"`
   IF "$updateassign" EQ "1"
     echo "$gamespath" >T:gamespath
     set gamespath "`sed "s/\//\\\//g" T:gamespath`"
@@ -169,7 +162,7 @@ ENDIF
 ; Add execute user assign to startup sequence, if it doesn't exist
 search SYSTEMDIR:S/Startup-Sequence "execute S:User-Assign" >NIL:
 IF WARN 
-  rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "execute S:User-Assign*N*NBindDrivers"
+  rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "IF EXISTS S:User-Assign*N  execute S:User-Assign*NENDIF*N*NBindDrivers" 
 ENDIF
 
 ; Add or update A-Games to user-assign
@@ -178,7 +171,7 @@ search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
 IF WARN 
 	echo "Assign >NIL: A-Games: $gamespath" >>SYSTEMDIR:S/User-Assign
 ELSE
-  setenv updateassign `RequestChoice "Update assign" "A-Games: assign already exists and must be updated to*Npath '$gamespath' for AGS2 and iGame.*N*NNote: Updating assign requires a reboot after installation is done!*N*NDo you want to update A-Games: assign?" "Yes|No"`
+  setenv updateassign `RequestChoice "Update assign" "A-Games: assign already exists and must be updated to*Npath '$gamespath'.*N*NNote: Updating assign requires a reboot after*Ninstallation is done!*N*NDo you want to update A-Games: assign?" "Yes|No"`
   IF "$updateassign" EQ "1"
     echo "$gamespath" >T:gamespath
     set gamespath "`sed "s/\//\\\//g" T:gamespath`"
