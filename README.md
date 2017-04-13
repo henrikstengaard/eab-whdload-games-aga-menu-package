@@ -2,6 +2,8 @@
 
 EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in English Board Amiga WHDLoad packs with update 2.6 applied. 
 
+**Note that this package only supports English Board Amiga WHDLoad packs as paths to start games are specifically generated for English Board Amiga WHDLoad packs.**
+
 ## Requirements
 
 EAB WHDLoad Games AGA Menu package requires following applications and libraries are installed:
@@ -37,7 +39,7 @@ Installation of EAB WHDLoad Games AGA Menu package requires and uses following a
 
 AGS2 and iGame game frontends, AGS2 support files will be installed and configured in SYSTEMDIR: assign. AGS2 menus and WHDLOAD directories will be installed in WHDLOADDIR: assign.
 
-EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/User-Assign, SYSTEMDIR:S/Assign-Startup or SYSTEMDIR:S/Startup-Sequence with following assigns:
+EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/User-Assign, SYSTEMDIR:S/Assign-Startup or SYSTEMDIR:S/Startup-Sequence with following assign:
 
 - A-Games: = WHDLOADDIR:WHDLoad/Games
 
@@ -47,21 +49,21 @@ This assign is required for AGS2 to work as run files use it to start games.
 
 For AGS2 following features had been added in ".Settings" folder:
 
-- Favourites mode: Add or remove games/demos to ".Favourites" folder in AGS2 menu.
+- Favourites mode: Add or remove games in ".Favourites" folder in AGS2 menu.
 - Music: Turn music on and off for AGS2 menus.
 - WHDLoad Preload: Turn Preload option on or off.
 - Settings: View and save settings for Favourites mode, Music and WHDLoad Preload.
 
 Favourites mode can be set to the following:
 
-- Add: Adds game or demo to favourites and returns to AGS2 menu
-- Add & Run: Add game or demo to favourites and run it using WHDLoad.
-- Remove: Queues game or demo to be removed from favourites and returns to AGS2 menu.
-- Off: Default run game or demo using WHDLoad.
+- Add: Adds game to favourites and returns to AGS2 menu
+- Add & Run: Add game to favourites and run it using WHDLoad.
+- Remove: Queues game to be removed from favourites and returns to AGS2 menu.
+- Off: Default run game using WHDLoad.
 
-When turned on music a random .mod file is played while AGS2 menu is shown and will stop before running a game or demo. By default there aren't installed any music .mod files. They can be must copied to directory "WHDLOADDIR:Menu/AGS2Games/Music" (unless changed).
+When turned on music a random .mod file is played while AGS2 menu is shown and will stop before running a game. By default there aren't installed any music .mod files. They can be must copied to directory "WHDLOADDIR:Menu/AGS2Games/Music" (unless changed).
 
-WHDLoad Preload option can be turned on and off depending on the Amiga hardware. By default WHDLoad Preload is turned on to improve performance and avoid screen flickering, when games or demos are loading data files. WHDLoad Preload can be turned off for Amiga's without fastmem or accelerators, so they can still run most WHDLoad games and demos.
+WHDLoad Preload option can be turned on and off depending on the Amiga hardware. By default WHDLoad Preload is turned on to improve performance and avoid screen flickering, when games are loading data files. WHDLoad Preload can be turned off for Amiga's without fastmem or accelerators, so they can still run most WHDLoad games.
 
 To preserve settings between reboots, use "Save settings" to write settings to harddisk.
 
@@ -69,25 +71,25 @@ To preserve settings between reboots, use "Save settings" to write settings to h
 
 A configure menus script is installed to SYSTEMDIR:Programs/Configuration to assist with following AGS2 actions:
 
-- Add: Add a game or demo to AGS2 menu.
-- Rename: Rename a game or demo in AGS2 menu.
-- Delete: Delete a game or demo from AGS2 menu.
-- Show Existing: Show only AGS2 menu items for games or demos, they are installed.
-- Show All: Show all AGS2 menu items for games or demos.
-- Hide All: Hide all AGS2 menu items for games or demos.
+- Add: Add a game to AGS2 menu.
+- Rename: Rename a game in AGS2 menu.
+- Delete: Delete a game from AGS2 menu.
+- Show Existing: Show only AGS2 menu items for games, they are installed.
+- Show All: Show all AGS2 menu items for games.
+- Hide All: Hide all AGS2 menu items for games.
 
 ### Add
 
-Add action adds a game or demo to AGS2 menu. It supports hstwbmenuitem.data, WHDLoad slave or any executable file.
+Add action adds a game to AGS2 menu. It supports hstwbmenuitem.data, WHDLoad slave or any executable file.
 
-Configure menus will present a file selection dialog to select file or a game or demo to add.
+Configure menus will present a file selection dialog to select file or a game to add.
 To determine how the selected file will be added, it's will be defined in the following order:
 
 1. HstWB menu item: If filename is "hstwbmenuitem.data".
 2. WHDLoad slave: If filename ends with ".slave".
 3. Start run file: If filename doesn't match any of the above.
 
-**Note: Using hstwbmenuitem.data gives most flexibility as it allows custom run script to start a game or demo.**
+**Note: Using hstwbmenuitem.data gives most flexibility as it allows custom run script to start a game.**
 
 A AGS2 .run file is created by following parts:
 
@@ -181,28 +183,28 @@ S:AGS2WhdloadRunTemplate template:
 
 ### Rename
 
-Rename action renames a game or demo in AGS2 menu.
+Rename action renames a game in AGS2 menu.
 
-Configure menus will present lists to select the game or demo to delete. 
-First selecting 0-Z index and the game or demo within that index to rename.
-Finally a dialog is presented to enter new name for the selected game or demo. 
+Configure menus will present lists to select the game to delete. 
+First selecting 0-Z index and the game within that index to rename.
+Finally a dialog is presented to enter new name for the selected game. 
 
 ### Delete
 
-Delete action deletes a game or demo from AGS2 menu. It doesn't delete the game or demo itself, it's only deleted from AGS2 menu.
+Delete action deletes a game from AGS2 menu. It doesn't delete the game itself, it's only deleted from AGS2 menu.
 
-Configure menus will present lists to select the game or demo to delete. 
-First selecting 0-Z index and the game or demo within that index to delete.
-Finally a dialog is presented to confirm deleting the selected game or demo. 
+Configure menus will present lists to select the game to delete. 
+First selecting 0-Z index and the game within that index to delete.
+Finally a dialog is presented to confirm deleting the selected game. 
 
 ### Show existing
 
-Show existing action updates AGS2 menu, so only installed games or demos are shown. Games or demos that aren't installed are hidden.
-This can be used each time games or demos are installed or deleted to update AGS2 menu.
+Show existing action updates AGS2 menu, so only installed games are shown. Games that aren't installed are hidden.
+This can be used each time games are installed or deleted to update AGS2 menu.
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .run and .ru_ files in WHDLOADDIR:Menu/AGS2Games or WHDLOADDIR:Menu/AGS2Demos and check if it's "RunFile" exists. 
+Configure menus iterates through all .run and .ru_ files in WHDLOADDIR:Menu/AGS2Games and check if it's "RunFile" exists. 
 This is typically a full path to WHDLoad slave like "A-Games:B/BubbleBobble/BubbleBobble.Slave" for the game Bubble Bobble. 
 Since .run files are AmigaDOS scripts the "RunFile" is added as a comment, so it doesn't disturb the script.
 Here an example what the "RunFile" looks like in a .run script.
@@ -215,19 +217,19 @@ Vice versa if the "RunFile" exist, then the AGS2 menu item is renamed from .ru_ 
 
 ### Show all
 
-Show all action updates AGS2 menu to show all games or demos regardless of them being installed or not.
+Show all action updates AGS2 menu to show all games regardless of them being installed or not.
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .ru_ files in WHDLOADDIR:Menu/AGS2Games or WHDLOADDIR:Menu/AGS2Demos and renames .ru_ files to .run to show them in AGS2 menu. 
+Configure menus iterates through all .ru_ files in WHDLOADDIR:Menu/AGS2Games and renames .ru_ files to .run to show them in AGS2 menu. 
 
 ### Hide all
 
-Hide all action updates AGS2 menu to hide all games or demos regardless of them being installed or not.
+Hide all action updates AGS2 menu to hide all games regardless of them being installed or not.
 
 **Note that configure menus will quit, when done updating AGS2 menu due to limitation of AmigaDOS scripts executing other scripts.**
 
-Configure menus iterates through all .run files in WHDLOADDIR:Menu/AGS2Games or WHDLOADDIR:Menu/AGS2Demos and renames .run files to .ru_ to hide them from AGS2 menu. 
+Configure menus iterates through all .run files in WHDLOADDIR:Menu/AGS2Games and renames .run files to .ru_ to hide them from AGS2 menu. 
 
 ## Screenshots
 
@@ -329,13 +331,13 @@ Screenshot of hide all updating AGS2 menu to hide all games.
 
 ![Configure Menus 9](screenshots/configure_menus9.png?raw=true)
 
-### WHDLoad games screenshots
+### WHDLoad games screenshot
 
 Screenshot of Directory Opus with left panel at DH1:WHDLoad/Games and right panel at PC: (added through WinUAE) ready for copying WHDLoad games from PC to WHDLoad games drawer.
 
 ![dopus_whdload_games.png](screenshots/dopus_whdload_games.png?raw=true)
 
-### Music for AGS2 screenshots
+### Music for AGS2 screenshot
 
 Screenshot of Directory Opus with left panel at DH1:Menu/AGS2Games/Music and right panel at PC: (added through WinUAE) ready for copying mod music files from PC to AGS2 games menu.
 
