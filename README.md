@@ -1,6 +1,6 @@
 # EAB WHDLoad Games AGA Menu Package
 
-EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in English Board Amiga WHDLoad packs with update 2.6 applied. 
+EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in English Board Amiga WHDLoad packs with update 2.6 applied. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
 
 **Note that this package only supports English Board Amiga WHDLoad packs as paths to start games are specifically generated for English Board Amiga WHDLoad packs.**
 
@@ -18,7 +18,7 @@ EAB WHDLoad Games AGA Menu package requires following applications and libraries
 
 These applications and libraries are already installed, if HstWB or ClassicWB FULL, ADV, ADVSP package is installed using HstWB Installer.
 
-HstWB Installer can automatically identify and install Kickstart roms for WHDLoad. See more details [here](https://github.com/henrikstengaard/hstwb-installer).
+HstWB Installer can automatically identify and install Kickstart roms for WHDLoad. See more details https://github.com/henrikstengaard/hstwb-installer.
 
 For manual installation without HstWB or ClassicWB, use following guides:
 - Install MUI: http://guide.abime.net/wb3.1/chap6.htm
