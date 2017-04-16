@@ -1,0 +1,34 @@
+.KEY whdloadarg/a
+.BRA {
+.KET }
+
+; WHDLoad Argument Remove Script
+; ------------------------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2017-04-15
+;
+; This script remove whdloadarg from whdloadargs. 
+
+; Skip, if whdloadargs doesn't exist
+IF NOT EXISTS ENV:whdloadargs
+  SKIP end
+ENDIF
+
+; Skip, if whdloadargs doesn't contains whdloadarg
+search ENV:whdloadargs "{whdloadarg}" >NIL:
+IF WARN
+  SKIP end
+ENDIF
+
+; Remove whdloadarg from whdloadargs
+setenv whdloadargs "`sed "s/{whdloadarg}//" ENV:whdloadargs`"
+
+; Replace multiple spaces with one space in whdloadargs
+setenv whdloadargs "`sed "s/[ ][ ]*//g" ENV:whdloadargs`"
+
+; Strip heading and tailing spaces from whdloadargs
+setenv whdloadargs "`sed "s/^[ ]//" ENV:whdloadargs`"
+setenv whdloadargs "`sed "s/[ ]$//" ENV:whdloadargs`"
+
+; End
+LAB end
