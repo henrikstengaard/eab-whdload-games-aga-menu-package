@@ -1,0 +1,5 @@
+echo "*ec"
+execute S:WHDLoadArgRemove ExpChip
+echo "WHDLoad ExpChip turned off"
+wait 3
+echo "*ec"

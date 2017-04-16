@@ -1,1 +1,8 @@
 Turn on WHDLoad Preload
+
+WHDLOAD will load data files and
+disk images into memory to increase
+performance.
+
+Use this option on any expanded
+Amiga.

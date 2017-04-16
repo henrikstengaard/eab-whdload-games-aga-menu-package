@@ -1,0 +1,5 @@
+echo "*ec"
+execute S:WHDLoadArgRemove NoAutoVec
+echo "WHDLoad NoAutoVec turned off"
+wait 3
+echo "*ec"

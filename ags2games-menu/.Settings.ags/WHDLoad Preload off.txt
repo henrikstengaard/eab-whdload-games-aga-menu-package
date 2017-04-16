@@ -1,1 +1,8 @@
-Turn off WHDLoad Preload
+Turn off WHDLoad Preload. 
+
+WHDLOAD will not load data files and
+disk images into memory causing it to
+flicker/blink when loading.
+
+Use this option on lowend Amiga 
+hardware.

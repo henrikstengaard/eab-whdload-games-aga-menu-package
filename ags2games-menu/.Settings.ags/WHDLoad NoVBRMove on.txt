@@ -1,0 +1,8 @@
+Turn on WHDLoad NoVBRMove
+
+WHDLOAD will move the vector table
+using the VBR (Vector Base Register)
+to a different memory location.
+
+Use this option as an attempt to
+fix issues running games or demos.

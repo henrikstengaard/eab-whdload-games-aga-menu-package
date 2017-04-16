@@ -1,0 +1,5 @@
+echo "*ec"
+execute S:WHDLoadArgAdd ButtonWait
+echo "WHDLoad ButtonWait turned on"
+wait 3
+echo "*ec"

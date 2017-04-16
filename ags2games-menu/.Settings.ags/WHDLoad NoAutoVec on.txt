@@ -1,0 +1,7 @@
+Turn on WHDLoad NoAutoVec
+
+WHDLoad will not quit, if unexpected
+autovector interrupt or NMI occurs.
+
+Use this option, if WHDLoad crashes
+with error message "NMI Autovector".

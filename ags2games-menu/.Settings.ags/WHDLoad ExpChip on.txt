@@ -1,0 +1,8 @@
+Turn on WHDLoad ExpChip
+
+Forces WHDLOAD to allocate required
+memory in Chip Memory and may result
+in performance degration.
+
+Use this option as an attempt to
+slow down games or demos.

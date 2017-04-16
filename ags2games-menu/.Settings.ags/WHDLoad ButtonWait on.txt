@@ -1,0 +1,5 @@
+Turn on WHDLoad ButtonWait
+
+WHDLOAD wait for pressing a button
+when it shows pictures and/or
+plays music.

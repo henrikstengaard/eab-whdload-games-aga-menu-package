@@ -1,0 +1,5 @@
+echo "*ec"
+execute S:WHDLoadArgAdd ExpChip
+echo "WHDLoad ExpChip turned on"
+wait 3
+echo "*ec"
