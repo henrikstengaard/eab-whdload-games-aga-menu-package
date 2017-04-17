@@ -51,8 +51,13 @@ For AGS2 following features had been added in ".Settings" folder:
 
 - Favourites mode: Add or remove games in ".Favourites" folder in AGS2 menu.
 - Music: Turn music on and off for AGS2 menus.
+- WHDLoad ButtonWait: Turn ButtonWait option on or off.
+- WHDLoad ExpChip: Turn ExpChip option on or off.
+- WHDLoad NoAutoVec: Turn NoAutoVec option on or off.
+- WHDLoad NoCache: Turn NoCache option on or off.
+- WHDLoad NoVBRMove: Turn NoVBRMove option on or off.
 - WHDLoad Preload: Turn Preload option on or off.
-- Settings: View and save settings for Favourites mode, Music and WHDLoad Preload.
+- Settings: View and save settings for Favourites mode, Music and WHDLoad options.
 
 Favourites mode can be set to the following:
 
@@ -63,7 +68,23 @@ Favourites mode can be set to the following:
 
 When turned on music a random .mod file is played while AGS2 menu is shown and will stop before running a game. By default there aren't installed any music .mod files. They can be must copied to directory "WHDLOADDIR:Menu/AGS2Games/Music" (unless changed).
 
-WHDLoad Preload option can be turned on and off depending on the Amiga hardware. By default WHDLoad Preload is turned on to improve performance and avoid screen flickering, when games are loading data files. WHDLoad Preload can be turned off for Amiga's without fastmem or accelerators, so they can still run most WHDLoad games.
+WHDLOAD ButtonWait option makes WHDLoad wait for pressing a button when it shows pictures and/or plays music.
+
+WHDLoad ExpChip option forces WHDLOAD to allocate required memory in Chip Memory and may result in performance degration.
+This option can be turned on as an attempt to slow down games.
+
+WHDLoad NoAutoVec option ensures WHDLoad doesn't quit, if unexpected autovector interrupt or NMI occurs.
+This option can be turned on, if WHDLoad crashes with error message "NMI Autovector".
+
+WHDLoad NoCache option makes WHDLOAD disable all caches. 
+This option can be turned on as an attempt to slow down games.
+
+WHDLoad NoVBRMove option moves the vector table using the VBR (Vector Base Register) to a different memory location.
+This option can be turned on as an attempt to fix issues running games.
+
+WHDLoad Preload option makes WHDLoad load data files and disk images into memory to increase performance.
+This option is turned on by default to avoid screen flickering, when games are loading data files.
+For lowend Amiga's without Fast memory or accelerator, this option can be turned off, so they can still run most WHDLoad games.
 
 To preserve settings between reboots, use "Save settings" to write settings to harddisk.
 
