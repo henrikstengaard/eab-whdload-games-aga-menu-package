@@ -264,6 +264,10 @@ Screenshots of browsing games in AGS2.
 
 ![AGS2 2](screenshots/ags22.png?raw=true)
 
+Screenshots of settings in AGS2.
+
+![AGS2 3](screenshots/ags23.png?raw=true)
+
 ### iGame screenshots
 
 Screenshots of browsing games in iGame.
