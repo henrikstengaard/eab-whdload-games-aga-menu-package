@@ -105,6 +105,12 @@ IF NOT EXISTS SYSTEMDIR:S/Settings/whdloadargs
   echo "Preload" > SYSTEMDIR:S/Settings/whdloadargs
 ENDIF
 
+; Add ags2 startup to startup sequence, if it doesn't exist
+search SYSTEMDIR:S/Startup-Sequence "execute S:AGS2Startup" >NIL:
+IF WARN 
+  rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "IF EXISTS S:AGS2Startup*N  execute S:AGS2Startup*NENDIF*N*NBindDrivers"
+ENDIF
+
 
 ; Configure ClassicWB
 ; -------------------
@@ -136,12 +142,6 @@ ELSE
     sed "s/\([Aa]-[Gg][Aa][Mm][Ee][Ss]:\)/\1 $gamespath;/" "SYSTEMDIR:S/Assign-Startup" >"T:Assign-Startup"
     copy >NIL: "T:Assign-Startup" "SYSTEMDIR:S/Assign-Startup"
   ENDIF   
-ENDIF
-
-; Add ags2 startup to startup sequence, if it doesn't exist
-search SYSTEMDIR:S/Startup-Sequence "execute S:AGS2Startup" >NIL:
-IF WARN 
-  rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "IF EXISTS S:AGS2Startup*N  execute S:AGS2Startup*NENDIF*N*NBindDrivers"
 ENDIF
 
 SKIP configuremenus
