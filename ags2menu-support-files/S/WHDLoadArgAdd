@@ -15,6 +15,9 @@ IF EXISTS ENV:whdloadargs
   IF NOT WARN
     SKIP end
   ENDIF
+ELSE
+  ; Create whdloadargs, if it doesn't exist
+  echo "" NOLINE >ENV:whdloadargs
 ENDIF
 
 ; Get whdloadargs length
