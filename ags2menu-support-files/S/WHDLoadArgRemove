@@ -29,7 +29,7 @@ ENDIF
 SetEnv whdloadargs "`sed "s/{whdloadarg}//" ENV:whdloadargs`"
 
 ; Replace multiple spaces with one space in whdloadargs
-SetEnv whdloadargs "`sed "s/[ ][ ]*//g" ENV:whdloadargs`"
+SetEnv whdloadargs "`sed "s/[ ][ ]*/ /g" ENV:whdloadargs`"
 
 ; Strip heading and tailing spaces from whdloadargs
 SetEnv whdloadargs "`sed "s/^[ ]//" ENV:whdloadargs`"
