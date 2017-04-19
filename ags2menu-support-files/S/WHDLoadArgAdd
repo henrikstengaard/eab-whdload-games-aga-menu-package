@@ -5,31 +5,31 @@
 ; WHDLoad Argument Add Script
 ; ---------------------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-04-15
+; Date: 2017-04-19
 ;
 ; This script adds whdloadarg to whdloadargs. 
 
-; Skip, if whdloadargs exist and contains whdloadarg
+; End, if whdloadarg is empty
+IF "{whdloadarg}" EQ ""
+ SKIP end
+ENDIF
+
+; End, if whdloadargs exist and contains whdloadarg
 IF EXISTS ENV:whdloadargs
   search ENV:whdloadargs "{whdloadarg}" >NIL:
   IF NOT WARN
     SKIP end
   ENDIF
 ELSE
-  ; Create whdloadargs, if it doesn't exist
-  echo "" NOLINE >ENV:whdloadargs
+  SetEnv whdloadargs ""
 ENDIF
 
-; Get whdloadargs length
-set whdloadargslength `wc -c <ENV:whdloadargs` 
-
-; Add space, if whdloadargs is greater than 0
-IF $whdloadargslength GT 0
-  echo " " NOLINE >>ENV:whdloadargs
-ENDIF 
-
 ; Add whdloadarg to whdloadargs
-echo "{whdloadarg}" NOLINE >> ENV:whdloadargs
+IF "$whdloadargs" EQ ""
+  SetEnv whdloadargs "{whdloadarg}"
+ELSE
+  SetEnv whdloadargs "$whdloadargs {whdloadarg}"
+ENDIF 
 
 ; End
 LAB end
