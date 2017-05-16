@@ -105,6 +105,11 @@ IF NOT EXISTS SYSTEMDIR:S/Settings/whdloadargs
   echo "Preload" > SYSTEMDIR:S/Settings/whdloadargs
 ENDIF
 
+; Create ags2music settings to turn on music in ags2 menu
+IF NOT EXISTS SYSTEMDIR:S/Settings/ags2music
+  echo "" NOLINE > SYSTEMDIR:S/Settings/ags2music
+ENDIF
+
 ; Add ags2 startup to startup sequence, if it doesn't exist
 search SYSTEMDIR:S/Startup-Sequence "execute S:AGS2Startup" >NIL:
 IF WARN 
