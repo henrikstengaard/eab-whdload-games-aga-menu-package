@@ -154,11 +154,11 @@ Example hstwbmenuitem.data for Bubble Bobble:
 
 The templates contain placeholders which will be replaced, when building run script for AGS2 menu. Following placeholders are used in the templates below:
 
-- [$RunFile]: Full path to run file, which is usually the selected file.
-- [$AGS2IndexName]: Index name for AGS2 menu and is the first character of entered AGS2 name.
-- [$AGS2Name]: Entered AGS2 name.
-- [$RunDir]: Path to directory containing run file.
-- [$RunFileName]: Filename of run file without path.
+- "[$RunFile]": Full path to run file, which is usually the selected file.
+- "[$AGS2IndexName]": Index name for AGS2 menu and is the first character of entered AGS2 name.
+- "[$AGS2Name]": Entered AGS2 name.
+- "[$RunDir]": Path to directory containing run file.
+- "[$RunFileName]": Filename of run file without path.
 
 S:AGS2RunPreTemplate template:
 ###
