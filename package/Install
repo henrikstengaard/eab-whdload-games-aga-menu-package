@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-04-18
+; Date: 2017-06-09
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -10,6 +10,25 @@
 ; Copy readme and screenshots to locale help for EAB WHDLoad Games AGA Menu
 IF NOT EXISTS SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
   makepath >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+  IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
+    makeicon >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu FROM SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info 
+  ELSE
+    makeicon >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
+  ENDIF
+ENDIF
+IF NOT EXISTS SYSTEMDIR:Locale/Help.info
+  IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
+    makeicon >NIL: SYSTEMDIR:Locale/Help FROM SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info 
+  ELSE
+    makeicon >NIL: SYSTEMDIR:Locale/Help
+  ENDIF
+ENDIF
+IF NOT EXISTS SYSTEMDIR:Locale.info
+  IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
+    makeicon >NIL: SYSTEMDIR:Locale FROM SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info 
+  ELSE
+    makeicon >NIL: SYSTEMDIR:Locale
+  ENDIF
 ENDIF
 copy >NIL: PACKAGEDIR:README SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
 copy >NIL: PACKAGEDIR:README.guide SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
@@ -103,6 +122,11 @@ ENDIF
 ; Create default whdloadargs for ags2 menus, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:S/Settings/whdloadargs
   echo "Preload" > SYSTEMDIR:S/Settings/whdloadargs
+ENDIF
+
+; Create ags2music settings to turn on music in ags2 menu
+IF NOT EXISTS SYSTEMDIR:S/Settings/ags2music
+  echo "" NOLINE > SYSTEMDIR:S/Settings/ags2music
 ENDIF
 
 ; Add ags2 startup to startup sequence, if it doesn't exist
