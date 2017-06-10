@@ -6,7 +6,9 @@ EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screen
 
 ## Requirements
 
-EAB WHDLoad Games AGA Menu package requires following applications and libraries are installed:
+EAB WHDLoad Games AGA Menu package can be installed on any Amiga with Workbench 3.1 (or better) and about 195MB free space on a harddrive for installation.
+
+For EAB WHDLoad Games AGA Menu package to work properly, it requires following applications and libraries are installed:
 - MUI: Install MUI from http://aminet.net/util/libs/mui38usr.lha.
 - GuigFX MCC for MUI: Install "guigfx.mcc" from http://aminet.net/dev/mui/MCC_Guigfx.lha.
 - TextEditor MCC for MUI: Install "TextEditor.mcc" from http://aminet.net/dev/mui/MCC_TextEditor-15.47.lha or http://aminet.net/dev/mui/MCC_TextEditor_68k.lha depending on CPU is 68000 or better.
