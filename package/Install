@@ -154,7 +154,7 @@ echo "Configuring ClassicWB..."
 
 
 ; Add or update A-Games to user-assign
-set gamespath "`execute PACKAGES:CombinePath "$WHDLOADDIR" "WHDLoad/Games"`"
+set gamespath "`execute PACKAGESDIR:CombinePath "$WHDLOADDIR" "WHDLoad/Games"`"
 search SYSTEMDIR:S/Assign-Startup "A-Games:" >NIL:
 IF WARN 
 	echo "Assign >NIL: A-Games: $gamespath" >>SYSTEMDIR:S/Assign-Startup
@@ -190,7 +190,7 @@ IF WARN
 ENDIF
 
 ; Add or update A-Games to user-assign
-set gamespath "`execute PACKAGES:CombinePath "$WHDLOADDIR" "WHDLoad/Games"`"
+set gamespath "`execute PACKAGESDIR:CombinePath "$WHDLOADDIR" "WHDLoad/Games"`"
 search SYSTEMDIR:S/User-Assign "A-Games:" >NIL:
 IF WARN 
 	echo "Assign >NIL: A-Games: $gamespath" >>SYSTEMDIR:S/User-Assign
@@ -210,7 +210,7 @@ ENDIF
 LAB configuremenus
 
 ; Add or update ags2 games menu dir to ags2menu.data
-set ags2gamesmenupath "`execute PACKAGES:CombinePath "$WHDLOADDIR" "Menu/AGS2Games"`"
+set ags2gamesmenupath "`execute PACKAGESDIR:CombinePath "$WHDLOADDIR" "Menu/AGS2Games"`"
 search SYSTEMDIR:S/AGS2Menu.data "AGS2GamesMenuDir=" >NIL:
 IF WARN 
 	echo "AGS2GamesMenuDir=$ags2gamesmenupath" >>SYSTEMDIR:S/AGS2Menu.data
@@ -219,7 +219,7 @@ ELSE
 ENDIF
 
 ; Add or update igame games menu dir to igamemenu.data
-set igamegamesmenupath "`execute PACKAGES:CombinePath "$SYSTEMDIR" "Games"`"
+set igamegamesmenupath "`execute PACKAGESDIR:CombinePath "$SYSTEMDIR" "Games"`"
 search SYSTEMDIR:S/iGameMenu.data "iGameGamesMenuDir=" >NIL:
 IF WARN 
 	echo "iGameGamesMenuDir=$igamegamesmenupath" >>SYSTEMDIR:S/iGameMenu.data
