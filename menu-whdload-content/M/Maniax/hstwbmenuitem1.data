@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Maniax
-RunFile=Maniax.slave
+RunFile=maniax.slave
 AGS2Name=Maniax
 iGameName=Maniax

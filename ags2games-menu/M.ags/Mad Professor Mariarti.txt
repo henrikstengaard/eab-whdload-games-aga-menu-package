@@ -3,4 +3,4 @@ Publisher : Krisalis
 Year      : 1990
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : MadProfessorMariarti.Slave
+Whdload   : MadProfessorMariarti.slave

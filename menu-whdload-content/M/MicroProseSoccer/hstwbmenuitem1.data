@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=MicroProse Soccer
-RunFile=MicroProseSoccer.slave
+RunFile=MicroProseSoccer.Slave
 AGS2Name=MicroProse Soccer
 iGameName=MicroProse Soccer

@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:V/VirocopAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "VirocopAGA.Slave" $whdloadargs
+	whdload "VirocopAGA.slave" $whdloadargs
 ELSE
-	whdload "VirocopAGA.Slave"
+	whdload "VirocopAGA.slave"
 ENDIF

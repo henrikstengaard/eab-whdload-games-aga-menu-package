@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:C/CruiseForACorpseDe/CruiseForACorpseDe.Slave
+;RunFile=A-Games:C/CruiseForACorpseDe/CruiseForACorpseDe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:C/CruiseForACorpseDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "CruiseForACorpseDe.Slave" $whdloadargs
+  whdload "CruiseForACorpseDe.slave" $whdloadargs
 ELSE
-  whdload "CruiseForACorpseDe.Slave"
+  whdload "CruiseForACorpseDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

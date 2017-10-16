@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/AirborneRanger/AirborneRanger.slave
+;RunFile=A-Games:A/AirborneRanger/AirborneRanger.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:A/AirborneRanger/"
 IF EXISTS ENV:whdloadargs
-  whdload "AirborneRanger.slave" $whdloadargs
+  whdload "AirborneRanger.Slave" $whdloadargs
 ELSE
-  whdload "AirborneRanger.slave"
+  whdload "AirborneRanger.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

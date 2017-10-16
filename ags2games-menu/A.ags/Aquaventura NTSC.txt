@@ -1,0 +1,6 @@
+Name      : Aquaventura
+Version   : NTSC
+Publisher : Psygnosis
+Year      : 1992
+Players   : 1 Only
+Whdload   : AquaventuraNTSC.Slave

@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:J/JetstrikeAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "JetstrikeAGA.Slave" $whdloadargs
+	whdload "JetstrikeAGAIntro.Slave" $whdloadargs
 ELSE
-	whdload "JetstrikeAGA.Slave"
+	whdload "JetstrikeAGAIntro.Slave"
 ENDIF

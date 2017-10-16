@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:F/FutureWarsDe/FutureWarsDe.Slave
+;RunFile=A-Games:F/FutureWarsDe/FutureWarsDe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:F/FutureWarsDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "FutureWarsDe.Slave" $whdloadargs
+  whdload "FutureWarsDe.slave" $whdloadargs
 ELSE
-  whdload "FutureWarsDe.Slave"
+  whdload "FutureWarsDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

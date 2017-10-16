@@ -3,4 +3,4 @@ Publisher : DigiTek Software
 Year      : 1991
 Genre     : Board - Miscellaneous
 Players   : 1 or 2
-Whdload   : DinoWars.Slave
+Whdload   : DinoWars.slave

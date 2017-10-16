@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/AdventuresOfWillyBeamish/AdventuresOfWillyBeamish.Slave
+;RunFile=A-Games:A/AdventuresOfWillyBeamish/AdventuresOfWillyBeamish.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:A/AdventuresOfWillyBeamish/"
 IF EXISTS ENV:whdloadargs
-  whdload "AdventuresOfWillyBeamish.Slave" $whdloadargs
+  whdload "AdventuresOfWillyBeamish.slave" $whdloadargs
 ELSE
-  whdload "AdventuresOfWillyBeamish.Slave"
+  whdload "AdventuresOfWillyBeamish.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

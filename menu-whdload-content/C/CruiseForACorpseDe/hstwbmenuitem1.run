@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:C/CruiseForACorpseDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "CruiseForACorpseDe.Slave" $whdloadargs
+	whdload "CruiseForACorpseDe.slave" $whdloadargs
 ELSE
-	whdload "CruiseForACorpseDe.Slave"
+	whdload "CruiseForACorpseDe.slave"
 ENDIF

@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Nobby the Aardvark
-RunFile=NobbyTheAardvark.Slave
+RunFile=NobbyTheAardvark.slave
 AGS2Name=Nobby the Aardvark
 iGameName=Nobby the Aardvark

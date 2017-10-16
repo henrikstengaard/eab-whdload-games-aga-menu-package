@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Leander NTSC
-RunFile=LeanderNTSC.Slave
+RunFile=LeanderNTSC.slave
 AGS2Name=Leander NTSC
 iGameName=Leander NTSC

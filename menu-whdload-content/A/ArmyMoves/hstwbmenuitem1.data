@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Army Moves
-RunFile=ArmyMoves.slave
+RunFile=ArmyMoves.Slave
 AGS2Name=Army Moves
 iGameName=Army Moves

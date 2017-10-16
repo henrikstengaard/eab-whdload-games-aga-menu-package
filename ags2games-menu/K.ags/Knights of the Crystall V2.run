@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:K/KnightsOfTheCrystallionDe/KnightsOfTheCrystallionDe.Slav
+;RunFile=A-Games:K/KnightsOfTheCrystallionDe/KnightsOfCrystallionDe.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:K/KnightsOfTheCrystallionDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "KnightsOfTheCrystallionDe.Slav" $whdloadargs
+  whdload "KnightsOfCrystallionDe.Slave" $whdloadargs
 ELSE
-  whdload "KnightsOfTheCrystallionDe.Slav"
+  whdload "KnightsOfCrystallionDe.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

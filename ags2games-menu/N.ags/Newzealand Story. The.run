@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:N/NewZealandStory/NewZealandStory.Slave
+;RunFile=A-Games:N/NewZealandStory/NewZealandStory.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:N/NewZealandStory/"
 IF EXISTS ENV:whdloadargs
-  whdload "NewZealandStory.Slave" $whdloadargs
+  whdload "NewZealandStory.slave" $whdloadargs
 ELSE
-  whdload "NewZealandStory.Slave"
+  whdload "NewZealandStory.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

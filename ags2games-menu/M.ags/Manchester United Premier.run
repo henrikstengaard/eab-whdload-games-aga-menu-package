@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:M/ManchesterUnitedPLC/ManchesterUnitedPLC.Slave
+;RunFile=A-Games:M/ManchesterUnitedPLC/ManchesterUnitedPLC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:M/ManchesterUnitedPLC/"
 IF EXISTS ENV:whdloadargs
-  whdload "ManchesterUnitedPLC.Slave" $whdloadargs
+  whdload "ManchesterUnitedPLC.slave" $whdloadargs
 ELSE
-  whdload "ManchesterUnitedPLC.Slave"
+  whdload "ManchesterUnitedPLC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

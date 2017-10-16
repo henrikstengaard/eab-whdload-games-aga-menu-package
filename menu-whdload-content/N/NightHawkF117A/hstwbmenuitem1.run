@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:N/NightHawkF117A/"
 IF EXISTS ENV:whdloadargs
-	whdload "NightHawkF117A.Slave" $whdloadargs
+	whdload "NightHawkF117A.slave" $whdloadargs
 ELSE
-	whdload "NightHawkF117A.Slave"
+	whdload "NightHawkF117A.slave"
 ENDIF

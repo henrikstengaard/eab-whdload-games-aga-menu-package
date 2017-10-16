@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:L/Leander/Leander.Slave
+;RunFile=A-Games:L/Leander/Leander.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:L/Leander/"
 IF EXISTS ENV:whdloadargs
-  whdload "Leander.Slave" $whdloadargs
+  whdload "Leander.slave" $whdloadargs
 ELSE
-  whdload "Leander.Slave"
+  whdload "Leander.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

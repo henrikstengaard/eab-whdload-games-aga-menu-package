@@ -1,0 +1,7 @@
+Name      : Curse of RA, The
+Version   : CDTV
+Publisher : Rainbow Arts
+Year      : 1990
+Genre     : Arcade - Logical Game
+Players   : 1 Only
+Whdload   : CurseOfRaCDTV.Slave

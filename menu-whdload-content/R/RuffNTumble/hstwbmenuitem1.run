@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:R/RuffNTumble/"
 IF EXISTS ENV:whdloadargs
-	whdload "RuffNTumble.Slave" $whdloadargs
+	whdload "RuffNTumble.slave" $whdloadargs
 ELSE
-	whdload "RuffNTumble.Slave"
+	whdload "RuffNTumble.slave"
 ENDIF

@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Chambers of Shaolin
-RunFile=ChambersOfShaolin.slave
+RunFile=ChambersOfShaolin.Slave
 AGS2Name=Chambers of Shaolin
 iGameName=Chambers of Shaolin

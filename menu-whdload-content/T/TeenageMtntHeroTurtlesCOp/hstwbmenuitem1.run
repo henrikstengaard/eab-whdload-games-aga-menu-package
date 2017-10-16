@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:T/TeenageMtntHeroTurtlesCOp/"
 IF EXISTS ENV:whdloadargs
-	whdload "TeenageMtntHeroTurtlesCOp.Slave" $whdloadargs
+	whdload "TeenageMtntHeroTurtlesCOp.slave" $whdloadargs
 ELSE
-	whdload "TeenageMtntHeroTurtlesCOp.Slave"
+	whdload "TeenageMtntHeroTurtlesCOp.slave"
 ENDIF

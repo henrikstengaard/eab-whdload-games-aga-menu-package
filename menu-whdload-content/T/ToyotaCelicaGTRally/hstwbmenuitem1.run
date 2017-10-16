@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:T/ToyotaCelicaGTRally/"
 IF EXISTS ENV:whdloadargs
-	whdload "ToyotaCelicaGTRally.slave" $whdloadargs
+	whdload "ToyotaCelicaGTRally.Slave" $whdloadargs
 ELSE
-	whdload "ToyotaCelicaGTRally.slave"
+	whdload "ToyotaCelicaGTRally.Slave"
 ENDIF

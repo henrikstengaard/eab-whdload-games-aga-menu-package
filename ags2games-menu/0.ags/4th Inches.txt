@@ -3,4 +3,4 @@ Publisher : Accolade
 Year      : 1988
 Genre     : Sports - American Football
 Players   : 1 or 2, Simultaneous
-Whdload   : 4th&Inches.Slave
+Whdload   : 4th&Inches.slave

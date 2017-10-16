@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:C/CodeNameIceman/"
 IF EXISTS ENV:whdloadargs
-	whdload "CodeNameIceman.slave" $whdloadargs
+	whdload "CodenameIceman.slave" $whdloadargs
 ELSE
-	whdload "CodeNameIceman.slave"
+	whdload "CodenameIceman.slave"
 ENDIF

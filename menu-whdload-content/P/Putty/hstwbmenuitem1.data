@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Putty
-RunFile=Putty.slave
+RunFile=Putty.Slave
 AGS2Name=Putty
 iGameName=Putty

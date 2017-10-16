@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Cool Spot
-RunFile=CoolSpot.Slave
+RunFile=CoolSpot.slave
 AGS2Name=Cool Spot
 iGameName=Cool Spot

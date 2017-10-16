@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:M/MicroProseSoccer/MicroProseSoccer.slave
+;RunFile=A-Games:M/MicroProseSoccer/MicroProseSoccer.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:M/MicroProseSoccer/"
 IF EXISTS ENV:whdloadargs
-  whdload "MicroProseSoccer.slave" $whdloadargs
+  whdload "MicroProseSoccer.Slave" $whdloadargs
 ELSE
-  whdload "MicroProseSoccer.slave"
+  whdload "MicroProseSoccer.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

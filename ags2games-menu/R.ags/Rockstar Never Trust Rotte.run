@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/RockstarNTRT/RockstarNTRT.Slave
+;RunFile=A-Games:R/RockstarNTRTPl/RockstarNTRTPl.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:R/RockstarNTRT/"
+cd "A-Games:R/RockstarNTRTPl/"
 IF EXISTS ENV:whdloadargs
-  whdload "RockstarNTRT.Slave" $whdloadargs
+  whdload "RockstarNTRTPl.Slave" $whdloadargs
 ELSE
-  whdload "RockstarNTRT.Slave"
+  whdload "RockstarNTRTPl.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

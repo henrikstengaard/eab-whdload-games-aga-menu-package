@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:W/WingsOfDeath/WingsOfDeath.slave
+;RunFile=A-Games:W/WingsOfDeath/WingsOfDeath.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:W/WingsOfDeath/"
 IF EXISTS ENV:whdloadargs
-  whdload "WingsOfDeath.slave" $whdloadargs
+  whdload "WingsOfDeath.Slave" $whdloadargs
 ELSE
-  whdload "WingsOfDeath.slave"
+  whdload "WingsOfDeath.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

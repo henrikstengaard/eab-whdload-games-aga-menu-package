@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:N/NorthAndSouthImage/NorthAndSouthImage.Slave
+;RunFile=A-Games:N/NorthAndSouthImage/NorthAndSouthImage.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:N/NorthAndSouthImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "NorthAndSouthImage.Slave" $whdloadargs
+  whdload "NorthAndSouthImage.slave" $whdloadargs
 ELSE
-  whdload "NorthAndSouthImage.Slave"
+  whdload "NorthAndSouthImage.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

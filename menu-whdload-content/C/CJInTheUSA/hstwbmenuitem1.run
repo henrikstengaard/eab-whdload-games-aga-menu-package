@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:C/CJInTheUSA/"
 IF EXISTS ENV:whdloadargs
-	whdload "CJInTheUSA.slave" $whdloadargs
+	whdload "CJInTheUSA.Slave" $whdloadargs
 ELSE
-	whdload "CJInTheUSA.slave"
+	whdload "CJInTheUSA.Slave"
 ENDIF

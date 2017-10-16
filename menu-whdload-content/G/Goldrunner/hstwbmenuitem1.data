@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Goldrunner
-RunFile=Goldrunner.slave
+RunFile=Goldrunner.Slave
 AGS2Name=Goldrunner
 iGameName=Goldrunner

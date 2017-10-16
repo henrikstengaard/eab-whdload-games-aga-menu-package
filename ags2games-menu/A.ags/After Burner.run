@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/AfterBurnerSega/AfterBurnerSega.Slave
+;RunFile=A-Games:A/AfterBurnerSega/AfterBurnerSega.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:A/AfterBurnerSega/"
 IF EXISTS ENV:whdloadargs
-  whdload "AfterBurnerSega.Slave" $whdloadargs
+  whdload "AfterBurnerSega.slave" $whdloadargs
 ELSE
-  whdload "AfterBurnerSega.Slave"
+  whdload "AfterBurnerSega.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

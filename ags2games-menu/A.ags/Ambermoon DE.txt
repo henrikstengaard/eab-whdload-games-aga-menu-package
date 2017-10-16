@@ -1,0 +1,7 @@
+Name      : Ambermoon
+Language  : German
+Publisher : Thalion
+Year      : 1993
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+Whdload   : AmbermoonDe.Slave

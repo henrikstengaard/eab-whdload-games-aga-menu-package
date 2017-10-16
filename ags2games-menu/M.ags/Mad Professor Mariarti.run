@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:M/MadProfessorMariarti/MadProfessorMariarti.Slave
+;RunFile=A-Games:M/MadProfessorMariarti/MadProfessorMariarti.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:M/MadProfessorMariarti/"
 IF EXISTS ENV:whdloadargs
-  whdload "MadProfessorMariarti.Slave" $whdloadargs
+  whdload "MadProfessorMariarti.slave" $whdloadargs
 ELSE
-  whdload "MadProfessorMariarti.Slave"
+  whdload "MadProfessorMariarti.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

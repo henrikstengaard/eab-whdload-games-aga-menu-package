@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Netherworld
-RunFile=Netherworld.Slave
+RunFile=Netherworld.slave
 AGS2Name=Netherworld
 iGameName=Netherworld

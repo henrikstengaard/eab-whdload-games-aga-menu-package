@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:G/Goldrunner/Goldrunner.slave
+;RunFile=A-Games:G/Goldrunner/Goldrunner.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:G/Goldrunner/"
 IF EXISTS ENV:whdloadargs
-  whdload "Goldrunner.slave" $whdloadargs
+  whdload "Goldrunner.Slave" $whdloadargs
 ELSE
-  whdload "Goldrunner.slave"
+  whdload "Goldrunner.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Dragonstone
-RunFile=Dragonstone.slave
+RunFile=Dragonstone.Slave
 AGS2Name=Dragonstone
 iGameName=Dragonstone

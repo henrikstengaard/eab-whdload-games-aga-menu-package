@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:S/SimAntHiResFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "SimAntHiResFr.Slave" $whdloadargs
+	whdload "SimAntHiresFr.slave" $whdloadargs
 ELSE
-	whdload "SimAntHiResFr.Slave"
+	whdload "SimAntHiresFr.slave"
 ENDIF

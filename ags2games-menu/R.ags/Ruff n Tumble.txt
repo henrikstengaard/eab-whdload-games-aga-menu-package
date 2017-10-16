@@ -2,4 +2,4 @@ Name      : Ruff 'n' Tumble
 Publisher : Renegade
 Year      : 1994
 Players   : 1 Only
-Whdload   : RuffNTumble.Slave
+Whdload   : RuffNTumble.slave

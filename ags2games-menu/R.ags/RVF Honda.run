@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/RVFHonda/RVFHonda.Slave
+;RunFile=A-Games:R/RVFHonda/RVFHonda.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:R/RVFHonda/"
 IF EXISTS ENV:whdloadargs
-  whdload "RVFHonda.Slave" $whdloadargs
+  whdload "RVFHonda.slave" $whdloadargs
 ELSE
-  whdload "RVFHonda.Slave"
+  whdload "RVFHonda.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

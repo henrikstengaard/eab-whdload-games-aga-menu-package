@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Treasure Trap
-RunFile=TreasureTrap.Slave
+RunFile=TreasureTrap.slave
 AGS2Name=Treasure Trap
 iGameName=Treasure Trap

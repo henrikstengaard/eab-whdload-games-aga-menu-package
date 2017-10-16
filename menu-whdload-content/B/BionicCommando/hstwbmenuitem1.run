@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:B/BionicCommando/"
 IF EXISTS ENV:whdloadargs
-	whdload "BionicCommando.slave" $whdloadargs
+	whdload "BionicCommando.Slave" $whdloadargs
 ELSE
-	whdload "BionicCommando.slave"
+	whdload "BionicCommando.Slave"
 ENDIF

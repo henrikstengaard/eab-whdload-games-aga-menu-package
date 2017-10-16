@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:F/FootballManager2/FootballManager2.Slave
+;RunFile=A-Games:F/FootballManager2/FootballManager2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:F/FootballManager2/"
 IF EXISTS ENV:whdloadargs
-  whdload "FootballManager2.Slave" $whdloadargs
+  whdload "FootballManager2.slave" $whdloadargs
 ELSE
-  whdload "FootballManager2.Slave"
+  whdload "FootballManager2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

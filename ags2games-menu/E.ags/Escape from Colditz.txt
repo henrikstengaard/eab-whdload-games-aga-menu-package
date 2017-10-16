@@ -3,4 +3,4 @@ Publisher : Digital Magic Software
 Year      : 1991
 Genre     : Adventure - Arcade 3D
 Players   : 1 Only
-Whdload   : EscapeFromColditz.slave
+Whdload   : EscapeFromColditz.Slave

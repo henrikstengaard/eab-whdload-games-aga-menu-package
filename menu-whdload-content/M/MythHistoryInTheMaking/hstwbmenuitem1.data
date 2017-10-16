@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=MYTH: History in the Making
-RunFile=MythHistoryInTheMaking.Slave
+RunFile=MythHistoryInTheMaking.slave
 AGS2Name=MYTH History in the Making
 iGameName=MYTH: History in the Making

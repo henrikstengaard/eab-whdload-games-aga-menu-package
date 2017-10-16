@@ -3,4 +3,4 @@ Publisher : ReLINE Software
 Year      : 1992
 Genre     : Cards - Poker
 Players   : 1 Only
-Whdload   : HollywoodPokerPro.Slave
+Whdload   : HollywoodPokerPro.slave

@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:K/KennedyApproach/"
 IF EXISTS ENV:whdloadargs
-	whdload "KennedyApproach.Slave" $whdloadargs
+	whdload "KennedyApproach.slave" $whdloadargs
 ELSE
-	whdload "KennedyApproach.Slave"
+	whdload "KennedyApproach.slave"
 ENDIF

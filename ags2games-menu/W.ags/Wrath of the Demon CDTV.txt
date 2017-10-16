@@ -4,4 +4,4 @@ Publisher : ReadySoft
 Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : WrathOfTheDemonCDTV.Slave
+Whdload   : WrathOfTheDemonCDTV.slave

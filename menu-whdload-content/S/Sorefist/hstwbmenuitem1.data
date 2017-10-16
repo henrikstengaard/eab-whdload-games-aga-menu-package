@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Sorefist
+RunFile=Sorefist.Slave
+AGS2Name=Sorefist
+iGameName=Sorefist

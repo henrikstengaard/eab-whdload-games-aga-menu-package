@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Strip Poker: A Sizzling Game of Chance
-RunFile=StripPoker.Slave
+RunFile=StripPoker.slave
 AGS2Name=Strip Poker A Sizzling Gam
 iGameName=Strip Poker: A Sizzling Game of Chance

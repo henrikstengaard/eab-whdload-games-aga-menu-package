@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:D/DaysOfThunder/DaysOfThunder.slave
+;RunFile=A-Games:D/DaysOfThunder/DaysOfThunder.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:D/DaysOfThunder/"
 IF EXISTS ENV:whdloadargs
-  whdload "DaysOfThunder.slave" $whdloadargs
+  whdload "DaysOfThunder.Slave" $whdloadargs
 ELSE
-  whdload "DaysOfThunder.slave"
+  whdload "DaysOfThunder.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

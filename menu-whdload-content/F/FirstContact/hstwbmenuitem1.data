@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=First Contact
-RunFile=FirstContact.slave
+RunFile=FirstContact.Slave
 AGS2Name=First Contact
 iGameName=First Contact

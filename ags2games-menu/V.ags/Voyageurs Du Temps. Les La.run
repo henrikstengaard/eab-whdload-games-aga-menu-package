@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:V/VoyageursDuTempsFr/VoyageursDuTempsFr.Slave
+;RunFile=A-Games:F/FutureWarsNTSC/FutureWarsNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:V/VoyageursDuTempsFr/"
+cd "A-Games:F/FutureWarsNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "VoyageursDuTempsFr.Slave" $whdloadargs
+  whdload "FutureWarsNTSC.slave" $whdloadargs
 ELSE
-  whdload "VoyageursDuTempsFr.Slave"
+  whdload "FutureWarsNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

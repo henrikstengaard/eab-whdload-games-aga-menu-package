@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:D/DuckTales/DuckTales.Slave
+;RunFile=A-Games:D/DuckTales/DuckTales.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:D/DuckTales/"
 IF EXISTS ENV:whdloadargs
-  whdload "DuckTales.Slave" $whdloadargs
+  whdload "DuckTales.slave" $whdloadargs
 ELSE
-  whdload "DuckTales.Slave"
+  whdload "DuckTales.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

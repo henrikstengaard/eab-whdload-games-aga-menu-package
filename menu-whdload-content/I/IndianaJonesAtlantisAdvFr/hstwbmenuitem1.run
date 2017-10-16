@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:I/IndianaJonesAtlantisAdvFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "IndianaJonesAtlantisAdvFr.Slave" $whdloadargs
+	whdload "IndianaJonesAtlantisAdvFr.slave" $whdloadargs
 ELSE
-	whdload "IndianaJonesAtlantisAdvFr.Slave"
+	whdload "IndianaJonesAtlantisAdvFr.slave"
 ENDIF

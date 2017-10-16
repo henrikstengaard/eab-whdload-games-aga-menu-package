@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Ilyad
-RunFile=Ilyad.Slave
+RunFile=Ilyad.slave
 AGS2Name=Ilyad
 iGameName=Ilyad

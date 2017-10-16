@@ -1,7 +1,7 @@
 ; Whdload
-cd "A-Games:D/DeathBringerEmpire/"
+cd "A-Games:D/DeathbringerEmpire/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeathBringerEmpire.Slave" $whdloadargs
+	whdload "DeathbringerEmpire.Slave" $whdloadargs
 ELSE
-	whdload "DeathBringerEmpire.Slave"
+	whdload "DeathbringerEmpire.Slave"
 ENDIF

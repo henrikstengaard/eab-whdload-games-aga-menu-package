@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:F/FiendishFreddysBigTopOFun/"
 IF EXISTS ENV:whdloadargs
-	whdload "FiendishFreddysBigTopOFun.Slave" $whdloadargs
+	whdload "FiendishFreddysBigTopOFun.slave" $whdloadargs
 ELSE
-	whdload "FiendishFreddysBigTopOFun.Slave"
+	whdload "FiendishFreddysBigTopOFun.slave"
 ENDIF

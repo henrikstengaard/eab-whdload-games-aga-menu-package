@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:C/ChambersOfShaolin/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChambersOfShaolin.slave" $whdloadargs
+	whdload "ChambersOfShaolin.Slave" $whdloadargs
 ELSE
-	whdload "ChambersOfShaolin.slave"
+	whdload "ChambersOfShaolin.Slave"
 ENDIF

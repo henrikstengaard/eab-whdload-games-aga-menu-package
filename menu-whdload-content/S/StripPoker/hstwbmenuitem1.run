@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:S/StripPoker/"
 IF EXISTS ENV:whdloadargs
-	whdload "StripPoker.Slave" $whdloadargs
+	whdload "StripPoker.slave" $whdloadargs
 ELSE
-	whdload "StripPoker.Slave"
+	whdload "StripPoker.slave"
 ENDIF

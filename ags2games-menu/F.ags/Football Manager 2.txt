@@ -3,4 +3,4 @@ Publisher : Prism Leisure
 Year      : 1988
 Genre     : Sports - Football/Soccer
 Players   : 1 Only
-Whdload   : FootballManager2.Slave
+Whdload   : FootballManager2.slave

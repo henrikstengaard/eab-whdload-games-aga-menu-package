@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/AllTerrainRacingXmasDemo/AllTerrainRacingXmasDemo.Slave
+;RunFile=A-Games:A/AllTerrainRacingXmasDemo/AllTerrainRacingXmasDemo.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:A/AllTerrainRacingXmasDemo/"
 IF EXISTS ENV:whdloadargs
-  whdload "AllTerrainRacingXmasDemo.Slave" $whdloadargs
+  whdload "AllTerrainRacingXmasDemo.slave" $whdloadargs
 ELSE
-  whdload "AllTerrainRacingXmasDemo.Slave"
+  whdload "AllTerrainRacingXmasDemo.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

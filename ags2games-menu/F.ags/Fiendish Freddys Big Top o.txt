@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1989
 Genre     : Sports - Multi-Event
 Players   : 1 to 5
-Whdload   : FiendishFreddysBigTopOFun.Slave
+Whdload   : FiendishFreddysBigTopOFun.slave

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:F/F16CombatPilot/F16CombatPilot.Slave
+;RunFile=A-Games:F/F16CombatPilot/F16CombatPilot.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:F/F16CombatPilot/"
 IF EXISTS ENV:whdloadargs
-  whdload "F16CombatPilot.Slave" $whdloadargs
+  whdload "F16CombatPilot.slave" $whdloadargs
 ELSE
-  whdload "F16CombatPilot.Slave"
+  whdload "F16CombatPilot.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

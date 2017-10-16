@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:L/Lorna/Lorna.Slave
+;RunFile=A-Games:L/Lorna/Lorna.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:L/Lorna/"
 IF EXISTS ENV:whdloadargs
-  whdload "Lorna.Slave" $whdloadargs
+  whdload "Lorna.slave" $whdloadargs
 ELSE
-  whdload "Lorna.Slave"
+  whdload "Lorna.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

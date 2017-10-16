@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:C/CoolSpot/"
 IF EXISTS ENV:whdloadargs
-	whdload "CoolSpot.Slave" $whdloadargs
+	whdload "CoolSpot.slave" $whdloadargs
 ELSE
-	whdload "CoolSpot.Slave"
+	whdload "CoolSpot.slave"
 ENDIF

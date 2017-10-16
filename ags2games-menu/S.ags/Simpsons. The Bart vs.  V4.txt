@@ -3,4 +3,4 @@ Publisher : Virgin Games
 Year      : 1993
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : BartVsTheWorld.Slave
+Whdload   : BartVsTheWorld.slave

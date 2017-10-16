@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:S/StarWars/"
 IF EXISTS ENV:whdloadargs
-	whdload "StarWars.slave" $whdloadargs
+	whdload "StarWars.Slave" $whdloadargs
 ELSE
-	whdload "StarWars.slave"
+	whdload "StarWars.Slave"
 ENDIF

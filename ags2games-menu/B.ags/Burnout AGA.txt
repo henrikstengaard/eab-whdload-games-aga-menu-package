@@ -1,0 +1,7 @@
+Name      : Burnout
+Version   : AGA
+Publisher : Vulcan Software
+Year      : 1996
+Genre     : Racing - Overhead
+Players   : 1 to 4, Simultaneous
+Whdload   : BurnoutAGA.slave

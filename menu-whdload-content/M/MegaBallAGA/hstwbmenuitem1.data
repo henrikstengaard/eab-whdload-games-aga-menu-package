@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Megaball AGA
-RunFile=MegaBallAGA.Slave
+RunFile=MegaBallAGA.slave
 AGS2Name=Megaball AGA
 iGameName=Megaball AGA

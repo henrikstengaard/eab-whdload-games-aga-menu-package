@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:G/GoldenAxe/"
 IF EXISTS ENV:whdloadargs
-	whdload "GoldenAxe.slave" $whdloadargs
+	whdload "GoldenAxe.Slave" $whdloadargs
 ELSE
-	whdload "GoldenAxe.slave"
+	whdload "GoldenAxe.Slave"
 ENDIF

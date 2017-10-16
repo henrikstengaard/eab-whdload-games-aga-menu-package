@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=P.P. Hammer
-RunFile=PPHammer.Slave
+RunFile=PPHammer.slave
 AGS2Name=P.P. Hammer
 iGameName=P.P. Hammer

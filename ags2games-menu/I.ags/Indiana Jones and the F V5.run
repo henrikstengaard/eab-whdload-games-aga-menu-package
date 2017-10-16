@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:I/IndianaJonesAtlantisAdvFr/IndianaJonesAtlantisAdvFr.Slave
+;RunFile=A-Games:I/IndianaJonesAtlantisAdvFr/IndianaJonesAtlantisAdvFr.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:I/IndianaJonesAtlantisAdvFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "IndianaJonesAtlantisAdvFr.Slave" $whdloadargs
+  whdload "IndianaJonesAtlantisAdvFr.slave" $whdloadargs
 ELSE
-  whdload "IndianaJonesAtlantisAdvFr.Slave"
+  whdload "IndianaJonesAtlantisAdvFr.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:A/AirborneRanger/"
 IF EXISTS ENV:whdloadargs
-	whdload "AirborneRanger.slave" $whdloadargs
+	whdload "AirborneRanger.Slave" $whdloadargs
 ELSE
-	whdload "AirborneRanger.slave"
+	whdload "AirborneRanger.Slave"
 ENDIF

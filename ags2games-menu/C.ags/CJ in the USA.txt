@@ -3,4 +3,4 @@ Publisher : Codemasters
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 or 2, Simultaneous
-Whdload   : CJInTheUSA.slave
+Whdload   : CJInTheUSA.Slave

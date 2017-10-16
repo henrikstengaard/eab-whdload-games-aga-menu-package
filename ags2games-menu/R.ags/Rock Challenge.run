@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/RockChallenge/RockChallenge.Slave
+;RunFile=A-Games:R/RockChallenge/RockChallenge.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:R/RockChallenge/"
 IF EXISTS ENV:whdloadargs
-  whdload "RockChallenge.Slave" $whdloadargs
+  whdload "RockChallenge.slave" $whdloadargs
 ELSE
-  whdload "RockChallenge.Slave"
+  whdload "RockChallenge.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

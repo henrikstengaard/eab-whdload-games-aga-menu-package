@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Corporation 2Disk
-RunFile=Corporation2Disk.slave
+RunFile=Corporation2Disk.Slave
 AGS2Name=Corporation 2Disk
 iGameName=Corporation 2Disk

@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=Sensible Soccer v1.1 - European Champions 512K
-RunFile=SensibleSoccerEuro512K.Slave
+Name=Sensible Soccer v1.1 - European Champions
+RunFile=SensibleSoccerEuro.Slave
 AGS2Name=Sensible Soccer v1.1 - Eur
-iGameName=Sensible Soccer v1.1 - European Champions 512K
+iGameName=Sensible Soccer v1.1 - European Champions

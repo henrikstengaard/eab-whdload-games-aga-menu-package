@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:V/ValhallaBeforeTheWar/"
 IF EXISTS ENV:whdloadargs
-	whdload "ValhallaBeforeTheWar.Slave" $whdloadargs
+	whdload "ValhallaBeforeTheWar.slave" $whdloadargs
 ELSE
-	whdload "ValhallaBeforeTheWar.Slave"
+	whdload "ValhallaBeforeTheWar.slave"
 ENDIF

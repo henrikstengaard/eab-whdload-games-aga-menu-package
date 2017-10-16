@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Slayer
-RunFile=Slayer.slave
+RunFile=Slayer.Slave
 AGS2Name=Slayer
 iGameName=Slayer

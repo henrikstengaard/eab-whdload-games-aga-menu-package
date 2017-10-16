@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:D/DefendersOfTheEarth/"
 IF EXISTS ENV:whdloadargs
-	whdload "DefendersOfTheEarth.Slave" $whdloadargs
+	whdload "DefendersOfTheEarth.slave" $whdloadargs
 ELSE
-	whdload "DefendersOfTheEarth.Slave"
+	whdload "DefendersOfTheEarth.slave"
 ENDIF

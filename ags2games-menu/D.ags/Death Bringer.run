@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:D/DeathBringerEmpire/DeathBringerEmpire.Slave
+;RunFile=A-Games:D/DeathbringerEmpire/DeathbringerEmpire.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:D/DeathBringerEmpire/"
+cd "A-Games:D/DeathbringerEmpire/"
 IF EXISTS ENV:whdloadargs
-  whdload "DeathBringerEmpire.Slave" $whdloadargs
+  whdload "DeathbringerEmpire.Slave" $whdloadargs
 ELSE
-  whdload "DeathBringerEmpire.Slave"
+  whdload "DeathbringerEmpire.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

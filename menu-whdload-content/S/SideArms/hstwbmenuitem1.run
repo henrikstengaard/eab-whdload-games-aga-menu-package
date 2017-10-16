@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:S/SideArms/"
 IF EXISTS ENV:whdloadargs
-	whdload "SideArms.Slave" $whdloadargs
+	whdload "SideArms.slave" $whdloadargs
 ELSE
-	whdload "SideArms.Slave"
+	whdload "SideArms.slave"
 ENDIF

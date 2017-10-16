@@ -3,4 +3,4 @@ Publisher : Titus Software
 Year      : 1990
 Genre     : Strategy - Company
 Players   : 1 Only
-Whdload   : DuckTales.Slave
+Whdload   : DuckTales.slave

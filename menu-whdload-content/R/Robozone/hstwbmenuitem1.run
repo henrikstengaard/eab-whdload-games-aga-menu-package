@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:R/Robozone/"
 IF EXISTS ENV:whdloadargs
-	whdload "Robozone.Slave" $whdloadargs
+	whdload "Robozone.slave" $whdloadargs
 ELSE
-	whdload "Robozone.Slave"
+	whdload "Robozone.slave"
 ENDIF

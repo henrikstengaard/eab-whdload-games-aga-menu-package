@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1989
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : NewZealandStory.Slave
+Whdload   : NewZealandStory.slave

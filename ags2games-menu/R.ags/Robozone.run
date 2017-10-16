@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/Robozone/Robozone.Slave
+;RunFile=A-Games:R/Robozone/Robozone.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:R/Robozone/"
 IF EXISTS ENV:whdloadargs
-  whdload "Robozone.Slave" $whdloadargs
+  whdload "Robozone.slave" $whdloadargs
 ELSE
-  whdload "Robozone.Slave"
+  whdload "Robozone.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

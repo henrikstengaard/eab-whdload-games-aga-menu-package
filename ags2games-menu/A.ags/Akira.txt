@@ -3,4 +3,4 @@ Publisher : ICE
 Year      : 1994
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Akira.Slave
+Whdload   : Akira.slave

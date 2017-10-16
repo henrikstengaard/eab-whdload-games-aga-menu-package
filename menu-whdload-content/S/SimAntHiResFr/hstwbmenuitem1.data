@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=SimAnt FR HiRes
-RunFile=SimAntHiResFr.Slave
+RunFile=SimAntHiresFr.slave
 AGS2Name=SimAnt FR HiRes
 iGameName=SimAnt FR HiRes

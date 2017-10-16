@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Castles
-RunFile=Castles.Slave
+RunFile=Castles.slave
 AGS2Name=Castles
 iGameName=Castles

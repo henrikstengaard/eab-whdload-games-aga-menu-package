@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:A/Alcatraz/"
 IF EXISTS ENV:whdloadargs
-	whdload "Alcatraz.Slave" $whdloadargs
+	whdload "Alcatraz.slave" $whdloadargs
 ELSE
-	whdload "Alcatraz.Slave"
+	whdload "Alcatraz.slave"
 ENDIF

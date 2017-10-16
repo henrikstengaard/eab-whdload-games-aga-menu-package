@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:G/Giganoid/Giganoid.Slave
+;RunFile=A-Games:G/Giganoid/Giganoid.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:G/Giganoid/"
 IF EXISTS ENV:whdloadargs
-  whdload "Giganoid.Slave" $whdloadargs
+  whdload "Giganoid.slave" $whdloadargs
 ELSE
-  whdload "Giganoid.Slave"
+  whdload "Giganoid.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

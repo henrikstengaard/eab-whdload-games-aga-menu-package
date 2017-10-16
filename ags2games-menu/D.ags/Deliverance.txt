@@ -2,4 +2,4 @@ Name      : Deliverance
 Publisher : 21st Century Entertainment
 Year      : 1992
 Players   : 1 Only
-Whdload   : Deliverance.Slave
+Whdload   : Deliverance.slave

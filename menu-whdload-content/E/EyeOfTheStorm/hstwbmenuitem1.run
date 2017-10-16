@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:E/EyeOfTheStorm/"
 IF EXISTS ENV:whdloadargs
-	whdload "Intro.Slave" $whdloadargs
+	whdload "EyeOfTheStorm.Slave" $whdloadargs
 ELSE
-	whdload "Intro.Slave"
+	whdload "EyeOfTheStorm.Slave"
 ENDIF

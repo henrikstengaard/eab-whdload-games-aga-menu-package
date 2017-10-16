@@ -1,6 +1,6 @@
 # EAB WHDLoad Games AGA Menu Package
 
-EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in English Board Amiga WHDLoad packs with update 2.6 applied. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
+EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in English Board Amiga WHDLoad packs v3.0. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
 
 **Note that this package only supports English Board Amiga WHDLoad packs as paths to start games are specifically generated for English Board Amiga WHDLoad packs.**
 

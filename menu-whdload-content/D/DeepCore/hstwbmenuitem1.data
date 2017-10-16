@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Deep Core
-RunFile=DeepCore.slave
+RunFile=DeepCore.Slave
 AGS2Name=Deep Core
 iGameName=Deep Core

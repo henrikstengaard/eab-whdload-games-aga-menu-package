@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Player Manager IT
-RunFile=PlayerManagerIt.Slave
+RunFile=PlayerManagerIt.slave
 AGS2Name=Player Manager IT
 iGameName=Player Manager IT

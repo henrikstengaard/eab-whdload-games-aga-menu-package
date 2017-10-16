@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=The Four Crystals of Trazere
-RunFile=FourCrystalsOfTrazere.Slave
+Name=The Four Crystals of Trazere getlegendsavedisk
+RunFile=getlegendsavedisk.slave
 AGS2Name=The Four Crystals of Tr V2
-iGameName=The Four Crystals of Trazere
+iGameName=The Four Crystals of Trazere getlegendsavedisk

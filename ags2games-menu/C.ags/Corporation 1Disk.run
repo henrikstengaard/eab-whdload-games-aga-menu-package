@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:C/Corporation1Disk/Corporation1Disk.slave
+;RunFile=A-Games:C/Corporation1Disk/Corporation1Disk.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:C/Corporation1Disk/"
 IF EXISTS ENV:whdloadargs
-  whdload "Corporation1Disk.slave" $whdloadargs
+  whdload "Corporation1Disk.Slave" $whdloadargs
 ELSE
-  whdload "Corporation1Disk.slave"
+  whdload "Corporation1Disk.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

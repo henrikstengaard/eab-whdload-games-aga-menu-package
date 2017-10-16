@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:S/SensibleSoccerEuro/"
 IF EXISTS ENV:whdloadargs
-	whdload "SensibleSoccerEuro.Slave" $whdloadargs
+	whdload "SensibleSoccerEuro512K.Slave" $whdloadargs
 ELSE
-	whdload "SensibleSoccerEuro.Slave"
+	whdload "SensibleSoccerEuro512K.Slave"
 ENDIF

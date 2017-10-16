@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:P/Pinkie/"
 IF EXISTS ENV:whdloadargs
-	whdload "Pinkie.Slave" $whdloadargs
+	whdload "Pinkie.slave" $whdloadargs
 ELSE
-	whdload "Pinkie.Slave"
+	whdload "Pinkie.slave"
 ENDIF

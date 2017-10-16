@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:D/DizzysExcellentAdventures/"
 IF EXISTS ENV:whdloadargs
-	whdload "Disk2.Slave" $whdloadargs
+	whdload "Disk1.Slave" $whdloadargs
 ELSE
-	whdload "Disk2.Slave"
+	whdload "Disk1.Slave"
 ENDIF

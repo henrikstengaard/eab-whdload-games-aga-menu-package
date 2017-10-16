@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:K/KirosQuest/KirosQuest.Slave
+;RunFile=A-Games:K/KirosQuest/KirosQuest.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:K/KirosQuest/"
 IF EXISTS ENV:whdloadargs
-  whdload "KirosQuest.Slave" $whdloadargs
+  whdload "KirosQuest.slave" $whdloadargs
 ELSE
-  whdload "KirosQuest.Slave"
+  whdload "KirosQuest.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

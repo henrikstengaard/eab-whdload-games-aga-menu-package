@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:L/Lorna/"
 IF EXISTS ENV:whdloadargs
-	whdload "Lorna.Slave" $whdloadargs
+	whdload "Lorna.slave" $whdloadargs
 ELSE
-	whdload "Lorna.Slave"
+	whdload "Lorna.slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:T/TurboOutRun/TurboOutrun.slave
+;RunFile=A-Games:T/TurboOutRun/TurboOutRun.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:T/TurboOutRun/"
 IF EXISTS ENV:whdloadargs
-  whdload "TurboOutrun.slave" $whdloadargs
+  whdload "TurboOutRun.Slave" $whdloadargs
 ELSE
-  whdload "TurboOutrun.slave"
+  whdload "TurboOutRun.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

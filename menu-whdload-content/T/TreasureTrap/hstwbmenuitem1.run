@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:T/TreasureTrap/"
 IF EXISTS ENV:whdloadargs
-	whdload "TreasureTrap.Slave" $whdloadargs
+	whdload "TreasureTrap.slave" $whdloadargs
 ELSE
-	whdload "TreasureTrap.Slave"
+	whdload "TreasureTrap.slave"
 ENDIF

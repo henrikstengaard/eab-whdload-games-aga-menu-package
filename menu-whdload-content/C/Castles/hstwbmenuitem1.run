@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:C/Castles/"
 IF EXISTS ENV:whdloadargs
-	whdload "Castles.Slave" $whdloadargs
+	whdload "Castles.slave" $whdloadargs
 ELSE
-	whdload "Castles.Slave"
+	whdload "Castles.slave"
 ENDIF

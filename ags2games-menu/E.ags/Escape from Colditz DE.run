@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:F/FluchtAusColditzDe/FluchtAusColditzDe.slave
+;RunFile=A-Games:F/FluchtAusColditzDe/FluchtAusColditzDe.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:F/FluchtAusColditzDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "FluchtAusColditzDe.slave" $whdloadargs
+  whdload "FluchtAusColditzDe.Slave" $whdloadargs
 ELSE
-  whdload "FluchtAusColditzDe.slave"
+  whdload "FluchtAusColditzDe.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

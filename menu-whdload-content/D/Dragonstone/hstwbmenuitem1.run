@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:D/Dragonstone/"
 IF EXISTS ENV:whdloadargs
-	whdload "Dragonstone.slave" $whdloadargs
+	whdload "Dragonstone.Slave" $whdloadargs
 ELSE
-	whdload "Dragonstone.slave"
+	whdload "Dragonstone.Slave"
 ENDIF

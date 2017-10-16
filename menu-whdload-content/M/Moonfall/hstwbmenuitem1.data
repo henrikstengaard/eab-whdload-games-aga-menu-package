@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=MoonFall
-RunFile=Moonfall.Slave
+RunFile=Moonfall.slave
 AGS2Name=MoonFall
 iGameName=MoonFall

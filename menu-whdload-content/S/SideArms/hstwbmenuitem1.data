@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=SideArms
-RunFile=SideArms.Slave
+RunFile=SideArms.slave
 AGS2Name=SideArms
 iGameName=SideArms

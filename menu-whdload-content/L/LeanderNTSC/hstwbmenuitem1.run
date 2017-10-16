@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:L/LeanderNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "LeanderNTSC.Slave" $whdloadargs
+	whdload "LeanderNTSC.slave" $whdloadargs
 ELSE
-	whdload "LeanderNTSC.Slave"
+	whdload "LeanderNTSC.slave"
 ENDIF

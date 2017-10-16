@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:T/Tecnoball/"
 IF EXISTS ENV:whdloadargs
-	whdload "Tecnoball.Slave" $whdloadargs
+	whdload "Tecnoball.slave" $whdloadargs
 ELSE
-	whdload "Tecnoball.Slave"
+	whdload "Tecnoball.slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:M/Moonfall/Moonfall.Slave
+;RunFile=A-Games:M/Moonfall/Moonfall.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:M/Moonfall/"
 IF EXISTS ENV:whdloadargs
-  whdload "Moonfall.Slave" $whdloadargs
+  whdload "Moonfall.slave" $whdloadargs
 ELSE
-  whdload "Moonfall.Slave"
+  whdload "Moonfall.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

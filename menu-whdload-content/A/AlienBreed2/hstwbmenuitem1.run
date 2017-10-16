@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:A/AlienBreed2/"
 IF EXISTS ENV:whdloadargs
-	whdload "AlienBreed2.Slave" $whdloadargs
+	whdload "AlienBreed2.slave" $whdloadargs
 ELSE
-	whdload "AlienBreed2.Slave"
+	whdload "AlienBreed2.slave"
 ENDIF

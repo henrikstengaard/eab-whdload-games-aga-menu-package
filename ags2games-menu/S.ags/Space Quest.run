@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:S/SpaceQuest/SpaceQuest.slave
+;RunFile=A-Games:S/SpaceQuest/SpaceQuest.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:S/SpaceQuest/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpaceQuest.slave" $whdloadargs
+  whdload "SpaceQuest.Slave" $whdloadargs
 ELSE
-  whdload "SpaceQuest.slave"
+  whdload "SpaceQuest.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Kennedy Approach
-RunFile=KennedyApproach.Slave
+RunFile=KennedyApproach.slave
 AGS2Name=Kennedy Approach
 iGameName=Kennedy Approach

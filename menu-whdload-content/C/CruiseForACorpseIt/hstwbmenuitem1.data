@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Cruise for a Corpse IT
-RunFile=CruiseForACorpseIt.Slave
+RunFile=CruiseForACorpseIt.slave
 AGS2Name=Cruise for a Corpse IT
 iGameName=Cruise for a Corpse IT

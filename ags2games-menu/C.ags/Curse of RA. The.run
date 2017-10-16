@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:C/CurseOfRA/CurseOfRA.slave
+;RunFile=A-Games:C/CurseOfRa/CurseOfRa.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:C/CurseOfRA/"
+cd "A-Games:C/CurseOfRa/"
 IF EXISTS ENV:whdloadargs
-  whdload "CurseOfRA.slave" $whdloadargs
+  whdload "CurseOfRa.slave" $whdloadargs
 ELSE
-  whdload "CurseOfRA.slave"
+  whdload "CurseOfRa.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

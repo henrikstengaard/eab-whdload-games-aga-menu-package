@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:A/AdventuresOfWillyBeamish/"
 IF EXISTS ENV:whdloadargs
-	whdload "AdventuresOfWillyBeamish.Slave" $whdloadargs
+	whdload "AdventuresOfWillyBeamish.slave" $whdloadargs
 ELSE
-	whdload "AdventuresOfWillyBeamish.Slave"
+	whdload "AdventuresOfWillyBeamish.slave"
 ENDIF

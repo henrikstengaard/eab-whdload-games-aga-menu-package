@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Akira
-RunFile=Akira.Slave
+RunFile=Akira.slave
 AGS2Name=Akira
 iGameName=Akira

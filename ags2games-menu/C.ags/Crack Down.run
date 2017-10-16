@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:C/CrackDown/CrackDown.Slave
+;RunFile=A-Games:C/Crackdown/Crackdown.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:C/CrackDown/"
+cd "A-Games:C/Crackdown/"
 IF EXISTS ENV:whdloadargs
-  whdload "CrackDown.Slave" $whdloadargs
+  whdload "Crackdown.slave" $whdloadargs
 ELSE
-  whdload "CrackDown.Slave"
+  whdload "Crackdown.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

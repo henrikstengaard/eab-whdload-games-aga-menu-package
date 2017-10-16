@@ -1,0 +1,7 @@
+Name      : W Potrzasku
+Language  : Polish
+Publisher : L.K. Avalon
+Year      : 1997
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+Whdload   : WPotrzaskuPl.Slave

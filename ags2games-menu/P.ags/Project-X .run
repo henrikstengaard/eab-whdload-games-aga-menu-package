@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:P/ProjectXv2/ProjectXv2.Slave
+;RunFile=A-Games:P/ProjectXBonusLevel/ProjectXBonusLevel.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Whdload
-cd "A-Games:P/ProjectXv2/"
+cd "A-Games:P/ProjectXBonusLevel/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProjectXv2.Slave" $whdloadargs
+  whdload "ProjectXBonusLevel.Slave" $whdloadargs
 ELSE
-  whdload "ProjectXv2.Slave"
+  whdload "ProjectXBonusLevel.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

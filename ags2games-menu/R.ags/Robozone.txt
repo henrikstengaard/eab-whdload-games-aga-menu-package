@@ -2,4 +2,4 @@ Name      : Robozone
 Publisher : Image Works
 Year      : 1991
 Players   : 1 Only
-Whdload   : Robozone.Slave
+Whdload   : Robozone.slave

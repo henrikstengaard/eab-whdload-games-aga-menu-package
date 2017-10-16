@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/ATrain512kCz/ATrain512kCz.slave
+;RunFile=A-Games:A/ATrain512kCz/ATrain512KCz.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:A/ATrain512kCz/"
 IF EXISTS ENV:whdloadargs
-  whdload "ATrain512kCz.slave" $whdloadargs
+  whdload "ATrain512KCz.slave" $whdloadargs
 ELSE
-  whdload "ATrain512kCz.slave"
+  whdload "ATrain512KCz.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

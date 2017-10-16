@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:A/Akira/"
 IF EXISTS ENV:whdloadargs
-	whdload "Akira.Slave" $whdloadargs
+	whdload "Akira.slave" $whdloadargs
 ELSE
-	whdload "Akira.Slave"
+	whdload "Akira.slave"
 ENDIF

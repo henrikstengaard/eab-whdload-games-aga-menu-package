@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Leander
-RunFile=Leander.Slave
+RunFile=Leander.slave
 AGS2Name=Leander
 iGameName=Leander

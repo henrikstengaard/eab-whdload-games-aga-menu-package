@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:T/TreasureTrap/TreasureTrap.Slave
+;RunFile=A-Games:T/TreasureTrap/TreasureTrap.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:T/TreasureTrap/"
 IF EXISTS ENV:whdloadargs
-  whdload "TreasureTrap.Slave" $whdloadargs
+  whdload "TreasureTrap.slave" $whdloadargs
 ELSE
-  whdload "TreasureTrap.Slave"
+  whdload "TreasureTrap.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

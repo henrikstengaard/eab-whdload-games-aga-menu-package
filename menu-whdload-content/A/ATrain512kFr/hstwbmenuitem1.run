@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:A/ATrain512kFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "ATrain512kFr.Slave" $whdloadargs
+	whdload "ATrain512KFr.slave" $whdloadargs
 ELSE
-	whdload "ATrain512kFr.Slave"
+	whdload "ATrain512KFr.slave"
 ENDIF

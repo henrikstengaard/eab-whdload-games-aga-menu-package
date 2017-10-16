@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:I/InternationalKarate+/InternationalKarate+.Slave
+;RunFile=A-Games:I/InternationalKarate+/InternationalKarate+.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:I/InternationalKarate+/"
 IF EXISTS ENV:whdloadargs
-  whdload "InternationalKarate+.Slave" $whdloadargs
+  whdload "InternationalKarate+.slave" $whdloadargs
 ELSE
-  whdload "InternationalKarate+.Slave"
+  whdload "InternationalKarate+.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

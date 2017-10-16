@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:F/FourCrystalsOfTrazere/"
 IF EXISTS ENV:whdloadargs
-	whdload "getlegendsavedisk.slave" $whdloadargs
+	whdload "FourCrystalsOfTrazere.Slave" $whdloadargs
 ELSE
-	whdload "getlegendsavedisk.slave"
+	whdload "FourCrystalsOfTrazere.Slave"
 ENDIF

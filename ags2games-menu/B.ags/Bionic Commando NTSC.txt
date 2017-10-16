@@ -1,0 +1,7 @@
+Name      : Bionic Commando
+Version   : NTSC
+Publisher : Go!
+Year      : 1988
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+Whdload   : BionicCommandoNTSC.Slave

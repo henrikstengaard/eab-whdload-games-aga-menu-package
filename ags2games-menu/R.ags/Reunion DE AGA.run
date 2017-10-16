@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/ReunionAGADe/ReunionAGADe.Slave
+;RunFile=A-Games:R/ReunionAGADe/ReunionAGADe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:R/ReunionAGADe/"
 IF EXISTS ENV:whdloadargs
-  whdload "ReunionAGADe.Slave" $whdloadargs
+  whdload "ReunionAGADe.slave" $whdloadargs
 ELSE
-  whdload "ReunionAGADe.Slave"
+  whdload "ReunionAGADe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

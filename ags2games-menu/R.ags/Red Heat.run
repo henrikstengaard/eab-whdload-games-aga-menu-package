@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/RedHeat/RedHeat.Slave
+;RunFile=A-Games:R/RedHeat/RedHeat.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:R/RedHeat/"
 IF EXISTS ENV:whdloadargs
-  whdload "RedHeat.Slave" $whdloadargs
+  whdload "RedHeat.slave" $whdloadargs
 ELSE
-  whdload "RedHeat.Slave"
+  whdload "RedHeat.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

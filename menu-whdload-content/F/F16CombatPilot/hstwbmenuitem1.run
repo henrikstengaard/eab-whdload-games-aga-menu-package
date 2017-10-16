@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:F/F16CombatPilot/"
 IF EXISTS ENV:whdloadargs
-	whdload "F16CombatPilot.Slave" $whdloadargs
+	whdload "F16CombatPilot.slave" $whdloadargs
 ELSE
-	whdload "F16CombatPilot.Slave"
+	whdload "F16CombatPilot.slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:D/DeepCore/DeepCore.slave
+;RunFile=A-Games:D/DeepCore/DeepCore.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:D/DeepCore/"
 IF EXISTS ENV:whdloadargs
-  whdload "DeepCore.slave" $whdloadargs
+  whdload "DeepCore.Slave" $whdloadargs
 ELSE
-  whdload "DeepCore.slave"
+  whdload "DeepCore.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

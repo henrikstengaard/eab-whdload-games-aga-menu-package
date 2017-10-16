@@ -1,7 +1,7 @@
 ; Whdload
 cd "A-Games:R/Reunion/"
 IF EXISTS ENV:whdloadargs
-	whdload "Reunion.Slave" $whdloadargs
+	whdload "Reunion.slave" $whdloadargs
 ELSE
-	whdload "Reunion.Slave"
+	whdload "Reunion.slave"
 ENDIF

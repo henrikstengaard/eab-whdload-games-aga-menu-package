@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Airborne Ranger
-RunFile=AirborneRanger.slave
+RunFile=AirborneRanger.Slave
 AGS2Name=Airborne Ranger
 iGameName=Airborne Ranger

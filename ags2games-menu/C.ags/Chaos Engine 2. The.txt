@@ -2,4 +2,4 @@ Name      : Chaos Engine 2, The
 Publisher : Renegade
 Year      : 1996
 Players   : 1 or 2, Simultaneous
-Whdload   : ChaosEngine2.Slave
+Whdload   : ChaosEngine2.slave

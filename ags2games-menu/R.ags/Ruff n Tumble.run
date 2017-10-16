@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:R/RuffNTumble/RuffNTumble.Slave
+;RunFile=A-Games:R/RuffNTumble/RuffNTumble.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Whdload
 cd "A-Games:R/RuffNTumble/"
 IF EXISTS ENV:whdloadargs
-  whdload "RuffNTumble.Slave" $whdloadargs
+  whdload "RuffNTumble.slave" $whdloadargs
 ELSE
-  whdload "RuffNTumble.Slave"
+  whdload "RuffNTumble.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
