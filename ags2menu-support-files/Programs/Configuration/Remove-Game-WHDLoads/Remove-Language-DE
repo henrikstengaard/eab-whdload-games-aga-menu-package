@@ -634,24 +634,24 @@ ENDIF
 IF EXISTS "A-Games:Z/ZombiDe"
   Delete >NIL: "A-Games:Z/ZombiDe" ALL
 ENDIF
-IF EXISTS "A-Games:D/DinoWarsDe"
-  Delete >NIL: "A-Games:D/DinoWarsDe" ALL
+IF EXISTS "A-Games:DinoWarsDe"
+  Delete >NIL: "A-Games:DinoWarsDe" ALL
 ENDIF
-IF EXISTS "A-Games:F/FussballTotalDe"
-  Delete >NIL: "A-Games:F/FussballTotalDe" ALL
+IF EXISTS "A-Games:FussballTotalDe"
+  Delete >NIL: "A-Games:FussballTotalDe" ALL
 ENDIF
-IF EXISTS "A-Games:M/MightAndMagic3De"
-  Delete >NIL: "A-Games:M/MightAndMagic3De" ALL
+IF EXISTS "A-Games:MightAndMagic3De"
+  Delete >NIL: "A-Games:MightAndMagic3De" ALL
 ENDIF
-IF EXISTS "A-Games:P/PizzaConnectionDe"
-  Delete >NIL: "A-Games:P/PizzaConnectionDe" ALL
+IF EXISTS "A-Games:PizzaConnectionDe"
+  Delete >NIL: "A-Games:PizzaConnectionDe" ALL
 ENDIF
-IF EXISTS "A-Games:S/SimLifeDe"
-  Delete >NIL: "A-Games:S/SimLifeDe" ALL
+IF EXISTS "A-Games:SimLifeDe"
+  Delete >NIL: "A-Games:SimLifeDe" ALL
 ENDIF
-IF EXISTS "A-Games:T/TransworldDe"
-  Delete >NIL: "A-Games:T/TransworldDe" ALL
+IF EXISTS "A-Games:TransworldDe"
+  Delete >NIL: "A-Games:TransworldDe" ALL
 ENDIF
-IF EXISTS "A-Games:T/TrivialPursuitDe"
-  Delete >NIL: "A-Games:T/TrivialPursuitDe" ALL
+IF EXISTS "A-Games:TrivialPursuitDe"
+  Delete >NIL: "A-Games:TrivialPursuitDe" ALL
 ENDIF

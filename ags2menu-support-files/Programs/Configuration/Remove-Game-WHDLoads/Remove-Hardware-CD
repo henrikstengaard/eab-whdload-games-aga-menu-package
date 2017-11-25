@@ -22,6 +22,6 @@ ENDIF
 IF EXISTS "A-Games:V/VirtualKarting2AGACD"
   Delete >NIL: "A-Games:V/VirtualKarting2AGACD" ALL
 ENDIF
-IF EXISTS "A-Games:E/EmeraldMinesCD"
-  Delete >NIL: "A-Games:E/EmeraldMinesCD" ALL
+IF EXISTS "A-Games:EmeraldMinesCD"
+  Delete >NIL: "A-Games:EmeraldMinesCD" ALL
 ENDIF

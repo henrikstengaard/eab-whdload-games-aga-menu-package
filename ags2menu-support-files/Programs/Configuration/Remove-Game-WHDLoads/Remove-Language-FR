@@ -475,6 +475,6 @@ ENDIF
 IF EXISTS "A-Games:Z/ZombiFr"
   Delete >NIL: "A-Games:Z/ZombiFr" ALL
 ENDIF
-IF EXISTS "A-Games:T/TrivialPursuitFr"
-  Delete >NIL: "A-Games:T/TrivialPursuitFr" ALL
+IF EXISTS "A-Games:TrivialPursuitFr"
+  Delete >NIL: "A-Games:TrivialPursuitFr" ALL
 ENDIF

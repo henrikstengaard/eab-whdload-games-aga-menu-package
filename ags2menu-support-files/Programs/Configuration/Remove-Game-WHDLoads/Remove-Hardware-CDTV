@@ -55,6 +55,6 @@ ENDIF
 IF EXISTS "A-Games:X/Xenon2CDTV"
   Delete >NIL: "A-Games:X/Xenon2CDTV" ALL
 ENDIF
-IF EXISTS "A-Games:B/BattlestormCDTV"
-  Delete >NIL: "A-Games:B/BattlestormCDTV" ALL
+IF EXISTS "A-Games:BattlestormCDTV"
+  Delete >NIL: "A-Games:BattlestormCDTV" ALL
 ENDIF
