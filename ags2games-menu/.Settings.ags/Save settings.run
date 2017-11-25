@@ -1,12 +1,24 @@
 echo "*ec"
 IF EXISTS ENV:whdloadargs
-	copy >NIL: ENV:whdloadargs S:Settings/whdloadargs 
+  copy >NIL: ENV:whdloadargs S:Settings/whdloadargs
+ELSE
+  IF EXISTS S:Settings/whdloadargs
+	Delete >NIL: S:Settings/whdloadargs
+  ENDIF
 ENDIF
 IF EXISTS ENV:ags2favouritesmode
-	copy >NIL: ENV:ags2favouritesmode S:Settings/ags2favouritesmode 
+  copy >NIL: ENV:ags2favouritesmode S:Settings/ags2favouritesmode
+ELSE
+  IF EXISTS S:Settings/ags2favouritesmode
+	Delete >NIL: S:Settings/ags2favouritesmode
+  ENDIF
 ENDIF
 IF EXISTS ENV:ags2music
-	copy >NIL: ENV:ags2music S:Settings/ags2music 
+  copy >NIL: ENV:ags2music S:Settings/ags2music
+ELSE
+  IF EXISTS S:Settings/ags2music
+	Delete >NIL: S:Settings/ags2music
+  ENDIF
 ENDIF
 echo "Settings saved"
 wait 3
