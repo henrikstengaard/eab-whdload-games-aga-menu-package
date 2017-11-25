@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BostonBombClub/"
 IF EXISTS ENV:whdloadargs
-	whdload "BostonBombClub.Slave" $whdloadargs
+  whdload "BostonBombClub.Slave" $whdloadargs
 ELSE
-	whdload "BostonBombClub.Slave"
+  whdload "BostonBombClub.Slave"
 ENDIF

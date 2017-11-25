@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Datastorm/"
 IF EXISTS ENV:whdloadargs
-	whdload "Datastorm.Slave" $whdloadargs
+  whdload "Datastorm.Slave" $whdloadargs
 ELSE
-	whdload "Datastorm.Slave"
+  whdload "Datastorm.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BansheeAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "BansheeAGA.slave" $whdloadargs
+  whdload "BansheeAGA.slave" $whdloadargs
 ELSE
-	whdload "BansheeAGA.slave"
+  whdload "BansheeAGA.slave"
 ENDIF

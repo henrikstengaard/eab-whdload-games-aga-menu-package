@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WingsOfFury/"
 IF EXISTS ENV:whdloadargs
-	whdload "WingsOfFury.Slave" $whdloadargs
+  whdload "WingsOfFury.Slave" $whdloadargs
 ELSE
-	whdload "WingsOfFury.Slave"
+  whdload "WingsOfFury.Slave"
 ENDIF

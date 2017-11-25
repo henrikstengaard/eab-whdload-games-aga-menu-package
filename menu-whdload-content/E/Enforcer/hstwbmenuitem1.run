@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Enforcer/"
 IF EXISTS ENV:whdloadargs
-	whdload "Enforcer.Slave" $whdloadargs
+  whdload "Enforcer.Slave" $whdloadargs
 ELSE
-	whdload "Enforcer.Slave"
+  whdload "Enforcer.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Version   : AGA DemoPlay
 Publisher : Ocean
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-Whdload   : AlienBreed3DDemoPlayAGA.Slave
+RunFile   : AlienBreed3DDemoPlayAGA.Slave

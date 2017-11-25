@@ -3,4 +3,4 @@ Publisher : Idea Software
 Year      : 1991
 Genre     : Racing - Overhead
 Players   : 1 Only
-Whdload   : ChampionDriver.Slave
+RunFile   : ChampionDriver.Slave

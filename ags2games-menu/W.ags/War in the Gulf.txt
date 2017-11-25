@@ -2,4 +2,4 @@ Name      : War in the Gulf
 Publisher : Empire Software
 Year      : 1993
 Genre     : Simulation - Tank
-Whdload   : WarInTheGulf.Slave
+RunFile   : WarInTheGulf.Slave

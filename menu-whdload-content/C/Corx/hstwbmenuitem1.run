@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Corx/"
 IF EXISTS ENV:whdloadargs
-	whdload "Corx.Slave" $whdloadargs
+  whdload "Corx.Slave" $whdloadargs
 ELSE
-	whdload "Corx.Slave"
+  whdload "Corx.Slave"
 ENDIF

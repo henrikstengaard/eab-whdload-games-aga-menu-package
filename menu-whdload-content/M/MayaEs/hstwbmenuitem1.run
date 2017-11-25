@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MayaEs/"
 IF EXISTS ENV:whdloadargs
-	whdload "MayaEs.Slave" $whdloadargs
+  whdload "MayaEs.Slave" $whdloadargs
 ELSE
-	whdload "MayaEs.Slave"
+  whdload "MayaEs.Slave"
 ENDIF

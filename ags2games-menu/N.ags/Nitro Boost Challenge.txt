@@ -3,4 +3,4 @@ Publisher : Codemasters
 Year      : 1989
 Genre     : Racing - Overhead
 Players   : 1 Only
-Whdload   : NitroBoostChallenge.slave
+RunFile   : NitroBoostChallenge.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DarkSpyre/"
 IF EXISTS ENV:whdloadargs
-	whdload "DarkSpyre.Slave" $whdloadargs
+  whdload "DarkSpyre.Slave" $whdloadargs
 ELSE
-	whdload "DarkSpyre.Slave"
+  whdload "DarkSpyre.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DaleyThompsonsOC1Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "DaleyThompsonsOC1Disk.Slave" $whdloadargs
+  whdload "DaleyThompsonsOC1Disk.Slave" $whdloadargs
 ELSE
-	whdload "DaleyThompsonsOC1Disk.Slave"
+  whdload "DaleyThompsonsOC1Disk.Slave"
 ENDIF

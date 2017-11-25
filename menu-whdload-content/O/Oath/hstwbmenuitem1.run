@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Oath/"
 IF EXISTS ENV:whdloadargs
-	whdload "Oath.Slave" $whdloadargs
+  whdload "Oath.Slave" $whdloadargs
 ELSE
-	whdload "Oath.Slave"
+  whdload "Oath.Slave"
 ENDIF

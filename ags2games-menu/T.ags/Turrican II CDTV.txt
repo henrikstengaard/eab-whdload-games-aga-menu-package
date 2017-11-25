@@ -3,4 +3,4 @@ Version   : CDTV
 Publisher : Rainbow Arts
 Year      : 1991
 Players   : 1
-Whdload   : Turrican2CDTV.Slave
+RunFile   : Turrican2CDTV.Slave

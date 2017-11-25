@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChessPlayer2150AA/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChessPlayer2150AA.Slave" $whdloadargs
+  whdload "ChessPlayer2150AA.Slave" $whdloadargs
 ELSE
-	whdload "ChessPlayer2150AA.Slave"
+  whdload "ChessPlayer2150AA.Slave"
 ENDIF

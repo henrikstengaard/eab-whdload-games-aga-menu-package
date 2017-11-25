@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NoSecondPrize/"
 IF EXISTS ENV:whdloadargs
-	whdload "NoSecondPrize.slave" $whdloadargs
+  whdload "NoSecondPrize.slave" $whdloadargs
 ELSE
-	whdload "NoSecondPrize.slave"
+  whdload "NoSecondPrize.slave"
 ENDIF

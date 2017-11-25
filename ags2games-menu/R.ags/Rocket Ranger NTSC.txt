@@ -4,4 +4,4 @@ Publisher : Cinemaware
 Year      : 1988
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : RocketRangerNTSC.Slave
+RunFile   : RocketRangerNTSC.Slave

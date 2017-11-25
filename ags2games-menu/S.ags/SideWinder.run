@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SideWinder/"
 IF EXISTS ENV:whdloadargs
   whdload "Sidewinder.Slave" $whdloadargs

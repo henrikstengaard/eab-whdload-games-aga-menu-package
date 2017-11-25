@@ -4,4 +4,4 @@ Publisher : Blue Byte
 Year      : 1992
 Genre     : Strategy - War
 Players   : 1 or 2, Simultaneous
-Whdload   : HistoryLineDe.Slave
+RunFile   : HistoryLineDe.Slave

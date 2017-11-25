@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TornadoAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "TornadoAGA.slave" $whdloadargs
+  whdload "TornadoAGA.slave" $whdloadargs
 ELSE
-	whdload "TornadoAGA.slave"
+  whdload "TornadoAGA.slave"
 ENDIF

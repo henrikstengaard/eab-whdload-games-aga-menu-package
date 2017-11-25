@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChuckRock2CD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChuckRock2CD32.slave" $whdloadargs
+  whdload "ChuckRock2CD32.slave" $whdloadargs
 ELSE
-	whdload "ChuckRock2CD32.slave"
+  whdload "ChuckRock2CD32.slave"
 ENDIF

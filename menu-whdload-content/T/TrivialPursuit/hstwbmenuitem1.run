@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:T/TrivialPursuit/"
+; Run WHDLoad
+cd "A-Games:TrivialPursuit/"
 IF EXISTS ENV:whdloadargs
-	whdload "TrivialPursuit.slave" $whdloadargs
+  whdload "TrivialPursuit.slave" $whdloadargs
 ELSE
-	whdload "TrivialPursuit.slave"
+  whdload "TrivialPursuit.slave"
 ENDIF

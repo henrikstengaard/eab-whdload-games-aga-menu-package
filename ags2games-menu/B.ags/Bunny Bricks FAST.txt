@@ -3,4 +3,4 @@ Version   : FAST
 Publisher : Silmarils
 Year      : 1992
 Genre     : Arcade - Breakout/Pong
-Whdload   : BunnyBricksFast.Slave
+RunFile   : BunnyBricksFast.Slave

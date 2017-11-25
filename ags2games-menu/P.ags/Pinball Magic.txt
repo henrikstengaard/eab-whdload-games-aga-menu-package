@@ -3,4 +3,4 @@ Publisher : Loriciel
 Year      : 1990
 Genre     : Arcade - Pinball
 Players   : 1 or 2
-Whdload   : PinballMagic.Slave
+RunFile   : PinballMagic.Slave

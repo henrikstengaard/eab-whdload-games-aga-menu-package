@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChaosEngine/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChaosEngine.Slave" $whdloadargs
+  whdload "ChaosEngine.Slave" $whdloadargs
 ELSE
-	whdload "ChaosEngine.Slave"
+  whdload "ChaosEngine.Slave"
 ENDIF

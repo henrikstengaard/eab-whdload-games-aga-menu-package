@@ -3,4 +3,4 @@ Publisher : MicroStyle
 Year      : 1989
 Genre     : Racing - Miscellaneous
 Players   : 1 to 7
-Whdload   : StuntCarRacerTNT.Slave
+RunFile   : StuntCarRacerTNT.Slave

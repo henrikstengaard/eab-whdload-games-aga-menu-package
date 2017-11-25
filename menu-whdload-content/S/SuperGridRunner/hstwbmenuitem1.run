@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuperGridRunner/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuperGridRunner.Slave" $whdloadargs
+  whdload "SuperGridRunner.Slave" $whdloadargs
 ELSE
-	whdload "SuperGridRunner.Slave"
+  whdload "SuperGridRunner.Slave"
 ENDIF

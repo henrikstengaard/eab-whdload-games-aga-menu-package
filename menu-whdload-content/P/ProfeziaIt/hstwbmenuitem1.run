@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/ProfeziaIt/"
 IF EXISTS ENV:whdloadargs
-	whdload "ProfeziaIt.Slave" $whdloadargs
+  whdload "ProfeziaIt.Slave" $whdloadargs
 ELSE
-	whdload "ProfeziaIt.Slave"
+  whdload "ProfeziaIt.Slave"
 ENDIF

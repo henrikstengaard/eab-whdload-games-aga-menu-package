@@ -3,4 +3,4 @@ Publisher : Mandarin
 Year      : 1988
 Genre     : Adventure - Graphics/Text
 Players   : 1 Only
-Whdload   : Lancelot.Slave
+RunFile   : Lancelot.Slave

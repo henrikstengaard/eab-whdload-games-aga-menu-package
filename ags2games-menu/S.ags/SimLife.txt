@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1993
 Genre     : Simulation - Miscellaneous
 Players   : 1 Only
-Whdload   : SimLife.Slave
+RunFile   : SimLife.Slave

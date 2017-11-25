@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/Netherworld/"
 IF EXISTS ENV:whdloadargs
-	whdload "Netherworld.slave" $whdloadargs
+  whdload "Netherworld.slave" $whdloadargs
 ELSE
-	whdload "Netherworld.slave"
+  whdload "Netherworld.slave"
 ENDIF

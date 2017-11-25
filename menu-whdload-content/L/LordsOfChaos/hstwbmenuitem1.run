@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LordsOfChaos/"
 IF EXISTS ENV:whdloadargs
-	whdload "LordsOfChaos.Slave" $whdloadargs
+  whdload "LordsOfChaos.Slave" $whdloadargs
 ELSE
-	whdload "LordsOfChaos.Slave"
+  whdload "LordsOfChaos.Slave"
 ENDIF

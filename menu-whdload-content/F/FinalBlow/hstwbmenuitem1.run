@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FinalBlow/"
 IF EXISTS ENV:whdloadargs
-	whdload "FinalBlow.slave" $whdloadargs
+  whdload "FinalBlow.slave" $whdloadargs
 ELSE
-	whdload "FinalBlow.slave"
+  whdload "FinalBlow.slave"
 ENDIF

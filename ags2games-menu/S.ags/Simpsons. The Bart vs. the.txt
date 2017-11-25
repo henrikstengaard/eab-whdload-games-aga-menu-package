@@ -4,4 +4,4 @@ Publisher : Ocean
 Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : BartVsSpaceMutants1Disk.Slave
+RunFile   : BartVsSpaceMutants1Disk.Slave

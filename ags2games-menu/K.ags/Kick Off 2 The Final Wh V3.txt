@@ -3,4 +3,4 @@ Language  : German
 Publisher : Anco
 Year      : 1991
 Players   : 1 - 4 (4 simultaneous)
-Whdload   : KickOff2FWDe.Slave
+RunFile   : KickOff2FWDe.Slave

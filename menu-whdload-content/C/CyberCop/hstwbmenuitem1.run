@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CyberCop/"
 IF EXISTS ENV:whdloadargs
-	whdload "CyberCop.slave" $whdloadargs
+  whdload "CyberCop.slave" $whdloadargs
 ELSE
-	whdload "CyberCop.slave"
+  whdload "CyberCop.slave"
 ENDIF

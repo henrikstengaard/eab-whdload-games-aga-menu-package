@@ -3,4 +3,4 @@ Publisher : US Gold
 Year      : 1994
 Genre     : Racing - Cars
 Players   : 1 to 8
-Whdload   : PowerDrive.Slave
+RunFile   : PowerDrive.Slave

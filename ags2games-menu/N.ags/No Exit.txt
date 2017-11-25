@@ -2,4 +2,4 @@ Name      : No Exit
 Publisher : Coktel Vision
 Year      : 1990
 Players   : 1 or 2, Simultaneous
-Whdload   : NoExit.Slave
+RunFile   : NoExit.Slave

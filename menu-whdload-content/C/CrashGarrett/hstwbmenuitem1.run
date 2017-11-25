@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrashGarrett/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrashGarrett.Slave" $whdloadargs
+  whdload "CrashGarrett.Slave" $whdloadargs
 ELSE
-	whdload "CrashGarrett.Slave"
+  whdload "CrashGarrett.Slave"
 ENDIF

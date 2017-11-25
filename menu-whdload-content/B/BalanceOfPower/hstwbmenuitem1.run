@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BalanceOfPower/"
 IF EXISTS ENV:whdloadargs
-	whdload "BalanceOfPower.Slave" $whdloadargs
+  whdload "BalanceOfPower.Slave" $whdloadargs
 ELSE
-	whdload "BalanceOfPower.Slave"
+  whdload "BalanceOfPower.Slave"
 ENDIF

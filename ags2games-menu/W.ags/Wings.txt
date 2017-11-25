@@ -3,4 +3,4 @@ Publisher : Cinemaware
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : Wings.slave
+RunFile   : Wings.slave

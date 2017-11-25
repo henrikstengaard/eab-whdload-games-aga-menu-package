@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HeadOverHeels/"
 IF EXISTS ENV:whdloadargs
-	whdload "HeadOverHeels.slave" $whdloadargs
+  whdload "HeadOverHeels.slave" $whdloadargs
 ELSE
-	whdload "HeadOverHeels.slave"
+  whdload "HeadOverHeels.slave"
 ENDIF

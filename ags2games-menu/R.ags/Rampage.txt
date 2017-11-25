@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1989
 Genre     : Arcade - Miscellaneous
 Players   : 1 to 3, Simultaneous
-Whdload   : Rampage.slave
+RunFile   : Rampage.slave

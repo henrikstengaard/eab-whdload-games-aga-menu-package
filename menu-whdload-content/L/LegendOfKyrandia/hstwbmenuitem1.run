@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LegendOfKyrandia/"
 IF EXISTS ENV:whdloadargs
-	whdload "LegendOfKyrandia.Slave" $whdloadargs
+  whdload "LegendOfKyrandia.Slave" $whdloadargs
 ELSE
-	whdload "LegendOfKyrandia.Slave"
+  whdload "LegendOfKyrandia.Slave"
 ENDIF

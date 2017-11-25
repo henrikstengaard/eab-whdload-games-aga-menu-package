@@ -2,4 +2,4 @@ Name      : Black Gold (reLINE)
 Publisher : Electronic Zoo
 Year      : 1990
 Players   : 1 - 4 (1 simultaneous)
-Whdload   : BlackGoldreLINE.Slave
+RunFile   : BlackGoldreLINE.Slave

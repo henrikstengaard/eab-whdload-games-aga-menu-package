@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/OilImperiumDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "OilImperiumDe.Slave" $whdloadargs
+  whdload "OilImperiumDe.Slave" $whdloadargs
 ELSE
-	whdload "OilImperiumDe.Slave"
+  whdload "OilImperiumDe.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PharaohsMatchArcadia/"
 IF EXISTS ENV:whdloadargs
-	whdload "PharaohsMatchArcadia.Slave" $whdloadargs
+  whdload "PharaohsMatchArcadia.Slave" $whdloadargs
 ELSE
-	whdload "PharaohsMatchArcadia.Slave"
+  whdload "PharaohsMatchArcadia.Slave"
 ENDIF

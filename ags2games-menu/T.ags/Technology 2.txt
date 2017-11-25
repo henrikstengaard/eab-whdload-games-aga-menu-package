@@ -2,4 +2,4 @@ Name      : Technology 2
 Publisher : Mental Image
 Year      : 1994
 Players   : 1
-Whdload   : Technology2.Slave
+RunFile   : Technology2.Slave

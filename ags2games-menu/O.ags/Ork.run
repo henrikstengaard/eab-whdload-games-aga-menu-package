@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Ork/"
 IF EXISTS ENV:whdloadargs
   whdload "Ork.Slave" $whdloadargs

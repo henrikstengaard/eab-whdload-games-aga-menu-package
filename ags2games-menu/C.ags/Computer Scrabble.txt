@@ -3,4 +3,4 @@ Publisher : Leisure Genius
 Year      : 1988
 Genre     : Board - Miscellaneous
 Players   : 2 to 4
-Whdload   : ComputerScrabble.Slave
+RunFile   : ComputerScrabble.Slave

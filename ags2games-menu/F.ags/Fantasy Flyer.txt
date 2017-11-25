@@ -2,4 +2,4 @@ Name      : Fantasy Flyer
 Publisher : Gallica
 Year      : 1994
 Players   : 1 Only
-Whdload   : FantasyFlyer.Slave
+RunFile   : FantasyFlyer.Slave

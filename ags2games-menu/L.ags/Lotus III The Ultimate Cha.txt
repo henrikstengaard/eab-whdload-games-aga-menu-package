@@ -3,4 +3,4 @@ Publisher : Gremlin Graphics
 Year      : 1992
 Genre     : Racing - Cars
 Players   : 1 or 2, Simultaneous
-Whdload   : lotus3.slave
+RunFile   : lotus3.slave

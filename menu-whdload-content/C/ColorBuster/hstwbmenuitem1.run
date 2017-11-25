@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ColorBuster/"
 IF EXISTS ENV:whdloadargs
-	whdload "ColorBuster.slave" $whdloadargs
+  whdload "ColorBuster.slave" $whdloadargs
 ELSE
-	whdload "ColorBuster.slave"
+  whdload "ColorBuster.slave"
 ENDIF

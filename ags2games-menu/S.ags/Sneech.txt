@@ -3,4 +3,4 @@ Publisher : (unknown)
 Year      : 1994
 Genre     : Arcade - Tron
 Players   : 1 to 6, Simultaneous
-Whdload   : Sneech.Slave
+RunFile   : Sneech.Slave

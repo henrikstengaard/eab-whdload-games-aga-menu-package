@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/Atomino/"
 IF EXISTS ENV:whdloadargs
-	whdload "Atomino.slave" $whdloadargs
+  whdload "Atomino.slave" $whdloadargs
 ELSE
-	whdload "Atomino.slave"
+  whdload "Atomino.slave"
 ENDIF

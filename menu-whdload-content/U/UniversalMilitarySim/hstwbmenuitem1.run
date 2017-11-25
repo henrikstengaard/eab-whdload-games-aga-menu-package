@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UniversalMilitarySim/"
 IF EXISTS ENV:whdloadargs
-	whdload "UniversalMilitarySim.Slave" $whdloadargs
+  whdload "UniversalMilitarySim.Slave" $whdloadargs
 ELSE
-	whdload "UniversalMilitarySim.Slave"
+  whdload "UniversalMilitarySim.Slave"
 ENDIF

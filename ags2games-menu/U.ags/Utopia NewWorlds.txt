@@ -3,4 +3,4 @@ Version   : NewWorlds
 Publisher : Gremlin
 Year      : 1991
 Players   : 1
-Whdload   : Utopia&NewWorlds.Slave
+RunFile   : Utopia&NewWorlds.Slave

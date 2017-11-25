@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Rampart/"
 IF EXISTS ENV:whdloadargs
-	whdload "Rampart.Slave" $whdloadargs
+  whdload "Rampart.Slave" $whdloadargs
 ELSE
-	whdload "Rampart.Slave"
+  whdload "Rampart.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Geisha
 Publisher : Coktel Vision
 Year      : 1990
 Genre     : Adventure - Miscellaneous
-Whdload   : Geisha.Slave
+RunFile   : Geisha.Slave

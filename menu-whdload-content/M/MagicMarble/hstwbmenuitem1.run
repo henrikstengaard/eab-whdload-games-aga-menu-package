@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MagicMarble/"
 IF EXISTS ENV:whdloadargs
-	whdload "MagicMarble.Slave" $whdloadargs
+  whdload "MagicMarble.Slave" $whdloadargs
 ELSE
-	whdload "MagicMarble.Slave"
+  whdload "MagicMarble.Slave"
 ENDIF

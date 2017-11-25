@@ -2,4 +2,4 @@ Name      : Leisure Suit Larry
 Publisher : Sierra
 Year      : 1987
 Players   : 1
-Whdload   : LeisureSuitLarry.slave
+RunFile   : LeisureSuitLarry.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Racter/"
 IF EXISTS ENV:whdloadargs
-	whdload "Racter.Slave" $whdloadargs
+  whdload "Racter.Slave" $whdloadargs
 ELSE
-	whdload "Racter.Slave"
+  whdload "Racter.Slave"
 ENDIF

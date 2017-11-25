@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Starlord/"
 IF EXISTS ENV:whdloadargs
-	whdload "Starlord.Slave" $whdloadargs
+  whdload "Starlord.Slave" $whdloadargs
 ELSE
-	whdload "Starlord.Slave"
+  whdload "Starlord.Slave"
 ENDIF

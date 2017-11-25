@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Prophecy1VikingChild/"
 IF EXISTS ENV:whdloadargs
   whdload "Prophecy1VikingChild.slave" $whdloadargs

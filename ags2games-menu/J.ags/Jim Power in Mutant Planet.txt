@@ -2,4 +2,4 @@ Name      : Jim Power in Mutant Planet
 Publisher : Loriciel
 Year      : 1992
 Players   : 1 Only
-Whdload   : JimPower.Slave
+RunFile   : JimPower.Slave

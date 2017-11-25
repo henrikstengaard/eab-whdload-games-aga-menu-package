@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/Hook/"
 IF EXISTS ENV:whdloadargs
-	whdload "Hook.slave" $whdloadargs
+  whdload "Hook.slave" $whdloadargs
 ELSE
-	whdload "Hook.slave"
+  whdload "Hook.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Backlash/"
 IF EXISTS ENV:whdloadargs
-	whdload "Backlash.Slave" $whdloadargs
+  whdload "Backlash.Slave" $whdloadargs
 ELSE
-	whdload "Backlash.Slave"
+  whdload "Backlash.Slave"
 ENDIF

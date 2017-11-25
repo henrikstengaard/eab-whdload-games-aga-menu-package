@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WhirligigCracked/"
 IF EXISTS ENV:whdloadargs
-	whdload "WhirligigCracked.Slave" $whdloadargs
+  whdload "WhirligigCracked.Slave" $whdloadargs
 ELSE
-	whdload "WhirligigCracked.Slave"
+  whdload "WhirligigCracked.Slave"
 ENDIF

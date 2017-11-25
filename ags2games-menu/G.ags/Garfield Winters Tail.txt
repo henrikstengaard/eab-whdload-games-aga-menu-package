@@ -3,4 +3,4 @@ Publisher : The Edge
 Year      : 1989
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : GarfieldAWintersTail.Slave
+RunFile   : GarfieldAWintersTail.Slave

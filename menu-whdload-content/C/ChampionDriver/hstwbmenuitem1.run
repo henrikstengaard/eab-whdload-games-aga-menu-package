@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChampionDriver/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChampionDriver.Slave" $whdloadargs
+  whdload "ChampionDriver.Slave" $whdloadargs
 ELSE
-	whdload "ChampionDriver.Slave"
+  whdload "ChampionDriver.Slave"
 ENDIF

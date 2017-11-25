@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GridStart/"
 IF EXISTS ENV:whdloadargs
-	whdload "GridStart.Slave" $whdloadargs
+  whdload "GridStart.Slave" $whdloadargs
 ELSE
-	whdload "GridStart.Slave"
+  whdload "GridStart.Slave"
 ENDIF

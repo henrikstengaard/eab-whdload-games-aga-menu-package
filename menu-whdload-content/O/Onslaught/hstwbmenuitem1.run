@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Onslaught/"
 IF EXISTS ENV:whdloadargs
-	whdload "Onslaught.slave" $whdloadargs
+  whdload "Onslaught.slave" $whdloadargs
 ELSE
-	whdload "Onslaught.slave"
+  whdload "Onslaught.slave"
 ENDIF

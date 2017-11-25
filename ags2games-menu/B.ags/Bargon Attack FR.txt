@@ -4,4 +4,4 @@ Publisher : Coktel Vision
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : BargonAttackFr.Slave
+RunFile   : BargonAttackFr.Slave

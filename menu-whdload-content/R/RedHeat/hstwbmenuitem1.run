@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RedHeat/"
 IF EXISTS ENV:whdloadargs
-	whdload "RedHeat.slave" $whdloadargs
+  whdload "RedHeat.slave" $whdloadargs
 ELSE
-	whdload "RedHeat.slave"
+  whdload "RedHeat.slave"
 ENDIF

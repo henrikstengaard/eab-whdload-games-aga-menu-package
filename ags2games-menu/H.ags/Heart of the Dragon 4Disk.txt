@@ -4,4 +4,4 @@ Publisher : Avatar Consulting
 Year      : 1991
 Genre     : Adventure - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : HeartOfTheDragon4Disk.slave
+RunFile   : HeartOfTheDragon4Disk.slave

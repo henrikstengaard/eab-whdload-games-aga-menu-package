@@ -3,4 +3,4 @@ Publisher : Seven Stars
 Year      : 1995
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : KajkoIKokosz.slave
+RunFile   : KajkoIKokosz.slave

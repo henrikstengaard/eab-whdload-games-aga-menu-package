@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/A10TankKiller2Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "A10TankKiller2Disk.Slave" $whdloadargs
+  whdload "A10TankKiller2Disk.Slave" $whdloadargs
 ELSE
-	whdload "A10TankKiller2Disk.Slave"
+  whdload "A10TankKiller2Disk.Slave"
 ENDIF

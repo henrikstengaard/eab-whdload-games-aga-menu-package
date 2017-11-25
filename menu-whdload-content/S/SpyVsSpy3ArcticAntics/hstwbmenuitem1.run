@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SpyVsSpy3ArcticAntics/"
 IF EXISTS ENV:whdloadargs
-	whdload "SpyVsSpy3ArcticAntics.Slave" $whdloadargs
+  whdload "SpyVsSpy3ArcticAntics.Slave" $whdloadargs
 ELSE
-	whdload "SpyVsSpy3ArcticAntics.Slave"
+  whdload "SpyVsSpy3ArcticAntics.Slave"
 ENDIF

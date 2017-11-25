@@ -4,4 +4,4 @@ Publisher : Interplay Productions
 Year      : 1993
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Castles2CD32.Slave
+RunFile   : Castles2CD32.Slave

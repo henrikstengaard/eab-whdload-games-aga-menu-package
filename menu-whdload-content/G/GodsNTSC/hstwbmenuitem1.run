@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GodsNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "GodsNTSC.slave" $whdloadargs
+  whdload "GodsNTSC.slave" $whdloadargs
 ELSE
-	whdload "GodsNTSC.slave"
+  whdload "GodsNTSC.slave"
 ENDIF

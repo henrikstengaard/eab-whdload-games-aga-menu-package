@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Patrician/"
 IF EXISTS ENV:whdloadargs
-	whdload "Patrician.slave" $whdloadargs
+  whdload "Patrician.slave" $whdloadargs
 ELSE
-	whdload "Patrician.slave"
+  whdload "Patrician.slave"
 ENDIF

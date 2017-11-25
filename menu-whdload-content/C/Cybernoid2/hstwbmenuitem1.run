@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Cybernoid2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Cybernoid2.Slave" $whdloadargs
+  whdload "Cybernoid2.Slave" $whdloadargs
 ELSE
-	whdload "Cybernoid2.Slave"
+  whdload "Cybernoid2.Slave"
 ENDIF

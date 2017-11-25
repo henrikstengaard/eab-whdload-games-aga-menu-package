@@ -2,4 +2,4 @@ Name      : Whirligig
 Publisher : Firebird
 Year      : 1988
 Players   : 1 Only
-Whdload   : Whirligig.Slave
+RunFile   : Whirligig.Slave

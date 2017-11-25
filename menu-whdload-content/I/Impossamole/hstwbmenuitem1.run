@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/Impossamole/"
 IF EXISTS ENV:whdloadargs
-	whdload "Impossamole.Slave" $whdloadargs
+  whdload "Impossamole.Slave" $whdloadargs
 ELSE
-	whdload "Impossamole.Slave"
+  whdload "Impossamole.Slave"
 ENDIF

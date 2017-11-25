@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Z/ZakMcKrackenIt/"
 IF EXISTS ENV:whdloadargs
-	whdload "ZakMcKrackenIt.slave" $whdloadargs
+  whdload "ZakMcKrackenIt.slave" $whdloadargs
 ELSE
-	whdload "ZakMcKrackenIt.slave"
+  whdload "ZakMcKrackenIt.slave"
 ENDIF

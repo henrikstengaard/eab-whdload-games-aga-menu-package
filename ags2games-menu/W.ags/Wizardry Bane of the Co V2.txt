@@ -4,4 +4,4 @@ Publisher : US Gold
 Year      : 1990
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-Whdload   : Wizardry6BaneCosmicForgDe.slave
+RunFile   : Wizardry6BaneCosmicForgDe.slave

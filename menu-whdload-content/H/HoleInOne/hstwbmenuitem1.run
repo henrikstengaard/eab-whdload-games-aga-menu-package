@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:H/HoleInOne/"
+; Run WHDLoad
+cd "A-Games:HoleInOne/"
 IF EXISTS ENV:whdloadargs
-	whdload "HoleInOne.slave" $whdloadargs
+  whdload "HoleInOne.slave" $whdloadargs
 ELSE
-	whdload "HoleInOne.slave"
+  whdload "HoleInOne.slave"
 ENDIF

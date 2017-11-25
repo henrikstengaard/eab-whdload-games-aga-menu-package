@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrystalsOfArboreaFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrystalsOfArboreaFr.Slave" $whdloadargs
+  whdload "CrystalsOfArboreaFr.Slave" $whdloadargs
 ELSE
-	whdload "CrystalsOfArboreaFr.Slave"
+  whdload "CrystalsOfArboreaFr.Slave"
 ENDIF

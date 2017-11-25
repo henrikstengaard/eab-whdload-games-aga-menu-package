@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BlockOut/"
 IF EXISTS ENV:whdloadargs
-	whdload "BlockOut.slave" $whdloadargs
+  whdload "BlockOut.slave" $whdloadargs
 ELSE
-	whdload "BlockOut.slave"
+  whdload "BlockOut.slave"
 ENDIF

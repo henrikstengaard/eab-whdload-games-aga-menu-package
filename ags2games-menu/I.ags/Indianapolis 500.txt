@@ -2,4 +2,4 @@ Name      : Indianapolis 500
 Publisher : Electronic Arts
 Year      : 1990
 Players   : 1
-Whdload   : Indianapolis500.slave
+RunFile   : Indianapolis500.slave

@@ -2,4 +2,4 @@ Name      : Goldrunner II
 Publisher : Microdeal
 Year      : 1988
 Players   : 1 Only
-Whdload   : Goldrunner2.Slave
+RunFile   : Goldrunner2.Slave

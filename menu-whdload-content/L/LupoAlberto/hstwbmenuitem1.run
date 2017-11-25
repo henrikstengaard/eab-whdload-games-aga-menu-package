@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LupoAlberto/"
 IF EXISTS ENV:whdloadargs
-	whdload "LupoAlberto.Slave" $whdloadargs
+  whdload "LupoAlberto.Slave" $whdloadargs
 ELSE
-	whdload "LupoAlberto.Slave"
+  whdload "LupoAlberto.Slave"
 ENDIF

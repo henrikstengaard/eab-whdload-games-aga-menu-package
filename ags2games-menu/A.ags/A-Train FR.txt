@@ -4,4 +4,4 @@ Publisher : Ocean
 Year      : 1992
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : ATrainFr.slave
+RunFile   : ATrainFr.slave

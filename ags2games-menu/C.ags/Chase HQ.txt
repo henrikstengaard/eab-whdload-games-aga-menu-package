@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1989
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : ChaseHQ.Slave
+RunFile   : ChaseHQ.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Clockwiser/"
 IF EXISTS ENV:whdloadargs
-	whdload "Clockwiser.Slave" $whdloadargs
+  whdload "Clockwiser.Slave" $whdloadargs
 ELSE
-	whdload "Clockwiser.Slave"
+  whdload "Clockwiser.Slave"
 ENDIF

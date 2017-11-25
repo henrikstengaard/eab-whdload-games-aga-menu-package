@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Oxxonian/"
 IF EXISTS ENV:whdloadargs
-	whdload "Oxxonian.Slave" $whdloadargs
+  whdload "Oxxonian.Slave" $whdloadargs
 ELSE
-	whdload "Oxxonian.Slave"
+  whdload "Oxxonian.Slave"
 ENDIF

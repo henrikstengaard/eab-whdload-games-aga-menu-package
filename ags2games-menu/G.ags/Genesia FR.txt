@@ -4,4 +4,4 @@ Publisher : Mindscape
 Year      : 1993
 Genre     : Strategy - Miscellaneous
 Players   : 1 to 3
-Whdload   : GenesiaFr.slave
+RunFile   : GenesiaFr.slave

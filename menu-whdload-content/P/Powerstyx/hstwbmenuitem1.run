@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Powerstyx/"
 IF EXISTS ENV:whdloadargs
-	whdload "Powerstyx.slave" $whdloadargs
+  whdload "Powerstyx.slave" $whdloadargs
 ELSE
-	whdload "Powerstyx.slave"
+  whdload "Powerstyx.slave"
 ENDIF

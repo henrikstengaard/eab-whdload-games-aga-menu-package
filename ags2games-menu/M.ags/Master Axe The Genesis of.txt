@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Islona Entertainment
 Year      : 1997
 Players   : 1 or 2, Simultaneous
-Whdload   : MasterAxe.slave
+RunFile   : MasterAxe.slave

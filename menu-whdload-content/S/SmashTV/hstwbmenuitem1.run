@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SmashTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "SmashTV.Slave" $whdloadargs
+  whdload "SmashTV.Slave" $whdloadargs
 ELSE
-	whdload "SmashTV.Slave"
+  whdload "SmashTV.Slave"
 ENDIF

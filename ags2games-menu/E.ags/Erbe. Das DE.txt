@@ -4,4 +4,4 @@ Publisher : Comad
 Year      : 1991
 Genre     : Adventure
 Players   : 1
-Whdload   : ErbeDe.Slave
+RunFile   : ErbeDe.Slave

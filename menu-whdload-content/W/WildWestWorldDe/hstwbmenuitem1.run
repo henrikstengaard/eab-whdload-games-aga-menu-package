@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WildWestWorldDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "WildWestWorldDe.Slave" $whdloadargs
+  whdload "WildWestWorldDe.Slave" $whdloadargs
 ELSE
-	whdload "WildWestWorldDe.Slave"
+  whdload "WildWestWorldDe.Slave"
 ENDIF

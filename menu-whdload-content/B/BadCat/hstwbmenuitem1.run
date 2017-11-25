@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BadCat/"
 IF EXISTS ENV:whdloadargs
-	whdload "BadCat.Slave" $whdloadargs
+  whdload "BadCat.Slave" $whdloadargs
 ELSE
-	whdload "BadCat.Slave"
+  whdload "BadCat.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : OsWALD of the Ice Floes
 Publisher : Silverrock / Centaur
 Year      : 1988
 Players   : 1
-Whdload   : OsWALDOfTheIceFloes.Slave
+RunFile   : OsWALDOfTheIceFloes.Slave

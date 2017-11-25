@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NorthAndSouthImageNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "NorthAndSouthImageNTSC.slave" $whdloadargs
+  whdload "NorthAndSouthImageNTSC.slave" $whdloadargs
 ELSE
-	whdload "NorthAndSouthImageNTSC.slave"
+  whdload "NorthAndSouthImageNTSC.slave"
 ENDIF

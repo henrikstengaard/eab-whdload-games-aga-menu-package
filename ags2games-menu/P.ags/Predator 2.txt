@@ -2,4 +2,4 @@ Name      : Predator 2
 Publisher : Image Works
 Year      : 1991
 Players   : 1 Only
-Whdload   : Predator2.Slave
+RunFile   : Predator2.Slave

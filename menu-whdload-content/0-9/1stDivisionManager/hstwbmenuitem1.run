@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:0-9/1stDivisionManager/"
 IF EXISTS ENV:whdloadargs
-	whdload "1stDivisionManager.Slave" $whdloadargs
+  whdload "1stDivisionManager.Slave" $whdloadargs
 ELSE
-	whdload "1stDivisionManager.Slave"
+  whdload "1stDivisionManager.Slave"
 ENDIF

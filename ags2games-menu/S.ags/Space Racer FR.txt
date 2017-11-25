@@ -4,4 +4,4 @@ Publisher : Loriciel
 Year      : 1988
 Genre     : Racing - Miscellaneous
 Players   : 1 Only
-Whdload   : SpaceRacerFr.Slave
+RunFile   : SpaceRacerFr.Slave

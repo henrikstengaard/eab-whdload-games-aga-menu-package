@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Berlin1948De/"
 IF EXISTS ENV:whdloadargs
-	whdload "Berlin1948De.Slave" $whdloadargs
+  whdload "Berlin1948De.Slave" $whdloadargs
 ELSE
-	whdload "Berlin1948De.Slave"
+  whdload "Berlin1948De.Slave"
 ENDIF

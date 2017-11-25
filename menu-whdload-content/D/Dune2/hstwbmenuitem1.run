@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Dune2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Dune2.Slave" $whdloadargs
+  whdload "Dune2.Slave" $whdloadargs
 ELSE
-	whdload "Dune2.Slave"
+  whdload "Dune2.Slave"
 ENDIF

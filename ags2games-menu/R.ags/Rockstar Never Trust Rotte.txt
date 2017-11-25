@@ -4,4 +4,4 @@ Publisher : Mirage
 Year      : 1996
 Genre     : Simulation - Miscellaneous
 Players   : 1 Only
-Whdload   : RockstarNTRTPl.Slave
+RunFile   : RockstarNTRTPl.Slave

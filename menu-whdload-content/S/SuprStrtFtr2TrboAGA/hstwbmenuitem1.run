@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuprStrtFtr2TrboAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuprStrtFtr2TrboAGA.slave" $whdloadargs
+  whdload "SuprStrtFtr2TrboAGA.slave" $whdloadargs
 ELSE
-	whdload "SuprStrtFtr2TrboAGA.slave"
+  whdload "SuprStrtFtr2TrboAGA.slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : NRC Software
 Year      : 1996
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : CharlieJCool.slave
+RunFile   : CharlieJCool.slave

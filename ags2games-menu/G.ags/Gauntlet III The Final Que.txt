@@ -2,4 +2,4 @@ Name      : Gauntlet III: The Final Quest
 Publisher : US Gold
 Year      : 1991
 Players   : 1 or 2, Simultaneous
-Whdload   : Gauntlet3.slave
+RunFile   : Gauntlet3.slave

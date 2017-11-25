@@ -3,4 +3,4 @@ Publisher : HAAGE & PARTNER
 Year      : 1996
 Genre     : Shooter - Flyabout and Collect
 Players   : 1
-Whdload   : Starbirds.Slave
+RunFile   : Starbirds.Slave

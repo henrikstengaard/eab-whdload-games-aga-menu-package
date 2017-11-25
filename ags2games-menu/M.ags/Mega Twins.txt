@@ -3,4 +3,4 @@ Publisher : US Gold
 Year      : 1991
 Genre     : Platformer - Scrolling Screen
 Players   : 1 or 2, Simultaneous
-Whdload   : MegaTwins.slave
+RunFile   : MegaTwins.slave

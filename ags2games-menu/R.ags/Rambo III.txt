@@ -2,4 +2,4 @@ Name      : Rambo III
 Publisher : Ocean
 Year      : 1989
 Players   : 1 Only
-Whdload   : Rambo3.slave
+RunFile   : Rambo3.slave

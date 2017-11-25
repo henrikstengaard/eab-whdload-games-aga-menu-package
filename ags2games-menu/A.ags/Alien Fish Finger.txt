@@ -2,4 +2,4 @@ Name      : Alien Fish Finger
 Publisher : (unknown)
 Year      : 1995
 Players   : 1 Only
-Whdload   : AlienFishFinger.Slave
+RunFile   : AlienFishFinger.Slave

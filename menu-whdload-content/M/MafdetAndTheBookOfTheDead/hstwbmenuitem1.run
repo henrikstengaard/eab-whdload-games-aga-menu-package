@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MafdetAndTheBookOfTheDead/"
 IF EXISTS ENV:whdloadargs
-	whdload "MafdetAndTheBookOfTheDead.slave" $whdloadargs
+  whdload "MafdetAndTheBookOfTheDead.slave" $whdloadargs
 ELSE
-	whdload "MafdetAndTheBookOfTheDead.slave"
+  whdload "MafdetAndTheBookOfTheDead.slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Knightmare
 Publisher : Mindscape
 Year      : 1991
 Genre     : Adventure - RPG 3D
-Whdload   : Knightmare.slave
+RunFile   : Knightmare.slave

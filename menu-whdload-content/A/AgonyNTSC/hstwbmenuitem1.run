@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AgonyNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "AgonyNTSC.Slave" $whdloadargs
+  whdload "AgonyNTSC.Slave" $whdloadargs
 ELSE
-	whdload "AgonyNTSC.Slave"
+  whdload "AgonyNTSC.Slave"
 ENDIF

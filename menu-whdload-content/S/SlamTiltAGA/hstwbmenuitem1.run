@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SlamTiltAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "SlamTiltAGA.Slave" $whdloadargs
+  whdload "SlamTiltAGA.Slave" $whdloadargs
 ELSE
-	whdload "SlamTiltAGA.Slave"
+  whdload "SlamTiltAGA.Slave"
 ENDIF

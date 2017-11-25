@@ -3,4 +3,4 @@ Version   : Files NTSC
 Publisher : Infogrames
 Year      : 1989
 Genre     : Strategy - War
-Whdload   : FullMetalPlaneteNTSCFiles.Slave
+RunFile   : FullMetalPlaneteNTSCFiles.Slave

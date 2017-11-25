@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Sliders/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sliders.Slave" $whdloadargs
+  whdload "Sliders.Slave" $whdloadargs
 ELSE
-	whdload "Sliders.Slave"
+  whdload "Sliders.Slave"
 ENDIF

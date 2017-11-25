@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KaiserDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "KaiserDe.Slave" $whdloadargs
+  whdload "KaiserDe.Slave" $whdloadargs
 ELSE
-	whdload "KaiserDe.Slave"
+  whdload "KaiserDe.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WhiteDeath/"
 IF EXISTS ENV:whdloadargs
-	whdload "WhiteDeath.Slave" $whdloadargs
+  whdload "WhiteDeath.Slave" $whdloadargs
 ELSE
-	whdload "WhiteDeath.Slave"
+  whdload "WhiteDeath.Slave"
 ENDIF

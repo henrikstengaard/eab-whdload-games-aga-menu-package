@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CosmicRelief/"
 IF EXISTS ENV:whdloadargs
-	whdload "CosmicRelief.Slave" $whdloadargs
+  whdload "CosmicRelief.Slave" $whdloadargs
 ELSE
-	whdload "CosmicRelief.Slave"
+  whdload "CosmicRelief.Slave"
 ENDIF

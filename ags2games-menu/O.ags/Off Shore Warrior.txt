@@ -3,4 +3,4 @@ Publisher : Titus Software
 Year      : 1988
 Genre     : Racing - Miscellaneous
 Players   : 1 Only
-Whdload   : OffShoreWarrior.Slave
+RunFile   : OffShoreWarrior.Slave

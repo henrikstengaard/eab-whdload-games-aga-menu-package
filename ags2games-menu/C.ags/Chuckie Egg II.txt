@@ -3,4 +3,4 @@ Publisher : Pick & Choose
 Year      : 1989
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : ChuckieEgg2.Slave
+RunFile   : ChuckieEgg2.Slave

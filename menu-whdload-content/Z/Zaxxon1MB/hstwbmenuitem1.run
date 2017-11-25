@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Z/Zaxxon1MB/"
 IF EXISTS ENV:whdloadargs
-	whdload "Zaxxon1MB.Slave" $whdloadargs
+  whdload "Zaxxon1MB.Slave" $whdloadargs
 ELSE
-	whdload "Zaxxon1MB.Slave"
+  whdload "Zaxxon1MB.Slave"
 ENDIF

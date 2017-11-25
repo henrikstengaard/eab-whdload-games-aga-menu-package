@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Turrican3/"
 IF EXISTS ENV:whdloadargs
-	whdload "Turrican3.Slave" $whdloadargs
+  whdload "Turrican3.Slave" $whdloadargs
 ELSE
-	whdload "Turrican3.Slave"
+  whdload "Turrican3.Slave"
 ENDIF

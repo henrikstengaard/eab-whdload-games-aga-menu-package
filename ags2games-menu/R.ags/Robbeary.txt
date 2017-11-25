@@ -3,4 +3,4 @@ Publisher : Anco
 Year      : 1988
 Genre     : Platformer - Single Screen
 Players   : 1 Only
-Whdload   : Robbeary.Slave
+RunFile   : Robbeary.Slave

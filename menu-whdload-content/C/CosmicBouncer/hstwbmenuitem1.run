@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CosmicBouncer/"
 IF EXISTS ENV:whdloadargs
-	whdload "CosmicBouncer.Slave" $whdloadargs
+  whdload "CosmicBouncer.Slave" $whdloadargs
 ELSE
-	whdload "CosmicBouncer.Slave"
+  whdload "CosmicBouncer.Slave"
 ENDIF

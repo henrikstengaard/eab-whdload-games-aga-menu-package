@@ -3,4 +3,4 @@ Version   : Decrunched
 Publisher : Psygnosis
 Year      : 1993
 Players   : 1 Only
-Whdload   : WalkerDecrunched.Slave
+RunFile   : WalkerDecrunched.Slave

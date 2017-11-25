@@ -4,4 +4,4 @@ Publisher : Ubi Soft
 Year      : 1990
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : UnrealNTSC.Slave
+RunFile   : UnrealNTSC.Slave

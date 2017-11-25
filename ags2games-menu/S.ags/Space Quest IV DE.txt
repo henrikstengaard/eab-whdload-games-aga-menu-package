@@ -3,4 +3,4 @@ Language  : German
 Publisher : Sierra
 Year      : 1992
 Players   : 1
-Whdload   : SpaceQuest4De.slave
+RunFile   : SpaceQuest4De.slave

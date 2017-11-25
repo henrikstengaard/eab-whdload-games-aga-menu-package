@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GeeBeeAirRally/"
 IF EXISTS ENV:whdloadargs
-	whdload "GeeBeeAirRally.Slave" $whdloadargs
+  whdload "GeeBeeAirRally.Slave" $whdloadargs
 ELSE
-	whdload "GeeBeeAirRally.Slave"
+  whdload "GeeBeeAirRally.Slave"
 ENDIF

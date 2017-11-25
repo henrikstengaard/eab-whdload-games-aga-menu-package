@@ -3,4 +3,4 @@ Publisher : Infogrames
 Year      : 1993
 Genre     : Arcade - Pinball
 Players   : 1 to 4
-Whdload   : UltimatePinballQuest.Slave
+RunFile   : UltimatePinballQuest.Slave

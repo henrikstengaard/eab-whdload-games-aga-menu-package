@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1989
 Genre     : Sports - Multi-Event
 Players   : 1 to 4
-Whdload   : RunTheGauntlet.Slave
+RunFile   : RunTheGauntlet.Slave

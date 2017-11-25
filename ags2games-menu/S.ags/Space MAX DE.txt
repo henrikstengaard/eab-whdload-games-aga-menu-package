@@ -4,4 +4,4 @@ Publisher : Starbyte Software
 Year      : 1992
 Genre     : Simulation - Space
 Players   : 1 Only
-Whdload   : SpaceMAXDe.Slave
+RunFile   : SpaceMAXDe.Slave

@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Renegade
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-Whdload   : VirocopAGA.slave
+RunFile   : VirocopAGA.slave

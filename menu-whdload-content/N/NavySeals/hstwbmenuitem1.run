@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NavySeals/"
 IF EXISTS ENV:whdloadargs
-	whdload "NavySeals.Slave" $whdloadargs
+  whdload "NavySeals.Slave" $whdloadargs
 ELSE
-	whdload "NavySeals.Slave"
+  whdload "NavySeals.Slave"
 ENDIF

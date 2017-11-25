@@ -2,4 +2,4 @@ Name      : Arnie 2
 Publisher : Zeppelin Games
 Year      : 1993
 Players   : 1 Only
-Whdload   : Arnie2.Slave
+RunFile   : Arnie2.Slave

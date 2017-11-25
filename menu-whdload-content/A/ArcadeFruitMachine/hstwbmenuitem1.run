@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ArcadeFruitMachine/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArcadeFruitMachine.Slave" $whdloadargs
+  whdload "ArcadeFruitMachine.Slave" $whdloadargs
 ELSE
-	whdload "ArcadeFruitMachine.Slave"
+  whdload "ArcadeFruitMachine.Slave"
 ENDIF

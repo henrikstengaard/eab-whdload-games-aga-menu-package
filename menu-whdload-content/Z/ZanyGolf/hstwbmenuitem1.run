@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Z/ZanyGolf/"
 IF EXISTS ENV:whdloadargs
-	whdload "ZanyGolf.slave" $whdloadargs
+  whdload "ZanyGolf.slave" $whdloadargs
 ELSE
-	whdload "ZanyGolf.slave"
+  whdload "ZanyGolf.slave"
 ENDIF

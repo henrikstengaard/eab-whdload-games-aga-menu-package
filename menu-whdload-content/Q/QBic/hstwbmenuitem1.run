@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Q/QBic/"
 IF EXISTS ENV:whdloadargs
-	whdload "QBic.slave" $whdloadargs
+  whdload "QBic.slave" $whdloadargs
 ELSE
-	whdload "QBic.slave"
+  whdload "QBic.slave"
 ENDIF

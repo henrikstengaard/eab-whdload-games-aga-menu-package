@@ -2,4 +2,4 @@ Name      : HeroQuest II: Legacy of Sorasil
 Publisher : Gremlin Graphics
 Year      : 1994
 Genre     : Adventure - Isometric 3D
-Whdload   : HeroQuest2.Slave
+RunFile   : HeroQuest2.Slave

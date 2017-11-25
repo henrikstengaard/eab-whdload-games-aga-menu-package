@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:J/JungleStrike2MB/"
 IF EXISTS ENV:whdloadargs
   whdload "JungleStrike2MB.Slave" $whdloadargs

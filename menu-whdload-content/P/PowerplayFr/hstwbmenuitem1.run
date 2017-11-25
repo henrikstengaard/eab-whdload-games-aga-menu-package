@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PowerplayFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "PowerplayFr.Slave" $whdloadargs
+  whdload "PowerplayFr.Slave" $whdloadargs
 ELSE
-	whdload "PowerplayFr.Slave"
+  whdload "PowerplayFr.Slave"
 ENDIF

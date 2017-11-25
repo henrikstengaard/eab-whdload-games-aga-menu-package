@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SimCity512K/"
 IF EXISTS ENV:whdloadargs
   whdload "SimCity512K.Slave" $whdloadargs

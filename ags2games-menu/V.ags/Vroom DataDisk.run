@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:V/Vroom&DataDisk/Vroom.Slave
+;RunFile=A-Games:V/Vroom&DataDisk/DataDisk.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/Vroom&DataDisk/"
 IF EXISTS ENV:whdloadargs
-  whdload "Vroom.Slave" $whdloadargs
+  whdload "DataDisk.Slave" $whdloadargs
 ELSE
-  whdload "Vroom.Slave"
+  whdload "DataDisk.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -2,4 +2,4 @@ Name      : The Hunt for Red October [Oxford Digital]
 Publisher : Grandslam
 Year      : 1987
 Players   : 1
-Whdload   : HuntForRedOctober.Slave
+RunFile   : HuntForRedOctober.Slave

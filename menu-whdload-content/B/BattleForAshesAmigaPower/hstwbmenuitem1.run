@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BattleForAshesAmigaPower/"
 IF EXISTS ENV:whdloadargs
-	whdload "BattleForAshesAmigaPower.Slave" $whdloadargs
+  whdload "BattleForAshesAmigaPower.Slave" $whdloadargs
 ELSE
-	whdload "BattleForAshesAmigaPower.Slave"
+  whdload "BattleForAshesAmigaPower.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BetterMaths/"
 IF EXISTS ENV:whdloadargs
-	whdload "BetterMaths.Slave" $whdloadargs
+  whdload "BetterMaths.Slave" $whdloadargs
 ELSE
-	whdload "BetterMaths.Slave"
+  whdload "BetterMaths.Slave"
 ENDIF

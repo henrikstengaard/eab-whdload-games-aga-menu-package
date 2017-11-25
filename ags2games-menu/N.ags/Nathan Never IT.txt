@@ -3,4 +3,4 @@ Language  : Italian
 Publisher : Genias
 Year      : 1993
 Players   : 1 Only
-Whdload   : NathanNeverIt.Slave
+RunFile   : NathanNeverIt.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Rockford/"
 IF EXISTS ENV:whdloadargs
-	whdload "Rockford.slave" $whdloadargs
+  whdload "Rockford.slave" $whdloadargs
 ELSE
-	whdload "Rockford.slave"
+  whdload "Rockford.slave"
 ENDIF

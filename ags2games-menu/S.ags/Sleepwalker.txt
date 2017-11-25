@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Sleepwalker.Slave
+RunFile   : Sleepwalker.Slave

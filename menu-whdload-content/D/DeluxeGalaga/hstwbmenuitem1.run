@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeluxeGalaga/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeluxeGalaga.Slave" $whdloadargs
+  whdload "DeluxeGalaga.Slave" $whdloadargs
 ELSE
-	whdload "DeluxeGalaga.Slave"
+  whdload "DeluxeGalaga.Slave"
 ENDIF

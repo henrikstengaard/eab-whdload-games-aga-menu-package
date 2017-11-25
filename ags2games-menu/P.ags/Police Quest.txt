@@ -2,4 +2,4 @@ Name      : Police Quest
 Publisher : Sierra
 Year      : 1987
 Players   : 1
-Whdload   : PoliceQuest.slave
+RunFile   : PoliceQuest.slave

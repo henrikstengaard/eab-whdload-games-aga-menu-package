@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CedricCD32Fast/"
 IF EXISTS ENV:whdloadargs
-	whdload "CedricCD32Fast.Slave" $whdloadargs
+  whdload "CedricCD32Fast.Slave" $whdloadargs
 ELSE
-	whdload "CedricCD32Fast.Slave"
+  whdload "CedricCD32Fast.Slave"
 ENDIF

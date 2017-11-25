@@ -3,4 +3,4 @@ Publisher : Softlight
 Year      : 1991
 Genre     : Arcade - Labyrinth/Maze
 Players   : 1 Only
-Whdload   : Robotnic.Slave
+RunFile   : Robotnic.Slave

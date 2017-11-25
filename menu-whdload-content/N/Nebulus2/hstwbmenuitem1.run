@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/Nebulus2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Nebulus2.slave" $whdloadargs
+  whdload "Nebulus2.slave" $whdloadargs
 ELSE
-	whdload "Nebulus2.slave"
+  whdload "Nebulus2.slave"
 ENDIF

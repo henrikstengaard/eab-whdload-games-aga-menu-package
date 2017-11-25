@@ -4,4 +4,4 @@ Publisher : Blade Software
 Year      : 1991
 Genre     : Adventure - RPG 2D
 Players   : 1 to 4
-Whdload   : LordsOfChaos&DataDisk.Slave
+RunFile   : LordsOfChaos&DataDisk.Slave

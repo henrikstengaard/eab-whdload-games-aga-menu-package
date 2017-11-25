@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TinySkweeks/"
 IF EXISTS ENV:whdloadargs
-	whdload "TinySkweeks.Slave" $whdloadargs
+  whdload "TinySkweeks.Slave" $whdloadargs
 ELSE
-	whdload "TinySkweeks.Slave"
+  whdload "TinySkweeks.Slave"
 ENDIF

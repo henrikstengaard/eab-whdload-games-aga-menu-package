@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RVFHonda/"
 IF EXISTS ENV:whdloadargs
-	whdload "RVFHonda.slave" $whdloadargs
+  whdload "RVFHonda.slave" $whdloadargs
 ELSE
-	whdload "RVFHonda.slave"
+  whdload "RVFHonda.slave"
 ENDIF

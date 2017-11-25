@@ -3,4 +3,4 @@ Publisher : Mirrorsoft
 Year      : 1991
 Genre     : Sports - Boxing
 Players   : 1 or 2, Simultaneous
-Whdload   : TVSportsBoxing.Slave
+RunFile   : TVSportsBoxing.Slave

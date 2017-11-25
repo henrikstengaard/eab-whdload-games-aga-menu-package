@@ -3,4 +3,4 @@ Publisher : Image Works
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : Gravity.Slave
+RunFile   : Gravity.Slave

@@ -3,4 +3,4 @@ Publisher : Martech
 Year      : 1988
 Genre     : Sports - Formula One
 Players   : 1 Only
-Whdload   : NigelMansellsGrandPrix.Slave
+RunFile   : NigelMansellsGrandPrix.Slave

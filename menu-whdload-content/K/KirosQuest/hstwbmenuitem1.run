@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KirosQuest/"
 IF EXISTS ENV:whdloadargs
-	whdload "KirosQuest.slave" $whdloadargs
+  whdload "KirosQuest.slave" $whdloadargs
 ELSE
-	whdload "KirosQuest.slave"
+  whdload "KirosQuest.slave"
 ENDIF

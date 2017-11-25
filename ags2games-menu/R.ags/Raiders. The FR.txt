@@ -3,4 +3,4 @@ Language  : French
 Publisher : Silmarils
 Year      : 1991
 Genre     : Compilation (Targhan, Starblade, Fetiche Maya, Le, Colorado)
-Whdload   : RaidersFr.Slave
+RunFile   : RaidersFr.Slave

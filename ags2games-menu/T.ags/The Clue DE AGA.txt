@@ -4,4 +4,4 @@ Version   : AGA
 Publisher : Neo / Kompart
 Year      : 1994
 Players   : 1
-Whdload   : ClouDeAGA.Slave
+RunFile   : ClouDeAGA.Slave

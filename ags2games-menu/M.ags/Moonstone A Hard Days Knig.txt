@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1991
 Genre     : Adventure - RPG 2D
 Players   : 1 to 4
-Whdload   : Moonstone.Slave
+RunFile   : Moonstone.Slave

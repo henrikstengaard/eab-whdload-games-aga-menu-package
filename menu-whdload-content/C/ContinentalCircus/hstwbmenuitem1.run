@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ContinentalCircus/"
 IF EXISTS ENV:whdloadargs
-	whdload "ContinentalCircus.Slave" $whdloadargs
+  whdload "ContinentalCircus.Slave" $whdloadargs
 ELSE
-	whdload "ContinentalCircus.Slave"
+  whdload "ContinentalCircus.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Anco
 Year      : 1987
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : FlightPath737.Slave
+RunFile   : FlightPath737.Slave

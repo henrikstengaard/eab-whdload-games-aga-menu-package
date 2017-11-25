@@ -3,4 +3,4 @@ Publisher : Software Projects
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : JetSetWilly2.slave
+RunFile   : JetSetWilly2.slave

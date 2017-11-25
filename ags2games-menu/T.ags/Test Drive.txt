@@ -3,4 +3,4 @@ Publisher : Accolade
 Year      : 1987
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : TestDrive.slave
+RunFile   : TestDrive.slave

@@ -3,4 +3,4 @@ Publisher : Atlantis Software
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Erik.Slave
+RunFile   : Erik.Slave

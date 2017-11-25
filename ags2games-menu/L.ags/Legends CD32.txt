@@ -4,4 +4,4 @@ Publisher : Guildhall
 Year      : 1996
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : LegendsCD32.Slave
+RunFile   : LegendsCD32.Slave

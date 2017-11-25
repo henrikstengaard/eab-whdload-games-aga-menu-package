@@ -4,4 +4,4 @@ Publisher : Ariolasoft
 Year      : 1988
 Genre     : Strategy - Trading
 Players   : 1 to 4
-Whdload   : VermeerDe.Slave
+RunFile   : VermeerDe.Slave

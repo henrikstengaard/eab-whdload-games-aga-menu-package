@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Subbuteo/"
 IF EXISTS ENV:whdloadargs
-	whdload "Subbuteo.Slave" $whdloadargs
+  whdload "Subbuteo.Slave" $whdloadargs
 ELSE
-	whdload "Subbuteo.Slave"
+  whdload "Subbuteo.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Cybernetix/"
 IF EXISTS ENV:whdloadargs
-	whdload "Cybernetix.Slave" $whdloadargs
+  whdload "Cybernetix.Slave" $whdloadargs
 ELSE
-	whdload "Cybernetix.Slave"
+  whdload "Cybernetix.Slave"
 ENDIF

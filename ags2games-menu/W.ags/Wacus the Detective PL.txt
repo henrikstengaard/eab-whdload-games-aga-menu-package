@@ -4,4 +4,4 @@ Publisher : L.K. Avalon
 Year      : 1997
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : WacusTheDetectivePl.Slave
+RunFile   : WacusTheDetectivePl.Slave

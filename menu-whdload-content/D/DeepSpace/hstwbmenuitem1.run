@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeepSpace/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeepSpace.slave" $whdloadargs
+  whdload "DeepSpace.slave" $whdloadargs
 ELSE
-	whdload "DeepSpace.slave"
+  whdload "DeepSpace.slave"
 ENDIF

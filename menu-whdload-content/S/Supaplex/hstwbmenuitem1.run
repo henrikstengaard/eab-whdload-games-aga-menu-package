@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Supaplex/"
 IF EXISTS ENV:whdloadargs
-	whdload "Supaplex.Slave" $whdloadargs
+  whdload "Supaplex.Slave" $whdloadargs
 ELSE
-	whdload "Supaplex.Slave"
+  whdload "Supaplex.Slave"
 ENDIF

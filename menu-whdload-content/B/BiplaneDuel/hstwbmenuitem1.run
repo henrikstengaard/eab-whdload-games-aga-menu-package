@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BiplaneDuel/"
 IF EXISTS ENV:whdloadargs
-	whdload "BiplaneDuel.Slave" $whdloadargs
+  whdload "BiplaneDuel.Slave" $whdloadargs
 ELSE
-	whdload "BiplaneDuel.Slave"
+  whdload "BiplaneDuel.Slave"
 ENDIF

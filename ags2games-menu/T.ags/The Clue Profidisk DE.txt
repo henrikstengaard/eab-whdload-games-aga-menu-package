@@ -4,4 +4,4 @@ Version   : Profidisk
 Publisher : Neo / Kompart
 Year      : 1994
 Players   : 1
-Whdload   : ClouDe&Profidisk.Slave
+RunFile   : ClouDe&Profidisk.Slave

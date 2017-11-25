@@ -2,4 +2,4 @@ Name      : Operation Harrier
 Publisher : US Gold
 Year      : 1990
 Players   : 1 Only
-Whdload   : OperationHarrier.slave
+RunFile   : OperationHarrier.slave

@@ -2,4 +2,4 @@ Name      : Thexder
 Publisher : Sierra On-Line
 Year      : 1987
 Players   : 1 Only
-Whdload   : Thexder.Slave
+RunFile   : Thexder.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PrehistoricTale/"
 IF EXISTS ENV:whdloadargs
-	whdload "PrehistoricTale.slave" $whdloadargs
+  whdload "PrehistoricTale.slave" $whdloadargs
 ELSE
-	whdload "PrehistoricTale.slave"
+  whdload "PrehistoricTale.slave"
 ENDIF

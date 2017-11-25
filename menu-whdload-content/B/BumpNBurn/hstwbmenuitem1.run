@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BumpNBurn/"
 IF EXISTS ENV:whdloadargs
-	whdload "BumpNBurn.slave" $whdloadargs
+  whdload "BumpNBurn.slave" $whdloadargs
 ELSE
-	whdload "BumpNBurn.slave"
+  whdload "BumpNBurn.slave"
 ENDIF

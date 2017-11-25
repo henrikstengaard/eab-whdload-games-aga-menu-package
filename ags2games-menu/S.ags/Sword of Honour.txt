@@ -2,4 +2,4 @@ Name      : Sword of Honour
 Publisher : Prestige
 Year      : 1992
 Players   : 1 Only
-Whdload   : SwordOfHonour.slave
+RunFile   : SwordOfHonour.slave

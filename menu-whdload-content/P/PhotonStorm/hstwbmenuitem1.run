@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PhotonStorm/"
 IF EXISTS ENV:whdloadargs
-	whdload "PhotonStorm.slave" $whdloadargs
+  whdload "PhotonStorm.slave" $whdloadargs
 ELSE
-	whdload "PhotonStorm.slave"
+  whdload "PhotonStorm.slave"
 ENDIF

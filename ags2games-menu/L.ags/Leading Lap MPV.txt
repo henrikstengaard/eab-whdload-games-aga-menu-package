@@ -2,4 +2,4 @@ Name      : Leading Lap MPV
 Publisher : Black Legend
 Year      : 1995
 Genre     : Racing - Cars
-Whdload   : LeadingLapMPV.Slave
+RunFile   : LeadingLapMPV.Slave

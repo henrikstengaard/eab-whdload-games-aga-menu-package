@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/Hammerfist/"
 IF EXISTS ENV:whdloadargs
-	whdload "Hammerfist.slave" $whdloadargs
+  whdload "Hammerfist.slave" $whdloadargs
 ELSE
-	whdload "Hammerfist.slave"
+  whdload "Hammerfist.slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Sonic Boom
 Publisher : Activision
 Year      : 1990
 Players   : 1 or 2
-Whdload   : SonicBoom.slave
+RunFile   : SonicBoom.slave

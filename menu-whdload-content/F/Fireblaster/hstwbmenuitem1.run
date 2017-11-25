@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Fireblaster/"
 IF EXISTS ENV:whdloadargs
-	whdload "Fireblaster.Slave" $whdloadargs
+  whdload "Fireblaster.Slave" $whdloadargs
 ELSE
-	whdload "Fireblaster.Slave"
+  whdload "Fireblaster.Slave"
 ENDIF

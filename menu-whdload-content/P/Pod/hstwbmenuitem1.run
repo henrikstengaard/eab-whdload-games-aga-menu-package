@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Pod/"
 IF EXISTS ENV:whdloadargs
-	whdload "Pod.Slave" $whdloadargs
+  whdload "Pod.Slave" $whdloadargs
 ELSE
-	whdload "Pod.Slave"
+  whdload "Pod.Slave"
 ENDIF

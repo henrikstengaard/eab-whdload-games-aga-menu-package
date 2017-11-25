@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LabyrintheDAnglomania2Fr/"
 IF EXISTS ENV:whdloadargs
-	whdload "LabyrintheDAnglomania2Fr.Slave" $whdloadargs
+  whdload "LabyrintheDAnglomania2Fr.Slave" $whdloadargs
 ELSE
-	whdload "LabyrintheDAnglomania2Fr.Slave"
+  whdload "LabyrintheDAnglomania2Fr.Slave"
 ENDIF

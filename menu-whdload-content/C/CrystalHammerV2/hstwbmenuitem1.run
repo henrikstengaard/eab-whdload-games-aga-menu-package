@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrystalHammerV2/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrystalHammerV2.Slave" $whdloadargs
+  whdload "CrystalHammerV2.Slave" $whdloadargs
 ELSE
-	whdload "CrystalHammerV2.Slave"
+  whdload "CrystalHammerV2.Slave"
 ENDIF

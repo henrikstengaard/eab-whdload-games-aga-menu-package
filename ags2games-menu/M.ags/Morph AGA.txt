@@ -4,4 +4,4 @@ Publisher : Millennium
 Year      : 1993
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : MorphAGA.Slave
+RunFile   : MorphAGA.Slave

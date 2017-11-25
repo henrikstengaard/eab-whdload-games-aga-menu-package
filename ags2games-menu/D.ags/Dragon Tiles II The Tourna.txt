@@ -2,4 +2,4 @@ Name      : Dragon Tiles II: The Tournament
 Publisher : Software Circus
 Year      : 1993
 Players   : 1
-Whdload   : DragonTiles2.Slave
+RunFile   : DragonTiles2.Slave

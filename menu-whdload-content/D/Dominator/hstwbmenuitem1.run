@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Dominator/"
 IF EXISTS ENV:whdloadargs
-	whdload "Dominator.slave" $whdloadargs
+  whdload "Dominator.slave" $whdloadargs
 ELSE
-	whdload "Dominator.slave"
+  whdload "Dominator.slave"
 ENDIF

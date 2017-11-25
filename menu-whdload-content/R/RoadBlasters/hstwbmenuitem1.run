@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RoadBlasters/"
 IF EXISTS ENV:whdloadargs
-	whdload "RoadBlasters.Slave" $whdloadargs
+  whdload "RoadBlasters.Slave" $whdloadargs
 ELSE
-	whdload "RoadBlasters.Slave"
+  whdload "RoadBlasters.Slave"
 ENDIF

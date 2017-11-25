@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PrinceOfPersiaNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "PrinceOfPersiaNTSC.slave" $whdloadargs
+  whdload "PrinceOfPersiaNTSC.slave" $whdloadargs
 ELSE
-	whdload "PrinceOfPersiaNTSC.slave"
+  whdload "PrinceOfPersiaNTSC.slave"
 ENDIF

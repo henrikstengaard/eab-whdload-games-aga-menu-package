@@ -1,4 +1,4 @@
 Name      : Junior Typist
 Publisher : School Software
 Players   : 1
-Whdload   : JuniorTypist.Slave
+RunFile   : JuniorTypist.Slave

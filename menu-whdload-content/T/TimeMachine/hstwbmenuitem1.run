@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TimeMachine/"
 IF EXISTS ENV:whdloadargs
-	whdload "TimeMachine.slave" $whdloadargs
+  whdload "TimeMachine.slave" $whdloadargs
 ELSE
-	whdload "TimeMachine.slave"
+  whdload "TimeMachine.slave"
 ENDIF

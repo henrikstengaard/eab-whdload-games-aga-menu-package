@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FrontierFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "FrontierFr.slave" $whdloadargs
+  whdload "FrontierFr.slave" $whdloadargs
 ELSE
-	whdload "FrontierFr.slave"
+  whdload "FrontierFr.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AdvancedDestroyerSim/"
 IF EXISTS ENV:whdloadargs
-	whdload "AdvancedDestroyerSim.Slave" $whdloadargs
+  whdload "AdvancedDestroyerSim.Slave" $whdloadargs
 ELSE
-	whdload "AdvancedDestroyerSim.Slave"
+  whdload "AdvancedDestroyerSim.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Executioner/"
 IF EXISTS ENV:whdloadargs
-	whdload "Executioner.Slave" $whdloadargs
+  whdload "Executioner.Slave" $whdloadargs
 ELSE
-	whdload "Executioner.Slave"
+  whdload "Executioner.Slave"
 ENDIF

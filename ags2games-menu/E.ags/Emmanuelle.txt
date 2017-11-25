@@ -3,4 +3,4 @@ Publisher : Tomahawk
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : Emmanuelle.Slave
+RunFile   : Emmanuelle.Slave

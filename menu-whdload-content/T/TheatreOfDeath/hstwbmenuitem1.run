@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TheatreOfDeath/"
 IF EXISTS ENV:whdloadargs
-	whdload "TheatreOfDeath.Slave" $whdloadargs
+  whdload "TheatreOfDeath.Slave" $whdloadargs
 ELSE
-	whdload "TheatreOfDeath.Slave"
+  whdload "TheatreOfDeath.Slave"
 ENDIF

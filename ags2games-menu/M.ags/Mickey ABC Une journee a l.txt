@@ -3,4 +3,4 @@ Language  : French
 Publisher : Disney
 Year      : 1992
 Players   : 1
-Whdload   : MickeyABCFr.Slave
+RunFile   : MickeyABCFr.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CannonSoccer/"
 IF EXISTS ENV:whdloadargs
-	whdload "CannonSoccer.Slave" $whdloadargs
+  whdload "CannonSoccer.Slave" $whdloadargs
 ELSE
-	whdload "CannonSoccer.Slave"
+  whdload "CannonSoccer.Slave"
 ENDIF

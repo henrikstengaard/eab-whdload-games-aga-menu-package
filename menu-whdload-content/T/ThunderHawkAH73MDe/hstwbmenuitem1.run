@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/ThunderHawkAH73MDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "ThunderHawkAH73MDe.Slave" $whdloadargs
+  whdload "ThunderHawkAH73MDe.Slave" $whdloadargs
 ELSE
-	whdload "ThunderHawkAH73MDe.Slave"
+  whdload "ThunderHawkAH73MDe.Slave"
 ENDIF

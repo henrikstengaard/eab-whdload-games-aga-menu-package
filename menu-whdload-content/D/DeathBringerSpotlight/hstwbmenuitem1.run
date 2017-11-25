@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeathBringerSpotlight/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeathBringerSpotlight.Slave" $whdloadargs
+  whdload "DeathBringerSpotlight.Slave" $whdloadargs
 ELSE
-	whdload "DeathBringerSpotlight.Slave"
+  whdload "DeathBringerSpotlight.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TopGear2/"
 IF EXISTS ENV:whdloadargs
-	whdload "TopGear2.Slave" $whdloadargs
+  whdload "TopGear2.Slave" $whdloadargs
 ELSE
-	whdload "TopGear2.Slave"
+  whdload "TopGear2.Slave"
 ENDIF

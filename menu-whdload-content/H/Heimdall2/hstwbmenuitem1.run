@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/Heimdall2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Heimdall2.Slave" $whdloadargs
+  whdload "Heimdall2.Slave" $whdloadargs
 ELSE
-	whdload "Heimdall2.Slave"
+  whdload "Heimdall2.Slave"
 ENDIF

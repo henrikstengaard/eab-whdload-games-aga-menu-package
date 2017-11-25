@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/OverkillAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "OverkillAGA.slave" $whdloadargs
+  whdload "OverkillAGA.slave" $whdloadargs
 ELSE
-	whdload "OverkillAGA.slave"
+  whdload "OverkillAGA.slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Zeppelin Games
 Year      : 1994
 Genre     : Sports - Football/Soccer
 Players   : 1 Only
-Whdload   : PeterSchmeichelSoccer.Slave
+RunFile   : PeterSchmeichelSoccer.Slave

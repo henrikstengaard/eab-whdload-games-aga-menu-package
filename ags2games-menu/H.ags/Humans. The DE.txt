@@ -3,4 +3,4 @@ Language  : German
 Publisher : Mirage
 Year      : 1992
 Genre     : Arcade - Miscellaneous
-Whdload   : HumansDe.slave
+RunFile   : HumansDe.slave

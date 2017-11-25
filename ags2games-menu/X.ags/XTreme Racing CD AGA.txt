@@ -4,4 +4,4 @@ Publisher : Black Magic
 Year      : 1995
 Genre     : Racing - Cars
 Players   : 1 to 4, Simultaneous
-Whdload   : UltimateXTremeRacingCD.slave
+RunFile   : UltimateXTremeRacingCD.slave

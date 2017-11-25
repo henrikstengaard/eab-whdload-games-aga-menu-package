@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AmericanTagTeamWrestling/"
 IF EXISTS ENV:whdloadargs
-	whdload "AmericanTagTeamWrestling.Slave" $whdloadargs
+  whdload "AmericanTagTeamWrestling.Slave" $whdloadargs
 ELSE
-	whdload "AmericanTagTeamWrestling.Slave"
+  whdload "AmericanTagTeamWrestling.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Audiogenic
 Year      : 1995
 Genre     : Sports - Cricket
 Players   : 1 or 2, Simultaneous
-Whdload   : BattleForAshes.Slave
+RunFile   : BattleForAshes.Slave

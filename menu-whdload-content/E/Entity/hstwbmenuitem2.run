@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Entity/"
 IF EXISTS ENV:whdloadargs
-	whdload "Intro.slave" $whdloadargs
+  whdload "Intro.slave" $whdloadargs
 ELSE
-	whdload "Intro.slave"
+  whdload "Intro.slave"
 ENDIF

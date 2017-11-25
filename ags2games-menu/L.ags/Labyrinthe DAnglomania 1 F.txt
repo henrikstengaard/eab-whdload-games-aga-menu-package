@@ -3,4 +3,4 @@ Language  : French
 Publisher : RETZ
 Year      : 1990
 Players   : 1
-Whdload   : LabyrintheDAnglomania1Fr.Slave
+RunFile   : LabyrintheDAnglomania1Fr.Slave

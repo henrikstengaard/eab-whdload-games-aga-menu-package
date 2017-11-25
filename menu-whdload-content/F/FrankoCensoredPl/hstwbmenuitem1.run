@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FrankoCensoredPl/"
 IF EXISTS ENV:whdloadargs
-	whdload "FrankoCensoredPl.slave" $whdloadargs
+  whdload "FrankoCensoredPl.slave" $whdloadargs
 ELSE
-	whdload "FrankoCensoredPl.slave"
+  whdload "FrankoCensoredPl.slave"
 ENDIF

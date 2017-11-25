@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CogansRun/"
 IF EXISTS ENV:whdloadargs
-	whdload "CogansRun.Slave" $whdloadargs
+  whdload "CogansRun.Slave" $whdloadargs
 ELSE
-	whdload "CogansRun.Slave"
+  whdload "CogansRun.Slave"
 ENDIF

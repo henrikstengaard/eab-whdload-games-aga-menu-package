@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BurningRubber/"
 IF EXISTS ENV:whdloadargs
-	whdload "BurningRubber.slave" $whdloadargs
+  whdload "BurningRubber.slave" $whdloadargs
 ELSE
-	whdload "BurningRubber.slave"
+  whdload "BurningRubber.slave"
 ENDIF

@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FighterBomber/"
 IF EXISTS ENV:whdloadargs
   whdload "FighterBomber.slave" $whdloadargs

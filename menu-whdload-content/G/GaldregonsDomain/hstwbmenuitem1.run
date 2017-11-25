@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GaldregonsDomain/"
 IF EXISTS ENV:whdloadargs
-	whdload "GaldregonsDomain.Slave" $whdloadargs
+  whdload "GaldregonsDomain.Slave" $whdloadargs
 ELSE
-	whdload "GaldregonsDomain.Slave"
+  whdload "GaldregonsDomain.Slave"
 ENDIF

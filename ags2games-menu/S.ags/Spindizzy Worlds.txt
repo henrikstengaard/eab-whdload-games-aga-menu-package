@@ -3,4 +3,4 @@ Publisher : Electric Dreams
 Year      : 1990
 Genre     : Platformer - 3D
 Players   : 1 Only
-Whdload   : SpindizzyWorlds.slave
+RunFile   : SpindizzyWorlds.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CloudKingdoms/"
 IF EXISTS ENV:whdloadargs
-	whdload "CloudKingdoms.slave" $whdloadargs
+  whdload "CloudKingdoms.slave" $whdloadargs
 ELSE
-	whdload "CloudKingdoms.slave"
+  whdload "CloudKingdoms.slave"
 ENDIF

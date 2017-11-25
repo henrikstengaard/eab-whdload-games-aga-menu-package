@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Q/QuikThunderRabbitCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "QuikThunderRabbitCD32.Slave" $whdloadargs
+  whdload "QuikThunderRabbitCD32.Slave" $whdloadargs
 ELSE
-	whdload "QuikThunderRabbitCD32.Slave"
+  whdload "QuikThunderRabbitCD32.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Legend of the Lost
 Publisher : Impressions [Software Inspirations]
 Year      : 1990
 Players   : 1
-Whdload   : LegendOfTheLost.Slave
+RunFile   : LegendOfTheLost.Slave

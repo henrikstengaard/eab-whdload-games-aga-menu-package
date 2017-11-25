@@ -3,4 +3,4 @@ Publisher : Linel
 Year      : 1990
 Genre     : Arcade - Multigenre
 Players   : 1 Only
-Whdload   : NeverEndingStory2.slave
+RunFile   : NeverEndingStory2.slave

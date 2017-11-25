@@ -3,4 +3,4 @@ Publisher : Personal Software Services (PSS)
 Year      : 1988
 Genre     : Simulation - Marine
 Players   : 1 Only
-Whdload   : Bismarck.Slave
+RunFile   : Bismarck.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LeaderBoardArcadia/"
 IF EXISTS ENV:whdloadargs
-	whdload "LeaderBoardArcadia.Slave" $whdloadargs
+  whdload "LeaderBoardArcadia.Slave" $whdloadargs
 ELSE
-	whdload "LeaderBoardArcadia.Slave"
+  whdload "LeaderBoardArcadia.Slave"
 ENDIF

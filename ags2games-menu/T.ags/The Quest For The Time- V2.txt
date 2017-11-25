@@ -3,4 +3,4 @@ Version   : Image
 Publisher : Infogrames
 Year      : 1989
 Players   : 1
-Whdload   : QuestForTimeBirdImage.Slave
+RunFile   : QuestForTimeBirdImage.Slave

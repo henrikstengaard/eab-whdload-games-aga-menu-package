@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1988
 Genre     : Sports - Formula One
 Players   : 1 Only
-Whdload   : FerrariFormulaOne.slave
+RunFile   : FerrariFormulaOne.slave

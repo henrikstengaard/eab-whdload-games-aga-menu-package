@@ -3,4 +3,4 @@ Language  : German
 Publisher : Magic Bytes
 Year      : 1994
 Genre     : Brain - Puzzle
-Whdload   : PenthouseHotNumsDlxDe.Slave
+RunFile   : PenthouseHotNumsDlxDe.Slave

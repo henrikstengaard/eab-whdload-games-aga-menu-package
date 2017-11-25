@@ -4,4 +4,4 @@ Publisher : US Gold
 Year      : 1990
 Genre     : Adventure - Arcade 3D
 Players   : 1 Only
-Whdload   : MeanStreetsFr.slave
+RunFile   : MeanStreetsFr.slave

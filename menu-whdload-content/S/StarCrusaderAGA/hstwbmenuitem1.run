@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StarCrusaderAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "StarCrusaderAGA.Slave" $whdloadargs
+  whdload "StarCrusaderAGA.Slave" $whdloadargs
 ELSE
-	whdload "StarCrusaderAGA.Slave"
+  whdload "StarCrusaderAGA.Slave"
 ENDIF

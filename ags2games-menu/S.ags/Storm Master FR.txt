@@ -3,4 +3,4 @@ Language  : French
 Publisher : Silmarils
 Year      : 1991
 Genre     : Strategy - War
-Whdload   : StormMasterFr.Slave
+RunFile   : StormMasterFr.Slave

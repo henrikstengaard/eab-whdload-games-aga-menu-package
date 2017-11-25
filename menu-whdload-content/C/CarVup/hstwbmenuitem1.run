@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CarVup/"
 IF EXISTS ENV:whdloadargs
-	whdload "CarVup.Slave" $whdloadargs
+  whdload "CarVup.Slave" $whdloadargs
 ELSE
-	whdload "CarVup.Slave"
+  whdload "CarVup.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Gainforce
 Publisher : Amiga Fun
 Year      : 1993
 Players   : 1 Only
-Whdload   : Gainforce.Slave
+RunFile   : Gainforce.Slave

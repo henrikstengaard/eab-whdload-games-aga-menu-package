@@ -2,4 +2,4 @@ Name      : Thunderstrike
 Publisher : Millennium
 Year      : 1991
 Players   : 1 Only
-Whdload   : Thunderstrike.Slave
+RunFile   : Thunderstrike.Slave

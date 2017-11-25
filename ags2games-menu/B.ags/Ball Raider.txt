@@ -3,4 +3,4 @@ Publisher : Diamond Software
 Year      : 1987
 Genre     : Arcade - Breakout/Pong
 Players   : 1 Only
-Whdload   : BallRaider.Slave
+RunFile   : BallRaider.Slave

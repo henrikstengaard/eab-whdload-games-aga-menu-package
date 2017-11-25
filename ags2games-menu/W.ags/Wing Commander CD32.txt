@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Origin Systems
 Year      : 1992
 Players   : 1 Only
-Whdload   : WingCommanderCD32.Slave
+RunFile   : WingCommanderCD32.Slave

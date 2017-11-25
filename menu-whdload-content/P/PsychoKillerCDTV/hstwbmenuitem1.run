@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PsychoKillerCDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "PsychoKillerCDTV.Slave" $whdloadargs
+  whdload "PsychoKillerCDTV.Slave" $whdloadargs
 ELSE
-	whdload "PsychoKillerCDTV.Slave"
+  whdload "PsychoKillerCDTV.Slave"
 ENDIF

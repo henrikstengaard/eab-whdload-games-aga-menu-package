@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SanctuaryDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "SanctuaryDe.Slave" $whdloadargs
+  whdload "SanctuaryDe.Slave" $whdloadargs
 ELSE
-	whdload "SanctuaryDe.Slave"
+  whdload "SanctuaryDe.Slave"
 ENDIF

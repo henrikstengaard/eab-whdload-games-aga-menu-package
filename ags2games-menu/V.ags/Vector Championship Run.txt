@@ -3,4 +3,4 @@ Publisher : Impulze
 Year      : 1991
 Genre     : Sports - Formula One
 Players   : 1 Only
-Whdload   : ChampionshipRun.Slave
+RunFile   : ChampionshipRun.Slave

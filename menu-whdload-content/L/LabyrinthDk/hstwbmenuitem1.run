@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LabyrinthDk/"
 IF EXISTS ENV:whdloadargs
-	whdload "LabyrinthDk.slave" $whdloadargs
+  whdload "LabyrinthDk.slave" $whdloadargs
 ELSE
-	whdload "LabyrinthDk.slave"
+  whdload "LabyrinthDk.slave"
 ENDIF

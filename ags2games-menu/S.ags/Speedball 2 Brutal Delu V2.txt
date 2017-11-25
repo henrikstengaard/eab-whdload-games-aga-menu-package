@@ -4,4 +4,4 @@ Publisher : Image Works
 Year      : 1990
 Genre     : Sports - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : Speedball2NTSC.Slave
+RunFile   : Speedball2NTSC.Slave

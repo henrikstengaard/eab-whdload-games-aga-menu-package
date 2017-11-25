@@ -3,4 +3,4 @@ Publisher : US Gold
 Year      : 1990
 Genre     : Arcade - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : EMotion.Slave
+RunFile   : EMotion.Slave

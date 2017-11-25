@@ -3,4 +3,4 @@ Language  : French
 Publisher : Virgin Interactive
 Year      : 1994
 Players   : 1 Only
-Whdload   : CannonFodder2Fr.Slave
+RunFile   : CannonFodder2Fr.Slave

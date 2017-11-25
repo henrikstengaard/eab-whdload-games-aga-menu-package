@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LastActionHero/"
 IF EXISTS ENV:whdloadargs
-	whdload "LastActionHero.Slave" $whdloadargs
+  whdload "LastActionHero.Slave" $whdloadargs
 ELSE
-	whdload "LastActionHero.Slave"
+  whdload "LastActionHero.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Rebellion
 Publisher : Fun Factory
 Year      : 1992
 Players   : 1 Only
-Whdload   : Rebellion.slave
+RunFile   : Rebellion.slave

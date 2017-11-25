@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Mach3/"
 IF EXISTS ENV:whdloadargs
-	whdload "Mach3.Slave" $whdloadargs
+  whdload "Mach3.Slave" $whdloadargs
 ELSE
-	whdload "Mach3.Slave"
+  whdload "Mach3.Slave"
 ENDIF

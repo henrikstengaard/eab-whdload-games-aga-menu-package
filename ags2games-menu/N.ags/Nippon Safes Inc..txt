@@ -3,4 +3,4 @@ Publisher : Global Software
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : NipponSafesInc.Slave
+RunFile   : NipponSafesInc.Slave

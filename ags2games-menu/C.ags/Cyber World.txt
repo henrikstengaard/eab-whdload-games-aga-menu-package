@@ -3,4 +3,4 @@ Publisher : Magic Bytes
 Year      : 1990
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : CyberWorld.Slave
+RunFile   : CyberWorld.Slave

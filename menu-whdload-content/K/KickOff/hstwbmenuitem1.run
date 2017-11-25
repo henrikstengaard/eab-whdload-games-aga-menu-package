@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KickOff/"
 IF EXISTS ENV:whdloadargs
-	whdload "KickOff.Slave" $whdloadargs
+  whdload "KickOff.Slave" $whdloadargs
 ELSE
-	whdload "KickOff.Slave"
+  whdload "KickOff.Slave"
 ENDIF

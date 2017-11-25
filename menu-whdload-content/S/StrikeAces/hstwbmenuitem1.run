@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StrikeAces/"
 IF EXISTS ENV:whdloadargs
-	whdload "StrikeAces.Slave" $whdloadargs
+  whdload "StrikeAces.Slave" $whdloadargs
 ELSE
-	whdload "StrikeAces.Slave"
+  whdload "StrikeAces.Slave"
 ENDIF

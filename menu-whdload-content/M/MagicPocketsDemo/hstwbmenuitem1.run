@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MagicPocketsDemo/"
 IF EXISTS ENV:whdloadargs
-	whdload "MagicPocketsDemo.Slave" $whdloadargs
+  whdload "MagicPocketsDemo.Slave" $whdloadargs
 ELSE
-	whdload "MagicPocketsDemo.Slave"
+  whdload "MagicPocketsDemo.Slave"
 ENDIF

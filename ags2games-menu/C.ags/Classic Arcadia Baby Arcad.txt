@@ -3,4 +3,4 @@ Publisher : Alternative Software
 Year      : 1994
 Genre     : Arcade - Multigenre
 Players   : 1 Only
-Whdload   : Classic&BabyArcadia.Slave
+RunFile   : Classic&BabyArcadia.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChamberSciMutantPriestess/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChamberSciMutantPriestess.slave" $whdloadargs
+  whdload "ChamberSciMutantPriestess.slave" $whdloadargs
 ELSE
-	whdload "ChamberSciMutantPriestess.slave"
+  whdload "ChamberSciMutantPriestess.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PersianGulfInferno/"
 IF EXISTS ENV:whdloadargs
-	whdload "PersianGulfInferno.Slave" $whdloadargs
+  whdload "PersianGulfInferno.Slave" $whdloadargs
 ELSE
-	whdload "PersianGulfInferno.Slave"
+  whdload "PersianGulfInferno.Slave"
 ENDIF

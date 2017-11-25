@@ -2,4 +2,4 @@ Name      : Microbes
 Publisher : Amiga Format
 Year      : 1992
 Players   : 1 Only
-Whdload   : Microbes.Slave
+RunFile   : Microbes.Slave

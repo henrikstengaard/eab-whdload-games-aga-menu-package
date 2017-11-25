@@ -3,4 +3,4 @@ Publisher : Anco
 Year      : 1987
 Genre     : Sports - Formula One
 Players   : 1 Only
-Whdload   : GridStart.Slave
+RunFile   : GridStart.Slave

@@ -3,4 +3,4 @@ Publisher : (unknown)
 Year      : 1992
 Genre     : Platformer - Multi Screen
 Players   : 1 or 2, Simultaneous
-Whdload   : Bagitman.Slave
+RunFile   : Bagitman.Slave

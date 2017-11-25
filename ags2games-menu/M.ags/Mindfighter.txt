@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1988
 Genre     : Adventure - Graphics/Text
 Players   : 1 Only
-Whdload   : Mindfighter.Slave
+RunFile   : Mindfighter.Slave

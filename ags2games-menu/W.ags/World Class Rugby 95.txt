@@ -3,4 +3,4 @@ Publisher : Audiogenic
 Year      : 1995
 Genre     : Sports - Rugby
 Players   : 1 or 2, Simultaneous
-Whdload   : WorldClassRugby95.Slave
+RunFile   : WorldClassRugby95.Slave

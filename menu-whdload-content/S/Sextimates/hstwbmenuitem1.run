@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Sextimates/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sextimates.Slave" $whdloadargs
+  whdload "Sextimates.Slave" $whdloadargs
 ELSE
-	whdload "Sextimates.Slave"
+  whdload "Sextimates.Slave"
 ENDIF

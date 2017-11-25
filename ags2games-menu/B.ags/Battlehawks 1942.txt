@@ -3,4 +3,4 @@ Publisher : Lucasfilm Games
 Year      : 1989
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : Battlehawks1942.Slave
+RunFile   : Battlehawks1942.Slave

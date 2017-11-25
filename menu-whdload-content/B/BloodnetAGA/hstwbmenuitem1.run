@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BloodnetAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "BloodnetAGA.slave" $whdloadargs
+  whdload "BloodnetAGA.slave" $whdloadargs
 ELSE
-	whdload "BloodnetAGA.slave"
+  whdload "BloodnetAGA.slave"
 ENDIF

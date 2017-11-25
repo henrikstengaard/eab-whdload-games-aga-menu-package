@@ -4,4 +4,4 @@ Publisher : New World Computing
 Year      : 1992
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-Whdload   : MightAndMagic3.Slave
+RunFile   : MightAndMagic3.Slave

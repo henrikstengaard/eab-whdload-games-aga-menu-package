@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/EmpireSoccer94/"
 IF EXISTS ENV:whdloadargs
   whdload "EmpireSoccer94.Slave" $whdloadargs

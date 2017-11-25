@@ -3,4 +3,4 @@ Version   : CDTV
 Publisher : Centaur Software
 Year      : 1992
 Players   : 1 Only
-Whdload   : FantasticVoyageCDTV.slave
+RunFile   : FantasticVoyageCDTV.slave

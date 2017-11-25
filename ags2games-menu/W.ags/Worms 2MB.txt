@@ -4,4 +4,4 @@ Publisher : Team 17
 Year      : 1995
 Genre     : Strategy - Miscellaneous
 Players   : 1 to 4
-Whdload   : Worms2MB.Slave
+RunFile   : Worms2MB.Slave

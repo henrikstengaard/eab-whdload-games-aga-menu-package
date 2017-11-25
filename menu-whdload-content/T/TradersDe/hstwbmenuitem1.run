@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TradersDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "TradersDe.slave" $whdloadargs
+  whdload "TradersDe.slave" $whdloadargs
 ELSE
-	whdload "TradersDe.slave"
+  whdload "TradersDe.slave"
 ENDIF

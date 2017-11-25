@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FlightOfTheAmazonQueen/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlightOfTheAmazonQueen.Slave" $whdloadargs
+  whdload "FlightOfTheAmazonQueen.Slave" $whdloadargs
 ELSE
-	whdload "FlightOfTheAmazonQueen.Slave"
+  whdload "FlightOfTheAmazonQueen.Slave"
 ENDIF

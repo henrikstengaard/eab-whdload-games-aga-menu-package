@@ -3,4 +3,4 @@ Publisher : Zeppelin Games
 Year      : 1991
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : TitanicBlinky.Slave
+RunFile   : TitanicBlinky.Slave

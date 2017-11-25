@@ -3,4 +3,4 @@ Publisher : Zero
 Year      : 1989
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : MervTheMerciless.slave
+RunFile   : MervTheMerciless.slave

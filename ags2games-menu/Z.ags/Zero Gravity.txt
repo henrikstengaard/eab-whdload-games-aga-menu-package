@@ -3,4 +3,4 @@ Publisher : EAS Software
 Year      : 1988
 Genre     : Arcade - Breakout/Pong
 Players   : 1 or 2, Simultaneous
-Whdload   : ZeroGravity.Slave
+RunFile   : ZeroGravity.Slave

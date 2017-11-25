@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Perihelion/"
 IF EXISTS ENV:whdloadargs
-	whdload "Perihelion.Slave" $whdloadargs
+  whdload "Perihelion.Slave" $whdloadargs
 ELSE
-	whdload "Perihelion.Slave"
+  whdload "Perihelion.Slave"
 ENDIF

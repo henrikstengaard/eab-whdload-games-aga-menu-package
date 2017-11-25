@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ArchipelagosNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArchipelagosNTSC.Slave" $whdloadargs
+  whdload "ArchipelagosNTSC.Slave" $whdloadargs
 ELSE
-	whdload "ArchipelagosNTSC.Slave"
+  whdload "ArchipelagosNTSC.Slave"
 ENDIF

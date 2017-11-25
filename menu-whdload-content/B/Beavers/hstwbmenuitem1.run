@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Beavers/"
 IF EXISTS ENV:whdloadargs
-	whdload "Beavers.slave" $whdloadargs
+  whdload "Beavers.slave" $whdloadargs
 ELSE
-	whdload "Beavers.slave"
+  whdload "Beavers.slave"
 ENDIF

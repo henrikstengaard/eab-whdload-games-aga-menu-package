@@ -2,4 +2,4 @@ Name      : Magicland Dizzy
 Publisher : Codemasters
 Year      : 1991
 Players   : 1
-Whdload   : MagiclandDizzy.slave
+RunFile   : MagiclandDizzy.Slave

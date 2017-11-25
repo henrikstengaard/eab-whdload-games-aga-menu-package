@@ -3,4 +3,4 @@ Publisher : Ruppelware
 Year      : 1997
 Genre     : Arcade - Boulder Dash
 Players   : 1 or 2, Simultaneous
-Whdload   : ForgottenMine.slave
+RunFile   : ForgottenMine.slave

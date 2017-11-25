@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Blob/"
 IF EXISTS ENV:whdloadargs
-	whdload "Blob.slave" $whdloadargs
+  whdload "Blob.slave" $whdloadargs
 ELSE
-	whdload "Blob.slave"
+  whdload "Blob.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CruncherFactory/"
 IF EXISTS ENV:whdloadargs
-	whdload "CruncherFactory.Slave" $whdloadargs
+  whdload "CruncherFactory.Slave" $whdloadargs
 ELSE
-	whdload "CruncherFactory.Slave"
+  whdload "CruncherFactory.Slave"
 ENDIF

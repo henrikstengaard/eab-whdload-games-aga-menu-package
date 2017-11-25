@@ -2,4 +2,4 @@ Name      : Legacy
 Year      : 1991
 Genre     : Shooter - Walkabout
 Players   : 1
-Whdload   : TheLegacyGame.slave
+RunFile   : TheLegacyGame.slave

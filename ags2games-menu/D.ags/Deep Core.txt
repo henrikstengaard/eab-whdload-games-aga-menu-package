@@ -2,4 +2,4 @@ Name      : Deep Core
 Publisher : ICE
 Year      : 1993
 Players   : 1 Only
-Whdload   : DeepCore.Slave
+RunFile   : DeepCore.Slave

@@ -1,4 +1,4 @@
 Name      : Foundation's Waste
 Publisher : Exocet Software
 Year      : 1988
-Whdload   : FoundationsWaste.Slave
+RunFile   : FoundationsWaste.Slave

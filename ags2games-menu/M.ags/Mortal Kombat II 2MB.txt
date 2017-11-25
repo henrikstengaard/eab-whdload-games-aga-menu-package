@@ -3,4 +3,4 @@ Version   : 2MB
 Publisher : Acclaim Entertainment
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-Whdload   : MortalKombat22MB.slave
+RunFile   : MortalKombat22MB.slave

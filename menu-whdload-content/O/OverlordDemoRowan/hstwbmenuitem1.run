@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/OverlordDemoRowan/"
 IF EXISTS ENV:whdloadargs
-	whdload "OverlordDemoRowan.Slave" $whdloadargs
+  whdload "OverlordDemoRowan.Slave" $whdloadargs
 ELSE
-	whdload "OverlordDemoRowan.Slave"
+  whdload "OverlordDemoRowan.Slave"
 ENDIF

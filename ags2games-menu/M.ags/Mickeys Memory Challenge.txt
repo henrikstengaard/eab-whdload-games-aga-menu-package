@@ -3,4 +3,4 @@ Publisher : Infogrames
 Year      : 1993
 Genre     : Brain - Memory
 Players   : 1 or 2
-Whdload   : MickeysMemoryChallenge.Slave
+RunFile   : MickeysMemoryChallenge.Slave

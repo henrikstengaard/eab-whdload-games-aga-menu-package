@@ -2,4 +2,4 @@ Name      : Basket Island
 Version   : AGA Demo1
 Genre     : Sport - Basketball
 Players   : 1
-Whdload   : BasketIslandDemo1AGA.Slave
+RunFile   : BasketIslandDemo1AGA.Slave

@@ -3,4 +3,4 @@ Version   : 1MB
 Publisher : Hewson
 Year      : 1990
 Players   : 1 Only
-Whdload   : Paradroid901MB.Slave
+RunFile   : Paradroid901MB.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MetalLaw/"
 IF EXISTS ENV:whdloadargs
-	whdload "MetalLaw.slave" $whdloadargs
+  whdload "MetalLaw.slave" $whdloadargs
 ELSE
-	whdload "MetalLaw.slave"
+  whdload "MetalLaw.slave"
 ENDIF

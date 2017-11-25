@@ -3,4 +3,4 @@ Publisher : The Software Toolworks
 Year      : 1990
 Genre     : Board - Chess
 Players   : 1 or 2
-Whdload   : FidelityChessmaster2100.Slave
+RunFile   : FidelityChessmaster2100.Slave

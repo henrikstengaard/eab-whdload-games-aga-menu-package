@@ -3,4 +3,4 @@ Publisher : Hi-Tec Software
 Year      : 1992
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : JetsonsTheComputerGame.Slave
+RunFile   : JetsonsTheComputerGame.Slave

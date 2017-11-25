@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BlackTiger/"
 IF EXISTS ENV:whdloadargs
-	whdload "BlackTiger.slave" $whdloadargs
+  whdload "BlackTiger.slave" $whdloadargs
 ELSE
-	whdload "BlackTiger.slave"
+  whdload "BlackTiger.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/Gunship/"
 IF EXISTS ENV:whdloadargs
-	whdload "Gunship.slave" $whdloadargs
+  whdload "Gunship.slave" $whdloadargs
 ELSE
-	whdload "Gunship.slave"
+  whdload "Gunship.slave"
 ENDIF

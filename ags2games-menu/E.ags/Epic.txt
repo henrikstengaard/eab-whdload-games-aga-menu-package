@@ -2,4 +2,4 @@ Name      : Epic
 Publisher : Ocean
 Year      : 1992
 Players   : 1 Only
-Whdload   : Epic.slave
+RunFile   : Epic.slave

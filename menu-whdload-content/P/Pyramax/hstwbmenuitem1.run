@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Pyramax/"
 IF EXISTS ENV:whdloadargs
-	whdload "Pyramax.Slave" $whdloadargs
+  whdload "Pyramax.Slave" $whdloadargs
 ELSE
-	whdload "Pyramax.Slave"
+  whdload "Pyramax.Slave"
 ENDIF

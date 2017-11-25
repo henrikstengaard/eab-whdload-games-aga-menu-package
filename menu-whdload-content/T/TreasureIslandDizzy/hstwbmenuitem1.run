@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TreasureIslandDizzy/"
 IF EXISTS ENV:whdloadargs
-	whdload "TreasureIslandDizzy.slave" $whdloadargs
+  whdload "TreasureIslandDizzy.slave" $whdloadargs
 ELSE
-	whdload "TreasureIslandDizzy.slave"
+  whdload "TreasureIslandDizzy.slave"
 ENDIF

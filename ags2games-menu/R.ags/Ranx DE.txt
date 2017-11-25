@@ -3,4 +3,4 @@ Language  : German
 Publisher : Ubi Soft
 Year      : 1990
 Players   : 1 Only
-Whdload   : RanXDe.Slave
+RunFile   : RanXDe.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeepCore/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeepCore.Slave" $whdloadargs
+  whdload "DeepCore.Slave" $whdloadargs
 ELSE
-	whdload "DeepCore.Slave"
+  whdload "DeepCore.Slave"
 ENDIF

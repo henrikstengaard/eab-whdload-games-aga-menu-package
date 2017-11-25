@@ -4,4 +4,4 @@ Publisher : Silverrock Productions
 Year      : 1992
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : Hugo1Dk.Slave
+RunFile   : Hugo1Dk.Slave

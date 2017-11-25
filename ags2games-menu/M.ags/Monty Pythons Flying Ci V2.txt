@@ -3,4 +3,4 @@ Version   : NTSC
 Publisher : Virgin Games
 Year      : 1990
 Players   : 1 Only
-Whdload   : MPythonsFlyingCircusNTSC.Slave
+RunFile   : MPythonsFlyingCircusNTSC.Slave

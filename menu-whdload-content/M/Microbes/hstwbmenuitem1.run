@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Microbes/"
 IF EXISTS ENV:whdloadargs
-	whdload "Microbes.Slave" $whdloadargs
+  whdload "Microbes.Slave" $whdloadargs
 ELSE
-	whdload "Microbes.Slave"
+  whdload "Microbes.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Yo! Joe!
 Publisher : Play Byte
 Year      : 1993
 Players   : 1 or 2, Simultaneous
-Whdload   : YoJoe.Slave
+RunFile   : YoJoe.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CarrierCommand/"
 IF EXISTS ENV:whdloadargs
-	whdload "CarrierCommand.Slave" $whdloadargs
+  whdload "CarrierCommand.Slave" $whdloadargs
 ELSE
-	whdload "CarrierCommand.Slave"
+  whdload "CarrierCommand.Slave"
 ENDIF

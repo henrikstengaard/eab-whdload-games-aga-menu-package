@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BubbleGun/"
 IF EXISTS ENV:whdloadargs
-	whdload "BubbleGun.Slave" $whdloadargs
+  whdload "BubbleGun.Slave" $whdloadargs
 ELSE
-	whdload "BubbleGun.Slave"
+  whdload "BubbleGun.Slave"
 ENDIF

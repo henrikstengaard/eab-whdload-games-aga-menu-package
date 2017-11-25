@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PopulousWorldEditor/"
 IF EXISTS ENV:whdloadargs
-	whdload "PopulousWorldEditor.Slave" $whdloadargs
+  whdload "PopulousWorldEditor.Slave" $whdloadargs
 ELSE
-	whdload "PopulousWorldEditor.Slave"
+  whdload "PopulousWorldEditor.Slave"
 ENDIF

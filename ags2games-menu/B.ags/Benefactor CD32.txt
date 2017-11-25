@@ -4,4 +4,4 @@ Publisher : Psygnosis
 Year      : 1994
 Genre     : Platformer - Single Screen
 Players   : 1 Only
-Whdload   : BenefactorCD32.Slave
+RunFile   : BenefactorCD32.Slave

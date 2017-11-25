@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SideShow/"
 IF EXISTS ENV:whdloadargs
-	whdload "SideShow.Slave" $whdloadargs
+  whdload "SideShow.Slave" $whdloadargs
 ELSE
-	whdload "SideShow.Slave"
+  whdload "SideShow.Slave"
 ENDIF

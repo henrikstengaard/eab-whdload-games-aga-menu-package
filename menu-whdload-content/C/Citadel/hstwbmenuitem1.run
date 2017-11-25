@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Citadel/"
 IF EXISTS ENV:whdloadargs
-	whdload "Citadel.slave" $whdloadargs
+  whdload "Citadel.slave" $whdloadargs
 ELSE
-	whdload "Citadel.slave"
+  whdload "Citadel.slave"
 ENDIF

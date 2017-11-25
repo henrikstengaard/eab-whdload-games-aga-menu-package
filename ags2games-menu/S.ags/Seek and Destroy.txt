@@ -2,4 +2,4 @@ Name      : Seek and Destroy
 Publisher : Mindscape
 Year      : 1994
 Players   : 1 or 2
-Whdload   : Seek&Destroy.Slave
+RunFile   : Seek&Destroy.Slave

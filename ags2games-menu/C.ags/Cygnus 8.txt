@@ -3,4 +3,4 @@ Publisher : Islona Entertainment
 Year      : 1997
 Genre     : Strategy - Trading
 Players   : 1 Only
-Whdload   : Cygnus8.Slave
+RunFile   : Cygnus8.Slave

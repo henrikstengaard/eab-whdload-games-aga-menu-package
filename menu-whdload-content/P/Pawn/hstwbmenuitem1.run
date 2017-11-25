@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Pawn/"
 IF EXISTS ENV:whdloadargs
-	whdload "Pawn.Slave" $whdloadargs
+  whdload "Pawn.Slave" $whdloadargs
 ELSE
-	whdload "Pawn.Slave"
+  whdload "Pawn.Slave"
 ENDIF

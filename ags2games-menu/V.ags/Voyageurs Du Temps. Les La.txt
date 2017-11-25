@@ -4,4 +4,4 @@ Publisher : Delphine
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1
-Whdload   : FutureWarsNTSC.slave
+RunFile   : FutureWarsNTSC.slave

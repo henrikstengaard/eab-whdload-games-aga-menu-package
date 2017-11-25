@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Clue/"
 IF EXISTS ENV:whdloadargs
-	whdload "Clue.slave" $whdloadargs
+  whdload "Clue.slave" $whdloadargs
 ELSE
-	whdload "Clue.slave"
+  whdload "Clue.slave"
 ENDIF

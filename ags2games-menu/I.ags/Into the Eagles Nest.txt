@@ -2,4 +2,4 @@ Name      : Into the Eagle's Nest
 Publisher : Mindscape
 Year      : 1987
 Players   : 1 Only
-Whdload   : IntoTheEaglesNest.slave
+RunFile   : IntoTheEaglesNest.slave

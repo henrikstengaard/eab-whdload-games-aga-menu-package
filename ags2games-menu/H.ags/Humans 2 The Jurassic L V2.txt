@@ -3,4 +3,4 @@ Language  : German
 Publisher : Mirage / Gametek
 Year      : 1993
 Players   : 1
-Whdload   : Humans2De.slave
+RunFile   : Humans2De.slave

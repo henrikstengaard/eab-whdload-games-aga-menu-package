@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DragonsKingdomDemo/"
 IF EXISTS ENV:whdloadargs
-	whdload "DragonsKingdomDemo.Slave" $whdloadargs
+  whdload "DragonsKingdomDemo.Slave" $whdloadargs
 ELSE
-	whdload "DragonsKingdomDemo.Slave"
+  whdload "DragonsKingdomDemo.Slave"
 ENDIF

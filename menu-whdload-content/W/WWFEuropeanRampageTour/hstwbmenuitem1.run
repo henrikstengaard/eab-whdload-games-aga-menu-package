@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WWFEuropeanRampageTour/"
 IF EXISTS ENV:whdloadargs
-	whdload "WWFEuropeanRampageTour.Slave" $whdloadargs
+  whdload "WWFEuropeanRampageTour.Slave" $whdloadargs
 ELSE
-	whdload "WWFEuropeanRampageTour.Slave"
+  whdload "WWFEuropeanRampageTour.Slave"
 ENDIF

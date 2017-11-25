@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:Q/QuikThunderRabbitCD32/"
 IF EXISTS ENV:whdloadargs
   whdload "QuikThunderRabbitCD32.Slave" $whdloadargs

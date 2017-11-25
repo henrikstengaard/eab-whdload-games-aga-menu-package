@@ -3,4 +3,4 @@ Publisher : Tynesoft
 Year      : 1988
 Genre     : Sports - Multi-Event
 Players   : 1 to 6
-Whdload   : WinterOlympiad88.Slave
+RunFile   : WinterOlympiad88.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/ProspectorInTheMazesOfXor/"
 IF EXISTS ENV:whdloadargs
-	whdload "ProspectorInTheMazesOfXor.Slave" $whdloadargs
+  whdload "ProspectorInTheMazesOfXor.Slave" $whdloadargs
 ELSE
-	whdload "ProspectorInTheMazesOfXor.Slave"
+  whdload "ProspectorInTheMazesOfXor.Slave"
 ENDIF

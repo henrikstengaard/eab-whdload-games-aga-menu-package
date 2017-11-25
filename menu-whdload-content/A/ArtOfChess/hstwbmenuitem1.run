@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ArtOfChess/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArtOfChess.Slave" $whdloadargs
+  whdload "ArtOfChess.Slave" $whdloadargs
 ELSE
-	whdload "ArtOfChess.Slave"
+  whdload "ArtOfChess.Slave"
 ENDIF

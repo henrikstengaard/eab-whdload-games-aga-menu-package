@@ -3,4 +3,4 @@ Publisher : Psygnosis
 Year      : 1992
 Genre     : Sports - Multi-Event
 Players   : 1 Only
-Whdload   : CarlLewisChallenge.slave
+RunFile   : CarlLewisChallenge.slave

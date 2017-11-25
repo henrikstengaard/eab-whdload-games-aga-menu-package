@@ -3,4 +3,4 @@ Publisher : Flair Software
 Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : ElviraArcade.Slave
+RunFile   : ElviraArcade.Slave

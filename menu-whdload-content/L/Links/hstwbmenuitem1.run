@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/Links/"
 IF EXISTS ENV:whdloadargs
-	whdload "Links.slave" $whdloadargs
+  whdload "Links.slave" $whdloadargs
 ELSE
-	whdload "Links.slave"
+  whdload "Links.slave"
 ENDIF

@@ -4,4 +4,4 @@ Publisher : 21st Century Entertainment
 Year      : 1994
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : MarvinsMarvellousAdvCD32.Slave
+RunFile   : MarvinsMarvellousAdvCD32.Slave

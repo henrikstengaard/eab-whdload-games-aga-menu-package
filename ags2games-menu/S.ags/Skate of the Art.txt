@@ -3,4 +3,4 @@ Publisher : Linel
 Year      : 1989
 Genre     : Sports - Skateboard
 Players   : 1 Only
-Whdload   : SkateOfTheArt.Slave
+RunFile   : SkateOfTheArt.Slave

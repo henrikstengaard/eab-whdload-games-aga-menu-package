@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChipsChallengeEpyx/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChipsChallengeEpyx.Slave" $whdloadargs
+  whdload "ChipsChallengeEpyx.Slave" $whdloadargs
 ELSE
-	whdload "ChipsChallengeEpyx.Slave"
+  whdload "ChipsChallengeEpyx.Slave"
 ENDIF

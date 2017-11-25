@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GBAChampionshipBB/"
 IF EXISTS ENV:whdloadargs
-	whdload "GBAChampionshipBB.Slave" $whdloadargs
+  whdload "GBAChampionshipBB.Slave" $whdloadargs
 ELSE
-	whdload "GBAChampionshipBB.Slave"
+  whdload "GBAChampionshipBB.Slave"
 ENDIF

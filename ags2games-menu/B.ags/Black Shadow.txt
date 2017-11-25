@@ -2,4 +2,4 @@ Name      : Black Shadow
 Publisher : CRL
 Year      : 1987
 Players   : 1 or 2, Simultaneous
-Whdload   : BlackShadow.Slave
+RunFile   : BlackShadow.Slave

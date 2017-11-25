@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CivilizationAGADe/"
 IF EXISTS ENV:whdloadargs
-	whdload "CivilizationAGADe.Slave" $whdloadargs
+  whdload "CivilizationAGADe.Slave" $whdloadargs
 ELSE
-	whdload "CivilizationAGADe.Slave"
+  whdload "CivilizationAGADe.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeathbringerEmpire/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeathbringerEmpire.Slave" $whdloadargs
+  whdload "DeathbringerEmpire.Slave" $whdloadargs
 ELSE
-	whdload "DeathbringerEmpire.Slave"
+  whdload "DeathbringerEmpire.Slave"
 ENDIF

@@ -4,4 +4,4 @@ Publisher : On-line
 Year      : 1992
 Genre     : Adventure - Animated
 Players   : 1
-Whdload   : PsychoKillerCDTV.Slave
+RunFile   : PsychoKillerCDTV.Slave

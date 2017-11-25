@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:X/XIt/"
 IF EXISTS ENV:whdloadargs
-	whdload "XIt.Slave" $whdloadargs
+  whdload "XIt.Slave" $whdloadargs
 ELSE
-	whdload "XIt.Slave"
+  whdload "XIt.Slave"
 ENDIF

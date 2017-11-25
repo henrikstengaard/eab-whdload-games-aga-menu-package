@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CabaretAsteroidsRepacked/"
 IF EXISTS ENV:whdloadargs
-	whdload "CabaretAsteroidsRepacked.slave" $whdloadargs
+  whdload "CabaretAsteroidsRepacked.slave" $whdloadargs
 ELSE
-	whdload "CabaretAsteroidsRepacked.slave"
+  whdload "CabaretAsteroidsRepacked.slave"
 ENDIF

@@ -4,4 +4,4 @@ Publisher : Gametek
 Year      : 1996
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : Humans3AGA.Slave
+RunFile   : Humans3AGA.Slave

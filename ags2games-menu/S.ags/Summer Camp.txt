@@ -3,4 +3,4 @@ Publisher : Thalamus
 Year      : 1991
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : SummerCamp.Slave
+RunFile   : SummerCamp.Slave

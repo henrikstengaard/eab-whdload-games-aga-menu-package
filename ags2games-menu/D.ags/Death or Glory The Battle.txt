@@ -4,4 +4,4 @@ Publisher : Software 2000
 Year      : 1994
 Genre     : Adventure - RPG 2D
 Players   : 1 Only
-Whdload   : DeathOrGloryDe.Slave
+RunFile   : DeathOrGloryDe.Slave

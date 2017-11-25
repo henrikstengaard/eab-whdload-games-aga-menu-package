@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VenusTheFlytrapNoIntro/"
 IF EXISTS ENV:whdloadargs
-	whdload "VenusTheFlytrapNoIntro.Slave" $whdloadargs
+  whdload "VenusTheFlytrapNoIntro.Slave" $whdloadargs
 ELSE
-	whdload "VenusTheFlytrapNoIntro.Slave"
+  whdload "VenusTheFlytrapNoIntro.Slave"
 ENDIF

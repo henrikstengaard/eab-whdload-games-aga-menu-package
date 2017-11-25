@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SevenGatesOfJambalaFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "SevenGatesOfJambalaFiles.slave" $whdloadargs
+  whdload "SevenGatesOfJambalaFiles.slave" $whdloadargs
 ELSE
-	whdload "SevenGatesOfJambalaFiles.slave"
+  whdload "SevenGatesOfJambalaFiles.slave"
 ENDIF

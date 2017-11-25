@@ -3,4 +3,4 @@ Publisher : Domark
 Year      : 1996
 Genre     : Sports - Football/Soccer
 Players   : 1 or 2, Simultaneous
-Whdload   : TotalFootball.Slave
+RunFile   : TotalFootball.Slave

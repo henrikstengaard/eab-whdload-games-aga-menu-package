@@ -3,4 +3,4 @@ Version   : DataDisk
 Publisher : Graphic Expressions
 Year      : 1989
 Players   : 1
-Whdload   : FemmeFatale&DataDisk.Slave
+RunFile   : FemmeFatale&DataDisk.Slave

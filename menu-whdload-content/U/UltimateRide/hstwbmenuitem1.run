@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UltimateRide/"
 IF EXISTS ENV:whdloadargs
-	whdload "UltimateRide.slave" $whdloadargs
+  whdload "UltimateRide.slave" $whdloadargs
 ELSE
-	whdload "UltimateRide.slave"
+  whdload "UltimateRide.slave"
 ENDIF

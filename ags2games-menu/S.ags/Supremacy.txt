@@ -3,4 +3,4 @@ Publisher : Melbourne House
 Year      : 1990
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Supremacy.Slave
+RunFile   : Supremacy.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Z/ZombiFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "ZombiFr.Slave" $whdloadargs
+  whdload "ZombiFr.Slave" $whdloadargs
 ELSE
-	whdload "ZombiFr.Slave"
+  whdload "ZombiFr.Slave"
 ENDIF

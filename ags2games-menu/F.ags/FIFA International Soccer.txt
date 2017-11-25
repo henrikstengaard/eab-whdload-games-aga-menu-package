@@ -2,4 +2,4 @@ Name      : FIFA International Soccer
 Publisher : Electronic Arts
 Year      : 1994
 Genre     : Sports - Football/Soccer
-Whdload   : FIFAInternationalSoccer.slave
+RunFile   : FIFAInternationalSoccer.slave

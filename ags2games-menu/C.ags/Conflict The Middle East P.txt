@@ -3,4 +3,4 @@ Publisher : Virgin Mastertronic
 Year      : 1990
 Genre     : Strategy - Politics
 Players   : 1 Only
-Whdload   : ConflictMiddleEastPolSim.Slave
+RunFile   : ConflictMiddleEastPolSim.Slave

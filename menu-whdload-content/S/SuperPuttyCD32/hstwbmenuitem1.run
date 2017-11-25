@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuperPuttyCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuperPuttyCD32.Slave" $whdloadargs
+  whdload "SuperPuttyCD32.Slave" $whdloadargs
 ELSE
-	whdload "SuperPuttyCD32.Slave"
+  whdload "SuperPuttyCD32.Slave"
 ENDIF

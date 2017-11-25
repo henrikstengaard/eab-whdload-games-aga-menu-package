@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1990
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-Whdload   : DragonWars.Slave
+RunFile   : DragonWars.Slave

@@ -4,4 +4,4 @@ Version   : AGA
 Publisher : Magic Bytes
 Year      : 1995
 Players   : 1
-Whdload   : BiingAGADe.slave
+RunFile   : BiingAGADe.slave

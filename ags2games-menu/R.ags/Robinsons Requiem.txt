@@ -3,4 +3,4 @@ Publisher : Silmarils
 Year      : 1994
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-Whdload   : RobinsonsRequiem.Slave
+RunFile   : RobinsonsRequiem.Slave

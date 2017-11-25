@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/OmnicronConspiracy/"
 IF EXISTS ENV:whdloadargs
-	whdload "OmnicronConspiracy.Slave" $whdloadargs
+  whdload "OmnicronConspiracy.Slave" $whdloadargs
 ELSE
-	whdload "OmnicronConspiracy.Slave"
+  whdload "OmnicronConspiracy.Slave"
 ENDIF

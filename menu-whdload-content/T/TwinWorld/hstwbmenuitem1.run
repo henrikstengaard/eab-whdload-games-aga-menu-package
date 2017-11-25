@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TwinWorld/"
 IF EXISTS ENV:whdloadargs
-	whdload "TwinWorld.slave" $whdloadargs
+  whdload "TwinWorld.slave" $whdloadargs
 ELSE
-	whdload "TwinWorld.slave"
+  whdload "TwinWorld.slave"
 ENDIF

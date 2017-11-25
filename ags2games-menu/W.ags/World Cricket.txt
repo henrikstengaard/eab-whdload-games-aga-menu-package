@@ -3,4 +3,4 @@ Publisher : Zeppelin Games
 Year      : 1991
 Genre     : Sports - Cricket
 Players   : 1 Only
-Whdload   : WorldCricket.Slave
+RunFile   : WorldCricket.Slave

@@ -4,4 +4,4 @@ Publisher : Silverrock Productions
 Year      : 1992
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : Hugo2Fi.Slave
+RunFile   : Hugo2Fi.Slave

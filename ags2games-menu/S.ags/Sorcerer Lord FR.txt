@@ -4,4 +4,4 @@ Publisher : Personal Software Services (PSS)
 Year      : 1988
 Genre     : Strategy - War
 Players   : 1 Only
-Whdload   : SorcererLordFr.Slave
+RunFile   : SorcererLordFr.Slave

@@ -2,4 +2,4 @@ Name      : Battletoads
 Publisher : Mindscape
 Year      : 1992
 Players   : 1 or 2, Simultaneous
-Whdload   : Battletoads.slave
+RunFile   : Battletoads.slave

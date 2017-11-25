@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Fuzzball/"
 IF EXISTS ENV:whdloadargs
-	whdload "Fuzzball.Slave" $whdloadargs
+  whdload "Fuzzball.Slave" $whdloadargs
 ELSE
-	whdload "Fuzzball.Slave"
+  whdload "Fuzzball.Slave"
 ENDIF

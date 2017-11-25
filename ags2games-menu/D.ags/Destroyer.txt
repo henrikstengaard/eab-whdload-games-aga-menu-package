@@ -3,4 +3,4 @@ Publisher : Epyx
 Year      : 1987
 Genre     : Simulation - Marine
 Players   : 1 Only
-Whdload   : Destroyer.Slave
+RunFile   : Destroyer.Slave

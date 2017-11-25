@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AssassinSpecialEdition/"
 IF EXISTS ENV:whdloadargs
-	whdload "AssassinSpecialEdition.slave" $whdloadargs
+  whdload "AssassinSpecialEdition.slave" $whdloadargs
 ELSE
-	whdload "AssassinSpecialEdition.slave"
+  whdload "AssassinSpecialEdition.slave"
 ENDIF

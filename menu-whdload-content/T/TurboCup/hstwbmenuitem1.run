@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TurboCup/"
 IF EXISTS ENV:whdloadargs
-	whdload "TurboCup.Slave" $whdloadargs
+  whdload "TurboCup.Slave" $whdloadargs
 ELSE
-	whdload "TurboCup.Slave"
+  whdload "TurboCup.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Deliverance/"
 IF EXISTS ENV:whdloadargs
-	whdload "Deliverance.slave" $whdloadargs
+  whdload "Deliverance.slave" $whdloadargs
 ELSE
-	whdload "Deliverance.slave"
+  whdload "Deliverance.slave"
 ENDIF

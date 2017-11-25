@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Revelation/"
 IF EXISTS ENV:whdloadargs
-	whdload "Revelation.Slave" $whdloadargs
+  whdload "Revelation.Slave" $whdloadargs
 ELSE
-	whdload "Revelation.Slave"
+  whdload "Revelation.Slave"
 ENDIF

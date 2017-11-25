@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TheirFinestHour/"
 IF EXISTS ENV:whdloadargs
-	whdload "TheirFinestHour.Slave" $whdloadargs
+  whdload "TheirFinestHour.Slave" $whdloadargs
 ELSE
-	whdload "TheirFinestHour.Slave"
+  whdload "TheirFinestHour.Slave"
 ENDIF

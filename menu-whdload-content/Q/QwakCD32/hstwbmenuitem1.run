@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Q/QwakCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "QwakCD32.Slave" $whdloadargs
+  whdload "QwakCD32.Slave" $whdloadargs
 ELSE
-	whdload "QwakCD32.Slave"
+  whdload "QwakCD32.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TetrisMirrorsoft/"
 IF EXISTS ENV:whdloadargs
-	whdload "TetrisMirrorsoft.Slave" $whdloadargs
+  whdload "TetrisMirrorsoft.Slave" $whdloadargs
 ELSE
-	whdload "TetrisMirrorsoft.Slave"
+  whdload "TetrisMirrorsoft.Slave"
 ENDIF

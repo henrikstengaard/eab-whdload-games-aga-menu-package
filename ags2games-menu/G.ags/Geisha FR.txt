@@ -3,4 +3,4 @@ Language  : French
 Publisher : Coktel Vision
 Year      : 1990
 Genre     : Adventure - Miscellaneous
-Whdload   : GeishaFr.Slave
+RunFile   : GeishaFr.Slave

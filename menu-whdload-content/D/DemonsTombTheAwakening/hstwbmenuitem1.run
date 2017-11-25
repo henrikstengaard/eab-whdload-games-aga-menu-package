@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DemonsTombTheAwakening/"
 IF EXISTS ENV:whdloadargs
-	whdload "DemonsTombTheAwakening.Slave" $whdloadargs
+  whdload "DemonsTombTheAwakening.Slave" $whdloadargs
 ELSE
-	whdload "DemonsTombTheAwakening.Slave"
+  whdload "DemonsTombTheAwakening.Slave"
 ENDIF

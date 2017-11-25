@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HolidayMakerDe/"
 IF EXISTS ENV:whdloadargs
   whdload "HolidayMakerDe.Slave" $whdloadargs

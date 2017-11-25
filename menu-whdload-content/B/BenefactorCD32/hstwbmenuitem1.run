@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BenefactorCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "BenefactorCD32.Slave" $whdloadargs
+  whdload "BenefactorCD32.Slave" $whdloadargs
 ELSE
-	whdload "BenefactorCD32.Slave"
+  whdload "BenefactorCD32.Slave"
 ENDIF

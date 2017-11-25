@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/EliteAdvanced/"
 IF EXISTS ENV:whdloadargs
-	whdload "EliteAdvanced.Slave" $whdloadargs
+  whdload "EliteAdvanced.Slave" $whdloadargs
 ELSE
-	whdload "EliteAdvanced.Slave"
+  whdload "EliteAdvanced.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NightShift/"
 IF EXISTS ENV:whdloadargs
-	whdload "NightShift.slave" $whdloadargs
+  whdload "NightShift.slave" $whdloadargs
 ELSE
-	whdload "NightShift.slave"
+  whdload "NightShift.slave"
 ENDIF

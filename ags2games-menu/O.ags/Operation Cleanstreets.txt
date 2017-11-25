@@ -2,4 +2,4 @@ Name      : Operation: Cleanstreets
 Publisher : Brøderbund
 Year      : 1988
 Players   : 1
-Whdload   : OperationCleanstreets.Slave
+RunFile   : OperationCleanstreets.Slave

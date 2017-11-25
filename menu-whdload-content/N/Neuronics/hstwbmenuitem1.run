@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/Neuronics/"
 IF EXISTS ENV:whdloadargs
-	whdload "Neuronics.Slave" $whdloadargs
+  whdload "Neuronics.Slave" $whdloadargs
 ELSE
-	whdload "Neuronics.Slave"
+  whdload "Neuronics.Slave"
 ENDIF

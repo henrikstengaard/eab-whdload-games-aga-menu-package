@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MeanStreets/"
 IF EXISTS ENV:whdloadargs
-	whdload "MeanStreets.slave" $whdloadargs
+  whdload "MeanStreets.slave" $whdloadargs
 ELSE
-	whdload "MeanStreets.slave"
+  whdload "MeanStreets.slave"
 ENDIF

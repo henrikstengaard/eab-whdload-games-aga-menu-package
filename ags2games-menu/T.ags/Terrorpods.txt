@@ -3,4 +3,4 @@ Publisher : Psygnosis
 Year      : 1987
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Terrorpods.Slave
+RunFile   : Terrorpods.Slave

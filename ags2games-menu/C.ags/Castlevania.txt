@@ -3,4 +3,4 @@ Publisher : Konami
 Year      : 1990
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : CastleVania.slave
+RunFile   : CastleVania.slave

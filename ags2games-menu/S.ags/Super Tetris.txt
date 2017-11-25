@@ -3,4 +3,4 @@ Publisher : Spectrum HoloByte
 Year      : 1992
 Genre     : Arcade - Tetris
 Players   : 1 or 2, Simultaneous
-Whdload   : SuperTetris.Slave
+RunFile   : SuperTetris.Slave

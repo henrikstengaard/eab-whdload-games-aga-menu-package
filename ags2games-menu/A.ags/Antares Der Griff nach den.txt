@@ -3,4 +3,4 @@ Language  : German
 Publisher : Bomico
 Year      : 1990
 Players   : 1
-Whdload   : AntaresDe.Slave
+RunFile   : AntaresDe.Slave

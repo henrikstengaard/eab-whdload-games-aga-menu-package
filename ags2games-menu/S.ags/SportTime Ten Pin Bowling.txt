@@ -3,4 +3,4 @@ Publisher : Arcadia (Mastertronic)
 Year      : 1988
 Genre     : Sport - Bowling
 Players   : 1 or 2
-Whdload   : TenPinBowlingArcadia.Slave
+RunFile   : TenPinBowlingArcadia.Slave

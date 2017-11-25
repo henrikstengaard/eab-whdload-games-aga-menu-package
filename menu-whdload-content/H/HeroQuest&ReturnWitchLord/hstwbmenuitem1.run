@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HeroQuest&ReturnWitchLord/"
 IF EXISTS ENV:whdloadargs
-	whdload "HeroQuest&ReturnWitchLord.Slave" $whdloadargs
+  whdload "HeroQuest&ReturnWitchLord.Slave" $whdloadargs
 ELSE
-	whdload "HeroQuest&ReturnWitchLord.Slave"
+  whdload "HeroQuest&ReturnWitchLord.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DreamZone/"
 IF EXISTS ENV:whdloadargs
-	whdload "DreamZone.Slave" $whdloadargs
+  whdload "DreamZone.Slave" $whdloadargs
 ELSE
-	whdload "DreamZone.Slave"
+  whdload "DreamZone.Slave"
 ENDIF

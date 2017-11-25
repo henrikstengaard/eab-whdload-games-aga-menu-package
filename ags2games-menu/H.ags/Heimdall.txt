@@ -3,4 +3,4 @@ Publisher : Core Design
 Year      : 1991
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : Heimdall.Slave
+RunFile   : Heimdall.Slave

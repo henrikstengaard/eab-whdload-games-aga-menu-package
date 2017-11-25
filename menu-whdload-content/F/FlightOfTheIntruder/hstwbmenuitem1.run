@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FlightOfTheIntruder/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlightOfTheIntruder.Slave" $whdloadargs
+  whdload "FlightOfTheIntruder.Slave" $whdloadargs
 ELSE
-	whdload "FlightOfTheIntruder.Slave"
+  whdload "FlightOfTheIntruder.Slave"
 ENDIF

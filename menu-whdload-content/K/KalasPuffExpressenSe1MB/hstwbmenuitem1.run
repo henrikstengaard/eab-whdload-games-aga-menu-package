@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KalasPuffExpressenSe1MB/"
 IF EXISTS ENV:whdloadargs
-	whdload "KalasPuffExpressenSe1MB.slave" $whdloadargs
+  whdload "KalasPuffExpressenSe1MB.slave" $whdloadargs
 ELSE
-	whdload "KalasPuffExpressenSe1MB.slave"
+  whdload "KalasPuffExpressenSe1MB.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DungeonsOfAvalon2/"
 IF EXISTS ENV:whdloadargs
-	whdload "DungeonsOfAvalon2.Slave" $whdloadargs
+  whdload "DungeonsOfAvalon2.Slave" $whdloadargs
 ELSE
-	whdload "DungeonsOfAvalon2.Slave"
+  whdload "DungeonsOfAvalon2.Slave"
 ENDIF

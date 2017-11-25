@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LeadingLapMPVAGACUAmiga/"
 IF EXISTS ENV:whdloadargs
-	whdload "LeadingLapMPVAGACUAmiga.slave" $whdloadargs
+  whdload "LeadingLapMPVAGACUAmiga.slave" $whdloadargs
 ELSE
-	whdload "LeadingLapMPVAGACUAmiga.slave"
+  whdload "LeadingLapMPVAGACUAmiga.slave"
 ENDIF

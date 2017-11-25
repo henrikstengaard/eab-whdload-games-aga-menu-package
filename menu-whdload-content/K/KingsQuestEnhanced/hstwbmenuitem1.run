@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KingsQuestEnhanced/"
 IF EXISTS ENV:whdloadargs
-	whdload "KingsQuestEnhanced.slave" $whdloadargs
+  whdload "KingsQuestEnhanced.slave" $whdloadargs
 ELSE
-	whdload "KingsQuestEnhanced.slave"
+  whdload "KingsQuestEnhanced.slave"
 ENDIF

@@ -1,4 +1,4 @@
 Name      : Rotor
 Publisher : Arcana
 Year      : 1989
-Whdload   : Rotor.slave
+RunFile   : Rotor.slave

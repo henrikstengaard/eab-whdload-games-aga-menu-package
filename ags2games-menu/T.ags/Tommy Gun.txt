@@ -2,4 +2,4 @@ Name      : Tommy Gun
 Publisher : Mutation Software
 Year      : 1996
 Players   : 1 or 2, Simultaneous
-Whdload   : TommyGun.Slave
+RunFile   : TommyGun.Slave

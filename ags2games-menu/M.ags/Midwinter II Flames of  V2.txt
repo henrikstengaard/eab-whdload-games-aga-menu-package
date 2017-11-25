@@ -4,4 +4,4 @@ Publisher : Rainbird
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Midwinter2De.Slave
+RunFile   : Midwinter2De.Slave

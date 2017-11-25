@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/Wall/"
 IF EXISTS ENV:whdloadargs
-	whdload "Wall.Slave" $whdloadargs
+  whdload "Wall.Slave" $whdloadargs
 ELSE
-	whdload "Wall.Slave"
+  whdload "Wall.Slave"
 ENDIF

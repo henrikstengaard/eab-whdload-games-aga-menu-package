@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Rushhour/"
 IF EXISTS ENV:whdloadargs
-	whdload "Rushhour.Slave" $whdloadargs
+  whdload "Rushhour.Slave" $whdloadargs
 ELSE
-	whdload "Rushhour.Slave"
+  whdload "Rushhour.Slave"
 ENDIF

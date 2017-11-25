@@ -3,4 +3,4 @@ Publisher : Thalamus
 Year      : 1992
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : WinterCamp.Slave
+RunFile   : WinterCamp.Slave

@@ -3,4 +3,4 @@ Publisher : MicroValue
 Year      : 1992
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : DemonBlue.slave
+RunFile   : DemonBlue.slave

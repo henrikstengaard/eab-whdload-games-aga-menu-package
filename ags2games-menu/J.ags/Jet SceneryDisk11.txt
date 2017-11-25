@@ -3,4 +3,4 @@ Version   : SceneryDisk11
 Publisher : SubLOGIC
 Year      : 1988
 Genre     : Simulation - Flight
-Whdload   : Jet&SceneryDisk11.Slave
+RunFile   : Jet&SceneryDisk11.Slave

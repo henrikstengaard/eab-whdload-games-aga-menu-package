@@ -3,4 +3,4 @@ Publisher : DigiTek Software
 Year      : 1991
 Genre     : Strategy - Company
 Players   : 1 to 3
-Whdload   : BigBusiness.Slave
+RunFile   : BigBusiness.Slave

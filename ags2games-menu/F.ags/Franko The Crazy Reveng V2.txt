@@ -3,4 +3,4 @@ Language  : Polish
 Publisher : Mirage
 Year      : 1994
 Players   : 1 Only
-Whdload   : FrankoPl.Slave
+RunFile   : FrankoPl.Slave

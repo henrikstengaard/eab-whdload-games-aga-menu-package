@@ -3,4 +3,4 @@ Publisher : King Size
 Year      : 1987
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : Kwasimodo.Slave
+RunFile   : Kwasimodo.Slave

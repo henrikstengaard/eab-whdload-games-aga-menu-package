@@ -2,4 +2,4 @@ Name      : Oath, The
 Publisher : Attic Entertainment Software
 Year      : 1991
 Players   : 1 or 2, Simultaneous
-Whdload   : Oath.Slave
+RunFile   : Oath.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/ExtractorsPreviewCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "ExtractorsPreviewCD32.slave" $whdloadargs
+  whdload "ExtractorsPreviewCD32.slave" $whdloadargs
 ELSE
-	whdload "ExtractorsPreviewCD32.slave"
+  whdload "ExtractorsPreviewCD32.slave"
 ENDIF

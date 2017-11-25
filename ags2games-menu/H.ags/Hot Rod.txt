@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1990
 Genre     : Racing - Overhead
 Players   : 1 to 4, Simultaneous
-Whdload   : HotRod.Slave
+RunFile   : HotRod.Slave

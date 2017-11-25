@@ -4,4 +4,4 @@ Publisher : Grandslam
 Year      : 1994
 Genre     : Sports - Golf
 Players   : 1 to 4
-Whdload   : NickFaldosChampGolfCD32.Slave
+RunFile   : NickFaldosChampGolfCD32.Slave

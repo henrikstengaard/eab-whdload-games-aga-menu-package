@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/Unreal/"
 IF EXISTS ENV:whdloadargs
-	whdload "Unreal.Slave" $whdloadargs
+  whdload "Unreal.Slave" $whdloadargs
 ELSE
-	whdload "Unreal.Slave"
+  whdload "Unreal.Slave"
 ENDIF

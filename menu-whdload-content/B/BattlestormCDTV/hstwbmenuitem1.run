@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:B/BattlestormCDTV/"
+; Run WHDLoad
+cd "A-Games:BattlestormCDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "BattlestormCDTV.Slave" $whdloadargs
+  whdload "BattlestormCDTV.Slave" $whdloadargs
 ELSE
-	whdload "BattlestormCDTV.Slave"
+  whdload "BattlestormCDTV.Slave"
 ENDIF

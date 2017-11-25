@@ -2,4 +2,4 @@ Name      : Platoon
 Publisher : Ocean
 Year      : 1988
 Players   : 1 Only
-Whdload   : Platoon.Slave
+RunFile   : Platoon.Slave

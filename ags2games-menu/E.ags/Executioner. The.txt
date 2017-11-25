@@ -2,4 +2,4 @@ Name      : Executioner, The
 Publisher : Hawk
 Year      : 1991
 Players   : 1 Only
-Whdload   : Executioner.Slave
+RunFile   : Executioner.Slave

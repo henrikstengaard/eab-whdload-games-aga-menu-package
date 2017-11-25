@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/Khalaan/"
 IF EXISTS ENV:whdloadargs
-	whdload "Khalaan.Slave" $whdloadargs
+  whdload "Khalaan.Slave" $whdloadargs
 ELSE
-	whdload "Khalaan.Slave"
+  whdload "Khalaan.Slave"
 ENDIF

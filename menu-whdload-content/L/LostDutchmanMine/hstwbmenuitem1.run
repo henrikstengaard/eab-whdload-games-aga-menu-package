@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LostDutchmanMine/"
 IF EXISTS ENV:whdloadargs
-	whdload "LostDutchmanMine.Slave" $whdloadargs
+  whdload "LostDutchmanMine.Slave" $whdloadargs
 ELSE
-	whdload "LostDutchmanMine.Slave"
+  whdload "LostDutchmanMine.Slave"
 ENDIF

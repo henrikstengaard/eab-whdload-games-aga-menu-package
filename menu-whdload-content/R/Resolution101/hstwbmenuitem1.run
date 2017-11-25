@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Resolution101/"
 IF EXISTS ENV:whdloadargs
-	whdload "Resolution101.Slave" $whdloadargs
+  whdload "Resolution101.Slave" $whdloadargs
 ELSE
-	whdload "Resolution101.Slave"
+  whdload "Resolution101.Slave"
 ENDIF

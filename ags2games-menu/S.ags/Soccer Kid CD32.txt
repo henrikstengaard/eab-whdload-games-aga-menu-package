@@ -4,4 +4,4 @@ Publisher : Krisalis
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : SoccerKidCD32.Slave
+RunFile   : SoccerKidCD32.Slave

@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/ShadowOfTheBeast/"
 IF EXISTS ENV:whdloadargs
   whdload "ShadowOfTheBeast.slave" $whdloadargs

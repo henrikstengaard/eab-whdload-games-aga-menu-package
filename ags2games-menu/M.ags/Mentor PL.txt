@@ -3,4 +3,4 @@ Language  : Polish
 Publisher : MarkSoft
 Year      : 1994
 Players   : 1
-Whdload   : MentorPl.Slave
+RunFile   : MentorPl.Slave

@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=Scorpion
-RunFile=Scorpion.Slave
-AGS2Name=Scorpion
-iGameName=Scorpion
+Name=Scorpion highs
+RunFile=highs
+AGS2Name=Scorpion highs
+iGameName=Scorpion highs

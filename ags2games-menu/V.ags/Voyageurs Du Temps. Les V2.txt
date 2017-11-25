@@ -4,4 +4,4 @@ Publisher : Delphine
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1
-Whdload   : VoyageursDuTempsFr.slave
+RunFile   : VoyageursDuTempsFr.slave

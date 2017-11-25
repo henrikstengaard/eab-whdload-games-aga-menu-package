@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TitusTheFox/"
 IF EXISTS ENV:whdloadargs
-	whdload "TitusTheFox.slave" $whdloadargs
+  whdload "TitusTheFox.slave" $whdloadargs
 ELSE
-	whdload "TitusTheFox.slave"
+  whdload "TitusTheFox.slave"
 ENDIF

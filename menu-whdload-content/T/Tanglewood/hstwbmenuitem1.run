@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Tanglewood/"
 IF EXISTS ENV:whdloadargs
-	whdload "Tanglewood.Slave" $whdloadargs
+  whdload "Tanglewood.Slave" $whdloadargs
 ELSE
-	whdload "Tanglewood.Slave"
+  whdload "Tanglewood.Slave"
 ENDIF

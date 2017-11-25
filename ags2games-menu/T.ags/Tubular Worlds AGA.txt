@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Dongleware
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-Whdload   : TubularWorldsAGA.Slave
+RunFile   : TubularWorldsAGA.Slave

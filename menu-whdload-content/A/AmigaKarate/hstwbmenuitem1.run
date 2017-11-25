@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AmigaKarate/"
 IF EXISTS ENV:whdloadargs
-	whdload "AmigaKarate.Slave" $whdloadargs
+  whdload "AmigaKarate.Slave" $whdloadargs
 ELSE
-	whdload "AmigaKarate.Slave"
+  whdload "AmigaKarate.Slave"
 ENDIF

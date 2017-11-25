@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Psyborg/"
 IF EXISTS ENV:whdloadargs
-	whdload "Psyborg.Slave" $whdloadargs
+  whdload "Psyborg.Slave" $whdloadargs
 ELSE
-	whdload "Psyborg.Slave"
+  whdload "Psyborg.Slave"
 ENDIF

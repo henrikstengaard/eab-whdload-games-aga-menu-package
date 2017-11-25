@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=Turbo Trax 512KB
-RunFile=TurboTraxArcane512KB.Slave
-AGS2Name=Turbo Trax 512KB
-iGameName=Turbo Trax 512KB
+Name=Turbo Trax
+RunFile=TurboTraxArcane.Slave
+AGS2Name=Turbo Trax
+iGameName=Turbo Trax

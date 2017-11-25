@@ -3,4 +3,4 @@ Publisher : Alternative Software
 Year      : 1993
 Genre     : Miscellaneous - (unknown)
 Players   : 1 or 2, Simultaneous
-Whdload   : ThomasTheTankEngine2.slave
+RunFile   : ThomasTheTankEngine2.slave

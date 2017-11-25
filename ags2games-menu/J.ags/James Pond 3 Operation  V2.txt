@@ -4,4 +4,4 @@ Publisher : Millennium
 Year      : 1994
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : JamesPond3CD32.slave
+RunFile   : JamesPond3CD32.slave

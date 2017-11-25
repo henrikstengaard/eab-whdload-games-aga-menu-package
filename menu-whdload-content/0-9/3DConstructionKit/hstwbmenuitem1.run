@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:0-9/3DConstructionKit/"
 IF EXISTS ENV:whdloadargs
-	whdload "3DConstructionKit.Slave" $whdloadargs
+  whdload "3DConstructionKit.Slave" $whdloadargs
 ELSE
-	whdload "3DConstructionKit.Slave"
+  whdload "3DConstructionKit.Slave"
 ENDIF

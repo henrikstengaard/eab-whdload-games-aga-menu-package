@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeathMask/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeathMask.Slave" $whdloadargs
+  whdload "DeathMask.Slave" $whdloadargs
 ELSE
-	whdload "DeathMask.Slave"
+  whdload "DeathMask.Slave"
 ENDIF

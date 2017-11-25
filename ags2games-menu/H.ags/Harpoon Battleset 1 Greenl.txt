@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1991
 Genre     : Strategy - War
 Players   : 1 Only
-Whdload   : Harpoon&Battleset1.Slave
+RunFile   : Harpoon&Battleset1.Slave

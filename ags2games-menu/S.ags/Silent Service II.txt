@@ -3,4 +3,4 @@ Publisher : MicroProse Software
 Year      : 1990
 Genre     : Simulation - Marine
 Players   : 1 Only
-Whdload   : SilentService2.slave
+RunFile   : SilentService2.slave

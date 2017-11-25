@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BrutalPawsOfFury/"
 IF EXISTS ENV:whdloadargs
-	whdload "BrutalPawsOfFury.slave" $whdloadargs
+  whdload "BrutalPawsOfFury.slave" $whdloadargs
 ELSE
-	whdload "BrutalPawsOfFury.slave"
+  whdload "BrutalPawsOfFury.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TotalFootball/"
 IF EXISTS ENV:whdloadargs
-	whdload "TotalFootball.Slave" $whdloadargs
+  whdload "TotalFootball.Slave" $whdloadargs
 ELSE
-	whdload "TotalFootball.Slave"
+  whdload "TotalFootball.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/Wizardry6BaneCosmicForgDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "Wizardry6BaneCosmicForgDe.slave" $whdloadargs
+  whdload "Wizardry6BaneCosmicForgDe.slave" $whdloadargs
 ELSE
-	whdload "Wizardry6BaneCosmicForgDe.slave"
+  whdload "Wizardry6BaneCosmicForgDe.slave"
 ENDIF

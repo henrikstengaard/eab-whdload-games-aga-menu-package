@@ -3,4 +3,4 @@ Publisher : Loriciel
 Year      : 1989
 Genre     : Simulation - Tank
 Players   : 1 Only
-Whdload   : ShermanM4.slave
+RunFile   : ShermanM4.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MickeysJigsawPuzzles/"
 IF EXISTS ENV:whdloadargs
-	whdload "MickeysJigsawPuzzles.Slave" $whdloadargs
+  whdload "MickeysJigsawPuzzles.Slave" $whdloadargs
 ELSE
-	whdload "MickeysJigsawPuzzles.Slave"
+  whdload "MickeysJigsawPuzzles.Slave"
 ENDIF

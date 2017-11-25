@@ -3,4 +3,4 @@ Publisher : Dynamix
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : AdventuresOfWillyBeamish.slave
+RunFile   : AdventuresOfWillyBeamish.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LureOfTheTemptress/"
 IF EXISTS ENV:whdloadargs
-	whdload "LureOfTheTemptress.slave" $whdloadargs
+  whdload "LureOfTheTemptress.slave" $whdloadargs
 ELSE
-	whdload "LureOfTheTemptress.slave"
+  whdload "LureOfTheTemptress.slave"
 ENDIF

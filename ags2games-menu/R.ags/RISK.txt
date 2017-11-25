@@ -3,4 +3,4 @@ Publisher : (unknown)
 Year      : 1988
 Genre     : Board - Miscellaneous
 Players   : 1 to 5
-Whdload   : Risk.Slave
+RunFile   : Risk.Slave

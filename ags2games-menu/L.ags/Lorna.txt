@@ -2,4 +2,4 @@ Name      : Lorna
 Publisher : Topo Soft
 Year      : 1990
 Players   : 1 Only
-Whdload   : Lorna.slave
+RunFile   : Lorna.slave

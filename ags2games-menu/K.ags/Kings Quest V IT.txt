@@ -3,4 +3,4 @@ Language  : Italian
 Publisher : Sierra
 Year      : 1991
 Players   : 1
-Whdload   : KingsQuest5It.slave
+RunFile   : KingsQuest5It.slave

@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:W/WPotrzaskuPl/"
+; Run WHDLoad
+cd "A-Games:WPotrzaskuPl/"
 IF EXISTS ENV:whdloadargs
-	whdload "WPotrzaskuPl.Slave" $whdloadargs
+  whdload "WPotrzaskuPl.Slave" $whdloadargs
 ELSE
-	whdload "WPotrzaskuPl.Slave"
+  whdload "WPotrzaskuPl.Slave"
 ENDIF

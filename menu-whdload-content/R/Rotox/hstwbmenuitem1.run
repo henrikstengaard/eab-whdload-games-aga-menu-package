@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Rotox/"
 IF EXISTS ENV:whdloadargs
-	whdload "Rotox.slave" $whdloadargs
+  whdload "Rotox.slave" $whdloadargs
 ELSE
-	whdload "Rotox.slave"
+  whdload "Rotox.slave"
 ENDIF

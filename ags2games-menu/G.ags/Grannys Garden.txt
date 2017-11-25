@@ -3,4 +3,4 @@ Publisher : 4-Mation Educational Resources
 Year      : 1989
 Genre     : Educational - Miscellaneous
 Players   : 1 Only
-Whdload   : GrannysGarden.Slave
+RunFile   : GrannysGarden.Slave

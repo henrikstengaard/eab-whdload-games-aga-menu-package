@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RedZone/"
 IF EXISTS ENV:whdloadargs
-	whdload "RedZone.Slave" $whdloadargs
+  whdload "RedZone.Slave" $whdloadargs
 ELSE
-	whdload "RedZone.Slave"
+  whdload "RedZone.Slave"
 ENDIF

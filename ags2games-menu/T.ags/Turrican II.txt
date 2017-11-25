@@ -2,4 +2,4 @@ Name      : Turrican II
 Publisher : Rainbow Arts
 Year      : 1991
 Players   : 1
-Whdload   : Turrican2.Slave
+RunFile   : Turrican2.Slave

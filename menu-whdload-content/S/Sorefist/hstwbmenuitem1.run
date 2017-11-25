@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:S/Sorefist/"
+; Run WHDLoad
+cd "A-Games:Sorefist/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sorefist.Slave" $whdloadargs
+  whdload "Sorefist.Slave" $whdloadargs
 ELSE
-	whdload "Sorefist.Slave"
+  whdload "Sorefist.Slave"
 ENDIF

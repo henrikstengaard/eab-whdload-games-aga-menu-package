@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Fire&Ice/"
 IF EXISTS ENV:whdloadargs
-	whdload "Fire&Ice.slave" $whdloadargs
+  whdload "Fire&Ice.slave" $whdloadargs
 ELSE
-	whdload "Fire&Ice.slave"
+  whdload "Fire&Ice.slave"
 ENDIF

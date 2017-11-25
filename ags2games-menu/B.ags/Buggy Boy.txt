@@ -3,4 +3,4 @@ Publisher : Elite
 Year      : 1988
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : BuggyBoy.Slave
+RunFile   : BuggyBoy.Slave

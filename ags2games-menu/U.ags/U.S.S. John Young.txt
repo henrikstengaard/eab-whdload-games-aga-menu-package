@@ -3,4 +3,4 @@ Publisher : Magic Bytes
 Year      : 1990
 Genre     : Simulation - Marine
 Players   : 1 Only
-Whdload   : USSJohnYoung.Slave
+RunFile   : USSJohnYoung.Slave

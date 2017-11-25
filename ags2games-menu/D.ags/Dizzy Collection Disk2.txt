@@ -2,4 +2,4 @@ Name      : Dizzy Collection
 Publisher : Codemasters/Code Masters
 Year      : 1991
 Genre     : Compilation (Fantasy World Dizzy, Fast Food, Treasure Island Dizzy, Magicland Dizzy, Kwik Snax)
-Whdload   : Disk2.Slave
+RunFile   : Disk2.Slave

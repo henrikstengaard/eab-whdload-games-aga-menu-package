@@ -3,4 +3,4 @@ Publisher : Novagen
 Year      : 1988
 Genre     : Adventure - Arcade 3D
 Players   : 1 Only
-Whdload   : Mercenary.slave
+RunFile   : Mercenary.slave

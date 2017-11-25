@@ -3,4 +3,4 @@ Language  : French
 Publisher : RETZ
 Year      : 1991
 Players   : 1
-Whdload   : LabyrintheReineOmbresFr.Slave
+RunFile   : LabyrintheReineOmbresFr.Slave

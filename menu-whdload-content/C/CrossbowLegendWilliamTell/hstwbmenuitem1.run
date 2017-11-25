@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrossbowLegendWilliamTell/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrossbowLegendWilliamTell.slave" $whdloadargs
+  whdload "CrossbowLegendWilliamTell.slave" $whdloadargs
 ELSE
-	whdload "CrossbowLegendWilliamTell.slave"
+  whdload "CrossbowLegendWilliamTell.slave"
 ENDIF

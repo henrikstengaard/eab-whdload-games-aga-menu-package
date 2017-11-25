@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/EyeOfHorus/"
 IF EXISTS ENV:whdloadargs
-	whdload "EyeOfHorus.slave" $whdloadargs
+  whdload "EyeOfHorus.slave" $whdloadargs
 ELSE
-	whdload "EyeOfHorus.slave"
+  whdload "EyeOfHorus.slave"
 ENDIF

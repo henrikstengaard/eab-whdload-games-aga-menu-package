@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Ditris/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ditris.Slave" $whdloadargs
+  whdload "Ditris.Slave" $whdloadargs
 ELSE
-	whdload "Ditris.Slave"
+  whdload "Ditris.Slave"
 ENDIF

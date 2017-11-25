@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Z/Zynaps/"
 IF EXISTS ENV:whdloadargs
-	whdload "Zynaps.slave" $whdloadargs
+  whdload "Zynaps.slave" $whdloadargs
 ELSE
-	whdload "Zynaps.slave"
+  whdload "Zynaps.slave"
 ENDIF

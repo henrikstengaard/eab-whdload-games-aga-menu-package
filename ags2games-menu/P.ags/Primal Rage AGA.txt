@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Time Warner Interactive
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-Whdload   : PrimalRageAGA.Slave
+RunFile   : PrimalRageAGA.Slave

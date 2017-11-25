@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Crackdown/"
 IF EXISTS ENV:whdloadargs
-	whdload "Crackdown.slave" $whdloadargs
+  whdload "Crackdown.slave" $whdloadargs
 ELSE
-	whdload "Crackdown.slave"
+  whdload "Crackdown.slave"
 ENDIF

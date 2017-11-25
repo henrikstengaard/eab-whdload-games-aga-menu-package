@@ -3,4 +3,4 @@ Publisher : Mental Image Software Design
 Year      : 1993
 Genre     : Gambling - Slot Machine
 Players   : 1 Only
-Whdload   : WinningPost.Slave
+RunFile   : WinningPost.Slave

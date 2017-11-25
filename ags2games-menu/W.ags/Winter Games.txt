@@ -3,4 +3,4 @@ Publisher : Epyx
 Year      : 1987
 Genre     : Sports - Multi-Event
 Players   : 1 to 8
-Whdload   : WinterGames.Slave
+RunFile   : WinterGames.Slave

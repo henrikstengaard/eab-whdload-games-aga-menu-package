@@ -3,4 +3,4 @@ Language  : German
 Publisher : Black Legend
 Year      : 1994
 Players   : 1 Only
-Whdload   : EmbryoDe.Slave
+RunFile   : EmbryoDe.Slave

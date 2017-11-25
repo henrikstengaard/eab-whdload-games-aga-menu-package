@@ -2,4 +2,4 @@ Name      : Revenge of the Mutant Camels
 Publisher : Shareware
 Year      : 1992
 Players   : 1 - 2 (2 simultaneous)
-Whdload   : RevengeOfMutantCamels.Slave
+RunFile   : RevengeOfMutantCamels.Slave

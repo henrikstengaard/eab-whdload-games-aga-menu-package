@@ -3,4 +3,4 @@ Publisher : Digital Magic Software
 Year      : 1990
 Genre     : Racing - Miscellaneous
 Players   : 1 Only
-Whdload   : DrivinForce.Slave
+RunFile   : DrivinForce.Slave

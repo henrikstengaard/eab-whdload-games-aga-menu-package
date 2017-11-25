@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Virgin Interactive
 Year      : 1994
 Players   : 1 Only
-Whdload   : CannonFodderCD32.Slave
+RunFile   : CannonFodderCD32.Slave

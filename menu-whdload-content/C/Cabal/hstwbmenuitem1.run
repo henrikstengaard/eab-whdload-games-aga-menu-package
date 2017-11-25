@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Cabal/"
 IF EXISTS ENV:whdloadargs
-	whdload "Cabal.slave" $whdloadargs
+  whdload "Cabal.slave" $whdloadargs
 ELSE
-	whdload "Cabal.slave"
+  whdload "Cabal.slave"
 ENDIF

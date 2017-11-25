@@ -3,4 +3,4 @@ Publisher : Merit Software
 Year      : 1990
 Genre     : Board - Miscellaneous
 Players   : 1 or 2
-Whdload   : ClassicBoardGames.slave
+RunFile   : ClassicBoardGames.slave

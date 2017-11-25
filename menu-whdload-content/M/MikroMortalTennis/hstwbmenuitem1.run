@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MikroMortalTennis/"
 IF EXISTS ENV:whdloadargs
-	whdload "MikroMortalTennis.Slave" $whdloadargs
+  whdload "MikroMortalTennis.Slave" $whdloadargs
 ELSE
-	whdload "MikroMortalTennis.Slave"
+  whdload "MikroMortalTennis.Slave"
 ENDIF

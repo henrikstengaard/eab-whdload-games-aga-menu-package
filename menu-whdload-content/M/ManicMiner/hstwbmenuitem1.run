@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/ManicMiner/"
 IF EXISTS ENV:whdloadargs
-	whdload "ManicMiner.slave" $whdloadargs
+  whdload "ManicMiner.slave" $whdloadargs
 ELSE
-	whdload "ManicMiner.slave"
+  whdload "ManicMiner.slave"
 ENDIF

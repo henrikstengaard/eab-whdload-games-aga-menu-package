@@ -2,4 +2,4 @@ Name      : Borobodur: The Planet of Doom
 Publisher : Thalamus
 Year      : 1992
 Players   : 1 Only
-Whdload   : Borobodur.Slave
+RunFile   : Borobodur.Slave

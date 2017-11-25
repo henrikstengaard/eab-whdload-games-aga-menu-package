@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AsterixOpGetafix/"
 IF EXISTS ENV:whdloadargs
-	whdload "AsterixOpGetafix.slave" $whdloadargs
+  whdload "AsterixOpGetafix.slave" $whdloadargs
 ELSE
-	whdload "AsterixOpGetafix.slave"
+  whdload "AsterixOpGetafix.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UFOEnemyUnknownCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "UFOEnemyUnknownCD32.slave" $whdloadargs
+  whdload "UFOEnemyUnknownCD32.slave" $whdloadargs
 ELSE
-	whdload "UFOEnemyUnknownCD32.slave"
+  whdload "UFOEnemyUnknownCD32.slave"
 ENDIF

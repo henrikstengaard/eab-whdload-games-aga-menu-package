@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Bubble&SqueakAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "Bubble&SqueakAGA.slave" $whdloadargs
+  whdload "Bubble&SqueakAGA.slave" $whdloadargs
 ELSE
-	whdload "Bubble&SqueakAGA.slave"
+  whdload "Bubble&SqueakAGA.slave"
 ENDIF

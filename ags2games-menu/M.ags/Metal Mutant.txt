@@ -2,4 +2,4 @@ Name      : Metal Mutant
 Publisher : Silmarils
 Year      : 1991
 Players   : 1 Only
-Whdload   : MetalMutant.slave
+RunFile   : MetalMutant.slave

@@ -3,4 +3,4 @@ Publisher : Impulze
 Year      : 1991
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : EddTheDuck.Slave
+RunFile   : EddTheDuck.Slave

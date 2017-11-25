@@ -3,4 +3,4 @@ Version   : Files
 Publisher : Domark / Tengen
 Year      : 1990
 Players   : 1
-Whdload   : APBFiles.slave
+RunFile   : APBFiles.slave

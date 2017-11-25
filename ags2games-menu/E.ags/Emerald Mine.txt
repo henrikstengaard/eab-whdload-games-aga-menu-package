@@ -3,4 +3,4 @@ Publisher : Kingsoft
 Year      : 1987
 Genre     : Arcade - Boulder Dash
 Players   : 1 or 2, Simultaneous
-Whdload   : EmeraldMine.slave
+RunFile   : EmeraldMine.slave

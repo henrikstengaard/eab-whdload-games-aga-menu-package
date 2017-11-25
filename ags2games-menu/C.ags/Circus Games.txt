@@ -3,4 +3,4 @@ Publisher : Tynesoft
 Year      : 1988
 Genre     : Sports - Multi-Event
 Players   : 1 to 4
-Whdload   : CircusGames.Slave
+RunFile   : CircusGames.Slave

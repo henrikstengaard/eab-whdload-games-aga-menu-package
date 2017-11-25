@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GreatCourts/"
 IF EXISTS ENV:whdloadargs
-	whdload "GreatCourts.slave" $whdloadargs
+  whdload "GreatCourts.slave" $whdloadargs
 ELSE
-	whdload "GreatCourts.slave"
+  whdload "GreatCourts.slave"
 ENDIF

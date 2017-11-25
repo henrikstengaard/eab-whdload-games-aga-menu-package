@@ -4,4 +4,4 @@ Publisher : Acid Software
 Year      : 1994
 Genre     : Racing - Overhead
 Players   : 1 Only
-Whdload   : RoadKillCD32.Slave
+RunFile   : RoadKillCD32.Slave

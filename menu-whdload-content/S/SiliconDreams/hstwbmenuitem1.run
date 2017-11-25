@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SiliconDreams/"
 IF EXISTS ENV:whdloadargs
-	whdload "SiliconDreams.Slave" $whdloadargs
+  whdload "SiliconDreams.Slave" $whdloadargs
 ELSE
-	whdload "SiliconDreams.Slave"
+  whdload "SiliconDreams.Slave"
 ENDIF

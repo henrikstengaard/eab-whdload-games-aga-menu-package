@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Powermonger/"
 IF EXISTS ENV:whdloadargs
-	whdload "Powermonger.Slave" $whdloadargs
+  whdload "Powermonger.Slave" $whdloadargs
 ELSE
-	whdload "Powermonger.Slave"
+  whdload "Powermonger.Slave"
 ENDIF

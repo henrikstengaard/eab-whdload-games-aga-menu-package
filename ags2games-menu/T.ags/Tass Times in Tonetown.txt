@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1986
 Genre     : Adventure - Click and Type
 Players   : 1 Only
-Whdload   : TassTimesInTonetown.Slave
+RunFile   : TassTimesInTonetown.Slave

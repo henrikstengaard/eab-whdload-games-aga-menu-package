@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MayaFastFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "MayaFastFr.slave" $whdloadargs
+  whdload "MayaFastFr.slave" $whdloadargs
 ELSE
-	whdload "MayaFastFr.slave"
+  whdload "MayaFastFr.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FullMetalPlaneteFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "FullMetalPlaneteFiles.Slave" $whdloadargs
+  whdload "FullMetalPlaneteFiles.Slave" $whdloadargs
 ELSE
-	whdload "FullMetalPlaneteFiles.Slave"
+  whdload "FullMetalPlaneteFiles.Slave"
 ENDIF

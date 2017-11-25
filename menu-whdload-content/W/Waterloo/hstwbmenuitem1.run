@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/Waterloo/"
 IF EXISTS ENV:whdloadargs
-	whdload "Waterloo.Slave" $whdloadargs
+  whdload "Waterloo.Slave" $whdloadargs
 ELSE
-	whdload "Waterloo.Slave"
+  whdload "Waterloo.Slave"
 ENDIF

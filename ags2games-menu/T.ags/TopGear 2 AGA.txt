@@ -4,4 +4,4 @@ Publisher : Gremlin Interactive
 Year      : 1994
 Genre     : Racing - Cars
 Players   : 1 or 2, Simultaneous
-Whdload   : TopGear2AGA.Slave
+RunFile   : TopGear2AGA.Slave

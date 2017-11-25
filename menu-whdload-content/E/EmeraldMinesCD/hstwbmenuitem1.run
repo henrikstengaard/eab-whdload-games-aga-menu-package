@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:E/EmeraldMinesCD/"
+; Run WHDLoad
+cd "A-Games:EmeraldMinesCD/"
 IF EXISTS ENV:whdloadargs
-	whdload "emeraldminecd.slave" $whdloadargs
+  whdload "emeraldminecd.slave" $whdloadargs
 ELSE
-	whdload "emeraldminecd.slave"
+  whdload "emeraldminecd.slave"
 ENDIF

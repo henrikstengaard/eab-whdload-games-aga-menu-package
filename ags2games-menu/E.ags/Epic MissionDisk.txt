@@ -3,4 +3,4 @@ Version   : MissionDisk
 Publisher : Ocean
 Year      : 1992
 Players   : 1 Only
-Whdload   : Epic&MissionDisk.slave
+RunFile   : Epic&MissionDisk.slave

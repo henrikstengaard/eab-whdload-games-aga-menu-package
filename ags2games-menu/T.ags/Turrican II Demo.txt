@@ -3,4 +3,4 @@ Version   : Demo
 Publisher : Rainbow Arts
 Year      : 1991
 Players   : 1
-Whdload   : Turrican2Demo.Slave
+RunFile   : Turrican2Demo.Slave

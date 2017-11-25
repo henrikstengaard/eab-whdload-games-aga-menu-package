@@ -4,4 +4,4 @@ Publisher : Impressions
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : CrimeCityDe.slave
+RunFile   : CrimeCityDe.slave

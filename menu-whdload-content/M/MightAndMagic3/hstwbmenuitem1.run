@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MightAndMagic3/"
 IF EXISTS ENV:whdloadargs
-	whdload "MightAndMagic3.Slave" $whdloadargs
+  whdload "MightAndMagic3.Slave" $whdloadargs
 ELSE
-	whdload "MightAndMagic3.Slave"
+  whdload "MightAndMagic3.Slave"
 ENDIF

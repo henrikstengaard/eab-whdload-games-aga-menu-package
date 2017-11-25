@@ -3,4 +3,4 @@ Publisher : Infocom
 Year      : 1989
 Genre     : Adventure - RPG 2D
 Players   : 1 Only
-Whdload   : Battletech.Slave
+RunFile   : Battletech.Slave

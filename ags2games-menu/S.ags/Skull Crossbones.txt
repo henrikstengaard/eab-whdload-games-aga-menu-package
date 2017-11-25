@@ -2,4 +2,4 @@ Name      : Skull & Crossbones
 Publisher : Domark / Tengen
 Year      : 1991
 Players   : 1 - 2 (2 simultaneous)
-Whdload   : Skull&CrossBones.slave
+RunFile   : Skull&CrossBones.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SyndicateDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "SyndicateDe.slave" $whdloadargs
+  whdload "SyndicateDe.slave" $whdloadargs
 ELSE
-	whdload "SyndicateDe.slave"
+  whdload "SyndicateDe.slave"
 ENDIF

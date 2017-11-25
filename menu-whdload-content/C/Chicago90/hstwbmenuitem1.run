@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Chicago90/"
 IF EXISTS ENV:whdloadargs
-	whdload "Chicago90.Slave" $whdloadargs
+  whdload "Chicago90.Slave" $whdloadargs
 ELSE
-	whdload "Chicago90.Slave"
+  whdload "Chicago90.Slave"
 ENDIF

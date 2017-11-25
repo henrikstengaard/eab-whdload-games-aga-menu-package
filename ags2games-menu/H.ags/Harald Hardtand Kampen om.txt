@@ -4,4 +4,4 @@ Publisher : Colgate-Palmolive
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 or 2
-Whdload   : HaraldHaardtandDk.slave
+RunFile   : HaraldHaardtandDk.slave

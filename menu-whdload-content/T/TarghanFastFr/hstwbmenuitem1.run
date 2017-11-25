@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TarghanFastFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "TarghanFastFr.slave" $whdloadargs
+  whdload "TarghanFastFr.slave" $whdloadargs
 ELSE
-	whdload "TarghanFastFr.slave"
+  whdload "TarghanFastFr.slave"
 ENDIF

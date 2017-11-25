@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Turrican2CDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "Turrican2CDTV.Slave" $whdloadargs
+  whdload "Turrican2CDTV.Slave" $whdloadargs
 ELSE
-	whdload "Turrican2CDTV.Slave"
+  whdload "Turrican2CDTV.Slave"
 ENDIF

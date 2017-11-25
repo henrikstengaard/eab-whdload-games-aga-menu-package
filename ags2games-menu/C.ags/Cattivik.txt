@@ -2,4 +2,4 @@ Name      : Cattivik
 Publisher : Idea
 Year      : 1992
 Players   : 1
-Whdload   : Cattivik.Slave
+RunFile   : Cattivik.Slave

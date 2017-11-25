@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BehindTheIronGateDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "BehindTheIronGateDe.slave" $whdloadargs
+  whdload "BehindTheIronGateDe.slave" $whdloadargs
 ELSE
-	whdload "BehindTheIronGateDe.slave"
+  whdload "BehindTheIronGateDe.slave"
 ENDIF

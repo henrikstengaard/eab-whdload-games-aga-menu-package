@@ -3,4 +3,4 @@ Publisher : Gremlin Graphics
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 or 2
-Whdload   : Zool2.Slave
+RunFile   : Zool2.Slave

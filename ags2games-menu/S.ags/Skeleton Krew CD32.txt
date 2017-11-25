@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Core Design
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-Whdload   : SkeletonKrewCD32.slave
+RunFile   : SkeletonKrewCD32.slave

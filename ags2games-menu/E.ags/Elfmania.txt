@@ -2,4 +2,4 @@ Name      : Elfmania
 Publisher : Renegade
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-Whdload   : Elfmania.Slave
+RunFile   : Elfmania.Slave

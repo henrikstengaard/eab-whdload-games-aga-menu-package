@@ -3,4 +3,4 @@ Publisher : Cinemaware
 Year      : 1987
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : ThreeStooges.Slave
+RunFile   : ThreeStooges.Slave

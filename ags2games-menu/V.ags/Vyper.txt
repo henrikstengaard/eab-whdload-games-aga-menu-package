@@ -2,4 +2,4 @@ Name      : Vyper
 Publisher : TopDown Development
 Year      : 1988
 Players   : 1 or 2
-Whdload   : Vyper.Slave
+RunFile   : Vyper.Slave

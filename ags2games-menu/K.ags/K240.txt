@@ -3,4 +3,4 @@ Publisher : Gremlin Graphics
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : K240.Slave
+RunFile   : K240.Slave

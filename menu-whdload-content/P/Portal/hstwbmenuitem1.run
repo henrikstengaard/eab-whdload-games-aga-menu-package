@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Portal/"
 IF EXISTS ENV:whdloadargs
-	whdload "Portal.slave" $whdloadargs
+  whdload "Portal.slave" $whdloadargs
 ELSE
-	whdload "Portal.slave"
+  whdload "Portal.slave"
 ENDIF

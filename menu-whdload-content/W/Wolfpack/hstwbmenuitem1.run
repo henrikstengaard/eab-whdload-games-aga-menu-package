@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/Wolfpack/"
 IF EXISTS ENV:whdloadargs
-	whdload "Wolfpack.Slave" $whdloadargs
+  whdload "Wolfpack.Slave" $whdloadargs
 ELSE
-	whdload "Wolfpack.Slave"
+  whdload "Wolfpack.Slave"
 ENDIF

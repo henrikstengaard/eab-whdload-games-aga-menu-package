@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrazyCars3NoIntro/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrazyCars3NoIntro.slave" $whdloadargs
+  whdload "CrazyCars3NoIntro.slave" $whdloadargs
 ELSE
-	whdload "CrazyCars3NoIntro.slave"
+  whdload "CrazyCars3NoIntro.slave"
 ENDIF

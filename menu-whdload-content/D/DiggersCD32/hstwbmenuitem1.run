@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DiggersCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "DiggersCD32.slave" $whdloadargs
+  whdload "DiggersCD32.slave" $whdloadargs
 ELSE
-	whdload "DiggersCD32.slave"
+  whdload "DiggersCD32.slave"
 ENDIF

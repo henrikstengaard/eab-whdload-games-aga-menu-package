@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1990
 Genre     : Racing - Motorcycle
 Players   : 1 Only
-Whdload   : HarleyDavidson.Slave
+RunFile   : HarleyDavidson.Slave

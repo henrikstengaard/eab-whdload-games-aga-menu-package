@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TBird/"
 IF EXISTS ENV:whdloadargs
-	whdload "TBird.Slave" $whdloadargs
+  whdload "TBird.Slave" $whdloadargs
 ELSE
-	whdload "TBird.Slave"
+  whdload "TBird.Slave"
 ENDIF

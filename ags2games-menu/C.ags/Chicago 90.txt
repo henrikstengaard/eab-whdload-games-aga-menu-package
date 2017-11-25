@@ -3,4 +3,4 @@ Publisher : Microids
 Year      : 1989
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : Chicago90.Slave
+RunFile   : Chicago90.Slave

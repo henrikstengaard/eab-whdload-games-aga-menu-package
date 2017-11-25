@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LombardRACRally2Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "LombardRACRally2Disk.Slave" $whdloadargs
+  whdload "LombardRACRally2Disk.Slave" $whdloadargs
 ELSE
-	whdload "LombardRACRally2Disk.Slave"
+  whdload "LombardRACRally2Disk.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Manix/"
 IF EXISTS ENV:whdloadargs
-	whdload "Manix.Slave" $whdloadargs
+  whdload "Manix.Slave" $whdloadargs
 ELSE
-	whdload "Manix.Slave"
+  whdload "Manix.Slave"
 ENDIF

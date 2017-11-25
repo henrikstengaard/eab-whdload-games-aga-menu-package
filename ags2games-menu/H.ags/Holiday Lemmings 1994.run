@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LemmingsHoliday1994/"
 IF EXISTS ENV:whdloadargs
   whdload "LemmingsHoliday1994.Slave" $whdloadargs

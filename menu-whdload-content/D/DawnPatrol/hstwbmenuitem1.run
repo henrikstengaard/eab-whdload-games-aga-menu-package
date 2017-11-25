@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DawnPatrol/"
 IF EXISTS ENV:whdloadargs
-	whdload "DawnPatrol.Slave" $whdloadargs
+  whdload "DawnPatrol.Slave" $whdloadargs
 ELSE
-	whdload "DawnPatrol.Slave"
+  whdload "DawnPatrol.Slave"
 ENDIF

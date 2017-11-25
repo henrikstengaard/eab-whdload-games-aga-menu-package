@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DefenderRatsoft/"
 IF EXISTS ENV:whdloadargs
-	whdload "DefenderRatsoft.slave" $whdloadargs
+  whdload "DefenderRatsoft.slave" $whdloadargs
 ELSE
-	whdload "DefenderRatsoft.slave"
+  whdload "DefenderRatsoft.slave"
 ENDIF

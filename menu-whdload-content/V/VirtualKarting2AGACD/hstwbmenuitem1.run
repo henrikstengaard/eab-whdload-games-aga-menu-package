@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VirtualKarting2AGACD/"
 IF EXISTS ENV:whdloadargs
-	whdload "VirtualKarting2AGACD.slave" $whdloadargs
+  whdload "VirtualKarting2AGACD.slave" $whdloadargs
 ELSE
-	whdload "VirtualKarting2AGACD.slave"
+  whdload "VirtualKarting2AGACD.slave"
 ENDIF

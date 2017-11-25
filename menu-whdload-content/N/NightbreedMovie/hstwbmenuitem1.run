@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NightbreedMovie/"
 IF EXISTS ENV:whdloadargs
-	whdload "NightbreedMovie.Slave" $whdloadargs
+  whdload "NightbreedMovie.Slave" $whdloadargs
 ELSE
-	whdload "NightbreedMovie.Slave"
+  whdload "NightbreedMovie.Slave"
 ENDIF

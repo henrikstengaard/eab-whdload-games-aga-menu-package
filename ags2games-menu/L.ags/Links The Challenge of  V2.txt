@@ -3,4 +3,4 @@ Version   : DataDisk
 Publisher : US Gold
 Year      : 1992
 Genre     : Sports - Golf
-Whdload   : Links&DataDisks.Slave
+RunFile   : Links&DataDisks.Slave

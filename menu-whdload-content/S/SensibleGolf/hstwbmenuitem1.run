@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SensibleGolf/"
 IF EXISTS ENV:whdloadargs
-	whdload "SensibleGolf.Slave" $whdloadargs
+  whdload "SensibleGolf.Slave" $whdloadargs
 ELSE
-	whdload "SensibleGolf.Slave"
+  whdload "SensibleGolf.Slave"
 ENDIF

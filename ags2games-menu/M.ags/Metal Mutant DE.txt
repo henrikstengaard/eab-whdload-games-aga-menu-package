@@ -3,4 +3,4 @@ Language  : German
 Publisher : Silmarils
 Year      : 1991
 Players   : 1 Only
-Whdload   : MetalMutantDe.slave
+RunFile   : MetalMutantDe.slave

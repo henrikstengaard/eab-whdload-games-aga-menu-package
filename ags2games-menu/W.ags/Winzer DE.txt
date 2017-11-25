@@ -2,4 +2,4 @@ Name      : Winzer
 Language  : German
 Publisher : Starbyte
 Players   : 1 - 4 (1 simultaneous)
-Whdload   : WinzerDe.slave
+RunFile   : WinzerDe.slave

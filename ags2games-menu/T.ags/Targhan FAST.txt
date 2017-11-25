@@ -3,4 +3,4 @@ Version   : FAST
 Publisher : Silmarils
 Year      : 1989
 Players   : 1 Only
-Whdload   : TarghanFast.slave
+RunFile   : TarghanFast.slave

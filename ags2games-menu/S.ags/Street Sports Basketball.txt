@@ -3,4 +3,4 @@ Publisher : Epyx
 Year      : 1988
 Genre     : Sports - Basketball
 Players   : 1 or 2, Simultaneous
-Whdload   : StreetSportsBasketball.Slave
+RunFile   : StreetSportsBasketball.Slave

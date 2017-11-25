@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/Ishido/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ishido.Slave" $whdloadargs
+  whdload "Ishido.Slave" $whdloadargs
 ELSE
-	whdload "Ishido.Slave"
+  whdload "Ishido.Slave"
 ENDIF

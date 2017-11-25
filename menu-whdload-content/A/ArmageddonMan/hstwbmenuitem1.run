@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ArmageddonMan/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArmageddonMan.Slave" $whdloadargs
+  whdload "ArmageddonMan.Slave" $whdloadargs
 ELSE
-	whdload "ArmageddonMan.Slave"
+  whdload "ArmageddonMan.Slave"
 ENDIF

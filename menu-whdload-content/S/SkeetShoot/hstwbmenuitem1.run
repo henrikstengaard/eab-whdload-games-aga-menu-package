@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SkeetShoot/"
 IF EXISTS ENV:whdloadargs
-	whdload "SkeetShoot.Slave" $whdloadargs
+  whdload "SkeetShoot.Slave" $whdloadargs
 ELSE
-	whdload "SkeetShoot.Slave"
+  whdload "SkeetShoot.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FlyHarderCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlyHarderCD32.slave" $whdloadargs
+  whdload "FlyHarderCD32.slave" $whdloadargs
 ELSE
-	whdload "FlyHarderCD32.slave"
+  whdload "FlyHarderCD32.slave"
 ENDIF

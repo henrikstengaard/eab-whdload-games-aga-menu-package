@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Destroyer/"
 IF EXISTS ENV:whdloadargs
-	whdload "Destroyer.Slave" $whdloadargs
+  whdload "Destroyer.Slave" $whdloadargs
 ELSE
-	whdload "Destroyer.Slave"
+  whdload "Destroyer.Slave"
 ENDIF

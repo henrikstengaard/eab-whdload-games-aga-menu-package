@@ -2,4 +2,4 @@ Name      : Swooper
 Publisher : Diamond Games
 Year      : 1987
 Players   : 1 or 2
-Whdload   : Swooper.Slave
+RunFile   : Swooper.Slave

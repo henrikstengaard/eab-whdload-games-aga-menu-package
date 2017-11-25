@@ -4,4 +4,4 @@ Publisher : Electronic Arts
 Year      : 1990
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : MagicFly512KB.Slave
+RunFile   : MagicFly512KB.Slave

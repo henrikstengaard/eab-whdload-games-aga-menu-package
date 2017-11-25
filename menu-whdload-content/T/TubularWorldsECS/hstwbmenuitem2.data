@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=Tubular Worlds
-RunFile=TubularWorldsECS.Slave
-AGS2Name=Tubular Worlds
-iGameName=Tubular Worlds
+Name=Tubular Worlds 512K
+RunFile=TubularWorldsECS512K.Slave
+AGS2Name=Tubular Worlds 512K
+iGameName=Tubular Worlds 512K

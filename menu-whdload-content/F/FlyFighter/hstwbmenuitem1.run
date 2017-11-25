@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FlyFighter/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlyFighter.Slave" $whdloadargs
+  whdload "highs" $whdloadargs
 ELSE
-	whdload "FlyFighter.Slave"
+  whdload "highs"
 ENDIF

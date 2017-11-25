@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MagicFly1MB/"
 IF EXISTS ENV:whdloadargs
-	whdload "MagicFly1MB.Slave" $whdloadargs
+  whdload "MagicFly1MB.Slave" $whdloadargs
 ELSE
-	whdload "MagicFly1MB.Slave"
+  whdload "MagicFly1MB.Slave"
 ENDIF

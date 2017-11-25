@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Projectyle/"
 IF EXISTS ENV:whdloadargs
-	whdload "Projectyle.slave" $whdloadargs
+  whdload "Projectyle.slave" $whdloadargs
 ELSE
-	whdload "Projectyle.slave"
+  whdload "Projectyle.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GloomDemo/"
 IF EXISTS ENV:whdloadargs
-	whdload "GloomDemo.Slave" $whdloadargs
+  whdload "GloomDemo.Slave" $whdloadargs
 ELSE
-	whdload "GloomDemo.Slave"
+  whdload "GloomDemo.Slave"
 ENDIF

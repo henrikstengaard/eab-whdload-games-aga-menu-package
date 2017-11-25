@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DeluxeStripPoker/"
 IF EXISTS ENV:whdloadargs
-	whdload "DeluxeStripPoker.Slave" $whdloadargs
+  whdload "DeluxeStripPoker.Slave" $whdloadargs
 ELSE
-	whdload "DeluxeStripPoker.Slave"
+  whdload "DeluxeStripPoker.Slave"
 ENDIF

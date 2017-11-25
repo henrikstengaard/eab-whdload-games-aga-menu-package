@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VegasGambler/"
 IF EXISTS ENV:whdloadargs
-	whdload "VegasGambler.Slave" $whdloadargs
+  whdload "VegasGambler.Slave" $whdloadargs
 ELSE
-	whdload "VegasGambler.Slave"
+  whdload "VegasGambler.Slave"
 ENDIF

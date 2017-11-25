@@ -4,4 +4,4 @@ Publisher : Rainbow Arts
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : Berlin1948De.Slave
+RunFile   : Berlin1948De.Slave

@@ -2,4 +2,4 @@ Name      : Badlands Pete
 Publisher : Arc Developments
 Year      : 1990
 Players   : 1 Only
-Whdload   : BadlandsPete.Slave
+RunFile   : BadlandsPete.Slave

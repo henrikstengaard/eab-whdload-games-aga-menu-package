@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RobinsonsRequiemAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "RobinsonsRequiemAGA.Slave" $whdloadargs
+  whdload "RobinsonsRequiemAGA.Slave" $whdloadargs
 ELSE
-	whdload "RobinsonsRequiemAGA.Slave"
+  whdload "RobinsonsRequiemAGA.Slave"
 ENDIF

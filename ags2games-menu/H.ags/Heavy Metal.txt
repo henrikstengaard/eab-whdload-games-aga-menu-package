@@ -2,4 +2,4 @@ Name      : Heavy Metal
 Publisher : Access Software
 Year      : 1990
 Players   : 1 Only
-Whdload   : HeavyMetal.slave
+RunFile   : HeavyMetal.slave

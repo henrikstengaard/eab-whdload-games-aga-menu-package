@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/ThomasTankEngPinballCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "ThomasTankEngPinballCD32.Slave" $whdloadargs
+  whdload "ThomasTankEngPinballCD32.Slave" $whdloadargs
 ELSE
-	whdload "ThomasTankEngPinballCD32.Slave"
+  whdload "ThomasTankEngPinballCD32.Slave"
 ENDIF

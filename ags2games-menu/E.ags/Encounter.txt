@@ -2,4 +2,4 @@ Name      : Encounter
 Publisher : Novagen
 Year      : 1991
 Players   : 1 Only
-Whdload   : Encounter.slave
+RunFile   : Encounter.slave

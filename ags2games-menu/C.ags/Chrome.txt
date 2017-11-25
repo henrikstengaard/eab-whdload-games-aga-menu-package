@@ -2,4 +2,4 @@ Name      : Chrome
 Publisher : Gremlin / CU Amiga
 Year      : 1991
 Players   : 1 - 2 (1 simultaneous)
-Whdload   : Chrome.Slave
+RunFile   : Chrome.Slave

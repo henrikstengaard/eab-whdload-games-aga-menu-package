@@ -3,4 +3,4 @@ Version   : 1MB
 Publisher : The One (EMAP)
 Year      : 1993
 Players   : 1
-Whdload   : GalacticTheXmasEdition1MB.Slave
+RunFile   : GalacticTheXmasEdition1MB.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StoneAge/"
 IF EXISTS ENV:whdloadargs
-	whdload "StoneAge.slave" $whdloadargs
+  whdload "StoneAge.slave" $whdloadargs
 ELSE
-	whdload "StoneAge.slave"
+  whdload "StoneAge.slave"
 ENDIF

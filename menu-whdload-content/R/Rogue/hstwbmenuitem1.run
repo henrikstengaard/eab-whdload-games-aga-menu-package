@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Rogue/"
 IF EXISTS ENV:whdloadargs
-	whdload "Rogue.Slave" $whdloadargs
+  whdload "Rogue.Slave" $whdloadargs
 ELSE
-	whdload "Rogue.Slave"
+  whdload "Rogue.Slave"
 ENDIF

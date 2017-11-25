@@ -4,4 +4,4 @@ Publisher : Psygnosis
 Year      : 1990
 Genre     : Racing - Overhead
 Players   : 1 to 3, Simultaneous
-Whdload   : NitroNTSC.slave
+RunFile   : NitroNTSC.slave

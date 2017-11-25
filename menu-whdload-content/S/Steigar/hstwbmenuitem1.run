@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Steigar/"
 IF EXISTS ENV:whdloadargs
-	whdload "Steigar.Slave" $whdloadargs
+  whdload "Steigar.Slave" $whdloadargs
 ELSE
-	whdload "Steigar.Slave"
+  whdload "Steigar.Slave"
 ENDIF

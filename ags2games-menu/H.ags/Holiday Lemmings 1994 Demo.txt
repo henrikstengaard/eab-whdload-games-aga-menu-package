@@ -4,4 +4,4 @@ Publisher : Psygnosis
 Year      : 1994
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : LemmingsHolidayDemo.Slave
+RunFile   : LemmingsHolidayDemo.Slave

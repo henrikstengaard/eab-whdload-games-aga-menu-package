@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:P/Populous2&ChallengeGames/Populous2.slave
+;RunFile=A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Populous2&ChallengeGames/"
 IF EXISTS ENV:whdloadargs
-  whdload "Populous2.slave" $whdloadargs
+  whdload "ChallengeGames.slave" $whdloadargs
 ELSE
-  whdload "Populous2.slave"
+  whdload "ChallengeGames.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

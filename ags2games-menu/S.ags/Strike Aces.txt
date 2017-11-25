@@ -2,4 +2,4 @@ Name      : Strike Aces
 Publisher : Accolade
 Year      : 1990
 Players   : 1
-Whdload   : StrikeAces.Slave
+RunFile   : StrikeAces.Slave

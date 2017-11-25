@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HighSeasTraderAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "HighSeasTraderAGA.Slave" $whdloadargs
+  whdload "HighSeasTraderAGA.Slave" $whdloadargs
 ELSE
-	whdload "HighSeasTraderAGA.Slave"
+  whdload "HighSeasTraderAGA.Slave"
 ENDIF

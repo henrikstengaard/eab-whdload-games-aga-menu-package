@@ -3,4 +3,4 @@ Language  : German
 Publisher : Virgin Interactive
 Year      : 1994
 Players   : 1 Only
-Whdload   : CannonFodder2De.Slave
+RunFile   : CannonFodder2De.Slave

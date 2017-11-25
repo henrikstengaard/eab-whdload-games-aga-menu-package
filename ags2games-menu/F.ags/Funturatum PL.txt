@@ -3,4 +3,4 @@ Language  : Polish
 Publisher : Twin Spark Soft
 Year      : 1996
 Players   : 1
-Whdload   : FunturatumPl.slave
+RunFile   : FunturatumPl.slave

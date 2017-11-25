@@ -3,4 +3,4 @@ Publisher : US Gold
 Year      : 1990
 Genre     : Sports - Football/Soccer
 Players   : 1 or 2, Simultaneous
-Whdload   : Italia1990.slave
+RunFile   : Italia1990.slave

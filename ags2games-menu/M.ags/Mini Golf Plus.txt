@@ -3,4 +3,4 @@ Publisher : Starbyte Software
 Year      : 1988
 Genre     : Sports - Golf
 Players   : 1 Only
-Whdload   : MiniGolfPlus.slave
+RunFile   : MiniGolfPlus.slave

@@ -4,4 +4,4 @@ Publisher : Zeppelin Games
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : SinkOrSwim512KB.Slave
+RunFile   : SinkOrSwim512KB.Slave

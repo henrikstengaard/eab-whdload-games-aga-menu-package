@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Eco/"
 IF EXISTS ENV:whdloadargs
-	whdload "Eco.Slave" $whdloadargs
+  whdload "Eco.Slave" $whdloadargs
 ELSE
-	whdload "Eco.Slave"
+  whdload "Eco.Slave"
 ENDIF

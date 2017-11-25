@@ -2,4 +2,4 @@ Name      : Jurassic Park
 Publisher : Ocean
 Year      : 1993
 Players   : 1 Only
-Whdload   : JurassicPark.slave
+RunFile   : JurassicPark.slave

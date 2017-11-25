@@ -2,4 +2,4 @@ Name      : Atax
 Publisher : Eclipse Software Design
 Year      : 1988
 Players   : 1 Only
-Whdload   : Atax.Slave
+RunFile   : Atax.Slave

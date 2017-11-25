@@ -4,4 +4,4 @@ Publisher : Software 2000
 Year      : 1994
 Genre     : Strategy - Company
 Players   : 1 to 8
-Whdload   : PizzaConnectionDe.Slave
+RunFile   : PizzaConnectionDe.Slave

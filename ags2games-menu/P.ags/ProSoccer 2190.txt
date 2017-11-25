@@ -3,4 +3,4 @@ Publisher : Vulture Publishing
 Year      : 1990
 Genre     : Sports - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : ProSoccer2190.Slave
+RunFile   : ProSoccer2190.Slave

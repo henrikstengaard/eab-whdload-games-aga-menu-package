@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FormulaOneGrandPrix3Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "FormulaOneGrandPrix3Disk.Slave" $whdloadargs
+  whdload "FormulaOneGrandPrix3Disk.Slave" $whdloadargs
 ELSE
-	whdload "FormulaOneGrandPrix3Disk.Slave"
+  whdload "FormulaOneGrandPrix3Disk.Slave"
 ENDIF

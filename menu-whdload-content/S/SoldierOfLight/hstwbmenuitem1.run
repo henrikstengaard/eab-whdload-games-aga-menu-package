@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SoldierOfLight/"
 IF EXISTS ENV:whdloadargs
-	whdload "SoldierOfLight.slave" $whdloadargs
+  whdload "SoldierOfLight.slave" $whdloadargs
 ELSE
-	whdload "SoldierOfLight.slave"
+  whdload "SoldierOfLight.slave"
 ENDIF

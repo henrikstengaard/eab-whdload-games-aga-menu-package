@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SimCityCDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "SimCityCDTV.Slave" $whdloadargs
+  whdload "SimCityCDTV.Slave" $whdloadargs
 ELSE
-	whdload "SimCityCDTV.Slave"
+  whdload "SimCityCDTV.Slave"
 ENDIF

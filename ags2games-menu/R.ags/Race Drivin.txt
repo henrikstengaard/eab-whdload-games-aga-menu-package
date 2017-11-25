@@ -3,4 +3,4 @@ Publisher : Domark
 Year      : 1991
 Genre     : Racing - Cars
 Players   : 1 or 2
-Whdload   : RaceDrivin.slave
+RunFile   : RaceDrivin.slave

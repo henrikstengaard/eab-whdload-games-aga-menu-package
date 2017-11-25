@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SummerChallenge/"
 IF EXISTS ENV:whdloadargs
-	whdload "SummerChallenge.Slave" $whdloadargs
+  whdload "SummerChallenge.Slave" $whdloadargs
 ELSE
-	whdload "SummerChallenge.Slave"
+  whdload "SummerChallenge.Slave"
 ENDIF

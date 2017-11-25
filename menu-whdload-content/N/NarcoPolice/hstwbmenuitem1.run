@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NarcoPolice/"
 IF EXISTS ENV:whdloadargs
-	whdload "NarcoPolice.Slave" $whdloadargs
+  whdload "NarcoPolice.Slave" $whdloadargs
 ELSE
-	whdload "NarcoPolice.Slave"
+  whdload "NarcoPolice.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Explora3Fr/"
 IF EXISTS ENV:whdloadargs
-	whdload "Explora3Fr.Slave" $whdloadargs
+  whdload "Explora3Fr.Slave" $whdloadargs
 ELSE
-	whdload "Explora3Fr.Slave"
+  whdload "Explora3Fr.Slave"
 ENDIF

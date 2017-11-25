@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuperOffRoad/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuperOffRoad.Slave" $whdloadargs
+  whdload "SuperOffRoad.Slave" $whdloadargs
 ELSE
-	whdload "SuperOffRoad.Slave"
+  whdload "SuperOffRoad.Slave"
 ENDIF

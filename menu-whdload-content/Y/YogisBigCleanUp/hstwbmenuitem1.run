@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Y/YogisBigCleanUp/"
 IF EXISTS ENV:whdloadargs
-	whdload "YogisBigCleanUp.Slave" $whdloadargs
+  whdload "YogisBigCleanUp.Slave" $whdloadargs
 ELSE
-	whdload "YogisBigCleanUp.Slave"
+  whdload "YogisBigCleanUp.Slave"
 ENDIF

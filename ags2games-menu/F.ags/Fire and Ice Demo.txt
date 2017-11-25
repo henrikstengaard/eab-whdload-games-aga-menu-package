@@ -4,4 +4,4 @@ Publisher : Renegade
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Fire&IceXmasDemo.Slave
+RunFile   : Fire&IceXmasDemo.Slave

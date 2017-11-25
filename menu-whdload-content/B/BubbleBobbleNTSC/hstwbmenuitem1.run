@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BubbleBobbleNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "BubbleBobbleNTSC.Slave" $whdloadargs
+  whdload "BubbleBobbleNTSC.Slave" $whdloadargs
 ELSE
-	whdload "BubbleBobbleNTSC.Slave"
+  whdload "BubbleBobbleNTSC.Slave"
 ENDIF

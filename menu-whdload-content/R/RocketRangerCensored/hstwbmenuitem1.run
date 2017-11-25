@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RocketRangerCensored/"
 IF EXISTS ENV:whdloadargs
-	whdload "RocketRangerCensored.Slave" $whdloadargs
+  whdload "RocketRangerCensored.Slave" $whdloadargs
 ELSE
-	whdload "RocketRangerCensored.Slave"
+  whdload "RocketRangerCensored.Slave"
 ENDIF

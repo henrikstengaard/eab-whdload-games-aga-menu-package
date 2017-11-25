@@ -2,4 +2,4 @@ Name      : Basket Island
 Version   : Demo1
 Genre     : Sport - Basketball
 Players   : 1
-Whdload   : BasketIslandDemo1.Slave
+RunFile   : BasketIslandDemo1.Slave

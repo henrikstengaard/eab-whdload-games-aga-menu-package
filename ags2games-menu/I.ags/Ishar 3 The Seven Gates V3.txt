@@ -4,4 +4,4 @@ Publisher : Silmarils
 Year      : 1994
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-Whdload   : Ishar3De.Slave
+RunFile   : Ishar3De.Slave

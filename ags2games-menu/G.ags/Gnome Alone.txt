@@ -2,4 +2,4 @@ Name      : Gnome Alone
 Publisher : I.C.E.
 Year      : 1992
 Players   : 1
-Whdload   : GnomeAlone.Slave
+RunFile   : GnomeAlone.Slave

@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Menace/"
 IF EXISTS ENV:whdloadargs
   whdload "Menace.Slave" $whdloadargs

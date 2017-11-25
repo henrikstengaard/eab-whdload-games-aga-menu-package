@@ -2,4 +2,4 @@ Name      : Classic Pucman
 Publisher : F1 Licenceware
 Year      : 1994
 Players   : 1 - 2 (1 simultaneous)
-Whdload   : ClassicPucman.slave
+RunFile   : ClassicPucman.slave

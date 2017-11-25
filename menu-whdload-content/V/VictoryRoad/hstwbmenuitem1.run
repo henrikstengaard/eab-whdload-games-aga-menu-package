@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VictoryRoad/"
 IF EXISTS ENV:whdloadargs
-	whdload "VictoryRoad.slave" $whdloadargs
+  whdload "VictoryRoad.slave" $whdloadargs
 ELSE
-	whdload "VictoryRoad.slave"
+  whdload "VictoryRoad.slave"
 ENDIF

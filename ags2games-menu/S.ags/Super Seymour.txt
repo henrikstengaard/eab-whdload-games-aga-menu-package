@@ -2,4 +2,4 @@ Name      : Super Seymour
 Publisher : Codemasters
 Year      : 1992
 Players   : 1
-Whdload   : SuperSeymourSavesPlanet.slave
+RunFile   : SuperSeymourSavesPlanet.slave

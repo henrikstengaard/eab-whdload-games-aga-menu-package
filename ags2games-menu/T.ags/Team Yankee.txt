@@ -2,4 +2,4 @@ Name      : Team Yankee
 Publisher : Empire Software
 Year      : 1990
 Genre     : Simulation - Tank
-Whdload   : TeamYankee.Slave
+RunFile   : TeamYankee.Slave

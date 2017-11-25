@@ -4,4 +4,4 @@ Publisher : Ocean
 Year      : 1988
 Genre     : Sports - Multi-Event
 Players   : 1 Only
-Whdload   : DaleyThompsonsOC1Disk.Slave
+RunFile   : DaleyThompsonsOC1Disk.Slave

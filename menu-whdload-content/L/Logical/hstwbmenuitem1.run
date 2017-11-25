@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/Logical/"
 IF EXISTS ENV:whdloadargs
-	whdload "Logical.Slave" $whdloadargs
+  whdload "Logical.Slave" $whdloadargs
 ELSE
-	whdload "Logical.Slave"
+  whdload "Logical.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Masterblazer/"
 IF EXISTS ENV:whdloadargs
-	whdload "Masterblazer.slave" $whdloadargs
+  whdload "Masterblazer.slave" $whdloadargs
 ELSE
-	whdload "Masterblazer.slave"
+  whdload "Masterblazer.slave"
 ENDIF

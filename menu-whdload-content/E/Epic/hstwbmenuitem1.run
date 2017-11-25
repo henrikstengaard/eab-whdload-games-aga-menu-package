@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Epic/"
 IF EXISTS ENV:whdloadargs
-	whdload "Epic.slave" $whdloadargs
+  whdload "Epic.slave" $whdloadargs
 ELSE
-	whdload "Epic.slave"
+  whdload "Epic.slave"
 ENDIF

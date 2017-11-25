@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BlackHornet/"
 IF EXISTS ENV:whdloadargs
-	whdload "BlackHornet.Slave" $whdloadargs
+  whdload "BlackHornet.Slave" $whdloadargs
 ELSE
-	whdload "BlackHornet.Slave"
+  whdload "BlackHornet.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/OperationNeptune/"
 IF EXISTS ENV:whdloadargs
-	whdload "OperationNeptune.Slave" $whdloadargs
+  whdload "OperationNeptune.Slave" $whdloadargs
 ELSE
-	whdload "OperationNeptune.Slave"
+  whdload "OperationNeptune.Slave"
 ENDIF

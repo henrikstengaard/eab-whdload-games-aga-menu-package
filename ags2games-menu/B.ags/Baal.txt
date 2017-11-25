@@ -2,4 +2,4 @@ Name      : Baal
 Publisher : Psyclapse
 Year      : 1988
 Players   : 1 Only
-Whdload   : Baal.Slave
+RunFile   : Baal.Slave

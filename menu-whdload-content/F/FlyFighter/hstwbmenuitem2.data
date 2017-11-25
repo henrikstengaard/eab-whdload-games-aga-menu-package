@@ -1,5 +1,5 @@
 ;HstWB menu item data
-Name=Fly Fighter highs
-RunFile=highs
-AGS2Name=Fly Fighter highs
-iGameName=Fly Fighter highs
+Name=Fly Fighter
+RunFile=FlyFighter.Slave
+AGS2Name=Fly Fighter
+iGameName=Fly Fighter

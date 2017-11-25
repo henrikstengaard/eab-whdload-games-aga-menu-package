@@ -4,4 +4,4 @@ Publisher : MicroProse Software
 Year      : 1993
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : Dogfight1MB512KB.slave
+RunFile   : Dogfight1MB512KB.slave

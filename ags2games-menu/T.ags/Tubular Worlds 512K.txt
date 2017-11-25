@@ -2,4 +2,4 @@ Name      : Tubular Worlds
 Publisher : Dongleware
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-Whdload   : TubularWorldsECS512K.Slave
+RunFile   : TubularWorldsECS512K.Slave

@@ -2,4 +2,4 @@ Name      : Stryx
 Publisher : Psyclapse
 Year      : 1990
 Players   : 1 Only
-Whdload   : Stryx.Slave
+RunFile   : Stryx.Slave

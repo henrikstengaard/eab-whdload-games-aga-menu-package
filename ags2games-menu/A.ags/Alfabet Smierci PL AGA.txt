@@ -5,4 +5,4 @@ Publisher : Arte
 Year      : 1996
 Genre     : Adventure - Graphics/Text
 Players   : 1 Only
-Whdload   : AlfabetSmierciAGAPl.Slave
+RunFile   : AlfabetSmierciAGAPl.Slave

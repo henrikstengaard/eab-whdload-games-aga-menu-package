@@ -4,4 +4,4 @@ Publisher : Psygnosis
 Year      : 1994
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : InnocentUntilCaughtFr.slave
+RunFile   : InnocentUntilCaughtFr.slave

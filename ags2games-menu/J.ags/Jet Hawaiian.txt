@@ -3,4 +3,4 @@ Version   : Hawaiian
 Publisher : SubLOGIC
 Year      : 1988
 Genre     : Simulation - Flight
-Whdload   : Jet&HawaiianScenery.Slave
+RunFile   : Jet&HawaiianScenery.Slave

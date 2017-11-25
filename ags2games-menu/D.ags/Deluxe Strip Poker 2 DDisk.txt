@@ -3,4 +3,4 @@ Version   : DDisks
 Publisher : Artworx / CDS / Guildhall
 Year      : 1991
 Players   : 1
-Whdload   : DeluxeStripPoker2&DDisks.Slave
+RunFile   : DeluxeStripPoker2&DDisks.Slave

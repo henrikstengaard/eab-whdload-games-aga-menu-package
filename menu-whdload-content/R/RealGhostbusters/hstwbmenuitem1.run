@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RealGhostbusters/"
 IF EXISTS ENV:whdloadargs
-	whdload "RealGhostbusters.Slave" $whdloadargs
+  whdload "RealGhostbusters.Slave" $whdloadargs
 ELSE
-	whdload "RealGhostbusters.Slave"
+  whdload "RealGhostbusters.Slave"
 ENDIF

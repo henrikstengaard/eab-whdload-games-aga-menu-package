@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/Kingpin/"
 IF EXISTS ENV:whdloadargs
-	whdload "Kingpin.Slave" $whdloadargs
+  whdload "Kingpin.Slave" $whdloadargs
 ELSE
-	whdload "Kingpin.Slave"
+  whdload "Kingpin.Slave"
 ENDIF

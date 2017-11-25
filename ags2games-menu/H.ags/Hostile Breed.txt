@@ -2,4 +2,4 @@ Name      : Hostile Breed
 Publisher : Titus / Palace [unreleased]
 Year      : [unreleased]
 Players   : 1
-Whdload   : HostileBreed.Slave
+RunFile   : HostileBreed.Slave

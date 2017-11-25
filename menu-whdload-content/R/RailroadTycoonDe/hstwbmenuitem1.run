@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RailroadTycoonDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "RailroadTycoonDe.slave" $whdloadargs
+  whdload "RailroadTycoonDe.slave" $whdloadargs
 ELSE
-	whdload "RailroadTycoonDe.slave"
+  whdload "RailroadTycoonDe.slave"
 ENDIF

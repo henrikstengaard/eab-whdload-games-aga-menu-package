@@ -4,4 +4,4 @@ Publisher : Interplay Productions
 Year      : 1994
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : StarTrek25thAnnivAGA.Slave
+RunFile   : StarTrek25thAnnivAGA.Slave

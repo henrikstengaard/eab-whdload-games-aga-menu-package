@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Firehawk/"
 IF EXISTS ENV:whdloadargs
-	whdload "FireHawk.Slave" $whdloadargs
+  whdload "FireHawk.Slave" $whdloadargs
 ELSE
-	whdload "FireHawk.Slave"
+  whdload "FireHawk.Slave"
 ENDIF

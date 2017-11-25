@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/ScrollingWalls/"
 IF EXISTS ENV:whdloadargs
-	whdload "ScrollingWalls.Slave" $whdloadargs
+  whdload "ScrollingWalls.Slave" $whdloadargs
 ELSE
-	whdload "ScrollingWalls.Slave"
+  whdload "ScrollingWalls.Slave"
 ENDIF

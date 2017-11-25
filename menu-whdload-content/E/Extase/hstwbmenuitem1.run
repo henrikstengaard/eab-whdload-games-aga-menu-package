@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Extase/"
 IF EXISTS ENV:whdloadargs
-	whdload "Extase.Slave" $whdloadargs
+  whdload "Extase.Slave" $whdloadargs
 ELSE
-	whdload "Extase.Slave"
+  whdload "Extase.Slave"
 ENDIF

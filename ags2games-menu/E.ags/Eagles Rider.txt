@@ -2,4 +2,4 @@ Name      : Eagle's Rider
 Publisher : Infogrames
 Year      : 1991
 Players   : 1 Only
-Whdload   : EaglesRider.slave
+RunFile   : EaglesRider.slave

@@ -4,4 +4,4 @@ Publisher : Lucasfilm Games
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : ManiacMansionFr.slave
+RunFile   : ManiacMansionFr.slave

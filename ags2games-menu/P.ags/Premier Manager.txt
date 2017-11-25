@@ -3,4 +3,4 @@ Publisher : Gremlin Graphics
 Year      : 1992
 Genre     : Sports - Football/Soccer
 Players   : 1 to 4
-Whdload   : PremierManager.Slave
+RunFile   : PremierManager.Slave

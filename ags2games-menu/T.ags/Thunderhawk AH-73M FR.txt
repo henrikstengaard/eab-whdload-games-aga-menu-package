@@ -4,4 +4,4 @@ Publisher : Core Design
 Year      : 1991
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : ThunderHawkAH73MFr.Slave
+RunFile   : ThunderHawkAH73MFr.Slave

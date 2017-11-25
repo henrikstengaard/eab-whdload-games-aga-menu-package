@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MortalKombatCensored/"
 IF EXISTS ENV:whdloadargs
-	whdload "MortalKombatCensored.Slave" $whdloadargs
+  whdload "MortalKombatCensored.Slave" $whdloadargs
 ELSE
-	whdload "MortalKombatCensored.Slave"
+  whdload "MortalKombatCensored.Slave"
 ENDIF

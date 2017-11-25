@@ -3,4 +3,4 @@ Language  : German
 Publisher : Impressions
 Year      : 1994
 Players   : 1 - 4 (1 simultaneous)
-Whdload   : RuesselsheimDe.Slave
+RunFile   : RuesselsheimDe.Slave

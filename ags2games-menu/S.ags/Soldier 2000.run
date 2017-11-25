@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Soldier2000/"
 IF EXISTS ENV:whdloadargs
   whdload "Soldier2000.Slave" $whdloadargs

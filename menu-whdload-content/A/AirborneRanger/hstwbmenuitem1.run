@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AirborneRanger/"
 IF EXISTS ENV:whdloadargs
-	whdload "AirborneRanger.Slave" $whdloadargs
+  whdload "AirborneRanger.Slave" $whdloadargs
 ELSE
-	whdload "AirborneRanger.Slave"
+  whdload "AirborneRanger.Slave"
 ENDIF

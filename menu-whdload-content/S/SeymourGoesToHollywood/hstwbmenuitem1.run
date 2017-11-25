@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SeymourGoesToHollywood/"
 IF EXISTS ENV:whdloadargs
-	whdload "SeymourGoesToHollywood.slave" $whdloadargs
+  whdload "SeymourGoesToHollywood.slave" $whdloadargs
 ELSE
-	whdload "SeymourGoesToHollywood.slave"
+  whdload "SeymourGoesToHollywood.slave"
 ENDIF

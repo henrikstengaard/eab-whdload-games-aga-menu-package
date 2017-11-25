@@ -3,4 +3,4 @@ Version   : FAST
 Publisher : Silmarils
 Year      : 1991
 Genre     : Strategy - War
-Whdload   : StormMasterFast.Slave
+RunFile   : StormMasterFast.Slave

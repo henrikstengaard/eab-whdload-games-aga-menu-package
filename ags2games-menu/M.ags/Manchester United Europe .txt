@@ -3,4 +3,4 @@ Publisher : Krisalis
 Year      : 1991
 Genre     : Sports - Football/Soccer
 Players   : 1 to 4, Simultaneous
-Whdload   : ManchesterUnitedEurope21.Slave
+RunFile   : ManchesterUnitedEurope21.Slave

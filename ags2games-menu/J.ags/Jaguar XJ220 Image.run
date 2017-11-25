@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:J/JaguarXJ220Image/"
 IF EXISTS ENV:whdloadargs
   whdload "JaguarXJ220Image.slave" $whdloadargs

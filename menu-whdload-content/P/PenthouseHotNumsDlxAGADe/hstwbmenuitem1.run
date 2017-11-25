@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PenthouseHotNumsDlxAGADe/"
 IF EXISTS ENV:whdloadargs
-	whdload "PenthouseHotNumsDlxAGADe.Slave" $whdloadargs
+  whdload "PenthouseHotNumsDlxAGADe.Slave" $whdloadargs
 ELSE
-	whdload "PenthouseHotNumsDlxAGADe.Slave"
+  whdload "PenthouseHotNumsDlxAGADe.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SteelEmpire/"
 IF EXISTS ENV:whdloadargs
-	whdload "SteelEmpire.Slave" $whdloadargs
+  whdload "SteelEmpire.Slave" $whdloadargs
 ELSE
-	whdload "SteelEmpire.Slave"
+  whdload "SteelEmpire.Slave"
 ENDIF

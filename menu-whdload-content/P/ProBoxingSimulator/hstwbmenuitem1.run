@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/ProBoxingSimulator/"
 IF EXISTS ENV:whdloadargs
-	whdload "ProBoxingSimulator.Slave" $whdloadargs
+  whdload "ProBoxingSimulator.Slave" $whdloadargs
 ELSE
-	whdload "ProBoxingSimulator.Slave"
+  whdload "ProBoxingSimulator.Slave"
 ENDIF

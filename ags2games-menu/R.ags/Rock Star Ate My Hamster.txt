@@ -3,4 +3,4 @@ Publisher : Codemasters
 Year      : 1989
 Genre     : Simulation - Miscellaneous
 Players   : 1 Only
-Whdload   : RockStarAteMyHamster.slave
+RunFile   : RockStarAteMyHamster.slave

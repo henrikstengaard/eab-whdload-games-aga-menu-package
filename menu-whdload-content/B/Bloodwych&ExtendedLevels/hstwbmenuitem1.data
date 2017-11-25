@@ -1,5 +1,5 @@
 ;HstWB menu item data
 Name=Bloodwych ExtendedLevels
-RunFile=ExtendedLevels.Slave
+RunFile=Bloodwych.Slave
 AGS2Name=Bloodwych ExtendedLevels
 iGameName=Bloodwych ExtendedLevels

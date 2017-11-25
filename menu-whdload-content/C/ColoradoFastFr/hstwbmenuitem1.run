@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ColoradoFastFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "ColoradoFastFr.slave" $whdloadargs
+  whdload "ColoradoFastFr.slave" $whdloadargs
 ELSE
-	whdload "ColoradoFastFr.slave"
+  whdload "ColoradoFastFr.slave"
 ENDIF

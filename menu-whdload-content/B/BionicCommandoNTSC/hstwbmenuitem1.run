@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BionicCommandoNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "BionicCommandoNTSC.Slave" $whdloadargs
+  whdload "BionicCommandoNTSC.Slave" $whdloadargs
 ELSE
-	whdload "BionicCommandoNTSC.Slave"
+  whdload "BionicCommandoNTSC.Slave"
 ENDIF

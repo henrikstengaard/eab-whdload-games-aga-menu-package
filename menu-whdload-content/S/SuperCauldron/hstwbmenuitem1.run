@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuperCauldron/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuperCauldron.Slave" $whdloadargs
+  whdload "SuperCauldron.Slave" $whdloadargs
 ELSE
-	whdload "SuperCauldron.Slave"
+  whdload "SuperCauldron.Slave"
 ENDIF

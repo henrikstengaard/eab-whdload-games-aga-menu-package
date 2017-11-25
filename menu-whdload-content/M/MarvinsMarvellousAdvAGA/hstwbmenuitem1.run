@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MarvinsMarvellousAdvAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "MarvinsMarvellousAdvAGA.Slave" $whdloadargs
+  whdload "MarvinsMarvellousAdvAGA.Slave" $whdloadargs
 ELSE
-	whdload "MarvinsMarvellousAdvAGA.Slave"
+  whdload "MarvinsMarvellousAdvAGA.Slave"
 ENDIF

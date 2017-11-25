@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NoExit/"
 IF EXISTS ENV:whdloadargs
-	whdload "NoExit.Slave" $whdloadargs
+  whdload "NoExit.Slave" $whdloadargs
 ELSE
-	whdload "NoExit.Slave"
+  whdload "NoExit.Slave"
 ENDIF

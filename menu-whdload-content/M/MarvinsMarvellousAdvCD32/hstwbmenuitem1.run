@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MarvinsMarvellousAdvCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "MarvinsMarvellousAdvCD32.Slave" $whdloadargs
+  whdload "MarvinsMarvellousAdvCD32.Slave" $whdloadargs
 ELSE
-	whdload "MarvinsMarvellousAdvCD32.Slave"
+  whdload "MarvinsMarvellousAdvCD32.Slave"
 ENDIF

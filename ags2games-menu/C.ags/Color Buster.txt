@@ -2,4 +2,4 @@ Name      : Color Buster
 Publisher : Amigo! (CompuTec Verlag)
 Year      : 1993
 Players   : 1
-Whdload   : ColorBuster.slave
+RunFile   : ColorBuster.slave

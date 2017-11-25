@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Guildhall
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-Whdload   : GloomCD32.slave
+RunFile   : GloomCD32.slave

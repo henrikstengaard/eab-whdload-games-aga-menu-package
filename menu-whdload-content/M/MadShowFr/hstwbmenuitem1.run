@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MadShowFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "MadShowFr.Slave" $whdloadargs
+  whdload "MadShowFr.Slave" $whdloadargs
 ELSE
-	whdload "MadShowFr.Slave"
+  whdload "MadShowFr.Slave"
 ENDIF

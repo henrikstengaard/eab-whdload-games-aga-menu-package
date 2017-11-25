@@ -5,4 +5,4 @@ Publisher : Lucasfilm Games
 Year      : 1990
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : LoomDeKick31.slave
+RunFile   : LoomDeKick31.slave

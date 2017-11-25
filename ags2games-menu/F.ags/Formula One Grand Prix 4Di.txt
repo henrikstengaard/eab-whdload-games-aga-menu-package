@@ -3,4 +3,4 @@ Version   : 4Disk
 Publisher : MicroProse Software
 Year      : 1991
 Genre     : Sports - Formula One
-Whdload   : FormulaOneGrandPrix4Disk.Slave
+RunFile   : FormulaOneGrandPrix4Disk.Slave

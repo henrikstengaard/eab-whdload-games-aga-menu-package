@@ -2,4 +2,4 @@ Name      : Manhattan Dealers
 Publisher : Silmarils
 Year      : 1988
 Players   : 1 Only
-Whdload   : ManhattanDealers.Slave
+RunFile   : ManhattanDealers.Slave

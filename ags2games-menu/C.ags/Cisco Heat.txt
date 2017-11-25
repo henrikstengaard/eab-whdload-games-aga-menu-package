@@ -3,4 +3,4 @@ Publisher : Image Works
 Year      : 1992
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : CiscoHeat.Slave
+RunFile   : CiscoHeat.Slave

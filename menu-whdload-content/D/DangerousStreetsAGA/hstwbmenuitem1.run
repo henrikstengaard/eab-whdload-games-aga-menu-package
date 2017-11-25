@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DangerousStreetsAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "DangerousStreetsAGA.slave" $whdloadargs
+  whdload "DangerousStreetsAGA.slave" $whdloadargs
 ELSE
-	whdload "DangerousStreetsAGA.slave"
+  whdload "DangerousStreetsAGA.slave"
 ENDIF

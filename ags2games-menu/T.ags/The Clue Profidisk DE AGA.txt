@@ -4,4 +4,4 @@ Version   : Profidisk AGA
 Publisher : Neo / Kompart
 Year      : 1994
 Players   : 1
-Whdload   : ClouDeAGA&Profidisk.Slave
+RunFile   : ClouDeAGA&Profidisk.Slave

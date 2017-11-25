@@ -4,4 +4,4 @@ Publisher : Core Design
 Year      : 1994
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : Heimdall2AGA.Slave
+RunFile   : Heimdall2AGA.Slave

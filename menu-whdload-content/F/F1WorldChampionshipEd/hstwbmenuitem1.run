@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/F1WorldChampionshipEd/"
 IF EXISTS ENV:whdloadargs
-	whdload "F1WorldChampionshipEd.slave" $whdloadargs
+  whdload "F1WorldChampionshipEd.slave" $whdloadargs
 ELSE
-	whdload "F1WorldChampionshipEd.slave"
+  whdload "F1WorldChampionshipEd.slave"
 ENDIF

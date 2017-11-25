@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HuntForRedOctober/"
 IF EXISTS ENV:whdloadargs
-	whdload "HuntForRedOctober.Slave" $whdloadargs
+  whdload "HuntForRedOctober.Slave" $whdloadargs
 ELSE
-	whdload "HuntForRedOctober.Slave"
+  whdload "HuntForRedOctober.Slave"
 ENDIF

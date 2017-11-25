@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CastleMaster/"
 IF EXISTS ENV:whdloadargs
-	whdload "CastleMaster.Slave" $whdloadargs
+  whdload "CastleMaster.Slave" $whdloadargs
 ELSE
-	whdload "CastleMaster.Slave"
+  whdload "CastleMaster.Slave"
 ENDIF

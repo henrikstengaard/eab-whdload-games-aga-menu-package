@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LemmingsAltFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "LemmingsAltFiles.Slave" $whdloadargs
+  whdload "LemmingsAltFiles.Slave" $whdloadargs
 ELSE
-	whdload "LemmingsAltFiles.Slave"
+  whdload "LemmingsAltFiles.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Gremlin Graphics
 Year      : 1989
 Genre     : Brain - Puzzle
 Players   : 1 or 2, Simultaneous
-Whdload   : Mindbender.Slave
+RunFile   : Mindbender.Slave

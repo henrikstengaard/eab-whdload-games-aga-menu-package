@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NigelMansellsWrldChmpAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "NigelMansellsWrldChmpAGA.slave" $whdloadargs
+  whdload "NigelMansellsWrldChmpAGA.slave" $whdloadargs
 ELSE
-	whdload "NigelMansellsWrldChmpAGA.slave"
+  whdload "NigelMansellsWrldChmpAGA.slave"
 ENDIF

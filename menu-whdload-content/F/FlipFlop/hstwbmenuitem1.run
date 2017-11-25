@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:F/FlipFlop/"
+; Run WHDLoad
+cd "A-Games:FlipFlop/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlipFlop.Slave" $whdloadargs
+  whdload "FlipFlop.Slave" $whdloadargs
 ELSE
-	whdload "FlipFlop.Slave"
+  whdload "FlipFlop.Slave"
 ENDIF

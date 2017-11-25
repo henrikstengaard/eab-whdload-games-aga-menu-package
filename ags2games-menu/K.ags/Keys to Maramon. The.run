@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KeysToMaramon/"
 IF EXISTS ENV:whdloadargs
   whdload "KeysToMaramon.Slave" $whdloadargs

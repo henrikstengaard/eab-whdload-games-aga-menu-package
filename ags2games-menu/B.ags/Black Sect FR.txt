@@ -4,4 +4,4 @@ Publisher : Lankhor
 Year      : 1994
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : BlackSectFr.Slave
+RunFile   : BlackSectFr.Slave

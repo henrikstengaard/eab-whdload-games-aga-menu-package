@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BadDudesNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "BadDudesNTSC.Slave" $whdloadargs
+  whdload "BadDudesNTSC.Slave" $whdloadargs
 ELSE
-	whdload "BadDudesNTSC.Slave"
+  whdload "BadDudesNTSC.Slave"
 ENDIF

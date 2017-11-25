@@ -2,4 +2,4 @@ Name      : The Paranoia Complex
 Publisher : Magic Bytes (micro-partner/Ariolasoft)
 Year      : 1989
 Players   : 1
-Whdload   : ParanoiaComplex.Slave
+RunFile   : ParanoiaComplex.Slave

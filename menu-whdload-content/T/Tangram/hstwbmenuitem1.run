@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Tangram/"
 IF EXISTS ENV:whdloadargs
-	whdload "Tangram.slave" $whdloadargs
+  whdload "Tangram.slave" $whdloadargs
 ELSE
-	whdload "Tangram.slave"
+  whdload "Tangram.slave"
 ENDIF

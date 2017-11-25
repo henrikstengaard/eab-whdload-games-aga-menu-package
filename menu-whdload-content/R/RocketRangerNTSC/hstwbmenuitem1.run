@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RocketRangerNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "RocketRangerNTSC.Slave" $whdloadargs
+  whdload "RocketRangerNTSC.Slave" $whdloadargs
 ELSE
-	whdload "RocketRangerNTSC.Slave"
+  whdload "RocketRangerNTSC.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Firebird
 Year      : 1988
 Genre     : Simulation - Space
 Players   : 1 Only
-Whdload   : Elite.Slave
+RunFile   : Elite.Slave

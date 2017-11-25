@@ -3,4 +3,4 @@ Publisher : California Dreams
 Year      : 1989
 Genre     : Gambling - Casino
 Players   : 1 Only
-Whdload   : VegasGambler.Slave
+RunFile   : VegasGambler.Slave

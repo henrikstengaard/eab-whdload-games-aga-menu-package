@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Anco
 Year      : 1994
 Players   : 1-2(2 simultaneous)
-Whdload   : KickOff3EC_AGA.Slave
+RunFile   : KickOff3EC_AGA.Slave

@@ -4,4 +4,4 @@ Publisher : Neo Software Produktions
 Year      : 1996
 Genre     : Racing - Motorcycle
 Players   : 1 Only
-Whdload   : IntroCD32.Slave
+RunFile   : IntroCD32.Slave

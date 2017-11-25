@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LostVikingsCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "LostVikingsCD32.slave" $whdloadargs
+  whdload "LostVikingsCD32.slave" $whdloadargs
 ELSE
-	whdload "LostVikingsCD32.slave"
+  whdload "LostVikingsCD32.slave"
 ENDIF

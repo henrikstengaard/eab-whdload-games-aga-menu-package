@@ -3,4 +3,4 @@ Publisher : Neo Software Produktions
 Year      : 1996
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Cedric.Slave
+RunFile   : Cedric.Slave

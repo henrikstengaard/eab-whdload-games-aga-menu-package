@@ -2,4 +2,4 @@ Name      : Chip's Challenge
 Publisher : Epyx
 Year      : 1990
 Players   : 1
-Whdload   : ChipsChallengeEpyx.Slave
+RunFile   : ChipsChallengeEpyx.Slave

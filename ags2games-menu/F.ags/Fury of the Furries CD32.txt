@@ -4,4 +4,4 @@ Publisher : Mindscape
 Year      : 1994
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : FuryOfTheFurriesCD32.Slave
+RunFile   : FuryOfTheFurriesCD32.Slave

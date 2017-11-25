@@ -4,4 +4,4 @@ Publisher : Almathera - Worldwide
 Year      : 1994
 Genre     : Maze game, Boulder Dash
 Players   : 1 or 2, Simultaneous
-Whdload   : emeraldminecd.slave
+RunFile   : emeraldminecd.slave

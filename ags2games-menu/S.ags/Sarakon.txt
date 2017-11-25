@@ -3,4 +3,4 @@ Publisher : Leisure Genius
 Year      : 1991
 Genre     : Brain - Tile Removal
 Players   : 1 Only
-Whdload   : Sarakon.slave
+RunFile   : Sarakon.slave

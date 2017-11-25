@@ -2,4 +2,4 @@ Name      : Leatherneck
 Publisher : Microdeal
 Year      : 1988
 Players   : 1 to 4, Simultaneous
-Whdload   : Leatherneck.Slave
+RunFile   : Leatherneck.Slave

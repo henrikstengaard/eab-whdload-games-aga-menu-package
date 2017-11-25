@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FerrariFormulaOne/"
 IF EXISTS ENV:whdloadargs
-	whdload "FerrariFormulaOne.slave" $whdloadargs
+  whdload "FerrariFormulaOne.slave" $whdloadargs
 ELSE
-	whdload "FerrariFormulaOne.slave"
+  whdload "FerrariFormulaOne.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FateGatesOfDawnDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "FateGatesOfDawnDe.Slave" $whdloadargs
+  whdload "FateGatesOfDawnDe.Slave" $whdloadargs
 ELSE
-	whdload "FateGatesOfDawnDe.Slave"
+  whdload "FateGatesOfDawnDe.Slave"
 ENDIF

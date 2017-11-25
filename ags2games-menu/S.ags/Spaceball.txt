@@ -2,4 +2,4 @@ Name      : Spaceball
 Publisher : Rainbow Arts
 Year      : 1989
 Players   : 1 - 8 (2 simultaneous)
-Whdload   : Spaceball.Slave
+RunFile   : Spaceball.Slave

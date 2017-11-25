@@ -4,4 +4,4 @@ Publisher : Gametek
 Year      : 1993
 Genre     : Simulation - Space
 Players   : 1 Only
-Whdload   : FrontierCD32.slave
+RunFile   : FrontierCD32.slave

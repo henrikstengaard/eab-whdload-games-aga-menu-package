@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SimEarthHiResDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "SimEarthHiResDe.Slave" $whdloadargs
+  whdload "SimEarthHiResDe.Slave" $whdloadargs
 ELSE
-	whdload "SimEarthHiResDe.Slave"
+  whdload "SimEarthHiResDe.Slave"
 ENDIF

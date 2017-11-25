@@ -1,2 +1,2 @@
 Name      : The Adventures of Genlock Holmes
-Whdload   : AdventuresOfGenlockHolmes.Slave
+RunFile   : AdventuresOfGenlockHolmes.Slave

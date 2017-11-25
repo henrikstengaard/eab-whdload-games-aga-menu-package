@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FrontierCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "FrontierCD32.slave" $whdloadargs
+  whdload "FrontierCD32.slave" $whdloadargs
 ELSE
-	whdload "FrontierCD32.slave"
+  whdload "FrontierCD32.slave"
 ENDIF

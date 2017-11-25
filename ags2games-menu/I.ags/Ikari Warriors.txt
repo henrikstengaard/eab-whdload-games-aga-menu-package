@@ -2,4 +2,4 @@ Name      : Ikari Warriors
 Publisher : Elite
 Year      : 1987
 Players   : 1 or 2, Simultaneous
-Whdload   : IkariWarriors.Slave
+RunFile   : IkariWarriors.Slave

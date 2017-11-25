@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SpaceMAXDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "SpaceMAXDe.Slave" $whdloadargs
+  whdload "SpaceMAXDe.Slave" $whdloadargs
 ELSE
-	whdload "SpaceMAXDe.Slave"
+  whdload "SpaceMAXDe.Slave"
 ENDIF

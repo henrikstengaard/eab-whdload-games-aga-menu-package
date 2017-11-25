@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DarkFusion/"
 IF EXISTS ENV:whdloadargs
-	whdload "DarkFusion.Slave" $whdloadargs
+  whdload "DarkFusion.Slave" $whdloadargs
 ELSE
-	whdload "DarkFusion.Slave"
+  whdload "DarkFusion.Slave"
 ENDIF

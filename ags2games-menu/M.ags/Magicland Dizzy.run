@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:M/MagiclandDizzy/data/MagiclandDizzy.slave
+;RunFile=A-Games:M/MagiclandDizzy/MagiclandDizzy.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Games:M/MagiclandDizzy/data/"
+; Run WHDLoad
+cd "A-Games:M/MagiclandDizzy/"
 IF EXISTS ENV:whdloadargs
-  whdload "MagiclandDizzy.slave" $whdloadargs
+  whdload "MagiclandDizzy.Slave" $whdloadargs
 ELSE
-  whdload "MagiclandDizzy.slave"
+  whdload "MagiclandDizzy.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

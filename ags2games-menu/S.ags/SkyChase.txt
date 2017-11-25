@@ -2,4 +2,4 @@ Name      : SkyChase
 Publisher : Image Works
 Year      : 1988
 Players   : 1 or 2, Simultaneous
-Whdload   : SkyChase.Slave
+RunFile   : SkyChase.Slave

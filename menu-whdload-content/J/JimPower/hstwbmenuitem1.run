@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:J/JimPower/"
 IF EXISTS ENV:whdloadargs
-	whdload "JimPower.Slave" $whdloadargs
+  whdload "JimPower.Slave" $whdloadargs
 ELSE
-	whdload "JimPower.Slave"
+  whdload "JimPower.Slave"
 ENDIF

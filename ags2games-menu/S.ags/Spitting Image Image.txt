@@ -3,4 +3,4 @@ Version   : Image
 Publisher : Domark
 Year      : 1989
 Players   : 1 - 2 (2 simultaneous)
-Whdload   : SpittingImage.slave
+RunFile   : SpittingImage.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CircusAttractions1Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "CircusAttractions1Disk.Slave" $whdloadargs
+  whdload "CircusAttractions1Disk.Slave" $whdloadargs
 ELSE
-	whdload "CircusAttractions1Disk.Slave"
+  whdload "CircusAttractions1Disk.Slave"
 ENDIF

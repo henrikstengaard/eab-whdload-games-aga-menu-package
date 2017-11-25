@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AllTerrainRacingXmasDemo/"
 IF EXISTS ENV:whdloadargs
-	whdload "AllTerrainRacingXmasDemo.slave" $whdloadargs
+  whdload "AllTerrainRacingXmasDemo.slave" $whdloadargs
 ELSE
-	whdload "AllTerrainRacingXmasDemo.slave"
+  whdload "AllTerrainRacingXmasDemo.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/ThemePark/"
 IF EXISTS ENV:whdloadargs
-	whdload "ThemePark.Slave" $whdloadargs
+  whdload "ThemePark.Slave" $whdloadargs
 ELSE
-	whdload "ThemePark.Slave"
+  whdload "ThemePark.Slave"
 ENDIF

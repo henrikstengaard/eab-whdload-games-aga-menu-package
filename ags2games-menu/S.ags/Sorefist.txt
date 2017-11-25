@@ -2,4 +2,4 @@ Name      : Sorefist
 Publisher : F1 Licenceware
 Year      : 1996
 Players   : 1
-Whdload   : Sorefist.Slave
+RunFile   : Sorefist.Slave

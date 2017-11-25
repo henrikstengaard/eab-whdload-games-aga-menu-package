@@ -3,4 +3,4 @@ Publisher : Byte Back
 Year      : 1991
 Genre     : Platformer - Single Screen
 Players   : 1 Only
-Whdload   : BurgerMan.Slave
+RunFile   : BurgerMan.Slave

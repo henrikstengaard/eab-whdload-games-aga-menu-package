@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Odyssey/"
 IF EXISTS ENV:whdloadargs
-	whdload "Odyssey.slave" $whdloadargs
+  whdload "Odyssey.slave" $whdloadargs
 ELSE
-	whdload "Odyssey.slave"
+  whdload "Odyssey.slave"
 ENDIF

@@ -3,4 +3,4 @@ Version   : AGA 2MB
 Publisher : Ocean
 Year      : 1993
 Genre     : Racing - Cars
-Whdload   : BurningRubber2MB.slave
+RunFile   : BurningRubber2MB.slave

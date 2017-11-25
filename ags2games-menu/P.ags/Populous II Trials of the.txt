@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Populous2.slave
+RunFile   : Populous2.slave

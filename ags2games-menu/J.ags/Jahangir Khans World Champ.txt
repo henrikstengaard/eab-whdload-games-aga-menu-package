@@ -3,4 +3,4 @@ Publisher : Krisalis
 Year      : 1991
 Genre     : Sports - Squash
 Players   : 1 or 2, Simultaneous
-Whdload   : JahangirKhansWChampSquash.Slave
+RunFile   : JahangirKhansWChampSquash.Slave

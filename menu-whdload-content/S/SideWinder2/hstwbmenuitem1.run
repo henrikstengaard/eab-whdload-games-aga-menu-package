@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SideWinder2/"
 IF EXISTS ENV:whdloadargs
-	whdload "SideWinder2.Slave" $whdloadargs
+  whdload "SideWinder2.Slave" $whdloadargs
 ELSE
-	whdload "SideWinder2.Slave"
+  whdload "SideWinder2.Slave"
 ENDIF

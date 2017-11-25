@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Toobin/"
 IF EXISTS ENV:whdloadargs
-	whdload "Toobin.Slave" $whdloadargs
+  whdload "Toobin.Slave" $whdloadargs
 ELSE
-	whdload "Toobin.Slave"
+  whdload "Toobin.Slave"
 ENDIF

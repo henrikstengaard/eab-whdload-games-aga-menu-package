@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/ISS/"
 IF EXISTS ENV:whdloadargs
-	whdload "ISS.Slave" $whdloadargs
+  whdload "ISS.Slave" $whdloadargs
 ELSE
-	whdload "ISS.Slave"
+  whdload "ISS.Slave"
 ENDIF

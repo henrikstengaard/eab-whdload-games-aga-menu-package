@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Sarakon/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sarakon.slave" $whdloadargs
+  whdload "Sarakon.slave" $whdloadargs
 ELSE
-	whdload "Sarakon.slave"
+  whdload "Sarakon.slave"
 ENDIF

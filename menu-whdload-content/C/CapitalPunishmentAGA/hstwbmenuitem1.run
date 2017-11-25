@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CapitalPunishmentAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "CapitalPunishmentAGA.Slave" $whdloadargs
+  whdload "CapitalPunishmentAGA.Slave" $whdloadargs
 ELSE
-	whdload "CapitalPunishmentAGA.Slave"
+  whdload "CapitalPunishmentAGA.Slave"
 ENDIF

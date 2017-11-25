@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StreetFighter2/"
 IF EXISTS ENV:whdloadargs
   whdload "StreetFighter2.Slave" $whdloadargs

@@ -3,4 +3,4 @@ Publisher : Image Works
 Year      : 1988
 Genre     : Sports - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : Speedball.slave
+RunFile   : Speedball.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/Welltris/"
 IF EXISTS ENV:whdloadargs
-	whdload "Welltris.slave" $whdloadargs
+  whdload "Welltris.slave" $whdloadargs
 ELSE
-	whdload "Welltris.slave"
+  whdload "Welltris.slave"
 ENDIF

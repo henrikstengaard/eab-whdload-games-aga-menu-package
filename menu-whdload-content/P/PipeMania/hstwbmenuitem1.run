@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PipeMania/"
 IF EXISTS ENV:whdloadargs
-	whdload "PipeMania.Slave" $whdloadargs
+  whdload "PipeMania.Slave" $whdloadargs
 ELSE
-	whdload "PipeMania.Slave"
+  whdload "PipeMania.Slave"
 ENDIF

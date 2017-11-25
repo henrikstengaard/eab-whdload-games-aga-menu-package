@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PortesDuTempsFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "PortesDuTempsFr.Slave" $whdloadargs
+  whdload "PortesDuTempsFr.Slave" $whdloadargs
 ELSE
-	whdload "PortesDuTempsFr.Slave"
+  whdload "PortesDuTempsFr.Slave"
 ENDIF

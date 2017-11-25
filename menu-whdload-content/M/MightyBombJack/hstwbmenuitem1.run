@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MightyBombJack/"
 IF EXISTS ENV:whdloadargs
-	whdload "MightyBombjack.Slave" $whdloadargs
+  whdload "MightyBombjack.Slave" $whdloadargs
 ELSE
-	whdload "MightyBombjack.Slave"
+  whdload "MightyBombjack.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PinballMania/"
 IF EXISTS ENV:whdloadargs
-	whdload "PinballMania.slave" $whdloadargs
+  whdload "PinballMania.slave" $whdloadargs
 ELSE
-	whdload "PinballMania.slave"
+  whdload "PinballMania.slave"
 ENDIF

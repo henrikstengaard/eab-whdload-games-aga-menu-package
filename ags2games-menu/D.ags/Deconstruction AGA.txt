@@ -3,4 +3,4 @@ Version   : AGA
 Year      : 1996
 Genre     : Reaction & Navigation
 Players   : 1
-Whdload   : DeconstructionAGA.Slave
+RunFile   : DeconstructionAGA.Slave

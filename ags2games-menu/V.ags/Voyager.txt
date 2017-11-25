@@ -2,4 +2,4 @@ Name      : Voyager
 Publisher : Ocean
 Year      : 1989
 Players   : 1 Only
-Whdload   : Voyager.slave
+RunFile   : Voyager.slave

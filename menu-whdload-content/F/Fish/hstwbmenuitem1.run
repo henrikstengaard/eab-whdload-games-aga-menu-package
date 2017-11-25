@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Fish/"
 IF EXISTS ENV:whdloadargs
-	whdload "Fish.Slave" $whdloadargs
+  whdload "Fish.Slave" $whdloadargs
 ELSE
-	whdload "Fish.Slave"
+  whdload "Fish.Slave"
 ENDIF

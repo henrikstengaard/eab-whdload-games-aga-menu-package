@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TopBanana/"
 IF EXISTS ENV:whdloadargs
-	whdload "TopBanana.Slave" $whdloadargs
+  whdload "TopBanana.Slave" $whdloadargs
 ELSE
-	whdload "TopBanana.Slave"
+  whdload "TopBanana.Slave"
 ENDIF

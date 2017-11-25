@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MegaTwins/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegaTwins.slave" $whdloadargs
+  whdload "MegaTwins.slave" $whdloadargs
 ELSE
-	whdload "MegaTwins.slave"
+  whdload "MegaTwins.slave"
 ENDIF

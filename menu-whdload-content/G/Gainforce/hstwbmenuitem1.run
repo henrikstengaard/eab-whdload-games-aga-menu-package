@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/Gainforce/"
 IF EXISTS ENV:whdloadargs
-	whdload "Gainforce.Slave" $whdloadargs
+  whdload "Gainforce.Slave" $whdloadargs
 ELSE
-	whdload "Gainforce.Slave"
+  whdload "Gainforce.Slave"
 ENDIF

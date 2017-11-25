@@ -4,4 +4,4 @@ Publisher : Sierra On-Line
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : LeisureSuitLarry5De.slave
+RunFile   : LeisureSuitLarry5De.slave

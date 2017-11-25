@@ -2,4 +2,4 @@ Name      : Theme Park Mystery
 Publisher : Joined Up Writing
 Year      : 1991
 Players   : 1
-Whdload   : ThemeParkMystery.slave
+RunFile   : ThemeParkMystery.slave

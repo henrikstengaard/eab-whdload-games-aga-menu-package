@@ -2,4 +2,4 @@ Name      : Desert Strike: Return to the Gulf
 Publisher : Electronic Arts
 Year      : 1993
 Players   : 1 Only
-Whdload   : DesertStrike.slave
+RunFile   : DesertStrike.slave

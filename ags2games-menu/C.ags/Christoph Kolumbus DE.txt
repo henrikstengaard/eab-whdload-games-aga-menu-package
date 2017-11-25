@@ -4,4 +4,4 @@ Publisher : Software 2000
 Year      : 1994
 Genre     : Strategy - Trading
 Players   : 1 to 4
-Whdload   : ChristophKolumbusDe.slave
+RunFile   : ChristophKolumbusDe.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/IceRunner/"
 IF EXISTS ENV:whdloadargs
-	whdload "IceRunner.Slave" $whdloadargs
+  whdload "IceRunner.Slave" $whdloadargs
 ELSE
-	whdload "IceRunner.Slave"
+  whdload "IceRunner.Slave"
 ENDIF

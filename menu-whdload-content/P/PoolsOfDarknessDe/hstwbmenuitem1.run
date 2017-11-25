@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PoolsOfDarknessDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "PoolsOfDarknessDe.Slave" $whdloadargs
+  whdload "PoolsOfDarknessDe.Slave" $whdloadargs
 ELSE
-	whdload "PoolsOfDarknessDe.Slave"
+  whdload "PoolsOfDarknessDe.Slave"
 ENDIF

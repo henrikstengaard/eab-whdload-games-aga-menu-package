@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FIFAInternationalSoccer/"
 IF EXISTS ENV:whdloadargs
-	whdload "FIFAInternationalSoccer.slave" $whdloadargs
+  whdload "FIFAInternationalSoccer.slave" $whdloadargs
 ELSE
-	whdload "FIFAInternationalSoccer.slave"
+  whdload "FIFAInternationalSoccer.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/IkariWarriors/"
 IF EXISTS ENV:whdloadargs
-	whdload "IkariWarriors.Slave" $whdloadargs
+  whdload "IkariWarriors.Slave" $whdloadargs
 ELSE
-	whdload "IkariWarriors.Slave"
+  whdload "IkariWarriors.Slave"
 ENDIF

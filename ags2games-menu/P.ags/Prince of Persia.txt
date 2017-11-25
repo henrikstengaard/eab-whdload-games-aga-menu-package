@@ -3,4 +3,4 @@ Publisher : Domark
 Year      : 1991
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : PrinceOfPersia.slave
+RunFile   : PrinceOfPersia.slave

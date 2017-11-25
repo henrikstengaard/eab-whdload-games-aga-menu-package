@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Elvira2Fr/"
 IF EXISTS ENV:whdloadargs
-	whdload "Elvira2Fr.Slave" $whdloadargs
+  whdload "Elvira2Fr.Slave" $whdloadargs
 ELSE
-	whdload "Elvira2Fr.Slave"
+  whdload "Elvira2Fr.Slave"
 ENDIF

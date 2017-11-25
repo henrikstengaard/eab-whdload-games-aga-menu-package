@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RobotReaderChickenLittle/"
 IF EXISTS ENV:whdloadargs
-	whdload "RobotReaderChickenLittle.Slave" $whdloadargs
+  whdload "RobotReaderChickenLittle.Slave" $whdloadargs
 ELSE
-	whdload "RobotReaderChickenLittle.Slave"
+  whdload "RobotReaderChickenLittle.Slave"
 ENDIF

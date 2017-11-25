@@ -3,4 +3,4 @@ Language  : German
 Publisher : Software 2000
 Year      : 1991
 Players   : 1
-Whdload   : KathedraleDe.slave
+RunFile   : KathedraleDe.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SpiritOfAdventureDe1Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "SpiritOfAdventureDe1Disk.slave" $whdloadargs
+  whdload "SpiritOfAdventureDe1Disk.slave" $whdloadargs
 ELSE
-	whdload "SpiritOfAdventureDe1Disk.slave"
+  whdload "SpiritOfAdventureDe1Disk.slave"
 ENDIF

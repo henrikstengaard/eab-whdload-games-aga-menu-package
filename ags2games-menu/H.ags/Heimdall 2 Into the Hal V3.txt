@@ -4,4 +4,4 @@ Publisher : Core Design
 Year      : 1994
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : Heimdall2CD32.Slave
+RunFile   : Heimdall2CD32.Slave

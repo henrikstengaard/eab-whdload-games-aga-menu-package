@@ -2,4 +2,4 @@ Name      : Skyfox II: The Cygnus Conflict
 Publisher : Electronic Arts
 Year      : 1988
 Players   : 1 Only
-Whdload   : Skyfox2.Slave
+RunFile   : Skyfox2.Slave

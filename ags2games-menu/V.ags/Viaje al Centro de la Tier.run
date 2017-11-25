@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.old
+;RunFile=A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/ViajeAlCentroDeLaTierraEs/"
 IF EXISTS ENV:whdloadargs
-  whdload "ViajeAlCentroDeLaTierraEs.old" $whdloadargs
+  whdload "ViajeAlCentroDeLaTierraEs.slave" $whdloadargs
 ELSE
-  whdload "ViajeAlCentroDeLaTierraEs.old"
+  whdload "ViajeAlCentroDeLaTierraEs.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

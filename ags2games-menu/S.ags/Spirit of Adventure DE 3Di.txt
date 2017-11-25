@@ -4,4 +4,4 @@ Version   : 3Disk
 Publisher : Starbyte Software
 Year      : 1991
 Genre     : Adventure - RPG 3D
-Whdload   : SpiritOfAdventureDe3Disk.slave
+RunFile   : SpiritOfAdventureDe3Disk.slave

@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:T/TransworldDe/"
+; Run WHDLoad
+cd "A-Games:TransworldDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "TransworldDe.Slave" $whdloadargs
+  whdload "TransworldDe.Slave" $whdloadargs
 ELSE
-	whdload "TransworldDe.Slave"
+  whdload "TransworldDe.Slave"
 ENDIF

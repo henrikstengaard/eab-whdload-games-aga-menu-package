@@ -4,4 +4,4 @@ Publisher : MicroProse Software
 Year      : 1993
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : ImpossibleMission2025AGA.slave
+RunFile   : ImpossibleMission2025AGA.slave

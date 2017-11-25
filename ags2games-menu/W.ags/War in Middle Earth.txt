@@ -3,4 +3,4 @@ Publisher : Melbourne House
 Year      : 1988
 Genre     : Strategy - War
 Players   : 1 Only
-Whdload   : WarInMiddleEarth.Slave
+RunFile   : WarInMiddleEarth.Slave

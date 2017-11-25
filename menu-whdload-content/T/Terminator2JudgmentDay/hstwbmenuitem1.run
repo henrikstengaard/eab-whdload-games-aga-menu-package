@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Terminator2JudgmentDay/"
 IF EXISTS ENV:whdloadargs
-	whdload "Terminator2JudgmentDay.Slave" $whdloadargs
+  whdload "Terminator2JudgmentDay.Slave" $whdloadargs
 ELSE
-	whdload "Terminator2JudgmentDay.Slave"
+  whdload "Terminator2JudgmentDay.Slave"
 ENDIF

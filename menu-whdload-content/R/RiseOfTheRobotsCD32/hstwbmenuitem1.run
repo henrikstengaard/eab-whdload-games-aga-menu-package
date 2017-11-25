@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RiseOfTheRobotsCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "RiseOfTheRobotsCD32.Slave" $whdloadargs
+  whdload "RiseOfTheRobotsCD32.Slave" $whdloadargs
 ELSE
-	whdload "RiseOfTheRobotsCD32.Slave"
+  whdload "RiseOfTheRobotsCD32.Slave"
 ENDIF

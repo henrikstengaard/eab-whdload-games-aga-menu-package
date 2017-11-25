@@ -2,4 +2,4 @@ Name      : Humans 2: The Jurassic Levels
 Publisher : Mirage / Gametek
 Year      : 1993
 Players   : 1
-Whdload   : Humans2.slave
+RunFile   : Humans2.slave

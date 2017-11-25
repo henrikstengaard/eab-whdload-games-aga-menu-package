@@ -2,4 +2,4 @@ Name      : Spike In Transylvania
 Publisher : Codemasters
 Year      : 1991
 Players   : 1
-Whdload   : SpikeInTransylvania.Slave
+RunFile   : SpikeInTransylvania.Slave

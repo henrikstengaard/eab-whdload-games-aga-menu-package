@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Swap/"
 IF EXISTS ENV:whdloadargs
-	whdload "Swap.Slave" $whdloadargs
+  whdload "Swap.Slave" $whdloadargs
 ELSE
-	whdload "Swap.Slave"
+  whdload "Swap.Slave"
 ENDIF

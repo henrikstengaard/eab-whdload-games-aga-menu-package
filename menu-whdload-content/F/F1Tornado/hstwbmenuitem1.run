@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/F1Tornado/"
 IF EXISTS ENV:whdloadargs
-	whdload "F1Tornado.Slave" $whdloadargs
+  whdload "F1Tornado.Slave" $whdloadargs
 ELSE
-	whdload "F1Tornado.Slave"
+  whdload "F1Tornado.Slave"
 ENDIF

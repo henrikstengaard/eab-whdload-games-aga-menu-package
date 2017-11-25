@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/Kingpin1Mb/"
 IF EXISTS ENV:whdloadargs
   whdload "Kingpin1Mb.Slave" $whdloadargs

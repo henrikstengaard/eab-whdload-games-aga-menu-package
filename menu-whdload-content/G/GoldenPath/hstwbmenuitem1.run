@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GoldenPath/"
 IF EXISTS ENV:whdloadargs
-	whdload "GoldenPath.Slave" $whdloadargs
+  whdload "GoldenPath.Slave" $whdloadargs
 ELSE
-	whdload "GoldenPath.Slave"
+  whdload "GoldenPath.Slave"
 ENDIF

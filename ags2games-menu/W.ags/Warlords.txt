@@ -3,4 +3,4 @@ Publisher : Strategic Studies Group
 Year      : 1990
 Genre     : Strategy - War
 Players   : 1 to 8
-Whdload   : Warlords.Slave
+RunFile   : Warlords.Slave

@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Mindscape
 Year      : 1992
 Players   : 1 or 2, Simultaneous
-Whdload   : BattletoadsCD32.slave
+RunFile   : BattletoadsCD32.slave

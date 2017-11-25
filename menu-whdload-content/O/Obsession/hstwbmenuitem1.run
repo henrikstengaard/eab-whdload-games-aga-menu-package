@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Obsession/"
 IF EXISTS ENV:whdloadargs
-	whdload "Obsession.Slave" $whdloadargs
+  whdload "Obsession.Slave" $whdloadargs
 ELSE
-	whdload "Obsession.Slave"
+  whdload "Obsession.Slave"
 ENDIF

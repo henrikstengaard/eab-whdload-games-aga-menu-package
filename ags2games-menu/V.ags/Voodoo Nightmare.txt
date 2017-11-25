@@ -3,4 +3,4 @@ Publisher : Palace Software
 Year      : 1990
 Genre     : Arcade - Labyrinth/Maze
 Players   : 1 Only
-Whdload   : VoodooNightmare.Slave
+RunFile   : VoodooNightmare.Slave

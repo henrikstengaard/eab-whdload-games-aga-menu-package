@@ -3,4 +3,4 @@ Version   : SceneryDisk07
 Publisher : SubLOGIC
 Year      : 1988
 Genre     : Simulation - Flight
-Whdload   : FlightSim2&SceneryDisk07.Slave
+RunFile   : FlightSim2&SceneryDisk07.Slave

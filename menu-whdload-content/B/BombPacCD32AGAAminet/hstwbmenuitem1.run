@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BombPacCD32AGAAminet/"
 IF EXISTS ENV:whdloadargs
-	whdload "BombPacCD32AGAAminet.Slave" $whdloadargs
+  whdload "BombPacCD32AGAAminet.Slave" $whdloadargs
 ELSE
-	whdload "BombPacCD32AGAAminet.Slave"
+  whdload "BombPacCD32AGAAminet.Slave"
 ENDIF

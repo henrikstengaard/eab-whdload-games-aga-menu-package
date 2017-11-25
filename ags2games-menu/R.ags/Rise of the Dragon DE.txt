@@ -4,4 +4,4 @@ Publisher : Dynamix
 Year      : 1991
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : RiseOfTheDragonDe.Slave
+RunFile   : RiseOfTheDragonDe.Slave

@@ -3,4 +3,4 @@ Publisher : (unknown)
 Year      : 1995
 Genre     : Brain - Logical
 Players   : 1 or 2
-Whdload   : Ooze.Slave
+RunFile   : Ooze.Slave

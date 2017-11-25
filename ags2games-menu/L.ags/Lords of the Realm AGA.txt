@@ -4,4 +4,4 @@ Publisher : Impressions
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 to 6
-Whdload   : LordsOfTheRealmAGA.Slave
+RunFile   : LordsOfTheRealmAGA.Slave

@@ -3,4 +3,4 @@ Publisher : Amiga Fun
 Year      : 1992
 Genre     : Arcade - Pinball
 Players   : 1 to 4
-Whdload   : Reflexity.Slave
+RunFile   : Reflexity.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VenusTheFlytrap/"
 IF EXISTS ENV:whdloadargs
-	whdload "VenusTheFlytrap.Slave" $whdloadargs
+  whdload "VenusTheFlytrap.Slave" $whdloadargs
 ELSE
-	whdload "VenusTheFlytrap.Slave"
+  whdload "VenusTheFlytrap.Slave"
 ENDIF

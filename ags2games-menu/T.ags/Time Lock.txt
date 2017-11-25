@@ -3,4 +3,4 @@ Publisher : Boeder Software
 Year      : 1993
 Genre     : Brain - Tile Removal
 Players   : 1 or 2, Simultaneous
-Whdload   : TimeLock.slave
+RunFile   : TimeLock.slave

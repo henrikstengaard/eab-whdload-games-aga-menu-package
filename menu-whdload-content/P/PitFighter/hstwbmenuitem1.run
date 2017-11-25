@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PitFighter/"
 IF EXISTS ENV:whdloadargs
-	whdload "PitFighter.slave" $whdloadargs
+  whdload "PitFighter.slave" $whdloadargs
 ELSE
-	whdload "PitFighter.slave"
+  whdload "PitFighter.slave"
 ENDIF

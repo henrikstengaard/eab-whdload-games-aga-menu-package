@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrazyShot/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrazyShot.Slave" $whdloadargs
+  whdload "CrazyShot.Slave" $whdloadargs
 ELSE
-	whdload "CrazyShot.Slave"
+  whdload "CrazyShot.Slave"
 ENDIF

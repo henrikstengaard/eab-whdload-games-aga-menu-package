@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UpScopeArcadia/"
 IF EXISTS ENV:whdloadargs
-	whdload "UpScopeArcadia.Slave" $whdloadargs
+  whdload "UpScopeArcadia.Slave" $whdloadargs
 ELSE
-	whdload "UpScopeArcadia.Slave"
+  whdload "UpScopeArcadia.Slave"
 ENDIF

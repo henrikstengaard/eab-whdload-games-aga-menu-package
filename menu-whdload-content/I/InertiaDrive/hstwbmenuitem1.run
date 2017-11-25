@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/InertiaDrive/"
 IF EXISTS ENV:whdloadargs
-	whdload "InertiaDrive.Slave" $whdloadargs
+  whdload "InertiaDrive.Slave" $whdloadargs
 ELSE
-	whdload "InertiaDrive.Slave"
+  whdload "InertiaDrive.Slave"
 ENDIF

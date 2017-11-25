@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MatchOfTheDay/"
 IF EXISTS ENV:whdloadargs
-	whdload "MatchOfTheDay.Slave" $whdloadargs
+  whdload "MatchOfTheDay.Slave" $whdloadargs
 ELSE
-	whdload "MatchOfTheDay.Slave"
+  whdload "MatchOfTheDay.Slave"
 ENDIF

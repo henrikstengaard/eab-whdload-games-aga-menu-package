@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GrandPrixMaster/"
 IF EXISTS ENV:whdloadargs
-	whdload "GrandPrixMaster.Slave" $whdloadargs
+  whdload "GrandPrixMaster.Slave" $whdloadargs
 ELSE
-	whdload "GrandPrixMaster.Slave"
+  whdload "GrandPrixMaster.Slave"
 ENDIF

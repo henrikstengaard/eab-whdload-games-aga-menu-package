@@ -3,4 +3,4 @@ Publisher : Prism Leisure
 Year      : 1990
 Genre     : Sports - Football/Soccer
 Players   : 1 Only
-Whdload   : FootballManagerWCEd.Slave
+RunFile   : FootballManagerWCEd.Slave

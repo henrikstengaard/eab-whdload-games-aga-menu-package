@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Obliterator/"
 IF EXISTS ENV:whdloadargs
-	whdload "Obliterator.Slave" $whdloadargs
+  whdload "Obliterator.Slave" $whdloadargs
 ELSE
-	whdload "Obliterator.Slave"
+  whdload "Obliterator.Slave"
 ENDIF

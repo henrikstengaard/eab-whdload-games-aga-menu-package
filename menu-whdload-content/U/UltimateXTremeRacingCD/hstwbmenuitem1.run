@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UltimateXTremeRacingCD/"
 IF EXISTS ENV:whdloadargs
-	whdload "UltimateXTremeRacingCD.slave" $whdloadargs
+  whdload "UltimateXTremeRacingCD.slave" $whdloadargs
 ELSE
-	whdload "UltimateXTremeRacingCD.slave"
+  whdload "UltimateXTremeRacingCD.slave"
 ENDIF

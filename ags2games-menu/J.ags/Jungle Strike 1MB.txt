@@ -3,4 +3,4 @@ Version   : 1MB
 Publisher : Ocean
 Year      : 1994
 Players   : 1 Only
-Whdload   : JungleStrike1MB.Slave
+RunFile   : JungleStrike1MB.Slave

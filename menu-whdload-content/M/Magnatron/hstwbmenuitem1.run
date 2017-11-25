@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Magnatron/"
 IF EXISTS ENV:whdloadargs
-	whdload "Magnatron.Slave" $whdloadargs
+  whdload "Magnatron.Slave" $whdloadargs
 ELSE
-	whdload "Magnatron.Slave"
+  whdload "Magnatron.Slave"
 ENDIF

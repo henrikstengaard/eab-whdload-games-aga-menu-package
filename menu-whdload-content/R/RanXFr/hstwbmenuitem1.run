@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RanXFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "RanXFr.Slave" $whdloadargs
+  whdload "RanXFr.Slave" $whdloadargs
 ELSE
-	whdload "RanXFr.Slave"
+  whdload "RanXFr.Slave"
 ENDIF

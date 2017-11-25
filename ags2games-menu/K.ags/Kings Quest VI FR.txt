@@ -3,4 +3,4 @@ Language  : French
 Publisher : Sierra
 Year      : 1994
 Players   : 1
-Whdload   : KingsQuest6Fr.slave
+RunFile   : KingsQuest6Fr.slave

@@ -3,4 +3,4 @@ Version   : 512KB
 Publisher : Sphinx
 Year      : 1989
 Players   : 1 or 2
-Whdload   : Intact512KB.Slave
+RunFile   : Intact512KB.Slave

@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Ocean
 Year      : 1993
 Genre     : Racing - Cars
-Whdload   : BurningRubberAGA.slave
+RunFile   : BurningRubberAGA.slave

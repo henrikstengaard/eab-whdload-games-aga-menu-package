@@ -2,4 +2,4 @@ Name      : Up Scope
 Publisher : Grand Products
 Year      : 1986
 Players   : 1
-Whdload   : UpScope.Slave
+RunFile   : UpScope.Slave

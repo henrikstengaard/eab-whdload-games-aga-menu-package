@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ArkanoidRevengeOfDoh/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArkanoidRevengeOfDoh.slave" $whdloadargs
+  whdload "ArkanoidRevengeOfDoh.slave" $whdloadargs
 ELSE
-	whdload "ArkanoidRevengeOfDoh.slave"
+  whdload "ArkanoidRevengeOfDoh.slave"
 ENDIF

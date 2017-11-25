@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/OrkNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "OrkNTSC.slave" $whdloadargs
+  whdload "OrkNTSC.slave" $whdloadargs
 ELSE
-	whdload "OrkNTSC.slave"
+  whdload "OrkNTSC.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Simulcra/"
 IF EXISTS ENV:whdloadargs
-	whdload "Simulcra.Slave" $whdloadargs
+  whdload "Simulcra.Slave" $whdloadargs
 ELSE
-	whdload "Simulcra.Slave"
+  whdload "Simulcra.Slave"
 ENDIF

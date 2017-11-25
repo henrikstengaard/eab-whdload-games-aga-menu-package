@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:0-9/9Lives/"
 IF EXISTS ENV:whdloadargs
-	whdload "9Lives.Slave" $whdloadargs
+  whdload "9Lives.Slave" $whdloadargs
 ELSE
-	whdload "9Lives.Slave"
+  whdload "9Lives.Slave"
 ENDIF

@@ -4,4 +4,4 @@ Publisher : Gremlin Graphics
 Year      : 1990
 Genre     : Racing - Overhead
 Players   : 1 Only
-Whdload   : SuperCars1Disk.Slave
+RunFile   : SuperCars1Disk.Slave

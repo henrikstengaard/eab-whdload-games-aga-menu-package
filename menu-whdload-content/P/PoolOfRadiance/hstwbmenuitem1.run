@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PoolOfRadiance/"
 IF EXISTS ENV:whdloadargs
-	whdload "PoolOfRadiance.Slave" $whdloadargs
+  whdload "PoolOfRadiance.Slave" $whdloadargs
 ELSE
-	whdload "PoolOfRadiance.Slave"
+  whdload "PoolOfRadiance.Slave"
 ENDIF

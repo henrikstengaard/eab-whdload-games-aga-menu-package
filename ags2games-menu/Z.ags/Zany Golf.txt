@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1988
 Genre     : Sports - Golf
 Players   : 1 to 4
-Whdload   : ZanyGolf.slave
+RunFile   : ZanyGolf.slave

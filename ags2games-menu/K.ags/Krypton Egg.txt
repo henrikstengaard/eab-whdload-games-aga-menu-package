@@ -3,4 +3,4 @@ Publisher : HitSoft
 Year      : 1990
 Genre     : Arcade - Breakout/Pong
 Players   : 1 Only
-Whdload   : KryptonEgg.Slave
+RunFile   : KryptonEgg.Slave

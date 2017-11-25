@@ -3,4 +3,4 @@ Language  : German
 Publisher : Silmarils
 Year      : 1991
 Genre     : Strategy - War
-Whdload   : StormMasterDe.Slave
+RunFile   : StormMasterDe.Slave

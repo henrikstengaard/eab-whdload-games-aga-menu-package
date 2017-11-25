@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1992
 Genre     : Strategy - War
 Players   : 1 Only
-Whdload   : Harpoon&Battleset4.slave
+RunFile   : Harpoon&Battleset4.slave

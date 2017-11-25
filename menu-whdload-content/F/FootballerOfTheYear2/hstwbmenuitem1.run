@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FootballerOfTheYear2/"
 IF EXISTS ENV:whdloadargs
-	whdload "FootballerOfTheYear2.slave" $whdloadargs
+  whdload "FootballerOfTheYear2.slave" $whdloadargs
 ELSE
-	whdload "FootballerOfTheYear2.slave"
+  whdload "FootballerOfTheYear2.slave"
 ENDIF

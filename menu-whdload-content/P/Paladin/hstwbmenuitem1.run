@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Paladin/"
 IF EXISTS ENV:whdloadargs
-	whdload "Paladin.Slave" $whdloadargs
+  whdload "Paladin.Slave" $whdloadargs
 ELSE
-	whdload "Paladin.Slave"
+  whdload "Paladin.Slave"
 ENDIF

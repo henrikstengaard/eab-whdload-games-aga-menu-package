@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave
+;RunFile=A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Bloodwych&ExtendedLevels/"
 IF EXISTS ENV:whdloadargs
-  whdload "ExtendedLevels.Slave" $whdloadargs
+  whdload "Bloodwych.Slave" $whdloadargs
 ELSE
-  whdload "ExtendedLevels.Slave"
+  whdload "Bloodwych.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

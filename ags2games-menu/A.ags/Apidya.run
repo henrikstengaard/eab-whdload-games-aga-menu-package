@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:A/ApidyaKaiko/data/Apidya.slave
+;RunFile=A-Games:A/ApidyaAudios/ApidyaAudios.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Games:A/ApidyaKaiko/data/"
+; Run WHDLoad
+cd "A-Games:A/ApidyaAudios/"
 IF EXISTS ENV:whdloadargs
-  whdload "Apidya.slave" $whdloadargs
+  whdload "ApidyaAudios.Slave" $whdloadargs
 ELSE
-  whdload "Apidya.slave"
+  whdload "ApidyaAudios.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -3,4 +3,4 @@ Publisher : ESP Software
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : GadgetLostInTime.slave
+RunFile   : GadgetLostInTime.slave

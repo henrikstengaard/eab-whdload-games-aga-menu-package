@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KickOff2FinalWhistleCV/"
 IF EXISTS ENV:whdloadargs
-	whdload "KickOff2FinalWhistleCV.slave" $whdloadargs
+  whdload "KickOff2FinalWhistleCV.slave" $whdloadargs
 ELSE
-	whdload "KickOff2FinalWhistleCV.slave"
+  whdload "KickOff2FinalWhistleCV.slave"
 ENDIF

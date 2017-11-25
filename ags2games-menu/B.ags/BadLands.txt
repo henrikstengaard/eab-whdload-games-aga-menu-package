@@ -3,4 +3,4 @@ Publisher : Domark
 Year      : 1990
 Genre     : Racing - Overhead
 Players   : 1 or 2, Simultaneous
-Whdload   : Badlands.slave
+RunFile   : Badlands.slave

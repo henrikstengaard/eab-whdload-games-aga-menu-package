@@ -3,4 +3,4 @@ Publisher : Zeppelin Games
 Year      : 1992
 Genre     : Racing - Overhead
 Players   : 1 or 2, Simultaneous
-Whdload   : InternationalTruckRacing.slave
+RunFile   : InternationalTruckRacing.slave

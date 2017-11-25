@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DisposableHeroFast/"
 IF EXISTS ENV:whdloadargs
-	whdload "DisposableHeroFast.slave" $whdloadargs
+  whdload "DisposableHeroFast.slave" $whdloadargs
 ELSE
-	whdload "DisposableHeroFast.slave"
+  whdload "DisposableHeroFast.slave"
 ENDIF

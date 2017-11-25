@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GalacticTheXmasEdition1MB/"
 IF EXISTS ENV:whdloadargs
-	whdload "GalacticTheXmasEdition1MB.Slave" $whdloadargs
+  whdload "GalacticTheXmasEdition1MB.Slave" $whdloadargs
 ELSE
-	whdload "GalacticTheXmasEdition1MB.Slave"
+  whdload "GalacticTheXmasEdition1MB.Slave"
 ENDIF

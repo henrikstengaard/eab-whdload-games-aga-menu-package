@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Typhoon/"
 IF EXISTS ENV:whdloadargs
-	whdload "Typhoon.Slave" $whdloadargs
+  whdload "Typhoon.Slave" $whdloadargs
 ELSE
-	whdload "Typhoon.Slave"
+  whdload "Typhoon.Slave"
 ENDIF

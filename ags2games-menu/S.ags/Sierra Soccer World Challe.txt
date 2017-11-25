@@ -3,4 +3,4 @@ Publisher : Sierra On-Line
 Year      : 1994
 Genre     : Sports - Football/Soccer
 Players   : 1 to 8
-Whdload   : SierraSoccer.Slave
+RunFile   : SierraSoccer.Slave

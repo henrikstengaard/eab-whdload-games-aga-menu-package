@@ -3,4 +3,4 @@ Publisher : Breadline
 Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 to 4, Simultaneous
-Whdload   : Moochies.Slave
+RunFile   : Moochies.Slave

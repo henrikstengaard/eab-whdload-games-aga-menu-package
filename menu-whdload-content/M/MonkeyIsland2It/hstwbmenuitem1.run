@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MonkeyIsland2It/"
 IF EXISTS ENV:whdloadargs
-	whdload "MonkeyIsland2It.Slave" $whdloadargs
+  whdload "MonkeyIsland2It.Slave" $whdloadargs
 ELSE
-	whdload "MonkeyIsland2It.Slave"
+  whdload "MonkeyIsland2It.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Oblivion/"
 IF EXISTS ENV:whdloadargs
-	whdload "Oblivion.Slave" $whdloadargs
+  whdload "Oblivion.Slave" $whdloadargs
 ELSE
-	whdload "Oblivion.Slave"
+  whdload "Oblivion.Slave"
 ENDIF

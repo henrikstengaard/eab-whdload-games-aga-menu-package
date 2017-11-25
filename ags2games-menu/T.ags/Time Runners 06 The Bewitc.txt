@@ -3,4 +3,4 @@ Publisher : Simulmondo
 Year      : 1993
 Genre     : Adventure - Arcade 2D
 Players   : 1 Only
-Whdload   : TimeRunners06.Slave
+RunFile   : TimeRunners06.Slave

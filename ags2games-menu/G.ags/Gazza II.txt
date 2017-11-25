@@ -3,4 +3,4 @@ Publisher : Empire Software
 Year      : 1991
 Genre     : Sports - Football/Soccer
 Players   : 1 or 2, Simultaneous
-Whdload   : Gazza2.Slave
+RunFile   : Gazza2.Slave

@@ -2,4 +2,4 @@ Name      : King's Quest
 Publisher : Sierra
 Year      : 1987
 Players   : 1
-Whdload   : KingsQuest.slave
+RunFile   : KingsQuest.slave

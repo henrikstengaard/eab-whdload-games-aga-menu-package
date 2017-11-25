@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RageCAD/"
 IF EXISTS ENV:whdloadargs
-	whdload "RageCAD.Slave" $whdloadargs
+  whdload "RageCAD.Slave" $whdloadargs
 ELSE
-	whdload "RageCAD.Slave"
+  whdload "RageCAD.Slave"
 ENDIF

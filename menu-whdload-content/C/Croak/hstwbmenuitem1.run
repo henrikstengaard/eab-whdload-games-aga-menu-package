@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Croak/"
 IF EXISTS ENV:whdloadargs
-	whdload "Croak.Slave" $whdloadargs
+  whdload "Croak.Slave" $whdloadargs
 ELSE
-	whdload "Croak.Slave"
+  whdload "Croak.Slave"
 ENDIF

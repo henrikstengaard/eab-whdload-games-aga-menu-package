@@ -4,4 +4,4 @@ Publisher : Rainbow Arts
 Year      : 1991
 Genre     : Brain - Puzzle
 Players   : 1 Only
-Whdload   : LogicalCDTV.Slave
+RunFile   : LogicalCDTV.Slave

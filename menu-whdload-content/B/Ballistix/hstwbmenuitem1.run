@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Ballistix/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ballistix.slave" $whdloadargs
+  whdload "Ballistix.slave" $whdloadargs
 ELSE
-	whdload "Ballistix.slave"
+  whdload "Ballistix.slave"
 ENDIF

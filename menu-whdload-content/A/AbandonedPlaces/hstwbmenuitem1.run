@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AbandonedPlaces/"
 IF EXISTS ENV:whdloadargs
-	whdload "AbandonedPlaces.slave" $whdloadargs
+  whdload "AbandonedPlaces.slave" $whdloadargs
 ELSE
-	whdload "AbandonedPlaces.slave"
+  whdload "AbandonedPlaces.slave"
 ENDIF

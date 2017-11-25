@@ -3,4 +3,4 @@ Publisher : Palace Software
 Year      : 1991
 Genre     : Brain - Puzzle
 Players   : 1 Only
-Whdload   : Swap.Slave
+RunFile   : Swap.Slave

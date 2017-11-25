@@ -3,4 +3,4 @@ Publisher : Krisalis
 Year      : 1992
 Genre     : Sports - Football/Soccer
 Players   : 1 Only
-Whdload   : GTSoccerChallenge.Slave
+RunFile   : GTSoccerChallenge.Slave

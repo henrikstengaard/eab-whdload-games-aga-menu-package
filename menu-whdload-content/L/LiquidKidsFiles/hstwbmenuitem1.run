@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LiquidKidsFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "LiquidKidsFiles.Slave" $whdloadargs
+  whdload "LiquidKidsFiles.Slave" $whdloadargs
 ELSE
-	whdload "LiquidKidsFiles.Slave"
+  whdload "LiquidKidsFiles.Slave"
 ENDIF

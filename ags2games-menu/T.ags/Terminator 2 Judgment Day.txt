@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1991
 Genre     : Arcade - Multigenre
 Players   : 1 Only
-Whdload   : Terminator2JudgmentDay.Slave
+RunFile   : Terminator2JudgmentDay.Slave

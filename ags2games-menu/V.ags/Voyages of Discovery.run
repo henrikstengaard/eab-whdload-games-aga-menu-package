@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VoyagesOfDiscovery/"
 IF EXISTS ENV:whdloadargs
   whdload "VoyagesOfDiscovery.slave" $whdloadargs

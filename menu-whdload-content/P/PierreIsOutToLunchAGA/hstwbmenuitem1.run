@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PierreIsOutToLunchAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "PierreIsOutToLunchAGA.Slave" $whdloadargs
+  whdload "PierreIsOutToLunchAGA.Slave" $whdloadargs
 ELSE
-	whdload "PierreIsOutToLunchAGA.Slave"
+  whdload "PierreIsOutToLunchAGA.Slave"
 ENDIF

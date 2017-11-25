@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TurboOutRun/"
 IF EXISTS ENV:whdloadargs
-	whdload "TurboOutRun.Slave" $whdloadargs
+  whdload "TurboOutRun.Slave" $whdloadargs
 ELSE
-	whdload "TurboOutRun.Slave"
+  whdload "TurboOutRun.Slave"
 ENDIF

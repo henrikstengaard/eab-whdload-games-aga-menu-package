@@ -2,4 +2,4 @@ Name      : Ninja Rabbits
 Publisher : MicroValue
 Year      : 1991
 Players   : 1 Only
-Whdload   : NinjaRabbits.Slave
+RunFile   : NinjaRabbits.Slave

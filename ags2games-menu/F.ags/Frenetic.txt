@@ -2,4 +2,4 @@ Name      : Frenetic
 Publisher : Core Design
 Year      : 1991
 Players   : 1 or 2, Simultaneous
-Whdload   : Frenetic.Slave
+RunFile   : Frenetic.Slave

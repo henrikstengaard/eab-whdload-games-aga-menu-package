@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/ThirdCourier/"
 IF EXISTS ENV:whdloadargs
-	whdload "ThirdCourier.Slave" $whdloadargs
+  whdload "ThirdCourier.Slave" $whdloadargs
 ELSE
-	whdload "ThirdCourier.Slave"
+  whdload "ThirdCourier.Slave"
 ENDIF

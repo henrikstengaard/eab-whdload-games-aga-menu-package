@@ -2,4 +2,4 @@ Name      : R-Type II
 Publisher : Activision
 Year      : 1991
 Players   : 1 or 2
-Whdload   : RType2.Slave
+RunFile   : RType2.Slave

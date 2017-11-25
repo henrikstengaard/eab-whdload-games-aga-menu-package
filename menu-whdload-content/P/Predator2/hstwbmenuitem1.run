@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Predator2/"
 IF EXISTS ENV:whdloadargs
-	whdload "Predator2.Slave" $whdloadargs
+  whdload "Predator2.Slave" $whdloadargs
 ELSE
-	whdload "Predator2.Slave"
+  whdload "Predator2.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LogicalCDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "LogicalCDTV.Slave" $whdloadargs
+  whdload "LogicalCDTV.Slave" $whdloadargs
 ELSE
-	whdload "LogicalCDTV.Slave"
+  whdload "LogicalCDTV.Slave"
 ENDIF

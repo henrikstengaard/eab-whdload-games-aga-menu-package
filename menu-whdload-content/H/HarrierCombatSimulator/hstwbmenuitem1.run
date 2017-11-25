@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HarrierCombatSimulator/"
 IF EXISTS ENV:whdloadargs
-	whdload "HarrierCombatSimulator.Slave" $whdloadargs
+  whdload "HarrierCombatSimulator.Slave" $whdloadargs
 ELSE
-	whdload "HarrierCombatSimulator.Slave"
+  whdload "HarrierCombatSimulator.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Alternative [R&R]
 Year      : 1991
 Genre     : Educational - Mathematics - Numbers
 Players   : 1
-Whdload   : SootysFunWithNumbers.slave
+RunFile   : SootysFunWithNumbers.slave

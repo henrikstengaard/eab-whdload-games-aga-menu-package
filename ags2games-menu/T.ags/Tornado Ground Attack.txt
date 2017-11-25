@@ -2,4 +2,4 @@ Name      : Tornado Ground Attack
 Publisher : Energize
 Year      : 1991
 Players   : 1 Only
-Whdload   : TornadoGroundAttack.Slave
+RunFile   : TornadoGroundAttack.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LordsOfTheRealm/"
 IF EXISTS ENV:whdloadargs
-	whdload "LordsOfTheRealm.Slave" $whdloadargs
+  whdload "LordsOfTheRealm.Slave" $whdloadargs
 ELSE
-	whdload "LordsOfTheRealm.Slave"
+  whdload "LordsOfTheRealm.Slave"
 ENDIF

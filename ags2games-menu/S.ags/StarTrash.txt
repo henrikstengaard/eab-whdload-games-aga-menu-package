@@ -3,4 +3,4 @@ Publisher : Rainbow Arts
 Year      : 1990
 Genre     : Platformer - 3D
 Players   : 1 to 4
-Whdload   : StarTrash.slave
+RunFile   : StarTrash.slave

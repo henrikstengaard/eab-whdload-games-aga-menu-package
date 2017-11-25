@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Taekwondo/"
 IF EXISTS ENV:whdloadargs
-	whdload "Taekwondo.Slave" $whdloadargs
+  whdload "Taekwondo.Slave" $whdloadargs
 ELSE
-	whdload "Taekwondo.Slave"
+  whdload "Taekwondo.Slave"
 ENDIF

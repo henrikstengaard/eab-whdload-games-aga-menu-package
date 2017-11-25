@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Mindbender/"
 IF EXISTS ENV:whdloadargs
-	whdload "Mindbender.Slave" $whdloadargs
+  whdload "Mindbender.Slave" $whdloadargs
 ELSE
-	whdload "Mindbender.Slave"
+  whdload "Mindbender.Slave"
 ENDIF

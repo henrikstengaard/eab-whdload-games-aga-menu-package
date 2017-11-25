@@ -3,4 +3,4 @@ Language  : French
 Publisher : RETZ
 Year      : 1990
 Players   : 1
-Whdload   : LabyrintheDeLexicosFr.Slave
+RunFile   : LabyrintheDeLexicosFr.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FuryOfTheFurries/"
 IF EXISTS ENV:whdloadargs
-	whdload "FuryOfTheFurries.Slave" $whdloadargs
+  whdload "FuryOfTheFurries.Slave" $whdloadargs
 ELSE
-	whdload "FuryOfTheFurries.Slave"
+  whdload "FuryOfTheFurries.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Flying Shark
 Publisher : Firebird
 Year      : 1988
 Players   : 1 Only
-Whdload   : FlyingShark.Slave
+RunFile   : FlyingShark.Slave

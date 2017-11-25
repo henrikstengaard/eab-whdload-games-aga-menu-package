@@ -3,4 +3,4 @@ Publisher : Audiogenic
 Year      : 1987
 Genre     : Arcade - Breakout/Pong
 Players   : 1 Only
-Whdload   : Impact95.Slave
+RunFile   : Impact95.Slave

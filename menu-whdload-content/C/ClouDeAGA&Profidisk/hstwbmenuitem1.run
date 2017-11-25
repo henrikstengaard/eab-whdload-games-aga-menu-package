@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ClouDeAGA&Profidisk/"
 IF EXISTS ENV:whdloadargs
-	whdload "ClouDeAGA&Profidisk.Slave" $whdloadargs
+  whdload "ClouDeAGA&Profidisk.Slave" $whdloadargs
 ELSE
-	whdload "ClouDeAGA&Profidisk.Slave"
+  whdload "ClouDeAGA&Profidisk.Slave"
 ENDIF

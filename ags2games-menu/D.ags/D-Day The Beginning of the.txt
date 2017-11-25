@@ -2,4 +2,4 @@ Name      : D-Day: The Beginning of the End
 Publisher : Impressions
 Year      : 1994
 Genre     : Strategy - War
-Whdload   : DDayImpressions.slave
+RunFile   : DDayImpressions.slave

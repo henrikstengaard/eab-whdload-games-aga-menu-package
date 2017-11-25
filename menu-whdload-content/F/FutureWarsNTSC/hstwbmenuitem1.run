@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FutureWarsNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "FutureWarsNTSC.slave" $whdloadargs
+  whdload "FutureWarsNTSC.slave" $whdloadargs
 ELSE
-	whdload "FutureWarsNTSC.slave"
+  whdload "FutureWarsNTSC.slave"
 ENDIF

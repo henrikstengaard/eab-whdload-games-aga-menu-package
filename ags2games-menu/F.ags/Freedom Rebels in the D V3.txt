@@ -4,4 +4,4 @@ Publisher : Coktel Vision
 Year      : 1988
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : FreedomEs.Slave
+RunFile   : FreedomEs.Slave

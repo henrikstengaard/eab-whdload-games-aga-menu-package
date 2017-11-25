@@ -3,4 +3,4 @@ Language  : French
 Publisher : Impressions
 Year      : 1994
 Genre     : Strategy - War
-Whdload   : DDayImpressionsFr.Slave
+RunFile   : DDayImpressionsFr.Slave

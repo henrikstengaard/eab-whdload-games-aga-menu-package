@@ -3,4 +3,4 @@ Publisher : Hi-Tec Software
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : YogisBigCleanUp.Slave
+RunFile   : YogisBigCleanUp.Slave

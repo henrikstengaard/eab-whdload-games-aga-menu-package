@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuperMonacoGP/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuperMonacoGP.slave" $whdloadargs
+  whdload "SuperMonacoGP.slave" $whdloadargs
 ELSE
-	whdload "SuperMonacoGP.slave"
+  whdload "SuperMonacoGP.slave"
 ENDIF

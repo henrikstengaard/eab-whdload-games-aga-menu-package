@@ -2,4 +2,4 @@ Name      : Twylyte
 Publisher : Wicked
 Year      : 1988
 Players   : 1
-Whdload   : Twylyte.Slave
+RunFile   : Twylyte.Slave

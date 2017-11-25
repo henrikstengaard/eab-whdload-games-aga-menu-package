@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GhostsNGoblins/"
 IF EXISTS ENV:whdloadargs
-	whdload "GhostsNGoblins.slave" $whdloadargs
+  whdload "GhostsNGoblins.slave" $whdloadargs
 ELSE
-	whdload "GhostsNGoblins.slave"
+  whdload "GhostsNGoblins.slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:J/JamesPond2CD32/data/JamesPond2.Slave
+;RunFile=A-Games:J/JamesPond2/JamesPond2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,8 +18,8 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
-cd "A-Games:J/JamesPond2CD32/data/"
+; Run WHDLoad
+cd "A-Games:J/JamesPond2/"
 IF EXISTS ENV:whdloadargs
   whdload "JamesPond2.Slave" $whdloadargs
 ELSE

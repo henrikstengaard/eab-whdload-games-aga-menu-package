@@ -3,4 +3,4 @@ Publisher : Vulcan Software
 Year      : 1997
 Genre     : Strategy - War
 Players   : 1 or 2, Simultaneous
-Whdload   : TinyTroops.Slave
+RunFile   : TinyTroops.Slave

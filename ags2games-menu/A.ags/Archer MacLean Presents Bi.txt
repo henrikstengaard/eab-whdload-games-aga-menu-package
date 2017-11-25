@@ -2,4 +2,4 @@ Name      : Archer MacLean Presents: Billard Americain
 Publisher : Virgin
 Year      : 1992
 Players   : 1 - 2 (1 simultaneous)
-Whdload   : ArcherMacleansBillardAmcn.Slave
+RunFile   : ArcherMacleansBillardAmcn.Slave

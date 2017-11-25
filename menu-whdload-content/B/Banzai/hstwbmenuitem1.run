@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Banzai/"
 IF EXISTS ENV:whdloadargs
-	whdload "Banzai.Slave" $whdloadargs
+  whdload "Banzai.Slave" $whdloadargs
 ELSE
-	whdload "Banzai.Slave"
+  whdload "Banzai.Slave"
 ENDIF

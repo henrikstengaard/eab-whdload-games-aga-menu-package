@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/Vigilante/"
 IF EXISTS ENV:whdloadargs
-	whdload "Vigilante.Slave" $whdloadargs
+  whdload "Vigilante.Slave" $whdloadargs
 ELSE
-	whdload "Vigilante.Slave"
+  whdload "Vigilante.Slave"
 ENDIF

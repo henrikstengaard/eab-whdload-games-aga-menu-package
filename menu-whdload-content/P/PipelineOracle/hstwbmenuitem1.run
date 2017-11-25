@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PipelineOracle/"
 IF EXISTS ENV:whdloadargs
-	whdload "PipelineOracle.Slave" $whdloadargs
+  whdload "PipelineOracle.Slave" $whdloadargs
 ELSE
-	whdload "PipelineOracle.Slave"
+  whdload "PipelineOracle.Slave"
 ENDIF

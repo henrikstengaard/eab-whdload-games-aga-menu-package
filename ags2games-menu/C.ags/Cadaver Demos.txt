@@ -4,4 +4,4 @@ Publisher : Image Works
 Year      : 1990
 Genre     : Adventure - Isometric 3D
 Players   : 1 Only
-Whdload   : CadaverDemos.slave
+RunFile   : CadaverDemos.slave

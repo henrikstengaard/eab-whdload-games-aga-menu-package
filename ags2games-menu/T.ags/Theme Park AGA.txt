@@ -4,4 +4,4 @@ Publisher : Electronic Arts
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : ThemeParkAGA.Slave
+RunFile   : ThemeParkAGA.Slave

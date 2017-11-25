@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Core Design
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-Whdload   : BansheeCD32.slave
+RunFile   : BansheeCD32.slave

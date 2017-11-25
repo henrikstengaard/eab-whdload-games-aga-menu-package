@@ -2,4 +2,4 @@ Name      : Fire Force
 Publisher : ICE
 Year      : 1994
 Players   : 1 Only
-Whdload   : FireForce.slave
+RunFile   : FireForce.slave

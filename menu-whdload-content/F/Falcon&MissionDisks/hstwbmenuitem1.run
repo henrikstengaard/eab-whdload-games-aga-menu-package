@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Falcon&MissionDisks/"
 IF EXISTS ENV:whdloadargs
-	whdload "Falcon&MissionDisks.Slave" $whdloadargs
+  whdload "Falcon&MissionDisks.Slave" $whdloadargs
 ELSE
-	whdload "Falcon&MissionDisks.Slave"
+  whdload "Falcon&MissionDisks.Slave"
 ENDIF

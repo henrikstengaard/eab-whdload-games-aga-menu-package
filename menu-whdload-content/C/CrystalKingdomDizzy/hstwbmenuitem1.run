@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CrystalKingdomDizzy/"
 IF EXISTS ENV:whdloadargs
-	whdload "CrystalKingdomDizzy.slave" $whdloadargs
+  whdload "CrystalKingdomDizzy.slave" $whdloadargs
 ELSE
-	whdload "CrystalKingdomDizzy.slave"
+  whdload "CrystalKingdomDizzy.slave"
 ENDIF

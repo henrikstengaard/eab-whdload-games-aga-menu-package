@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:J/Jet&HawaiianScenery/"
 IF EXISTS ENV:whdloadargs
-	whdload "Jet&HawaiianScenery.Slave" $whdloadargs
+  whdload "Jet&HawaiianScenery.Slave" $whdloadargs
 ELSE
-	whdload "Jet&HawaiianScenery.Slave"
+  whdload "Jet&HawaiianScenery.Slave"
 ENDIF

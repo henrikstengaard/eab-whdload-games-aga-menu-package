@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TournamentGolf/"
 IF EXISTS ENV:whdloadargs
-	whdload "TournamentGolf.Slave" $whdloadargs
+  whdload "TournamentGolf.Slave" $whdloadargs
 ELSE
-	whdload "TournamentGolf.Slave"
+  whdload "TournamentGolf.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SnowBrosImage/"
 IF EXISTS ENV:whdloadargs
-	whdload "SnowBrosImage.Slave" $whdloadargs
+  whdload "SnowBrosImage.Slave" $whdloadargs
 ELSE
-	whdload "SnowBrosImage.Slave"
+  whdload "SnowBrosImage.Slave"
 ENDIF

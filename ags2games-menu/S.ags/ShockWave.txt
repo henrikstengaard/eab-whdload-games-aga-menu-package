@@ -2,4 +2,4 @@ Name      : ShockWave
 Publisher : Digital Magic Software
 Year      : 1990
 Players   : 1 Only
-Whdload   : ShockWave.Slave
+RunFile   : ShockWave.Slave

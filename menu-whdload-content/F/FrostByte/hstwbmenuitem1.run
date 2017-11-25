@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FrostByte/"
 IF EXISTS ENV:whdloadargs
-	whdload "FrostByte.Slave" $whdloadargs
+  whdload "FrostByte.Slave" $whdloadargs
 ELSE
-	whdload "FrostByte.Slave"
+  whdload "FrostByte.Slave"
 ENDIF

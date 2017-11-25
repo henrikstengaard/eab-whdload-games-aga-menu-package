@@ -3,4 +3,4 @@ Publisher : Accolade
 Year      : 1991
 Genre     : Adventure - Animated Graphics/Text
 Players   : 1 Only
-Whdload   : LesManleySearchForTheKing.slave
+RunFile   : LesManleySearchForTheKing.slave

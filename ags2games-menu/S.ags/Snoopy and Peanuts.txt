@@ -3,4 +3,4 @@ Publisher : The Edge
 Year      : 1989
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : Snoopy&Peanuts.Slave
+RunFile   : Snoopy&Peanuts.Slave

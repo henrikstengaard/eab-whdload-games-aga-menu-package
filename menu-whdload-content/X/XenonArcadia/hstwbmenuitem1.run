@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:X/XenonArcadia/"
 IF EXISTS ENV:whdloadargs
-	whdload "XenonArcadia.slave" $whdloadargs
+  whdload "XenonArcadia.slave" $whdloadargs
 ELSE
-	whdload "XenonArcadia.slave"
+  whdload "XenonArcadia.slave"
 ENDIF

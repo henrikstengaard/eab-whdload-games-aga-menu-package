@@ -3,4 +3,4 @@ Publisher : Kingsoft
 Year      : 1992
 Genre     : Arcade - Bomberman
 Players   : 1 to 4, Simultaneous
-Whdload   : BugBomber.Slave
+RunFile   : BugBomber.Slave

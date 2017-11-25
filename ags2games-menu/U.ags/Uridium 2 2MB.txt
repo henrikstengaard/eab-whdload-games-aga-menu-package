@@ -3,4 +3,4 @@ Version   : 2MB
 Publisher : Renegade
 Year      : 1993
 Players   : 1 or 2, Simultaneous
-Whdload   : Uridium22MB.Slave
+RunFile   : Uridium22MB.Slave

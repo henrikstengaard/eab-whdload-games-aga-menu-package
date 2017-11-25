@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Twintris/"
 IF EXISTS ENV:whdloadargs
-	whdload "Twintris.Slave" $whdloadargs
+  whdload "Twintris.Slave" $whdloadargs
 ELSE
-	whdload "Twintris.Slave"
+  whdload "Twintris.Slave"
 ENDIF

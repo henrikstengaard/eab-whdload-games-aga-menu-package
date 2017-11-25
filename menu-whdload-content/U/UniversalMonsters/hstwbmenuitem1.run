@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UniversalMonsters/"
 IF EXISTS ENV:whdloadargs
-	whdload "UniversalMonsters.Slave" $whdloadargs
+  whdload "UniversalMonsters.Slave" $whdloadargs
 ELSE
-	whdload "UniversalMonsters.Slave"
+  whdload "UniversalMonsters.Slave"
 ENDIF

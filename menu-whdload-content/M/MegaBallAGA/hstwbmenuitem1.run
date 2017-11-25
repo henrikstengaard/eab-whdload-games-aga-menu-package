@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MegaBallAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "MegaBallAGA.slave" $whdloadargs
+  whdload "MegaBallAGA.slave" $whdloadargs
 ELSE
-	whdload "MegaBallAGA.slave"
+  whdload "MegaBallAGA.slave"
 ENDIF

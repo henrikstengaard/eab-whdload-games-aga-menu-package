@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StarbladeFastFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "StarbladeFastFr.slave" $whdloadargs
+  whdload "StarbladeFastFr.slave" $whdloadargs
 ELSE
-	whdload "StarbladeFastFr.slave"
+  whdload "StarbladeFastFr.slave"
 ENDIF

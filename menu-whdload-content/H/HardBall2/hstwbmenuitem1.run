@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HardBall2/"
 IF EXISTS ENV:whdloadargs
-	whdload "HardBall2.Slave" $whdloadargs
+  whdload "HardBall2.Slave" $whdloadargs
 ELSE
-	whdload "HardBall2.Slave"
+  whdload "HardBall2.Slave"
 ENDIF

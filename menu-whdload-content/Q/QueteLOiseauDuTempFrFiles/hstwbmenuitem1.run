@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Q/QueteLOiseauDuTempFrFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "QueteLOiseauDuTempFrFiles.Slave" $whdloadargs
+  whdload "QueteLOiseauDuTempFrFiles.Slave" $whdloadargs
 ELSE
-	whdload "QueteLOiseauDuTempFrFiles.Slave"
+  whdload "QueteLOiseauDuTempFrFiles.Slave"
 ENDIF

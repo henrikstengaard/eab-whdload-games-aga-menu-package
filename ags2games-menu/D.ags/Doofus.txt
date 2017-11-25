@@ -3,4 +3,4 @@ Publisher : Prestige
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Doofus.Slave
+RunFile   : Doofus.Slave

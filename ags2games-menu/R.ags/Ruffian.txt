@@ -3,4 +3,4 @@ Publisher : Xplosive Software
 Year      : 1996
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : Ruffian.Slave
+RunFile   : Ruffian.Slave

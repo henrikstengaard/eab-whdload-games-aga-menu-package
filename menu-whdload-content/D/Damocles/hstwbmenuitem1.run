@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Damocles/"
 IF EXISTS ENV:whdloadargs
-	whdload "Damocles.slave" $whdloadargs
+  whdload "Damocles.slave" $whdloadargs
 ELSE
-	whdload "Damocles.slave"
+  whdload "Damocles.slave"
 ENDIF

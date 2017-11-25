@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/Aliex/"
 IF EXISTS ENV:whdloadargs
-	whdload "Aliex.Slave" $whdloadargs
+  whdload "Aliex.Slave" $whdloadargs
 ELSE
-	whdload "Aliex.Slave"
+  whdload "Aliex.Slave"
 ENDIF

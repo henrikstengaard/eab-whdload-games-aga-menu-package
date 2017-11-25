@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/EspanaTheGames92/"
 IF EXISTS ENV:whdloadargs
-	whdload "EspanaTheGames92.Slave" $whdloadargs
+  whdload "EspanaTheGames92.Slave" $whdloadargs
 ELSE
-	whdload "EspanaTheGames92.Slave"
+  whdload "EspanaTheGames92.Slave"
 ENDIF

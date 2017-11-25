@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/Benefactor/"
 IF EXISTS ENV:whdloadargs
-	whdload "Benefactor.Slave" $whdloadargs
+  whdload "Benefactor.Slave" $whdloadargs
 ELSE
-	whdload "Benefactor.Slave"
+  whdload "Benefactor.Slave"
 ENDIF

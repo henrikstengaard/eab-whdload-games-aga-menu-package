@@ -3,4 +3,4 @@ Publisher : Impressions
 Year      : 1994
 Genre     : Strategy - Miscellaneous
 Players   : 1 to 6
-Whdload   : LordsOfTheRealm.Slave
+RunFile   : LordsOfTheRealm.Slave

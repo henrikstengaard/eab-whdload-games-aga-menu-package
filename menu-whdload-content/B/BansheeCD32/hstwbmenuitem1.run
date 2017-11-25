@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BansheeCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "BansheeCD32.slave" $whdloadargs
+  whdload "BansheeCD32.slave" $whdloadargs
 ELSE
-	whdload "BansheeCD32.slave"
+  whdload "BansheeCD32.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WarZoneCore/"
 IF EXISTS ENV:whdloadargs
-	whdload "WarZoneCore.Slave" $whdloadargs
+  whdload "WarZoneCore.Slave" $whdloadargs
 ELSE
-	whdload "WarZoneCore.Slave"
+  whdload "WarZoneCore.Slave"
 ENDIF

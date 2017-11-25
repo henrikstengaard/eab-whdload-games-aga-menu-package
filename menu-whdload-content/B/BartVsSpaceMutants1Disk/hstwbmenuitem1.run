@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BartVsSpaceMutants1Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "BartVsSpaceMutants1Disk.Slave" $whdloadargs
+  whdload "BartVsSpaceMutants1Disk.Slave" $whdloadargs
 ELSE
-	whdload "BartVsSpaceMutants1Disk.Slave"
+  whdload "BartVsSpaceMutants1Disk.Slave"
 ENDIF

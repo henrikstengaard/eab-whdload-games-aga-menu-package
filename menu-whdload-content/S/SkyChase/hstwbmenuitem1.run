@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SkyChase/"
 IF EXISTS ENV:whdloadargs
-	whdload "SkyChaseFast.Slave" $whdloadargs
+  whdload "SkyChase.Slave" $whdloadargs
 ELSE
-	whdload "SkyChaseFast.Slave"
+  whdload "SkyChase.Slave"
 ENDIF

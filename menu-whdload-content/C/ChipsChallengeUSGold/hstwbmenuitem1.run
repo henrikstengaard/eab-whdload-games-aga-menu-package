@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChipsChallengeUSGold/"
 IF EXISTS ENV:whdloadargs
-	whdload "ChipsChallengeUSGold.Slave" $whdloadargs
+  whdload "ChipsChallengeUSGold.Slave" $whdloadargs
 ELSE
-	whdload "ChipsChallengeUSGold.Slave"
+  whdload "ChipsChallengeUSGold.Slave"
 ENDIF

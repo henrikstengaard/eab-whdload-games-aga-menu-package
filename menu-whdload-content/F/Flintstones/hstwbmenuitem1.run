@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Flintstones/"
 IF EXISTS ENV:whdloadargs
-	whdload "Flintstones.Slave" $whdloadargs
+  whdload "Flintstones.Slave" $whdloadargs
 ELSE
-	whdload "Flintstones.Slave"
+  whdload "Flintstones.Slave"
 ENDIF

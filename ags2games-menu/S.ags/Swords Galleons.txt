@@ -3,4 +3,4 @@ Publisher : Idea Software
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Swords&Galleons.slave
+RunFile   : Swords&Galleons.slave

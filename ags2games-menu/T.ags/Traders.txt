@@ -3,4 +3,4 @@ Publisher : Linel
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 to 4
-Whdload   : Traders.slave
+RunFile   : Traders.slave

@@ -1,7 +1,7 @@
-; Whdload
-cd "A-Games:H/HiredGuns1MB/"
+; Run WHDLoad
+cd "A-Games:HiredGuns1MB/"
 IF EXISTS ENV:whdloadargs
-	whdload "HiredGuns1MB.Slave" $whdloadargs
+  whdload "HiredGuns1MB.Slave" $whdloadargs
 ELSE
-	whdload "HiredGuns1MB.Slave"
+  whdload "HiredGuns1MB.Slave"
 ENDIF

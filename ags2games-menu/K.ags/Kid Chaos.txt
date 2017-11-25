@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1994
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : KidChaos.slave
+RunFile   : KidChaos.slave

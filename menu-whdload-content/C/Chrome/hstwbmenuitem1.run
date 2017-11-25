@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Chrome/"
 IF EXISTS ENV:whdloadargs
-	whdload "Chrome.Slave" $whdloadargs
+  whdload "Chrome.Slave" $whdloadargs
 ELSE
-	whdload "Chrome.Slave"
+  whdload "Chrome.Slave"
 ENDIF

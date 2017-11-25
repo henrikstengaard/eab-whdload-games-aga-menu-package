@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TotalCarnageAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "TotalCarnageAGA.Slave" $whdloadargs
+  whdload "TotalCarnageAGA.Slave" $whdloadargs
 ELSE
-	whdload "TotalCarnageAGA.Slave"
+  whdload "TotalCarnageAGA.Slave"
 ENDIF

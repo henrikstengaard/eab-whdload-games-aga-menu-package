@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RafflesCDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "RafflesCDTV.slave" $whdloadargs
+  whdload "RafflesCDTV.slave" $whdloadargs
 ELSE
-	whdload "RafflesCDTV.slave"
+  whdload "RafflesCDTV.slave"
 ENDIF

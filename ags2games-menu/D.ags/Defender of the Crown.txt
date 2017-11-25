@@ -3,4 +3,4 @@ Publisher : Cinemaware
 Year      : 1987
 Genre     : Strategy - War
 Players   : 1 Only
-Whdload   : DefenderOfTheCrown.Slave
+RunFile   : DefenderOfTheCrown.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StormMaster/"
 IF EXISTS ENV:whdloadargs
-	whdload "StormMaster.Slave" $whdloadargs
+  whdload "StormMaster.Slave" $whdloadargs
 ELSE
-	whdload "StormMaster.Slave"
+  whdload "StormMaster.Slave"
 ENDIF

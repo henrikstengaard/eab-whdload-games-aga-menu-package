@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Commodore
 Year      : 1993
 Players   : 1
-Whdload   : DefenderOfTheCrown2CD32.slave
+RunFile   : DefenderOfTheCrown2CD32.slave

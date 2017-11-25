@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NightHunter/"
 IF EXISTS ENV:whdloadargs
-	whdload "NightHunter.slave" $whdloadargs
+  whdload "NightHunter.slave" $whdloadargs
 ELSE
-	whdload "NightHunter.slave"
+  whdload "NightHunter.slave"
 ENDIF

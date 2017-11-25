@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/Ultima3/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ultima3.Slave" $whdloadargs
+  whdload "Ultima3.Slave" $whdloadargs
 ELSE
-	whdload "Ultima3.Slave"
+  whdload "Ultima3.Slave"
 ENDIF

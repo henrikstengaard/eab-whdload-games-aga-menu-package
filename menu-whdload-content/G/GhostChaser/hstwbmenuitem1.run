@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GhostChaser/"
 IF EXISTS ENV:whdloadargs
-	whdload "GhostChaser.Slave" $whdloadargs
+  whdload "GhostChaser.Slave" $whdloadargs
 ELSE
-	whdload "GhostChaser.Slave"
+  whdload "GhostChaser.Slave"
 ENDIF

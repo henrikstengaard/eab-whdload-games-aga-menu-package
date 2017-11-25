@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/Titan/"
 IF EXISTS ENV:whdloadargs
-	whdload "Titan.slave" $whdloadargs
+  whdload "Titan.slave" $whdloadargs
 ELSE
-	whdload "Titan.slave"
+  whdload "Titan.slave"
 ENDIF

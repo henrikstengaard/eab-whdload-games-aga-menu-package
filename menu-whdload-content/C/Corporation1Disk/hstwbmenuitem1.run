@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Corporation1Disk/"
 IF EXISTS ENV:whdloadargs
-	whdload "Corporation1Disk.Slave" $whdloadargs
+  whdload "Corporation1Disk.Slave" $whdloadargs
 ELSE
-	whdload "Corporation1Disk.Slave"
+  whdload "Corporation1Disk.Slave"
 ENDIF

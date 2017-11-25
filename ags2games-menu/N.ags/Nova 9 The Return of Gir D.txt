@@ -2,4 +2,4 @@ Name      : Nova 9: The Return of Gir Draxon
 Publisher : Dynamix
 Year      : 1991
 Players   : 1 Only
-Whdload   : Nova9.Slave
+RunFile   : Nova9.Slave

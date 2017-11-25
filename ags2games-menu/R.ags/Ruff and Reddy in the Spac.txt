@@ -3,4 +3,4 @@ Publisher : Hi-Tec Software
 Year      : 1990
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : Ruff&ReddySpaceAdventure.slave
+RunFile   : Ruff&ReddySpaceAdventure.slave

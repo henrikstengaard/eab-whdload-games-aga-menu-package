@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NoExcuses/"
 IF EXISTS ENV:whdloadargs
-	whdload "NoExcuses.slave" $whdloadargs
+  whdload "NoExcuses.slave" $whdloadargs
 ELSE
-	whdload "NoExcuses.slave"
+  whdload "NoExcuses.slave"
 ENDIF

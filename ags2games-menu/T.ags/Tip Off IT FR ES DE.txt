@@ -3,4 +3,4 @@ Publisher : Anco
 Year      : 1991
 Genre     : Sports - Basketball
 Players   : 1 to 4, Simultaneous
-Whdload   : TipOffDeEsFrIt.Slave
+RunFile   : TipOffDeEsFrIt.Slave

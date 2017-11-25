@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/ToyottesFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "ToyottesFiles.Slave" $whdloadargs
+  whdload "ToyottesFiles.Slave" $whdloadargs
 ELSE
-	whdload "ToyottesFiles.Slave"
+  whdload "ToyottesFiles.Slave"
 ENDIF

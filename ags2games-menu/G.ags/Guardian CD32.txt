@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Acid Software
 Year      : 1994
 Players   : 1 or 2
-Whdload   : GuardianCD32.slave
+RunFile   : GuardianCD32.slave

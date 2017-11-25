@@ -2,4 +2,4 @@ Name      : Firestar
 Publisher : Trojan Software
 Year      : 1991
 Players   : 1 Only
-Whdload   : Firestar.Slave
+RunFile   : Firestar.Slave

@@ -4,4 +4,4 @@ Publisher : Guildhall
 Year      : 1994
 Genre     : Gambling - Slot Machine
 Players   : 1 Only
-Whdload   : StripPotAGA.Slave
+RunFile   : StripPotAGA.Slave

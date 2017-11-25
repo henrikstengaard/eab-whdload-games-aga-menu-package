@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:B/BattletoadsCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "BattletoadsCD32.slave" $whdloadargs
+  whdload "BattletoadsCD32.slave" $whdloadargs
 ELSE
-	whdload "BattletoadsCD32.slave"
+  whdload "BattletoadsCD32.slave"
 ENDIF

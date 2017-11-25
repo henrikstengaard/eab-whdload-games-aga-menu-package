@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/UnderPressure/"
 IF EXISTS ENV:whdloadargs
-	whdload "UnderPressure.Slave" $whdloadargs
+  whdload "UnderPressure.Slave" $whdloadargs
 ELSE
-	whdload "UnderPressure.Slave"
+  whdload "UnderPressure.Slave"
 ENDIF

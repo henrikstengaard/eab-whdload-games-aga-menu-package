@@ -3,4 +3,4 @@ Version   : Files
 Publisher : Infogrames
 Year      : 1989
 Genre     : Strategy - War
-Whdload   : FullMetalPlaneteFiles.Slave
+RunFile   : FullMetalPlaneteFiles.Slave

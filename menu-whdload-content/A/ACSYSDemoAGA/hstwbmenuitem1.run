@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ACSYSDemoAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "ACSYSDemoAGA.slave" $whdloadargs
+  whdload "ACSYSDemoAGA.slave" $whdloadargs
 ELSE
-	whdload "ACSYSDemoAGA.slave"
+  whdload "ACSYSDemoAGA.slave"
 ENDIF

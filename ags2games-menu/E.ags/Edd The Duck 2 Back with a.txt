@@ -3,4 +3,4 @@ Publisher : Zeppelin Games
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : EddTheDuck2.Slave
+RunFile   : EddTheDuck2.Slave

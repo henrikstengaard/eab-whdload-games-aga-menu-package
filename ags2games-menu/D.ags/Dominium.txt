@@ -3,4 +3,4 @@ Publisher : Microids
 Year      : 1993
 Genre     : Strategy - Miscellaneous
 Players   : 1 or 2
-Whdload   : Dominium.Slave
+RunFile   : Dominium.Slave

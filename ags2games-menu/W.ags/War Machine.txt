@@ -2,4 +2,4 @@ Name      : War Machine
 Publisher : Players Premier
 Year      : 1989
 Players   : 1 Only
-Whdload   : WarMachine.Slave
+RunFile   : WarMachine.Slave

@@ -3,4 +3,4 @@ Version   : 1MB
 Publisher : Shareware
 Year      : 1991
 Players   : 1 - 2 (1 simultaneous)
-Whdload   : Megaball1MB.slave
+RunFile   : Megaball1MB.slave

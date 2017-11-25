@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MatrixMarauders/"
 IF EXISTS ENV:whdloadargs
-	whdload "MatrixMarauders.slave" $whdloadargs
+  whdload "MatrixMarauders.slave" $whdloadargs
 ELSE
-	whdload "MatrixMarauders.slave"
+  whdload "MatrixMarauders.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TreasuresOfSavageFrontier/"
 IF EXISTS ENV:whdloadargs
-	whdload "TreasuresOfSavageFrontier.Slave" $whdloadargs
+  whdload "TreasuresOfSavageFrontier.Slave" $whdloadargs
 ELSE
-	whdload "TreasuresOfSavageFrontier.Slave"
+  whdload "TreasuresOfSavageFrontier.Slave"
 ENDIF

@@ -4,4 +4,4 @@ Version   : Image
 Publisher : Infogrames
 Year      : 1989
 Players   : 1
-Whdload   : QueteLOiseauDuTempFrImage.Slave
+RunFile   : QueteLOiseauDuTempFrImage.Slave

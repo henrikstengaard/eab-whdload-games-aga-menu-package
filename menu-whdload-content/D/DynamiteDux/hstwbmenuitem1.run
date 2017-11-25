@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DynamiteDux/"
 IF EXISTS ENV:whdloadargs
-	whdload "DynamiteDux.Slave" $whdloadargs
+  whdload "DynamiteDux.Slave" $whdloadargs
 ELSE
-	whdload "DynamiteDux.Slave"
+  whdload "DynamiteDux.Slave"
 ENDIF

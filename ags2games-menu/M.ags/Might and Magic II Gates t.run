@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Might&Magic2/"
 IF EXISTS ENV:whdloadargs
   whdload "Might&Magic2.Slave" $whdloadargs

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GaryLinekersHotShot/"
 IF EXISTS ENV:whdloadargs
-	whdload "GaryLinekersHotShot.Slave" $whdloadargs
+  whdload "GaryLinekersHotShot.Slave" $whdloadargs
 ELSE
-	whdload "GaryLinekersHotShot.Slave"
+  whdload "GaryLinekersHotShot.Slave"
 ENDIF

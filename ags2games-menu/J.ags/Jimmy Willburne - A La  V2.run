@@ -1,6 +1,6 @@
 ; HstWB Menu Item Run script for AGS2
 ; -----------------------------------
-;RunFile=A-Games:J/JimmyWillburneFr/JimmyWillburneFr.Slave
+;RunFile=A-Games:J/JimmyWillburneFr/IntroFr.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -18,12 +18,12 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:J/JimmyWillburneFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "JimmyWillburneFr.Slave" $whdloadargs
+  whdload "IntroFr.Slave" $whdloadargs
 ELSE
-  whdload "JimmyWillburneFr.Slave"
+  whdload "IntroFr.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

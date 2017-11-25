@@ -2,4 +2,4 @@ Name      : Fusion
 Publisher : Electronic Arts
 Year      : 1988
 Players   : 1 Only
-Whdload   : Fusion.Slave
+RunFile   : Fusion.Slave

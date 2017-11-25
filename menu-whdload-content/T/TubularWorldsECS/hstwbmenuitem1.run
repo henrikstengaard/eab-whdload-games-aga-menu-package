@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TubularWorldsECS/"
 IF EXISTS ENV:whdloadargs
-	whdload "TubularWorldsECS512K.Slave" $whdloadargs
+  whdload "TubularWorldsECS.Slave" $whdloadargs
 ELSE
-	whdload "TubularWorldsECS512K.Slave"
+  whdload "TubularWorldsECS.Slave"
 ENDIF

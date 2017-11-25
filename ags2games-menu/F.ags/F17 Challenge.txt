@@ -3,4 +3,4 @@ Publisher : Team 17
 Year      : 1993
 Genre     : Sports - Formula One
 Players   : 1 Only
-Whdload   : F17Challenge.Slave
+RunFile   : F17Challenge.Slave

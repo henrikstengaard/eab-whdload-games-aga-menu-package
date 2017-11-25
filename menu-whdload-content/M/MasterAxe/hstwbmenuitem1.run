@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MasterAxe/"
 IF EXISTS ENV:whdloadargs
-	whdload "MasterAxe.slave" $whdloadargs
+  whdload "MasterAxe.slave" $whdloadargs
 ELSE
-	whdload "MasterAxe.slave"
+  whdload "MasterAxe.slave"
 ENDIF

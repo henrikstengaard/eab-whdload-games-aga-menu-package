@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LegendsOfValour/"
 IF EXISTS ENV:whdloadargs
-	whdload "LegendsOfValour.Slave" $whdloadargs
+  whdload "LegendsOfValour.Slave" $whdloadargs
 ELSE
-	whdload "LegendsOfValour.Slave"
+  whdload "LegendsOfValour.Slave"
 ENDIF

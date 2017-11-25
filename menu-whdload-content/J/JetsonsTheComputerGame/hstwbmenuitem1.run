@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:J/JetsonsTheComputerGame/"
 IF EXISTS ENV:whdloadargs
-	whdload "JetsonsTheComputerGame.Slave" $whdloadargs
+  whdload "JetsonsTheComputerGame.Slave" $whdloadargs
 ELSE
-	whdload "JetsonsTheComputerGame.Slave"
+  whdload "JetsonsTheComputerGame.Slave"
 ENDIF

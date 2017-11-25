@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/ElfMicroValue/"
 IF EXISTS ENV:whdloadargs
-	whdload "ElfMicroValue.Slave" $whdloadargs
+  whdload "ElfMicroValue.Slave" $whdloadargs
 ELSE
-	whdload "ElfMicroValue.Slave"
+  whdload "ElfMicroValue.Slave"
 ENDIF

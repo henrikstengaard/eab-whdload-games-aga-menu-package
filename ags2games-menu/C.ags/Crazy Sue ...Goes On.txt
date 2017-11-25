@@ -3,4 +3,4 @@ Publisher : Amiga Fun
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : CrazySueGoesOn.Slave
+RunFile   : CrazySueGoesOn.Slave

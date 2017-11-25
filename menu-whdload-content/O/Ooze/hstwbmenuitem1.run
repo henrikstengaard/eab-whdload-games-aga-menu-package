@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:O/Ooze/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ooze.Slave" $whdloadargs
+  whdload "Ooze.Slave" $whdloadargs
 ELSE
-	whdload "Ooze.Slave"
+  whdload "Ooze.Slave"
 ENDIF

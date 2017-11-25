@@ -3,4 +3,4 @@ Publisher : Firebird
 Year      : 1989
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-Whdload   : RickDangerous.Slave
+RunFile   : RickDangerous.Slave

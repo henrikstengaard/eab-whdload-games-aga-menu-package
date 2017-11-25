@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/STUNRunner/"
 IF EXISTS ENV:whdloadargs
-	whdload "STUNRunner.Slave" $whdloadargs
+  whdload "STUNRunner.Slave" $whdloadargs
 ELSE
-	whdload "STUNRunner.Slave"
+  whdload "STUNRunner.Slave"
 ENDIF

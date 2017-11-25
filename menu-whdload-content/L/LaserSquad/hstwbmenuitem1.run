@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LaserSquad/"
 IF EXISTS ENV:whdloadargs
-	whdload "LaserSquad.slave" $whdloadargs
+  whdload "LaserSquad.slave" $whdloadargs
 ELSE
-	whdload "LaserSquad.slave"
+  whdload "LaserSquad.slave"
 ENDIF

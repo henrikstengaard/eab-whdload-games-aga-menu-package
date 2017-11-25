@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TotalRecallImage/"
 IF EXISTS ENV:whdloadargs
-	whdload "TotalRecallImage.Slave" $whdloadargs
+  whdload "TotalRecallImage.Slave" $whdloadargs
 ELSE
-	whdload "TotalRecallImage.Slave"
+  whdload "TotalRecallImage.Slave"
 ENDIF

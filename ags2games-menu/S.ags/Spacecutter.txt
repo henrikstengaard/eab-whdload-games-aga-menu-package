@@ -2,4 +2,4 @@ Name      : Spacecutter
 Publisher : Rainbird
 Year      : 1988
 Players   : 1 Only
-Whdload   : Spacecutter.Slave
+RunFile   : Spacecutter.Slave

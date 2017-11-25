@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SensibleTrainSpotting/"
 IF EXISTS ENV:whdloadargs
-	whdload "SensibleTrainSpotting.Slave" $whdloadargs
+  whdload "SensibleTrainSpotting.Slave" $whdloadargs
 ELSE
-	whdload "SensibleTrainSpotting.Slave"
+  whdload "SensibleTrainSpotting.Slave"
 ENDIF

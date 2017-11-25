@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SpyVsSpy2TheIslandCaper/"
 IF EXISTS ENV:whdloadargs
-	whdload "SpyVsSpy2TheIslandCaper.Slave" $whdloadargs
+  whdload "SpyVsSpy2TheIslandCaper.Slave" $whdloadargs
 ELSE
-	whdload "SpyVsSpy2TheIslandCaper.Slave"
+  whdload "SpyVsSpy2TheIslandCaper.Slave"
 ENDIF

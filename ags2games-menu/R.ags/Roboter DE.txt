@@ -4,4 +4,4 @@ Publisher : Werner
 Year      : 1989
 Genre     : Shooter
 Players   : 1
-Whdload   : RoboterDe.Slave
+RunFile   : RoboterDe.Slave

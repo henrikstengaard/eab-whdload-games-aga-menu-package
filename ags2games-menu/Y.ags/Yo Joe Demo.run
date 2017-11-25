@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:Y/YoJoeDemo/"
 IF EXISTS ENV:whdloadargs
   whdload "YoJoeDemo.Slave" $whdloadargs

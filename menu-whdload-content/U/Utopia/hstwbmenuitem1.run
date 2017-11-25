@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:U/Utopia/"
 IF EXISTS ENV:whdloadargs
-	whdload "Utopia.Slave" $whdloadargs
+  whdload "Utopia.Slave" $whdloadargs
 ELSE
-	whdload "Utopia.Slave"
+  whdload "Utopia.Slave"
 ENDIF

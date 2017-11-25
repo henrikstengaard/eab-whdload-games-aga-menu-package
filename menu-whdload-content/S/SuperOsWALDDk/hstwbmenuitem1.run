@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SuperOsWALDDk/"
 IF EXISTS ENV:whdloadargs
-	whdload "SuperOsWALDDk.Slave" $whdloadargs
+  whdload "SuperOsWALDDk.Slave" $whdloadargs
 ELSE
-	whdload "SuperOsWALDDk.Slave"
+  whdload "SuperOsWALDDk.Slave"
 ENDIF

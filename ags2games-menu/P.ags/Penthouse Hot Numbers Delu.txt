@@ -4,4 +4,4 @@ Version   : AGA
 Publisher : Magic Bytes (Magic Bytes Verlag)
 Year      : 1994
 Players   : 1 - 2 (1 simultaneous)
-Whdload   : PenthouseHotNumsDlxAGADe.Slave
+RunFile   : PenthouseHotNumsDlxAGADe.Slave

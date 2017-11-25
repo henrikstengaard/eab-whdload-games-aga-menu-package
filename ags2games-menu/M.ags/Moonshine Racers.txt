@@ -3,4 +3,4 @@ Publisher : Millennium
 Year      : 1991
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : MoonShineRacers.Slave
+RunFile   : MoonShineRacers.Slave

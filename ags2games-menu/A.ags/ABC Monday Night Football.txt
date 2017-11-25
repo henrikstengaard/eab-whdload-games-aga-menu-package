@@ -3,4 +3,4 @@ Publisher : MVP Sports
 Year      : 1991
 Genre     : Sports - American Football
 Players   : 1 or 2, Simultaneous
-Whdload   : ABCMondayNightFootball.slave
+RunFile   : ABCMondayNightFootball.slave

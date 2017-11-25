@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WrathOfTheDemonCDTV/"
 IF EXISTS ENV:whdloadargs
-	whdload "WrathOfTheDemonCDTV.slave" $whdloadargs
+  whdload "WrathOfTheDemonCDTV.slave" $whdloadargs
 ELSE
-	whdload "WrathOfTheDemonCDTV.slave"
+  whdload "WrathOfTheDemonCDTV.slave"
 ENDIF

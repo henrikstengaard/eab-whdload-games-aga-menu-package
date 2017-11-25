@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1986
 Genre     : Educational - Miscellaneous
 Players   : 1 Only
-Whdload   : Racter.Slave
+RunFile   : Racter.Slave

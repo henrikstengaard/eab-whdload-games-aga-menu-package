@@ -2,4 +2,4 @@ Name      : Apano Sin
 Publisher : V.A.K. Entertainment
 Year      : 2000
 Players   : 1 Only
-Whdload   : ApanoSin.Slave
+RunFile   : ApanoSin.Slave

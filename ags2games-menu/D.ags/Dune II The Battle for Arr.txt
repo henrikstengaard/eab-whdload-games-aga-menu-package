@@ -3,4 +3,4 @@ Publisher : Virgin Games
 Year      : 1993
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : Dune2.Slave
+RunFile   : Dune2.Slave

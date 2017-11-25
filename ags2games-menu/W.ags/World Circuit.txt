@@ -2,4 +2,4 @@ Name      : World Circuit
 Publisher : MicroProse Software
 Year      : 1992
 Genre     : Sports - Formula One
-Whdload   : WorldCircuit.Slave
+RunFile   : WorldCircuit.Slave

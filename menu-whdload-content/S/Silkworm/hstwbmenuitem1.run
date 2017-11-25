@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Silkworm/"
 IF EXISTS ENV:whdloadargs
-	whdload "Silkworm.slave" $whdloadargs
+  whdload "Silkworm.slave" $whdloadargs
 ELSE
-	whdload "Silkworm.slave"
+  whdload "Silkworm.slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1988
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : HarrierCombatSimulator.Slave
+RunFile   : HarrierCombatSimulator.Slave

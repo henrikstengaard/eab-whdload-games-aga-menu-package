@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DragonsBreathDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "DragonsBreathDe.Slave" $whdloadargs
+  whdload "DragonsBreathDe.Slave" $whdloadargs
 ELSE
-	whdload "DragonsBreathDe.Slave"
+  whdload "DragonsBreathDe.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VideoKid/"
 IF EXISTS ENV:whdloadargs
-	whdload "VideoKid.slave" $whdloadargs
+  whdload "VideoKid.slave" $whdloadargs
 ELSE
-	whdload "VideoKid.slave"
+  whdload "VideoKid.slave"
 ENDIF

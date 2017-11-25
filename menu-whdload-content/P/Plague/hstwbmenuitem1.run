@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Plague/"
 IF EXISTS ENV:whdloadargs
-	whdload "Plague.slave" $whdloadargs
+  whdload "Plague.slave" $whdloadargs
 ELSE
-	whdload "Plague.slave"
+  whdload "Plague.slave"
 ENDIF

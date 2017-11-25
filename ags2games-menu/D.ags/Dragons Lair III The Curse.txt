@@ -3,4 +3,4 @@ Publisher : ReadySoft
 Year      : 1992
 Genre     : Adventure - Joystick only
 Players   : 1 Only
-Whdload   : DragonsLair3.Slave
+RunFile   : DragonsLair3.Slave

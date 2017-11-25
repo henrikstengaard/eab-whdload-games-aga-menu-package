@@ -3,4 +3,4 @@ Language  : French
 Publisher : RETZ
 Year      : 1989
 Players   : 1
-Whdload   : LabyrintheMilleCalculsFr.Slave
+RunFile   : LabyrintheMilleCalculsFr.Slave

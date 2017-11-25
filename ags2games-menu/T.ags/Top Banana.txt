@@ -3,4 +3,4 @@ Publisher : Hex
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : TopBanana.Slave
+RunFile   : TopBanana.Slave

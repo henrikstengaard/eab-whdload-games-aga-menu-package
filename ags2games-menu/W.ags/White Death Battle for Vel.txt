@@ -3,4 +3,4 @@ Publisher : Internecine
 Year      : 1989
 Genre     : Strategy - War
 Players   : 1 Only
-Whdload   : WhiteDeath.Slave
+RunFile   : WhiteDeath.Slave

@@ -4,4 +4,4 @@ Publisher : Anachronia
 Year      : 1997
 Genre     : Adventure - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : EnemyTOVEasyPlayDe.Slave
+RunFile   : EnemyTOVEasyPlayDe.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/F40PursuitSimulator/"
 IF EXISTS ENV:whdloadargs
-	whdload "F40PursuitSimulator.Slave" $whdloadargs
+  whdload "F40PursuitSimulator.Slave" $whdloadargs
 ELSE
-	whdload "F40PursuitSimulator.Slave"
+  whdload "F40PursuitSimulator.Slave"
 ENDIF

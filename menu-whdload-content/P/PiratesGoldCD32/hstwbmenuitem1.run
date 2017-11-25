@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PiratesGoldCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "PiratesGoldCD32.slave" $whdloadargs
+  whdload "PiratesGoldCD32.slave" $whdloadargs
 ELSE
-	whdload "PiratesGoldCD32.slave"
+  whdload "PiratesGoldCD32.slave"
 ENDIF

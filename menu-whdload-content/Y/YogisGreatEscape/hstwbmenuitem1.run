@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Y/YogisGreatEscape/"
 IF EXISTS ENV:whdloadargs
-	whdload "YogisGreatEscape.Slave" $whdloadargs
+  whdload "YogisGreatEscape.Slave" $whdloadargs
 ELSE
-	whdload "YogisGreatEscape.Slave"
+  whdload "YogisGreatEscape.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/Archon/"
 IF EXISTS ENV:whdloadargs
-	whdload "Archon.slave" $whdloadargs
+  whdload "Archon.slave" $whdloadargs
 ELSE
-	whdload "Archon.slave"
+  whdload "Archon.slave"
 ENDIF

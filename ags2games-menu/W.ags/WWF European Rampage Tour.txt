@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1992
 Genre     : Sports - Wrestling
 Players   : 1 or 2, Simultaneous
-Whdload   : WWFEuropeanRampageTour.Slave
+RunFile   : WWFEuropeanRampageTour.Slave

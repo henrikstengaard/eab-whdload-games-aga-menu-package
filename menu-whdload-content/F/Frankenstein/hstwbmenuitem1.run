@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Frankenstein/"
 IF EXISTS ENV:whdloadargs
-	whdload "Frankenstein.slave" $whdloadargs
+  whdload "Frankenstein.slave" $whdloadargs
 ELSE
-	whdload "Frankenstein.slave"
+  whdload "Frankenstein.slave"
 ENDIF

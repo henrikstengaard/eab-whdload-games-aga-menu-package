@@ -2,4 +2,4 @@ Name      : Stormball
 Publisher : Millennium
 Year      : 1991
 Genre     : Sports - Miscellaneous
-Whdload   : Stormball.Slave
+RunFile   : Stormball.Slave

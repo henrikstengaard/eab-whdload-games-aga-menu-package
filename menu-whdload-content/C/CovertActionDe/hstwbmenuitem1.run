@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CovertActionDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "CovertActionDe.Slave" $whdloadargs
+  whdload "CovertActionDe.Slave" $whdloadargs
 ELSE
-	whdload "CovertActionDe.Slave"
+  whdload "CovertActionDe.Slave"
 ENDIF

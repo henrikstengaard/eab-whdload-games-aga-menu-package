@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Z/Zeewolf/"
 IF EXISTS ENV:whdloadargs
-	whdload "Zeewolf.slave" $whdloadargs
+  whdload "Zeewolf.slave" $whdloadargs
 ELSE
-	whdload "Zeewolf.slave"
+  whdload "Zeewolf.slave"
 ENDIF

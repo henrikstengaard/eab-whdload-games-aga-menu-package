@@ -3,4 +3,4 @@ Publisher : Eclipse Software Design
 Year      : 1992
 Genre     : Brain - Puzzle
 Players   : 1 Only
-Whdload   : StoneAge.slave
+RunFile   : StoneAge.slave

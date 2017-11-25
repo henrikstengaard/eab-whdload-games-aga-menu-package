@@ -4,4 +4,4 @@ Publisher : MarkSoft
 Year      : 1995
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-Whdload   : EksperymentDelfinPl.Slave
+RunFile   : EksperymentDelfinPl.Slave

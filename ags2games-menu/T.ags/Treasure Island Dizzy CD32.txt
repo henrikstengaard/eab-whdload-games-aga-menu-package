@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Codemasters
 Year      : 1989
 Players   : 1
-Whdload   : TreasureIslandDizzyCD32.slave
+RunFile   : TreasureIslandDizzyCD32.slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Renaissance/"
 IF EXISTS ENV:whdloadargs
-	whdload "Renaissance.Slave" $whdloadargs
+  whdload "Renaissance.Slave" $whdloadargs
 ELSE
-	whdload "Renaissance.Slave"
+  whdload "Renaissance.Slave"
 ENDIF

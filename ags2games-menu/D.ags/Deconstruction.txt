@@ -2,4 +2,4 @@ Name      : Deconstruction
 Year      : 1996
 Genre     : Reaction & Navigation
 Players   : 1
-Whdload   : Deconstruction.Slave
+RunFile   : Deconstruction.Slave

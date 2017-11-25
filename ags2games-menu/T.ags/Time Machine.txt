@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : TimeMachine.slave
+RunFile   : TimeMachine.slave

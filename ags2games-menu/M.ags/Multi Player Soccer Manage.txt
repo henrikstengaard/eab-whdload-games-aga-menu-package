@@ -3,4 +3,4 @@ Publisher : D&H Games
 Year      : 1991
 Genre     : Sports - Football/Soccer
 Players   : 1 to 8
-Whdload   : MultiPlayerSoccerManager.Slave
+RunFile   : MultiPlayerSoccerManager.Slave

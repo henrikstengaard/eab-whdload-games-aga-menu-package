@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:L/LegendOfRagnarok/"
 IF EXISTS ENV:whdloadargs
-	whdload "LegendOfRagnarok.slave" $whdloadargs
+  whdload "LegendOfRagnarok.slave" $whdloadargs
 ELSE
-	whdload "LegendOfRagnarok.slave"
+  whdload "LegendOfRagnarok.slave"
 ENDIF

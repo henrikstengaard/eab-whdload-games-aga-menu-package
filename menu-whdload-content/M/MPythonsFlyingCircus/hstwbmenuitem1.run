@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MPythonsFlyingCircus/"
 IF EXISTS ENV:whdloadargs
-	whdload "MPythonsFlyingCircus.Slave" $whdloadargs
+  whdload "MPythonsFlyingCircus.Slave" $whdloadargs
 ELSE
-	whdload "MPythonsFlyingCircus.Slave"
+  whdload "MPythonsFlyingCircus.Slave"
 ENDIF

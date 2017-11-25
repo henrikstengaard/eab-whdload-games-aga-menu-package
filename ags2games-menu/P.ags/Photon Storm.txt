@@ -2,4 +2,4 @@ Name      : Photon Storm
 Publisher : Arc Developments
 Year      : 1990
 Players   : 1 or 2
-Whdload   : PhotonStorm.slave
+RunFile   : PhotonStorm.slave

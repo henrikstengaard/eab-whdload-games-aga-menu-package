@@ -2,4 +2,4 @@ Name      : Godfather, The
 Publisher : US Gold
 Year      : 1991
 Players   : 1 Only
-Whdload   : Godfather.Slave
+RunFile   : Godfather.Slave

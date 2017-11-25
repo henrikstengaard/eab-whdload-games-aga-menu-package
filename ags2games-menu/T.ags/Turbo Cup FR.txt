@@ -4,4 +4,4 @@ Publisher : Loriciel
 Year      : 1988
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : TurboCupFr.Slave
+RunFile   : TurboCupFr.Slave

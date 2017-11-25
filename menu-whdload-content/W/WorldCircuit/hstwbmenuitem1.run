@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WorldCircuit/"
 IF EXISTS ENV:whdloadargs
-	whdload "WorldCircuit.Slave" $whdloadargs
+  whdload "WorldCircuit.Slave" $whdloadargs
 ELSE
-	whdload "WorldCircuit.Slave"
+  whdload "WorldCircuit.Slave"
 ENDIF

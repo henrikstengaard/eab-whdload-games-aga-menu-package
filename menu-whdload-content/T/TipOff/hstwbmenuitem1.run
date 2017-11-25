@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TipOff/"
 IF EXISTS ENV:whdloadargs
-	whdload "TipOff.Slave" $whdloadargs
+  whdload "TipOff.Slave" $whdloadargs
 ELSE
-	whdload "TipOff.Slave"
+  whdload "TipOff.Slave"
 ENDIF

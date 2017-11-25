@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:K/KickOff3EC/"
 IF EXISTS ENV:whdloadargs
   whdload "KickOff3EC.Slave" $whdloadargs

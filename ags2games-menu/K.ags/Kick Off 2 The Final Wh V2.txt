@@ -3,4 +3,4 @@ Language  : Cabo Verde
 Publisher : Anco
 Year      : 1991
 Players   : 1 - 4 (4 simultaneous)
-Whdload   : KickOff2FinalWhistleCV.slave
+RunFile   : KickOff2FinalWhistleCV.slave

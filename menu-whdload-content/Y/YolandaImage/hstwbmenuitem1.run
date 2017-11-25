@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Y/YolandaImage/"
 IF EXISTS ENV:whdloadargs
-	whdload "YolandaImage.Slave" $whdloadargs
+  whdload "YolandaImage.Slave" $whdloadargs
 ELSE
-	whdload "YolandaImage.Slave"
+  whdload "YolandaImage.Slave"
 ENDIF

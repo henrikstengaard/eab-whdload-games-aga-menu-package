@@ -3,4 +3,4 @@ Language  : French
 Publisher : Silmarils
 Year      : 1988
 Players   : 1 Only
-Whdload   : ManhattanDealersFr.Slave
+RunFile   : ManhattanDealersFr.Slave

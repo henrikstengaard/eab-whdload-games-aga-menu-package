@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HellfireAttack/"
 IF EXISTS ENV:whdloadargs
-	whdload "HellfireAttack.Slave" $whdloadargs
+  whdload "HellfireAttack.Slave" $whdloadargs
 ELSE
-	whdload "HellfireAttack.Slave"
+  whdload "HellfireAttack.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Thunder Mountain
 Year      : 1988
 Genre     : Sports - Multi-Event
 Players   : 1 to 6
-Whdload   : WinterChallenge.Slave
+RunFile   : WinterChallenge.Slave

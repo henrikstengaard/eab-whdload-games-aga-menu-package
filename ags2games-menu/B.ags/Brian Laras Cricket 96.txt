@@ -2,4 +2,4 @@ Name      : Brian Lara's Cricket 96
 Publisher : Audiogenic
 Year      : 1996
 Players   : 1 - 2 (2 simultaneous)
-Whdload   : BrianLarasCricket96.Slave
+RunFile   : BrianLarasCricket96.Slave

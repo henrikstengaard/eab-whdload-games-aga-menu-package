@@ -2,4 +2,4 @@ Name      : Hellraider
 Publisher : Arc Developments
 Year      : 1989
 Players   : 1 Only
-Whdload   : Hellraider.slave
+RunFile   : Hellraider.slave

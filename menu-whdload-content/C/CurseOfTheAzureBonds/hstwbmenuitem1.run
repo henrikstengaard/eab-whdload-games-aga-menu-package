@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CurseOfTheAzureBonds/"
 IF EXISTS ENV:whdloadargs
-	whdload "CurseOfTheAzureBonds.Slave" $whdloadargs
+  whdload "CurseOfTheAzureBonds.Slave" $whdloadargs
 ELSE
-	whdload "CurseOfTheAzureBonds.Slave"
+  whdload "CurseOfTheAzureBonds.Slave"
 ENDIF

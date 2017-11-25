@@ -3,4 +3,4 @@ Language  : French
 Publisher : Lankhor
 Year      : 1991
 Players   : 1
-Whdload   : Rody&Mastico3Fr.Slave
+RunFile   : Rody&Mastico3Fr.Slave

@@ -4,4 +4,4 @@ Publisher : Domark
 Year      : 1988
 Genre     : Educational - Quiz
 Players   : 1 to 6
-Whdload   : TrivialPursuitNewBeginDe.Slave
+RunFile   : TrivialPursuitNewBeginDe.Slave

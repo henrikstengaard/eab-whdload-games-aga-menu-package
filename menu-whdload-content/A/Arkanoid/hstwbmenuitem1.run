@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/Arkanoid/"
 IF EXISTS ENV:whdloadargs
-	whdload "Arkanoid.Slave" $whdloadargs
+  whdload "Arkanoid.Slave" $whdloadargs
 ELSE
-	whdload "Arkanoid.Slave"
+  whdload "Arkanoid.Slave"
 ENDIF

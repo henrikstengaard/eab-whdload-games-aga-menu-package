@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/IndianaJonesLastCrusAct/"
 IF EXISTS ENV:whdloadargs
-	whdload "IndianaJonesLastCrusAct.Slave" $whdloadargs
+  whdload "IndianaJonesLastCrusAct.Slave" $whdloadargs
 ELSE
-	whdload "IndianaJonesLastCrusAct.Slave"
+  whdload "IndianaJonesLastCrusAct.Slave"
 ENDIF

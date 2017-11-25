@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Enlightenment/"
 IF EXISTS ENV:whdloadargs
-	whdload "Enlightenment.Slave" $whdloadargs
+  whdload "Enlightenment.Slave" $whdloadargs
 ELSE
-	whdload "Enlightenment.Slave"
+  whdload "Enlightenment.Slave"
 ENDIF

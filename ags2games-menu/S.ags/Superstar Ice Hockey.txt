@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1988
 Genre     : Sports - Ice Hockey
 Players   : 1 or 2, Simultaneous
-Whdload   : SuperstarIceHockey.Slave
+RunFile   : SuperstarIceHockey.Slave

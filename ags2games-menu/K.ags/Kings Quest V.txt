@@ -2,4 +2,4 @@ Name      : King's Quest V
 Publisher : Sierra
 Year      : 1991
 Players   : 1
-Whdload   : KingsQuest5.slave
+RunFile   : KingsQuest5.slave

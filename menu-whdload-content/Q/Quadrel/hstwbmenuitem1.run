@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:Q/Quadrel/"
 IF EXISTS ENV:whdloadargs
-	whdload "Quadrel.Slave" $whdloadargs
+  whdload "Quadrel.Slave" $whdloadargs
 ELSE
-	whdload "Quadrel.Slave"
+  whdload "Quadrel.Slave"
 ENDIF

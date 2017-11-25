@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HolidayMakerCDTVDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "HolidayMakerCDTVDe.Slave" $whdloadargs
+  whdload "HolidayMakerCDTVDe.Slave" $whdloadargs
 ELSE
-	whdload "HolidayMakerCDTVDe.Slave"
+  whdload "HolidayMakerCDTVDe.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SpaceRangerArcadia/"
 IF EXISTS ENV:whdloadargs
-	whdload "SpaceRangerArcadia.Slave" $whdloadargs
+  whdload "SpaceRangerArcadia.Slave" $whdloadargs
 ELSE
-	whdload "SpaceRangerArcadia.Slave"
+  whdload "SpaceRangerArcadia.Slave"
 ENDIF

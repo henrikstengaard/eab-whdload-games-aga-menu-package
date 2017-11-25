@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/GraemeSounessSoccerManagr/"
 IF EXISTS ENV:whdloadargs
-	whdload "GraemeSounessSoccerManagr.Slave" $whdloadargs
+  whdload "GraemeSounessSoccerManagr.Slave" $whdloadargs
 ELSE
-	whdload "GraemeSounessSoccerManagr.Slave"
+  whdload "GraemeSounessSoccerManagr.Slave"
 ENDIF

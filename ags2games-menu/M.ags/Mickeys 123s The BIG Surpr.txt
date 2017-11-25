@@ -4,4 +4,4 @@ Publisher : Infogrames
 Year      : 1993
 Genre     : Educational - Math
 Players   : 1 Only
-Whdload   : Mickey123Fr.Slave
+RunFile   : Mickey123Fr.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Sarcophaser/"
 IF EXISTS ENV:whdloadargs
-	whdload "Sarcophaser.Slave" $whdloadargs
+  whdload "Sarcophaser.Slave" $whdloadargs
 ELSE
-	whdload "Sarcophaser.Slave"
+  whdload "Sarcophaser.Slave"
 ENDIF

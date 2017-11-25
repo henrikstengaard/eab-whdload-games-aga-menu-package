@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1987
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : GeeBeeAirRally.Slave
+RunFile   : GeeBeeAirRally.Slave

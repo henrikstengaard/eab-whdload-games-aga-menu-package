@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SilentService/"
 IF EXISTS ENV:whdloadargs
-	whdload "SilentService.Slave" $whdloadargs
+  whdload "SilentService.Slave" $whdloadargs
 ELSE
-	whdload "SilentService.Slave"
+  whdload "SilentService.Slave"
 ENDIF

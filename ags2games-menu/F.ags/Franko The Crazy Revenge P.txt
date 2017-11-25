@@ -4,4 +4,4 @@ Version   : Censored
 Publisher : Mirage
 Year      : 1994
 Players   : 1 Only
-Whdload   : FrankoCensoredPl.slave
+RunFile   : FrankoCensoredPl.slave

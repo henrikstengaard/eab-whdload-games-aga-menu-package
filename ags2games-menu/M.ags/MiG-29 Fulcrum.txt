@@ -3,4 +3,4 @@ Publisher : Domark
 Year      : 1991
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : MiG29Fulcrum.Slave
+RunFile   : MiG29Fulcrum.Slave

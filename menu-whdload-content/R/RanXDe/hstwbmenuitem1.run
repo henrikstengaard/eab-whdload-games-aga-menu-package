@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RanXDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "RanXDe.Slave" $whdloadargs
+  whdload "RanXDe.Slave" $whdloadargs
 ELSE
-	whdload "RanXDe.Slave"
+  whdload "RanXDe.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Alternative Software
 Year      : 1989
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : PostmanPat.Slave
+RunFile   : PostmanPat.Slave

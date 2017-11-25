@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WayOfTheLittleDragonNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "WayOfTheLittleDragonNTSC.Slave" $whdloadargs
+  whdload "WayOfTheLittleDragonNTSC.Slave" $whdloadargs
 ELSE
-	whdload "WayOfTheLittleDragonNTSC.Slave"
+  whdload "WayOfTheLittleDragonNTSC.Slave"
 ENDIF

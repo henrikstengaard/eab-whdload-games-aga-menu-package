@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1990
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : FighterBomber.slave
+RunFile   : FighterBomber.slave

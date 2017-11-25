@@ -3,4 +3,4 @@ Language  : French
 Publisher : CP Software
 Year      : 1989
 Genre     : Board - Chess
-Whdload   : ChessPlayer2150Fr.Slave
+RunFile   : ChessPlayer2150Fr.Slave

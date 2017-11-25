@@ -3,4 +3,4 @@ Publisher : Silmarils
 Year      : 1991
 Genre     : Brain - Puzzle
 Players   : 1 Only
-Whdload   : BostonBombClub.Slave
+RunFile   : BostonBombClub.Slave

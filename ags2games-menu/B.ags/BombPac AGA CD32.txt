@@ -2,4 +2,4 @@ Name      : BombPac
 Version   : AGA CD32
 Year      : 1994
 Players   : 1
-Whdload   : BombPacCD32AGA.Slave
+RunFile   : BombPacCD32AGA.Slave

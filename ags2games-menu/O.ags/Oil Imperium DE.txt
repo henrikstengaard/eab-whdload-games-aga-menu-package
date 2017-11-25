@@ -4,4 +4,4 @@ Publisher : ReLINE Software
 Year      : 1989
 Genre     : Strategy - Company
 Players   : 1 to 4
-Whdload   : OilImperiumDe.Slave
+RunFile   : OilImperiumDe.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NorthAndSouthImage/"
 IF EXISTS ENV:whdloadargs
-	whdload "NorthAndSouthImage.slave" $whdloadargs
+  whdload "NorthAndSouthImage.slave" $whdloadargs
 ELSE
-	whdload "NorthAndSouthImage.slave"
+  whdload "NorthAndSouthImage.slave"
 ENDIF

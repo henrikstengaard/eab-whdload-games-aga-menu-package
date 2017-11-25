@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/IslandOfLostHope/"
 IF EXISTS ENV:whdloadargs
-	whdload "IslandOfLostHope.Slave" $whdloadargs
+  whdload "IslandOfLostHope.Slave" $whdloadargs
 ELSE
-	whdload "IslandOfLostHope.Slave"
+  whdload "IslandOfLostHope.Slave"
 ENDIF

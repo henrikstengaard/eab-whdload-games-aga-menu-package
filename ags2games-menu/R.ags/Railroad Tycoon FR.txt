@@ -4,4 +4,4 @@ Publisher : MicroProse Software
 Year      : 1990
 Genre     : Simulation - Train
 Players   : 1 Only
-Whdload   : RailroadTycoonFr.slave
+RunFile   : RailroadTycoonFr.slave

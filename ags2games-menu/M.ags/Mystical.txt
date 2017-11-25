@@ -2,4 +2,4 @@ Name      : Mystical
 Publisher : Infogrames
 Year      : 1990
 Genre     : Arcade - Miscellaneous
-Whdload   : Mystical.Slave
+RunFile   : Mystical.Slave

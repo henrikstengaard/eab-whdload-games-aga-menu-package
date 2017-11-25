@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WinterOlympiad88/"
 IF EXISTS ENV:whdloadargs
-	whdload "WinterOlympiad88.Slave" $whdloadargs
+  whdload "WinterOlympiad88.Slave" $whdloadargs
 ELSE
-	whdload "WinterOlympiad88.Slave"
+  whdload "WinterOlympiad88.Slave"
 ENDIF

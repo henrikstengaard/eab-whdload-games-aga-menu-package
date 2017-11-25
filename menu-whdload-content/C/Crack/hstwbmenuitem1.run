@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Crack/"
 IF EXISTS ENV:whdloadargs
-	whdload "Crack.Slave" $whdloadargs
+  whdload "Crack.Slave" $whdloadargs
 ELSE
-	whdload "Crack.Slave"
+  whdload "Crack.Slave"
 ENDIF

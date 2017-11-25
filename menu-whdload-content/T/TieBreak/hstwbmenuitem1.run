@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TieBreak/"
 IF EXISTS ENV:whdloadargs
-	whdload "TieBreak.Slave" $whdloadargs
+  whdload "TieBreak.Slave" $whdloadargs
 ELSE
-	whdload "TieBreak.Slave"
+  whdload "TieBreak.Slave"
 ENDIF

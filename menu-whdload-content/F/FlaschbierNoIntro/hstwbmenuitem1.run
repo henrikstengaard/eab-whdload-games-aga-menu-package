@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FlaschbierNoIntro/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlaschbierNoIntro.Slave" $whdloadargs
+  whdload "FlaschbierNoIntro.Slave" $whdloadargs
 ELSE
-	whdload "FlaschbierNoIntro.Slave"
+  whdload "FlaschbierNoIntro.Slave"
 ENDIF

@@ -4,4 +4,4 @@ Publisher : Mandarin
 Year      : 1988
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : LombardRACRally1Disk.Slave
+RunFile   : LombardRACRally1Disk.Slave

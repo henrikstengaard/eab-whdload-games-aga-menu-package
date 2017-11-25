@@ -3,4 +3,4 @@ Publisher : Dinamic Software
 Year      : 1990
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-Whdload   : HammerBoy.slave
+RunFile   : HammerBoy.slave

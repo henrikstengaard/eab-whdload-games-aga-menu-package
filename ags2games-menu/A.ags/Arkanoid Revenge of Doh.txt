@@ -3,4 +3,4 @@ Publisher : Imagine
 Year      : 1988
 Genre     : Arcade - Breakout/Pong
 Players   : 1 or 2
-Whdload   : ArkanoidRevengeOfDoh.slave
+RunFile   : ArkanoidRevengeOfDoh.slave

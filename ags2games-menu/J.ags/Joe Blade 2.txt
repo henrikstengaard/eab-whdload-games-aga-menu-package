@@ -3,4 +3,4 @@ Publisher : Players Software
 Year      : 1988
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : JoeBlade2.Slave
+RunFile   : JoeBlade2.Slave

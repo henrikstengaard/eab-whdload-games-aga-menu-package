@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DalekAttack/"
 IF EXISTS ENV:whdloadargs
-	whdload "DalekAttack.Slave" $whdloadargs
+  whdload "DalekAttack.Slave" $whdloadargs
 ELSE
-	whdload "DalekAttack.Slave"
+  whdload "DalekAttack.Slave"
 ENDIF

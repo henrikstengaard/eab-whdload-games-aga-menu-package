@@ -3,4 +3,4 @@ Version   : Image
 Publisher : Infogrames
 Year      : 1989
 Genre     : Strategy - War
-Whdload   : FullMetalPlaneteImage.Slave
+RunFile   : FullMetalPlaneteImage.Slave

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MrDoRunRunFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "MrDoRunRunFiles.Slave" $whdloadargs
+  whdload "MrDoRunRunFiles.Slave" $whdloadargs
 ELSE
-	whdload "MrDoRunRunFiles.Slave"
+  whdload "MrDoRunRunFiles.Slave"
 ENDIF

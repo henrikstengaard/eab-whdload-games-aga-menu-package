@@ -3,4 +3,4 @@ Publisher : Hi-Tec Software
 Year      : 1991
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-Whdload   : ScoobyDoo&ScrappyDoo.slave
+RunFile   : ScoobyDoo&ScrappyDoo.slave

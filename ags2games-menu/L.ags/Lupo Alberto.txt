@@ -2,4 +2,4 @@ Name      : Lupo Alberto
 Publisher : Idea
 Year      : 1991
 Players   : 1 - 2 (2 simultaneous)
-Whdload   : LupoAlberto.Slave
+RunFile   : LupoAlberto.Slave

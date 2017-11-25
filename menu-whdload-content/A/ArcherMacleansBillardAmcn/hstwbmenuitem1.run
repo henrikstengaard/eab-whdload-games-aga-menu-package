@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/ArcherMacleansBillardAmcn/"
 IF EXISTS ENV:whdloadargs
-	whdload "ArcherMacleansBillardAmcn.Slave" $whdloadargs
+  whdload "ArcherMacleansBillardAmcn.Slave" $whdloadargs
 ELSE
-	whdload "ArcherMacleansBillardAmcn.Slave"
+  whdload "ArcherMacleansBillardAmcn.Slave"
 ENDIF

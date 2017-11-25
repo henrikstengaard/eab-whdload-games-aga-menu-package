@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:G/Godfather/"
 IF EXISTS ENV:whdloadargs
-	whdload "Godfather.Slave" $whdloadargs
+  whdload "Godfather.Slave" $whdloadargs
 ELSE
-	whdload "Godfather.Slave"
+  whdload "Godfather.Slave"
 ENDIF

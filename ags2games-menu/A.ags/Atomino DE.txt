@@ -4,4 +4,4 @@ Publisher : Psygnosis
 Year      : 1991
 Genre     : Brain - Puzzle
 Players   : 1 Only
-Whdload   : AtominoDe.slave
+RunFile   : AtominoDe.slave

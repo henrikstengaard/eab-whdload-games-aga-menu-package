@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Seek&DestroyAGA/"
 IF EXISTS ENV:whdloadargs
-	whdload "Seek&DestroyAGA.Slave" $whdloadargs
+  whdload "Seek&DestroyAGA.Slave" $whdloadargs
 ELSE
-	whdload "Seek&DestroyAGA.Slave"
+  whdload "Seek&DestroyAGA.Slave"
 ENDIF

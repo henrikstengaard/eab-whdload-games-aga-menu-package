@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TinyTroopsCD/"
 IF EXISTS ENV:whdloadargs
-	whdload "TinyTroopsCD.Slave" $whdloadargs
+  whdload "TinyTroopsCD.Slave" $whdloadargs
 ELSE
-	whdload "TinyTroopsCD.Slave"
+  whdload "TinyTroopsCD.Slave"
 ENDIF

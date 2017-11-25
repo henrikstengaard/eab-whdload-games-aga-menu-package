@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/Hilt/"
 IF EXISTS ENV:whdloadargs
-	whdload "Hilt.Slave" $whdloadargs
+  whdload "Hilt.Slave" $whdloadargs
 ELSE
-	whdload "Hilt.Slave"
+  whdload "Hilt.Slave"
 ENDIF

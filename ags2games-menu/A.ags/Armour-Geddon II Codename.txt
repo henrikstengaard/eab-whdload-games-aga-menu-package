@@ -3,4 +3,4 @@ Publisher : Psygnosis
 Year      : 1994
 Genre     : Strategy - War
 Players   : 1 or 2
-Whdload   : ArmourGeddon2.Slave
+RunFile   : ArmourGeddon2.Slave

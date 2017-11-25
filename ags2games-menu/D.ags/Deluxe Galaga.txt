@@ -2,4 +2,4 @@ Name      : Deluxe Galaga
 Publisher : (unknown)
 Year      : 1995
 Players   : 1 or 2
-Whdload   : DeluxeGalaga.Slave
+RunFile   : DeluxeGalaga.Slave

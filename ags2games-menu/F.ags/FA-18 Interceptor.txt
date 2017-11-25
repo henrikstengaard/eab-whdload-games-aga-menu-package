@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1988
 Genre     : Simulation - Flight
 Players   : 1 Only
-Whdload   : FA18Interceptor.slave
+RunFile   : FA18Interceptor.slave

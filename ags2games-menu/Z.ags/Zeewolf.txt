@@ -2,4 +2,4 @@ Name      : Zeewolf
 Publisher : Empire Software
 Year      : 1994
 Players   : 1 Only
-Whdload   : Zeewolf.slave
+RunFile   : Zeewolf.slave

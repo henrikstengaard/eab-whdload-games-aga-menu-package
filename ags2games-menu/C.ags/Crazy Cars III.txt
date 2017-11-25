@@ -3,4 +3,4 @@ Publisher : Titus Software
 Year      : 1992
 Genre     : Racing - Cars
 Players   : 1 Only
-Whdload   : CrazyCars3.slave
+RunFile   : CrazyCars3.slave

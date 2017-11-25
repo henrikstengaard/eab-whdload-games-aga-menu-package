@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DemonBlue/"
 IF EXISTS ENV:whdloadargs
-	whdload "DemonBlue.slave" $whdloadargs
+  whdload "DemonBlue.slave" $whdloadargs
 ELSE
-	whdload "DemonBlue.slave"
+  whdload "DemonBlue.slave"
 ENDIF

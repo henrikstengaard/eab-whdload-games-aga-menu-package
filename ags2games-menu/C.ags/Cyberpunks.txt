@@ -2,4 +2,4 @@ Name      : Cyberpunks
 Publisher : Core Design
 Year      : 1993
 Players   : 1 Only
-Whdload   : Cyberpunks.Slave
+RunFile   : Cyberpunks.Slave

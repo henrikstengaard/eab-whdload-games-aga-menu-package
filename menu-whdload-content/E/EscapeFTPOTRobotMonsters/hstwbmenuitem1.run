@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/EscapeFTPOTRobotMonsters/"
 IF EXISTS ENV:whdloadargs
-	whdload "EscapeFTPOTRobotMonsters.slave" $whdloadargs
+  whdload "EscapeFTPOTRobotMonsters.slave" $whdloadargs
 ELSE
-	whdload "EscapeFTPOTRobotMonsters.slave"
+  whdload "EscapeFTPOTRobotMonsters.slave"
 ENDIF

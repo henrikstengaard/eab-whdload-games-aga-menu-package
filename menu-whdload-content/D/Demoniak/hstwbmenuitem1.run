@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Demoniak/"
 IF EXISTS ENV:whdloadargs
-	whdload "Demoniak.Slave" $whdloadargs
+  whdload "Demoniak.Slave" $whdloadargs
 ELSE
-	whdload "Demoniak.Slave"
+  whdload "Demoniak.Slave"
 ENDIF

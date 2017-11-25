@@ -3,4 +3,4 @@ Publisher : The Sales Curve
 Year      : 1992
 Genre     : Cards - Poker
 Players   : 1 to 3
-Whdload   : CoverGirlStripPoker.slave
+RunFile   : CoverGirlStripPoker.slave

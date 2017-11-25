@@ -2,4 +2,4 @@ Name      : Cannon Soccer
 Publisher : Amiga Format (Future Publishing)
 Year      : 1993
 Players   : 1
-Whdload   : CannonSoccer.Slave
+RunFile   : CannonSoccer.Slave

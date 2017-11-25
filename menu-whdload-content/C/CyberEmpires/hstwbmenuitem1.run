@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/CyberEmpires/"
 IF EXISTS ENV:whdloadargs
-	whdload "CyberEmpires.Slave" $whdloadargs
+  whdload "CyberEmpires.Slave" $whdloadargs
 ELSE
-	whdload "CyberEmpires.Slave"
+  whdload "CyberEmpires.Slave"
 ENDIF

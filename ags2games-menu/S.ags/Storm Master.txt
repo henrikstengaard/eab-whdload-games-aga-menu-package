@@ -2,4 +2,4 @@ Name      : Storm Master
 Publisher : Silmarils
 Year      : 1991
 Genre     : Strategy - War
-Whdload   : StormMaster.Slave
+RunFile   : StormMaster.Slave

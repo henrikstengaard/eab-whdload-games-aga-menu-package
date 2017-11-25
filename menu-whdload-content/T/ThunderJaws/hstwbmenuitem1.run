@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/ThunderJaws/"
 IF EXISTS ENV:whdloadargs
-	whdload "ThunderJaws.Slave" $whdloadargs
+  whdload "ThunderJaws.Slave" $whdloadargs
 ELSE
-	whdload "ThunderJaws.Slave"
+  whdload "ThunderJaws.Slave"
 ENDIF

@@ -2,4 +2,4 @@ Name      : Booly
 Publisher : Loriciel
 Year      : 1991
 Genre     : Brain - Puzzle
-Whdload   : Booly.Slave
+RunFile   : Booly.Slave

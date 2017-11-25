@@ -2,4 +2,4 @@ Name      : Mr. Nutz
 Publisher : Ocean
 Year      : 1994
 Players   : 1
-Whdload   : MrNutz.Slave
+RunFile   : MrNutz.Slave

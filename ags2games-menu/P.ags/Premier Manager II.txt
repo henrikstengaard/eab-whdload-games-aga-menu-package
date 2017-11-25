@@ -2,4 +2,4 @@ Name      : Premier Manager II
 Publisher : Gremlin Graphics
 Year      : 1993
 Genre     : Sports - Football/Soccer
-Whdload   : PremierManager2.Slave
+RunFile   : PremierManager2.Slave

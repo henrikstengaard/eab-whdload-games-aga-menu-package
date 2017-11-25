@@ -3,4 +3,4 @@ Publisher : Exocet Software
 Year      : 1988
 Genre     : Board - Chess
 Players   : 1 or 2
-Whdload   : DistantArmies.Slave
+RunFile   : DistantArmies.Slave

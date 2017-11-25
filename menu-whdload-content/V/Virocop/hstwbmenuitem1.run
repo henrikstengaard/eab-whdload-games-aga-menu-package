@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/Virocop/"
 IF EXISTS ENV:whdloadargs
-	whdload "Virocop.Slave" $whdloadargs
+  whdload "Virocop2Meg.slave" $whdloadargs
 ELSE
-	whdload "Virocop.Slave"
+  whdload "Virocop2Meg.slave"
 ENDIF

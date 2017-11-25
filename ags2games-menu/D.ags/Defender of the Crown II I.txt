@@ -4,4 +4,4 @@ Version   : CD32
 Publisher : Commodore
 Year      : 1993
 Players   : 1
-Whdload   : DifensoreCorona2CD32It.slave
+RunFile   : DifensoreCorona2CD32It.slave

@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Anco
 Year      : 1995
 Players   : 1 - 4 (2 simultaneous)
-Whdload   : PlayerManager2ExtraAGA.Slave
+RunFile   : PlayerManager2ExtraAGA.Slave

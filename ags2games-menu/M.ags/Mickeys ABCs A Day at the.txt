@@ -3,4 +3,4 @@ Publisher : Infogrames
 Year      : 1993
 Genre     : Educational - Typing
 Players   : 1 Only
-Whdload   : MickeysABCs.Slave
+RunFile   : MickeysABCs.Slave

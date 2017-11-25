@@ -2,4 +2,4 @@ Name      : Outzone
 Publisher : Lankhor
 Year      : 1991
 Players   : 1 Only
-Whdload   : Outzone.Slave
+RunFile   : Outzone.Slave

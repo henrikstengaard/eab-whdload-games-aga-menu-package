@@ -3,4 +3,4 @@ Publisher : ICE
 Year      : 1993
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-Whdload   : AbandonedPlaces2.Slave
+RunFile   : AbandonedPlaces2.Slave

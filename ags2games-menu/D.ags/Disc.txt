@@ -3,4 +3,4 @@ Publisher : Loriciel
 Year      : 1990
 Genre     : Sports - Miscellaneous
 Players   : 1 or 2, Simultaneous
-Whdload   : Disc.Slave
+RunFile   : Disc.Slave

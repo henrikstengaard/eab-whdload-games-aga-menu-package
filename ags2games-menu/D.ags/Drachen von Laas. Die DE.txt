@@ -4,4 +4,4 @@ Publisher : Attic Entertainment Software
 Year      : 1991
 Genre     : Adventure - Graphics/Text
 Players   : 1 Only
-Whdload   : DrachenVonLaasDe.slave
+RunFile   : DrachenVonLaasDe.slave

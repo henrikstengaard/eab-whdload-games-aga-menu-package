@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TestDrive/"
 IF EXISTS ENV:whdloadargs
-	whdload "TestDrive.slave" $whdloadargs
+  whdload "TestDrive.slave" $whdloadargs
 ELSE
-	whdload "TestDrive.slave"
+  whdload "TestDrive.slave"
 ENDIF

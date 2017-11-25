@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DarkSeedDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "DarkSeedDe.Slave" $whdloadargs
+  whdload "DarkSeedDe.Slave" $whdloadargs
 ELSE
-	whdload "DarkSeedDe.Slave"
+  whdload "DarkSeedDe.Slave"
 ENDIF

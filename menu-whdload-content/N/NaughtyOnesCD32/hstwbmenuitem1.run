@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:N/NaughtyOnesCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "NaughtyOnesCD32.Slave" $whdloadargs
+  whdload "NaughtyOnesCD32.Slave" $whdloadargs
 ELSE
-	whdload "NaughtyOnesCD32.Slave"
+  whdload "NaughtyOnesCD32.Slave"
 ENDIF

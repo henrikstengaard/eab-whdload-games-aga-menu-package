@@ -2,4 +2,4 @@ Name      : Best of the Best: Championship Karate
 Publisher : Loriciel
 Year      : 1992
 Players   : 1 or 2, Simultaneous
-Whdload   : BestOfTheBest.Slave
+RunFile   : BestOfTheBest.Slave

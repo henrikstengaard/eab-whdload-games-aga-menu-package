@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FlimbosQuest/"
 IF EXISTS ENV:whdloadargs
-	whdload "FlimbosQuest.slave" $whdloadargs
+  whdload "FlimbosQuest.slave" $whdloadargs
 ELSE
-	whdload "FlimbosQuest.slave"
+  whdload "FlimbosQuest.slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WacusTheDetectivePl/"
 IF EXISTS ENV:whdloadargs
-	whdload "WacusTheDetectivePl.Slave" $whdloadargs
+  whdload "WacusTheDetectivePl.Slave" $whdloadargs
 ELSE
-	whdload "WacusTheDetectivePl.Slave"
+  whdload "WacusTheDetectivePl.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/EuropeanChampionsOcean/"
 IF EXISTS ENV:whdloadargs
-	whdload "EuropeanChampionsOcean.Slave" $whdloadargs
+  whdload "EuropeanChampionsOcean.Slave" $whdloadargs
 ELSE
-	whdload "EuropeanChampionsOcean.Slave"
+  whdload "EuropeanChampionsOcean.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:H/HiredGunsDemo512KB/"
 IF EXISTS ENV:whdloadargs
-	whdload "HiredGunsDemo512KB.Slave" $whdloadargs
+  whdload "HiredGunsDemo512KB.Slave" $whdloadargs
 ELSE
-	whdload "HiredGunsDemo512KB.Slave"
+  whdload "HiredGunsDemo512KB.Slave"
 ENDIF

@@ -4,4 +4,4 @@ Version   : 1Disk
 Publisher : Starbyte Software
 Year      : 1991
 Genre     : Adventure - RPG 3D
-Whdload   : SpiritOfAdventureDe1Disk.slave
+RunFile   : SpiritOfAdventureDe1Disk.slave

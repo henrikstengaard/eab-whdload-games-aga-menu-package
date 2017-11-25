@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TintinOnTheMoonFiles/"
 IF EXISTS ENV:whdloadargs
-	whdload "TintinOnTheMoonFiles.Slave" $whdloadargs
+  whdload "TintinOnTheMoonFiles.Slave" $whdloadargs
 ELSE
-	whdload "TintinOnTheMoonFiles.Slave"
+  whdload "TintinOnTheMoonFiles.Slave"
 ENDIF

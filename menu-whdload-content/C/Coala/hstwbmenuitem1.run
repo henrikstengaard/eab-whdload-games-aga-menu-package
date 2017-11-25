@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/Coala/"
 IF EXISTS ENV:whdloadargs
-	whdload "Coala.Slave" $whdloadargs
+  whdload "Coala.Slave" $whdloadargs
 ELSE
-	whdload "Coala.Slave"
+  whdload "Coala.Slave"
 ENDIF

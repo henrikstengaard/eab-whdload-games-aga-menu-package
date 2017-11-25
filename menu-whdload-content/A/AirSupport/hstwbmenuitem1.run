@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AirSupport/"
 IF EXISTS ENV:whdloadargs
-	whdload "AirSupport.Slave" $whdloadargs
+  whdload "AirSupport.Slave" $whdloadargs
 ELSE
-	whdload "AirSupport.Slave"
+  whdload "AirSupport.Slave"
 ENDIF

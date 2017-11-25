@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RoboSport/"
 IF EXISTS ENV:whdloadargs
-	whdload "RoboSport.Slave" $whdloadargs
+  whdload "RoboSport.Slave" $whdloadargs
 ELSE
-	whdload "RoboSport.Slave"
+  whdload "RoboSport.Slave"
 ENDIF

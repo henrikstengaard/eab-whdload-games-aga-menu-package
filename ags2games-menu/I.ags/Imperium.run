@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:I/Imperium/"
 IF EXISTS ENV:whdloadargs
   whdload "Imperium.Slave" $whdloadargs

@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/Speedball2CD32/"
 IF EXISTS ENV:whdloadargs
   whdload "Speedball2CD32.Slave" $whdloadargs

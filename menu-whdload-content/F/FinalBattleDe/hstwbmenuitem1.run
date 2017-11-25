@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/FinalBattleDe/"
 IF EXISTS ENV:whdloadargs
-	whdload "FinalBattleDe.slave" $whdloadargs
+  whdload "FinalBattleDe.slave" $whdloadargs
 ELSE
-	whdload "FinalBattleDe.slave"
+  whdload "FinalBattleDe.slave"
 ENDIF

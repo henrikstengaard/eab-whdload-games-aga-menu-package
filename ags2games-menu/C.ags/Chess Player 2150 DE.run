@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:C/ChessPlayer2150DE/"
 IF EXISTS ENV:whdloadargs
   whdload "ChessPlayer2150De.Slave" $whdloadargs

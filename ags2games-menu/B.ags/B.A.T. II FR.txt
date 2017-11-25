@@ -4,4 +4,4 @@ Publisher : Ubi Soft
 Year      : 1992
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-Whdload   : BAT2Fr.slave
+RunFile   : BAT2Fr.slave

@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1991
 Genre     : Sports - Golf
 Players   : 1 to 4
-Whdload   : PGATourGolf.Slave
+RunFile   : PGATourGolf.Slave

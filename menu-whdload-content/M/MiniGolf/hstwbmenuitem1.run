@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MiniGolf/"
 IF EXISTS ENV:whdloadargs
-	whdload "MiniGolf.Slave" $whdloadargs
+  whdload "MiniGolf.Slave" $whdloadargs
 ELSE
-	whdload "MiniGolf.Slave"
+  whdload "MiniGolf.Slave"
 ENDIF

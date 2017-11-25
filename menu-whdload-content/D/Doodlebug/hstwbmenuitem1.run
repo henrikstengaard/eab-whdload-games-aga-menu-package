@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/Doodlebug/"
 IF EXISTS ENV:whdloadargs
-	whdload "Doodlebug.slave" $whdloadargs
+  whdload "Doodlebug.slave" $whdloadargs
 ELSE
-	whdload "Doodlebug.slave"
+  whdload "Doodlebug.slave"
 ENDIF

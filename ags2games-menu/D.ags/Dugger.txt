@@ -3,4 +3,4 @@ Publisher : Linel
 Year      : 1988
 Genre     : Arcade - Miscellaneous
 Players   : 1 or 2
-Whdload   : Dugger.Slave
+RunFile   : Dugger.Slave

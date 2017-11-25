@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/RevengeOfMutantCamelsNTSC/"
 IF EXISTS ENV:whdloadargs
-	whdload "RevengeOfMutantCamelsNTSC.Slave" $whdloadargs
+  whdload "RevengeOfMutantCamelsNTSC.Slave" $whdloadargs
 ELSE
-	whdload "RevengeOfMutantCamelsNTSC.Slave"
+  whdload "RevengeOfMutantCamelsNTSC.Slave"
 ENDIF

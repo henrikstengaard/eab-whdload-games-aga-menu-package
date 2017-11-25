@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1991
 Genre     : Board - Chess
 Players   : 1 or 2
-Whdload   : BattleChess2.Slave
+RunFile   : BattleChess2.Slave

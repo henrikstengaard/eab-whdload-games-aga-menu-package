@@ -3,4 +3,4 @@ Publisher : Krisalis
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-Whdload   : HillStreetBlues.Slave
+RunFile   : HillStreetBlues.Slave

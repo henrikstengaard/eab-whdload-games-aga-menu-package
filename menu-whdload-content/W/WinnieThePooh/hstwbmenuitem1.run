@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:W/WinnieThePooh/"
 IF EXISTS ENV:whdloadargs
-	whdload "WinnieThePooh.Slave" $whdloadargs
+  whdload "WinnieThePooh.Slave" $whdloadargs
 ELSE
-	whdload "WinnieThePooh.Slave"
+  whdload "WinnieThePooh.Slave"
 ENDIF

@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TimeScanner/"
 IF EXISTS ENV:whdloadargs
-	whdload "TimeScanner.Slave" $whdloadargs
+  whdload "TimeScanner.Slave" $whdloadargs
 ELSE
-	whdload "TimeScanner.Slave"
+  whdload "TimeScanner.Slave"
 ENDIF

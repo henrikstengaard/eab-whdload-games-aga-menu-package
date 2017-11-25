@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:D/DogsOfWar/"
 IF EXISTS ENV:whdloadargs
-	whdload "DogsOfWar.Slave" $whdloadargs
+  whdload "DogsOfWar.Slave" $whdloadargs
 ELSE
-	whdload "DogsOfWar.Slave"
+  whdload "DogsOfWar.Slave"
 ENDIF

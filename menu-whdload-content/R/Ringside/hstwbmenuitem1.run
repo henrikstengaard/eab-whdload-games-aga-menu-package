@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:R/Ringside/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ringside.Slave" $whdloadargs
+  whdload "Ringside.Slave" $whdloadargs
 ELSE
-	whdload "Ringside.Slave"
+  whdload "Ringside.Slave"
 ENDIF

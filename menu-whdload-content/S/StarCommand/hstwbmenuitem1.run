@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/StarCommand/"
 IF EXISTS ENV:whdloadargs
-	whdload "StarCommand.Slave" $whdloadargs
+  whdload "StarCommand.Slave" $whdloadargs
 ELSE
-	whdload "StarCommand.Slave"
+  whdload "StarCommand.Slave"
 ENDIF

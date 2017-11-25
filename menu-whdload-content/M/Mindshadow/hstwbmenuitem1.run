@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/Mindshadow/"
 IF EXISTS ENV:whdloadargs
-	whdload "Mindshadow.Slave" $whdloadargs
+  whdload "Mindshadow.Slave" $whdloadargs
 ELSE
-	whdload "Mindshadow.Slave"
+  whdload "Mindshadow.Slave"
 ENDIF

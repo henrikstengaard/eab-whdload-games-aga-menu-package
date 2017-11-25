@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Gallica
 Year      : 1994
 Players   : 1 Only
-Whdload   : FantasyFlyerAGA.Slave
+RunFile   : FantasyFlyerAGA.Slave

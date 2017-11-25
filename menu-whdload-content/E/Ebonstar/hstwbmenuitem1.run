@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:E/Ebonstar/"
 IF EXISTS ENV:whdloadargs
-	whdload "Ebonstar.Slave" $whdloadargs
+  whdload "Ebonstar.Slave" $whdloadargs
 ELSE
-	whdload "Ebonstar.Slave"
+  whdload "Ebonstar.Slave"
 ENDIF

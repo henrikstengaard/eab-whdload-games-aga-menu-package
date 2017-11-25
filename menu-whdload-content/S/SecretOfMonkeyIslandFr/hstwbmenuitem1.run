@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SecretOfMonkeyIslandFr/"
 IF EXISTS ENV:whdloadargs
-	whdload "SecretOfMonkeyIslandFr.slave" $whdloadargs
+  whdload "SecretOfMonkeyIslandFr.slave" $whdloadargs
 ELSE
-	whdload "SecretOfMonkeyIslandFr.slave"
+  whdload "SecretOfMonkeyIslandFr.slave"
 ENDIF

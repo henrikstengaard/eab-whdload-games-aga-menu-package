@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:M/MOT/"
 IF EXISTS ENV:whdloadargs
-	whdload "MOT.Slave" $whdloadargs
+  whdload "MOT.Slave" $whdloadargs
 ELSE
-	whdload "MOT.Slave"
+  whdload "MOT.Slave"
 ENDIF

@@ -3,4 +3,4 @@ Publisher : Miles Computing
 Year      : 1990
 Genre     : Brain - Puzzle
 Players   : 1 Only
-Whdload   : FoolsErrand.Slave
+RunFile   : FoolsErrand.Slave

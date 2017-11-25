@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:A/AztecChallenge/"
 IF EXISTS ENV:whdloadargs
-	whdload "AztecChallenge.Slave" $whdloadargs
+  whdload "AztecChallenge.Slave" $whdloadargs
 ELSE
-	whdload "AztecChallenge.Slave"
+  whdload "AztecChallenge.Slave"
 ENDIF

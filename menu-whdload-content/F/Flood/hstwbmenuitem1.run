@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:F/Flood/"
 IF EXISTS ENV:whdloadargs
-	whdload "Flood.Slave" $whdloadargs
+  whdload "Flood.Slave" $whdloadargs
 ELSE
-	whdload "Flood.Slave"
+  whdload "Flood.Slave"
 ENDIF

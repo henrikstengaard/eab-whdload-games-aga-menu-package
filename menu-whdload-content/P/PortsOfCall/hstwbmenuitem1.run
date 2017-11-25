@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/PortsOfCall/"
 IF EXISTS ENV:whdloadargs
-	whdload "PortsOfCall.Slave" $whdloadargs
+  whdload "PortsOfCall.Slave" $whdloadargs
 ELSE
-	whdload "PortsOfCall.Slave"
+  whdload "PortsOfCall.Slave"
 ENDIF

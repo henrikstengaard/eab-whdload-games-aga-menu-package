@@ -18,7 +18,7 @@ IF EXISTS S:AGS2RunPre
   execute S:AGS2RunPre
 ENDIF
 
-; Whdload
+; Run WHDLoad
 cd "A-Games:T/TennisCup1Mb/"
 IF EXISTS ENV:whdloadargs
   whdload "TennisCup1Mb.Slave" $whdloadargs

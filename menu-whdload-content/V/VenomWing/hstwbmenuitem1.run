@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:V/VenomWing/"
 IF EXISTS ENV:whdloadargs
-	whdload "VenomWing.Slave" $whdloadargs
+  whdload "VenomWing.Slave" $whdloadargs
 ELSE
-	whdload "VenomWing.Slave"
+  whdload "VenomWing.Slave"
 ENDIF

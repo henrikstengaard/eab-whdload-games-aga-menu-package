@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:S/SabreTeamCD32/"
 IF EXISTS ENV:whdloadargs
-	whdload "SabreTeamCD32.Slave" $whdloadargs
+  whdload "SabreTeamCD32.Slave" $whdloadargs
 ELSE
-	whdload "SabreTeamCD32.Slave"
+  whdload "SabreTeamCD32.Slave"
 ENDIF

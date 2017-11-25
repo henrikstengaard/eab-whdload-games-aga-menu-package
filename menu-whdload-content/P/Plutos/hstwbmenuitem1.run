@@ -1,7 +1,7 @@
-; Whdload
+; Run WHDLoad
 cd "A-Games:P/Plutos/"
 IF EXISTS ENV:whdloadargs
-	whdload "Plutos.Slave" $whdloadargs
+  whdload "Plutos.Slave" $whdloadargs
 ELSE
-	whdload "Plutos.Slave"
+  whdload "Plutos.Slave"
 ENDIF
