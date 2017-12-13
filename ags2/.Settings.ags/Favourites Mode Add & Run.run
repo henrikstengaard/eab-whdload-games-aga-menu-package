@@ -1,5 +1,5 @@
-echo "*ec"
-echo "addrun" > ENV:ags2favouritesmode
+echo "*ec" NOLINE
+echo "addrun" >ENV:ags2favouritesmode
 echo "Set favourites mode to add & run"
-wait 3
-echo "*ec"
+wait 1
+echo "*ec" NOLINE

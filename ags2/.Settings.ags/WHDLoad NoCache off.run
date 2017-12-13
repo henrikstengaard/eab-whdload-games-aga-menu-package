@@ -1,5 +1,7 @@
-echo "*ec"
-execute S:WHDLoadArgRemove NoCache
-echo "WHDLoad NoCache turned off"
-wait 3
-echo "*ec"
+echo "*ec" NOLINE
+IF EXISTS S:WHDLoadArgRemove
+  execute S:WHDLoadArgRemove NoCache
+  echo "WHDLoad NoCache turned off"
+  wait 1
+  echo "*ec" NOLINE
+ENDIF

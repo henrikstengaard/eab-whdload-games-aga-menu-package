@@ -2,37 +2,37 @@
 .BRA {
 .KET }
 
-; HST Launcher Music
-; ------------------
+; AGS2 Music
+; ----------
 ;
 ; Date: 2017-12-13
 ; Author: Henrik Noerfjand Stengaard
 ;
-; An AmigaDOS script to start and stop HST Launcher music.
+; An AmigaDOS script to start and stop AGS2 music.
 
-; Skip end, if hstlauncherdir env doesn't exist
-IF NOT EXISTS ENV:hstlauncherdir
+; Skip end, if ags2 dir env doesn't exist
+IF NOT EXISTS ENV:ags2dir
   SKIP end
 ENDIF
 
-; Skip end, if hstlauncherdir music directory doesn't exist
-IF NOT EXISTS "$hstlauncherdir/Music"
+; Skip end, if ags2dir music directory doesn't exist
+IF NOT EXISTS "$ags2dir/music"
   SKIP end
 ENDIF
 
-; Skip end, if hstlaunchermusic env doesn't exist
-IF NOT EXISTS "ENV:hstlaunchermusic"
+; Skip end, if ags2music env doesn't exist
+IF NOT EXISTS "ENV:ags2music"
   SKIP end
 ENDIF
 
 ; Start music
 IF NOT "{start}" EQ ""
-  ; Pick random music file from hst launcher dir music directory
+  ; Pick random music file from ags2 dir music directory
   set randommusic ""
-  set randommusic `C:filepick "$hstlauncherdir/music/#?"`
+  set randommusic "`C:filepick "$ags2dir/music/#?"`"
 
   ; Use easymod to play random music file in background, if any exists
-  IF NOT $randommusic EQ ""
+  IF NOT "$randommusic" EQ ""
     run >NIL: C:easymod >NIL: "$randommusic"
   ENDIF
 ENDIF

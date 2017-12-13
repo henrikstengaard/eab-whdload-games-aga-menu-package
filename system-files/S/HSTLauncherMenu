@@ -2,11 +2,13 @@
 .BRA {
 .KET }
 
-; HST Launcher Menu Script
-; ------------------------
+; HST Launcher Menu
+; -----------------
 ;
-; Date: 2017-12-09
+; Date: 2017-12-13
 ; Author: Henrik Noerfjand Stengaard
+;
+; An AmigaDOS script to start HST Launcher menus.
 
 ; Fail, if HSTLauncherMenus.cfg file doesn't exist
 IF NOT EXISTS "SYS:Prefs/HSTLauncher/HSTLauncherMenus.cfg"
@@ -28,8 +30,10 @@ delete "T:_hstlauncherdir" >NIL:
 ; Assign HSTLauncher
 Assign HSTLauncher: "$hstlauncherdir"
 
-; Start HST Launcher
-execute HSTLauncher:HSTLauncher
+; Start HST Launcher, if it exists
+IF EXISTS HSTLauncher:HSTLauncher
+  execute HSTLauncher:HSTLauncher
+ENDIF
 
 ; Remove AGS assign
 ASSIGN HSTLauncher: "$hstlauncherdir" REMOVE
