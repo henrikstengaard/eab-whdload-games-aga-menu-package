@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:D/DaysOfThunder/"
+IF EXISTS ENV:whdloadargs
+  whdload "DaysOfThunder.Slave" $whdloadargs
+ELSE
+  whdload "DaysOfThunder.Slave"
+ENDIF

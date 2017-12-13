@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:S/Speedball/"
+IF EXISTS ENV:whdloadargs
+  whdload "Speedball.slave" $whdloadargs
+ELSE
+  whdload "Speedball.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/FatmanCapedConsumer/"
+IF EXISTS ENV:whdloadargs
+  whdload "FatmanCapedConsumer.Slave" $whdloadargs
+ELSE
+  whdload "FatmanCapedConsumer.Slave"
+ENDIF

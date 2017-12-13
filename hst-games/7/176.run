@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:M/MayaFastEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "MayaFastEs.Slave" $whdloadargs
+ELSE
+  whdload "MayaFastEs.Slave"
+ENDIF

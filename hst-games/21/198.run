@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:T/TorvakTheWarrior/"
+IF EXISTS ENV:whdloadargs
+  whdload "TorvakTheWarrior.slave" $whdloadargs
+ELSE
+  whdload "TorvakTheWarrior.slave"
+ENDIF

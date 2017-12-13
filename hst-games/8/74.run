@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:G/GoldOfTheAztecs/"
+IF EXISTS ENV:whdloadargs
+  whdload "GoldOfTheAztecs.Slave" $whdloadargs
+ELSE
+  whdload "GoldOfTheAztecs.Slave"
+ENDIF

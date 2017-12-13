@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:R/RockChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "RockChallenge.slave" $whdloadargs
+ELSE
+  whdload "RockChallenge.slave"
+ENDIF

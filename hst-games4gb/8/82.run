@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:G/GuardianAngel/"
+IF EXISTS ENV:whdloadargs
+  whdload "GuardianAngel.Slave" $whdloadargs
+ELSE
+  whdload "GuardianAngel.Slave"
+ENDIF

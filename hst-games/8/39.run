@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:G/Ghostbusters2NTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ghostbusters2NTSC.Slave" $whdloadargs
+ELSE
+  whdload "Ghostbusters2NTSC.Slave"
+ENDIF

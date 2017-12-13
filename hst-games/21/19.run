@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:O/OgAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "OgAGA.Slave" $whdloadargs
+ELSE
+  whdload "OgAGA.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:L/LabyrintheMilleCalculsFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "LabyrintheMilleCalculsFr.Slave" $whdloadargs
+ELSE
+  whdload "LabyrintheMilleCalculsFr.Slave"
+ENDIF

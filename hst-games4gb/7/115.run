@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/Fuzzball/"
+IF EXISTS ENV:whdloadargs
+  whdload "Intro.Slave" $whdloadargs
+ELSE
+  whdload "Intro.Slave"
+ENDIF

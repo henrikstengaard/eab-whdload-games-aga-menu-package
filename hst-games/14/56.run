@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:M/MaupitiIslandFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "MaupitiIslandFr.Slave" $whdloadargs
+ELSE
+  whdload "MaupitiIslandFr.Slave"
+ENDIF

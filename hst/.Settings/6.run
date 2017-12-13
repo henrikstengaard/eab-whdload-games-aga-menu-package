@@ -1,0 +1,2 @@
+execute S:WHDLoadArgAdd ButtonWait
+echo "WHDLoad ButtonWait turned on"

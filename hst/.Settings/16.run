@@ -1,0 +1,2 @@
+execute S:WHDLoadArgAdd Preload
+echo "WHDLoad Preload turned on"

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:W/WarZoneParadox/"
+IF EXISTS ENV:whdloadargs
+  whdload "WarzoneParadox.Slave" $whdloadargs
+ELSE
+  whdload "WarzoneParadox.Slave"
+ENDIF

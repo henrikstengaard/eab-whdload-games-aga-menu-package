@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/AlienSyndrome/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlienSyndrome.slave" $whdloadargs
+ELSE
+  whdload "AlienSyndrome.slave"
+ENDIF

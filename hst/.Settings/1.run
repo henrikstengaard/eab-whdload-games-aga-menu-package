@@ -1,0 +1,7 @@
+IF EXISTS ENV:hstlaunchermusic
+  DELETE >NIL: ENV:hstlaunchermusic
+ENDIF
+IF EXISTS S:HSTLauncherMusic
+  execute S:HSTLauncherMusic STOP
+ENDIF
+echo "Music turned off"

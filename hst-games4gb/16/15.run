@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:O/OneStepBeyond/"
+IF EXISTS ENV:whdloadargs
+  whdload "OneStepBeyond.slave" $whdloadargs
+ELSE
+  whdload "OneStepBeyond.slave"
+ENDIF

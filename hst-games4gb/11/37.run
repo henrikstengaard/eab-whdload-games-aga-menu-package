@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:J/JumpNRoll/"
+IF EXISTS ENV:whdloadargs
+  whdload "JumpNRoll.Slave" $whdloadargs
+ELSE
+  whdload "JumpNRoll.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:B/BigRun/"
+IF EXISTS ENV:whdloadargs
+  whdload "BigRun.Slave" $whdloadargs
+ELSE
+  whdload "BigRun.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:T/Tecnoball/"
+IF EXISTS ENV:whdloadargs
+  whdload "Tecnoball.slave" $whdloadargs
+ELSE
+  whdload "Tecnoball.slave"
+ENDIF

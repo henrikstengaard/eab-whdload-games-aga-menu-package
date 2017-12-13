@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:M/MPythonsFlyingCircusNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "MPythonsFlyingCircusNTSC.Slave" $whdloadargs
+ELSE
+  whdload "MPythonsFlyingCircusNTSC.Slave"
+ENDIF

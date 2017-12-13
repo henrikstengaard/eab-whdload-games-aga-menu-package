@@ -1,0 +1,2 @@
+execute S:WHDLoadArgRemove ButtonWait
+echo "WHDLoad ButtonWait turned off"

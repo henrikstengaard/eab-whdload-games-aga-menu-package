@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/AlphaWaves/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlphaWaves.Slave" $whdloadargs
+ELSE
+  whdload "AlphaWaves.Slave"
+ENDIF

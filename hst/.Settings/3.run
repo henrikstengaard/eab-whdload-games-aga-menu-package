@@ -1,0 +1,21 @@
+IF NOT EXISTS SYS:Prefs/WHDLoad
+  MakePath >NIL: SYS:Prefs/WHDLoad
+ENDIF
+IF NOT EXISTS SYS:Prefs/HSTLauncher
+  MakePath >NIL: SYS:Prefs/HSTLauncher
+ENDIF
+IF EXISTS ENV:whdloadargs
+  copy >NIL: ENV:whdloadargs SYS:Prefs/WHDLoad/whdloadargs
+ELSE
+  IF EXISTS SYS:Prefs/WHDLoad/whdloadargs
+    Delete >NIL: SYS:Prefs/WHDLoad/whdloadargs
+  ENDIF
+ENDIF
+IF EXISTS ENV:hstlaunchermusic
+  copy >NIL: ENV:hstlaunchermusic SYS:Prefs/HSTLauncher/hstlaunchermusic
+ELSE
+  IF EXISTS SYS:Prefs/HSTLauncher/hstlaunchermusic
+    Delete >NIL: SYS:Prefs/HSTLauncher/hstlaunchermusic
+  ENDIF
+ENDIF
+echo "Settings saved"

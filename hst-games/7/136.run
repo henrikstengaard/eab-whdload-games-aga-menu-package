@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/FrankoPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "FrankoPl.Slave" $whdloadargs
+ELSE
+  whdload "FrankoPl.Slave"
+ENDIF

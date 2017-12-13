@@ -1,0 +1,2 @@
+execute S:WHDLoadArgAdd ExpChip
+echo "WHDLoad ExpChip turned on"

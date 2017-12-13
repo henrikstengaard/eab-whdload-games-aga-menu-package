@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:S/Sinbad/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sinbad.Slave" $whdloadargs
+ELSE
+  whdload "Sinbad.Slave"
+ENDIF

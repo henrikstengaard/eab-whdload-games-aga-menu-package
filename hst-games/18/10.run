@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:Q/QuikThunderRabbit/"
+IF EXISTS ENV:whdloadargs
+  whdload "QuikThunderRabbit.slave" $whdloadargs
+ELSE
+  whdload "QuikThunderRabbit.slave"
+ENDIF

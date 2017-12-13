@@ -1,0 +1,2 @@
+execute S:WHDLoadArgAdd NoCache
+echo "WHDLoad NoCache turned on"

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/F19StealthFighter/"
+IF EXISTS ENV:whdloadargs
+  whdload "F19StealthFighter.Slave" $whdloadargs
+ELSE
+  whdload "F19StealthFighter.Slave"
+ENDIF

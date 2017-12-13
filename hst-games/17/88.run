@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:P/PlayerManagerDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlayerManagerDe.slave" $whdloadargs
+ELSE
+  whdload "PlayerManagerDe.slave"
+ENDIF

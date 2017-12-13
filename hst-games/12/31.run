@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:K/KickOff2FinalWhistleDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "KickOff2FWDe.Slave" $whdloadargs
+ELSE
+  whdload "KickOff2FWDe.Slave"
+ENDIF

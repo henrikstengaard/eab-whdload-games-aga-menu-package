@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:0-9/4th&Inches/"
+IF EXISTS ENV:whdloadargs
+  whdload "4th&Inches.slave" $whdloadargs
+ELSE
+  whdload "4th&Inches.slave"
+ENDIF

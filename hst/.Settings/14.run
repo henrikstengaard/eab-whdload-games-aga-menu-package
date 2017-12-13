@@ -1,0 +1,2 @@
+execute S:WHDLoadArgAdd NoVBRMove
+echo "WHDLoad NoVBRMove turned on"

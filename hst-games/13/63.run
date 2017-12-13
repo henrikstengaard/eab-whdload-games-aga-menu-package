@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:L/Lemmings2NTSC1MB/"
+IF EXISTS ENV:whdloadargs
+  whdload "Lemmings2NTSC1MB.slave" $whdloadargs
+ELSE
+  whdload "Lemmings2NTSC1MB.slave"
+ENDIF

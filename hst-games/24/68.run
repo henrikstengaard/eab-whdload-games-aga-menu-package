@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:W/WindSurfWillyFast/"
+IF EXISTS ENV:whdloadargs
+  whdload "WindSurfWillyFast.slave" $whdloadargs
+ELSE
+  whdload "WindSurfWillyFast.slave"
+ENDIF

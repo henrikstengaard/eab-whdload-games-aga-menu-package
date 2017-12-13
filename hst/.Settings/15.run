@@ -1,0 +1,2 @@
+execute S:WHDLoadArgRemove Preload
+echo "WHDLoad Preload turned off"

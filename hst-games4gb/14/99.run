@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:M/Moonfall/"
+IF EXISTS ENV:whdloadargs
+  whdload "Moonfall.slave" $whdloadargs
+ELSE
+  whdload "Moonfall.slave"
+ENDIF

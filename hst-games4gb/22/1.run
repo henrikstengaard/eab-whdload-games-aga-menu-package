@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:U/UFOEnemyUnknownAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "UFOEnemyUnknownAGA.slave" $whdloadargs
+ELSE
+  whdload "UFOEnemyUnknownAGA.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/AquaventuraNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AquaventuraNTSC.Slave" $whdloadargs
+ELSE
+  whdload "AquaventuraNTSC.Slave"
+ENDIF

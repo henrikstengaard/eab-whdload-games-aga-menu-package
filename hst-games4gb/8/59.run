@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:G/Goldrunner/"
+IF EXISTS ENV:whdloadargs
+  whdload "Goldrunner.Slave" $whdloadargs
+ELSE
+  whdload "Goldrunner.Slave"
+ENDIF

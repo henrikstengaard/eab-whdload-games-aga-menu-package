@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:C/Castles/"
+IF EXISTS ENV:whdloadargs
+  whdload "Castles.slave" $whdloadargs
+ELSE
+  whdload "Castles.slave"
+ENDIF

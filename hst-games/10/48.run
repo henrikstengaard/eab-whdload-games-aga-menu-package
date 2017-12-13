@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:I/InternationalKarate+CD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "InternationalKarate+CD32.slave" $whdloadargs
+ELSE
+  whdload "InternationalKarate+CD32.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:C/ClouDeAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "ClouDeAGA.Slave" $whdloadargs
+ELSE
+  whdload "ClouDeAGA.Slave"
+ENDIF

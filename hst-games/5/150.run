@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:D/DrachenVonLaasDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "DrachenVonLaasDe.slave" $whdloadargs
+ELSE
+  whdload "DrachenVonLaasDe.slave"
+ENDIF

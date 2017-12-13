@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/Fusion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Fusion.Slave" $whdloadargs
+ELSE
+  whdload "Fusion.Slave"
+ENDIF

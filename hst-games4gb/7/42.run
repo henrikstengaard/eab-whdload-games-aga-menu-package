@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/FighterDuelPro/"
+IF EXISTS ENV:whdloadargs
+  whdload "FighterDuelPro.Slave" $whdloadargs
+ELSE
+  whdload "FighterDuelPro.Slave"
+ENDIF

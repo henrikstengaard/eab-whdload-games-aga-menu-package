@@ -1,0 +1,2 @@
+execute S:WHDLoadArgRemove NoVBRMove
+echo "WHDLoad NoVBRMove turned off"

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:S/SimAntLoRes/"
+IF EXISTS ENV:whdloadargs
+  whdload "SimAntLoRes.slave" $whdloadargs
+ELSE
+  whdload "SimAntLoRes.slave"
+ENDIF

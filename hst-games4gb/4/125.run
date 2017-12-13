@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:C/CoolSpot/"
+IF EXISTS ENV:whdloadargs
+  whdload "CoolSpot.slave" $whdloadargs
+ELSE
+  whdload "CoolSpot.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/Archipelagos/"
+IF EXISTS ENV:whdloadargs
+  whdload "Archipelagos.Slave" $whdloadargs
+ELSE
+  whdload "Archipelagos.Slave"
+ENDIF

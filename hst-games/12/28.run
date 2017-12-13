@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:K/KickOff2Es/"
+IF EXISTS ENV:whdloadargs
+  whdload "KickOff2Es.slave" $whdloadargs
+ELSE
+  whdload "KickOff2Es.slave"
+ENDIF

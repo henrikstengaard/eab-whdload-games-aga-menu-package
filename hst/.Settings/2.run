@@ -1,0 +1,5 @@
+echo "" >ENV:hstlaunchermusic
+IF EXISTS S:HSTLauncherMusic
+  execute S:HSTLauncherMusic START
+ENDIF
+echo "Music turned on"

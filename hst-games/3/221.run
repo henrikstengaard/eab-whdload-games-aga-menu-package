@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:B/BurnoutAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "BurnoutAGA.slave" $whdloadargs
+ELSE
+  whdload "BurnoutAGA.slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:Q/QueteLOiseauDuTempFrImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "QueteLOiseauDuTempFrImage.Slave" $whdloadargs
+ELSE
+  whdload "QueteLOiseauDuTempFrImage.Slave"
+ENDIF

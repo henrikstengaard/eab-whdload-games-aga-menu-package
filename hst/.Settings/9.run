@@ -1,0 +1,2 @@
+execute S:WHDLoadArgRemove NoAutoVec
+echo "WHDLoad NoAutoVec turned off"

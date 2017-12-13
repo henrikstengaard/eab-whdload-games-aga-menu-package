@@ -1,0 +1,16 @@
+echo "Settings:" >T:_settings
+
+IF EXISTS ENV:hstlaunchermusic
+  echo "Music is turned on" NOLINE >>T:_settings
+ELSE
+  echo "Music is turned off" NOLINE >>T:_settings
+ENDIF
+
+echo "**N" NOLINE >>T:_settings
+IF EXISTS ENV:whdloadargs
+  echo "WHDLoad arguments: '$whdloadargs'" NOLINE >>T:_settings
+ELSE
+  echo "WHDLoad arguments: ''" NOLINE >>T:_settings
+ENDIF
+REQUESTCHOICE "Settings" "`type T:_settings`" "OK" >NIL:
+Delete >NIL: T:_settings

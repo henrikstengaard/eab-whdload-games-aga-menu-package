@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:P/Powerdrome/"
+IF EXISTS ENV:whdloadargs
+  whdload "Powerdrome.Slave" $whdloadargs
+ELSE
+  whdload "Powerdrome.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:C/CurseOfRa/"
+IF EXISTS ENV:whdloadargs
+  whdload "CurseOfRa.slave" $whdloadargs
+ELSE
+  whdload "CurseOfRa.slave"
+ENDIF

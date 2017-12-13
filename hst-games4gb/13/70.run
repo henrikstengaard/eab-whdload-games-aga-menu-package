@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:L/Lorna/"
+IF EXISTS ENV:whdloadargs
+  whdload "Lorna.slave" $whdloadargs
+ELSE
+  whdload "Lorna.slave"
+ENDIF

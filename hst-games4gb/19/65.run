@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:R/RobotReaderAesopsFables/"
+IF EXISTS ENV:whdloadargs
+  whdload "RobotReaderAesopsFables.Slave" $whdloadargs
+ELSE
+  whdload "RobotReaderAesopsFables.Slave"
+ENDIF

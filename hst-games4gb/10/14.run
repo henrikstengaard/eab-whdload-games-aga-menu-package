@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:I/IndianaJonesAtlantisAdv/"
+IF EXISTS ENV:whdloadargs
+  whdload "IndianaJonesAtlantisAdv.slave" $whdloadargs
+ELSE
+  whdload "IndianaJonesAtlantisAdv.slave"
+ENDIF

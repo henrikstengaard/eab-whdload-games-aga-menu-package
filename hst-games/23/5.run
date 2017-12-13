@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:V/ValhallaLordOfInfinity/"
+IF EXISTS ENV:whdloadargs
+  whdload "ValhallaLordOfInfinity.slave" $whdloadargs
+ELSE
+  whdload "ValhallaLordOfInfinity.slave"
+ENDIF

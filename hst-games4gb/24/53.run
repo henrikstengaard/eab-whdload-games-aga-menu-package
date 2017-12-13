@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:W/Wings/"
+IF EXISTS ENV:whdloadargs
+  whdload "Wings.slave" $whdloadargs
+ELSE
+  whdload "Wings.slave"
+ENDIF

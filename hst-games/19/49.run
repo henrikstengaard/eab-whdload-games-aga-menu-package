@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:R/ReunionAGADe/"
+IF EXISTS ENV:whdloadargs
+  whdload "ReunionAGADe.slave" $whdloadargs
+ELSE
+  whdload "ReunionAGADe.slave"
+ENDIF
