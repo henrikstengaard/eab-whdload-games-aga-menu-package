@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:W/Winzer/"
+IF EXISTS ENV:whdloadargs
+  whdload "Winzer.slave" $whdloadargs
+ELSE
+  whdload "Winzer.slave"
+ENDIF

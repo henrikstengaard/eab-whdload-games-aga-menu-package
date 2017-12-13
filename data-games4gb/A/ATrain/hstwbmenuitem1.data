@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=A-Train
+RunFile=ATrain.slave
+AGS2Name=A-Train
+iGameName=A-Train

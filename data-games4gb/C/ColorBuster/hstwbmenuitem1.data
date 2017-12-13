@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Color Buster
+RunFile=ColorBuster.slave
+AGS2Name=Color Buster
+iGameName=Color Buster

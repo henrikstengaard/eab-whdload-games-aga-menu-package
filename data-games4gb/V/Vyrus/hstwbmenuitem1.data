@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Vyrus
+RunFile=Vyrus.Slave
+AGS2Name=Vyrus
+iGameName=Vyrus

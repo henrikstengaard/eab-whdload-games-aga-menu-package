@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/Fireblaster/"
+IF EXISTS ENV:whdloadargs
+  whdload "Fireblaster.Slave" $whdloadargs
+ELSE
+  whdload "Fireblaster.Slave"
+ENDIF

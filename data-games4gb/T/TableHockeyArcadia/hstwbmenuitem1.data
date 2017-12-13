@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=SportTime Table Hockey
+RunFile=TableHockeyArcadia.Slave
+AGS2Name=SportTime Table Hockey
+iGameName=SportTime Table Hockey

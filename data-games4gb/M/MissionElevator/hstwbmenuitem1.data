@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Mission Elevator
+RunFile=MissionElevator.Slave
+AGS2Name=Mission Elevator
+iGameName=Mission Elevator

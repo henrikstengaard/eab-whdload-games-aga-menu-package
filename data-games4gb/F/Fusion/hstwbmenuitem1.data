@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Fusion
+RunFile=Fusion.Slave
+AGS2Name=Fusion
+iGameName=Fusion

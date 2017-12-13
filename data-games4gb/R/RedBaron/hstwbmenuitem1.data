@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Red Baron
+RunFile=RedBaron.slave
+AGS2Name=Red Baron
+iGameName=Red Baron

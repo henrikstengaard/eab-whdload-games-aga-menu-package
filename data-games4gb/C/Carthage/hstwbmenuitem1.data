@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Carthage
+RunFile=Carthage.Slave
+AGS2Name=Carthage
+iGameName=Carthage

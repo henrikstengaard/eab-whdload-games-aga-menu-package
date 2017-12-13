@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Globulus
+RunFile=Globulus.slave
+AGS2Name=Globulus
+iGameName=Globulus

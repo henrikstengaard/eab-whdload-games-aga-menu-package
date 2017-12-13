@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Interphase
+RunFile=Interphase.slave
+AGS2Name=Interphase
+iGameName=Interphase

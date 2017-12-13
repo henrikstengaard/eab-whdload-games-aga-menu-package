@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Cabal
+RunFile=Cabal.slave
+AGS2Name=Cabal
+iGameName=Cabal

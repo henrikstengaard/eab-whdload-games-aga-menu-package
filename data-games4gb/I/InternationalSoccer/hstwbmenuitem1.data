@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=International Soccer
+RunFile=InternationalSoccer.Slave
+AGS2Name=International Soccer
+iGameName=International Soccer

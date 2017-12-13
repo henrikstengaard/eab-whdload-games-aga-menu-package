@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Locomotion
+RunFile=Locomotion.Slave
+AGS2Name=Locomotion
+iGameName=Locomotion

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Ghost Chaser
+RunFile=GhostChaser.Slave
+AGS2Name=Ghost Chaser
+iGameName=Ghost Chaser

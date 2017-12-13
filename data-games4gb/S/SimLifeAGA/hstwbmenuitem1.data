@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=SimLife AGA
+RunFile=SimLifeAGA.Slave
+AGS2Name=SimLife AGA
+iGameName=SimLife AGA

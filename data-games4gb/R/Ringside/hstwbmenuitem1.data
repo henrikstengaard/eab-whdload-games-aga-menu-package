@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Ringside
+RunFile=Ringside.Slave
+AGS2Name=Ringside
+iGameName=Ringside

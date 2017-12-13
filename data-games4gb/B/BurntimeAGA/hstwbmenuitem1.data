@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Burntime AGA
+RunFile=BurntimeAGA.Slave
+AGS2Name=Burntime AGA
+iGameName=Burntime AGA

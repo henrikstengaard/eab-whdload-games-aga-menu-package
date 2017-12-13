@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/ArcherMacleansPool/"
+IF EXISTS ENV:whdloadargs
+  whdload "ArcherMacleansPool.Slave" $whdloadargs
+ELSE
+  whdload "ArcherMacleansPool.Slave"
+ENDIF

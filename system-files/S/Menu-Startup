@@ -1,0 +1,29 @@
+; Menu Startup
+; ------------
+
+
+; Execute remove AGS2 favourites, if it exists
+IF EXISTS S:RemoveAgs2Favourites
+	execute S:RemoveAgs2Favourites
+	delete >NIL: S:RemoveAgs2Favourites
+ENDIF 
+
+; Load whdloadargs to env, if it exists
+IF EXISTS SYS:Prefs/WHDLoad/whdloadargs
+  copy >NIL: SYS:Prefs/WHDLoad/whdloadargs ENV:whdloadargs
+ENDIF
+
+; Load ags2favouritesmode to env, if it exists
+IF EXISTS SYS:Prefs/AGS2/ags2favouritesmode
+  copy >NIL: SYS:Prefs/AGS2/ags2favouritesmode ENV:ags2favouritesmode
+ENDIF
+
+; Load ags2music to env, if it exists
+IF EXISTS SYS:Prefs/AGS2/ags2music
+  copy >NIL: SYS:Prefs/AGS2/ags2music ENV:ags2music
+ENDIF
+
+; Load hstlaunchermusic to env, if it exists
+IF EXISTS SYS:Prefs/HSTLauncher/hstlaunchermusic
+  copy >NIL: SYS:Prefs/HSTLauncher/hstlaunchermusic ENV:hstlaunchermusic
+ENDIF

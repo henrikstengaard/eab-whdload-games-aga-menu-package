@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:OsWALDOfTheIceFloes/"
-IF EXISTS ENV:whdloadargs
-  whdload "OsWALDOfTheIceFloes.Slave" $whdloadargs
-ELSE
-  whdload "OsWALDOfTheIceFloes.Slave"
-ENDIF

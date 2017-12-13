@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Paramax
+RunFile=Paramax.Slave
+AGS2Name=Paramax
+iGameName=Paramax

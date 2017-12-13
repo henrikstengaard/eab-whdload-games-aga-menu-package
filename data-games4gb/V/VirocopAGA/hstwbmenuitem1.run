@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:V/VirocopAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "VirocopAGA.slave" $whdloadargs
+ELSE
+  whdload "VirocopAGA.slave"
+ENDIF

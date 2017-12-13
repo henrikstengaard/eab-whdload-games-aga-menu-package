@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Bar Games
+RunFile=BarGames.Slave
+AGS2Name=Bar Games
+iGameName=Bar Games

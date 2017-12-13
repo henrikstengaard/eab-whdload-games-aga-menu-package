@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Cosmic Bouncer
+RunFile=CosmicBouncer.Slave
+AGS2Name=Cosmic Bouncer
+iGameName=Cosmic Bouncer

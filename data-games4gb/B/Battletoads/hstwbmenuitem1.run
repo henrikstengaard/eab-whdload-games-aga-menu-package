@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:B/Battletoads/"
+IF EXISTS ENV:whdloadargs
+  whdload "Battletoads.slave" $whdloadargs
+ELSE
+  whdload "Battletoads.slave"
+ENDIF

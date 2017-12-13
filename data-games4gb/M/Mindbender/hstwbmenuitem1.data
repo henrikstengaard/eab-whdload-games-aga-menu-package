@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Mindbender
+RunFile=Mindbender.Slave
+AGS2Name=Mindbender
+iGameName=Mindbender

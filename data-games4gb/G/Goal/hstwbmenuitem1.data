@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Goal!
+RunFile=Goal.slave
+AGS2Name=Goal
+iGameName=Goal!

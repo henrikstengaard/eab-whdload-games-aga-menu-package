@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:BattlestormCDTV/"
-IF EXISTS ENV:whdloadargs
-  whdload "BattlestormCDTV.Slave" $whdloadargs
-ELSE
-  whdload "BattlestormCDTV.Slave"
-ENDIF

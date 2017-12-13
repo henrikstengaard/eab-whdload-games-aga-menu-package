@@ -1,0 +1,7 @@
+Name      : Tower of Souls
+Version   : AGA
+Publisher : Black Legend
+Year      : 1995
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+RunFile   : TowerOfSoulsAGA.Slave

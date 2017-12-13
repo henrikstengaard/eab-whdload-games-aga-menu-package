@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Titanic Blinky
+RunFile=TitanicBlinky.Slave
+AGS2Name=Titanic Blinky
+iGameName=Titanic Blinky

@@ -1,0 +1,5 @@
+Name      : ACSYS: Autonomous Cybernetic System
+Version   : AGA Demo
+Publisher : (unknown)
+Players   : 1 Only
+RunFile   : ACSYSDemoAGA.slave

@@ -1,0 +1,6 @@
+Name      : Captain Planet and the Planeteers
+Version   : Planeteers
+Publisher : Mindscape
+Year      : 1991
+Players   : 1 Only
+RunFile   : CaptainPlanet&Planeteers.Slave

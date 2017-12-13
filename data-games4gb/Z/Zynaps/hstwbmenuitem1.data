@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Zynaps
+RunFile=Zynaps.slave
+AGS2Name=Zynaps
+iGameName=Zynaps

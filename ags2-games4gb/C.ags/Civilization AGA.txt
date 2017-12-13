@@ -1,0 +1,7 @@
+Name      : Civilization
+Version   : AGA
+Publisher : Software Demon
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : CivilizationAGA.slave

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:Q/QuestForTimeBirdImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "QuestForTimeBirdImage.Slave" $whdloadargs
+ELSE
+  whdload "QuestForTimeBirdImage.Slave"
+ENDIF

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Nuclear War
+RunFile=NuclearWar.Slave
+AGS2Name=Nuclear War
+iGameName=Nuclear War

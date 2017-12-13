@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Quiksilver Pinball
+RunFile=QuiksilverPinball.Slave
+AGS2Name=Quiksilver Pinball
+iGameName=Quiksilver Pinball

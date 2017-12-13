@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Swap
+RunFile=Swap.Slave
+AGS2Name=Swap
+iGameName=Swap

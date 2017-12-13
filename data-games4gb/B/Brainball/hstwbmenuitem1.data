@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Brainball
+RunFile=Brainball.slave
+AGS2Name=Brainball
+iGameName=Brainball

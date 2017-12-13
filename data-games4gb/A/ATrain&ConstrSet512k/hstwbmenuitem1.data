@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=A-Train 512K ConstrSet 512K
+RunFile=ATrain512K.slave
+AGS2Name=A-Train 512K ConstrSet 512
+iGameName=A-Train 512K ConstrSet 512K

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:T/Targhan/"
+IF EXISTS ENV:whdloadargs
+  whdload "Targhan.Slave" $whdloadargs
+ELSE
+  whdload "Targhan.Slave"
+ENDIF

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Stormlord
+RunFile=Stormlord.Slave
+AGS2Name=Stormlord
+iGameName=Stormlord

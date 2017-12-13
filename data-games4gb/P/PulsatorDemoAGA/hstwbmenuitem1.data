@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Pulsator AGA Demo
+RunFile=PulsatorDemoAGA.Slave
+AGS2Name=Pulsator AGA Demo
+iGameName=Pulsator AGA Demo

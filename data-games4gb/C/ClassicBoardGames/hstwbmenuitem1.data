@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Classic Board Games
+RunFile=ClassicBoardGames.slave
+AGS2Name=Classic Board Games
+iGameName=Classic Board Games

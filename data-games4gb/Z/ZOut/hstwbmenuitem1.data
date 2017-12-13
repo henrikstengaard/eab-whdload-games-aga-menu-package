@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Z-Out
+RunFile=ZOut.slave
+AGS2Name=Z-Out
+iGameName=Z-Out

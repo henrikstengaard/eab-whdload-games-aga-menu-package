@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Vegas Gambler
+RunFile=VegasGambler.Slave
+AGS2Name=Vegas Gambler
+iGameName=Vegas Gambler

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:SkateOfTheArt/"
-IF EXISTS ENV:whdloadargs
-  whdload "SkateOfTheArt.Slave" $whdloadargs
-ELSE
-  whdload "SkateOfTheArt.Slave"
-ENDIF

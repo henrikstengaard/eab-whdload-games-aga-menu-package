@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Perihelion
+RunFile=Perihelion.Slave
+AGS2Name=Perihelion
+iGameName=Perihelion

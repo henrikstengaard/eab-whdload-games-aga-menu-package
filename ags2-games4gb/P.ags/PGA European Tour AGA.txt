@@ -1,0 +1,7 @@
+Name      : PGA European Tour
+Version   : AGA
+Publisher : Ocean
+Year      : 1994
+Genre     : Sports - Golf
+Players   : 1 to 4
+RunFile   : PGAEuropeanTourAGA.Slave

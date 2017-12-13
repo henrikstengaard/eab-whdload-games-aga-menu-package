@@ -1,0 +1,7 @@
+Name      : Dennis
+Version   : AGA
+Publisher : Ocean
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : DennisAGA.slave

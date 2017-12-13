@@ -1,0 +1,6 @@
+Name      : Missiles over Xerion
+Version   : AGA
+Publisher : Kingsoft
+Year      : 1994
+Players   : 1 Only
+RunFile   : MissilesOverXerion.slave

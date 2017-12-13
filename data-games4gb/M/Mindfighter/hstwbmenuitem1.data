@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Mindfighter
+RunFile=Mindfighter.Slave
+AGS2Name=Mindfighter
+iGameName=Mindfighter

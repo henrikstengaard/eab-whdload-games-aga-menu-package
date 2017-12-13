@@ -1,0 +1,7 @@
+Name      : Bubble and Squeak
+Version   : AGA
+Publisher : Audiogenic
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : Bubble&SqueakAGA.slave

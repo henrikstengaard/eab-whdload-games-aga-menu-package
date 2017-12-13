@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Firepower
+RunFile=Firepower.Slave
+AGS2Name=Firepower
+iGameName=Firepower

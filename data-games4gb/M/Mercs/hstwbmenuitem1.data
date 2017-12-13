@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Mercs
+RunFile=Mercs.Slave
+AGS2Name=Mercs
+iGameName=Mercs

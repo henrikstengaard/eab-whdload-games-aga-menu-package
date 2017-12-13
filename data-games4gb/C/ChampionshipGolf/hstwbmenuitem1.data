@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Championship Golf
+RunFile=ChampionshipGolf.Slave
+AGS2Name=Championship Golf
+iGameName=Championship Golf

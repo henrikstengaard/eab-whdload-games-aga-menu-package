@@ -1,0 +1,4 @@
+Name      : Sixiang
+Publisher : Kingsoft
+Year      : 1989
+RunFile   : Sixiang.Slave

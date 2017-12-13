@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Dominium
+RunFile=Dominium.Slave
+AGS2Name=Dominium
+iGameName=Dominium

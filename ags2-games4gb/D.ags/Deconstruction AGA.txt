@@ -1,0 +1,6 @@
+Name      : Deconstruction
+Version   : AGA
+Year      : 1996
+Genre     : Reaction & Navigation
+Players   : 1
+RunFile   : DeconstructionAGA.Slave

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Drip
+RunFile=Drip.Slave
+AGS2Name=Drip
+iGameName=Drip

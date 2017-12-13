@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Face Off
+RunFile=FaceOff.Slave
+AGS2Name=Face Off
+iGameName=Face Off

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Embryo
+RunFile=Embryo.Slave
+AGS2Name=Embryo
+iGameName=Embryo

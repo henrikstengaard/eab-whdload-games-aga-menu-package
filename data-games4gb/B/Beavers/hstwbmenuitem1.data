@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Beavers
+RunFile=Beavers.slave
+AGS2Name=Beavers
+iGameName=Beavers

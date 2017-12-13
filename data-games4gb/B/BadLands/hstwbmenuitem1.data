@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=BadLands
+RunFile=Badlands.slave
+AGS2Name=BadLands
+iGameName=BadLands

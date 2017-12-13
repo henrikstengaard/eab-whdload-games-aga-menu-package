@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Ooze
+RunFile=Ooze.Slave
+AGS2Name=Ooze
+iGameName=Ooze

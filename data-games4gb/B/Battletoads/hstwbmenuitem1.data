@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Battletoads
+RunFile=Battletoads.slave
+AGS2Name=Battletoads
+iGameName=Battletoads

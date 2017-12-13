@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Star Command
+RunFile=StarCommand.Slave
+AGS2Name=Star Command
+iGameName=Star Command

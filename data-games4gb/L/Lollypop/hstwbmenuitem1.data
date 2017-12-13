@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Lollypop
+RunFile=Lollypop.Slave
+AGS2Name=Lollypop
+iGameName=Lollypop

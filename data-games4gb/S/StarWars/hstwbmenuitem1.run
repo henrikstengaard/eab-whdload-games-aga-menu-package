@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:S/StarWars/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarWars.Slave" $whdloadargs
+ELSE
+  whdload "StarWars.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:O/OperationCombat2/"
+IF EXISTS ENV:whdloadargs
+  whdload "OperationCombat2.Slave" $whdloadargs
+ELSE
+  whdload "OperationCombat2.Slave"
+ENDIF

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Battle Command
+RunFile=BattleCommand.slave
+AGS2Name=Battle Command
+iGameName=Battle Command

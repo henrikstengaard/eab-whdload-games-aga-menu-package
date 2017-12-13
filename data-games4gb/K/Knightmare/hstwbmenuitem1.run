@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:K/Knightmare/"
+IF EXISTS ENV:whdloadargs
+  whdload "Knightmare.slave" $whdloadargs
+ELSE
+  whdload "Knightmare.slave"
+ENDIF

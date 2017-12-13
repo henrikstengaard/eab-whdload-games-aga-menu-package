@@ -1,0 +1,5 @@
+Name      : Apache Flight
+Publisher : Atlantis Software
+Year      : 1992
+Players   : 1 Only
+RunFile   : ApacheFlight.slave

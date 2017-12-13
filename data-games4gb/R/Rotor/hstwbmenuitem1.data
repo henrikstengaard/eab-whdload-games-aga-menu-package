@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Rotor
+RunFile=Rotor.slave
+AGS2Name=Rotor
+iGameName=Rotor

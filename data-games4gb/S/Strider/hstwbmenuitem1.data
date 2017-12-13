@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Strider
+RunFile=Strider.Slave
+AGS2Name=Strider
+iGameName=Strider

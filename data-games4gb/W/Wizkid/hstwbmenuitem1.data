@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Wizkid
+RunFile=Wizkid.Slave
+AGS2Name=Wizkid
+iGameName=Wizkid

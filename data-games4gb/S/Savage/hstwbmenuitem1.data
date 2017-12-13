@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Savage
+RunFile=Savage.Slave
+AGS2Name=Savage
+iGameName=Savage

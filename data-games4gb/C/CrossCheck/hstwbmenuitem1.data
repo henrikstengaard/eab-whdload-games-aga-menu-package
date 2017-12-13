@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=CrossCheck
+RunFile=CrossCheck.slave
+AGS2Name=CrossCheck
+iGameName=CrossCheck

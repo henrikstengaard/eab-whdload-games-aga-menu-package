@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=PGA Tour Golf
+RunFile=PGATourGolf.Slave
+AGS2Name=PGA Tour Golf
+iGameName=PGA Tour Golf

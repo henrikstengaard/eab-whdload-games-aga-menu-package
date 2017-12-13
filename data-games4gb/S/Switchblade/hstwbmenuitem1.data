@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Switchblade
+RunFile=Switchblade.Slave
+AGS2Name=Switchblade
+iGameName=Switchblade

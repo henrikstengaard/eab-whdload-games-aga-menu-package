@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Wormsigns
+RunFile=Wormsigns.Slave
+AGS2Name=Wormsigns
+iGameName=Wormsigns

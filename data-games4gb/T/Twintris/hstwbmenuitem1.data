@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Twintris
+RunFile=Twintris.Slave
+AGS2Name=Twintris
+iGameName=Twintris

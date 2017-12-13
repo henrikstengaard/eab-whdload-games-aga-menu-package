@@ -1,0 +1,5 @@
+Name      : Technology 2
+Publisher : Mental Image
+Year      : 1994
+Players   : 1
+RunFile   : Technology2.Slave

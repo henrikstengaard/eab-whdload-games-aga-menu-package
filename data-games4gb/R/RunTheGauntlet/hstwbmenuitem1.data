@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Run the Gauntlet
+RunFile=RunTheGauntlet.Slave
+AGS2Name=Run the Gauntlet
+iGameName=Run the Gauntlet

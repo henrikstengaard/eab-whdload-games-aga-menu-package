@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Inertia Drive
+RunFile=InertiaDrive.Slave
+AGS2Name=Inertia Drive
+iGameName=Inertia Drive

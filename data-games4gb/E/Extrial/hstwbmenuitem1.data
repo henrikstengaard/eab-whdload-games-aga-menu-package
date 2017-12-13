@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Extrial
+RunFile=Extrial.slave
+AGS2Name=Extrial
+iGameName=Extrial

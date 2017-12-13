@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Turbo Cup
+RunFile=TurboCup.Slave
+AGS2Name=Turbo Cup
+iGameName=Turbo Cup

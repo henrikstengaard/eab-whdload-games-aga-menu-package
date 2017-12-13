@@ -1,0 +1,7 @@
+Name      : Colonization
+Version   : AGA
+Publisher : MicroProse Software
+Year      : 1995
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : ColonizationAGA.Slave

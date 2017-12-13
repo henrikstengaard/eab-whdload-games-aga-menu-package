@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Logo
+RunFile=Logo.Slave
+AGS2Name=Logo
+iGameName=Logo

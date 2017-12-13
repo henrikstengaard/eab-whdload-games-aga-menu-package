@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Realms
+RunFile=Realms.Slave
+AGS2Name=Realms
+iGameName=Realms

@@ -1,0 +1,5 @@
+Name      : Metal Mutant
+Publisher : Silmarils
+Year      : 1991
+Players   : 1 Only
+RunFile   : MetalMutant.slave

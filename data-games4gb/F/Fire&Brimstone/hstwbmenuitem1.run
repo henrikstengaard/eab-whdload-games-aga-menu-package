@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:F/Fire&Brimstone/"
+IF EXISTS ENV:whdloadargs
+  whdload "Fire&Brimstone.slave" $whdloadargs
+ELSE
+  whdload "Fire&Brimstone.slave"
+ENDIF

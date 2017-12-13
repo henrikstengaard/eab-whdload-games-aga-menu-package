@@ -1,0 +1,7 @@
+Name      : Subwar 2050
+Version   : AGA
+Publisher : MicroProse Software
+Year      : 1995
+Genre     : Simulation - Marine
+Players   : 1 Only
+RunFile   : Subwar2050AGA.slave

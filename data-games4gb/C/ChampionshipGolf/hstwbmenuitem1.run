@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:C/ChampionshipGolf/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChampionshipGolf.Slave" $whdloadargs
+ELSE
+  whdload "ChampionshipGolf.Slave"
+ENDIF

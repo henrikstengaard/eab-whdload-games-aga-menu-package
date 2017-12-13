@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Kult
+RunFile=Kult.slave
+AGS2Name=Kult
+iGameName=Kult

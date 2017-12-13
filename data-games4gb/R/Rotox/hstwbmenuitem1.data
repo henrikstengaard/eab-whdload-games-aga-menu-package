@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Rotox
+RunFile=Rotox.slave
+AGS2Name=Rotox
+iGameName=Rotox

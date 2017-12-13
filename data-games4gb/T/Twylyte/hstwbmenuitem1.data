@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Twylyte
+RunFile=Twylyte.Slave
+AGS2Name=Twylyte
+iGameName=Twylyte

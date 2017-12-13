@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Xenon
+RunFile=Xenon.slave
+AGS2Name=Xenon
+iGameName=Xenon

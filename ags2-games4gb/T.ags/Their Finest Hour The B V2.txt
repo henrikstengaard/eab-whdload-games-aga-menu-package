@@ -1,0 +1,7 @@
+Name      : Their Finest Hour: The Battle of Britain
+Version   : Missions
+Publisher : Lucasfilm Games
+Year      : 1990
+Genre     : Simulation - Flight
+Players   : 1 Only
+RunFile   : TheirFinestHour&Missions.Slave

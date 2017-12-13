@@ -1,0 +1,6 @@
+Name      : Brutal Football [AGA]
+Version   : AGA
+Publisher : Millennium
+Year      : 1993
+Players   : 1 - 8 (2 simultaneous)
+RunFile   : BrutalFootballAGA.slave

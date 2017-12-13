@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Time Bandit
+RunFile=TimeBandit.slave
+AGS2Name=Time Bandit
+iGameName=Time Bandit

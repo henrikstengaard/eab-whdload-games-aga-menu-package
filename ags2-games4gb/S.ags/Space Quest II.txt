@@ -1,0 +1,5 @@
+Name      : Space Quest II
+Publisher : Sierra
+Year      : 1988
+Players   : 1
+RunFile   : SpaceQuest2.slave

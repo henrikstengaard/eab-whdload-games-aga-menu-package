@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:W/WinterChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "WinterChallenge.Slave" $whdloadargs
+ELSE
+  whdload "WinterChallenge.Slave"
+ENDIF

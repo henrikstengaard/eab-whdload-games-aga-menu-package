@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Super Space Invaders
+RunFile=SuperSpaceInvaders.slave
+AGS2Name=Super Space Invaders
+iGameName=Super Space Invaders

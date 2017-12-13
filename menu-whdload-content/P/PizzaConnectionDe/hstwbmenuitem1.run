@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:PizzaConnectionDe/"
-IF EXISTS ENV:whdloadargs
-  whdload "PizzaConnectionDe.Slave" $whdloadargs
-ELSE
-  whdload "PizzaConnectionDe.Slave"
-ENDIF

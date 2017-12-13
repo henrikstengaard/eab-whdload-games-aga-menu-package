@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/AlloAllo/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlloAllo.Slave" $whdloadargs
+ELSE
+  whdload "AlloAllo.Slave"
+ENDIF

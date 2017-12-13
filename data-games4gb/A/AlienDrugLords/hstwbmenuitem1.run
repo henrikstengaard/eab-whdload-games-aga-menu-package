@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:A/AlienDrugLords/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlienDrugLords.Slave" $whdloadargs
+ELSE
+  whdload "AlienDrugLords.Slave"
+ENDIF

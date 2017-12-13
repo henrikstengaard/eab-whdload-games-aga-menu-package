@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Robozone
+RunFile=Robozone.slave
+AGS2Name=Robozone
+iGameName=Robozone

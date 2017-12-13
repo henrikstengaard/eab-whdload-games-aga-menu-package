@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:R/RoadRash/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoadRash.Slave" $whdloadargs
+ELSE
+  whdload "RoadRash.Slave"
+ENDIF

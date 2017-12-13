@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Castle Master
+RunFile=CastleMaster.Slave
+AGS2Name=Castle Master
+iGameName=Castle Master

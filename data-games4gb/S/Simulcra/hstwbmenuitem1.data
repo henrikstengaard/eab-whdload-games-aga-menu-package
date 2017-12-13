@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Simulcra
+RunFile=Simulcra.Slave
+AGS2Name=Simulcra
+iGameName=Simulcra

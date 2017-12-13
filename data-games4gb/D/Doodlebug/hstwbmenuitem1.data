@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Doodlebug
+RunFile=Doodlebug.slave
+AGS2Name=Doodlebug
+iGameName=Doodlebug

@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:L/Lotus3/"
+IF EXISTS ENV:whdloadargs
+  whdload "lotus3.slave" $whdloadargs
+ELSE
+  whdload "lotus3.slave"
+ENDIF

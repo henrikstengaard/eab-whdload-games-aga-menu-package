@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Amnios
+RunFile=Amnios.Slave
+AGS2Name=Amnios
+iGameName=Amnios

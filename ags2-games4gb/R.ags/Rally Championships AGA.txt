@@ -1,0 +1,7 @@
+Name      : Rally Championships
+Version   : AGA
+Publisher : Flair Software
+Year      : 1994
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : RallyChampionshipsAGA.Slave

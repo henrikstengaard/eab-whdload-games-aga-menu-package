@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Time and Magik
+RunFile=TimeAndMagik.Slave
+AGS2Name=Time and Magik
+iGameName=Time and Magik

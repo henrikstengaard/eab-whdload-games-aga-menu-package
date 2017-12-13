@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:S/SkiOrDie/"
+IF EXISTS ENV:whdloadargs
+  whdload "SkiOrDie.Slave" $whdloadargs
+ELSE
+  whdload "SkiOrDie.Slave"
+ENDIF

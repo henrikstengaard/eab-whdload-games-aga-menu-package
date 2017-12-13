@@ -1,0 +1,6 @@
+Name      : Test Drive II: The Duel
+Publisher : Accolade
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : TestDrive2.slave

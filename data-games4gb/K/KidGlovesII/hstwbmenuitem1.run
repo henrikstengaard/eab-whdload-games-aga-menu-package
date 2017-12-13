@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:K/KidGlovesII/"
+IF EXISTS ENV:whdloadargs
+  whdload "KidGlovesII.Slave" $whdloadargs
+ELSE
+  whdload "KidGlovesII.Slave"
+ENDIF

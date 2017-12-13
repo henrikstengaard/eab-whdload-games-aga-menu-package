@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Mad Show
+RunFile=MadShow.Slave
+AGS2Name=Mad Show
+iGameName=Mad Show

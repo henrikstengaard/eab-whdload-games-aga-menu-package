@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Spot
+RunFile=Spot.Slave
+AGS2Name=Spot
+iGameName=Spot

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Qix
+RunFile=Qix.Slave
+AGS2Name=Qix
+iGameName=Qix

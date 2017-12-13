@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Battle Chess
+RunFile=BattleChess.slave
+AGS2Name=Battle Chess
+iGameName=Battle Chess

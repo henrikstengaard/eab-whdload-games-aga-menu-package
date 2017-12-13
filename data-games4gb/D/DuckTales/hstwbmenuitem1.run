@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:D/DuckTales/"
+IF EXISTS ENV:whdloadargs
+  whdload "DuckTales.slave" $whdloadargs
+ELSE
+  whdload "DuckTales.slave"
+ENDIF

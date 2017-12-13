@@ -1,0 +1,7 @@
+; Run WHDLoad
+cd "A-Games:I/Indianapolis500/"
+IF EXISTS ENV:whdloadargs
+  whdload "Indianapolis500.slave" $whdloadargs
+ELSE
+  whdload "Indianapolis500.slave"
+ENDIF

@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Spaceball
+RunFile=Spaceball.Slave
+AGS2Name=Spaceball
+iGameName=Spaceball
