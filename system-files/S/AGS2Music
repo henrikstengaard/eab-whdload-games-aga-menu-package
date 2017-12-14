@@ -5,7 +5,7 @@
 ; AGS2 Music
 ; ----------
 ;
-; Date: 2017-12-13
+; Date: 2017-12-14
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to start and stop AGS2 music.
@@ -17,11 +17,6 @@ ENDIF
 
 ; Skip end, if ags2dir music directory doesn't exist
 IF NOT EXISTS "$ags2dir/music"
-  SKIP end
-ENDIF
-
-; Skip end, if ags2music env doesn't exist
-IF NOT EXISTS "ENV:ags2music"
   SKIP end
 ENDIF
 
