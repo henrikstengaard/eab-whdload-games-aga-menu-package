@@ -1,0 +1,5 @@
+Change WHDLoad Splash Delay
+
+Use this option to change 
+splash delay when starting
+WHDLoad.

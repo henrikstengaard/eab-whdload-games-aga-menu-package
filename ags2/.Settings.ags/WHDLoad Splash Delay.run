@@ -1,0 +1,33 @@
+echo "*ec" NOLINE
+ 
+; End, if whdload.prefs doesn't exist
+IF NOT EXISTS "S:WHDLoad.prefs"
+  SKIP end
+ENDIF
+
+; Disable existing splash deplay
+rep "S:WHDLoad.prefs" "SplashDelay" ";SplashDelay"
+
+; Select WHDLoad Splash Delay
+set splashdelay `RequestChoice "WHDLoad Splash Delay" "Select splash delay for WHDLoad" "0|50|100|150|200|Default"`
+If $splashdelay eq "1"
+  echo "SplashDelay=0" >>S:WHDLoad.prefs
+EndIf
+If $splashdelay eq "2"
+  echo "SplashDelay=50" >>S:WHDLoad.prefs
+EndIf
+If $splashdelay eq "3"
+  echo "SplashDelay=100" >>S:WHDLoad.prefs
+EndIf
+If $splashdelay eq "4"
+  echo "SplashDelay=150" >>S:WHDLoad.prefs
+EndIf
+If $splashdelay eq "5"
+  echo "SplashDelay=200" >>S:WHDLoad.prefs
+EndIf
+
+; End
+LAB end
+
+wait 1
+echo "*ec" NOLINE
