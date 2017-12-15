@@ -1,4 +1,4 @@
-echo "*ec"
+echo "*ec" NOLINE
 
 ; Disable existing quit key
 rep "S:WHDLoad.prefs" "QuitKey" ";QuitKey"
@@ -28,4 +28,4 @@ If $quitkey eq "7"
 EndIf
 
 wait 1
-echo "*ec"
+echo "*ec" NOLINE

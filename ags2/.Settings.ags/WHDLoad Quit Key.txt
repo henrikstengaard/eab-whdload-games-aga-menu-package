@@ -1,5 +1,4 @@
 Change WHDLoad Quit Key
 
-Use this option to change and
-select set a global quit key
-for WHDLoad.
+Use this option to change
+global quit key for WHDLoad.
