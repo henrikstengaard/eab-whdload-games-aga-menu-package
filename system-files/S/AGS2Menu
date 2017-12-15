@@ -5,7 +5,7 @@
 ; AGS2 Menu
 ; ---------
 ;
-; Date: 2017-12-14
+; Date: 2017-12-15
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to start AGS2 menus.
@@ -17,7 +17,7 @@ IF NOT EXISTS "SYS:Prefs/AGS2/AGS2Menus.cfg"
 ENDIF
 
 ; Fail, if AGS2Menus.cfg file doesn't contain ags2 menu
-search "SYS:Prefs/AGS2/AGS2Menus.cfg" "{ags2menu}=" NONUM >T:_ags2gamesmenudir
+search "SYS:Prefs/AGS2/AGS2Menus.cfg" "{ags2menu}=" NONUM >T:_ags2dir
 IF WARN
   REQUESTCHOICE "Error" "AGS2 menu configuration file*N'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't contain '{ags2menu}'!" "OK" >NIL:
   SKIP end
