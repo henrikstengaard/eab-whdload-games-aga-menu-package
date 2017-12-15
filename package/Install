@@ -124,8 +124,10 @@ IF $installset EQ 0 VAL
   unzip -qq -o -x PACKAGEDIR:data-games4gb.zip -d WHDLOADDIR:WHDLoad/Games/
 ENDIF
 
+
 echo "Installing system files..."
 unzip -qq -o -x PACKAGEDIR:system-files.zip -d SYSTEMDIR:
+
 
 ; Add icon for configuration drawer, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Programs/Configuration.info
@@ -152,6 +154,7 @@ ELSE
     ENDIF
   ENDIF
 ENDIF
+
 
 ; Create systemdir whdload prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad
@@ -195,8 +198,8 @@ IF WARN
 ENDIF
 
 
-; Configure ClassicWB
-; -------------------
+; Configure assigns
+; -----------------
 
 echo "Configuring assigns..."
 
@@ -205,7 +208,7 @@ IF NOT EXISTS SYSTEMDIR:S/Assign-Startup
 	echo "" NOLINE >SYSTEMDIR:S/Assign-Startup
 ENDIF
 
-; Add execute assign startup to startup sequence, if it doesn't exist
+; Add execute assign startup to startup sequence, if it not ClassicWB and doesn't contain execute assign startup
 search SYSTEMDIR:S/Startup-Sequence "ClassicWB" >NIL:
 IF WARN
   search SYSTEMDIR:S/Startup-Sequence "execute S:Assign-Startup" >NIL:
@@ -229,11 +232,9 @@ ELSE
   ENDIF   
 ENDIF
 
-SKIP configuremenus
-
 
 ; Configure menus
-; ------------------------
+; ---------------
 LAB configuremenus
 
 echo "Configuring menus..."
@@ -242,7 +243,7 @@ echo "Configuring menus..."
 set ags2gamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/AGS2Games"`"
 search SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Games=" >NIL:
 IF WARN
-	echo "AGS2Games=$ags2gamesdir" >>SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg
+  echo "AGS2Games=$ags2gamesdir" >>SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg
 ELSE
   rep SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Games=" "AGS2Games=$ags2gamesdir*N; "
 ENDIF
@@ -251,7 +252,7 @@ ENDIF
 set igamegamesdir "`execute INSTALLDIR:S/CombinePath "$SYSTEMDIR" "Games"`"
 search SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameGames=" >NIL:
 IF WARN
-	echo "iGameGames=$igamegamesdir" >>SYSTEMDIR:Prefs/iGame/iGameMenus.cfg
+  echo "iGameGames=$igamegamesdir" >>SYSTEMDIR:Prefs/iGame/iGameMenus.cfg
 ELSE
   rep SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameGames=" "iGameGames=$igamegamesdir*N; "
 ENDIF
@@ -260,7 +261,7 @@ ENDIF
 set hstgamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/HSTGames"`"
 search SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTGames=" >NIL:
 IF WARN
-	echo "HSTGames=$hstgamesdir" >>SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg
+  echo "HSTGames=$hstgamesdir" >>SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg
 ELSE
   rep SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTGames=" "HSTGames=$hstgamesdir*N; "
 ENDIF
