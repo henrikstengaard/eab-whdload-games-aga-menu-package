@@ -15,3 +15,4 @@ WHDLoad NoVBRMove on
 WHDLoad Preload off
 WHDLoad Preload on
 WHDLoad Quit Key
+WHDLoad Splash Delay
