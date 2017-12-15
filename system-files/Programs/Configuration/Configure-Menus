@@ -1,7 +1,7 @@
 ; Configure Menus Script
 ; ----------------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-01-07
+; Date: 2017-12-15
 ;
 ; This script configures menus for AGS2 games and demos.
 ; Menu items can be added, renamed and deleted.
@@ -185,22 +185,22 @@ SKIP end
 ; ----------
 LAB ags2games
 
-; Show error message and go back to main menu, if S:AGSMenu.data file doesn't exist
-IF NOT EXISTS "S:AGS2Menu.data"
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!*NMenu is most likely not installed." "OK" >NIL:
+; Show error message and go back to main menu, if AGS2Menus.cfg file doesn't exist
+IF NOT EXISTS "SYS:Prefs/AGS2/AGS2Menus.cfg"
+  REQUESTCHOICE "Error" "AGS2 menu configuration file 'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't exist!*NAGS2 Menu is not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
-; Show error message and go back to main menu, if S:AGSMenu.data file doesn't contain 'AGS2GamesMenuDir'
-search "S:AGS2Menu.data" "AGS2GamesMenuDir=" NONUM >T:_ags2gamesmenudir
+; Show error message and go back to main menu, if AGS2Menus.cfg file doesn't contain 'AGS2Games'
+search "SYS:Prefs/AGS2/AGS2Menus.cfg" "AGS2Games=" NONUM >T:_ags2gamesdir
 IF WARN
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2GamesMenuDir'!*NMenu is most likely not installed." "OK" >NIL:
+  REQUESTCHOICE "Error" "AGS2 menu configuration file 'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't contain 'AGS2Games'!*NAGS2 Games is not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
 set ags2menuname "AGS2 Games"
-set ags2menupath `sed "s/^AGS2GamesMenuDir=//" T:_ags2gamesmenudir`
-delete "T:_ags2gamesmenudir" >NIL:
+set ags2menupath `sed "s/^AGS2Games=//" T:_ags2gamesdir`
+delete "T:_ags2gamesdir" >NIL:
 
 SKIP ags2menu
 
@@ -209,22 +209,22 @@ SKIP ags2menu
 ; ----------
 LAB ags2demos
 
-; Show error message and go back to main menu, if S:AGSMenu.data file doesn't exist
-IF NOT EXISTS "S:AGS2Menu.data"
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't exist!*NMenu is most likely not installed." "OK" >NIL:
+; Show error message and go back to main menu, if AGS2Menus.cfg file doesn't exist
+IF NOT EXISTS "SYS:Prefs/AGS2/AGS2Menus.cfg"
+  REQUESTCHOICE "Error" "AGS2 menu configuration file 'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't exist!*NAGS2 Menu is not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
-; Show error message and go back to main menu, if S:AGSMenu.data file doesn't contain 'AGS2DemosMenuDir'
-search "S:AGS2Menu.data" "AGS2DemosMenuDir=" NONUM >T:_ags2demosmenudir
+; Show error message and go back to main menu, if AGS2Menus.cfg file doesn't contain 'AGS2DemosMenuDir'
+search "SYS:Prefs/AGS2/AGS2Menus.cfg" "AGS2Demos=" NONUM >T:_ags2demosdir
 IF WARN
-  REQUESTCHOICE "Error" "AGS2 menu data file 'S:AGS2Menu.data'*Ndoesn't contain 'AGS2DemosMenuDir'!*NMenu is most likely not installed." "OK" >NIL:
+  REQUESTCHOICE "Error" "AGS2 menu configuration file 'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't contain 'AGS2Demos'!*NAGS2 Demos is not installed." "OK" >NIL:
   SKIP BACK mainmenu
 ENDIF
 
 set ags2menuname "AGS2 Demos"
-set ags2menupath `sed "s/^AGS2DemosMenuDir=//" T:_ags2demosmenudir`
-delete "T:_ags2demosmenudir" >NIL:
+set ags2menupath `sed "s/^AGS2Demos=//" T:_ags2demosdir`
+delete "T:_ags2demosdir" >NIL:
 
 
 ; AGS2 Menu
