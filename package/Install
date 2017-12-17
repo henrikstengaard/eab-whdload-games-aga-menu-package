@@ -76,7 +76,7 @@ echo "SavePath=$whdloadsavesdir" >>S:WHDLoad.prefs
 rep "S:WHDLoad.prefs" "SplashDelay" ";SplashDelay"
 
 ; Set splash deplay in WHDLoad.prefs
-echo "SplashDelay=0" >>S:WHDLoad.prefs
+echo "SplashDelay=50" >>S:WHDLoad.prefs
 
 
 echo "Installing menus..."
