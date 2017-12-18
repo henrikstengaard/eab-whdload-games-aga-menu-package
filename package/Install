@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-15
+; Date: 2017-12-18
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -44,11 +44,11 @@ IF NOT EXISTS SYSTEMDIR:Games
   MakePath >NIL: SYSTEMDIR:Games
 ENDIF
 
-echo "Installing frontends..."
+echo "Installing Frontends..."
 unzip -qq -o -x PACKAGEDIR:frontends.zip -d SYSTEMDIR:Games/
 
 
-echo "Installing data drawers..."
+echo "Installing Data Drawers..."
 unzip -qq -o -x PACKAGEDIR:data-drawers.zip -d WHDLOADDIR:
 IF NOT EXISTS WHDLOADDIR:HD-Games
   MakePath >NIL: WHDLOADDIR:HD-Games
@@ -79,7 +79,7 @@ rep "S:WHDLoad.prefs" "SplashDelay" ";SplashDelay"
 echo "SplashDelay=50" >>S:WHDLoad.prefs
 
 
-echo "Installing menus..."
+echo "Installing Base Menus..."
 IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games"
   MakePath "WHDLOADDIR:Menu/AGS2Games" >NIL:
 ENDIF
@@ -103,6 +103,7 @@ unzip -qq -o -x PACKAGEDIR:hst.zip -d WHDLOADDIR:Menu/HSTGames/
 set installset `RequestChoice "Games AGA menu set" "Select Games AGA menu set to install." "All|4GB"`
 
 IF $installset EQ 1 VAL
+  echo "Selected All"
   echo "Installing AGS2 Games Menu..."
   unzip -qq -o -x PACKAGEDIR:ags2-games.zip -d WHDLOADDIR:Menu/AGS2Games/
   echo "Installing HST Games Menu..."
@@ -114,6 +115,7 @@ IF $installset EQ 1 VAL
 ENDIF
 
 IF $installset EQ 0 VAL
+  echo "Selected 4GB"
   echo "Installing AGS2 Games 4GB Menu..."
   unzip -qq -o -x PACKAGEDIR:ags2-games4gb.zip -d WHDLOADDIR:Menu/AGS2Games/
   echo "Installing HST Games 4GB Menu..."
@@ -125,7 +127,7 @@ IF $installset EQ 0 VAL
 ENDIF
 
 
-echo "Installing system files..."
+echo "Installing System Files..."
 unzip -qq -o -x PACKAGEDIR:system-files.zip -d SYSTEMDIR:
 
 
@@ -201,7 +203,7 @@ ENDIF
 ; Configure assigns
 ; -----------------
 
-echo "Configuring assigns..."
+echo "Configuring Assigns..."
 
 ; Create assign startup, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:S/Assign-Startup
@@ -237,7 +239,7 @@ ENDIF
 ; ---------------
 LAB configuremenus
 
-echo "Configuring menus..."
+echo "Configuring Menus..."
 
 ; Add or update AGS2Menus.cfg
 set ags2gamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/AGS2Games"`"
