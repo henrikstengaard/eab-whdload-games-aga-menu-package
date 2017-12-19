@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-18
+; Date: 2017-12-19
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -183,11 +183,6 @@ IF NOT EXISTS SYSTEMDIR:Prefs/HSTLauncher
   MakePath >NIL: SYSTEMDIR:Prefs/HSTLauncher
 ENDIF
 
-; Create hstlaunchermusic prefs to turn on music in hst launcher menu
-IF NOT EXISTS SYSTEMDIR:Prefs/HSTLauncher/hstlaunchermusic
-  echo "" NOLINE > SYSTEMDIR:Prefs/HSTLauncher/hstlaunchermusic
-ENDIF
-
 ; Create systemdir igame prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/iGame
   MakePath >NIL: SYSTEMDIR:Prefs/iGame
@@ -195,8 +190,24 @@ ENDIF
 
 ; Add menu startup to startup sequence, if it doesn't exist
 search SYSTEMDIR:S/Startup-Sequence "execute S:Menu-Startup" >NIL:
-IF WARN 
-  rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "IF EXISTS S:Menu-Startup*N  execute S:Menu-Startup*NENDIF*N*NBindDrivers"
+IF WARN
+  ; Make backup of startup sequence, if it doesn't exist
+  IF NOT EXISTS SYSTEMDIR:S/Startup-Sequence.menu.bak
+    copy >NIL: SYSTEMDIR:S/Startup-Sequence SYSTEMDIR:S/Startup-Sequence.menu.bak
+  ENDIF
+
+  ; Check if startup sequence contains "BindDrivers"
+  search SYSTEMDIR:S/Startup-Sequence "BindDrivers" >NIL:
+  IF WARN
+    ; Add menu startup to beginning of startup sequence
+    echo "IF EXISTS S:Menu-Startup*N  execute S:Menu-Startup*NENDIF*N*NBindDrivers" >T:Startup-Sequence
+    echo "" >>T:Startup-Sequence
+    type SYSTEMDIR:S/Startup-Sequence >>T:Startup-Sequence
+    copy >NIL: T:Startup-Sequence SYSTEMDIR:S/Startup-Sequence
+  ELSE
+    ; Add menu startup before bind drivers in startup sequence
+    rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "IF EXISTS S:Menu-Startup*N  execute S:Menu-Startup*NENDIF*N*NBindDrivers"
+  ENDIF
 ENDIF
 
 
