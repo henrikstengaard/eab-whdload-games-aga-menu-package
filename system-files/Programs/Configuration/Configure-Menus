@@ -703,7 +703,7 @@ delete T:_ags2menuitemrunfiles#? >NIL:
 LAB ags2indexupdate
 
 echo "Updating $ags2menuname indexes..."
-execute S:AGS2IndexUpdate "$ags2menupath" "0"
+execute S:AGS2IndexUpdate "$ags2menupath" "0-9"
 execute S:AGS2IndexUpdate "$ags2menupath" "A"
 execute S:AGS2IndexUpdate "$ags2menupath" "B"
 execute S:AGS2IndexUpdate "$ags2menupath" "C"
