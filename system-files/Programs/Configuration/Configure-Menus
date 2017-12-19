@@ -1,7 +1,7 @@
 ; Configure Menus Script
 ; ----------------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-15
+; Date: 2017-12-19
 ;
 ; This script configures menus for AGS2 games and demos.
 ; Menu items can be added, renamed and deleted.
@@ -73,7 +73,7 @@ echo "[CANCEL]*N0*NA*NB*NC*ND*NE*NF*NG*NH*NI*NJ*NK*NL*NM*NN*NO*NP*NQ*NR*NS*NT*NU
 
 ; Show ags2 index list
 set ags2indexline ""
-set ags2indexline `C:ReqList CLONERT I=T:ags2indexlist H="$ags2menuname" PAGE=18`
+set ags2indexline "`C:RequestList TITLE="$ags2menuname" LISTFILE="T:ags2indexlist" WIDTH=320 LINES=20`"
 
 ; Back, if reqlist is closed or cancel is selected
 IF "$ags2indexline" EQ ""
@@ -165,7 +165,8 @@ echo "AGS2 Demos" >>T:mainmenu
 echo "Exit" >>T:mainmenu
 
 ; Show main menu
-C:ReqList CLONERT BUTTONS I T:mainmenu O ENV:mainmenu H "Configure Menus"
+set mainmenu ""
+set mainmenu "`C:RequestList TITLE="Configure Menus" LISTFILE="T:mainmenu" WIDTH=240 LINES=12`"
 delete >NIL: T:mainmenu
 
 ; AGS2 Games
@@ -241,7 +242,8 @@ echo "Hide All" >>T:ags2menu
 echo "Back" >>T:ags2menu
 
 ; Show ags2 menu
-C:ReqList CLONERT BUTTONS I T:ags2menu O ENV:ags2menu H "$ags2menuname"
+set ags2menu ""
+set ags2menu "`C:RequestList TITLE="$ags2menuname" LISTFILE="T:ags2menu" WIDTH=240 LINES=12`"
 delete >NIL: T:ags2menu
 
 ; Add

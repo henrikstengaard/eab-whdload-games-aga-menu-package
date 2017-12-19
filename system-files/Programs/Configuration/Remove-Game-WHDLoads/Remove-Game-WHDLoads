@@ -1,7 +1,7 @@
 ; Remove WHDLoads
 ; ---------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-12
+; Date: 2017-12-19
 ;
 ; A remove WHDLoads script to remove unwanted WHDLoads language and hardware versions.
 
@@ -204,7 +204,7 @@ echo "Quit" >>T:removewhdloadsmenu
 
 ; Show remove whdloads menu
 set removewhdloadsmenu ""
-set removewhdloadsmenu "`ReqList CLONERT I=T:removewhdloadsmenu H="Remove Game WHDLoads" PAGE=18`"
+set removewhdloadsmenu "`C:RequestList TITLE="Remove Game WHDLoads" LISTFILE="T:removewhdloadsmenu" WIDTH=320 LINES=20`"
 delete >NIL: T:removewhdloadsmenu
 
 ; Language 'CV' option
