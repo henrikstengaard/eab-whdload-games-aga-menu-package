@@ -1,7 +1,7 @@
 ; HST Launcher
 ; ------------
 ;
-; Date: 2017-12-14
+; Date: 2017-12-19
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to show a menu for launching games or demos.
@@ -250,8 +250,10 @@ SKIP BACK settings
 LAB run
 
 ; Stop music
-IF EXISTS "S:HSTLauncherMusic"
-  echo "`execute S:HSTLauncherMusic STOP`"
+IF EXISTS "ENV:hstlaunchermusic"
+  IF EXISTS "S:HSTLauncherMusic"
+    echo "`execute S:HSTLauncherMusic STOP`"
+  ENDIF
 ENDIF
 
 ; Start run file, if it exists
@@ -265,8 +267,10 @@ IF EXISTS "HSTLauncher:$runfile"
 ENDIF
 
 ; Start music
-IF EXISTS "S:HSTLauncherMusic"
-  echo "`execute S:HSTLauncherMusic START`"
+IF EXISTS "ENV:hstlaunchermusic"
+  IF EXISTS "S:HSTLauncherMusic"
+    echo "`execute S:HSTLauncherMusic START`"
+  ENDIF
 ENDIF
 
 SKIP BACK $returnlab

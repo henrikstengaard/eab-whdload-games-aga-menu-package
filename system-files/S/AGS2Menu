@@ -5,7 +5,7 @@
 ; AGS2 Menu
 ; ---------
 ;
-; Date: 2017-12-15
+; Date: 2017-12-19
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to start AGS2 menus.
@@ -43,8 +43,10 @@ IF EXISTS AGS:AGS2
   AGS:AGS2
 
   ; AGS2 Music Stop
-  IF EXISTS S:AGS2Music
-    execute S:AGS2Music STOP
+  IF EXISTS "ENV:ags2music"
+    IF EXISTS S:AGS2Music
+      execute S:AGS2Music STOP
+    ENDIF
   ENDIF
 ENDIF
 
