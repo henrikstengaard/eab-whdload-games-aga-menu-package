@@ -5,10 +5,11 @@
 ; HST Launcher Menu
 ; -----------------
 ;
-; Date: 2017-12-13
+; Date: 2017-12-19
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to start HST Launcher menus.
+
 
 ; Fail, if HSTLauncherMenus.cfg file doesn't exist
 IF NOT EXISTS "SYS:Prefs/HSTLauncher/HSTLauncherMenus.cfg"
@@ -22,6 +23,13 @@ IF WARN
   REQUESTCHOICE "Error" "HST Launcher menu configuration file*N'SYS:Prefs/HSTLauncher/HSTLauncherMenus.cfg'*Ndoesn't contain '{hstlaunchermenu}'!" "OK" >NIL:
   SKIP end
 ENDIF
+
+
+; Load hstlaunchermusic to env, if it exists
+IF EXISTS SYS:Prefs/HSTLauncher/hstlaunchermusic
+  copy >NIL: SYS:Prefs/HSTLauncher/hstlaunchermusic ENV:hstlaunchermusic
+ENDIF
+
 
 ; Set hst launcher dir from hst launcher menu
 setenv hstlauncherdir `sed "s/^{hstlaunchermenu}=//" T:_hstlauncherdir`

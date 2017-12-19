@@ -10,6 +10,7 @@
 ;
 ; An AmigaDOS script to start AGS2 menus.
 
+
 ; Fail, if AGS2Menus.cfg file doesn't exist
 IF NOT EXISTS "SYS:Prefs/AGS2/AGS2Menus.cfg"
   REQUESTCHOICE "Error" "AGS2 menu configuration file*N'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't exist!" "OK" >NIL:
@@ -22,6 +23,29 @@ IF WARN
   REQUESTCHOICE "Error" "AGS2 menu configuration file*N'SYS:Prefs/AGS2/AGS2Menus.cfg'*Ndoesn't contain '{ags2menu}'!" "OK" >NIL:
   SKIP end
 ENDIF
+
+
+; Execute remove AGS2 favourites, if it exists
+IF EXISTS S:RemoveAgs2Favourites
+	execute S:RemoveAgs2Favourites
+	delete >NIL: S:RemoveAgs2Favourites
+ENDIF 
+
+; Load whdloadargs to env, if it exists
+IF EXISTS SYS:Prefs/WHDLoad/whdloadargs
+  copy >NIL: SYS:Prefs/WHDLoad/whdloadargs ENV:whdloadargs
+ENDIF
+
+; Load ags2favouritesmode to env, if it exists
+IF EXISTS SYS:Prefs/AGS2/ags2favouritesmode
+  copy >NIL: SYS:Prefs/AGS2/ags2favouritesmode ENV:ags2favouritesmode
+ENDIF
+
+; Load ags2music to env, if it exists
+IF EXISTS SYS:Prefs/AGS2/ags2music
+  copy >NIL: SYS:Prefs/AGS2/ags2music ENV:ags2music
+ENDIF
+
 
 ; Set ags2 dir from ags2 menu
 setenv ags2dir `sed "s/^{ags2menu}=//" T:_ags2dir`

@@ -188,28 +188,6 @@ IF NOT EXISTS SYSTEMDIR:Prefs/iGame
   MakePath >NIL: SYSTEMDIR:Prefs/iGame
 ENDIF
 
-; Add menu startup to startup sequence, if it doesn't exist
-search SYSTEMDIR:S/Startup-Sequence "execute S:Menu-Startup" >NIL:
-IF WARN
-  ; Make backup of startup sequence, if it doesn't exist
-  IF NOT EXISTS SYSTEMDIR:S/Startup-Sequence.menu.bak
-    copy >NIL: SYSTEMDIR:S/Startup-Sequence SYSTEMDIR:S/Startup-Sequence.menu.bak
-  ENDIF
-
-  ; Check if startup sequence contains "BindDrivers"
-  search SYSTEMDIR:S/Startup-Sequence "BindDrivers" >NIL:
-  IF WARN
-    ; Add menu startup to beginning of startup sequence
-    echo "IF EXISTS S:Menu-Startup*N  execute S:Menu-Startup*NENDIF*N*NBindDrivers" >T:Startup-Sequence
-    echo "" >>T:Startup-Sequence
-    type SYSTEMDIR:S/Startup-Sequence >>T:Startup-Sequence
-    copy >NIL: T:Startup-Sequence SYSTEMDIR:S/Startup-Sequence
-  ELSE
-    ; Add menu startup before bind drivers in startup sequence
-    rep SYSTEMDIR:S/Startup-Sequence "BindDrivers" "IF EXISTS S:Menu-Startup*N  execute S:Menu-Startup*NENDIF*N*NBindDrivers"
-  ENDIF
-ENDIF
-
 
 ; Configure assigns
 ; -----------------
