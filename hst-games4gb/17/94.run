@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PPHammer/"
+cd "A-Games:P/Powerplay/"
 IF EXISTS ENV:whdloadargs
-  whdload "PPHammer.slave" $whdloadargs
+  whdload "Powerplay.Slave" $whdloadargs
 ELSE
-  whdload "PPHammer.slave"
+  whdload "Powerplay.Slave"
 ENDIF

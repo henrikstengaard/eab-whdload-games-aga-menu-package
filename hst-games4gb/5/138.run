@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/Dyter07/"
+cd "A-Games:D/DynamiteDux/"
 IF EXISTS ENV:whdloadargs
-  whdload "Dyter07.slave" $whdloadargs
+  whdload "DynamiteDux.Slave" $whdloadargs
 ELSE
-  whdload "Dyter07.slave"
+  whdload "DynamiteDux.Slave"
 ENDIF

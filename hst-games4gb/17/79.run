@@ -1,5 +1,5 @@
 ; Run WHDLoad
-cd "A-Games:P/Populous2&ChallengeGames/"
+cd "A-Games:P/Populous2/"
 IF EXISTS ENV:whdloadargs
   whdload "Populous2.slave" $whdloadargs
 ELSE

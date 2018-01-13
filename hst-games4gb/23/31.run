@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:V/Vyrus/"
+cd "A-Games:V/Vyper/"
 IF EXISTS ENV:whdloadargs
-  whdload "Vyrus.Slave" $whdloadargs
+  whdload "Vyper.Slave" $whdloadargs
 ELSE
-  whdload "Vyrus.Slave"
+  whdload "Vyper.Slave"
 ENDIF

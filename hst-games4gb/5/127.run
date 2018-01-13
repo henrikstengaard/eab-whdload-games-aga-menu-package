@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/Dune2/"
+cd "A-Games:D/Dugger/"
 IF EXISTS ENV:whdloadargs
-  whdload "Dune2.Slave" $whdloadargs
+  whdload "Dugger.Slave" $whdloadargs
 ELSE
-  whdload "Dune2.Slave"
+  whdload "Dugger.Slave"
 ENDIF

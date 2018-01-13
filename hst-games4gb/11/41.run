@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:J/JupitersMasterdrive/"
+cd "A-Games:J/JupiterProbe/"
 IF EXISTS ENV:whdloadargs
-  whdload "JupitersMasterdrive.Slave" $whdloadargs
+  whdload "JupiterProbe.Slave" $whdloadargs
 ELSE
-  whdload "JupitersMasterdrive.Slave"
+  whdload "JupiterProbe.Slave"
 ENDIF

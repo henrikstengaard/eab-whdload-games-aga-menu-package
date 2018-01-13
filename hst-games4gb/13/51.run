@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LittlePuffInDragonland/"
+cd "A-Games:L/LiquidKidsImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "LittlePuffInDragonland.slave" $whdloadargs
+  whdload "LiquidKidsImage.Slave" $whdloadargs
 ELSE
-  whdload "LittlePuffInDragonland.slave"
+  whdload "LiquidKidsImage.Slave"
 ENDIF

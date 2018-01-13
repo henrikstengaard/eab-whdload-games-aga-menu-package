@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/FullContact/"
+cd "A-Games:F/FrostByte/"
 IF EXISTS ENV:whdloadargs
-  whdload "FullContact.slave" $whdloadargs
+  whdload "FrostByte.Slave" $whdloadargs
 ELSE
-  whdload "FullContact.slave"
+  whdload "FrostByte.Slave"
 ENDIF

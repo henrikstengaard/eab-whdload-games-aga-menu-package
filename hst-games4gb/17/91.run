@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PowerPinball/"
+cd "A-Games:P/Powermonger/"
 IF EXISTS ENV:whdloadargs
-  whdload "PowerPinball.slave" $whdloadargs
+  whdload "Powermonger.Slave" $whdloadargs
 ELSE
-  whdload "PowerPinball.slave"
+  whdload "Powermonger.Slave"
 ENDIF

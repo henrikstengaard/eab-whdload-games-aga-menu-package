@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:G/Gunshoot/"
+cd "A-Games:G/Gunship2000AGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Gunshoot.Slave" $whdloadargs
+  whdload "Gunship2000AGA.slave" $whdloadargs
 ELSE
-  whdload "Gunshoot.Slave"
+  whdload "Gunship2000AGA.slave"
 ENDIF

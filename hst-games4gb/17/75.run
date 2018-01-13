@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/Popeye2/"
+cd "A-Games:P/PoolsOfDarkness/"
 IF EXISTS ENV:whdloadargs
-  whdload "Popeye2.Slave" $whdloadargs
+  whdload "PoolsOfDarkness.slave" $whdloadargs
 ELSE
-  whdload "Popeye2.Slave"
+  whdload "PoolsOfDarkness.slave"
 ENDIF

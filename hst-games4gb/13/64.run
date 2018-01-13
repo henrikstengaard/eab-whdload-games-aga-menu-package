@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LordsOfChaos&DataDisk/"
+cd "A-Games:L/Loopz/"
 IF EXISTS ENV:whdloadargs
-  whdload "LordsOfChaos&DataDisk.Slave" $whdloadargs
+  whdload "Loopz.Slave" $whdloadargs
 ELSE
-  whdload "LordsOfChaos&DataDisk.Slave"
+  whdload "Loopz.Slave"
 ENDIF

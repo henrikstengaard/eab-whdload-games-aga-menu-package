@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/Dragonflight/"
+cd "A-Games:D/DragonBreed/"
 IF EXISTS ENV:whdloadargs
-  whdload "Dragonflight.Slave" $whdloadargs
+  whdload "DragonBreed.Slave" $whdloadargs
 ELSE
-  whdload "Dragonflight.Slave"
+  whdload "DragonBreed.Slave"
 ENDIF

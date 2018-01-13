@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SpellfireTheSorceror/"
+cd "A-Games:S/SpaceStation/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpellfireTheSorceror.slave" $whdloadargs
+  whdload "SpaceStation.Slave" $whdloadargs
 ELSE
-  whdload "SpellfireTheSorceror.slave"
+  whdload "SpaceStation.Slave"
 ENDIF

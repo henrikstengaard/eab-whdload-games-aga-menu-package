@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TakeEmOut/"
+cd "A-Games:T/Taekwondo/"
 IF EXISTS ENV:whdloadargs
-  whdload "TakeEmOut.slave" $whdloadargs
+  whdload "Taekwondo.Slave" $whdloadargs
 ELSE
-  whdload "TakeEmOut.slave"
+  whdload "Taekwondo.Slave"
 ENDIF

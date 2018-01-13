@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:B/Brainball/"
+cd "A-Games:B/BoulderDashConstrKit/"
 IF EXISTS ENV:whdloadargs
-  whdload "Brainball.slave" $whdloadargs
+  whdload "BoulderDashConstrKit.Slave" $whdloadargs
 ELSE
-  whdload "Brainball.slave"
+  whdload "BoulderDashConstrKit.Slave"
 ENDIF

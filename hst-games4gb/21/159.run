@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TrivialPursuitNewBegin/"
+cd "A-Games:T/TopBanana/"
 IF EXISTS ENV:whdloadargs
-  whdload "TrivialPursuitNewBegin.slave" $whdloadargs
+  whdload "TopBanana.Slave" $whdloadargs
 ELSE
-  whdload "TrivialPursuitNewBegin.slave"
+  whdload "TopBanana.Slave"
 ENDIF

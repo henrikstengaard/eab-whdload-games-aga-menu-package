@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/Extrial/"
+cd "A-Games:E/Exterminator/"
 IF EXISTS ENV:whdloadargs
-  whdload "Extrial.slave" $whdloadargs
+  whdload "Exterminator.slave" $whdloadargs
 ELSE
-  whdload "Extrial.slave"
+  whdload "Exterminator.slave"
 ENDIF

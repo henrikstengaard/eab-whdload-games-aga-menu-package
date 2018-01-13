@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Moonstone/"
+cd "A-Games:M/MoonShineRacers/"
 IF EXISTS ENV:whdloadargs
-  whdload "Moonstone.Slave" $whdloadargs
+  whdload "MoonShineRacers.Slave" $whdloadargs
 ELSE
-  whdload "Moonstone.Slave"
+  whdload "MoonShineRacers.Slave"
 ENDIF

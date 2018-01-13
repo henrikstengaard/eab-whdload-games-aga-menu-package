@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/Extase/"
+cd "A-Games:E/Exolon/"
 IF EXISTS ENV:whdloadargs
-  whdload "Extase.Slave" $whdloadargs
+  whdload "Exolon.Slave" $whdloadargs
 ELSE
-  whdload "Extase.Slave"
+  whdload "Exolon.Slave"
 ENDIF

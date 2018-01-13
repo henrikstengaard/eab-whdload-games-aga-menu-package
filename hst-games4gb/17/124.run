@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PubTriviaSimulator/"
+cd "A-Games:P/Psyborg/"
 IF EXISTS ENV:whdloadargs
-  whdload "PubTriviaSimulator.Slave" $whdloadargs
+  whdload "Psyborg.Slave" $whdloadargs
 ELSE
-  whdload "PubTriviaSimulator.Slave"
+  whdload "Psyborg.Slave"
 ENDIF

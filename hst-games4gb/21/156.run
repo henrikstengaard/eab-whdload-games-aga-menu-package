@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TrianGO/"
+cd "A-Games:T/TomLandryFootballDeluxe/"
 IF EXISTS ENV:whdloadargs
-  whdload "TrianGO.Slave" $whdloadargs
+  whdload "TomLandryFootballDeluxe.Slave" $whdloadargs
 ELSE
-  whdload "TrianGO.Slave"
+  whdload "TomLandryFootballDeluxe.Slave"
 ENDIF

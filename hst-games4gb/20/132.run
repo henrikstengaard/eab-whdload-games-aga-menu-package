@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SorcererLord/"
+cd "A-Games:S/SolidGold/"
 IF EXISTS ENV:whdloadargs
-  whdload "SorcererLord.Slave" $whdloadargs
+  whdload "SolidGold.slave" $whdloadargs
 ELSE
-  whdload "SorcererLord.Slave"
+  whdload "SolidGold.slave"
 ENDIF

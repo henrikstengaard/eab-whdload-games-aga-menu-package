@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/Turrican/"
+cd "A-Games:T/TowerOfBabel/"
 IF EXISTS ENV:whdloadargs
-  whdload "Turrican.Slave" $whdloadargs
+  whdload "TowerOfBabel.Slave" $whdloadargs
 ELSE
-  whdload "Turrican.Slave"
+  whdload "TowerOfBabel.Slave"
 ENDIF

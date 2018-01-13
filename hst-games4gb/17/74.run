@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PoolsOfDarkness/"
+cd "A-Games:P/PoolOfRadiance/"
 IF EXISTS ENV:whdloadargs
-  whdload "PoolsOfDarkness.slave" $whdloadargs
+  whdload "PoolOfRadiance.Slave" $whdloadargs
 ELSE
-  whdload "PoolsOfDarkness.slave"
+  whdload "PoolOfRadiance.Slave"
 ENDIF

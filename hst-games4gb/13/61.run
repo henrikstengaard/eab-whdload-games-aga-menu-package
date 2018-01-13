@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LoomKick31/"
+cd "A-Games:L/Lollypop/"
 IF EXISTS ENV:whdloadargs
-  whdload "LoomKick31.slave" $whdloadargs
+  whdload "Lollypop.Slave" $whdloadargs
 ELSE
-  whdload "LoomKick31.slave"
+  whdload "Lollypop.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuperLoopzAGA/"
+cd "A-Games:S/Supaplex/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperLoopzAGA.Slave" $whdloadargs
+  whdload "Supaplex.Slave" $whdloadargs
 ELSE
-  whdload "SuperLoopzAGA.Slave"
+  whdload "Supaplex.Slave"
 ENDIF

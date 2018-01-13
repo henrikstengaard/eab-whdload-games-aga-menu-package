@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/RoadWarsArcadia/"
+cd "A-Games:R/RoadWars/"
 IF EXISTS ENV:whdloadargs
-  whdload "RoadWarsArcadia.Slave" $whdloadargs
+  whdload "RoadWars.Slave" $whdloadargs
 ELSE
-  whdload "RoadWarsArcadia.Slave"
+  whdload "RoadWars.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PowermongerWW1Edition/"
+cd "A-Games:P/Powerdrome/"
 IF EXISTS ENV:whdloadargs
-  whdload "PowermongerWW1Edition.slave" $whdloadargs
+  whdload "Powerdrome.Slave" $whdloadargs
 ELSE
-  whdload "PowermongerWW1Edition.slave"
+  whdload "Powerdrome.Slave"
 ENDIF

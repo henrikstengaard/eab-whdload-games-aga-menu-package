@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SwordsOfTwilight/"
+cd "A-Games:S/Swap/"
 IF EXISTS ENV:whdloadargs
-  whdload "SwordsOfTwilight.Slave" $whdloadargs
+  whdload "Swap.Slave" $whdloadargs
 ELSE
-  whdload "SwordsOfTwilight.Slave"
+  whdload "Swap.Slave"
 ENDIF

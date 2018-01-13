@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/ProjectXSEBTTR/"
+cd "A-Games:P/ProjectXBonusLevel/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProjectXSEBTTR.Slave" $whdloadargs
+  whdload "ProjectXBonusLevel.Slave" $whdloadargs
 ELSE
-  whdload "ProjectXSEBTTR.Slave"
+  whdload "ProjectXBonusLevel.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/Pyramax/"
+cd "A-Games:P/PuttySquadAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Pyramax.Slave" $whdloadargs
+  whdload "PuttySquadAGA.Slave" $whdloadargs
 ELSE
-  whdload "Pyramax.Slave"
+  whdload "PuttySquadAGA.Slave"
 ENDIF

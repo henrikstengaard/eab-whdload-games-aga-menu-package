@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/DrMario/"
+cd "A-Games:D/Drip/"
 IF EXISTS ENV:whdloadargs
-  whdload "DrMario.slave" $whdloadargs
+  whdload "Drip.Slave" $whdloadargs
 ELSE
-  whdload "DrMario.slave"
+  whdload "Drip.Slave"
 ENDIF

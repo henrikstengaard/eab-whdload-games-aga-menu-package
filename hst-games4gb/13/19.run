@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LegendOfDjel/"
+cd "A-Games:L/LegendMindscape/"
 IF EXISTS ENV:whdloadargs
-  whdload "LegendOfDjel.Slave" $whdloadargs
+  whdload "LegendMindscape.Slave" $whdloadargs
 ELSE
-  whdload "LegendOfDjel.Slave"
+  whdload "LegendMindscape.Slave"
 ENDIF

@@ -1,6 +1,7 @@
-Name      : Simpsons, The: Bart vs. the World
-Publisher : Virgin Games
-Year      : 1993
+Name      : Simpsons, The: Bart vs. the Space Mutants
+Version   : 2Disk
+Publisher : Ocean
+Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : BartVsTheWorld.slave
+RunFile   : BartVsSpaceMutants2Disk.Slave

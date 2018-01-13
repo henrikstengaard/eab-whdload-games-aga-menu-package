@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/Dune/"
+cd "A-Games:D/DuckTales/"
 IF EXISTS ENV:whdloadargs
-  whdload "Dune.Slave" $whdloadargs
+  whdload "DuckTales.slave" $whdloadargs
 ELSE
-  whdload "Dune.Slave"
+  whdload "DuckTales.slave"
 ENDIF

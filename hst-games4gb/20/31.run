@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SensibleGolf/"
+cd "A-Games:S/SecretOfTheSilverBlades/"
 IF EXISTS ENV:whdloadargs
-  whdload "SensibleGolf.Slave" $whdloadargs
+  whdload "SecretOfTheSilverBlades.Slave" $whdloadargs
 ELSE
-  whdload "SensibleGolf.Slave"
+  whdload "SecretOfTheSilverBlades.Slave"
 ENDIF

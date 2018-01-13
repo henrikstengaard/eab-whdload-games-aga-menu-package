@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/EuroSoccer/"
+cd "A-Games:E/EuropeanFootballChamp/"
 IF EXISTS ENV:whdloadargs
-  whdload "EuroSoccer.Slave" $whdloadargs
+  whdload "EuropeanFootballChamp.Slave" $whdloadargs
 ELSE
-  whdload "EuroSoccer.Slave"
+  whdload "EuropeanFootballChamp.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:G/GuildOfThieves/"
+cd "A-Games:G/GuardianAngel/"
 IF EXISTS ENV:whdloadargs
-  whdload "GuildOfThieves.Slave" $whdloadargs
+  whdload "GuardianAngel.Slave" $whdloadargs
 ELSE
-  whdload "GuildOfThieves.Slave"
+  whdload "GuardianAngel.Slave"
 ENDIF

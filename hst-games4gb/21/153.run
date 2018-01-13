@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TreasuresOfSavageFrontier/"
+cd "A-Games:T/Toki/"
 IF EXISTS ENV:whdloadargs
-  whdload "TreasuresOfSavageFrontier.Slave" $whdloadargs
+  whdload "Toki.Slave" $whdloadargs
 ELSE
-  whdload "TreasuresOfSavageFrontier.Slave"
+  whdload "Toki.Slave"
 ENDIF

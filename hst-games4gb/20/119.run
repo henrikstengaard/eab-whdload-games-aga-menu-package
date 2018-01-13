@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SnowStrike/"
+cd "A-Games:S/SlipStream/"
 IF EXISTS ENV:whdloadargs
-  whdload "SnowStrike.Slave" $whdloadargs
+  whdload "SlipStream.Slave" $whdloadargs
 ELSE
-  whdload "SnowStrike.Slave"
+  whdload "SlipStream.Slave"
 ENDIF

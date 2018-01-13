@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/Rotor/"
+cd "A-Games:R/RomeAD92/"
 IF EXISTS ENV:whdloadargs
-  whdload "Rotor.slave" $whdloadargs
+  whdload "RomeAD92.Slave" $whdloadargs
 ELSE
-  whdload "Rotor.slave"
+  whdload "RomeAD92.Slave"
 ENDIF

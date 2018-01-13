@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MFTanks/"
+cd "A-Games:M/MetalWarrior/"
 IF EXISTS ENV:whdloadargs
-  whdload "MFTanks.Slave" $whdloadargs
+  whdload "MetalWarrior.Slave" $whdloadargs
 ELSE
-  whdload "MFTanks.Slave"
+  whdload "MetalWarrior.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/Erik/"
+cd "A-Games:E/Epic&MissionDisk/"
 IF EXISTS ENV:whdloadargs
-  whdload "Erik.Slave" $whdloadargs
+  whdload "Epic&MissionDisk.slave" $whdloadargs
 ELSE
-  whdload "Erik.Slave"
+  whdload "Epic&MissionDisk.slave"
 ENDIF

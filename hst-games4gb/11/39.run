@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:J/JuniorTypist/"
+cd "A-Games:J/JungleStrike1MB/"
 IF EXISTS ENV:whdloadargs
-  whdload "JuniorTypist.Slave" $whdloadargs
+  whdload "JungleStrike1MB.Slave" $whdloadargs
 ELSE
-  whdload "JuniorTypist.Slave"
+  whdload "JungleStrike1MB.Slave"
 ENDIF

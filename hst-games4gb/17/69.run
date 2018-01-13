@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PoliceQuest2/"
+cd "A-Games:P/PoliceQuest/"
 IF EXISTS ENV:whdloadargs
-  whdload "PoliceQuest2.slave" $whdloadargs
+  whdload "PoliceQuest.slave" $whdloadargs
 ELSE
-  whdload "PoliceQuest2.slave"
+  whdload "PoliceQuest.slave"
 ENDIF

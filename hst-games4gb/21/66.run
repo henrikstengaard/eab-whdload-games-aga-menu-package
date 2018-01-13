@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/ThunderBlade/"
+cd "A-Games:T/Thunderbirds/"
 IF EXISTS ENV:whdloadargs
-  whdload "ThunderBlade.Slave" $whdloadargs
+  whdload "Thunderbirds.slave" $whdloadargs
 ELSE
-  whdload "ThunderBlade.Slave"
+  whdload "Thunderbirds.slave"
 ENDIF

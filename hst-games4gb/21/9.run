@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:H/HellrunMachine/"
+cd "A-Games:G/GamesWinterEdition/"
 IF EXISTS ENV:whdloadargs
-  whdload "HellrunMachine.Slave" $whdloadargs
+  whdload "GamesWinterEdition.Slave" $whdloadargs
 ELSE
-  whdload "HellrunMachine.Slave"
+  whdload "GamesWinterEdition.Slave"
 ENDIF

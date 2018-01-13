@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/ReturnToAtlantis/"
+cd "A-Games:R/Resolution101/"
 IF EXISTS ENV:whdloadargs
-  whdload "ReturnToAtlantis.Slave" $whdloadargs
+  whdload "Resolution101.Slave" $whdloadargs
 ELSE
-  whdload "ReturnToAtlantis.Slave"
+  whdload "Resolution101.Slave"
 ENDIF

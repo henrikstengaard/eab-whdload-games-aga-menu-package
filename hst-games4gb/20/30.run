@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Seek&DestroyAGA/"
+cd "A-Games:S/SecretOfMonkeyIsland/"
 IF EXISTS ENV:whdloadargs
-  whdload "Seek&DestroyAGA.Slave" $whdloadargs
+  whdload "SecretOfMonkeyIsland.slave" $whdloadargs
 ELSE
-  whdload "Seek&DestroyAGA.Slave"
+  whdload "SecretOfMonkeyIsland.slave"
 ENDIF

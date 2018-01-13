@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MightAndMagic3/"
+cd "A-Games:M/Might&Magic2/"
 IF EXISTS ENV:whdloadargs
-  whdload "MightAndMagic3.Slave" $whdloadargs
+  whdload "Might&Magic2.Slave" $whdloadargs
 ELSE
-  whdload "MightAndMagic3.Slave"
+  whdload "Might&Magic2.Slave"
 ENDIF

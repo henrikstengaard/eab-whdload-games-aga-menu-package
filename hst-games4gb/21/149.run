@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TransarcticaAGA/"
+cd "A-Games:T/TipOff/"
 IF EXISTS ENV:whdloadargs
-  whdload "TransarcticaAGA.Slave" $whdloadargs
+  whdload "TipOff.Slave" $whdloadargs
 ELSE
-  whdload "TransarcticaAGA.Slave"
+  whdload "TipOff.Slave"
 ENDIF

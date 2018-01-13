@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/EscapeFTPOTRobotMonsters/"
+cd "A-Games:E/EscapeFromColditz/"
 IF EXISTS ENV:whdloadargs
-  whdload "EscapeFTPOTRobotMonsters.slave" $whdloadargs
+  whdload "EscapeFromColditz.Slave" $whdloadargs
 ELSE
-  whdload "EscapeFTPOTRobotMonsters.slave"
+  whdload "EscapeFromColditz.Slave"
 ENDIF

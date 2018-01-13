@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PostmanPat/"
+cd "A-Games:P/Portal/"
 IF EXISTS ENV:whdloadargs
-  whdload "PostmanPat.Slave" $whdloadargs
+  whdload "Portal.slave" $whdloadargs
 ELSE
-  whdload "PostmanPat.Slave"
+  whdload "Portal.slave"
 ENDIF

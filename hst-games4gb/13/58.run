@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/Logo/"
+cd "A-Games:L/Locomotion/"
 IF EXISTS ENV:whdloadargs
-  whdload "Logo.Slave" $whdloadargs
+  whdload "Locomotion.Slave" $whdloadargs
 ELSE
-  whdload "Logo.Slave"
+  whdload "Locomotion.Slave"
 ENDIF

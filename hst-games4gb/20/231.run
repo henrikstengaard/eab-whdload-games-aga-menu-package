@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuburbanCommando/"
+cd "A-Games:S/Stryx/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuburbanCommando.Slave" $whdloadargs
+  whdload "Stryx.Slave" $whdloadargs
 ELSE
-  whdload "SuburbanCommando.Slave"
+  whdload "Stryx.Slave"
 ENDIF

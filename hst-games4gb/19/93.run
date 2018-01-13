@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/Rushhour/"
+cd "A-Games:R/RunTheGauntlet/"
 IF EXISTS ENV:whdloadargs
-  whdload "Rushhour.Slave" $whdloadargs
+  whdload "RunTheGauntlet.Slave" $whdloadargs
 ELSE
-  whdload "Rushhour.Slave"
+  whdload "RunTheGauntlet.Slave"
 ENDIF

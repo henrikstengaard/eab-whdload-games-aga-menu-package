@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Munsters/"
+cd "A-Games:M/MultiPlayerSoccerManager/"
 IF EXISTS ENV:whdloadargs
-  whdload "Munsters.Slave" $whdloadargs
+  whdload "MultiPlayerSoccerManager.Slave" $whdloadargs
 ELSE
-  whdload "Munsters.Slave"
+  whdload "MultiPlayerSoccerManager.Slave"
 ENDIF

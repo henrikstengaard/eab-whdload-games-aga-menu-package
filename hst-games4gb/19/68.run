@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/RockChallenge/"
+cd "A-Games:R/Robozone/"
 IF EXISTS ENV:whdloadargs
-  whdload "RockChallenge.slave" $whdloadargs
+  whdload "Robozone.slave" $whdloadargs
 ELSE
-  whdload "RockChallenge.slave"
+  whdload "Robozone.slave"
 ENDIF

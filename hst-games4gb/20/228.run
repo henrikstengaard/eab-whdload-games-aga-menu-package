@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SubBattleSimulator/"
+cd "A-Games:S/StripPoker2+/"
 IF EXISTS ENV:whdloadargs
-  whdload "SubBattleSimulator.Slave" $whdloadargs
+  whdload "StripPoker2+.Slave" $whdloadargs
 ELSE
-  whdload "SubBattleSimulator.Slave"
+  whdload "StripPoker2+.Slave"
 ENDIF

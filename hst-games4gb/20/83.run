@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SimEarthLoRes/"
+cd "A-Games:S/SilentService2/"
 IF EXISTS ENV:whdloadargs
-  whdload "SimEarthLoRes.Slave" $whdloadargs
+  whdload "SilentService2.slave" $whdloadargs
 ELSE
-  whdload "SimEarthLoRes.Slave"
+  whdload "SilentService2.slave"
 ENDIF

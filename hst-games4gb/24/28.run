@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WebOfTerror/"
+cd "A-Games:W/WCLeaderBoard&DataDisks/"
 IF EXISTS ENV:whdloadargs
-  whdload "WebOfTerror.slave" $whdloadargs
+  whdload "WCLeaderBoard&DataDisks.slave" $whdloadargs
 ELSE
-  whdload "WebOfTerror.slave"
+  whdload "WCLeaderBoard&DataDisks.slave"
 ENDIF

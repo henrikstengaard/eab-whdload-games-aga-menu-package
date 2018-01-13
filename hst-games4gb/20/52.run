@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Shadowgate/"
+cd "A-Games:S/SevenCitiesOfGold/"
 IF EXISTS ENV:whdloadargs
-  whdload "Shadowgate.Slave" $whdloadargs
+  whdload "SevenCitiesOfGold.slave" $whdloadargs
 ELSE
-  whdload "Shadowgate.Slave"
+  whdload "SevenCitiesOfGold.slave"
 ENDIF

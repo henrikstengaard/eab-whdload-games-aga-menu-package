@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/DreamWebAGA/"
+cd "A-Games:D/DrakkhenImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "DreamWebAGA.Slave" $whdloadargs
+  whdload "DrakkhenImage.Slave" $whdloadargs
 ELSE
-  whdload "DreamWebAGA.Slave"
+  whdload "DrakkhenImage.Slave"
 ENDIF

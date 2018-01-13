@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/Plan9FromOuterSpace/"
+cd "A-Games:P/Plague/"
 IF EXISTS ENV:whdloadargs
-  whdload "Plan9FromOuterSpace.Slave" $whdloadargs
+  whdload "Plague.slave" $whdloadargs
 ELSE
-  whdload "Plan9FromOuterSpace.Slave"
+  whdload "Plague.slave"
 ENDIF

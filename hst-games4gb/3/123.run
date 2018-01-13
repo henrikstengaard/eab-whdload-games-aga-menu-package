@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:B/BorrowedTime/"
+cd "A-Games:B/Borobodur/"
 IF EXISTS ENV:whdloadargs
-  whdload "BorrowedTime.Slave" $whdloadargs
+  whdload "Borobodur.Slave" $whdloadargs
 ELSE
-  whdload "BorrowedTime.Slave"
+  whdload "Borobodur.Slave"
 ENDIF

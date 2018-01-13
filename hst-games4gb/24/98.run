@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WWFEuropeanRampageTour/"
+cd "A-Games:W/Wreckers/"
 IF EXISTS ENV:whdloadargs
-  whdload "WWFEuropeanRampageTour.Slave" $whdloadargs
+  whdload "Wreckers.Slave" $whdloadargs
 ELSE
-  whdload "WWFEuropeanRampageTour.Slave"
+  whdload "Wreckers.Slave"
 ENDIF

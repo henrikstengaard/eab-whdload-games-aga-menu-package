@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/Executioner/"
+cd "A-Games:E/Excalibur/"
 IF EXISTS ENV:whdloadargs
-  whdload "Executioner.Slave" $whdloadargs
+  whdload "Excalibur.Slave" $whdloadargs
 ELSE
-  whdload "Executioner.Slave"
+  whdload "Excalibur.Slave"
 ENDIF

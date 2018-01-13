@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:B/BuckRogersCountdownDday/"
+cd "A-Games:B/BubbleGun/"
 IF EXISTS ENV:whdloadargs
-  whdload "BuckRogersCountdownDday.slave" $whdloadargs
+  whdload "BubbleGun.Slave" $whdloadargs
 ELSE
-  whdload "BuckRogersCountdownDday.slave"
+  whdload "BubbleGun.Slave"
 ENDIF

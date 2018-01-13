@@ -1,0 +1,5 @@
+;HstWB menu item data
+Name=Entity
+RunFile=Entity.slave
+AGS2Name=Entity
+iGameName=Entity

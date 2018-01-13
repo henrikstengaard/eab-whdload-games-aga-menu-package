@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/FoundationsWaste/"
+cd "A-Games:F/FormulaOneGrandPrix4Disk/"
 IF EXISTS ENV:whdloadargs
-  whdload "FoundationsWaste.Slave" $whdloadargs
+  whdload "FormulaOneGrandPrix4Disk.Slave" $whdloadargs
 ELSE
-  whdload "FoundationsWaste.Slave"
+  whdload "FormulaOneGrandPrix4Disk.Slave"
 ENDIF

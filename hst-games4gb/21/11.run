@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:H/HuntForRedOctober/"
+cd "A-Games:H/HitchhikersGuideTTG/"
 IF EXISTS ENV:whdloadargs
-  whdload "HuntForRedOctober.Slave" $whdloadargs
+  whdload "HitchhikersGuideTTG.Slave" $whdloadargs
 ELSE
-  whdload "HuntForRedOctober.Slave"
+  whdload "HitchhikersGuideTTG.Slave"
 ENDIF

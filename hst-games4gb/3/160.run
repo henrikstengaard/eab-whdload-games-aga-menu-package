@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:B/BurnoutAGA/"
+cd "A-Games:B/BurningRubberAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "BurnoutAGA.slave" $whdloadargs
+  whdload "BurningRubberAGA.slave" $whdloadargs
 ELSE
-  whdload "BurnoutAGA.slave"
+  whdload "BurningRubberAGA.slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Myth/"
+cd "A-Games:M/Mystical/"
 IF EXISTS ENV:whdloadargs
-  whdload "Myth.Slave" $whdloadargs
+  whdload "Mystical.Slave" $whdloadargs
 ELSE
-  whdload "Myth.Slave"
+  whdload "Mystical.Slave"
 ENDIF

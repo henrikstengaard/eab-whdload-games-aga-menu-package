@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MrDoRunRunImage/"
+cd "A-Games:D/DynastyWars/"
 IF EXISTS ENV:whdloadargs
-  whdload "MrDoRunRunImage.Slave" $whdloadargs
+  whdload "DynastyWars.slave" $whdloadargs
 ELSE
-  whdload "MrDoRunRunImage.Slave"
+  whdload "DynastyWars.slave"
 ENDIF

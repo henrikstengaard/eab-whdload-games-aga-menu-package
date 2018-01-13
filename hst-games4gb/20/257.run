@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuperSkweek512KB/"
+cd "A-Games:S/Superman/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperSkweek512KB.Slave" $whdloadargs
+  whdload "Superman.Slave" $whdloadargs
 ELSE
-  whdload "SuperSkweek512KB.Slave"
+  whdload "Superman.Slave"
 ENDIF

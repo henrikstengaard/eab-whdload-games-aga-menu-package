@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:B/BrainBlasters/"
+cd "A-Games:B/Brainball/"
 IF EXISTS ENV:whdloadargs
-  whdload "BrainBlasters.slave" $whdloadargs
+  whdload "Brainball.slave" $whdloadargs
 ELSE
-  whdload "BrainBlasters.slave"
+  whdload "Brainball.slave"
 ENDIF

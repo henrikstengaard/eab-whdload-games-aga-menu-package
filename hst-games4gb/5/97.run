@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/DownhillChallenge/"
+cd "A-Games:D/DoubleDragon3/"
 IF EXISTS ENV:whdloadargs
-  whdload "DownhillChallenge.Slave" $whdloadargs
+  whdload "DoubleDragon3.slave" $whdloadargs
 ELSE
-  whdload "DownhillChallenge.Slave"
+  whdload "DoubleDragon3.slave"
 ENDIF

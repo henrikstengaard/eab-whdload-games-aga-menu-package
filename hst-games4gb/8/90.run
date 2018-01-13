@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuperGridRunner/"
+cd "A-Games:G/GuySpy/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperGridRunner.Slave" $whdloadargs
+  whdload "GuySpy.Slave" $whdloadargs
 ELSE
-  whdload "SuperGridRunner.Slave"
+  whdload "GuySpy.Slave"
 ENDIF

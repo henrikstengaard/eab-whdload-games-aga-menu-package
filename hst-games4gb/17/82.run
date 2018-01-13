@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PortsOfCall/"
+cd "A-Games:P/PopulousWorldEditor/"
 IF EXISTS ENV:whdloadargs
-  whdload "PortsOfCall.Slave" $whdloadargs
+  whdload "PopulousWorldEditor.Slave" $whdloadargs
 ELSE
-  whdload "PortsOfCall.Slave"
+  whdload "PopulousWorldEditor.Slave"
 ENDIF

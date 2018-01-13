@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/ReturnToGenesis/"
+cd "A-Games:R/ReturnToAtlantis/"
 IF EXISTS ENV:whdloadargs
-  whdload "ReturnToGenesis.Slave" $whdloadargs
+  whdload "ReturnToAtlantis.Slave" $whdloadargs
 ELSE
-  whdload "ReturnToGenesis.Slave"
+  whdload "ReturnToAtlantis.Slave"
 ENDIF

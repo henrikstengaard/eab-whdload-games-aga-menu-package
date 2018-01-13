@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/StackUp/"
+cd "A-Games:S/SpittingImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "StackUp.Slave" $whdloadargs
+  whdload "SpittingImage.slave" $whdloadargs
 ELSE
-  whdload "StackUp.Slave"
+  whdload "SpittingImage.slave"
 ENDIF

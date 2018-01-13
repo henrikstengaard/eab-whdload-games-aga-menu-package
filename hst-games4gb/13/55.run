@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/Llamatron512KB/"
+cd "A-Games:L/LiveAndLetDie/"
 IF EXISTS ENV:whdloadargs
-  whdload "Llamatron512KB.Slave" $whdloadargs
+  whdload "LiveAndLetDie.Slave" $whdloadargs
 ELSE
-  whdload "Llamatron512KB.Slave"
+  whdload "LiveAndLetDie.Slave"
 ENDIF

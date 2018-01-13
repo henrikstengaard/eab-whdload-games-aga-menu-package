@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuperTetris/"
+cd "A-Games:S/SuperSeymourSavesPlanet/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperTetris.Slave" $whdloadargs
+  whdload "SuperSeymourSavesPlanet.slave" $whdloadargs
 ELSE
-  whdload "SuperTetris.Slave"
+  whdload "SuperSeymourSavesPlanet.slave"
 ENDIF

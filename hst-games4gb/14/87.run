@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Mindroll/"
+cd "A-Games:M/Mindfighter/"
 IF EXISTS ENV:whdloadargs
-  whdload "Mindroll.Slave" $whdloadargs
+  whdload "Mindfighter.Slave" $whdloadargs
 ELSE
-  whdload "Mindroll.Slave"
+  whdload "Mindfighter.Slave"
 ENDIF

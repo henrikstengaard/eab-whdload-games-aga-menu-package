@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Stormlord/"
+cd "A-Games:S/StarWars/"
 IF EXISTS ENV:whdloadargs
-  whdload "Stormlord.Slave" $whdloadargs
+  whdload "StarWars.Slave" $whdloadargs
 ELSE
-  whdload "Stormlord.Slave"
+  whdload "StarWars.Slave"
 ENDIF

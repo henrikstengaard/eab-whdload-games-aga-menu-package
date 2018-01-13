@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MurdersInSpaceImage/"
+cd "A-Games:M/Murder/"
 IF EXISTS ENV:whdloadargs
-  whdload "MurdersInSpaceImage.Slave" $whdloadargs
+  whdload "Murder.Slave" $whdloadargs
 ELSE
-  whdload "MurdersInSpaceImage.Slave"
+  whdload "Murder.Slave"
 ENDIF

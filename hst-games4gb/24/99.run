@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WWFWrestleMania/"
+cd "A-Games:W/WWFEuropeanRampageTour/"
 IF EXISTS ENV:whdloadargs
-  whdload "WWFWrestlemania.slave" $whdloadargs
+  whdload "WWFEuropeanRampageTour.Slave" $whdloadargs
 ELSE
-  whdload "WWFWrestlemania.slave"
+  whdload "WWFEuropeanRampageTour.Slave"
 ENDIF

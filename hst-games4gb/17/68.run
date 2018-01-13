@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PoliceQuest/"
+cd "A-Games:P/Pod/"
 IF EXISTS ENV:whdloadargs
-  whdload "PoliceQuest.slave" $whdloadargs
+  whdload "Pod.Slave" $whdloadargs
 ELSE
-  whdload "PoliceQuest.slave"
+  whdload "Pod.Slave"
 ENDIF

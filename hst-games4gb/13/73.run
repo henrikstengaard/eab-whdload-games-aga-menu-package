@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LostPatrol/"
+cd "A-Games:L/LostDutchmanMine/"
 IF EXISTS ENV:whdloadargs
-  whdload "LostPatrol.Slave" $whdloadargs
+  whdload "LostDutchmanMine.Slave" $whdloadargs
 ELSE
-  whdload "LostPatrol.Slave"
+  whdload "LostDutchmanMine.Slave"
 ENDIF

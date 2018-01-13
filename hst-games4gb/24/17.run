@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/Warp/"
+cd "A-Games:W/WarmUp/"
 IF EXISTS ENV:whdloadargs
-  whdload "WARP.slave" $whdloadargs
+  whdload "WarmUp.Slave" $whdloadargs
 ELSE
-  whdload "WARP.slave"
+  whdload "WarmUp.Slave"
 ENDIF

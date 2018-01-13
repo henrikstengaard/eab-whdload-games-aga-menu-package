@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/RomeAD92/"
+cd "A-Games:R/RollOrDie/"
 IF EXISTS ENV:whdloadargs
-  whdload "RomeAD92.Slave" $whdloadargs
+  whdload "RollOrDie.slave" $whdloadargs
 ELSE
-  whdload "RomeAD92.Slave"
+  whdload "RollOrDie.slave"
 ENDIF

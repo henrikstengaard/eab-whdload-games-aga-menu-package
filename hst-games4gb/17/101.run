@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PremierManager3AGA/"
+cd "A-Games:P/PremierManager/"
 IF EXISTS ENV:whdloadargs
-  whdload "PremierManager3AGA.Slave" $whdloadargs
+  whdload "PremierManager.Slave" $whdloadargs
 ELSE
-  whdload "PremierManager3AGA.Slave"
+  whdload "PremierManager.Slave"
 ENDIF

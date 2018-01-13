@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PremierManager/"
+cd "A-Games:P/Prehistorik/"
 IF EXISTS ENV:whdloadargs
-  whdload "PremierManager.Slave" $whdloadargs
+  whdload "Prehistorik.slave" $whdloadargs
 ELSE
-  whdload "PremierManager.Slave"
+  whdload "Prehistorik.slave"
 ENDIF

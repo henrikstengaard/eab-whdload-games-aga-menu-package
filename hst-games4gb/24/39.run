@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WhiteDeath/"
+cd "A-Games:W/Whirligig/"
 IF EXISTS ENV:whdloadargs
-  whdload "WhiteDeath.Slave" $whdloadargs
+  whdload "Whirligig.Slave" $whdloadargs
 ELSE
-  whdload "WhiteDeath.Slave"
+  whdload "Whirligig.Slave"
 ENDIF

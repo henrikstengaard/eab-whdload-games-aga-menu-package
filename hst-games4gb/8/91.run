@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:U/UltimateGolf/"
+cd "A-Games:S/SuperGridRunner/"
 IF EXISTS ENV:whdloadargs
-  whdload "UltimateGolf.slave" $whdloadargs
+  whdload "SuperGridRunner.Slave" $whdloadargs
 ELSE
-  whdload "UltimateGolf.slave"
+  whdload "SuperGridRunner.Slave"
 ENDIF

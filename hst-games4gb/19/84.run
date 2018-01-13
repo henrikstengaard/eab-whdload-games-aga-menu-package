@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/RType/"
+cd "A-Games:R/RoundTheBend/"
 IF EXISTS ENV:whdloadargs
-  whdload "RType.Slave" $whdloadargs
+  whdload "RoundTheBend.Slave" $whdloadargs
 ELSE
-  whdload "RType.Slave"
+  whdload "RoundTheBend.Slave"
 ENDIF

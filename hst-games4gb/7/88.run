@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/FootballerOfTheYear2/"
+cd "A-Games:F/FoolsErrand/"
 IF EXISTS ENV:whdloadargs
-  whdload "FootballerOfTheYear2.slave" $whdloadargs
+  whdload "FoolsErrand.Slave" $whdloadargs
 ELSE
-  whdload "FootballerOfTheYear2.slave"
+  whdload "FoolsErrand.Slave"
 ENDIF

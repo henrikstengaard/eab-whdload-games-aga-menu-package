@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LethalZone/"
+cd "A-Games:L/LethalWeapon/"
 IF EXISTS ENV:whdloadargs
-  whdload "LethalZone.slave" $whdloadargs
+  whdload "LethalWeapon.Slave" $whdloadargs
 ELSE
-  whdload "LethalZone.slave"
+  whdload "LethalWeapon.Slave"
 ENDIF

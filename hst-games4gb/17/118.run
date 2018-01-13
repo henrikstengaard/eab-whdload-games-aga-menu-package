@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/ProspectorInTheMazesOfXor/"
+cd "A-Games:P/ProPowerBoatSimulator/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProspectorInTheMazesOfXor.Slave" $whdloadargs
+  whdload "ProPowerBoatSimulator.Slave" $whdloadargs
 ELSE
-  whdload "ProspectorInTheMazesOfXor.Slave"
+  whdload "ProPowerBoatSimulator.Slave"
 ENDIF

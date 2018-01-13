@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Stryx/"
+cd "A-Games:S/Strider2/"
 IF EXISTS ENV:whdloadargs
-  whdload "Stryx.Slave" $whdloadargs
+  whdload "Strider2.Slave" $whdloadargs
 ELSE
-  whdload "Stryx.Slave"
+  whdload "Strider2.Slave"
 ENDIF

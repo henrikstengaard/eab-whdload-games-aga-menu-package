@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Skidz/"
+cd "A-Games:S/Sixiang/"
 IF EXISTS ENV:whdloadargs
-  whdload "Skidz.Slave" $whdloadargs
+  whdload "Sixiang.Slave" $whdloadargs
 ELSE
-  whdload "Skidz.Slave"
+  whdload "Sixiang.Slave"
 ENDIF

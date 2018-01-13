@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TempleOfApshaiTrilogy/"
+cd "A-Games:T/Teller/"
 IF EXISTS ENV:whdloadargs
-  whdload "TempleOfApshaiTrilogy.Slave" $whdloadargs
+  whdload "Teller.Slave" $whdloadargs
 ELSE
-  whdload "TempleOfApshaiTrilogy.Slave"
+  whdload "Teller.Slave"
 ENDIF

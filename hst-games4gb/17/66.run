@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/Plutos/"
+cd "A-Games:P/Plotting/"
 IF EXISTS ENV:whdloadargs
-  whdload "Plutos.Slave" $whdloadargs
+  whdload "Plotting.slave" $whdloadargs
 ELSE
-  whdload "Plutos.Slave"
+  whdload "Plotting.slave"
 ENDIF

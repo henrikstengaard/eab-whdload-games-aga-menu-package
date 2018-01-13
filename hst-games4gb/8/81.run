@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:G/GTSoccerChallenge/"
+cd "A-Games:G/GridStart/"
 IF EXISTS ENV:whdloadargs
-  whdload "GTSoccerChallenge.Slave" $whdloadargs
+  whdload "GridStart.Slave" $whdloadargs
 ELSE
-  whdload "GTSoccerChallenge.Slave"
+  whdload "GridStart.Slave"
 ENDIF

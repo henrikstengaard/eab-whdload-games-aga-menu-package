@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/RiseOfTheDragon/"
+cd "A-Games:R/RingsOfMedusa/"
 IF EXISTS ENV:whdloadargs
-  whdload "RiseOfTheDragon.Slave" $whdloadargs
+  whdload "RingsOfMedusa.Slave" $whdloadargs
 ELSE
-  whdload "RiseOfTheDragon.Slave"
+  whdload "RingsOfMedusa.Slave"
 ENDIF

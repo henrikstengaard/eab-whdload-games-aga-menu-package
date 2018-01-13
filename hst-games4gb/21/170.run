@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TurnNBurn/"
+cd "A-Games:T/TournamentGolf/"
 IF EXISTS ENV:whdloadargs
-  whdload "TurnNBurn.slave" $whdloadargs
+  whdload "TournamentGolf.Slave" $whdloadargs
 ELSE
-  whdload "TurnNBurn.slave"
+  whdload "TournamentGolf.Slave"
 ENDIF

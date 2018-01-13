@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MiniGolf/"
+cd "A-Games:M/MindWalker/"
 IF EXISTS ENV:whdloadargs
-  whdload "MiniGolf.Slave" $whdloadargs
+  whdload "MindWalker.slave" $whdloadargs
 ELSE
-  whdload "MiniGolf.Slave"
+  whdload "MindWalker.slave"
 ENDIF

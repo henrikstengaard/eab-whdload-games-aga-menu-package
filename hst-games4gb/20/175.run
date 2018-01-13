@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SpyVsSpy/"
+cd "A-Games:S/SperisLegacyAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpyVsSpy.Slave" $whdloadargs
+  whdload "SperisLegacyAGA.Slave" $whdloadargs
 ELSE
-  whdload "SpyVsSpy.Slave"
+  whdload "SperisLegacyAGA.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Midwinter/"
+cd "A-Games:M/MidnightResistance/"
 IF EXISTS ENV:whdloadargs
-  whdload "Midwinter.Slave" $whdloadargs
+  whdload "MidnightResistance.Slave" $whdloadargs
 ELSE
-  whdload "Midwinter.Slave"
+  whdload "MidnightResistance.Slave"
 ENDIF

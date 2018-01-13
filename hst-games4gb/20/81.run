@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SimCity12/"
+cd "A-Games:S/SierraSoccer/"
 IF EXISTS ENV:whdloadargs
-  whdload "SimCity12.Slave" $whdloadargs
+  whdload "SierraSoccer.Slave" $whdloadargs
 ELSE
-  whdload "SimCity12.Slave"
+  whdload "SierraSoccer.Slave"
 ENDIF

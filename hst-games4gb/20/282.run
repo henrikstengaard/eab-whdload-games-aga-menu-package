@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Syndicate/"
+cd "A-Games:S/Switchblade/"
 IF EXISTS ENV:whdloadargs
-  whdload "Syndicate.slave" $whdloadargs
+  whdload "Switchblade.Slave" $whdloadargs
 ELSE
-  whdload "Syndicate.slave"
+  whdload "Switchblade.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TZer0DemoNoMovieAGA/"
+cd "A-Games:T/TrianGO/"
 IF EXISTS ENV:whdloadargs
-  whdload "TZer0DemoNoMovieAGA.Slave" $whdloadargs
+  whdload "TrianGO.Slave" $whdloadargs
 ELSE
-  whdload "TZer0DemoNoMovieAGA.Slave"
+  whdload "TrianGO.Slave"
 ENDIF

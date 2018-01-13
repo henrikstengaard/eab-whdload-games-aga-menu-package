@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SecondsOut/"
+cd "A-Games:S/SDICinemaware/"
 IF EXISTS ENV:whdloadargs
-  whdload "SecondsOut.Slave" $whdloadargs
+  whdload "SDICinemaware.Slave" $whdloadargs
 ELSE
-  whdload "SecondsOut.Slave"
+  whdload "SDICinemaware.Slave"
 ENDIF

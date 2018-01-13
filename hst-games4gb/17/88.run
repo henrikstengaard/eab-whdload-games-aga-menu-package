@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/Powerdrome/"
+cd "A-Games:P/PowerDrift/"
 IF EXISTS ENV:whdloadargs
-  whdload "Powerdrome.Slave" $whdloadargs
+  whdload "PowerDrift.Slave" $whdloadargs
 ELSE
-  whdload "Powerdrome.Slave"
+  whdload "PowerDrift.Slave"
 ENDIF

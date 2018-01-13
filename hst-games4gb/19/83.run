@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:R/RoundTheBend/"
+cd "A-Games:R/Rotox/"
 IF EXISTS ENV:whdloadargs
-  whdload "RoundTheBend.Slave" $whdloadargs
+  whdload "Rotox.slave" $whdloadargs
 ELSE
-  whdload "RoundTheBend.Slave"
+  whdload "Rotox.slave"
 ENDIF

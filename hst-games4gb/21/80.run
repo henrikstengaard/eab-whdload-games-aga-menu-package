@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TimeRace/"
+cd "A-Games:T/TimeMachine/"
 IF EXISTS ENV:whdloadargs
-  whdload "TimeRace.Slave" $whdloadargs
+  whdload "TimeMachine.slave" $whdloadargs
 ELSE
-  whdload "TimeRace.Slave"
+  whdload "TimeMachine.slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SlipStream/"
+cd "A-Games:S/Slackskin&Flint/"
 IF EXISTS ENV:whdloadargs
-  whdload "SlipStream.Slave" $whdloadargs
+  whdload "Slackskin&Flint.Slave" $whdloadargs
 ELSE
-  whdload "SlipStream.Slave"
+  whdload "Slackskin&Flint.Slave"
 ENDIF

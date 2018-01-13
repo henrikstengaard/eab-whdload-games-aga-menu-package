@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MissilesOverXerion/"
+cd "A-Games:M/MinskiesAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "MissilesOverXerion.slave" $whdloadargs
+  whdload "MinskiesAGA.slave" $whdloadargs
 ELSE
-  whdload "MissilesOverXerion.slave"
+  whdload "MinskiesAGA.slave"
 ENDIF

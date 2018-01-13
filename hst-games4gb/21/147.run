@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/Traders/"
+cd "A-Games:T/TinySkweeks/"
 IF EXISTS ENV:whdloadargs
-  whdload "Traders.slave" $whdloadargs
+  whdload "TinySkweeks.Slave" $whdloadargs
 ELSE
-  whdload "Traders.slave"
+  whdload "TinySkweeks.Slave"
 ENDIF

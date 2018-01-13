@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:G/Goldrunner2/"
+cd "A-Games:G/Goldrunner/"
 IF EXISTS ENV:whdloadargs
-  whdload "Goldrunner2.Slave" $whdloadargs
+  whdload "Goldrunner.Slave" $whdloadargs
 ELSE
-  whdload "Goldrunner2.Slave"
+  whdload "Goldrunner.Slave"
 ENDIF

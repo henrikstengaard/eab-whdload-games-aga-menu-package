@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LordsOfWar/"
+cd "A-Games:L/LordsOfTheRisingSun/"
 IF EXISTS ENV:whdloadargs
-  whdload "lordsOfwar.slave" $whdloadargs
+  whdload "LordsOfTheRisingSun.slave" $whdloadargs
 ELSE
-  whdload "lordsOfwar.slave"
+  whdload "LordsOfTheRisingSun.slave"
 ENDIF

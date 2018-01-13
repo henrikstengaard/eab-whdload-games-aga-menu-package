@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WCLeaderBoard/"
+cd "A-Games:W/WayneGretzkyHockey2/"
 IF EXISTS ENV:whdloadargs
-  whdload "WCLeaderBoard.slave" $whdloadargs
+  whdload "WayneGretzkyHockey2.Slave" $whdloadargs
 ELSE
-  whdload "WCLeaderBoard.slave"
+  whdload "WayneGretzkyHockey2.Slave"
 ENDIF

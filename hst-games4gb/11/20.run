@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:J/JimmysFantasticJourney/"
+cd "A-Games:J/JewelsOfDarkness/"
 IF EXISTS ENV:whdloadargs
-  whdload "JimmysFantasticJourney.slave" $whdloadargs
+  whdload "JewelsOfDarkness.Slave" $whdloadargs
 ELSE
-  whdload "JimmysFantasticJourney.slave"
+  whdload "JewelsOfDarkness.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/DungeonMaster/"
+cd "A-Games:D/Dune/"
 IF EXISTS ENV:whdloadargs
-  whdload "DungeonMaster.slave" $whdloadargs
+  whdload "Dune.Slave" $whdloadargs
 ELSE
-  whdload "DungeonMaster.slave"
+  whdload "Dune.Slave"
 ENDIF

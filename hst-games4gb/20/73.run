@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SideWinder2/"
+cd "A-Games:S/Shuffle/"
 IF EXISTS ENV:whdloadargs
-  whdload "SideWinder2.Slave" $whdloadargs
+  whdload "Shuffle.Slave" $whdloadargs
 ELSE
-  whdload "SideWinder2.Slave"
+  whdload "Shuffle.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PopulousWorldEditor/"
+cd "A-Games:P/Populous2&ChallengeGames/"
 IF EXISTS ENV:whdloadargs
-  whdload "PopulousWorldEditor.Slave" $whdloadargs
+  whdload "ChallengeGames.slave" $whdloadargs
 ELSE
-  whdload "PopulousWorldEditor.Slave"
+  whdload "ChallengeGames.slave"
 ENDIF

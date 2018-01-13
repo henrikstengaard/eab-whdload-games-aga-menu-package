@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:0-9/4DSportsDriving/"
+cd "A-Games:0-9/4DSportsBoxing/"
 IF EXISTS ENV:whdloadargs
-  whdload "4DSportsDriving.Slave" $whdloadargs
+  whdload "4DSportsBoxing.Slave" $whdloadargs
 ELSE
-  whdload "4DSportsDriving.Slave"
+  whdload "4DSportsBoxing.Slave"
 ENDIF

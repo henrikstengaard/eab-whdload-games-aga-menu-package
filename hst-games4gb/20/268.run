@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuprTennisChmps&DataDisks/"
+cd "A-Games:S/SuperStardustAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuprTennisChmps&DataDisks.Slave" $whdloadargs
+  whdload "SuperStardustAGA.Slave" $whdloadargs
 ELSE
-  whdload "SuprTennisChmps&DataDisks.Slave"
+  whdload "SuperStardustAGA.Slave"
 ENDIF

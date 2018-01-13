@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Moonfall/"
+cd "A-Games:M/Moochies/"
 IF EXISTS ENV:whdloadargs
-  whdload "Moonfall.slave" $whdloadargs
+  whdload "Moochies.Slave" $whdloadargs
 ELSE
-  whdload "Moonfall.slave"
+  whdload "Moochies.Slave"
 ENDIF

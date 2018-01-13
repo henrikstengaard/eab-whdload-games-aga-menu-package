@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/Wormsigns/"
+cd "A-Games:W/WormsDirectorsCutAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Wormsigns.Slave" $whdloadargs
+  whdload "WormsDirectorsCutAGA.Slave" $whdloadargs
 ELSE
-  whdload "Wormsigns.Slave"
+  whdload "WormsDirectorsCutAGA.Slave"
 ENDIF

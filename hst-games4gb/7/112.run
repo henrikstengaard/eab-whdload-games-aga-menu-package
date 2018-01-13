@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/FutureShock/"
+cd "A-Games:F/FutureClassicsCollection/"
 IF EXISTS ENV:whdloadargs
-  whdload "FutureShock.slave" $whdloadargs
+  whdload "FutureClassicsCollection.Slave" $whdloadargs
 ELSE
-  whdload "FutureShock.slave"
+  whdload "FutureClassicsCollection.Slave"
 ENDIF

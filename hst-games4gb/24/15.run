@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WarMachine/"
+cd "A-Games:W/Warlords/"
 IF EXISTS ENV:whdloadargs
-  whdload "WarMachine.Slave" $whdloadargs
+  whdload "Warlords.Slave" $whdloadargs
 ELSE
-  whdload "WarMachine.Slave"
+  whdload "Warlords.Slave"
 ENDIF

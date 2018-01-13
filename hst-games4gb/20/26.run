@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SecondSamuraiAGA/"
+cd "A-Games:S/ScrollingWalls/"
 IF EXISTS ENV:whdloadargs
-  whdload "SecondSamuraiAGA.slave" $whdloadargs
+  whdload "ScrollingWalls.Slave" $whdloadargs
 ELSE
-  whdload "SecondSamuraiAGA.slave"
+  whdload "ScrollingWalls.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:E/Exile/"
+cd "A-Games:E/Executioner/"
 IF EXISTS ENV:whdloadargs
-  whdload "Exile.Slave" $whdloadargs
+  whdload "Executioner.Slave" $whdloadargs
 ELSE
-  whdload "Exile.Slave"
+  whdload "Executioner.Slave"
 ENDIF

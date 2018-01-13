@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/FullMetalPlaneteImage/"
+cd "A-Games:F/FullContact/"
 IF EXISTS ENV:whdloadargs
-  whdload "FullMetalPlaneteImage.Slave" $whdloadargs
+  whdload "FullContact.slave" $whdloadargs
 ELSE
-  whdload "FullMetalPlaneteImage.Slave"
+  whdload "FullContact.slave"
 ENDIF

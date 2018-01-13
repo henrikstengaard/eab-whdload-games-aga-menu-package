@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MicroProseSoccer/"
+cd "A-Games:M/MicroProseGolf/"
 IF EXISTS ENV:whdloadargs
-  whdload "MicroProseSoccer.Slave" $whdloadargs
+  whdload "MicroProseGolf.slave" $whdloadargs
 ELSE
-  whdload "MicroProseSoccer.Slave"
+  whdload "MicroProseGolf.slave"
 ENDIF

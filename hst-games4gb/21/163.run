@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TubeWarriorsAGA/"
+cd "A-Games:T/TornadoAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "TubeWarriorsAGA.Slave" $whdloadargs
+  whdload "TornadoAGA.slave" $whdloadargs
 ELSE
-  whdload "TubeWarriorsAGA.Slave"
+  whdload "TornadoAGA.slave"
 ENDIF

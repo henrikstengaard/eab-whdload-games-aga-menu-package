@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Millennium22/"
+cd "A-Games:M/MikroMortalTennis/"
 IF EXISTS ENV:whdloadargs
-  whdload "Millennium22.Slave" $whdloadargs
+  whdload "MikroMortalTennis.Slave" $whdloadargs
 ELSE
-  whdload "Millennium22.Slave"
+  whdload "MikroMortalTennis.Slave"
 ENDIF

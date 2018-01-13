@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/PowerDrive/"
+cd "A-Games:P/Power/"
 IF EXISTS ENV:whdloadargs
-  whdload "PowerDrive.Slave" $whdloadargs
+  whdload "Power.Slave" $whdloadargs
 ELSE
-  whdload "PowerDrive.Slave"
+  whdload "Power.Slave"
 ENDIF

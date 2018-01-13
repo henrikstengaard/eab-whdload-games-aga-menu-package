@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:G/GravityForce/"
+cd "A-Games:G/Gravity/"
 IF EXISTS ENV:whdloadargs
-  whdload "GravityForce.Slave" $whdloadargs
+  whdload "Gravity.Slave" $whdloadargs
 ELSE
-  whdload "GravityForce.Slave"
+  whdload "Gravity.Slave"
 ENDIF

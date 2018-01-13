@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/ProBoxingSimulator/"
+cd "A-Games:P/PrinceOfPersia/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProBoxingSimulator.Slave" $whdloadargs
+  whdload "PrinceOfPersia.slave" $whdloadargs
 ELSE
-  whdload "ProBoxingSimulator.Slave"
+  whdload "PrinceOfPersia.slave"
 ENDIF

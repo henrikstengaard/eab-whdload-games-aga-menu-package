@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/FutureClassicsCollection/"
+cd "A-Games:F/FutureBikeSimulator/"
 IF EXISTS ENV:whdloadargs
-  whdload "FutureClassicsCollection.Slave" $whdloadargs
+  whdload "FutureBikeSimulator.Slave" $whdloadargs
 ELSE
-  whdload "FutureClassicsCollection.Slave"
+  whdload "FutureBikeSimulator.Slave"
 ENDIF

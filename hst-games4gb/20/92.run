@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SkateOfTheArt/"
+cd "A-Games:S/Simulcra/"
 IF EXISTS ENV:whdloadargs
-  whdload "SkateOfTheArt.Slave" $whdloadargs
+  whdload "Simulcra.Slave" $whdloadargs
 ELSE
-  whdload "SkateOfTheArt.Slave"
+  whdload "Simulcra.Slave"
 ENDIF

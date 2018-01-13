@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TheirFinestHour&Missions/"
+cd "A-Games:T/TheirFinestHour/"
 IF EXISTS ENV:whdloadargs
-  whdload "TheirFinestHour&Missions.Slave" $whdloadargs
+  whdload "TheirFinestHour.Slave" $whdloadargs
 ELSE
-  whdload "TheirFinestHour&Missions.Slave"
+  whdload "TheirFinestHour.Slave"
 ENDIF

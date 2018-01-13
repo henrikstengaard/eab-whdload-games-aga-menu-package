@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/WindowWizardImage/"
+cd "A-Games:W/WildWheels/"
 IF EXISTS ENV:whdloadargs
-  whdload "WindowWizardImage.Slave" $whdloadargs
+  whdload "WildWheels.Slave" $whdloadargs
 ELSE
-  whdload "WindowWizardImage.Slave"
+  whdload "WildWheels.Slave"
 ENDIF

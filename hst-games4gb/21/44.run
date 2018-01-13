@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/Terrorpods/"
+cd "A-Games:T/Terramex/"
 IF EXISTS ENV:whdloadargs
-  whdload "Terrorpods.Slave" $whdloadargs
+  whdload "Terramex.Slave" $whdloadargs
 ELSE
-  whdload "Terrorpods.Slave"
+  whdload "Terramex.Slave"
 ENDIF

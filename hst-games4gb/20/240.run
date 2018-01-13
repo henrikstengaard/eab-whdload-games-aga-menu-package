@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuperC/"
+cd "A-Games:S/Subwar2050AGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperC.Slave" $whdloadargs
+  whdload "Subwar2050AGA.slave" $whdloadargs
 ELSE
-  whdload "SuperC.Slave"
+  whdload "Subwar2050AGA.slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TurboTraxArcane/"
+cd "A-Games:T/TotalRecallImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "TurboTraxArcane512KB.Slave" $whdloadargs
+  whdload "TotalRecallImage.Slave" $whdloadargs
 ELSE
-  whdload "TurboTraxArcane512KB.Slave"
+  whdload "TotalRecallImage.Slave"
 ENDIF

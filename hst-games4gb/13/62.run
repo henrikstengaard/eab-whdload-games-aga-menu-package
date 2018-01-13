@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/Loopz/"
+cd "A-Games:L/LombardRACRally2Disk/"
 IF EXISTS ENV:whdloadargs
-  whdload "Loopz.Slave" $whdloadargs
+  whdload "LombardRACRally2Disk.Slave" $whdloadargs
 ELSE
-  whdload "Loopz.Slave"
+  whdload "LombardRACRally2Disk.Slave"
 ENDIF

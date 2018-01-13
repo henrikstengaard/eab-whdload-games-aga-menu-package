@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TwinTurbos/"
+cd "A-Games:T/Transplant/"
 IF EXISTS ENV:whdloadargs
-  whdload "TwinTurbos.slave" $whdloadargs
+  whdload "Transplant.Slave" $whdloadargs
 ELSE
-  whdload "TwinTurbos.slave"
+  whdload "Transplant.Slave"
 ENDIF

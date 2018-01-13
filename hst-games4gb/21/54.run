@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TheatreOfDeath/"
+cd "A-Games:T/Tetrix/"
 IF EXISTS ENV:whdloadargs
-  whdload "TheatreOfDeath.Slave" $whdloadargs
+  whdload "Tetrix.Slave" $whdloadargs
 ELSE
-  whdload "TheatreOfDeath.Slave"
+  whdload "Tetrix.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Skyfox2/"
+cd "A-Games:S/SkiOrDie/"
 IF EXISTS ENV:whdloadargs
-  whdload "Skyfox2.Slave" $whdloadargs
+  whdload "SkiOrDie.Slave" $whdloadargs
 ELSE
-  whdload "Skyfox2.Slave"
+  whdload "SkiOrDie.Slave"
 ENDIF

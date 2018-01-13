@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MrBlobby/"
+cd "A-Games:M/MPythonsFlyingCircus/"
 IF EXISTS ENV:whdloadargs
-  whdload "MrBlobby.slave" $whdloadargs
+  whdload "MPythonsFlyingCircus.Slave" $whdloadargs
 ELSE
-  whdload "MrBlobby.slave"
+  whdload "MPythonsFlyingCircus.Slave"
 ENDIF

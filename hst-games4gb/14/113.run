@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/Mousetrap/"
+cd "A-Games:M/MouseQuest/"
 IF EXISTS ENV:whdloadargs
-  whdload "Mousetrap.Slave" $whdloadargs
+  whdload "MouseQuest.Slave" $whdloadargs
 ELSE
-  whdload "Mousetrap.Slave"
+  whdload "MouseQuest.Slave"
 ENDIF

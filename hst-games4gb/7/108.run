@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/Fusion/"
+cd "A-Games:F/FuryOfTheFurries/"
 IF EXISTS ENV:whdloadargs
-  whdload "Fusion.Slave" $whdloadargs
+  whdload "FuryOfTheFurries.Slave" $whdloadargs
 ELSE
-  whdload "Fusion.Slave"
+  whdload "FuryOfTheFurries.Slave"
 ENDIF

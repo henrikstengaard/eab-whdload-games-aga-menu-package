@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SilentService/"
+cd "A-Games:S/SideArms/"
 IF EXISTS ENV:whdloadargs
-  whdload "SilentService.Slave" $whdloadargs
+  whdload "SideArms.slave" $whdloadargs
 ELSE
-  whdload "SilentService.Slave"
+  whdload "SideArms.slave"
 ENDIF

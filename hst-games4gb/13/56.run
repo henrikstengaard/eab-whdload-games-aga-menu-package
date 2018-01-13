@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/Locomotion/"
+cd "A-Games:L/Livingstone2/"
 IF EXISTS ENV:whdloadargs
-  whdload "Locomotion.Slave" $whdloadargs
+  whdload "Livingstone2.Slave" $whdloadargs
 ELSE
-  whdload "Locomotion.Slave"
+  whdload "Livingstone2.Slave"
 ENDIF

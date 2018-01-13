@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Swooper/"
+cd "A-Games:S/SuprStrtFtr2TrboAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Swooper.Slave" $whdloadargs
+  whdload "SuprStrtFtr2TrboIntroAGA.slave" $whdloadargs
 ELSE
-  whdload "Swooper.Slave"
+  whdload "SuprStrtFtr2TrboIntroAGA.slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/Predator/"
+cd "A-Games:P/Powerstyx/"
 IF EXISTS ENV:whdloadargs
-  whdload "Predator.Slave" $whdloadargs
+  whdload "Powerstyx.slave" $whdloadargs
 ELSE
-  whdload "Predator.Slave"
+  whdload "Powerstyx.slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SimCity512K/"
+cd "A-Games:S/SilentService/"
 IF EXISTS ENV:whdloadargs
-  whdload "SimCity512K.Slave" $whdloadargs
+  whdload "SilentService.Slave" $whdloadargs
 ELSE
-  whdload "SimCity512K.Slave"
+  whdload "SilentService.Slave"
 ENDIF

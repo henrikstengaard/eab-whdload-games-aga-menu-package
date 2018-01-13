@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/Subwar2050AGA/"
+cd "A-Games:S/STUNRunner/"
 IF EXISTS ENV:whdloadargs
-  whdload "Subwar2050AGA.slave" $whdloadargs
+  whdload "STUNRunner.Slave" $whdloadargs
 ELSE
-  whdload "Subwar2050AGA.slave"
+  whdload "STUNRunner.Slave"
 ENDIF

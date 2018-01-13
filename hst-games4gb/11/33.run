@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:J/Jouster3/"
+cd "A-Games:J/Journey/"
 IF EXISTS ENV:whdloadargs
-  whdload "Jouster3.slave" $whdloadargs
+  whdload "Journey.Slave" $whdloadargs
 ELSE
-  whdload "Jouster3.slave"
+  whdload "Journey.Slave"
 ENDIF

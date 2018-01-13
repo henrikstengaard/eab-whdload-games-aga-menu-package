@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MouseQuest/"
+cd "A-Games:M/MotorMassacre/"
 IF EXISTS ENV:whdloadargs
-  whdload "MouseQuest.Slave" $whdloadargs
+  whdload "MotorMassacre.Slave" $whdloadargs
 ELSE
-  whdload "MouseQuest.Slave"
+  whdload "MotorMassacre.Slave"
 ENDIF

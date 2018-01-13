@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:W/Waxworks/"
+cd "A-Games:W/Waterloo/"
 IF EXISTS ENV:whdloadargs
-  whdload "Waxworks.Slave" $whdloadargs
+  whdload "Waterloo.Slave" $whdloadargs
 ELSE
-  whdload "Waxworks.Slave"
+  whdload "Waterloo.Slave"
 ENDIF

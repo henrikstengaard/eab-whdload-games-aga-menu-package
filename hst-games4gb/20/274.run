@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SWIV/"
+cd "A-Games:S/Supremacy/"
 IF EXISTS ENV:whdloadargs
-  whdload "SWIV.Slave" $whdloadargs
+  whdload "Supremacy.Slave" $whdloadargs
 ELSE
-  whdload "SWIV.Slave"
+  whdload "Supremacy.Slave"
 ENDIF

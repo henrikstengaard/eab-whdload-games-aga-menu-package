@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:D/DragonsLair3/"
+cd "A-Games:D/DragonsLair&EscapeSlow/"
 IF EXISTS ENV:whdloadargs
-  whdload "DragonsLair3.Slave" $whdloadargs
+  whdload "DragonsLair&EscapeSlow.Slave" $whdloadargs
 ELSE
-  whdload "DragonsLair3.Slave"
+  whdload "DragonsLair&EscapeSlow.Slave"
 ENDIF

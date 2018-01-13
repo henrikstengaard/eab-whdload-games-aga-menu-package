@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SpyVsSpy3ArcticAntics/"
+cd "A-Games:S/SphericalWorlds/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpyVsSpy3ArcticAntics.Slave" $whdloadargs
+  whdload "SphericalWorlds.Slave" $whdloadargs
 ELSE
-  whdload "SpyVsSpy3ArcticAntics.Slave"
+  whdload "SphericalWorlds.Slave"
 ENDIF

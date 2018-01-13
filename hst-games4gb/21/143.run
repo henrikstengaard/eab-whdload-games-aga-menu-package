@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TowerToppler/"
+cd "A-Games:T/TimesOfLore/"
 IF EXISTS ENV:whdloadargs
-  whdload "TowerToppler.slave" $whdloadargs
+  whdload "TimesOfLore.Slave" $whdloadargs
 ELSE
-  whdload "TowerToppler.slave"
+  whdload "TimesOfLore.Slave"
 ENDIF

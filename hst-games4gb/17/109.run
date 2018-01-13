@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/ProjectX/"
+cd "A-Games:P/Prison/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProjectX.Slave" $whdloadargs
+  whdload "Prison.Slave" $whdloadargs
 ELSE
-  whdload "ProjectX.Slave"
+  whdload "Prison.Slave"
 ENDIF

@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SpaceGun/"
+cd "A-Games:S/SpaceAce/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpaceGun.Slave" $whdloadargs
+  whdload "SpaceAce.slave" $whdloadargs
 ELSE
-  whdload "SpaceGun.Slave"
+  whdload "SpaceAce.slave"
 ENDIF

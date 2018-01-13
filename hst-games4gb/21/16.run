@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TableTennisSimulation/"
+cd "A-Games:Q/QuestForTimeBirdImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "TableTennisSimulation.Slave" $whdloadargs
+  whdload "QuestForTimeBirdImage.Slave" $whdloadargs
 ELSE
-  whdload "TableTennisSimulation.Slave"
+  whdload "QuestForTimeBirdImage.Slave"
 ENDIF

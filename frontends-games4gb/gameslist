@@ -89,6 +89,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=3D Pool 3DPictures
+genre=Unknown
+path=A-Games:0-9/3DPool/3DPictures.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=3D World Soccer
 genre=Unknown
 path=A-Games:0-9/3DWorldSoccer/3DWorldSoccer.Slave
@@ -910,7 +919,7 @@ hidden=0
 index=0
 title=Apidya
 genre=Unknown
-path=A-Games:A/ApidyaAudios/data/Apidya.slave
+path=A-Games:A/ApidyaAudios/ApidyaAudios.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -919,7 +928,7 @@ hidden=0
 index=0
 title=Apidya
 genre=Unknown
-path=A-Games:A/ApidyaKaiko/data/Apidya.slave
+path=A-Games:A/ApidyaKaiko/ApidyaKaiko.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -1718,6 +1727,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Simpsons, The: Bart vs. the Space Mutants 2Disk
+genre=Unknown
+path=A-Games:B/BartVsSpaceMutants2Disk/BartVsSpaceMutants2Disk.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Simpsons, The: Bart vs. the World
 genre=Unknown
 path=A-Games:B/BartVsTheWorld/BartVsTheWorld.slave
@@ -2369,6 +2387,15 @@ index=0
 title=Bloodwych ExtendedLevels
 genre=Unknown
 path=A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Bloodwych ExtendedLevels
+genre=Unknown
+path=A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -5300,6 +5327,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Dizzy Collection Disk1
+genre=Unknown
+path=A-Games:D/DizzyCollection/Disk1.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Dizzy Dice
 genre=Unknown
 path=A-Games:D/DizzyDice/DizzyDice.Slave
@@ -5330,6 +5366,15 @@ index=0
 title=Dizzy's Excellent Adventures Disk2
 genre=Unknown
 path=A-Games:D/DizzysExcellentAdventures/Disk2.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Dizzy's Excellent Adventures Disk1
+genre=Unknown
+path=A-Games:D/DizzysExcellentAdventures/Disk1.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -6164,6 +6209,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Entity
+genre=Unknown
+path=A-Games:E/Entity/Entity.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Epic
 genre=Unknown
 path=A-Games:E/Epic/Epic.slave
@@ -6401,6 +6455,15 @@ index=0
 title=Eye of the Storm Intro
 genre=Unknown
 path=A-Games:E/EyeOfTheStorm/Intro.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Eye of the Storm
+genre=Unknown
+path=A-Games:E/EyeOfTheStorm/EyeOfTheStorm.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -7163,6 +7226,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Fly Fighter
+genre=Unknown
+path=A-Games:F/FlyFighter/FlyFighter.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Fly Harder
 genre=Unknown
 path=A-Games:F/FlyHarder/FlyHarder.slave
@@ -7274,6 +7346,15 @@ index=0
 title=The Four Crystals of Trazere getlegendsavedisk
 genre=Unknown
 path=A-Games:F/FourCrystalsOfTrazere/getlegendsavedisk.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=The Four Crystals of Trazere
+genre=Unknown
+path=A-Games:F/FourCrystalsOfTrazere/FourCrystalsOfTrazere.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -7445,6 +7526,15 @@ index=0
 title=Fuzzball Intro
 genre=Unknown
 path=A-Games:F/Fuzzball/Intro.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Fuzzball
+genre=Unknown
+path=A-Games:F/Fuzzball/Fuzzball.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -7967,6 +8057,15 @@ index=0
 title=Golden Eagle Intro
 genre=Unknown
 path=A-Games:G/GoldenEagle/Intro.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Golden Eagle
+genre=Unknown
+path=A-Games:G/GoldenEagle/GoldenEagle.slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -9629,6 +9728,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Jetstrike AGA
+genre=Unknown
+path=A-Games:J/JetstrikeAGA/JetstrikeAGA.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Jewels of Darkness
 genre=Unknown
 path=A-Games:J/JewelsOfDarkness/JewelsOfDarkness.Slave
@@ -10511,9 +10619,27 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Legacy The
+genre=Unknown
+path=A-Games:L/Legacy/TheLegacy.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Legend
 genre=Unknown
 path=A-Games:L/LegendMindscape/LegendMindscape.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Legend getlegendsavedisk
+genre=Unknown
+path=A-Games:L/LegendMindscape/getlegendsavedisk.slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -11666,6 +11792,15 @@ index=0
 title=Metal Masters Intro
 genre=Unknown
 path=A-Games:M/MetalMasters/MetalMastersIntro.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Metal Masters
+genre=Unknown
+path=A-Games:M/MetalMasters/MetalMasters.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -13706,6 +13841,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Pixie and Dixie Pixie&Dixie
+genre=Unknown
+path=A-Games:P/PixieAndDixie/Pixie&Dixie.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Plague, The
 genre=Unknown
 path=A-Games:P/Plague/Plague.slave
@@ -13880,6 +14024,15 @@ index=0
 title=Populous II: Trials of the Olympian Gods
 genre=Unknown
 path=A-Games:P/Populous2/Populous2.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Populous II: Trials of the Olympian Gods ChallengeGames
+genre=Unknown
+path=A-Games:P/Populous2&ChallengeGames/ChallengeGames.slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -14813,6 +14966,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Renegades Deluxe
+genre=Unknown
+path=A-Games:R/Renegades/Renegades.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Resolution 101
 genre=Unknown
 path=A-Games:R/Resolution101/Resolution101.Slave
@@ -15515,6 +15677,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Scorpion highs
+genre=Unknown
+path=A-Games:S/Scorpion/highs
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Scrabble
 genre=Unknown
 path=A-Games:S/Scrabble/Scrabble.Slave
@@ -15614,9 +15785,27 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Sensible Soccer
+genre=Unknown
+path=A-Games:S/SensibleSoccer/SensibleSoccer.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Sensible Soccer: European Champions v1.1 (92/93 Edition) 512K
 genre=Unknown
 path=A-Games:S/SensibleSoccer9293/SensibleSoccer9293512K.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Sensible Soccer: European Champions v1.1 (92/93 Edition)
+genre=Unknown
+path=A-Games:S/SensibleSoccer9293/SensibleSoccer9293.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -15641,9 +15830,27 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Sensible Soccer v1.1 - European Champions
+genre=Unknown
+path=A-Games:S/SensibleSoccerEuro/SensibleSoccerEuro.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Sensible Soccer v1.2 - International Edition 512K
 genre=Unknown
 path=A-Games:S/SensibleSoccerIntEd/SensibleSoccerIntEd512K.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Sensible Soccer v1.2 - International Edition
+genre=Unknown
+path=A-Games:S/SensibleSoccerIntEd/SensibleSoccerIntEd.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -16244,6 +16451,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=SkyChase
+genre=Unknown
+path=A-Games:S/SkyChase/SkyChase.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Skyfox
 genre=Unknown
 path=A-Games:S/Skyfox/Skyfox.slave
@@ -16607,6 +16823,15 @@ index=0
 title=Space Crusade VoyageBeyond
 genre=Unknown
 path=A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Space Crusade VoyageBeyond
+genre=Unknown
+path=A-Games:S/SpaceCrusade&VoyageBeyond/SpaceCrusade.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -17531,6 +17756,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Superfrog
+genre=Unknown
+path=A-Games:S/Superfrog/Superfrog.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Super Grand Prix
 genre=Unknown
 path=A-Games:S/SuperGrandPrix/SuperGrandPrix.Slave
@@ -17750,6 +17984,15 @@ index=0
 title=Super Street Fighter II Turbo Intro AGA
 genre=Unknown
 path=A-Games:S/SuprStrtFtr2TrboAGA/SuprStrtFtr2TrboIntroAGA.slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Super Street Fighter II Turbo AGA
+genre=Unknown
+path=A-Games:S/SuprStrtFtr2TrboAGA/SuprStrtFtr2TrboAGA.slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -18782,6 +19025,267 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Time Runners 21: The Black Dragon's Curse TimeRunners21
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners21.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 22: The Eternal Damned TimeRunners22
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners22.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 19: The Nightmare Prince TimeRunners19
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners19.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 16: The Galaxy Emperor TimeRunners16
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners16.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 17: The Living Labyrinth TimeRunners17
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners17.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 18: The Killer Shadow TimeRunners18
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners18.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 23: The Time Monarch TimeRunners23
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners23.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 28: Beyond the End TimeRunners28
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners28.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 29: The Last Revelation TimeRunners29
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners29.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 30: The Final Duel TimeRunners30
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners30.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 27: Red Night TimeRunners27
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners27.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 24: Beyond All Dimensions TimeRunners24
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners24.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 25: The Lost Planet Earth TimeRunners25
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners25.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 26: The Time Warrior TimeRunners26
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners26.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 05: The Black Knight TimeRunners05
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners05.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 06: The Bewitched Forest TimeRunners06
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners06.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 07: In the Land of the Invaders TimeRunners07
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners07.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 04: The Castle of Fear TimeRunners04
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners04.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 01: Gateways in Time TimeRunners01
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners01.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 02: The Space Stone TimeRunners02
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners02.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 03: The Big Run TimeRunners03
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners03.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 08: The Impregnable Fortress TimeRunners08
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners08.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 13: Cyberkiller TimeRunners13
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners13.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 14: Toraxid - War Star TimeRunners14
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners14.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 15: At the Speed of Light TimeRunners15
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners15.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 12: A Target for the Cyborg TimeRunners12
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners12.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 09: The Time Demon TimeRunners09
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners09.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 10: The Time Sentry TimeRunners10
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners10.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Time Runners 11: The Steel City TimeRunners11
+genre=Unknown
+path=A-Games:T/TimeRunnersSeries/TimeRunners11.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Time Scanner
 genre=Unknown
 path=A-Games:T/TimeScanner/TimeScanner.Slave
@@ -19277,6 +19781,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Tubular Worlds
+genre=Unknown
+path=A-Games:T/TubularWorldsECS/TubularWorldsECS.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Turbo
 genre=Unknown
 path=A-Games:T/Turbo/Turbo.Slave
@@ -19307,6 +19820,15 @@ index=0
 title=Turbo Trax 512KB
 genre=Unknown
 path=A-Games:T/TurboTraxArcane/TurboTraxArcane512KB.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Turbo Trax
+genre=Unknown
+path=A-Games:T/TurboTraxArcane/TurboTraxArcane.Slave
 favorite=0
 timesplayed=0
 lastplayed=0
@@ -19952,6 +20474,15 @@ lastplayed=0
 hidden=0
 
 index=0
+title=Vroom DataDisk
+genre=Unknown
+path=A-Games:V/Vroom&DataDisk/DataDisk.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
 title=Vroom Multi-Player
 genre=Unknown
 path=A-Games:V/VroomMultiPlayer/VroomMultiplayer.Slave
@@ -19997,9 +20528,18 @@ lastplayed=0
 hidden=0
 
 index=0
-title=Walker Decrunched
+title=Walker NoSpeech Crunched
 genre=Unknown
-path=A-Games:W/WalkerDecrunched/WalkerDecrunched.Slave
+path=A-Games:W/WalkerCrunched/WalkerCrunchedNoSpeech.Slave
+favorite=0
+timesplayed=0
+lastplayed=0
+hidden=0
+
+index=0
+title=Walker Crunched
+genre=Unknown
+path=A-Games:W/WalkerCrunched/WalkerCrunched.Slave
 favorite=0
 timesplayed=0
 lastplayed=0

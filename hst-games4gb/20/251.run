@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:S/SuperObliteration/"
+cd "A-Games:S/Superfrog/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperObliteration.Slave" $whdloadargs
+  whdload "SuperfrogIntro.Slave" $whdloadargs
 ELSE
-  whdload "SuperObliteration.Slave"
+  whdload "SuperfrogIntro.Slave"
 ENDIF

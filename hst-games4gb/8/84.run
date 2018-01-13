@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:G/GuldkornExpressenDk512KB/"
+cd "A-Games:G/GuildOfThieves/"
 IF EXISTS ENV:whdloadargs
-  whdload "GuldkornExpressenDk512KB.slave" $whdloadargs
+  whdload "GuildOfThieves.Slave" $whdloadargs
 ELSE
-  whdload "GuldkornExpressenDk512KB.slave"
+  whdload "GuildOfThieves.Slave"
 ENDIF

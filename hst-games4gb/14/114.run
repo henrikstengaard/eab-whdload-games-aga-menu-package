@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MPythonsFlyingCircus/"
+cd "A-Games:M/Mousetrap/"
 IF EXISTS ENV:whdloadargs
-  whdload "MPythonsFlyingCircus.Slave" $whdloadargs
+  whdload "Mousetrap.Slave" $whdloadargs
 ELSE
-  whdload "MPythonsFlyingCircus.Slave"
+  whdload "Mousetrap.Slave"
 ENDIF

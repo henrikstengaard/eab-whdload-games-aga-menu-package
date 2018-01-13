@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:M/MickeysMemoryChallenge/"
+cd "A-Games:M/MickeysJigsawPuzzles/"
 IF EXISTS ENV:whdloadargs
-  whdload "MickeysMemoryChallenge.Slave" $whdloadargs
+  whdload "MickeysJigsawPuzzles.Slave" $whdloadargs
 ELSE
-  whdload "MickeysMemoryChallenge.Slave"
+  whdload "MickeysJigsawPuzzles.Slave"
 ENDIF

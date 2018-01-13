@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:L/LordsOfChaos/"
+cd "A-Games:L/LoomKick31/"
 IF EXISTS ENV:whdloadargs
-  whdload "LordsOfChaos.Slave" $whdloadargs
+  whdload "LoomKick31.slave" $whdloadargs
 ELSE
-  whdload "LordsOfChaos.Slave"
+  whdload "LoomKick31.slave"
 ENDIF

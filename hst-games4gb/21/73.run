@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:T/TieBreak/"
+cd "A-Games:T/ThunderStrike/"
 IF EXISTS ENV:whdloadargs
-  whdload "TieBreak.Slave" $whdloadargs
+  whdload "Thunderstrike.Slave" $whdloadargs
 ELSE
-  whdload "TieBreak.Slave"
+  whdload "Thunderstrike.Slave"
 ENDIF

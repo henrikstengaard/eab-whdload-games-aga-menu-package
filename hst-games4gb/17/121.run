@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:P/ProTennisTour2/"
+cd "A-Games:P/ProTennisSimulatorImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProTennisTour2.Slave" $whdloadargs
+  whdload "ProTennisSimulatorImage.Slave" $whdloadargs
 ELSE
-  whdload "ProTennisTour2.Slave"
+  whdload "ProTennisSimulatorImage.Slave"
 ENDIF

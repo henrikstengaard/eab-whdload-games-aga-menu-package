@@ -1,7 +1,7 @@
 ; Run WHDLoad
-cd "A-Games:F/ForgottenWorlds/"
+cd "A-Games:F/ForgottenMine/"
 IF EXISTS ENV:whdloadargs
-  whdload "ForgottenWorlds.Slave" $whdloadargs
+  whdload "ForgottenMine.slave" $whdloadargs
 ELSE
-  whdload "ForgottenWorlds.Slave"
+  whdload "ForgottenMine.slave"
 ENDIF
