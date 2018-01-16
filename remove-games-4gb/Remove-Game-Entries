@@ -1,0 +1,153 @@
+; Remove entries
+; --------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2018-01-16
+;
+; An AmigaDOS script to remove unwanted entries language and hardware versions.
+
+
+; Show error, if assign 'A-Games' doesn't exist
+Assign >NIL: EXISTS A-Games:
+IF WARN
+  REQUESTCHOICE >NIL: "Error" "Assign 'A-Games' doesn't exist!*N*NPlease verify assign is configured." "OK"
+  SKIP end
+ENDIF
+
+
+; Reset selected remove entries options
+; -------------------------------------
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+ENDIF
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+ENDIF
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  Delete >NIL: "T:b13b6429c6c3ddc1531b364fdfd82457"
+ENDIF
+
+
+; Build remove entries menu
+; -------------------------
+LAB removeentriesmenu
+echo "" NOLINE >T:removeentriesmenu
+
+; Language 'DK' menu
+echo "Language DK : " NOLINE >>T:removeentriesmenu
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  echo "YES" >>T:removeentriesmenu
+ELSE
+  echo "NO " >>T:removeentriesmenu
+ENDIF
+
+; Language 'EN' menu
+echo "Language EN : " NOLINE >>T:removeentriesmenu
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  echo "YES" >>T:removeentriesmenu
+ELSE
+  echo "NO " >>T:removeentriesmenu
+ENDIF
+
+; Hardware 'AGA' menu
+echo "Hardware AGA : " NOLINE >>T:removeentriesmenu
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  echo "YES" >>T:removeentriesmenu
+ELSE
+  echo "NO " >>T:removeentriesmenu
+ENDIF
+echo "==============================" >>T:removeentriesmenu
+echo "Remove selected entries" >>T:removeentriesmenu
+echo "Quit" >>T:removeentriesmenu
+
+; Show remove entries menu
+set removeentriesmenu ""
+set removeentriesmenu "`C:RequestList TITLE="Remove Game Entries" LISTFILE="T:removeentriesmenu" WIDTH=320 LINES=20`"
+delete >NIL: T:removeentriesmenu
+
+; Language 'DK' option
+IF "$removeentriesmenu" eq "1"
+  IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+    Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  ELSE
+    echo "" NOLINE >"T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  ENDIF
+ENDIF
+
+; Language 'EN' option
+IF "$removeentriesmenu" eq "2"
+  IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+    Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  ELSE
+    echo "" NOLINE >"T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  ENDIF
+ENDIF
+
+; Hardware 'AGA' option
+IF "$removeentriesmenu" eq "3"
+  IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+    Delete >NIL: "T:b13b6429c6c3ddc1531b364fdfd82457"
+  ELSE
+    echo "" NOLINE >"T:b13b6429c6c3ddc1531b364fdfd82457"
+  ENDIF
+ENDIF
+
+; Remove selected entries option
+IF "$removeentriesmenu" eq "5"
+  set confirm `RequestChoice "Confirm" "Are you sure you want to remove selected entries?" "Yes|No"`
+  IF "$confirm" EQ "1"
+    SKIP runremoveentries
+  ENDIF
+ENDIF
+
+; Quit option
+IF "$removeentriesmenu" eq "6"
+  SKIP end
+ENDIF
+
+SKIP BACK removeentriesmenu
+
+
+; Remove entries
+; ---------------
+LAB runremoveentries
+
+echo "*e[1mRemoving entries...*e[0m"
+
+; Remove language 'DK', if it's selected
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  echo "Language DK..."
+  execute "Remove-Language-DK"
+ENDIF
+
+; Remove language 'EN', if it's selected
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  echo "Language EN..."
+  execute "Remove-Language-EN"
+ENDIF
+
+; Remove hardware 'AGA', if it's selected
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  echo "Hardware AGA..."
+  execute "Remove-Hardware-AGA"
+ENDIF
+echo "Done"
+
+
+echo ""
+echo "Remove entries is complete."
+echo ""
+ask "Press ENTER to continue"
+
+; End
+LAB end
+
+; Delete temp files, if they exist
+IF EXISTS "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+  Delete >NIL: "T:dd65ef9a5579d4e518c6d4abbd0cb1c6"
+ENDIF
+IF EXISTS "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+  Delete >NIL: "T:aa85f1840e282d8a8304dbc2c0d7c9b2"
+ENDIF
+IF EXISTS "T:b13b6429c6c3ddc1531b364fdfd82457"
+  Delete >NIL: "T:b13b6429c6c3ddc1531b364fdfd82457"
+ENDIF
