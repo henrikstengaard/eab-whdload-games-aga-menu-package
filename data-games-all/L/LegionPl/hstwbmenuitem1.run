@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:L/LegionPl/"
-IF EXISTS ENV:whdloadargs
-  whdload "LegionPl.Slave" $whdloadargs
-ELSE
-  whdload "LegionPl.Slave"
-ENDIF

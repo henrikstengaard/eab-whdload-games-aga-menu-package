@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/Magician/"
-IF EXISTS ENV:whdloadargs
-  whdload "Magician.Slave" $whdloadargs
-ELSE
-  whdload "Magician.Slave"
-ENDIF

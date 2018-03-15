@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:F/FighterBomberAM/"
-IF EXISTS ENV:whdloadargs
-  whdload "FighterBomberAM.slave" $whdloadargs
-ELSE
-  whdload "FighterBomberAM.slave"
-ENDIF

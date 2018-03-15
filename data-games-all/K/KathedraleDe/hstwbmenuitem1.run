@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:K/KathedraleDe/"
-IF EXISTS ENV:whdloadargs
-  whdload "KathedraleDe.slave" $whdloadargs
-ELSE
-  whdload "KathedraleDe.slave"
-ENDIF

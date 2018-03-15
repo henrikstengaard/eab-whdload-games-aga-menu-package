@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:B/BlueberryDe/"
-IF EXISTS ENV:whdloadargs
-  whdload "BlueberryDe.Slave" $whdloadargs
-ELSE
-  whdload "BlueberryDe.Slave"
-ENDIF

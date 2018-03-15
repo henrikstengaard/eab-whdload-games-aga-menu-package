@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:B/BaseJumpersCD32/"
-IF EXISTS ENV:whdloadargs
-  whdload "BaseJumpersCD32.slave" $whdloadargs
-ELSE
-  whdload "BaseJumpersCD32.slave"
-ENDIF

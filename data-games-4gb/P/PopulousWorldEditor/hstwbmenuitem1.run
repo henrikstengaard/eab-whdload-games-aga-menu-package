@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:P/PopulousWorldEditor/"
-IF EXISTS ENV:whdloadargs
-  whdload "PopulousWorldEditor.Slave" $whdloadargs
-ELSE
-  whdload "PopulousWorldEditor.Slave"
-ENDIF

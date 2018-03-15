@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:C/CruiseForACorpse/"
-IF EXISTS ENV:whdloadargs
-  whdload "CruiseForACorpse.slave" $whdloadargs
-ELSE
-  whdload "CruiseForACorpse.slave"
-ENDIF

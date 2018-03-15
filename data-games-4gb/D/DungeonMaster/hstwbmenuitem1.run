@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:D/DungeonMaster/"
-IF EXISTS ENV:whdloadargs
-  whdload "DungeonMaster.slave" $whdloadargs
-ELSE
-  whdload "DungeonMaster.slave"
-ENDIF

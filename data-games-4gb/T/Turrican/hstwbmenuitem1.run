@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:T/Turrican/"
-IF EXISTS ENV:whdloadargs
-  whdload "Turrican.Slave" $whdloadargs
-ELSE
-  whdload "Turrican.Slave"
-ENDIF

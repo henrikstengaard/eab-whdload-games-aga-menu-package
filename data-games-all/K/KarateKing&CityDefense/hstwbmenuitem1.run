@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:K/KarateKing&CityDefense/"
-IF EXISTS ENV:whdloadargs
-  whdload "KarateKing&CityDefence.Slave" $whdloadargs
-ELSE
-  whdload "KarateKing&CityDefence.Slave"
-ENDIF

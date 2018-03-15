@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/Akira/"
-IF EXISTS ENV:whdloadargs
-  whdload "Akira.slave" $whdloadargs
-ELSE
-  whdload "Akira.slave"
-ENDIF

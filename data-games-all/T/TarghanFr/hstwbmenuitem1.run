@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:T/TarghanFr/"
-IF EXISTS ENV:whdloadargs
-  whdload "TarghanFr.Slave" $whdloadargs
-ELSE
-  whdload "TarghanFr.Slave"
-ENDIF

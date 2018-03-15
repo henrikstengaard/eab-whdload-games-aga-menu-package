@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/AlienBreed2AGA/"
-IF EXISTS ENV:whdloadargs
-  whdload "AlienBreed2AGA.slave" $whdloadargs
-ELSE
-  whdload "AlienBreed2AGA.slave"
-ENDIF

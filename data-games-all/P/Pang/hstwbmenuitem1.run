@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:P/Pang/"
-IF EXISTS ENV:whdloadargs
-  whdload "Pang.slave" $whdloadargs
-ELSE
-  whdload "Pang.slave"
-ENDIF

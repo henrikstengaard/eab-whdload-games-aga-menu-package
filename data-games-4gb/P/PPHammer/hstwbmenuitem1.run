@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:P/PPHammer/"
-IF EXISTS ENV:whdloadargs
-  whdload "PPHammer.slave" $whdloadargs
-ELSE
-  whdload "PPHammer.slave"
-ENDIF

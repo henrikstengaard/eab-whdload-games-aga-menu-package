@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:K/Kwasimodo/"
-IF EXISTS ENV:whdloadargs
-  whdload "Kwasimodo.Slave" $whdloadargs
-ELSE
-  whdload "Kwasimodo.Slave"
-ENDIF

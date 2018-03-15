@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:F/FrostByte/"
-IF EXISTS ENV:whdloadargs
-  whdload "FrostByte.Slave" $whdloadargs
-ELSE
-  whdload "FrostByte.Slave"
-ENDIF

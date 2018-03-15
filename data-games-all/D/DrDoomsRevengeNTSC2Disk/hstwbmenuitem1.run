@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:D/DrDoomsRevengeNTSC2Disk/"
-IF EXISTS ENV:whdloadargs
-  whdload "DrDoomsRevengeNTSC2Disk.Slave" $whdloadargs
-ELSE
-  whdload "DrDoomsRevengeNTSC2Disk.Slave"
-ENDIF

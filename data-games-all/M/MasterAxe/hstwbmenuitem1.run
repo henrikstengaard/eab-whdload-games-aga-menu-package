@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/MasterAxe/"
-IF EXISTS ENV:whdloadargs
-  whdload "MasterAxe.slave" $whdloadargs
-ELSE
-  whdload "MasterAxe.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:D/DayOfTheViper/"
-IF EXISTS ENV:whdloadargs
-  whdload "DayOfTheViper.Slave" $whdloadargs
-ELSE
-  whdload "DayOfTheViper.Slave"
-ENDIF

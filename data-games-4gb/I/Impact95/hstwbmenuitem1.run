@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:I/Impact95/"
-IF EXISTS ENV:whdloadargs
-  whdload "Impact95.Slave" $whdloadargs
-ELSE
-  whdload "Impact95.Slave"
-ENDIF

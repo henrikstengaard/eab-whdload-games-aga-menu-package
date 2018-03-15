@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:R/Robozone/"
-IF EXISTS ENV:whdloadargs
-  whdload "Robozone.slave" $whdloadargs
-ELSE
-  whdload "Robozone.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:I/InternationalKarate+/"
-IF EXISTS ENV:whdloadargs
-  whdload "InternationalKarate+.slave" $whdloadargs
-ELSE
-  whdload "InternationalKarate+.slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/StarRay2Disk/"
-IF EXISTS ENV:whdloadargs
-  whdload "StarRay2Disk.slave" $whdloadargs
-ELSE
-  whdload "StarRay2Disk.slave"
-ENDIF

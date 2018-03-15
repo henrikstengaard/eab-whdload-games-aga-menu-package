@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:P/ProjectXBonusLevel/"
-IF EXISTS ENV:whdloadargs
-  whdload "ProjectXBonusLevel.Slave" $whdloadargs
-ELSE
-  whdload "ProjectXBonusLevel.Slave"
-ENDIF

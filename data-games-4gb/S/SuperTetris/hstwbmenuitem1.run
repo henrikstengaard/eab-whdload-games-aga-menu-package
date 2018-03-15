@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/SuperTetris/"
-IF EXISTS ENV:whdloadargs
-  whdload "SuperTetris.Slave" $whdloadargs
-ELSE
-  whdload "SuperTetris.Slave"
-ENDIF

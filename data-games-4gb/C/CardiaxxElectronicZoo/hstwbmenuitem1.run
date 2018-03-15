@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:C/CardiaxxElectronicZoo/"
-IF EXISTS ENV:whdloadargs
-  whdload "CardiaxxElectronicZoo.Slave" $whdloadargs
-ELSE
-  whdload "CardiaxxElectronicZoo.Slave"
-ENDIF

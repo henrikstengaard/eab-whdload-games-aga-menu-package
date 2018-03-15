@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:E/EscapeFromColditz/"
-IF EXISTS ENV:whdloadargs
-  whdload "EscapeFromColditz.Slave" $whdloadargs
-ELSE
-  whdload "EscapeFromColditz.Slave"
-ENDIF

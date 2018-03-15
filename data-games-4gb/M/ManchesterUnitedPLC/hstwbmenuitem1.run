@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/ManchesterUnitedPLC/"
-IF EXISTS ENV:whdloadargs
-  whdload "ManchesterUnitedPLC.slave" $whdloadargs
-ELSE
-  whdload "ManchesterUnitedPLC.slave"
-ENDIF

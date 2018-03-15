@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:L/Luxor/"
-IF EXISTS ENV:whdloadargs
-  whdload "Luxor.Slave" $whdloadargs
-ELSE
-  whdload "Luxor.Slave"
-ENDIF
