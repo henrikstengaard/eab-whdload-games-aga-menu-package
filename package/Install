@@ -2,12 +2,108 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2018-01-16
+; Date: 2018-03-15
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
 
+; Reset eab menu
+SET eabmenuags2="Yes"
+SET eabmenuhst="Yes"
+SET eabmenuigame="Yes"
+SET eabmenuwhdload="Yes"
+SET eabmenuset="All"
+SET eabmenuigameset="320x128"
+
+
+; Build eab menu
+LAB eabmenu
+
+echo "" NOLINE >"T:_eabmenu"
+echo "Install AGS2 Menu:               $eabmenuags2" >>"T:_eabmenu"
+echo "Install HST Launcher Menu:       $eabmenuhst" >>"T:_eabmenu"
+echo "Install iGame Screenshots:       $eabmenuigame" >>"T:_eabmenu"
+echo "Configure WHDLoad.prefs:         $eabmenuwhdload" >>"T:_eabmenu"
+echo "--------------------------------------------" >>"T:_eabmenu"
+echo "Selected Menu Set:               $eabmenuset" >>"T:_eabmenu"
+echo "Selected iGame Screenshot Set:   $eabmenuigameset" >>"T:_eabmenu"
+echo "--------------------------------------------" >>"T:_eabmenu"
+echo "Start Installation" >>"T:_eabmenu"
+
+
+; Show eab menu
+set eabmenu "`RequestList TITLE="EAB WHDLoad Games AGA Menu Package" LISTFILE="T:_eabmenu" WIDTH=480 LINES=16`"
+delete "T:_eabmenu" >NIL:
+
+; Install AGS2 Menu option
+IF "$eabmenu" EQ 1 VAL
+  IF "$eabmenuags2" EQ "Yes"
+    SET eabmenuags2="No"
+  ELSE
+    SET eabmenuags2="Yes"
+  ENDIF
+ENDIF
+
+; Install HST Menu option
+IF "$eabmenu" EQ 2 VAL
+  IF "$eabmenuhst" EQ "Yes"
+    SET eabmenuhst="No"
+  ELSE
+    SET eabmenuhst="Yes"
+  ENDIF
+ENDIF
+
+; Install iGame Screenshots option
+IF "$eabmenu" EQ 3 VAL
+  IF "$eabmenuigame" EQ "Yes"
+    SET eabmenuigame="No"
+  ELSE
+    SET eabmenuigame="Yes"
+  ENDIF
+ENDIF
+
+; Configure WHDLoad.prefs option
+IF "$eabmenu" EQ 4 VAL
+  IF "$eabmenuwhdload" EQ "Yes"
+    SET eabmenuwhdload="No"
+  ELSE
+    SET eabmenuwhdload="Yes"
+  ENDIF
+ENDIF
+
+; Selected Menu Set option
+IF "$eabmenu" EQ 6 VAL
+  IF "$eabmenuset" EQ "All"
+    SET eabmenuset="4GB"
+  ELSE
+    SET eabmenuset="All"
+  ENDIF
+ENDIF
+
+; Selected iGame Screenshot Set option
+IF "$eabmenu" EQ 7 VAL
+  IF "$eabmenuigameset" EQ "320x128"
+    SET eabmenuigameset="320x256"
+  ELSE
+    SET eabmenuigameset="320x128"
+  ENDIF
+ENDIF
+
+; Start Installation option
+IF "$eabmenu" EQ 9 VAL
+  SKIP install
+ENDIF
+
+SKIP BACK eabmenu
+
+
+; Install
+; -------
+
+LAB install
+
 ; Copy readme and screenshots to locale help for EAB WHDLoad Games AGA Menu
+echo "Installing Readme..."
 IF NOT EXISTS SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
   MakePath >NIL: SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu
   IF EXISTS SYSTEMDIR:Prefs/Env-Archive/Sys/def_drawer.info
@@ -39,20 +135,49 @@ ENDIF
 copy >NIL: PACKAGEDIR:screenshots/#?.iff SYSTEMDIR:Locale/Help/EAB-WHDLoad-Games-AGA-Menu/screenshots
 
 
+; Install system files
+; --------------------
+
 echo "Installing System Files..."
 unzip -qq -o -x PACKAGEDIR:system-files.zip -d SYSTEMDIR:
 
 
-; Create systemdir games directory, if it doesn't exist
+; Install Frontends Games
+; -----------------------
+
+echo "Installing Frontends Games..."
 IF NOT EXISTS SYSTEMDIR:Games
   MakePath >NIL: SYSTEMDIR:Games
 ENDIF
+unzip -qq -o -x PACKAGEDIR:frontends-games.zip -d SYSTEMDIR:Games/
 
-echo "Installing Frontends..."
-unzip -qq -o -x PACKAGEDIR:frontends.zip -d SYSTEMDIR:Games/
+IF "$eabmenuset" EQ "All"
+  echo "Installing Frontends Games All..."
+  unzip -qq -o -x PACKAGEDIR:frontends-games-all.zip -d SYSTEMDIR:Games/
+ELSE
+  echo "Installing Frontends Games 4GB..."
+  unzip -qq -o -x PACKAGEDIR:frontends-games-4gb.zip -d SYSTEMDIR:Games/
+ENDIF
 
 
-echo "Installing Data Drawers..."
+; Install Remove Games
+; --------------------
+
+IF "$eabmenuset" EQ "All"
+  echo "Installing Remove Games All..."
+  unzip -qq -o -x PACKAGEDIR:remove-games-all.zip -d SYSTEMDIR:Programs/Configuration/Remove-Game-Entries/
+ELSE
+  echo "Installing Remove Games 4GB..."
+  unzip -qq -o -x PACKAGEDIR:remove-games-4gb.zip -d SYSTEMDIR:Programs/Configuration/Remove-Game-Entries/
+ENDIF
+
+
+; Configure drawers
+; -----------------
+
+echo "Configuring Drawers..."
+
+; Install data drawers
 unzip -qq -o -x PACKAGEDIR:data-drawers.zip -d WHDLOADDIR:
 IF NOT EXISTS WHDLOADDIR:HD-Games
   MakePath >NIL: WHDLOADDIR:HD-Games
@@ -60,80 +185,6 @@ ENDIF
 IF NOT EXISTS WHDLOADDIR:WHDLoad/Saves
   MakePath >NIL: WHDLOADDIR:WHDLoad/Saves
 ENDIF
-
-echo "Configuring WHDLoad.prefs..."
-IF NOT EXISTS SYSTEMDIR:S
-  MakePath >NIL: SYSTEMDIR:S
-ENDIF
-IF NOT EXISTS "S:WHDLoad.prefs"
-  Copy >NIL: PACKAGEDIR:WHDLoad.prefs SYSTEMDIR:S
-ENDIF
-
-; Disable existing save path in WHDLoad.prefs
-rep "S:WHDLoad.prefs" "SavePath" ";SavePath"
-
-; Set save path in WHDLoad.prefs
-set whdloadsavesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "WHDLoad/Saves"`"
-echo "SavePath=$whdloadsavesdir" >>S:WHDLoad.prefs
-
-; Disable existing splash deplay
-rep "S:WHDLoad.prefs" "SplashDelay" ";SplashDelay"
-
-; Set splash deplay in WHDLoad.prefs
-echo "SplashDelay=50" >>S:WHDLoad.prefs
-
-
-echo "Installing Base Menus..."
-IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games"
-  MakePath "WHDLOADDIR:Menu/AGS2Games" >NIL:
-ENDIF
-unzip -qq -o -x PACKAGEDIR:ags2.zip -d WHDLOADDIR:Menu/AGS2Games/
-IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/Music"
-  MakePath "WHDLOADDIR:Menu/AGS2Games/Music" >NIL:
-ENDIF
-IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ags"
-  IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
-    MakePath >NIL: "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
-  ENDIF
-ENDIF
-
-IF NOT EXISTS "WHDLOADDIR:Menu/HSTGames"
-  MakePath "WHDLOADDIR:Menu/HSTGames" >NIL:
-ENDIF
-unzip -qq -o -x PACKAGEDIR:hst.zip -d WHDLOADDIR:Menu/HSTGames/
-
-
-; Install set
-set installset `RequestChoice "Games AGA menu set" "Select Games AGA menu set to install." "All|4GB"`
-
-IF $installset EQ 1 VAL
-  echo "Selected All"
-  echo "Installing AGS2 Games Menu..."
-  unzip -qq -o -x PACKAGEDIR:ags2-games.zip -d WHDLOADDIR:Menu/AGS2Games/
-  echo "Installing HST Games Menu..."
-  unzip -qq -o -x PACKAGEDIR:hst-games.zip -d WHDLOADDIR:Menu/HSTGames/
-  echo "Installing Games Frontends..."
-  unzip -qq -o -x PACKAGEDIR:frontends-games.zip -d SYSTEMDIR:Games/
-  echo "Installing Games Data..."
-  unzip -qq -o -x PACKAGEDIR:data-games.zip -d WHDLOADDIR:WHDLoad/Games/
-  echo "Installing Remove Games..."
-  unzip -qq -o -x PACKAGEDIR:remove-games.zip -d SYSTEMDIR:Programs/Configuration/Remove-Game-Entries/
-ENDIF
-
-IF $installset EQ 0 VAL
-  echo "Selected 4GB"
-  echo "Installing AGS2 Games 4GB Menu..."
-  unzip -qq -o -x PACKAGEDIR:ags2-games4gb.zip -d WHDLOADDIR:Menu/AGS2Games/
-  echo "Installing HST Games 4GB Menu..."
-  unzip -qq -o -x PACKAGEDIR:hst-games4gb.zip -d WHDLOADDIR:Menu/HSTGames/
-  echo "Installing Games 4GB Frontends..."
-  unzip -qq -o -x PACKAGEDIR:frontends-games4gb.zip -d SYSTEMDIR:Games/
-  echo "Installing Games 4GB Data..."
-  unzip -qq -o -x PACKAGEDIR:data-games4gb.zip -d WHDLOADDIR:WHDLoad/Games/
-  echo "Installing Remove Games 4GB..."
-  unzip -qq -o -x PACKAGEDIR:remove-games-4gb.zip -d SYSTEMDIR:Programs/Configuration/Remove-Game-Entries/
-ENDIF
-
 
 ; Add icon for configuration drawer, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Programs/Configuration.info
@@ -161,7 +212,6 @@ ELSE
   ENDIF
 ENDIF
 
-
 ; Create systemdir whdload prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad
   MakePath >NIL: SYSTEMDIR:Prefs/WHDLoad
@@ -171,6 +221,71 @@ ENDIF
 IF NOT EXISTS SYSTEMDIR:Prefs/WHDLoad/whdloadargs
   echo "Preload" > SYSTEMDIR:Prefs/WHDLoad/whdloadargs
 ENDIF
+
+
+; Configure WHDLoad.prefs
+; -----------------------
+
+; Skip to install AGS2, if configure whdload.prefs is set to no
+IF NOT "$eabmenuwhdload" EQ "Yes"
+  SKIP installags2
+ENDIF
+
+echo "Configuring WHDLoad.prefs..."
+IF NOT EXISTS SYSTEMDIR:S
+  MakePath >NIL: SYSTEMDIR:S
+ENDIF
+IF NOT EXISTS "S:WHDLoad.prefs"
+  Copy >NIL: PACKAGEDIR:WHDLoad.prefs SYSTEMDIR:S
+ENDIF
+
+; Disable existing save path in WHDLoad.prefs
+rep "S:WHDLoad.prefs" "SavePath" ";SavePath"
+
+; Set save path in WHDLoad.prefs
+set whdloadsavesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "WHDLoad/Saves"`"
+echo "SavePath=$whdloadsavesdir" >>S:WHDLoad.prefs
+
+; Disable existing splash deplay
+rep "S:WHDLoad.prefs" "SplashDelay" ";SplashDelay"
+
+; Set splash deplay in WHDLoad.prefs
+echo "SplashDelay=50" >>S:WHDLoad.prefs
+
+
+; Install AGS2
+; ------------
+
+LAB installags2
+
+; Skip to install hst, if install ags2 is set to no
+IF NOT "$eabmenuags2" EQ "Yes"
+  SKIP installhstlauncher
+ENDIF
+
+echo "Installing AGS2 Menu..."
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games"
+  MakePath "WHDLOADDIR:Menu/AGS2Games" >NIL:
+ENDIF
+unzip -qq -o -x PACKAGEDIR:ags2.zip -d WHDLOADDIR:Menu/AGS2Games/
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/Music"
+  MakePath "WHDLOADDIR:Menu/AGS2Games/Music" >NIL:
+ENDIF
+IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ags"
+  IF NOT EXISTS "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
+    MakePath >NIL: "WHDLOADDIR:Menu/AGS2Games/.Favourites.ag_"
+  ENDIF
+ENDIF
+
+IF "$eabmenuset" EQ "All"
+  echo "Installing AGS2 Games All Menu..."
+  unzip -qq -o -x PACKAGEDIR:ags2-games-all.zip -d WHDLOADDIR:Menu/AGS2Games/
+ELSE
+  echo "Installing AGS2 Games 4GB Menu..."
+  unzip -qq -o -x PACKAGEDIR:ags2-games-4gb.zip -d WHDLOADDIR:Menu/AGS2Games/
+ENDIF
+
+echo "Configuring AGS2 Menu..."
 
 ; Create systemdir ags2 prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/AGS2
@@ -182,19 +297,107 @@ IF NOT EXISTS SYSTEMDIR:Prefs/AGS2/ags2music
   echo "" NOLINE > SYSTEMDIR:Prefs/AGS2/ags2music
 ENDIF
 
+; Add or update AGS2Menus.cfg
+set ags2gamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/AGS2Games"`"
+search SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Games=" >NIL:
+IF WARN
+  echo "AGS2Games=$ags2gamesdir" >>SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg
+ELSE
+  rep SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Games=" "AGS2Games=$ags2gamesdir*N; "
+ENDIF
+
+
+; Install HST Launcher
+; --------------------
+
+LAB installhstlauncher
+
+; Skip to install igame, if install hst is set to no
+IF NOT "$eabmenuhst" EQ "Yes"
+  SKIP installigame
+ENDIF
+
+echo "Installing HST Launcher Menu..."
+IF NOT EXISTS "WHDLOADDIR:Menu/HSTGames"
+  MakePath "WHDLOADDIR:Menu/HSTGames" >NIL:
+ENDIF
+unzip -qq -o -x PACKAGEDIR:hst.zip -d WHDLOADDIR:Menu/HSTGames/
+
+IF "$eabmenuset" EQ "All"
+  echo "Installing HST Games All Menu..."
+  unzip -qq -o -x PACKAGEDIR:hst-games-all.zip -d WHDLOADDIR:Menu/HSTGames/
+ELSE
+  echo "Installing HST Games 4GB Menu..."
+  unzip -qq -o -x PACKAGEDIR:hst-games-4gb.zip -d WHDLOADDIR:Menu/HSTGames/
+ENDIF
+
+echo "Configuring HST Launcher Menu..."
+
 ; Create systemdir hst launcher prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/HSTLauncher
   MakePath >NIL: SYSTEMDIR:Prefs/HSTLauncher
 ENDIF
+
+; Add or update HSTLauncherMenus.cfg
+set hstgamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/HSTGames"`"
+search SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTGames=" >NIL:
+IF WARN
+  echo "HSTGames=$hstgamesdir" >>SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg
+ELSE
+  rep SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTGames=" "HSTGames=$hstgamesdir*N; "
+ENDIF
+
+
+; Install iGame
+; -------------
+
+LAB installigame
+
+; Skip to configure assigns, if install igame is set to no
+IF NOT "$eabmenuigame" EQ "Yes"
+  SKIP configureassigns
+ENDIF
+
+; Install iGame Screenshot Menu
+IF "$eabmenuigameset" EQ "320x128"
+  IF "$eabmenuset" EQ "All"
+    echo "Installing iGame Screenshot All Menu..."
+    unzip -qq -o -x PACKAGEDIR:igame-320x128-all.zip -d WHDLOADDIR:WHDLoad/Games/
+  ELSE
+    echo "Installing iGame Screenshot 4GB Menu..."
+  ENDIF
+  unzip -qq -o -x PACKAGEDIR:igame-320x128-4gb.zip -d WHDLOADDIR:WHDLoad/Games/
+ELSE
+  IF "$eabmenuset" EQ "All"
+    echo "Installing iGame Screenshot All Menu..."
+    unzip -qq -o -x PACKAGEDIR:igame-320x256-all.zip -d WHDLOADDIR:WHDLoad/Games/
+  ELSE
+    echo "Installing iGame Screenshot 4GB Menu..."
+  ENDIF
+  unzip -qq -o -x PACKAGEDIR:igame-320x256-4gb.zip -d WHDLOADDIR:WHDLoad/Games/
+ENDIF
+
+echo "Configuring iGame Menu..."
 
 ; Create systemdir igame prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/iGame
   MakePath >NIL: SYSTEMDIR:Prefs/iGame
 ENDIF
 
+; Add or update iGameMenus.cfg
+set igamegamesdir "`execute INSTALLDIR:S/CombinePath "$SYSTEMDIR" "Games"`"
+search SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameGames=" >NIL:
+IF WARN
+  echo "iGameGames=$igamegamesdir" >>SYSTEMDIR:Prefs/iGame/iGameMenus.cfg
+ELSE
+  rep SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameGames=" "iGameGames=$igamegamesdir*N; "
+ENDIF
+
 
 ; Configure assigns
 ; -----------------
+
+LAB configureassigns
 
 echo "Configuring Assigns..."
 
@@ -226,40 +429,3 @@ ELSE
     copy >NIL: "T:Assign-Startup" "SYSTEMDIR:S/Assign-Startup"
   ENDIF   
 ENDIF
-
-
-; Configure menus
-; ---------------
-LAB configuremenus
-
-echo "Configuring Menus..."
-
-; Add or update AGS2Menus.cfg
-set ags2gamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/AGS2Games"`"
-search SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Games=" >NIL:
-IF WARN
-  echo "AGS2Games=$ags2gamesdir" >>SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg
-ELSE
-  rep SYSTEMDIR:Prefs/AGS2/AGS2Menus.cfg "AGS2Games=" "AGS2Games=$ags2gamesdir*N; "
-ENDIF
-
-; Add or update iGameMenus.cfg
-set igamegamesdir "`execute INSTALLDIR:S/CombinePath "$SYSTEMDIR" "Games"`"
-search SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameGames=" >NIL:
-IF WARN
-  echo "iGameGames=$igamegamesdir" >>SYSTEMDIR:Prefs/iGame/iGameMenus.cfg
-ELSE
-  rep SYSTEMDIR:Prefs/iGame/iGameMenus.cfg "iGameGames=" "iGameGames=$igamegamesdir*N; "
-ENDIF
-
-; Add or update HSTLauncherMenus.cfg
-set hstgamesdir "`execute INSTALLDIR:S/CombinePath "$WHDLOADDIR" "Menu/HSTGames"`"
-search SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTGames=" >NIL:
-IF WARN
-  echo "HSTGames=$hstgamesdir" >>SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg
-ELSE
-  rep SYSTEMDIR:Prefs/HSTLauncher/HSTLauncherMenus.cfg "HSTGames=" "HSTGames=$hstgamesdir*N; "
-ENDIF
-
-; End
-LAB end
