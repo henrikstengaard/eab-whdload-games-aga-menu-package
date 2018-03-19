@@ -1,7 +1,7 @@
 ; Configure Menus Script
 ; ----------------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-12-19
+; Date: 2018-03-19
 ;
 ; This script configures menus for AGS2 games and demos.
 ; Menu items can be added, renamed and deleted.
@@ -73,9 +73,9 @@ echo "[CANCEL]*N0*NA*NB*NC*ND*NE*NF*NG*NH*NI*NJ*NK*NL*NM*NN*NO*NP*NQ*NR*NS*NT*NU
 
 ; Show ags2 index list
 set ags2indexline ""
-set ags2indexline "`C:RequestList TITLE="$ags2menuname" LISTFILE="T:ags2indexlist" WIDTH=320 LINES=20`"
+set ags2indexline `RequestList TITLE="$ags2menuname" LISTFILE="T:ags2indexlist" WIDTH=480 LINES=20`
 
-; Back, if reqlist is closed or cancel is selected
+; Back, if request list is closed or cancel is selected
 IF "$ags2indexline" EQ ""
   set cancelselectags2name "1"
   SKIP $returnlab
@@ -127,7 +127,7 @@ ENDIF
 type T:ags2namelist5 >>T:ags2namelist6
 
 ; Show ags2 name list
-set ags2nameline `C:ReqList CLONERT I=T:ags2namelist6 H="$ags2menuname, $ags2indexname" PAGE=18`
+set ags2nameline `RequestList TITLE="$ags2menuname, $ags2indexname" LISTFILE="T:ags2namelist6" WIDTH=480 LINES=20`
 
 ; Back, if cancel is selected
 IF "$ags2nameline" EQ "1"
@@ -166,7 +166,7 @@ echo "Exit" >>T:mainmenu
 
 ; Show main menu
 set mainmenu ""
-set mainmenu "`C:RequestList TITLE="Configure Menus" LISTFILE="T:mainmenu" WIDTH=240 LINES=12`"
+set mainmenu `RequestList TITLE="Configure Menus" LISTFILE="T:mainmenu" WIDTH=240 LINES=12`
 delete >NIL: T:mainmenu
 
 ; AGS2 Games
@@ -243,7 +243,7 @@ echo "Back" >>T:ags2menu
 
 ; Show ags2 menu
 set ags2menu ""
-set ags2menu "`C:RequestList TITLE="$ags2menuname" LISTFILE="T:ags2menu" WIDTH=240 LINES=12`"
+set ags2menu `RequestList TITLE="$ags2menuname" LISTFILE="T:ags2menu" WIDTH=240 LINES=12`
 delete >NIL: T:ags2menu
 
 ; Add
