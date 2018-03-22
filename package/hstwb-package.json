@@ -7,8 +7,20 @@
             "name": "SYSTEMDIR"
         },
         {
-            "name": "WHDLOADDIR",
-            "path": "DH1:"
+            "name": "MENUSDIR",
+            "path": "DH1:Menus"
+        },
+        {
+            "name": "FRONTENDSDIR",
+            "path": "SYSTEMDIR:Games"
+        },
+        {
+            "name": "GAMESDIR",
+            "path": "DH1:WHDLoad/Games"
+        },
+        {
+            "name": "SAVESDIR",
+            "path": "DH1:WHDLoad/Saves"
         }
     ]
 }
