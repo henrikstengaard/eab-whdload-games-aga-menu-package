@@ -272,7 +272,7 @@ ELSE
   unzip -qq -o -x PACKAGEDIR:ags2-games-4gb.zip -d "$ags2gamesmenudir"
 ENDIF
 
-echo "Configuring AGS2 Menu..."
+echo "Configuring AGS2 Games Menu..."
 
 ; Create systemdir ags2 prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/AGS2
@@ -321,7 +321,7 @@ ELSE
   unzip -qq -o -x PACKAGEDIR:hst-games-4gb.zip -d "$hstgamesmenudir"
 ENDIF
 
-echo "Configuring HST Launcher Menu..."
+echo "Configuring HST Launcher Games Menu..."
 
 ; Create systemdir hst launcher prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/HSTLauncher
@@ -350,23 +350,23 @@ ENDIF
 ; Install iGame Screenshot Menu
 IF "$eabmenuigameset" EQ "320x128"
   IF "$eabmenuset" EQ "All"
-    echo "Installing iGame Screenshot All Menu..."
+    echo "Installing iGame Games All 320x128 Screenshots..."
     unzip -qq -o -x PACKAGEDIR:igame-320x128-all.zip -d GAMESDIR:
   ELSE
-    echo "Installing iGame Screenshot 4GB Menu..."
+    echo "Installing iGame Games 4GB 320x128 Screenshots..."
   ENDIF
   unzip -qq -o -x PACKAGEDIR:igame-320x128-4gb.zip -d GAMESDIR:
 ELSE
   IF "$eabmenuset" EQ "All"
-    echo "Installing iGame Screenshot All Menu..."
+    echo "Installing iGame Games All 320x256 Screenshots..."
     unzip -qq -o -x PACKAGEDIR:igame-320x256-all.zip -d GAMESDIR:
   ELSE
-    echo "Installing iGame Screenshot 4GB Menu..."
+    echo "Installing iGame Games 4GB 320x256 Screenshots..."
   ENDIF
   unzip -qq -o -x PACKAGEDIR:igame-320x256-4gb.zip -d GAMESDIR:
 ENDIF
 
-echo "Configuring iGame Menu..."
+echo "Configuring iGame Games Menu..."
 
 ; Create systemdir igame prefs directory, if it doesn't exist
 IF NOT EXISTS SYSTEMDIR:Prefs/iGame
