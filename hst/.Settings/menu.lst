@@ -1,18 +1,18 @@
-Music Off
-Music On
-Save settings
-View settings
-WHDLoad ButtonWait off
-WHDLoad ButtonWait on
-WHDLoad ExpChip off
-WHDLoad ExpChip on
-WHDLoad NoAutoVec off
-WHDLoad NoAutoVec on
-WHDLoad NoCache off
-WHDLoad NoCache on
-WHDLoad NoVBRMove off
-WHDLoad NoVBRMove on
-WHDLoad Preload off
-WHDLoad Preload on
-WHDLoad Quit Key
-WHDLoad Splash Delay
+Music Off	.Settings/1.run	.Settings/1.run
+Music On	.Settings/2.run	.Settings/2.run
+Save settings	.Settings/3.run	.Settings/3.run
+View settings	.Settings/4.run	.Settings/4.run
+WHDLoad ButtonWait off	.Settings/5.run	.Settings/5.run
+WHDLoad ButtonWait on	.Settings/6.run	.Settings/6.run
+WHDLoad ExpChip off	.Settings/7.run	.Settings/7.run
+WHDLoad ExpChip on	.Settings/8.run	.Settings/8.run
+WHDLoad NoAutoVec off	.Settings/9.run	.Settings/9.run
+WHDLoad NoAutoVec on	.Settings/10.run	.Settings/10.run
+WHDLoad NoCache off	.Settings/11.run	.Settings/11.run
+WHDLoad NoCache on	.Settings/12.run	.Settings/12.run
+WHDLoad NoVBRMove off	.Settings/13.run	.Settings/13.run
+WHDLoad NoVBRMove on	.Settings/14.run	.Settings/14.run
+WHDLoad Preload off	.Settings/15.run	.Settings/15.run
+WHDLoad Preload on	.Settings/16.run	.Settings/16.run
+WHDLoad Quit Key	.Settings/17.run	.Settings/17.run
+WHDLoad Splash Delay	.Settings/18.run	.Settings/18.run
