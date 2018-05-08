@@ -1,0 +1,96 @@
+.KEY runfile/a,mode/a
+.BRA {
+.KET }
+
+
+; Run File Update
+; ---------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2018-05-08
+;
+; AmigaDOS script to update run file with following modes:
+; - EXIST: Show menu item, if it's run file reference exists.
+; - SHOW: Show menu item.
+; - HIDE: Hide menu item.
+
+
+; fail, if run file doesn't exist 
+IF NOT EXISTS "{runfile}"
+  echo "Error: Run file '{runfile}' doesn't exist!"
+  SKIP end
+ENDIF
+
+echo "{runfile}" >T:_runfile
+
+; mode for updating run file
+IF "{mode}" EQ "EXIST"
+  SKIP existrunfile
+ENDIF
+IF "{mode}" EQ "SHOW"
+  SKIP showrunfile
+ENDIF
+IF "{mode}" EQ "HIDE"
+  SKIP hiderunfile
+ENDIF
+
+SKIP end
+
+
+; exist run file
+; --------------
+LAB existrunfile
+
+; end, if run file doesn't contain run file reference
+search "{runfile}" ";RunFile=" NONUM >T:_runfile
+IF WARN
+  SKIP end
+ENDIF
+set runfilereference `sed "s/^;RunFile=//" T:_runfile`
+
+; show run file, if run file reference exists. otherwise hide it
+IF EXISTS "$runfilereference"
+  SKIP showrunfile
+ELSE
+  SKIP hiderunfile
+ENDIF
+
+SKIP end
+
+
+; show run file
+; -------------
+LAB showrunfile
+
+; end, if run file doesn't end with '.ru_'
+search T:_runfile ".ru_" NONUM >NIL:
+IF WARN
+  SKIP end
+ENDIF
+
+; rename run file to end with '.run'
+sed "s/_*$/n/" T:_runfile >T:_runfilenew
+set runfilenew `type T:_runfilenew`
+rename "{runfile}" "$runfilenew"
+
+SKIP end
+
+
+; hide run file
+; -------------
+LAB hiderunfile
+
+; end, if run file doesn't end with '.run'
+search T:_runfile ".run" NONUM >NIL:
+IF WARN
+  SKIP end
+ENDIF
+
+; rename run file to end with '.ru_'
+sed "s/n*$/_/" T:_runfile >T:_runfilenew
+set runfilenew `type T:_runfilenew`
+rename "{runfile}" "$runfilenew"
+
+
+; End
+; ---
+LAB end
