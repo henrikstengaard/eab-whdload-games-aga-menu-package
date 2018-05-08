@@ -1,7 +1,7 @@
 ; HST Launcher
 ; ------------
 ;
-; Date: 2017-12-19
+; Date: 2018-05-08
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to show a menu for launching games or demos.
@@ -30,121 +30,146 @@ IF EXISTS "ENV:hstlaunchermusic"
   ENDIF
 ENDIF
 
+; reset hst menu dirs
+echo "" >"T:_hstmenudirs"
 
-; main menu
-; ---------
-LAB mainmenu
 
-; Build main menu
-echo "Find" >"T:_hstlaunchermainmenu"
-echo "Settings" >>"T:_hstlaunchermainmenu"
-echo "Quit" >>"T:_hstlaunchermainmenu"
-echo "----------------------------------------" >>"T:_hstlaunchermainmenu"
-type "HSTLauncher:menu.lst" >>"T:_hstlaunchermainmenu"
+; hst menu
+; --------
+LAB hstmenu
 
-; Show main menu
-set mainmenuindex ""
-set mainmenuindex "`RequestList TITLE="HST Launcher" LISTFILE="T:_hstlaunchermainmenu" WIDTH=640 LINES=24`"
-Delete >NIL: "T:_hstlaunchermainmenu"
+; get hstmenudir
+set hstmenudirindex `wc -l <"T:_hstmenudirs"`
+set hstmenudir ""
+set hstmenudir `sed "1q;d" "T:_hstmenudirs"`
 
-; Goto end, if request list was closed
-IF NOT "$mainmenuindex" GT 0 VAL
+; build hst menu
+echo "Find" >"T:_hstmenu"
+echo "Settings" >>"T:_hstmenu"
+
+IF $hstmenudirindex GT 1 VAL
+  echo "Back" >>"T:_hstmenu"
+ELSE
+  echo "Quit" >>"T:_hstmenu"
+ENDIF
+
+echo "----------------------------------------" >>"T:_hstmenu"
+
+echo "HST Launcher" NOLINE >"T:_hstmenutitle"
+IF "$hstmenudir" EQ ""
+  cut -f 1 "HSTLauncher:menu.lst" >"T:_hstmenuitemnames"
+  
+  IF EXISTS "HSTLauncher:title.txt"
+    echo ", " NOLINE >>"T:_hstmenutitle"
+    type "HSTLauncher:title.txt" >>"T:_hstmenutitle"
+  ENDIF
+ELSE
+  cut -f 1 "HSTLauncher:$hstmenudir/menu.lst" >"T:_hstmenuitemnames"
+
+  echo ", " NOLINE >>"T:_hstmenutitle"
+  IF EXISTS "HSTLauncher:$hstmenudir/title.txt"
+    type "HSTLauncher:$hstmenudir/title.txt" >>"T:_hstmenutitle"
+  ELSE
+    echo "$hstmenudir" >>"T:_hstmenutitle"
+  ENDIF
+ENDIF
+set hstmenutitle "`type "T:_hstmenutitle"`"
+sed "1d" "T:_hstmenuitemnames" >>"T:_hstmenu"
+
+; show hst menu
+set hstmenuindex ""
+set hstmenuindex "`RequestList TITLE="$hstmenutitle" LISTFILE="T:_hstmenu" WIDTH=640 LINES=24`"
+Delete "T:_hstmenu" >NIL:
+
+; end, if request list was closed
+IF NOT "$hstmenuindex" GT 0 VAL
   SKIP end
 ENDIF
 
-; Goto find
-IF "$mainmenuindex" EQ 1 VAL
+; find option
+IF "$hstmenuindex" EQ 1 VAL
   SKIP find
 ENDIF
 
-; Goto settings
-IF "$mainmenuindex" EQ 2 VAL
-  SKIP settings
+; settings option
+IF "$hstmenuindex" EQ 2 VAL
+  echo ".Settings" >"T:_hstmenudirs"
+  echo "" >>"T:_hstmenudirs"
+  SKIP BACK hstmenu
 ENDIF
 
-; Goto end
-IF "$mainmenuindex" EQ 3 VAL
-  SKIP end
+; quit or back option
+IF "$hstmenuindex" EQ 3 VAL
+  IF $hstmenudirindex GT 1 VAL
+    ; back
+    sed "1d" "T:_hstmenudirs" >"T:_hstmenudirs_new"
+    copy "T:_hstmenudirs_new" "T:_hstmenudirs" >NIL:
+    delete "T:_hstmenudirs_new" >NIL:
+    SKIP BACK hstmenu
+  ELSE
+    ; quit
+    SKIP end
+  ENDIF
 ENDIF
 
-; Main main, if item is less than 5
-IF NOT "$mainmenuindex" GT 4 VAL
-  SKIP BACK mainmenu
+; hst menu, if hstmenuindex is less than 5
+IF NOT "$hstmenuindex" GT 4 VAL
+  SKIP BACK hstmenu
 ENDIF
 
-; Adjust main menu index
-set mainmenuindex `eval $mainmenuindex - 4` 
+; get hstmenuitempath
+set hstmenuindex `eval $hstmenuindex - 4` 
+echo "$hstmenuindex" >T:_hstmenuindex
+set hstmenulineregexp `sed "s/\(.\)*$/\1q;d/" T:_hstmenuindex`
+IF "$hstmenudir" EQ ""
+  sed "$hstmenulineregexp" "HSTLauncher:menu.lst" >T:_hstmenuline
+ELSE
+  sed "$hstmenulineregexp" "HSTLauncher:$hstmenudir/menu.lst" >T:_hstmenuline
+ENDIF
+cut -f 2 "T:_hstmenuline" >T:_hstmenuitempath
+set hstmenuitempath "`sed "1d" "T:_hstmenuitempath"`"
 
-; Get main menu item from menu file
-echo "$mainmenuindex" >T:_mainmenuindex
-set mainmenulineregexp `sed "s/\(.\)*$/\1q;d/" T:_mainmenuindex`
-set mainmenuitem "`sed "$mainmenulineregexp" "HSTLauncher:menu.lst"`"
-delete >NIL: T:_mainmenuindex
-
-; Goto main menu, if sub menu file doesn't exist
-IF NOT EXISTS "HSTLauncher:$mainmenuindex/menu.lst"
-  REQUESTCHOICE "Error" "HST Launcher sub menu file 'HSTLauncher:$mainmenuindex/menu.lst'*Ndoesn't exist!" "OK" >NIL:
-  SKIP BACK mainmenu
+; add hstmenuitempath to hstmenudirs, if hstmenuitempath is a menu
+IF EXISTS "HSTLauncher:$hstmenuitempath/menu.lst"
+  echo "$hstmenuitempath" >"T:_hstmenudirs_new"
+  type "T:_hstmenudirs" >>"T:_hstmenudirs_new"
+  copy "T:_hstmenudirs_new" "T:_hstmenudirs" >NIL:
+  delete "T:_hstmenudirs_new" >NIL:
+  SKIP BACK hstmenu
 ENDIF
 
-
-; sub menu
-; --------
-LAB submenu
-
-; Build sub main
-echo "Back" >"T:_hstlaunchersubmenu"
-echo "----------------------------------------" >>"T:_hstlaunchersubmenu"
-type "HSTLauncher:$mainmenuindex/menu.lst" >>"T:_hstlaunchersubmenu"
-
-; Show sub menu
-set submenuindex ""
-set submenuindex "`RequestList TITLE="$mainmenuitem" LISTFILE="T:_hstlaunchersubmenu" WIDTH=640 LINES=24`"
-Delete >NIL: "T:_hstlaunchersubmenu"
-
-; Goto main menu, if item is less than 2
-IF NOT "$submenuindex" GT 1 VAL
-  SKIP BACK mainmenu
-ENDIF
-
-; Goto main menu, if item is less than 3
-IF NOT "$submenuindex" GT 2 VAL
-  SKIP BACK submenu
-ENDIF
-
-; Adjust sub menu index
-set submenuindex `eval $submenuindex - 2` 
-
-; Goto run, if sub menu index run file exists
-IF EXISTS "HSTLauncher:$mainmenuindex/$submenuindex.run"
-  set returnlab "submenu"
-  set runfile "$mainmenuindex/$submenuindex.run"
+; execute hstmenuitempath run file, if it exists
+IF EXISTS "HSTLauncher:$hstmenuitempath.run"
+  set returnlab "hstmenu"
+  set runfile "HSTLauncher:$hstmenuitempath.run"
   SKIP run
+ELSE
+  REQUESTCHOICE "Error" "HST Launcher run file 'HSTLauncher:$hstmenuitempath.run'*Ndoesn't exist!" "OK" >NIL:
 ENDIF
 
-SKIP BACK submenu
+SKIP BACK hstmenu
 
 
-; Find
+; find
 ; ----
 LAB find
 
-; Error, if search file doesn't exist
+; error, if search file doesn't exist
 IF NOT EXISTS "HSTLauncher:search.lst"
   REQUESTCHOICE "Error" "HST Launcher search file 'HSTLauncher:search.lst'*Ndoesn't exist!" "OK" >NIL:
-  SKIP BACK mainmenu
+  SKIP BACK hstmenu
 ENDIF
 
-; Enter search text
+; enter search text
 Delete >NIL: T:_result#?
 set searchtext `RequestString "Find" "Enter search text"` 
 
-; Find search text in search file and limit to first 25 results
+; find search text in search file and limit to first 25 results
 search >T:_result "HSTLauncher:search.lst" "$searchtext" NONUM
 head >T:_resultlimited -25 T:_result
 cut >T:_resultnames1 -f 1 T:_resultlimited
 
-; Build find results menu
+; build find results menu
 echo "Find" >T:_resultnames2
 echo "Back" >>T:_resultnames2
 echo "----------------------------------------" >>T:_resultnames2
@@ -156,117 +181,77 @@ echo "" >>T:_resultrunfiles2
 sed >>T:_resultrunfiles2 "1d" T:_resultrunfiles1
 
 
-; Result
+; result
 ; ------
 LAB result
 
-; Show result menu
+; show result menu
 set resultindex ""
-set resultindex "`RequestList TITLE="Find '$searchtext' results" LISTFILE="T:_resultnames2" WIDTH=640 LINES=24`"
+set resultindex "`RequestList TITLE="HST Launcher, Find '$searchtext' results" LISTFILE="T:_resultnames2" WIDTH=640 LINES=24`"
 
-; Goto main menu, if index is less than 1
+; hst menu, if index is less than 1
 IF NOT "$resultindex" GT 0 VAL
   Delete >NIL: T:_result#?
-  SKIP BACK mainmenu
+  SKIP BACK hstmenu
 ENDIF
 
-; Goto find, if index is 1
+; find, if index is 1
 IF "$resultindex" EQ 1 VAL
   SKIP BACK find
 ENDIF
 
-; Goto main menu, if index is 2
+; hst menu, if index is 2
 IF "$resultindex" EQ 2 VAL
   Delete >NIL: T:_result#?
-  SKIP BACK mainmenu
+  SKIP BACK hstmenu
 ENDIF
 
-; Goto result, if index is less than 4
+; result, if index is less than 4
 IF NOT "$resultindex" GT 3 VAL
   SKIP BACK result
 ENDIF
 
-; Get run file from result index
+; get hstmenuitempath from result
 echo "$resultindex" >T:_resultindex
 set resultindexregexp `sed "s/\(.\)*$/\1q;d/" T:_resultindex`
-set runfile "`sed "$resultindexregexp" "T:_resultrunfiles2"`"
-delete >NIL: T:_resultindex
+sed "$resultindexregexp" "T:_resultrunfiles2" >T:_hstmenuline
+cut -f 2 "T:_hstmenuline" >T:_hstmenuitempath
+set hstmenuitempath "`sed "1d" "T:_hstmenuitempath"`"
 
-; Goto run, if result run file exists
-IF EXISTS "HSTLauncher:$runfile"
+; execute hstmenuitempath run file, if it exists
+IF EXISTS "HSTLauncher:$hstmenuitempath.run"
   set returnlab "result"
+  set runfile "HSTLauncher:$hstmenuitempath.run"
   SKIP run
+ELSE
+  REQUESTCHOICE "Error" "HST Launcher run file 'HSTLauncher:$hstmenuitempath.run'*Ndoesn't exist!" "OK" >NIL:
 ENDIF
 
 SKIP BACK result
 
 
-; Settings
-; --------
-LAB settings
-
-; Goto main menu, if settings menu file doesn't exist
-IF NOT EXISTS "HSTLauncher:.Settings/menu.lst"
-  REQUESTCHOICE "Error" "HST Launcher settings menu file 'HSTLauncher:.Settings/menu.lst'*Ndoesn't exist!" "OK" >NIL:
-  SKIP BACK mainmenu
-ENDIF
-
-; Build settings menu
-echo "Back" >T:_hstlaunchersettings
-echo "----------------------------------------" >>T:_hstlaunchersettings
-type "HSTLauncher:.Settings/menu.lst" >>"T:_hstlaunchersettings"
-
-; Show settings menu
-set settingsindex ""
-set settingsindex "`RequestList TITLE="Settings" LISTFILE="T:_hstlaunchersettings" WIDTH=640 LINES=24`"
-delete >NIL: T:_hstlaunchersettings
-
-; Goto main menu, if index is less than 2
-IF NOT "$settingsindex" GT 1 VAL
-  SKIP BACK mainmenu
-ENDIF
-
-; Goto settings, if index is less than 3
-IF NOT "$settingsindex" GT 2 VAL
-  SKIP BACK settings
-ENDIF
-
-; Adjust sub menu index
-set settingsindex `eval $settingsindex - 2` 
-
-; Goto run, if settings run file exists
-IF EXISTS "HSTLauncher:.Settings/$settingsindex.run"
-  echo "*ec" NOLINE
-  echo "`execute "HSTLauncher:.Settings/$settingsindex.run"`"
-  wait 1
-  echo "*ec" NOLINE
-ENDIF
-
-SKIP BACK settings
-
-
-; Run
+; run
 ; ---
 LAB run
 
-; Stop music
+; stop music
 IF EXISTS "ENV:hstlaunchermusic"
   IF EXISTS "S:HSTLauncherMusic"
     echo "`execute S:HSTLauncherMusic STOP`"
   ENDIF
 ENDIF
 
-; Start run file, if it exists
-echo "Starting 'HSTLauncher:$runfile'..."
-IF EXISTS "HSTLauncher:$runfile"
+; start run file, if run file exists
+echo "Starting '$runfile'..."
+IF EXISTS "$runfile"
   echo "*ec" NOLINE
   avail >NIL: flush
-  echo "`execute "HSTLauncher:$runfile"`"
+  echo "`execute "$runfile"`"
   wait 1
   echo "*ec" NOLINE
 ENDIF
 
-; Start music
+; start music, if hstlaunchermusic exists
 IF EXISTS "ENV:hstlaunchermusic"
   IF EXISTS "S:HSTLauncherMusic"
     echo "`execute S:HSTLauncherMusic START`"
@@ -276,11 +261,11 @@ ENDIF
 SKIP BACK $returnlab
 
 
-; End
+; end
 ; ---
 LAB end
 
-; Stop music
+; stop music, if hstlaunchermusic exists
 IF EXISTS "S:HSTLauncherMusic"
   echo "`execute S:HSTLauncherMusic STOP`"
 ENDIF
