@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2018-03-22
+; Date: 2018-05-09
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -12,7 +12,6 @@ SET eabmenuags2="Yes"
 SET eabmenuhst="Yes"
 SET eabmenuigame="Yes"
 SET eabmenuwhdload="Yes"
-SET eabmenuset="All"
 SET eabmenuigameset="320x128"
 
 
@@ -25,7 +24,6 @@ echo "Install HST Launcher Menu:       $eabmenuhst" >>"T:_eabmenu"
 echo "Install iGame Screenshots:       $eabmenuigame" >>"T:_eabmenu"
 echo "Configure WHDLoad.prefs:         $eabmenuwhdload" >>"T:_eabmenu"
 echo "--------------------------------------------" >>"T:_eabmenu"
-echo "Selected Menu Set:               $eabmenuset" >>"T:_eabmenu"
 echo "Selected iGame Screenshot Set:   $eabmenuigameset" >>"T:_eabmenu"
 echo "--------------------------------------------" >>"T:_eabmenu"
 echo "Start Installation" >>"T:_eabmenu"
@@ -71,17 +69,8 @@ IF "$eabmenu" EQ 4 VAL
   ENDIF
 ENDIF
 
-; Selected Menu Set option
-IF "$eabmenu" EQ 6 VAL
-  IF "$eabmenuset" EQ "All"
-    SET eabmenuset="4GB"
-  ELSE
-    SET eabmenuset="All"
-  ENDIF
-ENDIF
-
 ; Selected iGame Screenshot Set option
-IF "$eabmenu" EQ 7 VAL
+IF "$eabmenu" EQ 6 VAL
   IF "$eabmenuigameset" EQ "320x128"
     SET eabmenuigameset="320x256"
   ELSE
@@ -90,7 +79,7 @@ IF "$eabmenu" EQ 7 VAL
 ENDIF
 
 ; Start Installation option
-IF "$eabmenu" EQ 9 VAL
+IF "$eabmenu" EQ 8 VAL
   SKIP install
 ENDIF
 
@@ -162,25 +151,8 @@ ENDIF
 echo "Installing Frontends Games..."
 unzip -qq -o -x PACKAGEDIR:frontends-games.zip -d FRONTENDSDIR:
 
-IF "$eabmenuset" EQ "All"
-  echo "Installing Frontends Games All..."
-  unzip -qq -o -x PACKAGEDIR:frontends-games-all.zip -d FRONTENDSDIR:
-ELSE
-  echo "Installing Frontends Games 4GB..."
-  unzip -qq -o -x PACKAGEDIR:frontends-games-4gb.zip -d FRONTENDSDIR:
-ENDIF
-
-
-; Install Remove Games
-; --------------------
-
-IF "$eabmenuset" EQ "All"
-  echo "Installing Remove Games All..."
-  unzip -qq -o -x PACKAGEDIR:remove-games-all.zip -d SYSTEMDIR:Programs/Configuration/Remove-Game-Entries/
-ELSE
-  echo "Installing Remove Games 4GB..."
-  unzip -qq -o -x PACKAGEDIR:remove-games-4gb.zip -d SYSTEMDIR:Programs/Configuration/Remove-Game-Entries/
-ENDIF
+echo "Installing Frontends Games All..."
+unzip -qq -o -x PACKAGEDIR:frontends-games-all.zip -d FRONTENDSDIR:
 
 
 ; Configure icons
@@ -264,13 +236,8 @@ IF NOT EXISTS "$ags2gamesmenudir/.Favourites.ags"
   ENDIF
 ENDIF
 
-IF "$eabmenuset" EQ "All"
-  echo "Installing AGS2 Games All Menu..."
-  unzip -qq -o -x PACKAGEDIR:ags2-games-all.zip -d "$ags2gamesmenudir"
-ELSE
-  echo "Installing AGS2 Games 4GB Menu..."
-  unzip -qq -o -x PACKAGEDIR:ags2-games-4gb.zip -d "$ags2gamesmenudir"
-ENDIF
+echo "Installing AGS2 Games All Menu..."
+unzip -qq -o -x PACKAGEDIR:ags2-games-all.zip -d "$ags2gamesmenudir"
 
 echo "Configuring AGS2 Games Menu..."
 
@@ -313,13 +280,8 @@ IF NOT EXISTS "$hstgamesmenudir/Music"
   MakePath "$hstgamesmenudir/Music" >NIL:
 ENDIF
 
-IF "$eabmenuset" EQ "All"
-  echo "Installing HST Games All Menu..."
-  unzip -qq -o -x PACKAGEDIR:hst-games-all.zip -d "$hstgamesmenudir"
-ELSE
-  echo "Installing HST Games 4GB Menu..."
-  unzip -qq -o -x PACKAGEDIR:hst-games-4gb.zip -d "$hstgamesmenudir"
-ENDIF
+echo "Installing HST Games All Menu..."
+unzip -qq -o -x PACKAGEDIR:hst-games-all.zip -d "$hstgamesmenudir"
 
 echo "Configuring HST Launcher Games Menu..."
 
@@ -349,21 +311,11 @@ ENDIF
 
 ; Install iGame Screenshot Menu
 IF "$eabmenuigameset" EQ "320x128"
-  IF "$eabmenuset" EQ "All"
-    echo "Installing iGame Games All 320x128 Screenshots..."
-    unzip -qq -o -x PACKAGEDIR:igame-320x128-all.zip -d GAMESDIR:
-  ELSE
-    echo "Installing iGame Games 4GB 320x128 Screenshots..."
-  ENDIF
-  unzip -qq -o -x PACKAGEDIR:igame-320x128-4gb.zip -d GAMESDIR:
+  echo "Installing iGame Games All 320x128 Screenshots..."
+  unzip -qq -o -x PACKAGEDIR:igame-320x128-all.zip -d GAMESDIR:
 ELSE
-  IF "$eabmenuset" EQ "All"
-    echo "Installing iGame Games All 320x256 Screenshots..."
-    unzip -qq -o -x PACKAGEDIR:igame-320x256-all.zip -d GAMESDIR:
-  ELSE
-    echo "Installing iGame Games 4GB 320x256 Screenshots..."
-  ENDIF
-  unzip -qq -o -x PACKAGEDIR:igame-320x256-4gb.zip -d GAMESDIR:
+  echo "Installing iGame Games All 320x256 Screenshots..."
+  unzip -qq -o -x PACKAGEDIR:igame-320x256-all.zip -d GAMESDIR:
 ENDIF
 
 echo "Configuring iGame Games Menu..."
