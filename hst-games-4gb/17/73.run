@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:P/Pool/"
-IF EXISTS ENV:whdloadargs
-  whdload "Pool.Slave" $whdloadargs
-ELSE
-  whdload "Pool.Slave"
-ENDIF

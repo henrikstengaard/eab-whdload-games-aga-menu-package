@@ -1,6 +1,0 @@
-Name      : Dr. Fruit
-Publisher : Softgang
-Year      : 1987
-Genre     : Arcade - Labyrinth/Maze
-Players   : 1 or 2
-RunFile   : DrFruit.Slave

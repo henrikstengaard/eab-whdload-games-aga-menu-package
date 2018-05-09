@@ -1,5 +1,0 @@
-Name      : Flying Shark
-Publisher : Firebird
-Year      : 1988
-Players   : 1 Only
-RunFile   : FlyingShark.Slave

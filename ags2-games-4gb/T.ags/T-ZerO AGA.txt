@@ -1,6 +1,0 @@
-Name      : T-ZerO
-Version   : AGA
-Publisher : PXL
-Year      : 1999
-Players   : 1 - 2 (2 simultaneous)
-RunFile   : TZer0DemoNoMovieAGA.Slave

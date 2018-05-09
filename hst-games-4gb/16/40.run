@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:O/OverdriveInfacto/"
-IF EXISTS ENV:whdloadargs
-  whdload "OverdriveInfacto.Slave" $whdloadargs
-ELSE
-  whdload "OverdriveInfacto.Slave"
-ENDIF

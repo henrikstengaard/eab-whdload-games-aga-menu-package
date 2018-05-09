@@ -1,3 +1,0 @@
-Name      : Renegade III: The Final Chapter
-Publisher : Imagine (Ocean)
-RunFile   : Renegade3.Slave

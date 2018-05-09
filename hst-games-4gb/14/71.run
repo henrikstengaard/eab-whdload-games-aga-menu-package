@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/MicroMachines/"
-IF EXISTS ENV:whdloadargs
-  whdload "MicroMachines.slave" $whdloadargs
-ELSE
-  whdload "MicroMachines.slave"
-ENDIF

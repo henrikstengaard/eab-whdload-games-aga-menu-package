@@ -1,5 +1,0 @@
-Name      : Flight Simulator II
-Publisher : SubLOGIC
-Year      : 1988
-Genre     : Simulation - Flight
-RunFile   : FlightSimulator2.Slave

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/SevenGatesOfJambalaImage/"
-IF EXISTS ENV:whdloadargs
-  whdload "SevenGatesOfJambalaImage.slave" $whdloadargs
-ELSE
-  whdload "SevenGatesOfJambalaImage.slave"
-ENDIF

@@ -1,5 +1,0 @@
-Name      : Rage (CAD Software)
-Publisher : Ubi Soft
-Genre     : Shooter
-Players   : 1
-RunFile   : RageV2.Slave

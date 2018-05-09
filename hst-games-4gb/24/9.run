@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:W/Wanted/"
-IF EXISTS ENV:whdloadargs
-  whdload "Wanted.Slave" $whdloadargs
-ELSE
-  whdload "Wanted.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:L/LeaderBoard/"
-IF EXISTS ENV:whdloadargs
-  whdload "Leaderboard.slave" $whdloadargs
-ELSE
-  whdload "Leaderboard.slave"
-ENDIF

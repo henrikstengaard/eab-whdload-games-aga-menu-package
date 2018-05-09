@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:D/DoubleAgent/"
-IF EXISTS ENV:whdloadargs
-  whdload "DoubleAgent.slave" $whdloadargs
-ELSE
-  whdload "DoubleAgent.slave"
-ENDIF

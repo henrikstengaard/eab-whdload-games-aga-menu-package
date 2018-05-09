@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:N/NeverMind/"
-IF EXISTS ENV:whdloadargs
-  whdload "Nevermind.Slave" $whdloadargs
-ELSE
-  whdload "Nevermind.Slave"
-ENDIF

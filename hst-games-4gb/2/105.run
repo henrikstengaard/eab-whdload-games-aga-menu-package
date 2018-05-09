@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/ArmyMoves/"
-IF EXISTS ENV:whdloadargs
-  whdload "ArmyMoves.Slave" $whdloadargs
-ELSE
-  whdload "ArmyMoves.Slave"
-ENDIF

@@ -1,4 +1,0 @@
-Name      : Superhero
-Version   : Demo
-Publisher : Psygnosis
-RunFile   : SuperheroDemo.Slave

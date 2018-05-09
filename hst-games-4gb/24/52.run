@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:W/Windwalker/"
-IF EXISTS ENV:whdloadargs
-  whdload "Windwalker.Slave" $whdloadargs
-ELSE
-  whdload "Windwalker.Slave"
-ENDIF

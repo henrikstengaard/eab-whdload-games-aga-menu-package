@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/SonicBoom/"
-IF EXISTS ENV:whdloadargs
-  whdload "SonicBoom.slave" $whdloadargs
-ELSE
-  whdload "SonicBoom.slave"
-ENDIF

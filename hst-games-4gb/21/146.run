@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:T/TinToyAdventureAGA/"
-IF EXISTS ENV:whdloadargs
-  whdload "TinToyAdventureAGA.Slave" $whdloadargs
-ELSE
-  whdload "TinToyAdventureAGA.Slave"
-ENDIF

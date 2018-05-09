@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:N/NigelMansellsGrandPrix/"
-IF EXISTS ENV:whdloadargs
-  whdload "NigelMansellsGrandPrix.Slave" $whdloadargs
-ELSE
-  whdload "NigelMansellsGrandPrix.Slave"
-ENDIF

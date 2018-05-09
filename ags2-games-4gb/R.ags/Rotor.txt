@@ -1,4 +1,0 @@
-Name      : Rotor
-Publisher : Arcana
-Year      : 1989
-RunFile   : Rotor.slave

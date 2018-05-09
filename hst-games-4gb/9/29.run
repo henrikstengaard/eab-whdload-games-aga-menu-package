@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:H/Hellbent/"
-IF EXISTS ENV:whdloadargs
-  whdload "Hellbent.Slave" $whdloadargs
-ELSE
-  whdload "Hellbent.Slave"
-ENDIF

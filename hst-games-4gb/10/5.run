@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:I/Immortal/"
-IF EXISTS ENV:whdloadargs
-  whdload "Immortal.slave" $whdloadargs
-ELSE
-  whdload "Immortal.slave"
-ENDIF

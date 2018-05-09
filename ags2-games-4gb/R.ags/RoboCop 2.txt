@@ -1,4 +1,0 @@
-Name      : RoboCop 2
-Publisher : Ocean
-Year      : 1990
-RunFile   : RoboCop2.Slave

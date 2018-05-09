@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/MrDoRunRunImage/"
-IF EXISTS ENV:whdloadargs
-  whdload "MrDoRunRunImage.Slave" $whdloadargs
-ELSE
-  whdload "MrDoRunRunImage.Slave"
-ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/ScrambleSpirits/"
-IF EXISTS ENV:whdloadargs
-  whdload "ScrambleSpirits.Slave" $whdloadargs
-ELSE
-  whdload "ScrambleSpirits.Slave"
-ENDIF

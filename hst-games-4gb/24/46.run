@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:W/WildCupSoccer/"
-IF EXISTS ENV:whdloadargs
-  whdload "WildCupSoccer.Slave" $whdloadargs
-ELSE
-  whdload "WildCupSoccer.Slave"
-ENDIF

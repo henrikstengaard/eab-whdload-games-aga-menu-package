@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:B/BlackGoldreLINE/"
-IF EXISTS ENV:whdloadargs
-  whdload "BlackGoldreLINE.Slave" $whdloadargs
-ELSE
-  whdload "BlackGoldreLINE.Slave"
-ENDIF

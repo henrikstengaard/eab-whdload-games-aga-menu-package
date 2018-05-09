@@ -1,5 +1,0 @@
-Name      : Hardball II
-Publisher : Accolade
-Year      : 1990
-Genre     : Sports - Baseball
-RunFile   : HardBall2.Slave

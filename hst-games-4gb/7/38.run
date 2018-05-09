@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:F/FiendishFreddysBigTopOFun/"
-IF EXISTS ENV:whdloadargs
-  whdload "FiendishFreddysBigTopOFun.slave" $whdloadargs
-ELSE
-  whdload "FiendishFreddysBigTopOFun.slave"
-ENDIF

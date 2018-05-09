@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:G/Genesia/"
-IF EXISTS ENV:whdloadargs
-  whdload "Genesia.slave" $whdloadargs
-ELSE
-  whdload "Genesia.slave"
-ENDIF
