@@ -4,4 +4,4 @@ Publisher : Virgin Interactive
 Year      : 1994
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : AladdinAGA.Slave
+RunFile   : AladdinAGA.slave

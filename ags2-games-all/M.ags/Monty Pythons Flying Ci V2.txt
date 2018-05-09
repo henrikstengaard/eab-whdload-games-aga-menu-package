@@ -3,4 +3,4 @@ Version   : NTSC
 Publisher : Virgin Games
 Year      : 1990
 Players   : 1 Only
-RunFile   : MPythonsFlyingCircusNTSC.Slave
+RunFile   : MontyPythonsFlyCirNTSC.Slave

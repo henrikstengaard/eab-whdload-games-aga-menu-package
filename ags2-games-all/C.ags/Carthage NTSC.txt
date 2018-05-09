@@ -1,0 +1,7 @@
+Name      : Carthage
+Version   : NTSC
+Publisher : Psygnosis
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : CarthageNTSC.Slave

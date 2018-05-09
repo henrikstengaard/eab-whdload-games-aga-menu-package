@@ -1,0 +1,6 @@
+Name      : Neutralizer II
+Version   : Demo
+Year      : 1993
+Genre     : Shooter
+Players   : 1
+RunFile   : Neutralizer2Demo.slave

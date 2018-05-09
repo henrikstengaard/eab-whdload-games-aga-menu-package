@@ -2,4 +2,4 @@ Name      : MIG-29 Soviet Fighter
 Publisher : Codemasters
 Year      : 1990
 Players   : 1 Only
-RunFile   : Mig29SovietFighter.Slave
+RunFile   : MiG29SovietFighter.Slave

@@ -3,4 +3,4 @@ Publisher : Ubi Soft
 Year      : 1991
 Genre     : Sports - Tennis
 Players   : 1 or 2, Simultaneous
-RunFile   : ProTennisTour2.Slave
+RunFile   : ProTennisTour2.slave

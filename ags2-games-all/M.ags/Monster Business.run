@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:M/MonsterBusiness/MonsterBusiness.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/MonsterBusiness/MonsterBusiness.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:M/MonsterBusiness/"
 IF EXISTS ENV:whdloadargs
-  whdload "MonsterBusiness.Slave" $whdloadargs
+  whdload "MonsterBusiness.slave" $whdloadargs
 ELSE
-  whdload "MonsterBusiness.Slave"
+  whdload "MonsterBusiness.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

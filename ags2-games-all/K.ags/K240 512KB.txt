@@ -1,0 +1,7 @@
+Name      : K240
+Version   : 512KB
+Publisher : Gremlin Graphics
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : K240512KB.slave

@@ -1,0 +1,6 @@
+Name      : Night Walk
+Publisher : Alternative Software
+Year      : 1988
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : NightWalk.Slave

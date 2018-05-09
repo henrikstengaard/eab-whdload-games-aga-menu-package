@@ -2,4 +2,4 @@ Name      : Builderland
 Publisher : Loriciel
 Year      : 1991
 Players   : 1
-RunFile   : BuilderLand.Slave
+RunFile   : Builderland.Slave

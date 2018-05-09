@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:D/DragonWars/DragonWars.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:D/DragonWars/DragonWars.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:D/DragonWars/"
 IF EXISTS ENV:whdloadargs
-  whdload "DragonWars.Slave" $whdloadargs
+  whdload "DragonWars.slave" $whdloadargs
 ELSE
-  whdload "DragonWars.Slave"
+  whdload "DragonWars.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:R/RageV2/RageV2.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:R/RageV1/RageV1.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:R/RageV2/"
+cd "A-Games:R/RageV1/"
 IF EXISTS ENV:whdloadargs
-  whdload "RageV2.Slave" $whdloadargs
+  whdload "RageV1.Slave" $whdloadargs
 ELSE
-  whdload "RageV2.Slave"
+  whdload "RageV1.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

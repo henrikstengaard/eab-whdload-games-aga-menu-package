@@ -1,0 +1,7 @@
+Name      : Dragons Breath
+Language  : Italian
+Publisher : Palace Software
+Year      : 1990
+Genre     : Strategy - Miscellaneous
+Players   : 1 to 3
+RunFile   : DragonsBreathIt.Slave

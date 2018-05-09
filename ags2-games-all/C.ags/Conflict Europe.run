@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:C/ConflictEurope/ConflictEurope.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:C/ConflictEurope/ConflictEurope.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:C/ConflictEurope/"
 IF EXISTS ENV:whdloadargs
-  whdload "ConflictEurope.Slave" $whdloadargs
+  whdload "ConflictEurope.slave" $whdloadargs
 ELSE
-  whdload "ConflictEurope.Slave"
+  whdload "ConflictEurope.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

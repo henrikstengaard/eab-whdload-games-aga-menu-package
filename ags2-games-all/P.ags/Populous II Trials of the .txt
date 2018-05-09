@@ -4,4 +4,4 @@ Publisher : Electronic Arts
 Year      : 1991
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-RunFile   : ChallengeGames.slave
+RunFile   : Populous2.slave

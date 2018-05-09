@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/BackToTheFutureIII/BackToTheFutureIII.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/BackToTheFuturePart2/BackToTheFuturePart2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BackToTheFutureIII/"
+cd "A-Games:B/BackToTheFuturePart2/"
 IF EXISTS ENV:whdloadargs
-  whdload "BackToTheFutureIII.Slave" $whdloadargs
+  whdload "BackToTheFuturePart2.slave" $whdloadargs
 ELSE
-  whdload "BackToTheFutureIII.Slave"
+  whdload "BackToTheFuturePart2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

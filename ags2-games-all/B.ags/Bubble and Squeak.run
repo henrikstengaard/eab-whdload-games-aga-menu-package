@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/Bubble&Squeak/Bubble&Squeak.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/BubbleAndSqueak/BubbleAndSqueak.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/Bubble&Squeak/"
+cd "A-Games:B/BubbleAndSqueak/"
 IF EXISTS ENV:whdloadargs
-  whdload "Bubble&Squeak.slave" $whdloadargs
+  whdload "BubbleAndSqueak.slave" $whdloadargs
 ELSE
-  whdload "Bubble&Squeak.slave"
+  whdload "BubbleAndSqueak.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

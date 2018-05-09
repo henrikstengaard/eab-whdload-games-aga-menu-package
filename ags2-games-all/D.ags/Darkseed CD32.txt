@@ -4,4 +4,4 @@ Publisher : Cyberdreams
 Year      : 1992
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-RunFile   : DarkSeedCD32.Slave
+RunFile   : DarkSeedCD32.slave

@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Gametek / Microprose
 Year      : 1995
 Players   : 1
-RunFile   : BloodnetAGA.slave
+RunFile   : BloodNetAGA.slave

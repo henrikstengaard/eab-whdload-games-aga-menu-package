@@ -1,0 +1,5 @@
+Name      : MegaTraveller 1: The Zhodani Conspiracy
+Publisher : Empire, Paragon
+Year      : 1991
+Players   : 1
+RunFile   : MegaTraveller1.Slave

@@ -2,4 +2,4 @@ Name      : Ziriax
 Publisher : The Software Business
 Year      : 1990
 Players   : 1 Only
-RunFile   : Ziriax.Slave
+RunFile   : Ziriax.slave

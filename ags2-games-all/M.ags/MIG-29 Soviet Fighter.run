@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:M/Mig29SovietFighter/Mig29SovietFighter.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/MiG29SovietFighter/MiG29SovietFighter.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:M/Mig29SovietFighter/"
+cd "A-Games:M/MiG29SovietFighter/"
 IF EXISTS ENV:whdloadargs
-  whdload "Mig29SovietFighter.Slave" $whdloadargs
+  whdload "MiG29SovietFighter.Slave" $whdloadargs
 ELSE
-  whdload "Mig29SovietFighter.Slave"
+  whdload "MiG29SovietFighter.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

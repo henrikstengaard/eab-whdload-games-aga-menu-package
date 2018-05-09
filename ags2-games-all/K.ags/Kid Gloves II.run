@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:K/KidGlovesII/KidGlovesII.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:K/KidGloves2/KidGloves2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:K/KidGlovesII/"
+cd "A-Games:K/KidGloves2/"
 IF EXISTS ENV:whdloadargs
-  whdload "KidGlovesII.Slave" $whdloadargs
+  whdload "KidGloves2.Slave" $whdloadargs
 ELSE
-  whdload "KidGlovesII.Slave"
+  whdload "KidGloves2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

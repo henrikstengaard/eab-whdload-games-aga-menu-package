@@ -1,0 +1,7 @@
+Name      : Abandoned Places: A Time for Heroes
+Language  : Spanish
+Publisher : Electronic Zoo
+Year      : 1992
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+RunFile   : AbandonedPlacesEs.slave

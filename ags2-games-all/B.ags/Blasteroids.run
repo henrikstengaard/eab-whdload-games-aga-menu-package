@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/Blasteroids/Blasteroids.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/Blasteroids/Blasteroids.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:B/Blasteroids/"
 IF EXISTS ENV:whdloadargs
-  whdload "Blasteroids.Slave" $whdloadargs
+  whdload "Blasteroids.slave" $whdloadargs
 ELSE
-  whdload "Blasteroids.Slave"
+  whdload "Blasteroids.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:M/MPythonsFlyingCircusNTSC/MPythonsFlyingCircusNTSC.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/MontyPythonsFlyCirNTSC/MontyPythonsFlyCirNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:M/MPythonsFlyingCircusNTSC/"
+cd "A-Games:M/MontyPythonsFlyCirNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "MPythonsFlyingCircusNTSC.Slave" $whdloadargs
+  whdload "MontyPythonsFlyCirNTSC.Slave" $whdloadargs
 ELSE
-  whdload "MPythonsFlyingCircusNTSC.Slave"
+  whdload "MontyPythonsFlyCirNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

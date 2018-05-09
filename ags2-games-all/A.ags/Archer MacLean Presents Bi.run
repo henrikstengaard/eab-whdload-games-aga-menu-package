@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:A/ArcherMacleansBillardAmcn/ArcherMacleansBillardAmcn.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:A/ArcherMacLeansBillardAmcn/ArcherMacLeansBillardAmcn.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/ArcherMacleansBillardAmcn/"
+cd "A-Games:A/ArcherMacLeansBillardAmcn/"
 IF EXISTS ENV:whdloadargs
-  whdload "ArcherMacleansBillardAmcn.Slave" $whdloadargs
+  whdload "ArcherMacLeansBillardAmcn.Slave" $whdloadargs
 ELSE
-  whdload "ArcherMacleansBillardAmcn.Slave"
+  whdload "ArcherMacLeansBillardAmcn.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,6 @@
+Name      : New York Warriors
+Version   : 512KB
+Publisher : Virgin Mastertronic
+Year      : 1990
+Players   : 1 Only
+RunFile   : NewYorkWarriors512KB.Slave

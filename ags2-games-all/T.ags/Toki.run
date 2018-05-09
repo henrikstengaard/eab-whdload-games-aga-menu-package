@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:T/Toki/Toki.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:T/Toki/Toki.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/Toki/"
 IF EXISTS ENV:whdloadargs
-  whdload "Toki.Slave" $whdloadargs
+  whdload "Toki.slave" $whdloadargs
 ELSE
-  whdload "Toki.Slave"
+  whdload "Toki.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:U/UltimatePinballQuest/UltimatePinballQuest.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:U/UltimatePinballQuest/UltimatePinballQuest.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:U/UltimatePinballQuest/"
 IF EXISTS ENV:whdloadargs
-  whdload "UltimatePinballQuest.Slave" $whdloadargs
+  whdload "UltimatePinballQuest.slave" $whdloadargs
 ELSE
-  whdload "UltimatePinballQuest.Slave"
+  whdload "UltimatePinballQuest.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

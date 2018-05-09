@@ -3,4 +3,4 @@ Publisher : Psygnosis
 Year      : 1992
 Genre     : Puzzler - Rescue Across Terrain
 Players   : 1
-RunFile   : XmasLemmingsDemo1992.Slave
+RunFile   : LemmingsXmasDemo1992.Slave

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:N/NigelMansellsWrldChmpCD32/NigelMansellsWrldChmpCD32.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:N/NigelMansellsWrldChmpAGA/NigelMansellsWrldChmpAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:N/NigelMansellsWrldChmpCD32/"
+cd "A-Games:N/NigelMansellsWrldChmpAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "NigelMansellsWrldChmpCD32.slave" $whdloadargs
+  whdload "NigelMansellsWrldChmpAGA.slave" $whdloadargs
 ELSE
-  whdload "NigelMansellsWrldChmpCD32.slave"
+  whdload "NigelMansellsWrldChmpAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

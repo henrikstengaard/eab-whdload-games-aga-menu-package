@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:M/Myth/Myth.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/MythMagneticScrolls/MythMagneticScrolls.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:M/Myth/"
+cd "A-Games:M/MythMagneticScrolls/"
 IF EXISTS ENV:whdloadargs
-  whdload "Myth.Slave" $whdloadargs
+  whdload "MythMagneticScrolls.Slave" $whdloadargs
 ELSE
-  whdload "Myth.Slave"
+  whdload "MythMagneticScrolls.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

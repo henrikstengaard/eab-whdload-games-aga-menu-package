@@ -3,4 +3,4 @@ Publisher : Screen 7
 Year      : 1989
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-RunFile   : CrossbowLegendWilliamTell.slave
+RunFile   : CrossbowLegendWilliamTell.Slave

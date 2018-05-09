@@ -1,0 +1,7 @@
+Name      : Flight of the Amazon Queen
+Language  : French
+Publisher : Renegade
+Year      : 1995
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : LAmazoneQueenFr.Slave

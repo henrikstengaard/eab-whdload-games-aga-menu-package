@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:O/OverdriveInfacto/OverdriveInfacto.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:O/OverdriveTeam17/OverdriveTeam17.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:O/OverdriveInfacto/"
+cd "A-Games:O/OverdriveTeam17/"
 IF EXISTS ENV:whdloadargs
-  whdload "OverdriveInfacto.Slave" $whdloadargs
+  whdload "OverdriveTeam17.Slave" $whdloadargs
 ELSE
-  whdload "OverdriveInfacto.Slave"
+  whdload "OverdriveTeam17.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

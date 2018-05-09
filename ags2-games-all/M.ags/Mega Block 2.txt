@@ -1,0 +1,5 @@
+Name      : Mega Block 2
+Year      : 1994
+Genre     : Tetris
+Players   : 1 or 2, Simultaneous
+RunFile   : MegaBlock2.Slave

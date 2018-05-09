@@ -1,0 +1,7 @@
+Name      : Turbo Trax
+Version   : 1MB
+Publisher : Arcane Entertainment
+Year      : 1995
+Genre     : Racing - Overhead
+Players   : 1 or 2
+RunFile   : TurboTraxArcane1MB.Slave

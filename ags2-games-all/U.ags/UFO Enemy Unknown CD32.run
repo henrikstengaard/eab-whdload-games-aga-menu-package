@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:U/UFOEnemyUnknownCD32/UFOEnemyUnknownCD32.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:U/UFOEnemyUnknownCD32/UFOEnemyUnknownCD32.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:U/UFOEnemyUnknownCD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "UFOEnemyUnknownCD32.slave" $whdloadargs
+  whdload "UFOEnemyUnknownCD32.Slave" $whdloadargs
 ELSE
-  whdload "UFOEnemyUnknownCD32.slave"
+  whdload "UFOEnemyUnknownCD32.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

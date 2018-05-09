@@ -1,0 +1,7 @@
+Name      : Lords of the Rising Sun
+Version   : NTSC
+Publisher : Cinemaware
+Year      : 1989
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : LordsOfTheRisingSunNTSC.slave

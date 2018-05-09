@@ -3,4 +3,4 @@ Publisher : Ocean
 Year      : 1990
 Genre     : Racing - Cars
 Players   : 1 Only
-RunFile   : ChaseHQ2.Slave
+RunFile   : ChaseHQ2.slave

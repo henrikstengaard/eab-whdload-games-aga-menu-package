@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:G/GloomDemo/GloomDemo.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:G/GloomDemoAGA/GloomDemoAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:G/GloomDemo/"
+cd "A-Games:G/GloomDemoAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "GloomDemo.Slave" $whdloadargs
+  whdload "GloomDemoAGA.Slave" $whdloadargs
 ELSE
-  whdload "GloomDemo.Slave"
+  whdload "GloomDemoAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

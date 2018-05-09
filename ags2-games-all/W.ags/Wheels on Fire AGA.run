@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:W/WheelsOnFire/WheelsOnFire.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:W/WheelsOnFireAGA/WheelsOnFireAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:W/WheelsOnFire/"
+cd "A-Games:W/WheelsOnFireAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "WheelsOnFire.Slave" $whdloadargs
+  whdload "WheelsOnFireAGA.Slave" $whdloadargs
 ELSE
-  whdload "WheelsOnFire.Slave"
+  whdload "WheelsOnFireAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

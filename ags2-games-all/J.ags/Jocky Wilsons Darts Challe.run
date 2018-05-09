@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:J/JockyWilsonsDartChallenge/JockyWilsonsDartChallenge.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:J/JockyWilsonsDartChallenge/JockyWilsonsDartChallenge.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:J/JockyWilsonsDartChallenge/"
 IF EXISTS ENV:whdloadargs
-  whdload "JockyWilsonsDartChallenge.Slave" $whdloadargs
+  whdload "JockyWilsonsDartChallenge.slave" $whdloadargs
 ELSE
-  whdload "JockyWilsonsDartChallenge.Slave"
+  whdload "JockyWilsonsDartChallenge.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

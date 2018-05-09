@@ -4,4 +4,4 @@ Publisher : Acid Software
 Year      : 1995
 Genre     : Racing - Cars
 Players   : 1 to 4, Simultaneous
-RunFile   : SuperSkidMarksCD32.Slave
+RunFile   : SuperSkidmarksCD32.slave

@@ -4,4 +4,4 @@ Publisher : System 3
 Year      : 1988
 Genre     : Sports - Fighting
 Players   : 1 or 2, Simultaneous
-RunFile   : InternationalKarate+CD32.slave
+RunFile   : IK+CD32.slave

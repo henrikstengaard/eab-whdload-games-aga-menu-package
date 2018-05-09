@@ -1,10 +1,10 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:S/SkyChase/SkyChaseFast.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:S/SkyChaseFast/SkyChaseFast.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "S" "SkyChase Fast"
+  execute S:AGS2Favourites "S" "SkyChase FAST"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/SkyChase/"
+cd "A-Games:S/SkyChaseFast/"
 IF EXISTS ENV:whdloadargs
   whdload "SkyChaseFast.Slave" $whdloadargs
 ELSE

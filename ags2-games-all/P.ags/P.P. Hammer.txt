@@ -3,4 +3,4 @@ Publisher : Demonware
 Year      : 1991
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : PPHammer.slave
+RunFile   : PPHammer.Slave

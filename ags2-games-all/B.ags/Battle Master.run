@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/Battlemaster/Battlemaster.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/BattleMaster/BattleMaster.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/Battlemaster/"
+cd "A-Games:B/BattleMaster/"
 IF EXISTS ENV:whdloadargs
-  whdload "Battlemaster.Slave" $whdloadargs
+  whdload "BattleMaster.Slave" $whdloadargs
 ELSE
-  whdload "Battlemaster.Slave"
+  whdload "BattleMaster.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

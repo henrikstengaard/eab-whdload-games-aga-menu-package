@@ -3,4 +3,4 @@ Publisher : Virgin Games
 Year      : 1992
 Genre     : Sports - Snooker/Pool
 Players   : 1 or 2
-RunFile   : ArcherMacleansPool.Slave
+RunFile   : ArcherMacLeansPool.Slave

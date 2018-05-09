@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/BuilderLand/BuilderLand.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/Builderland/Builderland.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BuilderLand/"
+cd "A-Games:B/Builderland/"
 IF EXISTS ENV:whdloadargs
-  whdload "BuilderLand.Slave" $whdloadargs
+  whdload "Builderland.Slave" $whdloadargs
 ELSE
-  whdload "BuilderLand.Slave"
+  whdload "Builderland.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

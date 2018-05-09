@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/Blobz/Blobz.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/BlobzAGA/BlobzAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/Blobz/"
+cd "A-Games:B/BlobzAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "Blobz.Slave" $whdloadargs
+  whdload "BlobzAGA.Slave" $whdloadargs
 ELSE
-  whdload "Blobz.Slave"
+  whdload "BlobzAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

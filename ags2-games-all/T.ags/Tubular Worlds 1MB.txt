@@ -1,0 +1,6 @@
+Name      : Tubular Worlds
+Version   : 1MB
+Publisher : Dongleware
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+RunFile   : TubularWorlds1MB.Slave

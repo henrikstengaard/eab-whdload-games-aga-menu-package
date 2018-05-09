@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:C/ChessPlayer2150DE/ChessPlayer2150De.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:C/ChessPlayer2150De/ChessPlayer2150De.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:C/ChessPlayer2150DE/"
+cd "A-Games:C/ChessPlayer2150De/"
 IF EXISTS ENV:whdloadargs
   whdload "ChessPlayer2150De.Slave" $whdloadargs
 ELSE

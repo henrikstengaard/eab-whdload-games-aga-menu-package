@@ -3,4 +3,4 @@ Publisher : Cinemaware
 Year      : 1989
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-RunFile   : ItCameFromTheDesert.slave
+RunFile   : ItCameFromTheDesert.Slave

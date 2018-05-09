@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/BlackGoldreLINE/BlackGoldreLINE.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/BlackGoldReLINE/BlackGoldReLINE.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BlackGoldreLINE/"
+cd "A-Games:B/BlackGoldReLINE/"
 IF EXISTS ENV:whdloadargs
-  whdload "BlackGoldreLINE.Slave" $whdloadargs
+  whdload "BlackGoldReLINE.Slave" $whdloadargs
 ELSE
-  whdload "BlackGoldreLINE.Slave"
+  whdload "BlackGoldReLINE.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

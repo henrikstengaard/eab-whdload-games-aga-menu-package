@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1986
 Genre     : Simulation - Tank
 Players   : 1 Only
-RunFile   : ArcticFox.Slave
+RunFile   : Arcticfox.Slave

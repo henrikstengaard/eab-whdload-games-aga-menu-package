@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:P/ProTennisTour2/ProTennisTour2.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:P/ProTennisTour2/ProTennisTour2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:P/ProTennisTour2/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProTennisTour2.Slave" $whdloadargs
+  whdload "ProTennisTour2.slave" $whdloadargs
 ELSE
-  whdload "ProTennisTour2.Slave"
+  whdload "ProTennisTour2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -3,4 +3,4 @@ Publisher : Microdeal
 Year      : 1989
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-RunFile   : Airball.Slave
+RunFile   : Airball.slave

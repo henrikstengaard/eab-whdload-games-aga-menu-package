@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:M/MythHistoryInMakingCD32/MythHistoryInMakingCD32.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/MythSystem3CD32/MythSystem3CD32.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:M/MythHistoryInMakingCD32/"
+cd "A-Games:M/MythSystem3CD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "MythHistoryInMakingCD32.slave" $whdloadargs
+  whdload "MythSystem3CD32.slave" $whdloadargs
 ELSE
-  whdload "MythHistoryInMakingCD32.slave"
+  whdload "MythSystem3CD32.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

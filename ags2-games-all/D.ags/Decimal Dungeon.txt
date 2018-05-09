@@ -1,0 +1,6 @@
+Name      : Decimal Dungeon
+Publisher : Unicorn Software
+Year      : 1986
+Genre     : Educational - Math
+Players   : 1 or 2
+RunFile   : DecimalDungeon.Slave

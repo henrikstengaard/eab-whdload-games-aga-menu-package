@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:X/XmasLemmingsDemo1992/XmasLemmingsDemo1992.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:L/LemmingsXmasDemo1992/LemmingsXmasDemo1992.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:X/XmasLemmingsDemo1992/"
+cd "A-Games:L/LemmingsXmasDemo1992/"
 IF EXISTS ENV:whdloadargs
-  whdload "XmasLemmingsDemo1992.Slave" $whdloadargs
+  whdload "LemmingsXmasDemo1992.Slave" $whdloadargs
 ELSE
-  whdload "XmasLemmingsDemo1992.Slave"
+  whdload "LemmingsXmasDemo1992.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:H/HeartOfChina/HeartOfChina.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:H/HeartOfChina/HeartOfChina.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:H/HeartOfChina/"
 IF EXISTS ENV:whdloadargs
-  whdload "HeartOfChina.Slave" $whdloadargs
+  whdload "HeartOfChina.slave" $whdloadargs
 ELSE
-  whdload "HeartOfChina.Slave"
+  whdload "HeartOfChina.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

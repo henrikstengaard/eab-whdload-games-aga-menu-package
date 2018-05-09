@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:C/ChaseHQ2/ChaseHQ2.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:C/ChaseHQ2/ChaseHQ2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:C/ChaseHQ2/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChaseHQ2.Slave" $whdloadargs
+  whdload "ChaseHQ2.slave" $whdloadargs
 ELSE
-  whdload "ChaseHQ2.Slave"
+  whdload "ChaseHQ2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

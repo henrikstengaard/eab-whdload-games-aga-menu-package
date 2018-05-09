@@ -3,4 +3,4 @@ Publisher : Electronic Arts
 Year      : 1990
 Genre     : Simulation - Marine
 Players   : 1 Only
-RunFile   : 688AttackSub.slave
+RunFile   : 688AttackSub.Slave

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:M/MightAndMagic3/MightAndMagic3.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/Might&Magic3/Might&Magic3.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:M/MightAndMagic3/"
+cd "A-Games:M/Might&Magic3/"
 IF EXISTS ENV:whdloadargs
-  whdload "MightAndMagic3.Slave" $whdloadargs
+  whdload "Might&Magic3.Slave" $whdloadargs
 ELSE
-  whdload "MightAndMagic3.Slave"
+  whdload "Might&Magic3.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -4,4 +4,4 @@ Publisher : 21st Century Entertainment
 Year      : 1995
 Genre     : Arcade - Pinball
 Players   : 1 to 8
-RunFile   : PinballMania.slave
+RunFile   : PinballManiaAGA.slave

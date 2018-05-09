@@ -1,0 +1,6 @@
+Name      : Lost Treasures Of Infocom, The
+Publisher : Activision
+Year      : 1992
+Genre     : Compilation (The Hitchhiker's Guide To The Galaxy, Zork I: The Great Underground Empire, ...)
+Players   : 1
+RunFile   : LostTreasuresOfInfocom.Slave

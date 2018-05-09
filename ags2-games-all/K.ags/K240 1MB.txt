@@ -1,0 +1,7 @@
+Name      : K240
+Version   : 1MB
+Publisher : Gremlin Graphics
+Year      : 1994
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : K2401MB.Slave

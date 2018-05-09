@@ -3,4 +3,4 @@ Publisher : Firebird
 Year      : 1987
 Genre     : Strategy - Miscellaneous
 Players   : 1 Only
-RunFile   : Sentinel.slave
+RunFile   : Sentinel.Slave

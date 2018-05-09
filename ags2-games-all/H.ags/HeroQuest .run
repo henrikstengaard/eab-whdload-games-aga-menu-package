@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:H/HeroQuest&ReturnWitchLord/HeroQuest&ReturnWitchLord.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:H/HeroQuest&ReturnWitchLord/HeroQuest&ReturnWitchLord.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:H/HeroQuest&ReturnWitchLord/"
 IF EXISTS ENV:whdloadargs
-  whdload "HeroQuest&ReturnWitchLord.Slave" $whdloadargs
+  whdload "HeroQuest&ReturnWitchLord.slave" $whdloadargs
 ELSE
-  whdload "HeroQuest&ReturnWitchLord.Slave"
+  whdload "HeroQuest&ReturnWitchLord.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

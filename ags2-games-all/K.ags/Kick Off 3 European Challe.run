@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:K/KickOff3EC/KickOff3EC.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:K/KickOff3EuroChallenge/KickOff3EuroChallenge.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:K/KickOff3EC/"
+cd "A-Games:K/KickOff3EuroChallenge/"
 IF EXISTS ENV:whdloadargs
-  whdload "KickOff3EC.Slave" $whdloadargs
+  whdload "KickOff3EuroChallenge.Slave" $whdloadargs
 ELSE
-  whdload "KickOff3EC.Slave"
+  whdload "KickOff3EuroChallenge.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

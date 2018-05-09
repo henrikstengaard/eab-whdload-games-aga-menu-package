@@ -1,0 +1,7 @@
+Name      : Super Skidmarks
+Version   : CD32 LOWMEM
+Publisher : Acid Software
+Year      : 1995
+Genre     : Racing - Cars
+Players   : 1 to 4, Simultaneous
+RunFile   : SuperSkidMarksLowMemCD32.slave

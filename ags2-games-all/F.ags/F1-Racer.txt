@@ -1,0 +1,5 @@
+Name      : F1-Racer
+Publisher : F1 Licenceware
+Year      : 1994
+Players   : 1
+RunFile   : Kinderama.Slave

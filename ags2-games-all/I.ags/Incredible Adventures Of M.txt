@@ -1,0 +1,6 @@
+Name      : Incredible Adventures Of Moebius Goatlizard DX, The
+Publisher : (unknown)
+Year      : 2014
+Genre     : Platformer - Single Screen
+Players   : 1 Only
+RunFile   : MoebiusGoatlizard.slave

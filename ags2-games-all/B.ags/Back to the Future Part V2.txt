@@ -1,6 +1,6 @@
-Name      : Back to the Future Part II
+Name      : Back to the Future Part III
 Publisher : Image Works
-Year      : 1990
+Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : BackToTheFuturePart2.slave
+RunFile   : BackToTheFuturePart3.Slave

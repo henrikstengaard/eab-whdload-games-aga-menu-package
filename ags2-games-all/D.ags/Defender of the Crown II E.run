@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32Es.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32ES.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:D/DefensorDeLaCorona2CD32Es/"
 IF EXISTS ENV:whdloadargs
-  whdload "DefensorDeLaCorona2CD32Es.slave" $whdloadargs
+  whdload "DefensorDeLaCorona2CD32ES.slave" $whdloadargs
 ELSE
-  whdload "DefensorDeLaCorona2CD32Es.slave"
+  whdload "DefensorDeLaCorona2CD32ES.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

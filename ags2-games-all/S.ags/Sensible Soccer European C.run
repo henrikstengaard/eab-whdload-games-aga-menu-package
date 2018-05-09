@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:S/SensibleSoccer9293/SensibleSoccer9293512K.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:S/SensibleSoccer9293512KB/SensibleSoccer9293512KB.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/SensibleSoccer9293/"
+cd "A-Games:S/SensibleSoccer9293512KB/"
 IF EXISTS ENV:whdloadargs
-  whdload "SensibleSoccer9293512K.Slave" $whdloadargs
+  whdload "SensibleSoccer9293512KB.Slave" $whdloadargs
 ELSE
-  whdload "SensibleSoccer9293512K.Slave"
+  whdload "SensibleSoccer9293512KB.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

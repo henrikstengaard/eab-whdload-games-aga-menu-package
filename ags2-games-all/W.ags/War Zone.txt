@@ -2,4 +2,4 @@ Name      : War Zone
 Publisher : Core Design
 Year      : 1991
 Players   : 1 or 2, Simultaneous
-RunFile   : WarZoneCore.Slave
+RunFile   : WarzoneCoreDesign.slave

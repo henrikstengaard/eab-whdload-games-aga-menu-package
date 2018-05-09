@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:A/AddamsFamily/AddamsFamily.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:A/AddamsFamily/AddamsFamily.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:A/AddamsFamily/"
 IF EXISTS ENV:whdloadargs
-  whdload "AddamsFamily.Slave" $whdloadargs
+  whdload "AddamsFamily.slave" $whdloadargs
 ELSE
-  whdload "AddamsFamily.Slave"
+  whdload "AddamsFamily.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -3,4 +3,4 @@ Publisher : Gremlin Graphics
 Year      : 1990
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : Impossamole.Slave
+RunFile   : Impossamole.slave

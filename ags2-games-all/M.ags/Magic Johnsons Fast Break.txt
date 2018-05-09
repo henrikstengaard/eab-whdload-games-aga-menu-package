@@ -1,0 +1,6 @@
+Name      : Magic Johnson's Fast Break
+Publisher : Arcadia (Mastertronic)
+Year      : 1988
+Genre     : Sport
+Players   : 1 or 2, Simultaneous
+RunFile   : MagicJohnsonFstBrkArcadia.Slave

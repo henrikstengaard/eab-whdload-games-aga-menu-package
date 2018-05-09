@@ -1,0 +1,5 @@
+Name      : Cobra
+Publisher : Bytec
+Year      : 1991
+Players   : 1 or 2
+RunFile   : Cobra.slave

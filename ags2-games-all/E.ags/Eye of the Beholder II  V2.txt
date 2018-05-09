@@ -1,7 +1,7 @@
 Name      : Eye of the Beholder II: The Legend of Darkmoon
-Language  : German
+Version   : AGA
 Publisher : Strategic Simulations, Inc.
 Year      : 1992
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-RunFile   : EyeOfTheBeholder2De.Slave
+RunFile   : EyeOfTheBeholder2AGA.Slave

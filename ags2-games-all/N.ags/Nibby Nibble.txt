@@ -1,0 +1,6 @@
+Name      : Nibby Nibble
+Publisher : (unknown)
+Year      : 1993
+Genre     : Arcade - Worm/Snake
+Players   : 1 Only
+RunFile   : NibbyNibble.Slave

@@ -1,0 +1,7 @@
+Name      : Eye of the Beholder
+Version   : AGA
+Publisher : Strategic Simulations, Inc.
+Year      : 1991
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+RunFile   : EyeOfTheBeholderAGA.Slave

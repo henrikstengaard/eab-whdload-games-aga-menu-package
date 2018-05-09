@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:U/Utopia&NewWorlds/Utopia&NewWorlds.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:U/Utopia&NewWorlds/Utopia&NewWorlds.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:U/Utopia&NewWorlds/"
 IF EXISTS ENV:whdloadargs
-  whdload "Utopia&NewWorlds.Slave" $whdloadargs
+  whdload "Utopia&NewWorlds.slave" $whdloadargs
 ELSE
-  whdload "Utopia&NewWorlds.Slave"
+  whdload "Utopia&NewWorlds.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

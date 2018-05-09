@@ -1,0 +1,5 @@
+Name      : Sorcerer
+Publisher : Infocom
+Year      : 1986
+Players   : 1
+RunFile   : SpellfireTheSorcerer.slave

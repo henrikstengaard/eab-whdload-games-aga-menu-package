@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:T/TurboTraxArcane/TurboTraxArcane512KB.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:T/TurboTraxArcane512KB/TurboTraxArcane512KB.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:T/TurboTraxArcane/"
+cd "A-Games:T/TurboTraxArcane512KB/"
 IF EXISTS ENV:whdloadargs
   whdload "TurboTraxArcane512KB.Slave" $whdloadargs
 ELSE

@@ -1,7 +1,7 @@
 Name      : Nigel Mansell's World Championship
-Version   : CD32
+Version   : AGA
 Publisher : Gremlin Graphics
 Year      : 1992
 Genre     : Sports - Formula One
 Players   : 1 Only
-RunFile   : NigelMansellsWrldChmpCD32.slave
+RunFile   : NigelMansellsWrldChmpAGA.slave

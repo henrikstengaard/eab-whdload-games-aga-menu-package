@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:A/ArcherMacleansPool/ArcherMacleansPool.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:A/ArcherMacLeansPool/ArcherMacLeansPool.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/ArcherMacleansPool/"
+cd "A-Games:A/ArcherMacLeansPool/"
 IF EXISTS ENV:whdloadargs
-  whdload "ArcherMacleansPool.Slave" $whdloadargs
+  whdload "ArcherMacLeansPool.Slave" $whdloadargs
 ELSE
-  whdload "ArcherMacleansPool.Slave"
+  whdload "ArcherMacLeansPool.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

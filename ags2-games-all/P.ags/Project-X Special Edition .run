@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:P/ProjectXSEBTTR/ProjectXSEBTTR.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:P/ProjectXSECD32/ProjectXSECD32.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:P/ProjectXSEBTTR/"
+cd "A-Games:P/ProjectXSECD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "ProjectXSEBTTR.Slave" $whdloadargs
+  whdload "ProjectXSECD32.slave" $whdloadargs
 ELSE
-  whdload "ProjectXSEBTTR.Slave"
+  whdload "ProjectXSECD32.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

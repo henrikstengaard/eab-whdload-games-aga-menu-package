@@ -1,0 +1,6 @@
+Name      : Formula 1 3D
+Publisher : Simulmondo
+Year      : 1991
+Genre     : Sports - Formula One
+Players   : 1 or 2
+RunFile   : FormulaOne3D.slave

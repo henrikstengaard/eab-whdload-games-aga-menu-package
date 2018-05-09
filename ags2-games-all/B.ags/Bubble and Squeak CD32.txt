@@ -1,0 +1,7 @@
+Name      : Bubble and Squeak
+Version   : CD32
+Publisher : Audiogenic
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : BubbleAndSqueakCD32.slave

@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:B/BloodnetAGA/BloodnetAGA.slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:B/BloodNetAGA/BloodNetAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BloodnetAGA/"
+cd "A-Games:B/BloodNetAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "BloodnetAGA.slave" $whdloadargs
+  whdload "BloodNetAGA.slave" $whdloadargs
 ELSE
-  whdload "BloodnetAGA.slave"
+  whdload "BloodNetAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

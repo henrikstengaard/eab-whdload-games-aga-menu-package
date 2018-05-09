@@ -3,4 +3,4 @@ Publisher : Personal Software Services (PSS)
 Year      : 1989
 Genre     : Strategy - War
 Players   : 1 Only
-RunFile   : ConflictEurope.Slave
+RunFile   : ConflictEurope.slave

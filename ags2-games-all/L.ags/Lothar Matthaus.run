@@ -1,6 +1,6 @@
-; HstWB Menu Item Run script for AGS2
-; -----------------------------------
-;RunFile=A-Games:L/LotharMatthausFussball/LotharMatthausFussball.Slave
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:L/LotharMatthausFussball/LotharMatthausFussball.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:L/LotharMatthausFussball/"
 IF EXISTS ENV:whdloadargs
-  whdload "LotharMatthausFussball.Slave" $whdloadargs
+  whdload "LotharMatthausFussball.slave" $whdloadargs
 ELSE
-  whdload "LotharMatthausFussball.Slave"
+  whdload "LotharMatthausFussball.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists
