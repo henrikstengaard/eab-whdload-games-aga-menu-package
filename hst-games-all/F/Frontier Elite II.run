@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Frontier/Frontier.slave
+
+; Run WHDLoad
+cd "A-Games:F/Frontier/"
+IF EXISTS ENV:whdloadargs
+  whdload "Frontier.slave" $whdloadargs
+ELSE
+  whdload "Frontier.slave"
+ENDIF

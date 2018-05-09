@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ProfeziaIt/ProfeziaIt.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ProfeziaIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProfeziaIt.Slave" $whdloadargs
+ELSE
+  whdload "ProfeziaIt.Slave"
+ENDIF

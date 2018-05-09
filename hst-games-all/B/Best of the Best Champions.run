@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BestOfTheBest/BestOfTheBest.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BestOfTheBest/"
+IF EXISTS ENV:whdloadargs
+  whdload "BestOfTheBest.Slave" $whdloadargs
+ELSE
+  whdload "BestOfTheBest.Slave"
+ENDIF

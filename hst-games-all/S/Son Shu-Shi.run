@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SonShuShi/SonShuShi.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SonShuShi/"
+IF EXISTS ENV:whdloadargs
+  whdload "SonShuShi.Slave" $whdloadargs
+ELSE
+  whdload "SonShuShi.Slave"
+ENDIF

@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:H/Hammerfist/"
-IF EXISTS ENV:whdloadargs
-  whdload "Hammerfist.slave" $whdloadargs
-ELSE
-  whdload "Hammerfist.slave"
-ENDIF

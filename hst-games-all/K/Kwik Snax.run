@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/KwikSnax/KwikSnax.slave
+
+; Run WHDLoad
+cd "A-Games:K/KwikSnax/"
+IF EXISTS ENV:whdloadargs
+  whdload "KwikSnax.slave" $whdloadargs
+ELSE
+  whdload "KwikSnax.slave"
+ENDIF

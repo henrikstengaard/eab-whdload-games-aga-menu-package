@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GravityForce/GravityForce.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GravityForce/"
+IF EXISTS ENV:whdloadargs
+  whdload "GravityForce.Slave" $whdloadargs
+ELSE
+  whdload "GravityForce.Slave"
+ENDIF

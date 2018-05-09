@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/ManchesterUtdPLC&Data/ManchesterUtdPLC&Data.slave
+
+; Run WHDLoad
+cd "A-Games:M/ManchesterUtdPLC&Data/"
+IF EXISTS ENV:whdloadargs
+  whdload "ManchesterUtdPLC&Data.slave" $whdloadargs
+ELSE
+  whdload "ManchesterUtdPLC&Data.slave"
+ENDIF

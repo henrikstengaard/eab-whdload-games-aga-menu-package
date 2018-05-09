@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DungeonMaster/DungeonMaster.slave
+
+; Run WHDLoad
+cd "A-Games:D/DungeonMaster/"
+IF EXISTS ENV:whdloadargs
+  whdload "DungeonMaster.slave" $whdloadargs
+ELSE
+  whdload "DungeonMaster.slave"
+ENDIF

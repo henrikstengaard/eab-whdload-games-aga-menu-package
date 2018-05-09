@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StripPoker2/StripPoker2.slave
+
+; Run WHDLoad
+cd "A-Games:S/StripPoker2/"
+IF EXISTS ENV:whdloadargs
+  whdload "StripPoker2.slave" $whdloadargs
+ELSE
+  whdload "StripPoker2.slave"
+ENDIF

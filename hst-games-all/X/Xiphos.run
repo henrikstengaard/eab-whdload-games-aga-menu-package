@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:X/Xiphos/Xiphos.Slave
+
+; Run WHDLoad
+cd "A-Games:X/Xiphos/"
+IF EXISTS ENV:whdloadargs
+  whdload "Xiphos.Slave" $whdloadargs
+ELSE
+  whdload "Xiphos.Slave"
+ENDIF

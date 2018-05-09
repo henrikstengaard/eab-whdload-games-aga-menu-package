@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Q/QuestForTimeBirdFiles/QuestForTimeBirdFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:Q/QuestForTimeBirdFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "QuestForTimeBirdFiles.Slave" $whdloadargs
+ELSE
+  whdload "QuestForTimeBirdFiles.Slave"
+ENDIF

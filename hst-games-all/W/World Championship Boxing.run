@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WorldChampBoxingManager/WorldChampBoxingManager.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WorldChampBoxingManager/"
+IF EXISTS ENV:whdloadargs
+  whdload "WorldChampBoxingManager.Slave" $whdloadargs
+ELSE
+  whdload "WorldChampBoxingManager.Slave"
+ENDIF

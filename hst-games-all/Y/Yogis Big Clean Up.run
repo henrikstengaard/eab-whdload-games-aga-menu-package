@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Y/YogisBigCleanUp/YogisBigCleanUp.Slave
+
+; Run WHDLoad
+cd "A-Games:Y/YogisBigCleanUp/"
+IF EXISTS ENV:whdloadargs
+  whdload "YogisBigCleanUp.Slave" $whdloadargs
+ELSE
+  whdload "YogisBigCleanUp.Slave"
+ENDIF

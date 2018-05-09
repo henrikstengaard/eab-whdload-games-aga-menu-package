@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Banzai/Banzai.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Banzai/"
+IF EXISTS ENV:whdloadargs
+  whdload "Banzai.Slave" $whdloadargs
+ELSE
+  whdload "Banzai.Slave"
+ENDIF

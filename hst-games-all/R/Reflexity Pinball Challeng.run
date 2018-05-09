@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Reflexity/Reflexity.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Reflexity/"
+IF EXISTS ENV:whdloadargs
+  whdload "Reflexity.Slave" $whdloadargs
+ELSE
+  whdload "Reflexity.Slave"
+ENDIF

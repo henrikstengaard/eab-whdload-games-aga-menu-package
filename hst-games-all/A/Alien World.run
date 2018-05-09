@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AlienWorld/AlienWorld.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AlienWorld/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlienWorld.Slave" $whdloadargs
+ELSE
+  whdload "AlienWorld.Slave"
+ENDIF

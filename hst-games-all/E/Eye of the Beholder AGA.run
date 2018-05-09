@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EyeOfTheBeholderAGA/EyeOfTheBeholderAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EyeOfTheBeholderAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "EyeOfTheBeholderAGA.Slave" $whdloadargs
+ELSE
+  whdload "EyeOfTheBeholderAGA.Slave"
+ENDIF

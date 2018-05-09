@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Overlander/Overlander.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Overlander/"
+IF EXISTS ENV:whdloadargs
+  whdload "Overlander.Slave" $whdloadargs
+ELSE
+  whdload "Overlander.Slave"
+ENDIF

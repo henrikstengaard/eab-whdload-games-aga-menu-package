@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/InternationalTennis/InternationalTennis.slave
+
+; Run WHDLoad
+cd "A-Games:I/InternationalTennis/"
+IF EXISTS ENV:whdloadargs
+  whdload "InternationalTennis.slave" $whdloadargs
+ELSE
+  whdload "InternationalTennis.slave"
+ENDIF

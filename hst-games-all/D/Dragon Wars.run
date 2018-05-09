@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonWars/DragonWars.slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonWars/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonWars.slave" $whdloadargs
+ELSE
+  whdload "DragonWars.slave"
+ENDIF

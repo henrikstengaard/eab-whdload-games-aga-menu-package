@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SleepwalkerAGA/SleepwalkerAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SleepwalkerAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SleepwalkerAGA.Slave" $whdloadargs
+ELSE
+  whdload "SleepwalkerAGA.Slave"
+ENDIF

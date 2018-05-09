@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HorrorZombiesFromTheCrypt/HorrorZombiesFromTheCrypt.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HorrorZombiesFromTheCrypt/"
+IF EXISTS ENV:whdloadargs
+  whdload "HorrorZombiesFromTheCrypt.Slave" $whdloadargs
+ELSE
+  whdload "HorrorZombiesFromTheCrypt.Slave"
+ENDIF

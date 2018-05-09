@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PoolOfRadiance/PoolOfRadiance.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PoolOfRadiance/"
+IF EXISTS ENV:whdloadargs
+  whdload "PoolOfRadiance.Slave" $whdloadargs
+ELSE
+  whdload "PoolOfRadiance.Slave"
+ENDIF

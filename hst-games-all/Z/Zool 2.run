@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/Zool2/Zool2.Slave
+
+; Run WHDLoad
+cd "A-Games:Z/Zool2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Zool2.Slave" $whdloadargs
+ELSE
+  whdload "Zool2.Slave"
+ENDIF

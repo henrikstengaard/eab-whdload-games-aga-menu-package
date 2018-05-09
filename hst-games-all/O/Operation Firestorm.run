@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OperationFirestorm/OperationFirestorm.slave
+
+; Run WHDLoad
+cd "A-Games:O/OperationFirestorm/"
+IF EXISTS ENV:whdloadargs
+  whdload "OperationFirestorm.slave" $whdloadargs
+ELSE
+  whdload "OperationFirestorm.slave"
+ENDIF

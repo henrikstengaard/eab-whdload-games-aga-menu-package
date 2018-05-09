@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Skrull/Skrull.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Skrull/"
+IF EXISTS ENV:whdloadargs
+  whdload "Skrull.Slave" $whdloadargs
+ELSE
+  whdload "Skrull.Slave"
+ENDIF

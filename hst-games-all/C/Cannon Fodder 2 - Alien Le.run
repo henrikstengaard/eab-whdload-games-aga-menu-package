@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CannonFodder2AlienLevels/CannonFodder2AlienLevels.Slave
+
+; Run WHDLoad
+cd "A-Games:C/CannonFodder2AlienLevels/"
+IF EXISTS ENV:whdloadargs
+  whdload "CannonFodder2AlienLevels.Slave" $whdloadargs
+ELSE
+  whdload "CannonFodder2AlienLevels.Slave"
+ENDIF

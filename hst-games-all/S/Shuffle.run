@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Shuffle/Shuffle.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Shuffle/"
+IF EXISTS ENV:whdloadargs
+  whdload "Shuffle.Slave" $whdloadargs
+ELSE
+  whdload "Shuffle.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Sarcophaser/Sarcophaser.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Sarcophaser/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sarcophaser.Slave" $whdloadargs
+ELSE
+  whdload "Sarcophaser.Slave"
+ENDIF

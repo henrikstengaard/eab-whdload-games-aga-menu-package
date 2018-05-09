@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Frankenstein/Frankenstein.slave
+
+; Run WHDLoad
+cd "A-Games:F/Frankenstein/"
+IF EXISTS ENV:whdloadargs
+  whdload "Frankenstein.slave" $whdloadargs
+ELSE
+  whdload "Frankenstein.slave"
+ENDIF

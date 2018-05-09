@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MegaMotion/MegaMotion.slave
+
+; Run WHDLoad
+cd "A-Games:M/MegaMotion/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaMotion.slave" $whdloadargs
+ELSE
+  whdload "MegaMotion.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pyramax/Pyramax.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Pyramax/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pyramax.Slave" $whdloadargs
+ELSE
+  whdload "Pyramax.Slave"
+ENDIF

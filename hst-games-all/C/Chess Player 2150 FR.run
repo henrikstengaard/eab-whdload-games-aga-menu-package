@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ChessPlayer2150Fr/ChessPlayer2150Fr.Slave
+
+; Run WHDLoad
+cd "A-Games:C/ChessPlayer2150Fr/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChessPlayer2150Fr.Slave" $whdloadargs
+ELSE
+  whdload "ChessPlayer2150Fr.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FirstSamuraiA1200Version/FirstSamuraiA1200Version.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FirstSamuraiA1200Version/"
+IF EXISTS ENV:whdloadargs
+  whdload "FirstSamuraiA1200Version.Slave" $whdloadargs
+ELSE
+  whdload "FirstSamuraiA1200Version.Slave"
+ENDIF

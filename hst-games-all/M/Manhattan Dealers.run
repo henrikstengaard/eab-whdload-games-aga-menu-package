@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/ManhattanDealers/ManhattanDealers.Slave
+
+; Run WHDLoad
+cd "A-Games:M/ManhattanDealers/"
+IF EXISTS ENV:whdloadargs
+  whdload "ManhattanDealers.Slave" $whdloadargs
+ELSE
+  whdload "ManhattanDealers.Slave"
+ENDIF

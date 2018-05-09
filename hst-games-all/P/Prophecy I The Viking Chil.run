@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Prophecy1VikingChild/Prophecy1VikingChild.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Prophecy1VikingChild/"
+IF EXISTS ENV:whdloadargs
+  whdload "Prophecy1VikingChild.Slave" $whdloadargs
+ELSE
+  whdload "Prophecy1VikingChild.Slave"
+ENDIF

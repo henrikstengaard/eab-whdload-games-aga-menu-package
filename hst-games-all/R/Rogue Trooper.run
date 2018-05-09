@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RogueTrooper/RogueTrooper.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RogueTrooper/"
+IF EXISTS ENV:whdloadargs
+  whdload "RogueTrooper.Slave" $whdloadargs
+ELSE
+  whdload "RogueTrooper.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TipOffNTSC/TipOffNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TipOffNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "TipOffNTSC.Slave" $whdloadargs
+ELSE
+  whdload "TipOffNTSC.Slave"
+ENDIF

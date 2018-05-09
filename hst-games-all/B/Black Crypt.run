@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BlackCrypt/BlackCrypt.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BlackCrypt/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlackCrypt.Slave" $whdloadargs
+ELSE
+  whdload "BlackCrypt.Slave"
+ENDIF

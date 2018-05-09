@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonstoneCD32/DragonstoneCD32.slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonstoneCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonstoneCD32.slave" $whdloadargs
+ELSE
+  whdload "DragonstoneCD32.slave"
+ENDIF

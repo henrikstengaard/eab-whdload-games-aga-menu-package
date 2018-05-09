@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SideArms/SideArms.slave
+
+; Run WHDLoad
+cd "A-Games:S/SideArms/"
+IF EXISTS ENV:whdloadargs
+  whdload "SideArms.slave" $whdloadargs
+ELSE
+  whdload "SideArms.slave"
+ENDIF

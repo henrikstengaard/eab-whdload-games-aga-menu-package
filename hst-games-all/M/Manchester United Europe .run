@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/ManchesterUnitedEurope21/ManchesterUnitedEurope21.Slave
+
+; Run WHDLoad
+cd "A-Games:M/ManchesterUnitedEurope21/"
+IF EXISTS ENV:whdloadargs
+  whdload "ManchesterUnitedEurope21.Slave" $whdloadargs
+ELSE
+  whdload "ManchesterUnitedEurope21.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TetrisInfogrames/TetrisInfogrames.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TetrisInfogrames/"
+IF EXISTS ENV:whdloadargs
+  whdload "TetrisInfogrames.Slave" $whdloadargs
+ELSE
+  whdload "TetrisInfogrames.Slave"
+ENDIF

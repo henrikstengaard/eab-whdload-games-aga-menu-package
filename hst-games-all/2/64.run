@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/AlienBreedTACD32/"
-IF EXISTS ENV:whdloadargs
-  whdload "AlienBreedTACD32.slave" $whdloadargs
-ELSE
-  whdload "AlienBreedTACD32.slave"
-ENDIF

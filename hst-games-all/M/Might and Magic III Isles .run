@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Might&Magic3De/Might&Magic3De.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Might&Magic3De/"
+IF EXISTS ENV:whdloadargs
+  whdload "Might&Magic3De.Slave" $whdloadargs
+ELSE
+  whdload "Might&Magic3De.Slave"
+ENDIF

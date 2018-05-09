@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GloomCD32/GloomCD32.slave
+
+; Run WHDLoad
+cd "A-Games:G/GloomCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "GloomCD32.slave" $whdloadargs
+ELSE
+  whdload "GloomCD32.slave"
+ENDIF

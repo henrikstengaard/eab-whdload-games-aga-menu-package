@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FastFood/FastFood.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FastFood/"
+IF EXISTS ENV:whdloadargs
+  whdload "FastFood.Slave" $whdloadargs
+ELSE
+  whdload "FastFood.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/ElfOcean/ElfOcean.slave
+
+; Run WHDLoad
+cd "A-Games:E/ElfOcean/"
+IF EXISTS ENV:whdloadargs
+  whdload "ElfOcean.slave" $whdloadargs
+ELSE
+  whdload "ElfOcean.slave"
+ENDIF

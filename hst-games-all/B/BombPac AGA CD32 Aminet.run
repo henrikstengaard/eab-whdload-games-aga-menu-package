@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BombPacCD32AGAAminet/BombPacCD32AGAAminet.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BombPacCD32AGAAminet/"
+IF EXISTS ENV:whdloadargs
+  whdload "BombPacCD32AGAAminet.Slave" $whdloadargs
+ELSE
+  whdload "BombPacCD32AGAAminet.Slave"
+ENDIF

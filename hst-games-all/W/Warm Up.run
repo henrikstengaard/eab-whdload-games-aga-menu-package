@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WarmUp/WarmUp.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WarmUp/"
+IF EXISTS ENV:whdloadargs
+  whdload "WarmUp.Slave" $whdloadargs
+ELSE
+  whdload "WarmUp.Slave"
+ENDIF

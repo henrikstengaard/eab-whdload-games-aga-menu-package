@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Motorhead/Motorhead.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Motorhead/"
+IF EXISTS ENV:whdloadargs
+  whdload "Motorhead.Slave" $whdloadargs
+ELSE
+  whdload "Motorhead.Slave"
+ENDIF

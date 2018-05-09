@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AlchemyDemo/AlchemyDemo.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AlchemyDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlchemyDemo.Slave" $whdloadargs
+ELSE
+  whdload "AlchemyDemo.Slave"
+ENDIF

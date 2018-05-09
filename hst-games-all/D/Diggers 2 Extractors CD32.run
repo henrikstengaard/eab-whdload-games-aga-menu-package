@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/ExtractorsPreviewCD32/ExtractorsPreviewCD32.slave
+
+; Run WHDLoad
+cd "A-Games:E/ExtractorsPreviewCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "ExtractorsPreviewCD32.slave" $whdloadargs
+ELSE
+  whdload "ExtractorsPreviewCD32.slave"
+ENDIF

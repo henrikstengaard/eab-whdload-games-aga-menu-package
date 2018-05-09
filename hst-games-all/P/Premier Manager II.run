@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PremierManager2/PremierManager2.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PremierManager2/"
+IF EXISTS ENV:whdloadargs
+  whdload "PremierManager2.Slave" $whdloadargs
+ELSE
+  whdload "PremierManager2.Slave"
+ENDIF

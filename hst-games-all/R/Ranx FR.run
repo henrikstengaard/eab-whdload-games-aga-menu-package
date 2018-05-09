@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RanXFr/RanXFr.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RanXFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "RanXFr.Slave" $whdloadargs
+ELSE
+  whdload "RanXFr.Slave"
+ENDIF

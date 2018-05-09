@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/3001OConnorsFight/3001OConnorsFight.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/3001OConnorsFight/"
+IF EXISTS ENV:whdloadargs
+  whdload "3001OConnorsFight.Slave" $whdloadargs
+ELSE
+  whdload "3001OConnorsFight.Slave"
+ENDIF

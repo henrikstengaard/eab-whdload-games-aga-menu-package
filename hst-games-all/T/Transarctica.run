@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Transarctica/Transarctica.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Transarctica/"
+IF EXISTS ENV:whdloadargs
+  whdload "Transarctica.Slave" $whdloadargs
+ELSE
+  whdload "Transarctica.Slave"
+ENDIF

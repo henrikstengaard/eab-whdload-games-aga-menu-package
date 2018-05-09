@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/Waterloo/Waterloo.Slave
+
+; Run WHDLoad
+cd "A-Games:W/Waterloo/"
+IF EXISTS ENV:whdloadargs
+  whdload "Waterloo.Slave" $whdloadargs
+ELSE
+  whdload "Waterloo.Slave"
+ENDIF

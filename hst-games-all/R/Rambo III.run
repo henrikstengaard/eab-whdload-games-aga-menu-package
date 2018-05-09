@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Rambo3/Rambo3.slave
+
+; Run WHDLoad
+cd "A-Games:R/Rambo3/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rambo3.slave" $whdloadargs
+ELSE
+  whdload "Rambo3.slave"
+ENDIF

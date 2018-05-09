@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/Kamikaze/Kamikaze.Slave
+
+; Run WHDLoad
+cd "A-Games:K/Kamikaze/"
+IF EXISTS ENV:whdloadargs
+  whdload "Kamikaze.Slave" $whdloadargs
+ELSE
+  whdload "Kamikaze.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LogicalCDTV/LogicalCDTV.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LogicalCDTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "LogicalCDTV.Slave" $whdloadargs
+ELSE
+  whdload "LogicalCDTV.Slave"
+ENDIF

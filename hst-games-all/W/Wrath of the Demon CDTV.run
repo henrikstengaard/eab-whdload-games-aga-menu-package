@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WrathOfTheDemonCDTV/WrathOfTheDemonCDTV.slave
+
+; Run WHDLoad
+cd "A-Games:W/WrathOfTheDemonCDTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "WrathOfTheDemonCDTV.slave" $whdloadargs
+ELSE
+  whdload "WrathOfTheDemonCDTV.slave"
+ENDIF

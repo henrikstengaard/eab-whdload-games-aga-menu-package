@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegendOfFaerghailDe/LegendOfFaerghailDe.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LegendOfFaerghailDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegendOfFaerghailDe.Slave" $whdloadargs
+ELSE
+  whdload "LegendOfFaerghailDe.Slave"
+ENDIF

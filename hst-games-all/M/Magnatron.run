@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Magnatron/Magnatron.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Magnatron/"
+IF EXISTS ENV:whdloadargs
+  whdload "Magnatron.Slave" $whdloadargs
+ELSE
+  whdload "Magnatron.Slave"
+ENDIF

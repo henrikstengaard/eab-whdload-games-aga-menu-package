@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/Jetstrike/Jetstrike.Slave
+
+; Run WHDLoad
+cd "A-Games:J/Jetstrike/"
+IF EXISTS ENV:whdloadargs
+  whdload "Jetstrike.Slave" $whdloadargs
+ELSE
+  whdload "Jetstrike.Slave"
+ENDIF

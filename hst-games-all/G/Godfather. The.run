@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Godfather/Godfather.Slave
+
+; Run WHDLoad
+cd "A-Games:G/Godfather/"
+IF EXISTS ENV:whdloadargs
+  whdload "Godfather.Slave" $whdloadargs
+ELSE
+  whdload "Godfather.Slave"
+ENDIF

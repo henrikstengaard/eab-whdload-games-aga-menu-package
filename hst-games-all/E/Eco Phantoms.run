@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EcoPhantoms/EcoPhantoms.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EcoPhantoms/"
+IF EXISTS ENV:whdloadargs
+  whdload "EcoPhantoms.Slave" $whdloadargs
+ELSE
+  whdload "EcoPhantoms.Slave"
+ENDIF

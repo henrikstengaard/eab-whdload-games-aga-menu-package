@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CruiseForACorpseDe/CruiseForACorpseDe.slave
+
+; Run WHDLoad
+cd "A-Games:C/CruiseForACorpseDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "CruiseForACorpseDe.slave" $whdloadargs
+ELSE
+  whdload "CruiseForACorpseDe.slave"
+ENDIF

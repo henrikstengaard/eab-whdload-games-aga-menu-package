@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Links&DataDisksNTSC/Links&DataDisksNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:L/Links&DataDisksNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "Links&DataDisksNTSC.Slave" $whdloadargs
+ELSE
+  whdload "Links&DataDisksNTSC.Slave"
+ENDIF

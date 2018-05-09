@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/Apache/"
-IF EXISTS ENV:whdloadargs
-  whdload "Apache.Slave" $whdloadargs
-ELSE
-  whdload "Apache.Slave"
-ENDIF

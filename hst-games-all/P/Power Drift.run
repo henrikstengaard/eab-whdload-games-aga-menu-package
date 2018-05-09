@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PowerDrift/PowerDrift.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PowerDrift/"
+IF EXISTS ENV:whdloadargs
+  whdload "PowerDrift.Slave" $whdloadargs
+ELSE
+  whdload "PowerDrift.Slave"
+ENDIF

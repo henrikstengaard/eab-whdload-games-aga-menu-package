@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TetrisMirrorsoft/TetrisMirrorsoft.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TetrisMirrorsoft/"
+IF EXISTS ENV:whdloadargs
+  whdload "TetrisMirrorsoft.Slave" $whdloadargs
+ELSE
+  whdload "TetrisMirrorsoft.Slave"
+ENDIF

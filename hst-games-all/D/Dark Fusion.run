@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DarkFusion/DarkFusion.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DarkFusion/"
+IF EXISTS ENV:whdloadargs
+  whdload "DarkFusion.Slave" $whdloadargs
+ELSE
+  whdload "DarkFusion.Slave"
+ENDIF

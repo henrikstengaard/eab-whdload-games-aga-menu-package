@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:X/XR35/XR35.Slave
+
+; Run WHDLoad
+cd "A-Games:X/XR35/"
+IF EXISTS ENV:whdloadargs
+  whdload "XR35.Slave" $whdloadargs
+ELSE
+  whdload "XR35.Slave"
+ENDIF

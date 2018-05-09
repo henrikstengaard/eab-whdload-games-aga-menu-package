@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WarlocksQuest/WarlocksQuest.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WarlocksQuest/"
+IF EXISTS ENV:whdloadargs
+  whdload "WarlocksQuest.Slave" $whdloadargs
+ELSE
+  whdload "WarlocksQuest.Slave"
+ENDIF

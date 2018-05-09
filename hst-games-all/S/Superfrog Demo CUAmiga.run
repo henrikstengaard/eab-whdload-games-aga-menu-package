@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperfrogDemoCUAmiga/SuperfrogDemoCUAmiga.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperfrogDemoCUAmiga/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperfrogDemoCUAmiga.Slave" $whdloadargs
+ELSE
+  whdload "SuperfrogDemoCUAmiga.Slave"
+ENDIF

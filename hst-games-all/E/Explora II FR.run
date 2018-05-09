@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Explora2Fr/Explora2Fr.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Explora2Fr/"
+IF EXISTS ENV:whdloadargs
+  whdload "Explora2Fr.Slave" $whdloadargs
+ELSE
+  whdload "Explora2Fr.Slave"
+ENDIF

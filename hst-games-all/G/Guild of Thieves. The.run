@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GuildOfThieves/GuildOfThieves.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GuildOfThieves/"
+IF EXISTS ENV:whdloadargs
+  whdload "GuildOfThieves.Slave" $whdloadargs
+ELSE
+  whdload "GuildOfThieves.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TinySkweeks/TinySkweeks.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TinySkweeks/"
+IF EXISTS ENV:whdloadargs
+  whdload "TinySkweeks.Slave" $whdloadargs
+ELSE
+  whdload "TinySkweeks.Slave"
+ENDIF

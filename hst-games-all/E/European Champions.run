@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EuropeanChampionsOcean/EuropeanChampionsOcean.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EuropeanChampionsOcean/"
+IF EXISTS ENV:whdloadargs
+  whdload "EuropeanChampionsOcean.Slave" $whdloadargs
+ELSE
+  whdload "EuropeanChampionsOcean.Slave"
+ENDIF

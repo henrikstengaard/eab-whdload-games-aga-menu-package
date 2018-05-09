@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Swooper/Swooper.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Swooper/"
+IF EXISTS ENV:whdloadargs
+  whdload "Swooper.Slave" $whdloadargs
+ELSE
+  whdload "Swooper.Slave"
+ENDIF

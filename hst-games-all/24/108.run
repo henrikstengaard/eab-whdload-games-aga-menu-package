@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:W/WorldClassRugby95/"
-IF EXISTS ENV:whdloadargs
-  whdload "WorldClassRugby95.Slave" $whdloadargs
-ELSE
-  whdload "WorldClassRugby95.Slave"
-ENDIF

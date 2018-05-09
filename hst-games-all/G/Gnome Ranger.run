@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GnomeRanger/GnomeRanger.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GnomeRanger/"
+IF EXISTS ENV:whdloadargs
+  whdload "GnomeRanger.Slave" $whdloadargs
+ELSE
+  whdload "GnomeRanger.Slave"
+ENDIF

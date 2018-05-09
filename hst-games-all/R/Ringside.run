@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Ringside/Ringside.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Ringside/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ringside.Slave" $whdloadargs
+ELSE
+  whdload "Ringside.Slave"
+ENDIF

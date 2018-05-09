@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonStrike/DragonStrike.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonStrike/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonStrike.Slave" $whdloadargs
+ELSE
+  whdload "DragonStrike.Slave"
+ENDIF

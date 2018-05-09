@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BlackCauldron/BlackCauldron.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BlackCauldron/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlackCauldron.Slave" $whdloadargs
+ELSE
+  whdload "BlackCauldron.Slave"
+ENDIF

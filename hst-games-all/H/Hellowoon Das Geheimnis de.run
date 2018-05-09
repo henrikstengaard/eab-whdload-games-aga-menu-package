@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HellowoonDe/HellowoonDe.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HellowoonDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "HellowoonDe.Slave" $whdloadargs
+ELSE
+  whdload "HellowoonDe.Slave"
+ENDIF

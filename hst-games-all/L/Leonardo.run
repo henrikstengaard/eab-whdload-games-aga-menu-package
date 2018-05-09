@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LeonardoDOS/LeonardoDOS.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LeonardoDOS/"
+IF EXISTS ENV:whdloadargs
+  whdload "LeonardoDOS.Slave" $whdloadargs
+ELSE
+  whdload "LeonardoDOS.Slave"
+ENDIF

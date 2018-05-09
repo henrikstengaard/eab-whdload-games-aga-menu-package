@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OrbitalDestroyer/OrbitalDestroyer.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OrbitalDestroyer/"
+IF EXISTS ENV:whdloadargs
+  whdload "OrbitalDestroyer.Slave" $whdloadargs
+ELSE
+  whdload "OrbitalDestroyer.Slave"
+ENDIF

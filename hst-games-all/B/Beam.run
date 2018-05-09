@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Beam/Beam.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Beam/"
+IF EXISTS ENV:whdloadargs
+  whdload "Beam.Slave" $whdloadargs
+ELSE
+  whdload "Beam.Slave"
+ENDIF

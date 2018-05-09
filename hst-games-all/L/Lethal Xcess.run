@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LethalXcess/LethalXcess.slave
+
+; Run WHDLoad
+cd "A-Games:L/LethalXcess/"
+IF EXISTS ENV:whdloadargs
+  whdload "LethalXcess.slave" $whdloadargs
+ELSE
+  whdload "LethalXcess.slave"
+ENDIF

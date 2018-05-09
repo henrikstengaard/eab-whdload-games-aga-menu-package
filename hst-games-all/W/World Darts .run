@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WorldDartsArcadia/WorldDartsArcadia.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WorldDartsArcadia/"
+IF EXISTS ENV:whdloadargs
+  whdload "WorldDartsArcadia.Slave" $whdloadargs
+ELSE
+  whdload "WorldDartsArcadia.Slave"
+ENDIF

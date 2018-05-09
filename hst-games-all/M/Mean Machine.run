@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MeanMachine/MeanMachine.slave
+
+; Run WHDLoad
+cd "A-Games:M/MeanMachine/"
+IF EXISTS ENV:whdloadargs
+  whdload "MeanMachine.slave" $whdloadargs
+ELSE
+  whdload "MeanMachine.slave"
+ENDIF

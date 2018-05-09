@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GemX/GemX.slave
+
+; Run WHDLoad
+cd "A-Games:G/GemX/"
+IF EXISTS ENV:whdloadargs
+  whdload "GemX.slave" $whdloadargs
+ELSE
+  whdload "GemX.slave"
+ENDIF

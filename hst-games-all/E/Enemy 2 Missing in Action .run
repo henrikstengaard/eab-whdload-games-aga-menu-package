@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Enemy2MissingInActionDe/Enemy2MissingInActionDe.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Enemy2MissingInActionDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "Enemy2MissingInActionDe.Slave" $whdloadargs
+ELSE
+  whdload "Enemy2MissingInActionDe.Slave"
+ENDIF

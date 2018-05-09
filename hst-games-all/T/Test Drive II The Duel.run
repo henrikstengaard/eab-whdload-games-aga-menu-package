@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TestDrive2/TestDrive2.slave
+
+; Run WHDLoad
+cd "A-Games:T/TestDrive2/"
+IF EXISTS ENV:whdloadargs
+  whdload "TestDrive2.slave" $whdloadargs
+ELSE
+  whdload "TestDrive2.slave"
+ENDIF

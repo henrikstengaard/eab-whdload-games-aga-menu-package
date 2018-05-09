@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ArcticfoxNTSC/ArcticFoxNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:A/ArcticfoxNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "ArcticFoxNTSC.Slave" $whdloadargs
+ELSE
+  whdload "ArcticFoxNTSC.Slave"
+ENDIF

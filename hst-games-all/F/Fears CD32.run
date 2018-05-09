@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FearsCD32/FearsCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FearsCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "FearsCD32.Slave" $whdloadargs
+ELSE
+  whdload "FearsCD32.Slave"
+ENDIF

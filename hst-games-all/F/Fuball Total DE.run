@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FussballTotalDe/FussballTotalDe.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FussballTotalDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "FussballTotalDe.Slave" $whdloadargs
+ELSE
+  whdload "FussballTotalDe.Slave"
+ENDIF

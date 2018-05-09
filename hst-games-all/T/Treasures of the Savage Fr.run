@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TreasuresOfSavageFrontier/TreasuresOfSavageFrontier.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TreasuresOfSavageFrontier/"
+IF EXISTS ENV:whdloadargs
+  whdload "TreasuresOfSavageFrontier.Slave" $whdloadargs
+ELSE
+  whdload "TreasuresOfSavageFrontier.Slave"
+ENDIF

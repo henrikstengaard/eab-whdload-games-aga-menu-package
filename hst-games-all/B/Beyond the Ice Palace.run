@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BeyondTheIcePalace/BeyondTheIcePalace.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BeyondTheIcePalace/"
+IF EXISTS ENV:whdloadargs
+  whdload "BeyondTheIcePalace.Slave" $whdloadargs
+ELSE
+  whdload "BeyondTheIcePalace.Slave"
+ENDIF

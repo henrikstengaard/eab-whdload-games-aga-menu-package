@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StormlordNTSC/StormlordNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StormlordNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "StormlordNTSC.Slave" $whdloadargs
+ELSE
+  whdload "StormlordNTSC.Slave"
+ENDIF

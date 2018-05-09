@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/Skweek/"
-IF EXISTS ENV:whdloadargs
-  whdload "Skweek.Slave" $whdloadargs
-ELSE
-  whdload "Skweek.Slave"
-ENDIF

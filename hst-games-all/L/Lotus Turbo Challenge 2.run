@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Lotus2/Lotus2.Slave
+
+; Run WHDLoad
+cd "A-Games:L/Lotus2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Lotus2.Slave" $whdloadargs
+ELSE
+  whdload "Lotus2.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CyberAssault/CyberAssault.Slave
+
+; Run WHDLoad
+cd "A-Games:C/CyberAssault/"
+IF EXISTS ENV:whdloadargs
+  whdload "CyberAssault.Slave" $whdloadargs
+ELSE
+  whdload "CyberAssault.Slave"
+ENDIF

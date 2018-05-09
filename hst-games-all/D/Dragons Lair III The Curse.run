@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonsLair3/DragonsLair3.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonsLair3/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonsLair3.Slave" $whdloadargs
+ELSE
+  whdload "DragonsLair3.Slave"
+ENDIF

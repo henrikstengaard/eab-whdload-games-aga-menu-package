@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:C/ColonizationAGA/"
-IF EXISTS ENV:whdloadargs
-  whdload "ColonizationAGA.Slave" $whdloadargs
-ELSE
-  whdload "ColonizationAGA.Slave"
-ENDIF

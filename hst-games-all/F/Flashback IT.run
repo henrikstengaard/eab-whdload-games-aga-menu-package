@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlashbackIt/FlashbackIt.slave
+
+; Run WHDLoad
+cd "A-Games:F/FlashbackIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "FlashbackIt.slave" $whdloadargs
+ELSE
+  whdload "FlashbackIt.slave"
+ENDIF

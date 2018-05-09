@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GalaxyBlast/GalaxyBlast.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GalaxyBlast/"
+IF EXISTS ENV:whdloadargs
+  whdload "GalaxyBlast.Slave" $whdloadargs
+ELSE
+  whdload "GalaxyBlast.Slave"
+ENDIF

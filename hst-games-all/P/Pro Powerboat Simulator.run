@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ProPowerBoatSimulator/ProPowerBoatSimulator.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ProPowerBoatSimulator/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProPowerBoatSimulator.Slave" $whdloadargs
+ELSE
+  whdload "ProPowerBoatSimulator.Slave"
+ENDIF

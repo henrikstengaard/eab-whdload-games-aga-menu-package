@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NavySeals/NavySeals.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NavySeals/"
+IF EXISTS ENV:whdloadargs
+  whdload "NavySeals.Slave" $whdloadargs
+ELSE
+  whdload "NavySeals.Slave"
+ENDIF

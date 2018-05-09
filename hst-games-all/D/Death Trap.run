@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeathTrap/DeathTrap.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeathTrap/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeathTrap.Slave" $whdloadargs
+ELSE
+  whdload "DeathTrap.Slave"
+ENDIF

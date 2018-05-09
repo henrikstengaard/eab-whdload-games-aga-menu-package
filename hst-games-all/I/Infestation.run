@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/Infestation/Infestation.slave
+
+; Run WHDLoad
+cd "A-Games:I/Infestation/"
+IF EXISTS ENV:whdloadargs
+  whdload "Infestation.slave" $whdloadargs
+ELSE
+  whdload "Infestation.slave"
+ENDIF

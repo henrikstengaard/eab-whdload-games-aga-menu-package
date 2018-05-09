@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FastBreak/FastBreak.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FastBreak/"
+IF EXISTS ENV:whdloadargs
+  whdload "FastBreak.Slave" $whdloadargs
+ELSE
+  whdload "FastBreak.Slave"
+ENDIF

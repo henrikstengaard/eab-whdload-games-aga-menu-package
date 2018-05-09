@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SensibleGolf/SensibleGolf.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SensibleGolf/"
+IF EXISTS ENV:whdloadargs
+  whdload "SensibleGolf.Slave" $whdloadargs
+ELSE
+  whdload "SensibleGolf.Slave"
+ENDIF

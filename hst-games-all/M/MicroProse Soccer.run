@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MicroProseSoccer/MicroProseSoccer.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MicroProseSoccer/"
+IF EXISTS ENV:whdloadargs
+  whdload "MicroProseSoccer.Slave" $whdloadargs
+ELSE
+  whdload "MicroProseSoccer.Slave"
+ENDIF

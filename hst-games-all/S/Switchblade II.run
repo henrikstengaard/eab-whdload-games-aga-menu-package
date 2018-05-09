@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Switchblade2/Switchblade2.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Switchblade2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Switchblade2.Slave" $whdloadargs
+ELSE
+  whdload "Switchblade2.Slave"
+ENDIF

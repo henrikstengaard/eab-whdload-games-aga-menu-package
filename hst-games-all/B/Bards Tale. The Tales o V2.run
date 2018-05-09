@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BardsTaleNTSC/BardsTaleNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BardsTaleNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BardsTaleNTSC.Slave" $whdloadargs
+ELSE
+  whdload "BardsTaleNTSC.Slave"
+ENDIF

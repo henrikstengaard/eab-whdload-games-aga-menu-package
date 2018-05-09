@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MegaLoManiaDe/MegaLoManiaDe.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MegaLoManiaDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaLoManiaDe.Slave" $whdloadargs
+ELSE
+  whdload "MegaLoManiaDe.Slave"
+ENDIF

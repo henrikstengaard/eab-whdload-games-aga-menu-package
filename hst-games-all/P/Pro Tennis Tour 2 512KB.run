@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ProTennisTour2512KB/ProTennisTour2512KB.slave
+
+; Run WHDLoad
+cd "A-Games:P/ProTennisTour2512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProTennisTour2512KB.slave" $whdloadargs
+ELSE
+  whdload "ProTennisTour2512KB.slave"
+ENDIF

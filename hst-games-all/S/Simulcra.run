@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Simulcra/Simulcra.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Simulcra/"
+IF EXISTS ENV:whdloadargs
+  whdload "Simulcra.Slave" $whdloadargs
+ELSE
+  whdload "Simulcra.Slave"
+ENDIF

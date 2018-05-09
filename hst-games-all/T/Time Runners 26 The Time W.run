@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TimeRunners26/TimeRunners26.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TimeRunners26/"
+IF EXISTS ENV:whdloadargs
+  whdload "TimeRunners26.Slave" $whdloadargs
+ELSE
+  whdload "TimeRunners26.Slave"
+ENDIF

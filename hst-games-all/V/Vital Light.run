@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VitalLight/VitalLight.slave
+
+; Run WHDLoad
+cd "A-Games:V/VitalLight/"
+IF EXISTS ENV:whdloadargs
+  whdload "VitalLight.slave" $whdloadargs
+ELSE
+  whdload "VitalLight.slave"
+ENDIF

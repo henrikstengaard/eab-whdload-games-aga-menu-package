@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PipeDream/PipeDream.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PipeDream/"
+IF EXISTS ENV:whdloadargs
+  whdload "PipeDream.Slave" $whdloadargs
+ELSE
+  whdload "PipeDream.Slave"
+ENDIF

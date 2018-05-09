@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RoadWars/RoadWars.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RoadWars/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoadWars.Slave" $whdloadargs
+ELSE
+  whdload "RoadWars.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WingsOfDeath/WingsOfDeath.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WingsOfDeath/"
+IF EXISTS ENV:whdloadargs
+  whdload "WingsOfDeath.Slave" $whdloadargs
+ELSE
+  whdload "WingsOfDeath.Slave"
+ENDIF

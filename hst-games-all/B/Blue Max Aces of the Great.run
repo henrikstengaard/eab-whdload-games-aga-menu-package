@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BlueMax/BlueMax.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BlueMax/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlueMax.Slave" $whdloadargs
+ELSE
+  whdload "BlueMax.Slave"
+ENDIF

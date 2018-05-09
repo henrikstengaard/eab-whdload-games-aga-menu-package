@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BridesOfDracula/BridesOfDracula.slave
+
+; Run WHDLoad
+cd "A-Games:B/BridesOfDracula/"
+IF EXISTS ENV:whdloadargs
+  whdload "BridesOfDracula.slave" $whdloadargs
+ELSE
+  whdload "BridesOfDracula.slave"
+ENDIF

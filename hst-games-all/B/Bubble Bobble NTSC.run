@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BubbleBobbleNTSC/BubbleBobbleNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BubbleBobbleNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BubbleBobbleNTSC.Slave" $whdloadargs
+ELSE
+  whdload "BubbleBobbleNTSC.Slave"
+ENDIF

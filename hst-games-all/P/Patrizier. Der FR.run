@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PatricianFr/PatricianFr.slave
+
+; Run WHDLoad
+cd "A-Games:P/PatricianFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "PatricianFr.slave" $whdloadargs
+ELSE
+  whdload "PatricianFr.slave"
+ENDIF

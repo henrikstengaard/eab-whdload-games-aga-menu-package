@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HitchhikersGuideTTG/HitchhikersGuideTTG.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HitchhikersGuideTTG/"
+IF EXISTS ENV:whdloadargs
+  whdload "HitchhikersGuideTTG.Slave" $whdloadargs
+ELSE
+  whdload "HitchhikersGuideTTG.Slave"
+ENDIF

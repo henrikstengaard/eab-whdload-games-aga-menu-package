@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/SuperCauldron/"
-IF EXISTS ENV:whdloadargs
-  whdload "SuperCauldron.Slave" $whdloadargs
-ELSE
-  whdload "SuperCauldron.Slave"
-ENDIF

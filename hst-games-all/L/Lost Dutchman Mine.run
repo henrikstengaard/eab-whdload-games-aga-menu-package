@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LostDutchmanMine/LostDutchmanMine.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LostDutchmanMine/"
+IF EXISTS ENV:whdloadargs
+  whdload "LostDutchmanMine.Slave" $whdloadargs
+ELSE
+  whdload "LostDutchmanMine.Slave"
+ENDIF

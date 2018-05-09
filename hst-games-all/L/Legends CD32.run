@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegendsCD32/LegendsCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LegendsCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegendsCD32.Slave" $whdloadargs
+ELSE
+  whdload "LegendsCD32.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlipFlop/FlipFlop.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FlipFlop/"
+IF EXISTS ENV:whdloadargs
+  whdload "FlipFlop.Slave" $whdloadargs
+ELSE
+  whdload "FlipFlop.Slave"
+ENDIF

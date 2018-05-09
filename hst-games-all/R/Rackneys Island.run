@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RackneysIsland/RackneysIsland.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RackneysIsland/"
+IF EXISTS ENV:whdloadargs
+  whdload "RackneysIsland.Slave" $whdloadargs
+ELSE
+  whdload "RackneysIsland.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OperationNeptune/OperationNeptune.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OperationNeptune/"
+IF EXISTS ENV:whdloadargs
+  whdload "OperationNeptune.Slave" $whdloadargs
+ELSE
+  whdload "OperationNeptune.Slave"
+ENDIF

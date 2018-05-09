@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FallenAngel/FallenAngel.slave
+
+; Run WHDLoad
+cd "A-Games:F/FallenAngel/"
+IF EXISTS ENV:whdloadargs
+  whdload "FallenAngel.slave" $whdloadargs
+ELSE
+  whdload "FallenAngel.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MathWizard/MathWizard.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MathWizard/"
+IF EXISTS ENV:whdloadargs
+  whdload "MathWizard.Slave" $whdloadargs
+ELSE
+  whdload "MathWizard.Slave"
+ENDIF

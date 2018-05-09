@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EuropeanFootballChamp/EuropeanFootballChamp.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EuropeanFootballChamp/"
+IF EXISTS ENV:whdloadargs
+  whdload "EuropeanFootballChamp.Slave" $whdloadargs
+ELSE
+  whdload "EuropeanFootballChamp.Slave"
+ENDIF

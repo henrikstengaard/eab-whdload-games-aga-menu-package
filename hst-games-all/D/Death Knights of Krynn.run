@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeathKnightsOfKrynn/DeathKnightsOfKrynn.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeathKnightsOfKrynn/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeathKnightsOfKrynn.Slave" $whdloadargs
+ELSE
+  whdload "DeathKnightsOfKrynn.Slave"
+ENDIF

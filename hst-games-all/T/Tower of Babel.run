@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TowerOfBabel/TowerOfBabel.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TowerOfBabel/"
+IF EXISTS ENV:whdloadargs
+  whdload "TowerOfBabel.Slave" $whdloadargs
+ELSE
+  whdload "TowerOfBabel.Slave"
+ENDIF

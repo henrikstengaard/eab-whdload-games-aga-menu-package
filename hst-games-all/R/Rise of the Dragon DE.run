@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RiseOfTheDragonDe/RiseOfTheDragonDe.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RiseOfTheDragonDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "RiseOfTheDragonDe.Slave" $whdloadargs
+ELSE
+  whdload "RiseOfTheDragonDe.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HeadOverHeels/HeadOverHeels.slave
+
+; Run WHDLoad
+cd "A-Games:H/HeadOverHeels/"
+IF EXISTS ENV:whdloadargs
+  whdload "HeadOverHeels.slave" $whdloadargs
+ELSE
+  whdload "HeadOverHeels.slave"
+ENDIF

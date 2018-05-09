@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/SpaceQuest/"
-IF EXISTS ENV:whdloadargs
-  whdload "SpaceQuest.Slave" $whdloadargs
-ELSE
-  whdload "SpaceQuest.Slave"
-ENDIF

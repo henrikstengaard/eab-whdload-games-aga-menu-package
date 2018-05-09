@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlyFighter/highs
+
+; Run WHDLoad
+cd "A-Games:F/FlyFighter/"
+IF EXISTS ENV:whdloadargs
+  whdload "highs" $whdloadargs
+ELSE
+  whdload "highs"
+ENDIF

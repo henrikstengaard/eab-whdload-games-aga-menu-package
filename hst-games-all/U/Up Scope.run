@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/UpScope/UpScope.Slave
+
+; Run WHDLoad
+cd "A-Games:U/UpScope/"
+IF EXISTS ENV:whdloadargs
+  whdload "UpScope.Slave" $whdloadargs
+ELSE
+  whdload "UpScope.Slave"
+ENDIF

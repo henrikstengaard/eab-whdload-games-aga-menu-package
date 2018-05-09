@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Omega/Omega.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Omega/"
+IF EXISTS ENV:whdloadargs
+  whdload "Omega.Slave" $whdloadargs
+ELSE
+  whdload "Omega.Slave"
+ENDIF

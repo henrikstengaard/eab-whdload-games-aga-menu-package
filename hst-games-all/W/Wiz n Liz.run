@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WizNLiz/WizNLiz.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WizNLiz/"
+IF EXISTS ENV:whdloadargs
+  whdload "WizNLiz.Slave" $whdloadargs
+ELSE
+  whdload "WizNLiz.Slave"
+ENDIF

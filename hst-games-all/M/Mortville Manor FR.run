@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/ManoirDeMortvielleFr/ManoirDeMortvielleFr.Slave
+
+; Run WHDLoad
+cd "A-Games:M/ManoirDeMortvielleFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "ManoirDeMortvielleFr.Slave" $whdloadargs
+ELSE
+  whdload "ManoirDeMortvielleFr.Slave"
+ENDIF

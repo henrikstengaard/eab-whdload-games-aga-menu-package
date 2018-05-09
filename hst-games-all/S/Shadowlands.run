@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Shadowlands/Shadowlands.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Shadowlands/"
+IF EXISTS ENV:whdloadargs
+  whdload "Shadowlands.Slave" $whdloadargs
+ELSE
+  whdload "Shadowlands.Slave"
+ENDIF

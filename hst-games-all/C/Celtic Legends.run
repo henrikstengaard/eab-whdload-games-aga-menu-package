@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CelticLegends/CelticLegends.slave
+
+; Run WHDLoad
+cd "A-Games:C/CelticLegends/"
+IF EXISTS ENV:whdloadargs
+  whdload "CelticLegends.slave" $whdloadargs
+ELSE
+  whdload "CelticLegends.slave"
+ENDIF

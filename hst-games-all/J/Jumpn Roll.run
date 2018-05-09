@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/JumpNRoll/JumpNRoll.Slave
+
+; Run WHDLoad
+cd "A-Games:J/JumpNRoll/"
+IF EXISTS ENV:whdloadargs
+  whdload "JumpNRoll.Slave" $whdloadargs
+ELSE
+  whdload "JumpNRoll.Slave"
+ENDIF

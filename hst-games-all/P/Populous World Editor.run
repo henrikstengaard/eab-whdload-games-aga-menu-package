@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PopulousWorldEditor/PopulousWorldEditor.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PopulousWorldEditor/"
+IF EXISTS ENV:whdloadargs
+  whdload "PopulousWorldEditor.Slave" $whdloadargs
+ELSE
+  whdload "PopulousWorldEditor.Slave"
+ENDIF

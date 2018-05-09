@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FrankoCensoredPl/FrankoCensoredPl.slave
+
+; Run WHDLoad
+cd "A-Games:F/FrankoCensoredPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "FrankoCensoredPl.slave" $whdloadargs
+ELSE
+  whdload "FrankoCensoredPl.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TurboTraxArcane512KB/TurboTraxArcane512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TurboTraxArcane512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "TurboTraxArcane512KB.Slave" $whdloadargs
+ELSE
+  whdload "TurboTraxArcane512KB.Slave"
+ENDIF

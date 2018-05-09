@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ScoobyDoo&ScrappyDoo/ScoobyDoo&ScrappyDoo.slave
+
+; Run WHDLoad
+cd "A-Games:S/ScoobyDoo&ScrappyDoo/"
+IF EXISTS ENV:whdloadargs
+  whdload "ScoobyDoo&ScrappyDoo.slave" $whdloadargs
+ELSE
+  whdload "ScoobyDoo&ScrappyDoo.slave"
+ENDIF

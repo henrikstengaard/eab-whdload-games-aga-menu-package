@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/Neuronics/Neuronics.Slave
+
+; Run WHDLoad
+cd "A-Games:N/Neuronics/"
+IF EXISTS ENV:whdloadargs
+  whdload "Neuronics.Slave" $whdloadargs
+ELSE
+  whdload "Neuronics.Slave"
+ENDIF

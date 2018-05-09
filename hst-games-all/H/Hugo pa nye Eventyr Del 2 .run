@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Hugo2Fi/Hugo2Fi.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Hugo2Fi/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hugo2Fi.Slave" $whdloadargs
+ELSE
+  whdload "Hugo2Fi.Slave"
+ENDIF

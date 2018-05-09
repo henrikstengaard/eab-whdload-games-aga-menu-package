@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Striker/Striker.slave
+
+; Run WHDLoad
+cd "A-Games:S/Striker/"
+IF EXISTS ENV:whdloadargs
+  whdload "Striker.slave" $whdloadargs
+ELSE
+  whdload "Striker.slave"
+ENDIF

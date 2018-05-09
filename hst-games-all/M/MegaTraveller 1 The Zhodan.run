@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MegaTraveller1/MegaTraveller1.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MegaTraveller1/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaTraveller1.Slave" $whdloadargs
+ELSE
+  whdload "MegaTraveller1.Slave"
+ENDIF

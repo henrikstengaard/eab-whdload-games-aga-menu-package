@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RevengeOfDefender/RevengeOfDefender.slave
+
+; Run WHDLoad
+cd "A-Games:R/RevengeOfDefender/"
+IF EXISTS ENV:whdloadargs
+  whdload "RevengeOfDefender.slave" $whdloadargs
+ELSE
+  whdload "RevengeOfDefender.slave"
+ENDIF

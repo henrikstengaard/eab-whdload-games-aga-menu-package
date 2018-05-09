@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlightSimulator2/FlightSimulator2.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FlightSimulator2/"
+IF EXISTS ENV:whdloadargs
+  whdload "FlightSimulator2.Slave" $whdloadargs
+ELSE
+  whdload "FlightSimulator2.Slave"
+ENDIF

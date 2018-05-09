@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Entity/Intro.slave
+
+; Run WHDLoad
+cd "A-Games:E/Entity/"
+IF EXISTS ENV:whdloadargs
+  whdload "Intro.slave" $whdloadargs
+ELSE
+  whdload "Intro.slave"
+ENDIF

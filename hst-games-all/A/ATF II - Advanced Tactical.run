@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ATF2/ATF2.Slave
+
+; Run WHDLoad
+cd "A-Games:A/ATF2/"
+IF EXISTS ENV:whdloadargs
+  whdload "ATF2.Slave" $whdloadargs
+ELSE
+  whdload "ATF2.Slave"
+ENDIF

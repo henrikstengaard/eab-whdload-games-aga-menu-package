@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/ShadowDancer/"
-IF EXISTS ENV:whdloadargs
-  whdload "ShadowDancer.Slave" $whdloadargs
-ELSE
-  whdload "ShadowDancer.Slave"
-ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Borobodur/Borobodur.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Borobodur/"
+IF EXISTS ENV:whdloadargs
+  whdload "Borobodur.Slave" $whdloadargs
+ELSE
+  whdload "Borobodur.Slave"
+ENDIF

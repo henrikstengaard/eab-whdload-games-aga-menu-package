@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HighSeasTraderAGA/HighSeasTraderAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HighSeasTraderAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "HighSeasTraderAGA.Slave" $whdloadargs
+ELSE
+  whdload "HighSeasTraderAGA.Slave"
+ENDIF

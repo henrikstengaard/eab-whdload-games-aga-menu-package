@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Locomotion/Locomotion.Slave
+
+; Run WHDLoad
+cd "A-Games:L/Locomotion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Locomotion.Slave" $whdloadargs
+ELSE
+  whdload "Locomotion.Slave"
+ENDIF

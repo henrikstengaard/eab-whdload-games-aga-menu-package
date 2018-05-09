@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DefenseurCouronne2CD32Fr/DefenseurCouronne2CD32Fr.slave
+
+; Run WHDLoad
+cd "A-Games:D/DefenseurCouronne2CD32Fr/"
+IF EXISTS ENV:whdloadargs
+  whdload "DefenseurCouronne2CD32Fr.slave" $whdloadargs
+ELSE
+  whdload "DefenseurCouronne2CD32Fr.slave"
+ENDIF

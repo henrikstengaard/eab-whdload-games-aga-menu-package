@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BeneathAStlSkyIt/BeneathAStlSkyIt.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BeneathAStlSkyIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "BeneathAStlSkyIt.Slave" $whdloadargs
+ELSE
+  whdload "BeneathAStlSkyIt.Slave"
+ENDIF

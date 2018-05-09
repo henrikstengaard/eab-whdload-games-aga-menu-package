@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ParanoiaComplex/ParanoiaComplex.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ParanoiaComplex/"
+IF EXISTS ENV:whdloadargs
+  whdload "ParanoiaComplex.Slave" $whdloadargs
+ELSE
+  whdload "ParanoiaComplex.Slave"
+ENDIF

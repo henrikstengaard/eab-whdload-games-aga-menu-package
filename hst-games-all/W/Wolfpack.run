@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/Wolfpack/Wolfpack.Slave
+
+; Run WHDLoad
+cd "A-Games:W/Wolfpack/"
+IF EXISTS ENV:whdloadargs
+  whdload "Wolfpack.Slave" $whdloadargs
+ELSE
+  whdload "Wolfpack.Slave"
+ENDIF

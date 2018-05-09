@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HolidayMakerDe/HolidayMakerDe.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HolidayMakerDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "HolidayMakerDe.Slave" $whdloadargs
+ELSE
+  whdload "HolidayMakerDe.Slave"
+ENDIF

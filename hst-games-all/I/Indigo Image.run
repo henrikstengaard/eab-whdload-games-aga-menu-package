@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IndigoImage/IndigoImage.Slave
+
+; Run WHDLoad
+cd "A-Games:I/IndigoImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "IndigoImage.Slave" $whdloadargs
+ELSE
+  whdload "IndigoImage.Slave"
+ENDIF

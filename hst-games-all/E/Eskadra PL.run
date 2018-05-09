@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EskadraPl/EskadraPl.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EskadraPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "EskadraPl.Slave" $whdloadargs
+ELSE
+  whdload "EskadraPl.Slave"
+ENDIF

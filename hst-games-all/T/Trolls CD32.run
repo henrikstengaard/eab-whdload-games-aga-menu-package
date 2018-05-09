@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TrollsCD32/TrollsCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TrollsCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "TrollsCD32.Slave" $whdloadargs
+ELSE
+  whdload "TrollsCD32.Slave"
+ENDIF

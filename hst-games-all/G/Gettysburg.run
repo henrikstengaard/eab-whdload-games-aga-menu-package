@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Gettysburg/Gettysburg.Slave
+
+; Run WHDLoad
+cd "A-Games:G/Gettysburg/"
+IF EXISTS ENV:whdloadargs
+  whdload "Gettysburg.Slave" $whdloadargs
+ELSE
+  whdload "Gettysburg.Slave"
+ENDIF

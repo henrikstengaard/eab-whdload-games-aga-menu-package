@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CastleVania/CastleVania.slave
+
+; Run WHDLoad
+cd "A-Games:C/CastleVania/"
+IF EXISTS ENV:whdloadargs
+  whdload "CastleVania.slave" $whdloadargs
+ELSE
+  whdload "CastleVania.slave"
+ENDIF

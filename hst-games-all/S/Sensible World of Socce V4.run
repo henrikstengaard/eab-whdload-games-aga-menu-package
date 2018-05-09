@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SensibleWorldOfSoccerEuro/SensibleWorldOfSoccerEuro.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SensibleWorldOfSoccerEuro/"
+IF EXISTS ENV:whdloadargs
+  whdload "SensibleWorldOfSoccerEuro.Slave" $whdloadargs
+ELSE
+  whdload "SensibleWorldOfSoccerEuro.Slave"
+ENDIF

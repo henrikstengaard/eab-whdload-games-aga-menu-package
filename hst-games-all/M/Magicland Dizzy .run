@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MagiclandDizzy/MagiclandDizzy.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MagiclandDizzy/"
+IF EXISTS ENV:whdloadargs
+  whdload "MagiclandDizzy.Slave" $whdloadargs
+ELSE
+  whdload "MagiclandDizzy.Slave"
+ENDIF

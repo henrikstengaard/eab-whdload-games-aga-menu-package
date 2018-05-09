@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LettrixDe/LettrixDe.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LettrixDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "LettrixDe.Slave" $whdloadargs
+ELSE
+  whdload "LettrixDe.Slave"
+ENDIF

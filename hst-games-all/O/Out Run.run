@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OutRunSega/OutRunSega.slave
+
+; Run WHDLoad
+cd "A-Games:O/OutRunSega/"
+IF EXISTS ENV:whdloadargs
+  whdload "OutRunSega.slave" $whdloadargs
+ELSE
+  whdload "OutRunSega.slave"
+ENDIF

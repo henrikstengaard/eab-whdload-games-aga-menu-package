@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NightShift/NightShift.slave
+
+; Run WHDLoad
+cd "A-Games:N/NightShift/"
+IF EXISTS ENV:whdloadargs
+  whdload "NightShift.slave" $whdloadargs
+ELSE
+  whdload "NightShift.slave"
+ENDIF

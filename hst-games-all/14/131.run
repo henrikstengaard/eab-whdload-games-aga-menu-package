@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/MisjaHaroldaPl/"
-IF EXISTS ENV:whdloadargs
-  whdload "MisjaHaroldaPl.slave" $whdloadargs
-ELSE
-  whdload "MisjaHaroldaPl.slave"
-ENDIF

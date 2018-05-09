@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperSkweek512KB/SuperSkweek512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperSkweek512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSkweek512KB.Slave" $whdloadargs
+ELSE
+  whdload "SuperSkweek512KB.Slave"
+ENDIF

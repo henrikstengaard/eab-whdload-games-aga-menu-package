@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/ZakMcKracken/ZakMcKracken.slave
+
+; Run WHDLoad
+cd "A-Games:Z/ZakMcKracken/"
+IF EXISTS ENV:whdloadargs
+  whdload "ZakMcKracken.slave" $whdloadargs
+ELSE
+  whdload "ZakMcKracken.slave"
+ENDIF

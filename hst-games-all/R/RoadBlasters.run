@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RoadBlasters/RoadBlasters.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RoadBlasters/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoadBlasters.Slave" $whdloadargs
+ELSE
+  whdload "RoadBlasters.Slave"
+ENDIF

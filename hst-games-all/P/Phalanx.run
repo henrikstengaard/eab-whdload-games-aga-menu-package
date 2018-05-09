@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Phalanx/Phalanx.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Phalanx/"
+IF EXISTS ENV:whdloadargs
+  whdload "Phalanx.Slave" $whdloadargs
+ELSE
+  whdload "Phalanx.Slave"
+ENDIF

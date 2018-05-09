@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GhostChaser/GhostChaser.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GhostChaser/"
+IF EXISTS ENV:whdloadargs
+  whdload "GhostChaser.Slave" $whdloadargs
+ELSE
+  whdload "GhostChaser.Slave"
+ENDIF

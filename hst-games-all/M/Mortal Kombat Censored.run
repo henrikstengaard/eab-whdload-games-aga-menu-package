@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MortalKombatCensored/MortalKombatCensored.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MortalKombatCensored/"
+IF EXISTS ENV:whdloadargs
+  whdload "MortalKombatCensored.Slave" $whdloadargs
+ELSE
+  whdload "MortalKombatCensored.Slave"
+ENDIF

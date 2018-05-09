@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlaschbierNoIntro/FlaschbierNoIntro.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FlaschbierNoIntro/"
+IF EXISTS ENV:whdloadargs
+  whdload "FlaschbierNoIntro.Slave" $whdloadargs
+ELSE
+  whdload "FlaschbierNoIntro.Slave"
+ENDIF

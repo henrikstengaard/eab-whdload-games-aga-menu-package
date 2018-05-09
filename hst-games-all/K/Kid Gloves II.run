@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/KidGloves2/KidGloves2.Slave
+
+; Run WHDLoad
+cd "A-Games:K/KidGloves2/"
+IF EXISTS ENV:whdloadargs
+  whdload "KidGloves2.Slave" $whdloadargs
+ELSE
+  whdload "KidGloves2.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BundesligaManagerHattDe/BundesligaManagerHattDe.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BundesligaManagerHattDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "BundesligaManagerHattDe.Slave" $whdloadargs
+ELSE
+  whdload "BundesligaManagerHattDe.Slave"
+ENDIF

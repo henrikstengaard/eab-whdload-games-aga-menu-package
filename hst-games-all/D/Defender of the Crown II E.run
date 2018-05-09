@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32ES.slave
+
+; Run WHDLoad
+cd "A-Games:D/DefensorDeLaCorona2CD32Es/"
+IF EXISTS ENV:whdloadargs
+  whdload "DefensorDeLaCorona2CD32ES.slave" $whdloadargs
+ELSE
+  whdload "DefensorDeLaCorona2CD32ES.slave"
+ENDIF

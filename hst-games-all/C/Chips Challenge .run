@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ChipsChallengeUSGold/ChipsChallengeUSGold.Slave
+
+; Run WHDLoad
+cd "A-Games:C/ChipsChallengeUSGold/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChipsChallengeUSGold.Slave" $whdloadargs
+ELSE
+  whdload "ChipsChallengeUSGold.Slave"
+ENDIF

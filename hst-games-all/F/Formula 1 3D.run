@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FormulaOne3D/FormulaOne3D.slave
+
+; Run WHDLoad
+cd "A-Games:F/FormulaOne3D/"
+IF EXISTS ENV:whdloadargs
+  whdload "FormulaOne3D.slave" $whdloadargs
+ELSE
+  whdload "FormulaOne3D.slave"
+ENDIF

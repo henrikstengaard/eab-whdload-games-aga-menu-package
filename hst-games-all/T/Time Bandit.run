@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TimeBandit/TimeBandit.slave
+
+; Run WHDLoad
+cd "A-Games:T/TimeBandit/"
+IF EXISTS ENV:whdloadargs
+  whdload "TimeBandit.slave" $whdloadargs
+ELSE
+  whdload "TimeBandit.slave"
+ENDIF

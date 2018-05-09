@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TimeLock/TimeLock.slave
+
+; Run WHDLoad
+cd "A-Games:T/TimeLock/"
+IF EXISTS ENV:whdloadargs
+  whdload "TimeLock.slave" $whdloadargs
+ELSE
+  whdload "TimeLock.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperOffRoad/SuperOffRoad.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperOffRoad/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperOffRoad.Slave" $whdloadargs
+ELSE
+  whdload "SuperOffRoad.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StarTrek25thAnnivAGADe/StarTrek25thAnnivAGADe.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StarTrek25thAnnivAGADe/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarTrek25thAnnivAGADe.Slave" $whdloadargs
+ELSE
+  whdload "StarTrek25thAnnivAGADe.Slave"
+ENDIF

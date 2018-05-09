@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Loopz/Loopz.Slave
+
+; Run WHDLoad
+cd "A-Games:L/Loopz/"
+IF EXISTS ENV:whdloadargs
+  whdload "Loopz.Slave" $whdloadargs
+ELSE
+  whdload "Loopz.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FrightNight/FrightNight.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FrightNight/"
+IF EXISTS ENV:whdloadargs
+  whdload "FrightNight.Slave" $whdloadargs
+ELSE
+  whdload "FrightNight.Slave"
+ENDIF

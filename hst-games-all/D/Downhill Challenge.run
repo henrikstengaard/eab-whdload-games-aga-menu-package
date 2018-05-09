@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DownhillChallenge/DownhillChallenge.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DownhillChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "DownhillChallenge.Slave" $whdloadargs
+ELSE
+  whdload "DownhillChallenge.Slave"
+ENDIF

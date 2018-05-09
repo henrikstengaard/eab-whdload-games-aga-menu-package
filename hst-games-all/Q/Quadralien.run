@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Q/Quadralien/Quadralien.slave
+
+; Run WHDLoad
+cd "A-Games:Q/Quadralien/"
+IF EXISTS ENV:whdloadargs
+  whdload "Quadralien.slave" $whdloadargs
+ELSE
+  whdload "Quadralien.slave"
+ENDIF

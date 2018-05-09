@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/STUNRunner/STUNRunner.Slave
+
+; Run WHDLoad
+cd "A-Games:S/STUNRunner/"
+IF EXISTS ENV:whdloadargs
+  whdload "STUNRunner.Slave" $whdloadargs
+ELSE
+  whdload "STUNRunner.Slave"
+ENDIF

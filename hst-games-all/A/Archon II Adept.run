@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/Archon2/Archon2.slave
+
+; Run WHDLoad
+cd "A-Games:A/Archon2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Archon2.slave" $whdloadargs
+ELSE
+  whdload "Archon2.slave"
+ENDIF

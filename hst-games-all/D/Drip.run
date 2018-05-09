@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Drip/Drip.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Drip/"
+IF EXISTS ENV:whdloadargs
+  whdload "Drip.Slave" $whdloadargs
+ELSE
+  whdload "Drip.Slave"
+ENDIF

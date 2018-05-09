@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BlackGoldReLINE/BlackGoldReLINE.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BlackGoldReLINE/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlackGoldReLINE.Slave" $whdloadargs
+ELSE
+  whdload "BlackGoldReLINE.Slave"
+ENDIF

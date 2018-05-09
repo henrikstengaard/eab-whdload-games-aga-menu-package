@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/Nebulus/Nebulus.Slave
+
+; Run WHDLoad
+cd "A-Games:N/Nebulus/"
+IF EXISTS ENV:whdloadargs
+  whdload "Nebulus.Slave" $whdloadargs
+ELSE
+  whdload "Nebulus.Slave"
+ENDIF

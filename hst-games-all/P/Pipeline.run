@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PipelineNomad/PipelineNomad.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PipelineNomad/"
+IF EXISTS ENV:whdloadargs
+  whdload "PipelineNomad.Slave" $whdloadargs
+ELSE
+  whdload "PipelineNomad.Slave"
+ENDIF

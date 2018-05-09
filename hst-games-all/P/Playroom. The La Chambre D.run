@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PlayroomFr/PlayroomFr.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PlayroomFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlayroomFr.Slave" $whdloadargs
+ELSE
+  whdload "PlayroomFr.Slave"
+ENDIF

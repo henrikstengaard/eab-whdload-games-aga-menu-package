@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Epic/Epic.slave
+
+; Run WHDLoad
+cd "A-Games:E/Epic/"
+IF EXISTS ENV:whdloadargs
+  whdload "Epic.slave" $whdloadargs
+ELSE
+  whdload "Epic.slave"
+ENDIF

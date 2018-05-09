@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MiG29SovietFighter/MiG29SovietFighter.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MiG29SovietFighter/"
+IF EXISTS ENV:whdloadargs
+  whdload "MiG29SovietFighter.Slave" $whdloadargs
+ELSE
+  whdload "MiG29SovietFighter.Slave"
+ENDIF

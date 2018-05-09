@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EuropeanChampionship1992/EuropeanChampionship1992.slave
+
+; Run WHDLoad
+cd "A-Games:E/EuropeanChampionship1992/"
+IF EXISTS ENV:whdloadargs
+  whdload "EuropeanChampionship1992.slave" $whdloadargs
+ELSE
+  whdload "EuropeanChampionship1992.slave"
+ENDIF

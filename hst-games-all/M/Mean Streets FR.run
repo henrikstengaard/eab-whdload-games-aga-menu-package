@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MeanStreetsFr/MeanStreetsFr.slave
+
+; Run WHDLoad
+cd "A-Games:M/MeanStreetsFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "MeanStreetsFr.slave" $whdloadargs
+ELSE
+  whdload "MeanStreetsFr.slave"
+ENDIF

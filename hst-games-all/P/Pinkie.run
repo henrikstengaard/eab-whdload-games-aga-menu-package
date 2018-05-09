@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pinkie/Pinkie.slave
+
+; Run WHDLoad
+cd "A-Games:P/Pinkie/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pinkie.slave" $whdloadargs
+ELSE
+  whdload "Pinkie.slave"
+ENDIF

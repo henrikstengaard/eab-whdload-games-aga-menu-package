@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StarControl/StarControl.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StarControl/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarControl.Slave" $whdloadargs
+ELSE
+  whdload "StarControl.Slave"
+ENDIF

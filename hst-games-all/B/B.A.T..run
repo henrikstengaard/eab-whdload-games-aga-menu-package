@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BAT/BAT.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BAT/"
+IF EXISTS ENV:whdloadargs
+  whdload "BAT.Slave" $whdloadargs
+ELSE
+  whdload "BAT.Slave"
+ENDIF

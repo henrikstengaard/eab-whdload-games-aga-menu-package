@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ConquestsOfCamelot/ConquestsOfCamelot.Slave
+
+; Run WHDLoad
+cd "A-Games:C/ConquestsOfCamelot/"
+IF EXISTS ENV:whdloadargs
+  whdload "ConquestsOfCamelot.Slave" $whdloadargs
+ELSE
+  whdload "ConquestsOfCamelot.Slave"
+ENDIF

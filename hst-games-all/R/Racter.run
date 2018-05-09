@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Racter/Racter.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Racter/"
+IF EXISTS ENV:whdloadargs
+  whdload "Racter.Slave" $whdloadargs
+ELSE
+  whdload "Racter.Slave"
+ENDIF

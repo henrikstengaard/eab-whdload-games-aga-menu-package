@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Tangram/Tangram.slave
+
+; Run WHDLoad
+cd "A-Games:T/Tangram/"
+IF EXISTS ENV:whdloadargs
+  whdload "Tangram.slave" $whdloadargs
+ELSE
+  whdload "Tangram.slave"
+ENDIF

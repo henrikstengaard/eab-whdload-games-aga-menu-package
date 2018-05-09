@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ChaosEngine2/ChaosEngine2.slave
+
+; Run WHDLoad
+cd "A-Games:C/ChaosEngine2/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChaosEngine2.slave" $whdloadargs
+ELSE
+  whdload "ChaosEngine2.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MentalImage1/MentalImage1.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MentalImage1/"
+IF EXISTS ENV:whdloadargs
+  whdload "MentalImage1.Slave" $whdloadargs
+ELSE
+  whdload "MentalImage1.Slave"
+ENDIF

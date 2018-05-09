@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Centurion/Centurion.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Centurion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Centurion.Slave" $whdloadargs
+ELSE
+  whdload "Centurion.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FootballManagerWCEdDe/FootballManagerWCEdDe.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FootballManagerWCEdDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "FootballManagerWCEdDe.Slave" $whdloadargs
+ELSE
+  whdload "FootballManagerWCEdDe.Slave"
+ENDIF

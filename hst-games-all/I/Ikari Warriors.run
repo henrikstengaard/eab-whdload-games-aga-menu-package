@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IkariWarriors/IkariWarriors.Slave
+
+; Run WHDLoad
+cd "A-Games:I/IkariWarriors/"
+IF EXISTS ENV:whdloadargs
+  whdload "IkariWarriors.Slave" $whdloadargs
+ELSE
+  whdload "IkariWarriors.Slave"
+ENDIF

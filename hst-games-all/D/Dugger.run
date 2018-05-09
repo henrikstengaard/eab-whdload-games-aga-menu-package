@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Dugger/Dugger.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Dugger/"
+IF EXISTS ENV:whdloadargs
+  whdload "Dugger.Slave" $whdloadargs
+ELSE
+  whdload "Dugger.Slave"
+ENDIF

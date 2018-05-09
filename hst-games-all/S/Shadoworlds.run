@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Shadoworlds/Shadoworlds.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Shadoworlds/"
+IF EXISTS ENV:whdloadargs
+  whdload "Shadoworlds.Slave" $whdloadargs
+ELSE
+  whdload "Shadoworlds.Slave"
+ENDIF

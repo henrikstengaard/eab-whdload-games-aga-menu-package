@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:S/Skidmarks/"
-IF EXISTS ENV:whdloadargs
-  whdload "Skidmarks.slave" $whdloadargs
-ELSE
-  whdload "Skidmarks.slave"
-ENDIF

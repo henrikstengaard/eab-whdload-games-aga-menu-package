@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThunderBladeNTSC/ThunderBladeNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ThunderBladeNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThunderBladeNTSC.Slave" $whdloadargs
+ELSE
+  whdload "ThunderBladeNTSC.Slave"
+ENDIF

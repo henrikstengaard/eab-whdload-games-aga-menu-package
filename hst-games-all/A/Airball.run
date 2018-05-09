@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/Airball/Airball.slave
+
+; Run WHDLoad
+cd "A-Games:A/Airball/"
+IF EXISTS ENV:whdloadargs
+  whdload "Airball.slave" $whdloadargs
+ELSE
+  whdload "Airball.slave"
+ENDIF

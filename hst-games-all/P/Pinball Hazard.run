@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PinballHazard/PinballHazard.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PinballHazard/"
+IF EXISTS ENV:whdloadargs
+  whdload "PinballHazard.Slave" $whdloadargs
+ELSE
+  whdload "PinballHazard.Slave"
+ENDIF

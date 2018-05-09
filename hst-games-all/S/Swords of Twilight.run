@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SwordsOfTwilight/SwordsOfTwilight.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SwordsOfTwilight/"
+IF EXISTS ENV:whdloadargs
+  whdload "SwordsOfTwilight.Slave" $whdloadargs
+ELSE
+  whdload "SwordsOfTwilight.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeepSpace/DeepSpace.slave
+
+; Run WHDLoad
+cd "A-Games:D/DeepSpace/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeepSpace.slave" $whdloadargs
+ELSE
+  whdload "DeepSpace.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ScrollingWalls/ScrollingWalls.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ScrollingWalls/"
+IF EXISTS ENV:whdloadargs
+  whdload "ScrollingWalls.Slave" $whdloadargs
+ELSE
+  whdload "ScrollingWalls.Slave"
+ENDIF

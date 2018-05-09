@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DemonBlue/DemonBlue.slave
+
+; Run WHDLoad
+cd "A-Games:D/DemonBlue/"
+IF EXISTS ENV:whdloadargs
+  whdload "DemonBlue.slave" $whdloadargs
+ELSE
+  whdload "DemonBlue.slave"
+ENDIF

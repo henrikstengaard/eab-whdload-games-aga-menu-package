@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonflightDe/DragonflightDe.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonflightDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonflightDe.Slave" $whdloadargs
+ELSE
+  whdload "DragonflightDe.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SensibleWorldMoonSoccer/SensibleWorldMoonSoccer.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SensibleWorldMoonSoccer/"
+IF EXISTS ENV:whdloadargs
+  whdload "SensibleWorldMoonSoccer.Slave" $whdloadargs
+ELSE
+  whdload "SensibleWorldMoonSoccer.Slave"
+ENDIF

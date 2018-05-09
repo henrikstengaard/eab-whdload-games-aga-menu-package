@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VroomMultiPlayer/VroomMultiplayer.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VroomMultiPlayer/"
+IF EXISTS ENV:whdloadargs
+  whdload "VroomMultiplayer.Slave" $whdloadargs
+ELSE
+  whdload "VroomMultiplayer.Slave"
+ENDIF

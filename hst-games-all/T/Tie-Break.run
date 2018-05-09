@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TieBreak/TieBreak.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TieBreak/"
+IF EXISTS ENV:whdloadargs
+  whdload "TieBreak.Slave" $whdloadargs
+ELSE
+  whdload "TieBreak.Slave"
+ENDIF

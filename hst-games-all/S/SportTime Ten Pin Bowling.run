@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TenPinBowlingArcadia/TenPinBowlingArcadia.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TenPinBowlingArcadia/"
+IF EXISTS ENV:whdloadargs
+  whdload "TenPinBowlingArcadia.Slave" $whdloadargs
+ELSE
+  whdload "TenPinBowlingArcadia.Slave"
+ENDIF

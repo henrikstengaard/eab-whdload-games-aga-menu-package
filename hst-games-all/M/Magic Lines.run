@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MagicLines/MagicLines.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MagicLines/"
+IF EXISTS ENV:whdloadargs
+  whdload "MagicLines.Slave" $whdloadargs
+ELSE
+  whdload "MagicLines.Slave"
+ENDIF

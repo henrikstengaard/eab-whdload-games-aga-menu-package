@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Moonfall/Moonfall.slave
+
+; Run WHDLoad
+cd "A-Games:M/Moonfall/"
+IF EXISTS ENV:whdloadargs
+  whdload "Moonfall.slave" $whdloadargs
+ELSE
+  whdload "Moonfall.slave"
+ENDIF

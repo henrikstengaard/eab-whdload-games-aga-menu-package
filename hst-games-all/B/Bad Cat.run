@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BadCat/BadCat.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BadCat/"
+IF EXISTS ENV:whdloadargs
+  whdload "BadCat.Slave" $whdloadargs
+ELSE
+  whdload "BadCat.Slave"
+ENDIF

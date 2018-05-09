@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SevenGatesOfJambalaFiles/SevenGatesOfJambalaFiles.slave
+
+; Run WHDLoad
+cd "A-Games:S/SevenGatesOfJambalaFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "SevenGatesOfJambalaFiles.slave" $whdloadargs
+ELSE
+  whdload "SevenGatesOfJambalaFiles.slave"
+ENDIF

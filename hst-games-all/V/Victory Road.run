@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VictoryRoad/VictoryRoad.slave
+
+; Run WHDLoad
+cd "A-Games:V/VictoryRoad/"
+IF EXISTS ENV:whdloadargs
+  whdload "VictoryRoad.slave" $whdloadargs
+ELSE
+  whdload "VictoryRoad.slave"
+ENDIF

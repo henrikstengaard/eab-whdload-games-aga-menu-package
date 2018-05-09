@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BumpysArcadeFantasy/BumpysArcadeFantasy.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BumpysArcadeFantasy/"
+IF EXISTS ENV:whdloadargs
+  whdload "BumpysArcadeFantasy.Slave" $whdloadargs
+ELSE
+  whdload "BumpysArcadeFantasy.Slave"
+ENDIF

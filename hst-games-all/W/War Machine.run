@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WarMachine/WarMachine.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WarMachine/"
+IF EXISTS ENV:whdloadargs
+  whdload "WarMachine.Slave" $whdloadargs
+ELSE
+  whdload "WarMachine.Slave"
+ENDIF

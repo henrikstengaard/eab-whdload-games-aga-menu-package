@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DrakkhenImageFr/DrakkhenImageFr.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DrakkhenImageFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "DrakkhenImageFr.Slave" $whdloadargs
+ELSE
+  whdload "DrakkhenImageFr.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/KickOff&ExtraTime1Disk/KickOff&ExtraTime1Disk.Slave
+
+; Run WHDLoad
+cd "A-Games:K/KickOff&ExtraTime1Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "KickOff&ExtraTime1Disk.Slave" $whdloadargs
+ELSE
+  whdload "KickOff&ExtraTime1Disk.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DoubleDragon2/DoubleDragon2.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DoubleDragon2/"
+IF EXISTS ENV:whdloadargs
+  whdload "DoubleDragon2.Slave" $whdloadargs
+ELSE
+  whdload "DoubleDragon2.Slave"
+ENDIF

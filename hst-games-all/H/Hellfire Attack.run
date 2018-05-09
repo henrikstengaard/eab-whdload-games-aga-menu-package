@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HellfireAttack/HellfireAttack.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HellfireAttack/"
+IF EXISTS ENV:whdloadargs
+  whdload "HellfireAttack.Slave" $whdloadargs
+ELSE
+  whdload "HellfireAttack.Slave"
+ENDIF

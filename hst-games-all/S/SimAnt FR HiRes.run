@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SimAntHiResFr/SimAntHiresFr.slave
+
+; Run WHDLoad
+cd "A-Games:S/SimAntHiResFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "SimAntHiresFr.slave" $whdloadargs
+ELSE
+  whdload "SimAntHiresFr.slave"
+ENDIF

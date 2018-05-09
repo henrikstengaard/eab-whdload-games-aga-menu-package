@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TrivialPursuitFr/TrivialPursuitFr.slave
+
+; Run WHDLoad
+cd "A-Games:T/TrivialPursuitFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "TrivialPursuitFr.slave" $whdloadargs
+ELSE
+  whdload "TrivialPursuitFr.slave"
+ENDIF

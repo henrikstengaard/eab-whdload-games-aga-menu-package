@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SorceryPlus/SorceryPlus.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SorceryPlus/"
+IF EXISTS ENV:whdloadargs
+  whdload "SorceryPlus.Slave" $whdloadargs
+ELSE
+  whdload "SorceryPlus.Slave"
+ENDIF

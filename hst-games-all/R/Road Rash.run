@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RoadRash/RoadRash.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RoadRash/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoadRash.Slave" $whdloadargs
+ELSE
+  whdload "RoadRash.Slave"
+ENDIF

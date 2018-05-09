@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MikroMortalTennis/MikroMortalTennis.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MikroMortalTennis/"
+IF EXISTS ENV:whdloadargs
+  whdload "MikroMortalTennis.Slave" $whdloadargs
+ELSE
+  whdload "MikroMortalTennis.Slave"
+ENDIF

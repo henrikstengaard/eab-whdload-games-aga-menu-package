@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/Aquaventura/Aquaventura.Slave
+
+; Run WHDLoad
+cd "A-Games:A/Aquaventura/"
+IF EXISTS ENV:whdloadargs
+  whdload "Aquaventura.Slave" $whdloadargs
+ELSE
+  whdload "Aquaventura.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpaceMAXDe/SpaceMAXDe.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SpaceMAXDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpaceMAXDe.Slave" $whdloadargs
+ELSE
+  whdload "SpaceMAXDe.Slave"
+ENDIF

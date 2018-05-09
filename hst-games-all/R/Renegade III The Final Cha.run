@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Renegade3/Renegade3.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Renegade3/"
+IF EXISTS ENV:whdloadargs
+  whdload "Renegade3.Slave" $whdloadargs
+ELSE
+  whdload "Renegade3.Slave"
+ENDIF

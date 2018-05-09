@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SteelEmpire/SteelEmpire.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SteelEmpire/"
+IF EXISTS ENV:whdloadargs
+  whdload "SteelEmpire.Slave" $whdloadargs
+ELSE
+  whdload "SteelEmpire.Slave"
+ENDIF

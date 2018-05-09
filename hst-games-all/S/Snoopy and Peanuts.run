@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Snoopy&Peanuts/Snoopy&Peanuts.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Snoopy&Peanuts/"
+IF EXISTS ENV:whdloadargs
+  whdload "Snoopy&Peanuts.Slave" $whdloadargs
+ELSE
+  whdload "Snoopy&Peanuts.Slave"
+ENDIF

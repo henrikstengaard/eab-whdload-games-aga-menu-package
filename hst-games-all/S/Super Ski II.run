@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperSki2/SuperSki2.slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperSki2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSki2.slave" $whdloadargs
+ELSE
+  whdload "SuperSki2.slave"
+ENDIF

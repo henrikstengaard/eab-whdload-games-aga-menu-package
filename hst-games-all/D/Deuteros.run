@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Deuteros/Deuteros.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Deuteros/"
+IF EXISTS ENV:whdloadargs
+  whdload "Deuteros.Slave" $whdloadargs
+ELSE
+  whdload "Deuteros.Slave"
+ENDIF

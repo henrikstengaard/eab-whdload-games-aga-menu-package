@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:X/Xenex/Xenex.Slave
+
+; Run WHDLoad
+cd "A-Games:X/Xenex/"
+IF EXISTS ENV:whdloadargs
+  whdload "Xenex.Slave" $whdloadargs
+ELSE
+  whdload "Xenex.Slave"
+ENDIF

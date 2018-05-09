@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HotRubber/HotRubber.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HotRubber/"
+IF EXISTS ENV:whdloadargs
+  whdload "HotRubber.Slave" $whdloadargs
+ELSE
+  whdload "HotRubber.Slave"
+ENDIF

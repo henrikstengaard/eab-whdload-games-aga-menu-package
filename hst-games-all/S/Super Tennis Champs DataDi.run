@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuprTennisChmps&DataDisks/SuprTennisChmps&DataDisks.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuprTennisChmps&DataDisks/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuprTennisChmps&DataDisks.Slave" $whdloadargs
+ELSE
+  whdload "SuprTennisChmps&DataDisks.Slave"
+ENDIF

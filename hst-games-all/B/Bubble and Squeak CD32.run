@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BubbleAndSqueakCD32/BubbleAndSqueakCD32.slave
+
+; Run WHDLoad
+cd "A-Games:B/BubbleAndSqueakCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "BubbleAndSqueakCD32.slave" $whdloadargs
+ELSE
+  whdload "BubbleAndSqueakCD32.slave"
+ENDIF

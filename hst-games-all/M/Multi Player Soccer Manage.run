@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MultiPlayerSoccerManager/MultiPlayerSoccerManager.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MultiPlayerSoccerManager/"
+IF EXISTS ENV:whdloadargs
+  whdload "MultiPlayerSoccerManager.Slave" $whdloadargs
+ELSE
+  whdload "MultiPlayerSoccerManager.Slave"
+ENDIF

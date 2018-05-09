@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperObliteration/SuperObliteration.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperObliteration/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperObliteration.Slave" $whdloadargs
+ELSE
+  whdload "SuperObliteration.Slave"
+ENDIF

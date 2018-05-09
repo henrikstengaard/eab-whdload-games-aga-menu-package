@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NitroBoostChallenge/NitroBoostChallenge.slave
+
+; Run WHDLoad
+cd "A-Games:N/NitroBoostChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "NitroBoostChallenge.slave" $whdloadargs
+ELSE
+  whdload "NitroBoostChallenge.slave"
+ENDIF

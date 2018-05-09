@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Carver/Carver.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Carver/"
+IF EXISTS ENV:whdloadargs
+  whdload "Carver.Slave" $whdloadargs
+ELSE
+  whdload "Carver.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DaysOfThunder/DaysOfThunder.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DaysOfThunder/"
+IF EXISTS ENV:whdloadargs
+  whdload "DaysOfThunder.Slave" $whdloadargs
+ELSE
+  whdload "DaysOfThunder.Slave"
+ENDIF

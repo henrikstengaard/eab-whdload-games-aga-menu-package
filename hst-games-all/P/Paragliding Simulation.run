@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ParaglidingSimulation/ParaglidingSimulation.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ParaglidingSimulation/"
+IF EXISTS ENV:whdloadargs
+  whdload "ParaglidingSimulation.Slave" $whdloadargs
+ELSE
+  whdload "ParaglidingSimulation.Slave"
+ENDIF

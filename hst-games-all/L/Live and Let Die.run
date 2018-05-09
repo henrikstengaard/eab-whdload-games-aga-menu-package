@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LiveAndLetDie/LiveAndLetDie.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LiveAndLetDie/"
+IF EXISTS ENV:whdloadargs
+  whdload "LiveAndLetDie.Slave" $whdloadargs
+ELSE
+  whdload "LiveAndLetDie.Slave"
+ENDIF

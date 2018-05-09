@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeathbringerEmpire/DeathbringerEmpire.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeathbringerEmpire/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeathbringerEmpire.Slave" $whdloadargs
+ELSE
+  whdload "DeathbringerEmpire.Slave"
+ENDIF

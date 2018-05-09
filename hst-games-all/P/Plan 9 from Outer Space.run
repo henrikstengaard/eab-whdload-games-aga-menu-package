@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Plan9FromOuterSpace/Plan9FromOuterSpace.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Plan9FromOuterSpace/"
+IF EXISTS ENV:whdloadargs
+  whdload "Plan9FromOuterSpace.Slave" $whdloadargs
+ELSE
+  whdload "Plan9FromOuterSpace.Slave"
+ENDIF

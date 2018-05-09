@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/ReunionAGA/ReunionAGA.slave
+
+; Run WHDLoad
+cd "A-Games:R/ReunionAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "ReunionAGA.slave" $whdloadargs
+ELSE
+  whdload "ReunionAGA.slave"
+ENDIF

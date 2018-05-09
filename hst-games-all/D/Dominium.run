@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Dominium/Dominium.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Dominium/"
+IF EXISTS ENV:whdloadargs
+  whdload "Dominium.Slave" $whdloadargs
+ELSE
+  whdload "Dominium.Slave"
+ENDIF

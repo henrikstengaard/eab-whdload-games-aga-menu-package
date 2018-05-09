@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GreatCourts/GreatCourts.slave
+
+; Run WHDLoad
+cd "A-Games:G/GreatCourts/"
+IF EXISTS ENV:whdloadargs
+  whdload "GreatCourts.slave" $whdloadargs
+ELSE
+  whdload "GreatCourts.slave"
+ENDIF

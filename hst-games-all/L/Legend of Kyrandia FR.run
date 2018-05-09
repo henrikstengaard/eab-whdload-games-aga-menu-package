@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegendOfKyrandiaFr/LegendOfKyrandiaFr.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LegendOfKyrandiaFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegendOfKyrandiaFr.Slave" $whdloadargs
+ELSE
+  whdload "LegendOfKyrandiaFr.Slave"
+ENDIF

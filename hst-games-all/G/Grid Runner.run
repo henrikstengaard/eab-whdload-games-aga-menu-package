@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperGridRunner/SuperGridRunner.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperGridRunner/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperGridRunner.Slave" $whdloadargs
+ELSE
+  whdload "SuperGridRunner.Slave"
+ENDIF

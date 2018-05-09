@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GloomAGA/GloomAGA.slave
+
+; Run WHDLoad
+cd "A-Games:G/GloomAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "GloomAGA.slave" $whdloadargs
+ELSE
+  whdload "GloomAGA.slave"
+ENDIF

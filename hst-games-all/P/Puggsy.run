@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Puggsy/Puggsy.slave
+
+; Run WHDLoad
+cd "A-Games:P/Puggsy/"
+IF EXISTS ENV:whdloadargs
+  whdload "Puggsy.slave" $whdloadargs
+ELSE
+  whdload "Puggsy.slave"
+ENDIF

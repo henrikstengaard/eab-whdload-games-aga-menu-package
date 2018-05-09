@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WalkerCrunchedNoSpeech/WalkerCrunchedNoSpeech.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WalkerCrunchedNoSpeech/"
+IF EXISTS ENV:whdloadargs
+  whdload "WalkerCrunchedNoSpeech.Slave" $whdloadargs
+ELSE
+  whdload "WalkerCrunchedNoSpeech.Slave"
+ENDIF

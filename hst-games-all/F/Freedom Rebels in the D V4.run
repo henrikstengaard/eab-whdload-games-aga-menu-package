@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FreedomFr/FreedomFr.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FreedomFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "FreedomFr.Slave" $whdloadargs
+ELSE
+  whdload "FreedomFr.Slave"
+ENDIF

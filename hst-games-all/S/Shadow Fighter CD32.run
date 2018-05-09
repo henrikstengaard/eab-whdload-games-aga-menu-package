@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShadowFighterCD32/ShadowFighterCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShadowFighterCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShadowFighterCD32.Slave" $whdloadargs
+ELSE
+  whdload "ShadowFighterCD32.Slave"
+ENDIF

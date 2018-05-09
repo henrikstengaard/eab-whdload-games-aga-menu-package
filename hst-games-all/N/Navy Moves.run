@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NavyMoves/NavyMoves.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NavyMoves/"
+IF EXISTS ENV:whdloadargs
+  whdload "NavyMoves.Slave" $whdloadargs
+ELSE
+  whdload "NavyMoves.Slave"
+ENDIF

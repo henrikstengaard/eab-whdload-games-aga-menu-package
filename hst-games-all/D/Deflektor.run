@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Deflektor/Deflektor.slave
+
+; Run WHDLoad
+cd "A-Games:D/Deflektor/"
+IF EXISTS ENV:whdloadargs
+  whdload "Deflektor.slave" $whdloadargs
+ELSE
+  whdload "Deflektor.slave"
+ENDIF

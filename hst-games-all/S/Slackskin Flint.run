@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Slackskin&Flint/Slackskin&Flint.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Slackskin&Flint/"
+IF EXISTS ENV:whdloadargs
+  whdload "Slackskin&Flint.Slave" $whdloadargs
+ELSE
+  whdload "Slackskin&Flint.Slave"
+ENDIF

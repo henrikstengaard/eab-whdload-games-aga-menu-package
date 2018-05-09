@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AmigaKarate/AmigaKarate.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AmigaKarate/"
+IF EXISTS ENV:whdloadargs
+  whdload "AmigaKarate.Slave" $whdloadargs
+ELSE
+  whdload "AmigaKarate.Slave"
+ENDIF

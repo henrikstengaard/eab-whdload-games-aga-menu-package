@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/ElfMicroValue/ElfMicroValue.Slave
+
+; Run WHDLoad
+cd "A-Games:E/ElfMicroValue/"
+IF EXISTS ENV:whdloadargs
+  whdload "ElfMicroValue.Slave" $whdloadargs
+ELSE
+  whdload "ElfMicroValue.Slave"
+ENDIF

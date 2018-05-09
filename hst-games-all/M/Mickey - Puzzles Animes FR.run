@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MickeyPuzzlesAnimesFr/MickeyPuzzlesAnimesFr.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MickeyPuzzlesAnimesFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "MickeyPuzzlesAnimesFr.Slave" $whdloadargs
+ELSE
+  whdload "MickeyPuzzlesAnimesFr.Slave"
+ENDIF

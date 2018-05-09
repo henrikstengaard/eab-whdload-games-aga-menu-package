@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BodyBlowsGalacticAGA/BodyBlowsGalacticAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BodyBlowsGalacticAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "BodyBlowsGalacticAGA.Slave" $whdloadargs
+ELSE
+  whdload "BodyBlowsGalacticAGA.Slave"
+ENDIF

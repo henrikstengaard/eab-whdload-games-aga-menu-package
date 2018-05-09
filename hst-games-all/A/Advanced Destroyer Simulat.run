@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AdvancedDestroyerSim/AdvancedDestroyerSim.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AdvancedDestroyerSim/"
+IF EXISTS ENV:whdloadargs
+  whdload "AdvancedDestroyerSim.Slave" $whdloadargs
+ELSE
+  whdload "AdvancedDestroyerSim.Slave"
+ENDIF

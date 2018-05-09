@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GemStoneLegend/GemStoneLegend.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GemStoneLegend/"
+IF EXISTS ENV:whdloadargs
+  whdload "GemStoneLegend.Slave" $whdloadargs
+ELSE
+  whdload "GemStoneLegend.Slave"
+ENDIF

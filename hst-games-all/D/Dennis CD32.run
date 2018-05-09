@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DennisCD32/DennisCD32.slave
+
+; Run WHDLoad
+cd "A-Games:D/DennisCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "DennisCD32.slave" $whdloadargs
+ELSE
+  whdload "DennisCD32.slave"
+ENDIF

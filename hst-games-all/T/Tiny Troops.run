@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TinyTroops/TinyTroops.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TinyTroops/"
+IF EXISTS ENV:whdloadargs
+  whdload "TinyTroops.Slave" $whdloadargs
+ELSE
+  whdload "TinyTroops.Slave"
+ENDIF

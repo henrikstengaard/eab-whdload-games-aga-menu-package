@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Q/QuestForGlory2/QuestForGlory2.Slave
+
+; Run WHDLoad
+cd "A-Games:Q/QuestForGlory2/"
+IF EXISTS ENV:whdloadargs
+  whdload "QuestForGlory2.Slave" $whdloadargs
+ELSE
+  whdload "QuestForGlory2.Slave"
+ENDIF

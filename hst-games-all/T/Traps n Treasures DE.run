@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TrapsNTreasuresDe/TrapsNTreasuresDe.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TrapsNTreasuresDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "TrapsNTreasuresDe.Slave" $whdloadargs
+ELSE
+  whdload "TrapsNTreasuresDe.Slave"
+ENDIF

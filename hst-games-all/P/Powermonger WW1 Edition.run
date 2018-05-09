@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PowermongerWW1Edition/PowermongerWW1Edition.slave
+
+; Run WHDLoad
+cd "A-Games:P/PowermongerWW1Edition/"
+IF EXISTS ENV:whdloadargs
+  whdload "PowermongerWW1Edition.slave" $whdloadargs
+ELSE
+  whdload "PowermongerWW1Edition.slave"
+ENDIF

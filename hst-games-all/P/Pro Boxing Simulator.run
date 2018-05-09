@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ProBoxingSimulator/ProBoxingSimulator.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ProBoxingSimulator/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProBoxingSimulator.Slave" $whdloadargs
+ELSE
+  whdload "ProBoxingSimulator.Slave"
+ENDIF

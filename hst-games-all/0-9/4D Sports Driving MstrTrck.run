@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/4DSportsDriving&MstrTrcks/4DSportsDriving&MstrTrcks.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/4DSportsDriving&MstrTrcks/"
+IF EXISTS ENV:whdloadargs
+  whdload "4DSportsDriving&MstrTrcks.Slave" $whdloadargs
+ELSE
+  whdload "4DSportsDriving&MstrTrcks.Slave"
+ENDIF

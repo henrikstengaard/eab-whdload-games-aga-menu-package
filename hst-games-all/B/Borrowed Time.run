@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BorrowedTime/BorrowedTime.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BorrowedTime/"
+IF EXISTS ENV:whdloadargs
+  whdload "BorrowedTime.Slave" $whdloadargs
+ELSE
+  whdload "BorrowedTime.Slave"
+ENDIF

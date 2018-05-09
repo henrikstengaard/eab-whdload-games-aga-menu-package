@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VirocopAGA/VirocopAGA.slave
+
+; Run WHDLoad
+cd "A-Games:V/VirocopAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "VirocopAGA.slave" $whdloadargs
+ELSE
+  whdload "VirocopAGA.slave"
+ENDIF

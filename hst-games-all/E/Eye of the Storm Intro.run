@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EyeOfTheStorm/Intro.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EyeOfTheStorm/"
+IF EXISTS ENV:whdloadargs
+  whdload "Intro.Slave" $whdloadargs
+ELSE
+  whdload "Intro.Slave"
+ENDIF

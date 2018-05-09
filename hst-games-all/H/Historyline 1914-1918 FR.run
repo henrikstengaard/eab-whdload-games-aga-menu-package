@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HistorylineFr/HistoryLineFr.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HistorylineFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "HistoryLineFr.Slave" $whdloadargs
+ELSE
+  whdload "HistoryLineFr.Slave"
+ENDIF

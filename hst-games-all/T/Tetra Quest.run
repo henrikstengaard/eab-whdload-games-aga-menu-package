@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TetraQuest/TetraQuest.slave
+
+; Run WHDLoad
+cd "A-Games:T/TetraQuest/"
+IF EXISTS ENV:whdloadargs
+  whdload "TetraQuest.slave" $whdloadargs
+ELSE
+  whdload "TetraQuest.slave"
+ENDIF

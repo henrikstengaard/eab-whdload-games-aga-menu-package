@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/Ultima3/Ultima3.Slave
+
+; Run WHDLoad
+cd "A-Games:U/Ultima3/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ultima3.Slave" $whdloadargs
+ELSE
+  whdload "Ultima3.Slave"
+ENDIF

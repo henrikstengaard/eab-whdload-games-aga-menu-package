@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PierreIsOutToLunchAGA/PierreIsOutToLunchAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PierreIsOutToLunchAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "PierreIsOutToLunchAGA.Slave" $whdloadargs
+ELSE
+  whdload "PierreIsOutToLunchAGA.Slave"
+ENDIF

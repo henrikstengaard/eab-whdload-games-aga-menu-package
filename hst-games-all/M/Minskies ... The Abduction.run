@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Minskies/Minskies.slave
+
+; Run WHDLoad
+cd "A-Games:M/Minskies/"
+IF EXISTS ENV:whdloadargs
+  whdload "Minskies.slave" $whdloadargs
+ELSE
+  whdload "Minskies.slave"
+ENDIF

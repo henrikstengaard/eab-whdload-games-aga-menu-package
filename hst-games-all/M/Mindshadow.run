@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Mindshadow/Mindshadow.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Mindshadow/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mindshadow.Slave" $whdloadargs
+ELSE
+  whdload "Mindshadow.Slave"
+ENDIF

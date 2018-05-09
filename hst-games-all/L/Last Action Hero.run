@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LastActionHero/LastActionHero.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LastActionHero/"
+IF EXISTS ENV:whdloadargs
+  whdload "LastActionHero.Slave" $whdloadargs
+ELSE
+  whdload "LastActionHero.Slave"
+ENDIF

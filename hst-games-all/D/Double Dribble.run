@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DoubleDribble/DoubleDribble.slave
+
+; Run WHDLoad
+cd "A-Games:D/DoubleDribble/"
+IF EXISTS ENV:whdloadargs
+  whdload "DoubleDribble.slave" $whdloadargs
+ELSE
+  whdload "DoubleDribble.slave"
+ENDIF

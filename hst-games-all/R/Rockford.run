@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Rockford/Rockford.slave
+
+; Run WHDLoad
+cd "A-Games:R/Rockford/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rockford.slave" $whdloadargs
+ELSE
+  whdload "Rockford.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TarghanFast/TarghanFast.slave
+
+; Run WHDLoad
+cd "A-Games:T/TarghanFast/"
+IF EXISTS ENV:whdloadargs
+  whdload "TarghanFast.slave" $whdloadargs
+ELSE
+  whdload "TarghanFast.slave"
+ENDIF

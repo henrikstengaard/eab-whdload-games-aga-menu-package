@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Burntime/Burntime.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Burntime/"
+IF EXISTS ENV:whdloadargs
+  whdload "Burntime.Slave" $whdloadargs
+ELSE
+  whdload "Burntime.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AlienBreedTACD32/AlienBreedTACD32.slave
+
+; Run WHDLoad
+cd "A-Games:A/AlienBreedTACD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlienBreedTACD32.slave" $whdloadargs
+ELSE
+  whdload "AlienBreedTACD32.slave"
+ENDIF

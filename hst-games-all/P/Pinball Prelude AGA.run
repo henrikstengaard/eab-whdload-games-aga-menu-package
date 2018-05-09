@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PinballPreludeAGA/PinballPreludeAGA.slave
+
+; Run WHDLoad
+cd "A-Games:P/PinballPreludeAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "PinballPreludeAGA.slave" $whdloadargs
+ELSE
+  whdload "PinballPreludeAGA.slave"
+ENDIF

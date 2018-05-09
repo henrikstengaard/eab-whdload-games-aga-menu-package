@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/5thGear/5thGear.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/5thGear/"
+IF EXISTS ENV:whdloadargs
+  whdload "5thGear.Slave" $whdloadargs
+ELSE
+  whdload "5thGear.Slave"
+ENDIF

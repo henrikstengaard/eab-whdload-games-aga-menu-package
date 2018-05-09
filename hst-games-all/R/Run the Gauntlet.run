@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RunTheGauntlet/RunTheGauntlet.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RunTheGauntlet/"
+IF EXISTS ENV:whdloadargs
+  whdload "RunTheGauntlet.Slave" $whdloadargs
+ELSE
+  whdload "RunTheGauntlet.Slave"
+ENDIF

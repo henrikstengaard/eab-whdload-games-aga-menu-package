@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ToyottesFiles/ToyottesFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ToyottesFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "ToyottesFiles.Slave" $whdloadargs
+ELSE
+  whdload "ToyottesFiles.Slave"
+ENDIF

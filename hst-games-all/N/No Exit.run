@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NoExit/NoExit.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NoExit/"
+IF EXISTS ENV:whdloadargs
+  whdload "NoExit.Slave" $whdloadargs
+ELSE
+  whdload "NoExit.Slave"
+ENDIF

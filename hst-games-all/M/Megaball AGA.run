@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MegaBallAGA/MegaBallAGA.slave
+
+; Run WHDLoad
+cd "A-Games:M/MegaBallAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaBallAGA.slave" $whdloadargs
+ELSE
+  whdload "MegaBallAGA.slave"
+ENDIF

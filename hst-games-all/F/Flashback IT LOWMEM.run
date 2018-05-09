@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlashbackLowMemIt/FlashbackLowMemIt.slave
+
+; Run WHDLoad
+cd "A-Games:F/FlashbackLowMemIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "FlashbackLowMemIt.slave" $whdloadargs
+ELSE
+  whdload "FlashbackLowMemIt.slave"
+ENDIF

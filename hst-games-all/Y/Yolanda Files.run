@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Y/YolandaFiles/YolandaFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:Y/YolandaFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "YolandaFiles.Slave" $whdloadargs
+ELSE
+  whdload "YolandaFiles.Slave"
+ENDIF

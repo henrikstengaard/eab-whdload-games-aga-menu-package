@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Starblaze/Starblaze.slave
+
+; Run WHDLoad
+cd "A-Games:S/Starblaze/"
+IF EXISTS ENV:whdloadargs
+  whdload "Starblaze.slave" $whdloadargs
+ELSE
+  whdload "Starblaze.slave"
+ENDIF

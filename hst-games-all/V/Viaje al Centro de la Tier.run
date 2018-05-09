@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.old
+
+; Run WHDLoad
+cd "A-Games:V/ViajeAlCentroDeLaTierraEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "ViajeAlCentroDeLaTierraEs.old" $whdloadargs
+ELSE
+  whdload "ViajeAlCentroDeLaTierraEs.old"
+ENDIF

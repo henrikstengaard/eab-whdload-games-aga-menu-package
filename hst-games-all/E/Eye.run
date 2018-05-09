@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Eye/Eye.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Eye/"
+IF EXISTS ENV:whdloadargs
+  whdload "Eye.Slave" $whdloadargs
+ELSE
+  whdload "Eye.Slave"
+ENDIF

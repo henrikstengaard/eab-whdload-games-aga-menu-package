@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Firepower/Firepower.Slave
+
+; Run WHDLoad
+cd "A-Games:F/Firepower/"
+IF EXISTS ENV:whdloadargs
+  whdload "Firepower.Slave" $whdloadargs
+ELSE
+  whdload "Firepower.Slave"
+ENDIF

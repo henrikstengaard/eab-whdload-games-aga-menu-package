@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Colony/Colony.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Colony/"
+IF EXISTS ENV:whdloadargs
+  whdload "Colony.Slave" $whdloadargs
+ELSE
+  whdload "Colony.Slave"
+ENDIF

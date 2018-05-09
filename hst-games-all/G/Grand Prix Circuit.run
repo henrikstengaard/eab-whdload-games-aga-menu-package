@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GrandPrixCircuit/GrandPrixCircuit.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GrandPrixCircuit/"
+IF EXISTS ENV:whdloadargs
+  whdload "GrandPrixCircuit.Slave" $whdloadargs
+ELSE
+  whdload "GrandPrixCircuit.Slave"
+ENDIF

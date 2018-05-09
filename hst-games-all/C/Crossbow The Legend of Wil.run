@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CrossbowLegendWilliamTell/CrossbowLegendWilliamTell.Slave
+
+; Run WHDLoad
+cd "A-Games:C/CrossbowLegendWilliamTell/"
+IF EXISTS ENV:whdloadargs
+  whdload "CrossbowLegendWilliamTell.Slave" $whdloadargs
+ELSE
+  whdload "CrossbowLegendWilliamTell.Slave"
+ENDIF

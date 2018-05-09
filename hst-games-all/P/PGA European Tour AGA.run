@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PGAEuropeanTourAGA/PGAEuropeanTourAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PGAEuropeanTourAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "PGAEuropeanTourAGA.Slave" $whdloadargs
+ELSE
+  whdload "PGAEuropeanTourAGA.Slave"
+ENDIF

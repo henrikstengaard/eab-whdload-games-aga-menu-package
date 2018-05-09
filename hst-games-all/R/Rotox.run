@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Rotox/Rotox.slave
+
+; Run WHDLoad
+cd "A-Games:R/Rotox/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rotox.slave" $whdloadargs
+ELSE
+  whdload "Rotox.slave"
+ENDIF

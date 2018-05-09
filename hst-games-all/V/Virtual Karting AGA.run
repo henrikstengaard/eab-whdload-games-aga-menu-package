@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VirtualKartingAGA/VirtualKartingAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VirtualKartingAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "VirtualKartingAGA.Slave" $whdloadargs
+ELSE
+  whdload "VirtualKartingAGA.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThomasTheTankEngine2/ThomasTheTankEngine2.slave
+
+; Run WHDLoad
+cd "A-Games:T/ThomasTheTankEngine2/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThomasTheTankEngine2.slave" $whdloadargs
+ELSE
+  whdload "ThomasTheTankEngine2.slave"
+ENDIF

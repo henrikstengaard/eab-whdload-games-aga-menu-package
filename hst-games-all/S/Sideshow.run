@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SideShow/SideShow.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SideShow/"
+IF EXISTS ENV:whdloadargs
+  whdload "SideShow.Slave" $whdloadargs
+ELSE
+  whdload "SideShow.Slave"
+ENDIF

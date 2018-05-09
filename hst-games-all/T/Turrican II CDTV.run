@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Turrican2CDTV/Turrican2CDTV.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Turrican2CDTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "Turrican2CDTV.Slave" $whdloadargs
+ELSE
+  whdload "Turrican2CDTV.Slave"
+ENDIF

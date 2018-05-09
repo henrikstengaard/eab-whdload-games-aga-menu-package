@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AfterBurnerActivision/AfterBurnerActivision.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AfterBurnerActivision/"
+IF EXISTS ENV:whdloadargs
+  whdload "AfterBurnerActivision.Slave" $whdloadargs
+ELSE
+  whdload "AfterBurnerActivision.Slave"
+ENDIF

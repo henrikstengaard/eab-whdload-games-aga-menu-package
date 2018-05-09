@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShockWave/ShockWave.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShockWave/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShockWave.Slave" $whdloadargs
+ELSE
+  whdload "ShockWave.Slave"
+ENDIF

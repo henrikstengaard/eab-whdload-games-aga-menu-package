@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpindizzyWorlds/SpindizzyWorlds.slave
+
+; Run WHDLoad
+cd "A-Games:S/SpindizzyWorlds/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpindizzyWorlds.slave" $whdloadargs
+ELSE
+  whdload "SpindizzyWorlds.slave"
+ENDIF

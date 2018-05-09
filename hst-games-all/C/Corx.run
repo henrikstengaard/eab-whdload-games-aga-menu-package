@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Corx/Corx.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Corx/"
+IF EXISTS ENV:whdloadargs
+  whdload "Corx.Slave" $whdloadargs
+ELSE
+  whdload "Corx.Slave"
+ENDIF

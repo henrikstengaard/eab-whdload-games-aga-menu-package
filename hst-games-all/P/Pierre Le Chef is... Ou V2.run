@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PierreIsOutToLunchCD32/PierreIsOutToLunchCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PierreIsOutToLunchCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "PierreIsOutToLunchCD32.Slave" $whdloadargs
+ELSE
+  whdload "PierreIsOutToLunchCD32.Slave"
+ENDIF

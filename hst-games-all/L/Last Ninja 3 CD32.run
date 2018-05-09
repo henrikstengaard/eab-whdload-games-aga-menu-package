@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LastNinja3CD32/LastNinja3CD32.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LastNinja3CD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "LastNinja3CD32.Slave" $whdloadargs
+ELSE
+  whdload "LastNinja3CD32.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TownWithNoNameCDTV/TownWithNoNameCDTV.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TownWithNoNameCDTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "TownWithNoNameCDTV.Slave" $whdloadargs
+ELSE
+  whdload "TownWithNoNameCDTV.Slave"
+ENDIF

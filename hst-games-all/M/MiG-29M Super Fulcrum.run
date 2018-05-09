@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MiG29MSuperFulcrum/MiG29MSuperFulcrum.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MiG29MSuperFulcrum/"
+IF EXISTS ENV:whdloadargs
+  whdload "MiG29MSuperFulcrum.Slave" $whdloadargs
+ELSE
+  whdload "MiG29MSuperFulcrum.Slave"
+ENDIF

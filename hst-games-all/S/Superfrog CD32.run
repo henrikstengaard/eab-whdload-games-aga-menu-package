@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperfrogCD32/SuperfrogCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperfrogCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperfrogCD32.Slave" $whdloadargs
+ELSE
+  whdload "SuperfrogCD32.Slave"
+ENDIF

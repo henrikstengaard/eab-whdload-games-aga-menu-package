@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DinoWarsDe/DinoWarsDe.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DinoWarsDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "DinoWarsDe.Slave" $whdloadargs
+ELSE
+  whdload "DinoWarsDe.Slave"
+ENDIF

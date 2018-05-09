@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pango/Pango.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Pango/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pango.Slave" $whdloadargs
+ELSE
+  whdload "Pango.Slave"
+ENDIF

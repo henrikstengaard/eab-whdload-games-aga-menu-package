@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FlimbosQuest/FlimbosQuest.slave
+
+; Run WHDLoad
+cd "A-Games:F/FlimbosQuest/"
+IF EXISTS ENV:whdloadargs
+  whdload "FlimbosQuest.slave" $whdloadargs
+ELSE
+  whdload "FlimbosQuest.slave"
+ENDIF

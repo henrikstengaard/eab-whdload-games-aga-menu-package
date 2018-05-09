@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BAT2De/BAT2De.slave
+
+; Run WHDLoad
+cd "A-Games:B/BAT2De/"
+IF EXISTS ENV:whdloadargs
+  whdload "BAT2De.slave" $whdloadargs
+ELSE
+  whdload "BAT2De.slave"
+ENDIF

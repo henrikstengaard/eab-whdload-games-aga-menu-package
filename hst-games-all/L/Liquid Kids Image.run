@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LiquidKidsImage/LiquidKidsImage.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LiquidKidsImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "LiquidKidsImage.Slave" $whdloadargs
+ELSE
+  whdload "LiquidKidsImage.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HudsonHawk/HudsonHawk.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HudsonHawk/"
+IF EXISTS ENV:whdloadargs
+  whdload "HudsonHawk.Slave" $whdloadargs
+ELSE
+  whdload "HudsonHawk.Slave"
+ENDIF

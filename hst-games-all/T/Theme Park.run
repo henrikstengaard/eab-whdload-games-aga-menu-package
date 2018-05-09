@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThemePark/ThemePark.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ThemePark/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThemePark.Slave" $whdloadargs
+ELSE
+  whdload "ThemePark.Slave"
+ENDIF

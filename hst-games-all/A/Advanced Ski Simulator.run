@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AdvancedSkiSimulator/AdvancedSkiSimulator.slave
+
+; Run WHDLoad
+cd "A-Games:A/AdvancedSkiSimulator/"
+IF EXISTS ENV:whdloadargs
+  whdload "AdvancedSkiSimulator.slave" $whdloadargs
+ELSE
+  whdload "AdvancedSkiSimulator.slave"
+ENDIF

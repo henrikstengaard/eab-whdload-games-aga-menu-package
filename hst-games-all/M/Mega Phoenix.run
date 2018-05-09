@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MegaPhoenix/MegaPhoenix.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MegaPhoenix/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaPhoenix.Slave" $whdloadargs
+ELSE
+  whdload "MegaPhoenix.Slave"
+ENDIF

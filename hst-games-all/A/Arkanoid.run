@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/Arkanoid/Arkanoid.Slave
+
+; Run WHDLoad
+cd "A-Games:A/Arkanoid/"
+IF EXISTS ENV:whdloadargs
+  whdload "Arkanoid.Slave" $whdloadargs
+ELSE
+  whdload "Arkanoid.Slave"
+ENDIF

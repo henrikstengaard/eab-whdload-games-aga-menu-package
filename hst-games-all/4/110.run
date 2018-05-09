@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:C/ChuckRock2/"
-IF EXISTS ENV:whdloadargs
-  whdload "ChuckRock2.slave" $whdloadargs
-ELSE
-  whdload "ChuckRock2.slave"
-ENDIF

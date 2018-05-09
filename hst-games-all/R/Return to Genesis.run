@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/ReturnToGenesis/ReturnToGenesis.Slave
+
+; Run WHDLoad
+cd "A-Games:R/ReturnToGenesis/"
+IF EXISTS ENV:whdloadargs
+  whdload "ReturnToGenesis.Slave" $whdloadargs
+ELSE
+  whdload "ReturnToGenesis.Slave"
+ENDIF

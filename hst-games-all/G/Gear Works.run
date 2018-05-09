@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GearWorks/GearWorks.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GearWorks/"
+IF EXISTS ENV:whdloadargs
+  whdload "GearWorks.Slave" $whdloadargs
+ELSE
+  whdload "GearWorks.Slave"
+ENDIF

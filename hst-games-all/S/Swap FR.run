@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SwapFr/SwapFr.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SwapFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "SwapFr.Slave" $whdloadargs
+ELSE
+  whdload "SwapFr.Slave"
+ENDIF

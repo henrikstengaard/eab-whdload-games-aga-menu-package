@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Gauntlet3/Gauntlet3.slave
+
+; Run WHDLoad
+cd "A-Games:G/Gauntlet3/"
+IF EXISTS ENV:whdloadargs
+  whdload "Gauntlet3.slave" $whdloadargs
+ELSE
+  whdload "Gauntlet3.slave"
+ENDIF

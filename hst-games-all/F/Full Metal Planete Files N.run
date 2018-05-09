@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FullMetalPlaneteNTSCFiles/FullMetalPlaneteNTSCFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FullMetalPlaneteNTSCFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "FullMetalPlaneteNTSCFiles.Slave" $whdloadargs
+ELSE
+  whdload "FullMetalPlaneteNTSCFiles.Slave"
+ENDIF

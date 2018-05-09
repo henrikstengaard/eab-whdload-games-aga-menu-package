@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/APBImage/APBImage.slave
+
+; Run WHDLoad
+cd "A-Games:A/APBImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "APBImage.slave" $whdloadargs
+ELSE
+  whdload "APBImage.slave"
+ENDIF

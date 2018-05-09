@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TowerToppler/TowerToppler.slave
+
+; Run WHDLoad
+cd "A-Games:T/TowerToppler/"
+IF EXISTS ENV:whdloadargs
+  whdload "TowerToppler.slave" $whdloadargs
+ELSE
+  whdload "TowerToppler.slave"
+ENDIF

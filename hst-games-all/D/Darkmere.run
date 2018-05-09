@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Darkmere/Darkmere.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Darkmere/"
+IF EXISTS ENV:whdloadargs
+  whdload "Darkmere.Slave" $whdloadargs
+ELSE
+  whdload "Darkmere.Slave"
+ENDIF

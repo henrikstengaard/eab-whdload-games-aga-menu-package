@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:N/NorthAndSouthFiles/"
-IF EXISTS ENV:whdloadargs
-  whdload "NorthAndSouthFiles.slave" $whdloadargs
-ELSE
-  whdload "NorthAndSouthFiles.slave"
-ENDIF

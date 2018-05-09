@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AmericanTagTeamWrestling/AmericanTagTeamWrestling.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AmericanTagTeamWrestling/"
+IF EXISTS ENV:whdloadargs
+  whdload "AmericanTagTeamWrestling.Slave" $whdloadargs
+ELSE
+  whdload "AmericanTagTeamWrestling.Slave"
+ENDIF

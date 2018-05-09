@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GBAChampionshipBB/GBAChampionshipBB.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GBAChampionshipBB/"
+IF EXISTS ENV:whdloadargs
+  whdload "GBAChampionshipBB.Slave" $whdloadargs
+ELSE
+  whdload "GBAChampionshipBB.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Rushhour/Rushhour.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Rushhour/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rushhour.Slave" $whdloadargs
+ELSE
+  whdload "Rushhour.Slave"
+ENDIF

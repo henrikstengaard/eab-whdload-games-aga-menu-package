@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HoleInOne/HoleInOne.slave
+
+; Run WHDLoad
+cd "A-Games:H/HoleInOne/"
+IF EXISTS ENV:whdloadargs
+  whdload "HoleInOne.slave" $whdloadargs
+ELSE
+  whdload "HoleInOne.slave"
+ENDIF

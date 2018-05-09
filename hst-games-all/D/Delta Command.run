@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeltaCommandArcadia/DeltaCommandArcadia.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeltaCommandArcadia/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeltaCommandArcadia.Slave" $whdloadargs
+ELSE
+  whdload "DeltaCommandArcadia.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TintinOnTheMoonFiles/TintinOnTheMoonFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TintinOnTheMoonFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "TintinOnTheMoonFiles.Slave" $whdloadargs
+ELSE
+  whdload "TintinOnTheMoonFiles.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WindSurfWilly/WindSurfWilly.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WindSurfWilly/"
+IF EXISTS ENV:whdloadargs
+  whdload "WindSurfWilly.Slave" $whdloadargs
+ELSE
+  whdload "WindSurfWilly.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MoonBlasterFr/MoonBlasterFr.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MoonBlasterFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "MoonBlasterFr.Slave" $whdloadargs
+ELSE
+  whdload "MoonBlasterFr.Slave"
+ENDIF

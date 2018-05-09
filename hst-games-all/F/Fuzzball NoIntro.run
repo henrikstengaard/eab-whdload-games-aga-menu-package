@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FuzzballNoIntro/FuzzballNoIntro.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FuzzballNoIntro/"
+IF EXISTS ENV:whdloadargs
+  whdload "FuzzballNoIntro.Slave" $whdloadargs
+ELSE
+  whdload "FuzzballNoIntro.Slave"
+ENDIF

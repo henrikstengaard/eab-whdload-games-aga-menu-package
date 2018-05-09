@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BardsTale3/BardsTale3.slave
+
+; Run WHDLoad
+cd "A-Games:B/BardsTale3/"
+IF EXISTS ENV:whdloadargs
+  whdload "BardsTale3.slave" $whdloadargs
+ELSE
+  whdload "BardsTale3.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RoadWarsArcadia/RoadWarsArcadia.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RoadWarsArcadia/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoadWarsArcadia.Slave" $whdloadargs
+ELSE
+  whdload "RoadWarsArcadia.Slave"
+ENDIF

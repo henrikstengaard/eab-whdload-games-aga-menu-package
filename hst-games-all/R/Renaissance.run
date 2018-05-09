@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Renaissance/Renaissance.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Renaissance/"
+IF EXISTS ENV:whdloadargs
+  whdload "Renaissance.Slave" $whdloadargs
+ELSE
+  whdload "Renaissance.Slave"
+ENDIF

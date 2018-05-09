@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MaydaySquadHeroes/MaydaySquadHeroes.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MaydaySquadHeroes/"
+IF EXISTS ENV:whdloadargs
+  whdload "MaydaySquadHeroes.Slave" $whdloadargs
+ELSE
+  whdload "MaydaySquadHeroes.Slave"
+ENDIF

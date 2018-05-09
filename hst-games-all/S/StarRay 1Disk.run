@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StarRay1Disk/StarRay1Disk.slave
+
+; Run WHDLoad
+cd "A-Games:S/StarRay1Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarRay1Disk.slave" $whdloadargs
+ELSE
+  whdload "StarRay1Disk.slave"
+ENDIF

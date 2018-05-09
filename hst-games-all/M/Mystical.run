@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Mystical/Mystical.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Mystical/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mystical.Slave" $whdloadargs
+ELSE
+  whdload "Mystical.Slave"
+ENDIF

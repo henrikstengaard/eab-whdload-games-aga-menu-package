@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ToyotaCelicaGTRally/ToyotaCelicaGTRally.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ToyotaCelicaGTRally/"
+IF EXISTS ENV:whdloadargs
+  whdload "ToyotaCelicaGTRally.Slave" $whdloadargs
+ELSE
+  whdload "ToyotaCelicaGTRally.Slave"
+ENDIF

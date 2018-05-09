@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Heimdall2AGA/Heimdall2AGA.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Heimdall2AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "Heimdall2AGA.Slave" $whdloadargs
+ELSE
+  whdload "Heimdall2AGA.Slave"
+ENDIF

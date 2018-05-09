@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Enlightenment/Enlightenment.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Enlightenment/"
+IF EXISTS ENV:whdloadargs
+  whdload "Enlightenment.Slave" $whdloadargs
+ELSE
+  whdload "Enlightenment.Slave"
+ENDIF

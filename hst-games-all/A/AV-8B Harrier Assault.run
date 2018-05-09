@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AV8BHarrierAssault/AV8BHarrierAssault.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AV8BHarrierAssault/"
+IF EXISTS ENV:whdloadargs
+  whdload "AV8BHarrierAssault.Slave" $whdloadargs
+ELSE
+  whdload "AV8BHarrierAssault.Slave"
+ENDIF

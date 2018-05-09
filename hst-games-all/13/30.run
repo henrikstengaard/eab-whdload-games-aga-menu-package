@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:L/LeanderNTSC/"
-IF EXISTS ENV:whdloadargs
-  whdload "LeanderNTSC.slave" $whdloadargs
-ELSE
-  whdload "LeanderNTSC.slave"
-ENDIF

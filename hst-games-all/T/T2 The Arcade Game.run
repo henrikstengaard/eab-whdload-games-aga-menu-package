@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Terminator2Arcade/Terminator2Arcade.slave
+
+; Run WHDLoad
+cd "A-Games:T/Terminator2Arcade/"
+IF EXISTS ENV:whdloadargs
+  whdload "Terminator2Arcade.slave" $whdloadargs
+ELSE
+  whdload "Terminator2Arcade.slave"
+ENDIF

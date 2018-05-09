@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TopBanana/TopBanana.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TopBanana/"
+IF EXISTS ENV:whdloadargs
+  whdload "TopBanana.Slave" $whdloadargs
+ELSE
+  whdload "TopBanana.Slave"
+ENDIF

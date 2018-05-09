@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Ork/Ork.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Ork/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ork.Slave" $whdloadargs
+ELSE
+  whdload "Ork.Slave"
+ENDIF

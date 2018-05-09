@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PortsOfCall/PortsOfCall.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PortsOfCall/"
+IF EXISTS ENV:whdloadargs
+  whdload "PortsOfCall.Slave" $whdloadargs
+ELSE
+  whdload "PortsOfCall.Slave"
+ENDIF

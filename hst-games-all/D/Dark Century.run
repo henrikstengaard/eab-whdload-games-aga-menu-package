@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DarkCentury/DarkCentury.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DarkCentury/"
+IF EXISTS ENV:whdloadargs
+  whdload "DarkCentury.Slave" $whdloadargs
+ELSE
+  whdload "DarkCentury.Slave"
+ENDIF

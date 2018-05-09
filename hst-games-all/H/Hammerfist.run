@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Hammerfist/Hammerfist.slave
+
+; Run WHDLoad
+cd "A-Games:H/Hammerfist/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hammerfist.slave" $whdloadargs
+ELSE
+  whdload "Hammerfist.slave"
+ENDIF

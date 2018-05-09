@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GoldOfTheAztecs_Kernal1.1/GoldOfTheAztecs(v1.1).Slave
+
+; Run WHDLoad
+cd "A-Games:G/GoldOfTheAztecs_Kernal1.1/"
+IF EXISTS ENV:whdloadargs
+  whdload "GoldOfTheAztecs(v1.1).Slave" $whdloadargs
+ELSE
+  whdload "GoldOfTheAztecs(v1.1).Slave"
+ENDIF

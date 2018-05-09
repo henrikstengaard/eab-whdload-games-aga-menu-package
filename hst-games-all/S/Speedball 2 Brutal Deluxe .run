@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Speedball2CD32/Speedball2CD32.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Speedball2CD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "Speedball2CD32.Slave" $whdloadargs
+ELSE
+  whdload "Speedball2CD32.Slave"
+ENDIF

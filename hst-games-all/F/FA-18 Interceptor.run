@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FA18Interceptor/FA18Interceptor.slave
+
+; Run WHDLoad
+cd "A-Games:F/FA18Interceptor/"
+IF EXISTS ENV:whdloadargs
+  whdload "FA18Interceptor.slave" $whdloadargs
+ELSE
+  whdload "FA18Interceptor.slave"
+ENDIF

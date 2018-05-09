@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MythMagneticScrolls/MythMagneticScrolls.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MythMagneticScrolls/"
+IF EXISTS ENV:whdloadargs
+  whdload "MythMagneticScrolls.Slave" $whdloadargs
+ELSE
+  whdload "MythMagneticScrolls.Slave"
+ENDIF

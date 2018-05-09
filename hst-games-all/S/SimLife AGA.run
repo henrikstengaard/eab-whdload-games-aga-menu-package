@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SimLifeAGA/SimLifeAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SimLifeAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SimLifeAGA.Slave" $whdloadargs
+ELSE
+  whdload "SimLifeAGA.Slave"
+ENDIF

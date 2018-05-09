@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MrDoRunRunImage/MrDoRunRunImage.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MrDoRunRunImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "MrDoRunRunImage.Slave" $whdloadargs
+ELSE
+  whdload "MrDoRunRunImage.Slave"
+ENDIF

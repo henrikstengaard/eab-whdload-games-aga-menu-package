@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MickeysMemoryChallenge/MickeysMemoryChallenge.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MickeysMemoryChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "MickeysMemoryChallenge.Slave" $whdloadargs
+ELSE
+  whdload "MickeysMemoryChallenge.Slave"
+ENDIF

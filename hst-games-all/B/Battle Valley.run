@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BattleValley/BattleValley.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BattleValley/"
+IF EXISTS ENV:whdloadargs
+  whdload "BattleValley.Slave" $whdloadargs
+ELSE
+  whdload "BattleValley.Slave"
+ENDIF

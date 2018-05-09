@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LotusCD32/LotusCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LotusCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "LotusCD32.Slave" $whdloadargs
+ELSE
+  whdload "LotusCD32.Slave"
+ENDIF

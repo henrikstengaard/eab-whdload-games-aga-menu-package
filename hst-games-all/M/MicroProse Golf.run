@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MicroProseGolf/MicroProseGolf.slave
+
+; Run WHDLoad
+cd "A-Games:M/MicroProseGolf/"
+IF EXISTS ENV:whdloadargs
+  whdload "MicroProseGolf.slave" $whdloadargs
+ELSE
+  whdload "MicroProseGolf.slave"
+ENDIF

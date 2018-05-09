@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Midwinter2Fr/Midwinter2Fr.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Midwinter2Fr/"
+IF EXISTS ENV:whdloadargs
+  whdload "Midwinter2Fr.Slave" $whdloadargs
+ELSE
+  whdload "Midwinter2Fr.Slave"
+ENDIF

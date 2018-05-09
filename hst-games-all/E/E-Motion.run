@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EMotion/EMotion.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EMotion/"
+IF EXISTS ENV:whdloadargs
+  whdload "EMotion.Slave" $whdloadargs
+ELSE
+  whdload "EMotion.Slave"
+ENDIF

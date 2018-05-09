@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AlienBash/AlienBash.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AlienBash/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlienBash.Slave" $whdloadargs
+ELSE
+  whdload "AlienBash.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Paradroid90512KB/Paradroid90512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Paradroid90512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "Paradroid90512KB.Slave" $whdloadargs
+ELSE
+  whdload "Paradroid90512KB.Slave"
+ENDIF

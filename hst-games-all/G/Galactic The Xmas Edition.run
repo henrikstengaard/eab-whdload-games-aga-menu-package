@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GalacticTheXmasEdition1MB/GalacticTheXmasEdition1MB.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GalacticTheXmasEdition1MB/"
+IF EXISTS ENV:whdloadargs
+  whdload "GalacticTheXmasEdition1MB.Slave" $whdloadargs
+ELSE
+  whdload "GalacticTheXmasEdition1MB.Slave"
+ENDIF

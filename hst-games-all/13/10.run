@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:L/LabyrintheDOrthophusFr/"
-IF EXISTS ENV:whdloadargs
-  whdload "LabyrintheDOrthophusFr.Slave" $whdloadargs
-ELSE
-  whdload "LabyrintheDOrthophusFr.Slave"
-ENDIF

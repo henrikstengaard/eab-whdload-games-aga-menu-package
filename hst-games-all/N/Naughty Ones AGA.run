@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NaughtyOnesAGA/NaughtyOnesAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NaughtyOnesAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "NaughtyOnesAGA.Slave" $whdloadargs
+ELSE
+  whdload "NaughtyOnesAGA.Slave"
+ENDIF

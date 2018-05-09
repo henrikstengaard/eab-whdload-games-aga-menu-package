@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DemonsTombTheAwakening/DemonsTombTheAwakening.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DemonsTombTheAwakening/"
+IF EXISTS ENV:whdloadargs
+  whdload "DemonsTombTheAwakening.Slave" $whdloadargs
+ELSE
+  whdload "DemonsTombTheAwakening.Slave"
+ENDIF

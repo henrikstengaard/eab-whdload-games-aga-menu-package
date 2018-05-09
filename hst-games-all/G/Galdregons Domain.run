@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GaldregonsDomain/GaldregonsDomain.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GaldregonsDomain/"
+IF EXISTS ENV:whdloadargs
+  whdload "GaldregonsDomain.Slave" $whdloadargs
+ELSE
+  whdload "GaldregonsDomain.Slave"
+ENDIF

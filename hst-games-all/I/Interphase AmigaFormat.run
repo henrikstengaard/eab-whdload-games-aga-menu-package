@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/InterphaseAmigaFormat/InterphaseAmigaFormat.slave
+
+; Run WHDLoad
+cd "A-Games:I/InterphaseAmigaFormat/"
+IF EXISTS ENV:whdloadargs
+  whdload "InterphaseAmigaFormat.slave" $whdloadargs
+ELSE
+  whdload "InterphaseAmigaFormat.slave"
+ENDIF

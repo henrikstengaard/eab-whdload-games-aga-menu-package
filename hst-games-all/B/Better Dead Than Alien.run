@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BetterDeadThanAlien/BetterDeadThanAlien.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BetterDeadThanAlien/"
+IF EXISTS ENV:whdloadargs
+  whdload "BetterDeadThanAlien.Slave" $whdloadargs
+ELSE
+  whdload "BetterDeadThanAlien.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/UntouchablesSE/UntouchablesSE.Slave
+
+; Run WHDLoad
+cd "A-Games:U/UntouchablesSE/"
+IF EXISTS ENV:whdloadargs
+  whdload "UntouchablesSE.Slave" $whdloadargs
+ELSE
+  whdload "UntouchablesSE.Slave"
+ENDIF

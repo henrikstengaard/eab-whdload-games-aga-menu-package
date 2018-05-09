@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DuneEs/DuneEs.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DuneEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "DuneEs.Slave" $whdloadargs
+ELSE
+  whdload "DuneEs.Slave"
+ENDIF

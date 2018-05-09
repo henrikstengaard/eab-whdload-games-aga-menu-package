@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PuttySquadDemoAGA/PuttySquadDemoAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PuttySquadDemoAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "PuttySquadDemoAGA.Slave" $whdloadargs
+ELSE
+  whdload "PuttySquadDemoAGA.Slave"
+ENDIF

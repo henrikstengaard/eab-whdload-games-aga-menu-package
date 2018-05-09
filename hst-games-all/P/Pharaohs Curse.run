@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PharaohsCurse/PharaohsCurse.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PharaohsCurse/"
+IF EXISTS ENV:whdloadargs
+  whdload "PharaohsCurse.Slave" $whdloadargs
+ELSE
+  whdload "PharaohsCurse.Slave"
+ENDIF

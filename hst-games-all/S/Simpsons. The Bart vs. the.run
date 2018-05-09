@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BartVsSpaceMutants1Disk/BartVsSpaceMutants1Disk.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BartVsSpaceMutants1Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "BartVsSpaceMutants1Disk.Slave" $whdloadargs
+ELSE
+  whdload "BartVsSpaceMutants1Disk.Slave"
+ENDIF

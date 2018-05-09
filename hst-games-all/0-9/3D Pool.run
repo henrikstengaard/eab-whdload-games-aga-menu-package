@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/3DPool/3DPool.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/3DPool/"
+IF EXISTS ENV:whdloadargs
+  whdload "3DPool.Slave" $whdloadargs
+ELSE
+  whdload "3DPool.Slave"
+ENDIF

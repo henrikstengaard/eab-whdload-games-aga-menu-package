@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Paladin2/Paladin2.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Paladin2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Paladin2.Slave" $whdloadargs
+ELSE
+  whdload "Paladin2.Slave"
+ENDIF

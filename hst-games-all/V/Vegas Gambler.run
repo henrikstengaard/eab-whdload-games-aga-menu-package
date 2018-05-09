@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VegasGambler/VegasGambler.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VegasGambler/"
+IF EXISTS ENV:whdloadargs
+  whdload "VegasGambler.Slave" $whdloadargs
+ELSE
+  whdload "VegasGambler.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RobinsonsRequiem/RobinsonsRequiem.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RobinsonsRequiem/"
+IF EXISTS ENV:whdloadargs
+  whdload "RobinsonsRequiem.Slave" $whdloadargs
+ELSE
+  whdload "RobinsonsRequiem.Slave"
+ENDIF

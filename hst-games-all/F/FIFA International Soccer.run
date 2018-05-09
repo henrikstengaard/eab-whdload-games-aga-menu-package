@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FIFAInternationalSoccer/FIFAInternationalSoccer.slave
+
+; Run WHDLoad
+cd "A-Games:F/FIFAInternationalSoccer/"
+IF EXISTS ENV:whdloadargs
+  whdload "FIFAInternationalSoccer.slave" $whdloadargs
+ELSE
+  whdload "FIFAInternationalSoccer.slave"
+ENDIF

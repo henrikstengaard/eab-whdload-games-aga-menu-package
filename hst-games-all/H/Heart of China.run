@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HeartOfChina/HeartOfChina.slave
+
+; Run WHDLoad
+cd "A-Games:H/HeartOfChina/"
+IF EXISTS ENV:whdloadargs
+  whdload "HeartOfChina.slave" $whdloadargs
+ELSE
+  whdload "HeartOfChina.slave"
+ENDIF

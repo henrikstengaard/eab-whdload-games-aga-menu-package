@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShadowSorcererDeFrIt/ShadowSorcererDeFrIt.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShadowSorcererDeFrIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShadowSorcererDeFrIt.Slave" $whdloadargs
+ELSE
+  whdload "ShadowSorcererDeFrIt.Slave"
+ENDIF

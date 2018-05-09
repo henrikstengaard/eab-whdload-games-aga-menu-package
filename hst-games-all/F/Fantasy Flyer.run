@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FantasyFlyer/FantasyFlyer.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FantasyFlyer/"
+IF EXISTS ENV:whdloadargs
+  whdload "FantasyFlyer.Slave" $whdloadargs
+ELSE
+  whdload "FantasyFlyer.Slave"
+ENDIF

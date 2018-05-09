@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Toobin/Toobin.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Toobin/"
+IF EXISTS ENV:whdloadargs
+  whdload "Toobin.Slave" $whdloadargs
+ELSE
+  whdload "Toobin.Slave"
+ENDIF

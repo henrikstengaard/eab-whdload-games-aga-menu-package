@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/UnderPressure/UnderPressure.Slave
+
+; Run WHDLoad
+cd "A-Games:U/UnderPressure/"
+IF EXISTS ENV:whdloadargs
+  whdload "UnderPressure.Slave" $whdloadargs
+ELSE
+  whdload "UnderPressure.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Capone/Capone.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Capone/"
+IF EXISTS ENV:whdloadargs
+  whdload "Capone.Slave" $whdloadargs
+ELSE
+  whdload "Capone.Slave"
+ENDIF

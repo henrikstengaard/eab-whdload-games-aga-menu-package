@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:R/ReunionAGA/"
-IF EXISTS ENV:whdloadargs
-  whdload "ReunionAGA.slave" $whdloadargs
-ELSE
-  whdload "ReunionAGA.slave"
-ENDIF

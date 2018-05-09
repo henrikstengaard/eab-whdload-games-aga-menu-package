@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Enforcer/Enforcer.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Enforcer/"
+IF EXISTS ENV:whdloadargs
+  whdload "Enforcer.Slave" $whdloadargs
+ELSE
+  whdload "Enforcer.Slave"
+ENDIF

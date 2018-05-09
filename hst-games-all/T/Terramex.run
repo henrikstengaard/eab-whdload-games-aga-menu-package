@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Terramex/Terramex.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Terramex/"
+IF EXISTS ENV:whdloadargs
+  whdload "Terramex.Slave" $whdloadargs
+ELSE
+  whdload "Terramex.Slave"
+ENDIF

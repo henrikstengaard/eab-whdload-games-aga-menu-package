@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BallRaider/BallRaider.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BallRaider/"
+IF EXISTS ENV:whdloadargs
+  whdload "BallRaider.Slave" $whdloadargs
+ELSE
+  whdload "BallRaider.Slave"
+ENDIF

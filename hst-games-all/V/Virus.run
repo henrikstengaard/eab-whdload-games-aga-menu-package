@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/Virus/Virus.slave
+
+; Run WHDLoad
+cd "A-Games:V/Virus/"
+IF EXISTS ENV:whdloadargs
+  whdload "Virus.slave" $whdloadargs
+ELSE
+  whdload "Virus.slave"
+ENDIF

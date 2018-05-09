@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/Vyrus/Vyrus.Slave
+
+; Run WHDLoad
+cd "A-Games:V/Vyrus/"
+IF EXISTS ENV:whdloadargs
+  whdload "Vyrus.Slave" $whdloadargs
+ELSE
+  whdload "Vyrus.Slave"
+ENDIF

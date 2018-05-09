@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Microbes/Microbes.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Microbes/"
+IF EXISTS ENV:whdloadargs
+  whdload "Microbes.Slave" $whdloadargs
+ELSE
+  whdload "Microbes.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BetterMaths/BetterMaths.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BetterMaths/"
+IF EXISTS ENV:whdloadargs
+  whdload "BetterMaths.Slave" $whdloadargs
+ELSE
+  whdload "BetterMaths.Slave"
+ENDIF

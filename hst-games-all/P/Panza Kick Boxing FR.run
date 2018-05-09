@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PanzaKickBoxingFr/PanzaKickBoxingFr.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PanzaKickBoxingFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "PanzaKickBoxingFr.Slave" $whdloadargs
+ELSE
+  whdload "PanzaKickBoxingFr.Slave"
+ENDIF

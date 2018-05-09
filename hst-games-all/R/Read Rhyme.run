@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Read&Rhyme/Read&Rhyme.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Read&Rhyme/"
+IF EXISTS ENV:whdloadargs
+  whdload "Read&Rhyme.Slave" $whdloadargs
+ELSE
+  whdload "Read&Rhyme.Slave"
+ENDIF

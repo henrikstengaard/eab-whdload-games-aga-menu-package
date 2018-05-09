@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Sliders/Sliders.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Sliders/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sliders.Slave" $whdloadargs
+ELSE
+  whdload "Sliders.Slave"
+ENDIF

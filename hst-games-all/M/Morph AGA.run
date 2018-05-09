@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MorphAGA/MorphAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MorphAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "MorphAGA.Slave" $whdloadargs
+ELSE
+  whdload "MorphAGA.Slave"
+ENDIF

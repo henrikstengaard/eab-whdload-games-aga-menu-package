@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Ditris/Ditris.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Ditris/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ditris.Slave" $whdloadargs
+ELSE
+  whdload "Ditris.Slave"
+ENDIF

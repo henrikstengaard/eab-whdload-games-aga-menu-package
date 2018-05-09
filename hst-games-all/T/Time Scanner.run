@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TimeScanner/TimeScanner.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TimeScanner/"
+IF EXISTS ENV:whdloadargs
+  whdload "TimeScanner.Slave" $whdloadargs
+ELSE
+  whdload "TimeScanner.Slave"
+ENDIF

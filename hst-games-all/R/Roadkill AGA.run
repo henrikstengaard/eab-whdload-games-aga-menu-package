@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RoadkillAGA/RoadkillAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RoadkillAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoadkillAGA.Slave" $whdloadargs
+ELSE
+  whdload "RoadkillAGA.Slave"
+ENDIF

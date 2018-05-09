@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Gobliins2De/Gobliins2De.slave
+
+; Run WHDLoad
+cd "A-Games:G/Gobliins2De/"
+IF EXISTS ENV:whdloadargs
+  whdload "Gobliins2De.slave" $whdloadargs
+ELSE
+  whdload "Gobliins2De.slave"
+ENDIF

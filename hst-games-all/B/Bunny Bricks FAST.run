@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BunnyBricksFast/BunnyBricksFast.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BunnyBricksFast/"
+IF EXISTS ENV:whdloadargs
+  whdload "BunnyBricksFast.Slave" $whdloadargs
+ELSE
+  whdload "BunnyBricksFast.Slave"
+ENDIF

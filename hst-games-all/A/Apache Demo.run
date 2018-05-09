@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/Apache&OverdriveDemo/Apache&OverdriveDemo.Slave
+
+; Run WHDLoad
+cd "A-Games:A/Apache&OverdriveDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "Apache&OverdriveDemo.Slave" $whdloadargs
+ELSE
+  whdload "Apache&OverdriveDemo.Slave"
+ENDIF

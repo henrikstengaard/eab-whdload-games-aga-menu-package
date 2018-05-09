@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Flood/Flood.Slave
+
+; Run WHDLoad
+cd "A-Games:F/Flood/"
+IF EXISTS ENV:whdloadargs
+  whdload "Flood.Slave" $whdloadargs
+ELSE
+  whdload "Flood.Slave"
+ENDIF

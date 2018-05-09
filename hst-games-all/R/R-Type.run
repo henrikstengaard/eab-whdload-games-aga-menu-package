@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RType/RType.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RType/"
+IF EXISTS ENV:whdloadargs
+  whdload "RType.Slave" $whdloadargs
+ELSE
+  whdload "RType.Slave"
+ENDIF

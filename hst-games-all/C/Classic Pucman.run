@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ClassicPucman/ClassicPucman.slave
+
+; Run WHDLoad
+cd "A-Games:C/ClassicPucman/"
+IF EXISTS ENV:whdloadargs
+  whdload "ClassicPucman.slave" $whdloadargs
+ELSE
+  whdload "ClassicPucman.slave"
+ENDIF

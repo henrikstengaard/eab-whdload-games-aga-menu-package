@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThirdCourier/ThirdCourier.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ThirdCourier/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThirdCourier.Slave" $whdloadargs
+ELSE
+  whdload "ThirdCourier.Slave"
+ENDIF

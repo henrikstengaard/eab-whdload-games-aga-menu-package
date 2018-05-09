@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Hyperion/Hyperion.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Hyperion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hyperion.Slave" $whdloadargs
+ELSE
+  whdload "Hyperion.Slave"
+ENDIF

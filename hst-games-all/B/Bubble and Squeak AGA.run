@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BubbleAndSqueakAGA/BubbleAndSqueakAGA.slave
+
+; Run WHDLoad
+cd "A-Games:B/BubbleAndSqueakAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "BubbleAndSqueakAGA.slave" $whdloadargs
+ELSE
+  whdload "BubbleAndSqueakAGA.slave"
+ENDIF

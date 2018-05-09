@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Phobia/Phobia.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Phobia/"
+IF EXISTS ENV:whdloadargs
+  whdload "Phobia.Slave" $whdloadargs
+ELSE
+  whdload "Phobia.Slave"
+ENDIF

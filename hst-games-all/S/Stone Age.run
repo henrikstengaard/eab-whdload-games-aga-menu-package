@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StoneAge/StoneAge.slave
+
+; Run WHDLoad
+cd "A-Games:S/StoneAge/"
+IF EXISTS ENV:whdloadargs
+  whdload "StoneAge.slave" $whdloadargs
+ELSE
+  whdload "StoneAge.slave"
+ENDIF

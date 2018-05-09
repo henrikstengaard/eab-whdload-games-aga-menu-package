@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OilImperium/OilImperium.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OilImperium/"
+IF EXISTS ENV:whdloadargs
+  whdload "OilImperium.Slave" $whdloadargs
+ELSE
+  whdload "OilImperium.Slave"
+ENDIF

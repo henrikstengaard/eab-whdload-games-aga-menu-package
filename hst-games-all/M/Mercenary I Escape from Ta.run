@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Mercenary/Mercenary.slave
+
+; Run WHDLoad
+cd "A-Games:M/Mercenary/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mercenary.slave" $whdloadargs
+ELSE
+  whdload "Mercenary.slave"
+ENDIF

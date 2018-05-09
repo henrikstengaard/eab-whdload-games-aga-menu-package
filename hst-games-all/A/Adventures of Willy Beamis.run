@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AdventuresOfWillyBeamish/AdventuresOfWillyBeamish.slave
+
+; Run WHDLoad
+cd "A-Games:A/AdventuresOfWillyBeamish/"
+IF EXISTS ENV:whdloadargs
+  whdload "AdventuresOfWillyBeamish.slave" $whdloadargs
+ELSE
+  whdload "AdventuresOfWillyBeamish.slave"
+ENDIF

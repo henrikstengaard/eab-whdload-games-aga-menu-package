@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:L/LiquidKidsImage/"
-IF EXISTS ENV:whdloadargs
-  whdload "LiquidKidsImage.Slave" $whdloadargs
-ELSE
-  whdload "LiquidKidsImage.Slave"
-ENDIF

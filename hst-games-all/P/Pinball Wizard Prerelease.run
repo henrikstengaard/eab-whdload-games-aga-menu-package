@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PinballWizardPrerelease/PinballWizardPrerelease.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PinballWizardPrerelease/"
+IF EXISTS ENV:whdloadargs
+  whdload "PinballWizardPrerelease.Slave" $whdloadargs
+ELSE
+  whdload "PinballWizardPrerelease.Slave"
+ENDIF

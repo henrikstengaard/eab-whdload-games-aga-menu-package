@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PostmanPat/PostmanPat.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PostmanPat/"
+IF EXISTS ENV:whdloadargs
+  whdload "PostmanPat.Slave" $whdloadargs
+ELSE
+  whdload "PostmanPat.Slave"
+ENDIF

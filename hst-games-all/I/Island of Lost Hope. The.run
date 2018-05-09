@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IslandOfLostHope/IslandOfLostHope.Slave
+
+; Run WHDLoad
+cd "A-Games:I/IslandOfLostHope/"
+IF EXISTS ENV:whdloadargs
+  whdload "IslandOfLostHope.Slave" $whdloadargs
+ELSE
+  whdload "IslandOfLostHope.Slave"
+ENDIF

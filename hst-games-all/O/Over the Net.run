@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OverTheNet/OverTheNet.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OverTheNet/"
+IF EXISTS ENV:whdloadargs
+  whdload "OverTheNet.Slave" $whdloadargs
+ELSE
+  whdload "OverTheNet.Slave"
+ENDIF

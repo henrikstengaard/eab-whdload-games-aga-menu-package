@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EishockeyManagerDe/EishockeyManagerDe.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EishockeyManagerDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "EishockeyManagerDe.Slave" $whdloadargs
+ELSE
+  whdload "EishockeyManagerDe.Slave"
+ENDIF

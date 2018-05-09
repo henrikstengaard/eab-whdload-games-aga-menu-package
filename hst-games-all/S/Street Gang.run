@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StreetGang/StreetGang.slave
+
+; Run WHDLoad
+cd "A-Games:S/StreetGang/"
+IF EXISTS ENV:whdloadargs
+  whdload "StreetGang.slave" $whdloadargs
+ELSE
+  whdload "StreetGang.slave"
+ENDIF

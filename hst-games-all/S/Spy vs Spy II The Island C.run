@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpyVsSpy2TheIslandCaper/SpyVsSpy2TheIslandCaper.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SpyVsSpy2TheIslandCaper/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpyVsSpy2TheIslandCaper.Slave" $whdloadargs
+ELSE
+  whdload "SpyVsSpy2TheIslandCaper.Slave"
+ENDIF

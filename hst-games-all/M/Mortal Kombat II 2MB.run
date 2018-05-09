@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MortalKombat22MB/MortalKombat22MB.slave
+
+; Run WHDLoad
+cd "A-Games:M/MortalKombat22MB/"
+IF EXISTS ENV:whdloadargs
+  whdload "MortalKombat22MB.slave" $whdloadargs
+ELSE
+  whdload "MortalKombat22MB.slave"
+ENDIF

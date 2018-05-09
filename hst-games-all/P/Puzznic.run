@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Puzznic/Puzznic.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Puzznic/"
+IF EXISTS ENV:whdloadargs
+  whdload "Puzznic.Slave" $whdloadargs
+ELSE
+  whdload "Puzznic.Slave"
+ENDIF

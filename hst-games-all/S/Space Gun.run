@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpaceGun/SpaceGun.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SpaceGun/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpaceGun.Slave" $whdloadargs
+ELSE
+  whdload "SpaceGun.Slave"
+ENDIF

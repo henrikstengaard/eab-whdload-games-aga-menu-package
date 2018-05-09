@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EnchantedLand/EnchantedLand.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EnchantedLand/"
+IF EXISTS ENV:whdloadargs
+  whdload "EnchantedLand.Slave" $whdloadargs
+ELSE
+  whdload "EnchantedLand.Slave"
+ENDIF

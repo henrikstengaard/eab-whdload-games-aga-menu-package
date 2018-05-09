@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StripPotAGA/StripPotAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StripPotAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "StripPotAGA.Slave" $whdloadargs
+ELSE
+  whdload "StripPotAGA.Slave"
+ENDIF

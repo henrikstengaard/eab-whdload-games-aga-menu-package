@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SootysFunWithNumbers/SootysFunWithNumbers.slave
+
+; Run WHDLoad
+cd "A-Games:S/SootysFunWithNumbers/"
+IF EXISTS ENV:whdloadargs
+  whdload "SootysFunWithNumbers.slave" $whdloadargs
+ELSE
+  whdload "SootysFunWithNumbers.slave"
+ENDIF

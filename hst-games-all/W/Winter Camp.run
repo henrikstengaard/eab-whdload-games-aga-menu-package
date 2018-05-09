@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WinterCamp/WinterCamp.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WinterCamp/"
+IF EXISTS ENV:whdloadargs
+  whdload "WinterCamp.Slave" $whdloadargs
+ELSE
+  whdload "WinterCamp.Slave"
+ENDIF

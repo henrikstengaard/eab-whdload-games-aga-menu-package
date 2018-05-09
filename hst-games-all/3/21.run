@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:B/BallRaider/"
-IF EXISTS ENV:whdloadargs
-  whdload "BallRaider.Slave" $whdloadargs
-ELSE
-  whdload "BallRaider.Slave"
-ENDIF

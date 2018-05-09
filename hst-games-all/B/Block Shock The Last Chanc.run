@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BlockShock/BlockShock.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BlockShock/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlockShock.Slave" $whdloadargs
+ELSE
+  whdload "BlockShock.Slave"
+ENDIF

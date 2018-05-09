@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperSeymourSavesPlanet/SuperSeymourSavesPlanet.slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperSeymourSavesPlanet/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSeymourSavesPlanet.slave" $whdloadargs
+ELSE
+  whdload "SuperSeymourSavesPlanet.slave"
+ENDIF

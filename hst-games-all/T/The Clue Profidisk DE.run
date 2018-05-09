@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ClouDe&Profidisk/ClouDe&Profidisk.Slave
+
+; Run WHDLoad
+cd "A-Games:C/ClouDe&Profidisk/"
+IF EXISTS ENV:whdloadargs
+  whdload "ClouDe&Profidisk.Slave" $whdloadargs
+ELSE
+  whdload "ClouDe&Profidisk.Slave"
+ENDIF

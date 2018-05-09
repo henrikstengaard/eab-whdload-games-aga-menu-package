@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/P47Thunderbolt/P47Thunderbolt.Slave
+
+; Run WHDLoad
+cd "A-Games:P/P47Thunderbolt/"
+IF EXISTS ENV:whdloadargs
+  whdload "P47Thunderbolt.Slave" $whdloadargs
+ELSE
+  whdload "P47Thunderbolt.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SantasXmasCaper/SantasXmasCaper.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SantasXmasCaper/"
+IF EXISTS ENV:whdloadargs
+  whdload "SantasXmasCaper.Slave" $whdloadargs
+ELSE
+  whdload "SantasXmasCaper.Slave"
+ENDIF

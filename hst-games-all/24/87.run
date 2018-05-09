@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:W/WinzerCDTVDe/"
-IF EXISTS ENV:whdloadargs
-  whdload "WinzerCDTVDe.Slave" $whdloadargs
-ELSE
-  whdload "WinzerCDTVDe.Slave"
-ENDIF

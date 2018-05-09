@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TempleOfApshaiTrilogy/TempleOfApshaiTrilogy.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TempleOfApshaiTrilogy/"
+IF EXISTS ENV:whdloadargs
+  whdload "TempleOfApshaiTrilogy.Slave" $whdloadargs
+ELSE
+  whdload "TempleOfApshaiTrilogy.Slave"
+ENDIF

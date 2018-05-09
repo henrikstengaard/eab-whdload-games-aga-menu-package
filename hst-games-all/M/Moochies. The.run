@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Moochies/Moochies.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Moochies/"
+IF EXISTS ENV:whdloadargs
+  whdload "Moochies.Slave" $whdloadargs
+ELSE
+  whdload "Moochies.Slave"
+ENDIF

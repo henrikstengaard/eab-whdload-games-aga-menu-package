@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RobinHoodLegendQuest/RobinHoodLegendQuest.slave
+
+; Run WHDLoad
+cd "A-Games:R/RobinHoodLegendQuest/"
+IF EXISTS ENV:whdloadargs
+  whdload "RobinHoodLegendQuest.slave" $whdloadargs
+ELSE
+  whdload "RobinHoodLegendQuest.slave"
+ENDIF

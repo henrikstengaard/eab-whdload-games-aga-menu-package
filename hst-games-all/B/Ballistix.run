@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Ballistix/Ballistix.slave
+
+; Run WHDLoad
+cd "A-Games:B/Ballistix/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ballistix.slave" $whdloadargs
+ELSE
+  whdload "Ballistix.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WhereTimeStoodStill/WhereTimeStoodStill.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WhereTimeStoodStill/"
+IF EXISTS ENV:whdloadargs
+  whdload "WhereTimeStoodStill.Slave" $whdloadargs
+ELSE
+  whdload "WhereTimeStoodStill.Slave"
+ENDIF

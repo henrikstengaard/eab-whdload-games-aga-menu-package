@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Maniax/maniax.slave
+
+; Run WHDLoad
+cd "A-Games:M/Maniax/"
+IF EXISTS ENV:whdloadargs
+  whdload "maniax.slave" $whdloadargs
+ELSE
+  whdload "maniax.slave"
+ENDIF

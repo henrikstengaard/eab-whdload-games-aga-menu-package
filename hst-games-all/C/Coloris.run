@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Coloris/Coloris.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Coloris/"
+IF EXISTS ENV:whdloadargs
+  whdload "Coloris.Slave" $whdloadargs
+ELSE
+  whdload "Coloris.Slave"
+ENDIF

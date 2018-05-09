@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FederationOfFreeTraders/FederationOfFreeTraders.slave
+
+; Run WHDLoad
+cd "A-Games:F/FederationOfFreeTraders/"
+IF EXISTS ENV:whdloadargs
+  whdload "FederationOfFreeTraders.slave" $whdloadargs
+ELSE
+  whdload "FederationOfFreeTraders.slave"
+ENDIF

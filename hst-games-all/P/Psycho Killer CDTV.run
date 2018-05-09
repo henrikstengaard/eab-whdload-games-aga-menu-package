@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PsychoKillerCDTV/PsychoKillerCDTV.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PsychoKillerCDTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "PsychoKillerCDTV.Slave" $whdloadargs
+ELSE
+  whdload "PsychoKillerCDTV.Slave"
+ENDIF

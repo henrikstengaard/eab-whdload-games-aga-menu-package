@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:C/Cadaver&CadaverThePayoff/"
-IF EXISTS ENV:whdloadargs
-  whdload "Cadaver&CadaverThePayoff.Slave" $whdloadargs
-ELSE
-  whdload "Cadaver&CadaverThePayoff.Slave"
-ENDIF

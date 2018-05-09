@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EmeraldMine3/EmeraldMine3.slave
+
+; Run WHDLoad
+cd "A-Games:E/EmeraldMine3/"
+IF EXISTS ENV:whdloadargs
+  whdload "EmeraldMine3.slave" $whdloadargs
+ELSE
+  whdload "EmeraldMine3.slave"
+ENDIF

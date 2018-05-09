@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShinobiNTSC/ShinobiNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShinobiNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShinobiNTSC.Slave" $whdloadargs
+ELSE
+  whdload "ShinobiNTSC.Slave"
+ENDIF

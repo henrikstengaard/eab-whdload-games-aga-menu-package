@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LordsOfWar/lordsOfwar.slave
+
+; Run WHDLoad
+cd "A-Games:L/LordsOfWar/"
+IF EXISTS ENV:whdloadargs
+  whdload "lordsOfwar.slave" $whdloadargs
+ELSE
+  whdload "lordsOfwar.slave"
+ENDIF

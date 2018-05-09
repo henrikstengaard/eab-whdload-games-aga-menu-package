@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LAmazoneQueenFr/LAmazoneQueenFr.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LAmazoneQueenFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "LAmazoneQueenFr.Slave" $whdloadargs
+ELSE
+  whdload "LAmazoneQueenFr.Slave"
+ENDIF

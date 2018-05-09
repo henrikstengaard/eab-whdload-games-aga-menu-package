@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FuryOfTheFurriesCD32/FuryOfTheFurriesCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FuryOfTheFurriesCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "FuryOfTheFurriesCD32.Slave" $whdloadargs
+ELSE
+  whdload "FuryOfTheFurriesCD32.Slave"
+ENDIF

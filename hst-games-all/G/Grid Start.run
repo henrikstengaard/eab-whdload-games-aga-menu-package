@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GridStart/GridStart.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GridStart/"
+IF EXISTS ENV:whdloadargs
+  whdload "GridStart.Slave" $whdloadargs
+ELSE
+  whdload "GridStart.Slave"
+ENDIF

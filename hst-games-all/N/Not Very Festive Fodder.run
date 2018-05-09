@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NotVeryFestiveFodder/NotVeryFestiveFodder.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NotVeryFestiveFodder/"
+IF EXISTS ENV:whdloadargs
+  whdload "NotVeryFestiveFodder.Slave" $whdloadargs
+ELSE
+  whdload "NotVeryFestiveFodder.Slave"
+ENDIF

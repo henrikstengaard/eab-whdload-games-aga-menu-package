@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MagicFly512KB/MagicFly512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MagicFly512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "MagicFly512KB.Slave" $whdloadargs
+ELSE
+  whdload "MagicFly512KB.Slave"
+ENDIF

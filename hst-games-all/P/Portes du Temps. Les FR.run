@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PortesDuTempsFr/PortesDuTempsFr.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PortesDuTempsFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "PortesDuTempsFr.Slave" $whdloadargs
+ELSE
+  whdload "PortesDuTempsFr.Slave"
+ENDIF

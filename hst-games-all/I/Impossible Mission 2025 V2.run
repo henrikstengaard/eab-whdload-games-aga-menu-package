@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/ImpossibleMission2025AGA/ImpossibleMission2025AGA.slave
+
+; Run WHDLoad
+cd "A-Games:I/ImpossibleMission2025AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "ImpossibleMission2025AGA.slave" $whdloadargs
+ELSE
+  whdload "ImpossibleMission2025AGA.slave"
+ENDIF

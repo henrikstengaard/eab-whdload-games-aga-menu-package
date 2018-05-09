@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Technocop/Technocop.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Technocop/"
+IF EXISTS ENV:whdloadargs
+  whdload "Technocop.Slave" $whdloadargs
+ELSE
+  whdload "Technocop.Slave"
+ENDIF

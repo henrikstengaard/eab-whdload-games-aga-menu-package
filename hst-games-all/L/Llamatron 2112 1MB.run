@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Llamatron1MB/Llamatron1MB.Slave
+
+; Run WHDLoad
+cd "A-Games:L/Llamatron1MB/"
+IF EXISTS ENV:whdloadargs
+  whdload "Llamatron1MB.Slave" $whdloadargs
+ELSE
+  whdload "Llamatron1MB.Slave"
+ENDIF

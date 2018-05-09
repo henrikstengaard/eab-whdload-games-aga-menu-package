@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StackUp/StackUp.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StackUp/"
+IF EXISTS ENV:whdloadargs
+  whdload "StackUp.Slave" $whdloadargs
+ELSE
+  whdload "StackUp.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Lotus3/Lotus3.slave
+
+; Run WHDLoad
+cd "A-Games:L/Lotus3/"
+IF EXISTS ENV:whdloadargs
+  whdload "Lotus3.slave" $whdloadargs
+ELSE
+  whdload "Lotus3.slave"
+ENDIF

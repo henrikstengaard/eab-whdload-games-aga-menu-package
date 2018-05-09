@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OrkAttackTheReturn/OrkAttackTheReturn.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OrkAttackTheReturn/"
+IF EXISTS ENV:whdloadargs
+  whdload "OrkAttackTheReturn.Slave" $whdloadargs
+ELSE
+  whdload "OrkAttackTheReturn.Slave"
+ENDIF

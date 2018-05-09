@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GoldenEagle/GoldenEagle.slave
+
+; Run WHDLoad
+cd "A-Games:G/GoldenEagle/"
+IF EXISTS ENV:whdloadargs
+  whdload "GoldenEagle.slave" $whdloadargs
+ELSE
+  whdload "GoldenEagle.slave"
+ENDIF

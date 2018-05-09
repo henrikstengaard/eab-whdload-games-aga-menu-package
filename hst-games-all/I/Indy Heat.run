@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IndyHeat/IndyHeat.Slave
+
+; Run WHDLoad
+cd "A-Games:I/IndyHeat/"
+IF EXISTS ENV:whdloadargs
+  whdload "IndyHeat.Slave" $whdloadargs
+ELSE
+  whdload "IndyHeat.Slave"
+ENDIF

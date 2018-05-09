@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/Uninvited/Uninvited.Slave
+
+; Run WHDLoad
+cd "A-Games:U/Uninvited/"
+IF EXISTS ENV:whdloadargs
+  whdload "Uninvited.Slave" $whdloadargs
+ELSE
+  whdload "Uninvited.Slave"
+ENDIF

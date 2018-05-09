@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Harlequin512KB/Harlequin512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Harlequin512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "Harlequin512KB.Slave" $whdloadargs
+ELSE
+  whdload "Harlequin512KB.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/Intact15MB/Intact15MB.Slave
+
+; Run WHDLoad
+cd "A-Games:I/Intact15MB/"
+IF EXISTS ENV:whdloadargs
+  whdload "Intact15MB.Slave" $whdloadargs
+ELSE
+  whdload "Intact15MB.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LemmingsImageNTSC/LemmingsImageNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LemmingsImageNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "LemmingsImageNTSC.Slave" $whdloadargs
+ELSE
+  whdload "LemmingsImageNTSC.Slave"
+ENDIF

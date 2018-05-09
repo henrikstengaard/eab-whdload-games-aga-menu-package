@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:U/UniverseCD32/"
-IF EXISTS ENV:whdloadargs
-  whdload "UniverseCD32.Slave" $whdloadargs
-ELSE
-  whdload "UniverseCD32.Slave"
-ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Starglider/Starglider.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Starglider/"
+IF EXISTS ENV:whdloadargs
+  whdload "Starglider.Slave" $whdloadargs
+ELSE
+  whdload "Starglider.Slave"
+ENDIF

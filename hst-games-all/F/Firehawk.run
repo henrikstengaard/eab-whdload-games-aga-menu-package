@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Firehawk/FireHawk.Slave
+
+; Run WHDLoad
+cd "A-Games:F/Firehawk/"
+IF EXISTS ENV:whdloadargs
+  whdload "FireHawk.Slave" $whdloadargs
+ELSE
+  whdload "FireHawk.Slave"
+ENDIF

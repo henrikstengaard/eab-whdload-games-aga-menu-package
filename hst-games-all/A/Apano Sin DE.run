@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ApanoSinDe/ApanoSinDe.Slave
+
+; Run WHDLoad
+cd "A-Games:A/ApanoSinDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "ApanoSinDe.Slave" $whdloadargs
+ELSE
+  whdload "ApanoSinDe.Slave"
+ENDIF

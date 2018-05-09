@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ArabianNights/ArabianNights.Slave
+
+; Run WHDLoad
+cd "A-Games:A/ArabianNights/"
+IF EXISTS ENV:whdloadargs
+  whdload "ArabianNights.Slave" $whdloadargs
+ELSE
+  whdload "ArabianNights.Slave"
+ENDIF

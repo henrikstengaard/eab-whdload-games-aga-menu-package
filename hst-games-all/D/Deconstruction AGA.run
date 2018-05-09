@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeconstructionAGA/DeconstructionAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeconstructionAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeconstructionAGA.Slave" $whdloadargs
+ELSE
+  whdload "DeconstructionAGA.Slave"
+ENDIF

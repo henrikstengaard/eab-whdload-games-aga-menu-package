@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShadowOfTheBeast2/ShadowOfTheBeast2.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShadowOfTheBeast2/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShadowOfTheBeast2.Slave" $whdloadargs
+ELSE
+  whdload "ShadowOfTheBeast2.Slave"
+ENDIF

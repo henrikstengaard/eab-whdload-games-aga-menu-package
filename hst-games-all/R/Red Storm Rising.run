@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RedStormRising/RedStormRising.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RedStormRising/"
+IF EXISTS ENV:whdloadargs
+  whdload "RedStormRising.Slave" $whdloadargs
+ELSE
+  whdload "RedStormRising.Slave"
+ENDIF

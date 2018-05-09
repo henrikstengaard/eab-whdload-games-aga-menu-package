@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GTSoccerChallenge/GTSoccerChallenge.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GTSoccerChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "GTSoccerChallenge.Slave" $whdloadargs
+ELSE
+  whdload "GTSoccerChallenge.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OperationStealthDe/OperationStealthDe.slave
+
+; Run WHDLoad
+cd "A-Games:O/OperationStealthDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "OperationStealthDe.slave" $whdloadargs
+ELSE
+  whdload "OperationStealthDe.slave"
+ENDIF

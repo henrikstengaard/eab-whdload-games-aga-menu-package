@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:X/XTremeRacing&DataDisksAGA/XTremeRacing&DataDisksAGA.slave
+
+; Run WHDLoad
+cd "A-Games:X/XTremeRacing&DataDisksAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "XTremeRacing&DataDisksAGA.slave" $whdloadargs
+ELSE
+  whdload "XTremeRacing&DataDisksAGA.slave"
+ENDIF

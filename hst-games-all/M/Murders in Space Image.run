@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MurdersInSpaceImage/MurdersInSpaceImage.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MurdersInSpaceImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "MurdersInSpaceImage.Slave" $whdloadargs
+ELSE
+  whdload "MurdersInSpaceImage.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AquaticGames/AquaticGames.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AquaticGames/"
+IF EXISTS ENV:whdloadargs
+  whdload "AquaticGames.Slave" $whdloadargs
+ELSE
+  whdload "AquaticGames.Slave"
+ENDIF

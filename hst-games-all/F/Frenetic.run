@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Frenetic/Frenetic.Slave
+
+; Run WHDLoad
+cd "A-Games:F/Frenetic/"
+IF EXISTS ENV:whdloadargs
+  whdload "Frenetic.Slave" $whdloadargs
+ELSE
+  whdload "Frenetic.Slave"
+ENDIF

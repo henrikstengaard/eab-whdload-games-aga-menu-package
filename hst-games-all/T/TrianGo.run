@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TrianGO/TrianGO.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TrianGO/"
+IF EXISTS ENV:whdloadargs
+  whdload "TrianGO.Slave" $whdloadargs
+ELSE
+  whdload "TrianGO.Slave"
+ENDIF

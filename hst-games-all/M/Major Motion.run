@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MajorMotion/MajorMotion.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MajorMotion/"
+IF EXISTS ENV:whdloadargs
+  whdload "MajorMotion.Slave" $whdloadargs
+ELSE
+  whdload "MajorMotion.Slave"
+ENDIF

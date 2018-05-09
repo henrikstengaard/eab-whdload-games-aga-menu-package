@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SASCombatSimulatorQArcade/SASCombatSimulatorQArcade.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SASCombatSimulatorQArcade/"
+IF EXISTS ENV:whdloadargs
+  whdload "SASCombatSimulatorQArcade.Slave" $whdloadargs
+ELSE
+  whdload "SASCombatSimulatorQArcade.Slave"
+ENDIF

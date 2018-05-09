@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DebutPlanetSimulation/DebutPlanetSimulation.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DebutPlanetSimulation/"
+IF EXISTS ENV:whdloadargs
+  whdload "DebutPlanetSimulation.Slave" $whdloadargs
+ELSE
+  whdload "DebutPlanetSimulation.Slave"
+ENDIF

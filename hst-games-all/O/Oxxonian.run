@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Oxxonian/Oxxonian.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Oxxonian/"
+IF EXISTS ENV:whdloadargs
+  whdload "Oxxonian.Slave" $whdloadargs
+ELSE
+  whdload "Oxxonian.Slave"
+ENDIF

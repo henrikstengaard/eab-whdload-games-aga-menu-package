@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BioChallenge/BioChallenge.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BioChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "BioChallenge.Slave" $whdloadargs
+ELSE
+  whdload "BioChallenge.Slave"
+ENDIF

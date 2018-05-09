@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Moonstone/Moonstone.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Moonstone/"
+IF EXISTS ENV:whdloadargs
+  whdload "Moonstone.Slave" $whdloadargs
+ELSE
+  whdload "Moonstone.Slave"
+ENDIF

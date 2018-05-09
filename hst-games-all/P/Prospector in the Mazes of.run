@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ProspectorInTheMazesOfXor/ProspectorInTheMazesOfXor.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ProspectorInTheMazesOfXor/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProspectorInTheMazesOfXor.Slave" $whdloadargs
+ELSE
+  whdload "ProspectorInTheMazesOfXor.Slave"
+ENDIF

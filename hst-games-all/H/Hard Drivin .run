@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HardDrivin2/HardDrivin2.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HardDrivin2/"
+IF EXISTS ENV:whdloadargs
+  whdload "HardDrivin2.Slave" $whdloadargs
+ELSE
+  whdload "HardDrivin2.Slave"
+ENDIF

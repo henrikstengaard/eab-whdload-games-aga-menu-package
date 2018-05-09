@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/ZombieApocalypse/ZombieApocalypse.Slave
+
+; Run WHDLoad
+cd "A-Games:Z/ZombieApocalypse/"
+IF EXISTS ENV:whdloadargs
+  whdload "ZombieApocalypse.Slave" $whdloadargs
+ELSE
+  whdload "ZombieApocalypse.Slave"
+ENDIF

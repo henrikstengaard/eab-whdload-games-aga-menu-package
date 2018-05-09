@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LethalWeapon/LethalWeapon.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LethalWeapon/"
+IF EXISTS ENV:whdloadargs
+  whdload "LethalWeapon.Slave" $whdloadargs
+ELSE
+  whdload "LethalWeapon.Slave"
+ENDIF

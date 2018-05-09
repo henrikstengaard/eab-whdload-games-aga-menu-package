@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Mousetrap/Mousetrap.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Mousetrap/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mousetrap.Slave" $whdloadargs
+ELSE
+  whdload "Mousetrap.Slave"
+ENDIF

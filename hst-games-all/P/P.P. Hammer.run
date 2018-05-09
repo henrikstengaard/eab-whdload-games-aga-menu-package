@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PPHammer/PPHammer.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PPHammer/"
+IF EXISTS ENV:whdloadargs
+  whdload "PPHammer.Slave" $whdloadargs
+ELSE
+  whdload "PPHammer.Slave"
+ENDIF

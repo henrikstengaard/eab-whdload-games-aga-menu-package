@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DawnPatrolDe/DawnPatrolDe.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DawnPatrolDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "DawnPatrolDe.Slave" $whdloadargs
+ELSE
+  whdload "DawnPatrolDe.Slave"
+ENDIF

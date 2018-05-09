@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Raffles/Raffles.slave
+
+; Run WHDLoad
+cd "A-Games:R/Raffles/"
+IF EXISTS ENV:whdloadargs
+  whdload "Raffles.slave" $whdloadargs
+ELSE
+  whdload "Raffles.slave"
+ENDIF

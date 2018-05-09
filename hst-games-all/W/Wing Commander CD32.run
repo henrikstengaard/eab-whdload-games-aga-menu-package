@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WingCommanderCD32/WingCommanderCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WingCommanderCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "WingCommanderCD32.Slave" $whdloadargs
+ELSE
+  whdload "WingCommanderCD32.Slave"
+ENDIF

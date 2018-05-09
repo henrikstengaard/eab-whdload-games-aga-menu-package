@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BatmanTheMovie2Disk/BatmanTheMovie2Disk.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BatmanTheMovie2Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "BatmanTheMovie2Disk.Slave" $whdloadargs
+ELSE
+  whdload "BatmanTheMovie2Disk.Slave"
+ENDIF

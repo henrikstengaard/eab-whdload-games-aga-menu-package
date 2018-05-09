@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/UltimateXTremeRacingCD/UltimateXTremeRacingCD.slave
+
+; Run WHDLoad
+cd "A-Games:U/UltimateXTremeRacingCD/"
+IF EXISTS ENV:whdloadargs
+  whdload "UltimateXTremeRacingCD.slave" $whdloadargs
+ELSE
+  whdload "UltimateXTremeRacingCD.slave"
+ENDIF

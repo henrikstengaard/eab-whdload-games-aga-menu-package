@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MythSystem3CD32/MythSystem3CD32.slave
+
+; Run WHDLoad
+cd "A-Games:M/MythSystem3CD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "MythSystem3CD32.slave" $whdloadargs
+ELSE
+  whdload "MythSystem3CD32.slave"
+ENDIF

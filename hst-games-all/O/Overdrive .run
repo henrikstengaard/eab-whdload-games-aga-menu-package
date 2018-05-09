@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OverdriveTeam17/OverdriveTeam17.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OverdriveTeam17/"
+IF EXISTS ENV:whdloadargs
+  whdload "OverdriveTeam17.Slave" $whdloadargs
+ELSE
+  whdload "OverdriveTeam17.Slave"
+ENDIF

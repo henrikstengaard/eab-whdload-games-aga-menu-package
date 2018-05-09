@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TurboCup/TurboCup.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TurboCup/"
+IF EXISTS ENV:whdloadargs
+  whdload "TurboCup.Slave" $whdloadargs
+ELSE
+  whdload "TurboCup.Slave"
+ENDIF

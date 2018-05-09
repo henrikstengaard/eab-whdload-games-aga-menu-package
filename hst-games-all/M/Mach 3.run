@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Mach3/Mach3.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Mach3/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mach3.Slave" $whdloadargs
+ELSE
+  whdload "Mach3.Slave"
+ENDIF

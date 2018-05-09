@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LaserSquadIt/LaserSquadIt.slave
+
+; Run WHDLoad
+cd "A-Games:L/LaserSquadIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "LaserSquadIt.slave" $whdloadargs
+ELSE
+  whdload "LaserSquadIt.slave"
+ENDIF

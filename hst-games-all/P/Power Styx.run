@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Powerstyx/Powerstyx.slave
+
+; Run WHDLoad
+cd "A-Games:P/Powerstyx/"
+IF EXISTS ENV:whdloadargs
+  whdload "Powerstyx.slave" $whdloadargs
+ELSE
+  whdload "Powerstyx.slave"
+ENDIF

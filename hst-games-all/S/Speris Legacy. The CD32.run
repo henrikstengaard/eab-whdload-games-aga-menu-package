@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SperisLegacyCD32/SperisLegacyCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SperisLegacyCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "SperisLegacyCD32.Slave" $whdloadargs
+ELSE
+  whdload "SperisLegacyCD32.Slave"
+ENDIF

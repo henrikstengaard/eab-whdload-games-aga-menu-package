@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/Vaxine/Vaxine.Slave
+
+; Run WHDLoad
+cd "A-Games:V/Vaxine/"
+IF EXISTS ENV:whdloadargs
+  whdload "Vaxine.Slave" $whdloadargs
+ELSE
+  whdload "Vaxine.Slave"
+ENDIF

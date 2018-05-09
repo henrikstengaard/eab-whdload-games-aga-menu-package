@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Tanglewood/Tanglewood.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Tanglewood/"
+IF EXISTS ENV:whdloadargs
+  whdload "Tanglewood.Slave" $whdloadargs
+ELSE
+  whdload "Tanglewood.Slave"
+ENDIF

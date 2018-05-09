@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SolomonsKey2/SolomonsKey2.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SolomonsKey2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SolomonsKey2.Slave" $whdloadargs
+ELSE
+  whdload "SolomonsKey2.Slave"
+ENDIF

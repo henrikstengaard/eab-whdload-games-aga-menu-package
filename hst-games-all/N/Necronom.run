@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/Necronom/Necronom.Slave
+
+; Run WHDLoad
+cd "A-Games:N/Necronom/"
+IF EXISTS ENV:whdloadargs
+  whdload "Necronom.Slave" $whdloadargs
+ELSE
+  whdload "Necronom.Slave"
+ENDIF

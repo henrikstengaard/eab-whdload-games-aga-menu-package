@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Scrabble/Scrabble.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Scrabble/"
+IF EXISTS ENV:whdloadargs
+  whdload "Scrabble.Slave" $whdloadargs
+ELSE
+  whdload "Scrabble.Slave"
+ENDIF

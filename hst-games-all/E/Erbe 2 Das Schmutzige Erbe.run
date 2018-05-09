@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SchmutzigeErbeDe/SchmutzigeErbeDe.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SchmutzigeErbeDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "SchmutzigeErbeDe.Slave" $whdloadargs
+ELSE
+  whdload "SchmutzigeErbeDe.Slave"
+ENDIF

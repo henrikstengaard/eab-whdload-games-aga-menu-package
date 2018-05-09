@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Supremacy/Supremacy.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Supremacy/"
+IF EXISTS ENV:whdloadargs
+  whdload "Supremacy.Slave" $whdloadargs
+ELSE
+  whdload "Supremacy.Slave"
+ENDIF

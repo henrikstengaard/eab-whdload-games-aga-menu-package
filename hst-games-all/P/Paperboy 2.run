@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Paperboy2/Paperboy2.slave
+
+; Run WHDLoad
+cd "A-Games:P/Paperboy2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Paperboy2.slave" $whdloadargs
+ELSE
+  whdload "Paperboy2.slave"
+ENDIF

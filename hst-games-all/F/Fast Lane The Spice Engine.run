@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FastLane/FastLane.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FastLane/"
+IF EXISTS ENV:whdloadargs
+  whdload "FastLane.Slave" $whdloadargs
+ELSE
+  whdload "FastLane.Slave"
+ENDIF

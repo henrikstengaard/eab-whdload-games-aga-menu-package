@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpellboundDizzy/SpellboundDizzy.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SpellboundDizzy/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpellboundDizzy.Slave" $whdloadargs
+ELSE
+  whdload "SpellboundDizzy.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PrinceOfPersiaNTSC/PrinceOfPersiaNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:P/PrinceOfPersiaNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "PrinceOfPersiaNTSC.slave" $whdloadargs
+ELSE
+  whdload "PrinceOfPersiaNTSC.slave"
+ENDIF

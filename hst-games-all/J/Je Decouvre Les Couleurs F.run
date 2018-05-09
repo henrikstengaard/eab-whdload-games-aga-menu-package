@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DenverJeFaisDesCouleursFr/DenverJeFaisDesCouleursFr.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DenverJeFaisDesCouleursFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "DenverJeFaisDesCouleursFr.Slave" $whdloadargs
+ELSE
+  whdload "DenverJeFaisDesCouleursFr.Slave"
+ENDIF

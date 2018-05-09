@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BurningRubber/BurningRubber.slave
+
+; Run WHDLoad
+cd "A-Games:B/BurningRubber/"
+IF EXISTS ENV:whdloadargs
+  whdload "BurningRubber.slave" $whdloadargs
+ELSE
+  whdload "BurningRubber.slave"
+ENDIF

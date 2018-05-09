@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BehindTheIronGate/BehindTheIronGate.slave
+
+; Run WHDLoad
+cd "A-Games:B/BehindTheIronGate/"
+IF EXISTS ENV:whdloadargs
+  whdload "BehindTheIronGate.slave" $whdloadargs
+ELSE
+  whdload "BehindTheIronGate.slave"
+ENDIF

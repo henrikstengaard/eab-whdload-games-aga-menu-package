@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/Vader/Vader.Slave
+
+; Run WHDLoad
+cd "A-Games:V/Vader/"
+IF EXISTS ENV:whdloadargs
+  whdload "Vader.Slave" $whdloadargs
+ELSE
+  whdload "Vader.Slave"
+ENDIF

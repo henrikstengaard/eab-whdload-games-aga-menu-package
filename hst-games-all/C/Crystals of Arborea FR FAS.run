@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CrystalsOfArboreaFrFast/CrystalsOfArboreaFrFast.Slave
+
+; Run WHDLoad
+cd "A-Games:C/CrystalsOfArboreaFrFast/"
+IF EXISTS ENV:whdloadargs
+  whdload "CrystalsOfArboreaFrFast.Slave" $whdloadargs
+ELSE
+  whdload "CrystalsOfArboreaFrFast.Slave"
+ENDIF

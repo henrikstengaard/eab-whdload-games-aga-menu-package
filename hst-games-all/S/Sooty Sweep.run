@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Sooty&Sweep/Sooty&Sweep.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Sooty&Sweep/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sooty&Sweep.Slave" $whdloadargs
+ELSE
+  whdload "Sooty&Sweep.Slave"
+ENDIF

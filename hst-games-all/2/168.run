@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/ATrain512kCz/"
-IF EXISTS ENV:whdloadargs
-  whdload "ATrain512KCz.slave" $whdloadargs
-ELSE
-  whdload "ATrain512KCz.slave"
-ENDIF

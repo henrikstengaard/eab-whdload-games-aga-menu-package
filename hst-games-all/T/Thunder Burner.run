@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThunderBurner/ThunderBurner.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ThunderBurner/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThunderBurner.Slave" $whdloadargs
+ELSE
+  whdload "ThunderBurner.Slave"
+ENDIF

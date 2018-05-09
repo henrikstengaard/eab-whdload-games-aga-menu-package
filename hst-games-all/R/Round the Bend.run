@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RoundTheBend/RoundTheBend.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RoundTheBend/"
+IF EXISTS ENV:whdloadargs
+  whdload "RoundTheBend.Slave" $whdloadargs
+ELSE
+  whdload "RoundTheBend.Slave"
+ENDIF

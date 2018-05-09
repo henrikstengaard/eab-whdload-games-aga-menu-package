@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PacMania/Pacmania.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PacMania/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pacmania.Slave" $whdloadargs
+ELSE
+  whdload "Pacmania.Slave"
+ENDIF

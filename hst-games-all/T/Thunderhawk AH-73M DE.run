@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThunderHawkAH73MDe/ThunderHawkAH73MDe.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ThunderHawkAH73MDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThunderHawkAH73MDe.Slave" $whdloadargs
+ELSE
+  whdload "ThunderHawkAH73MDe.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PlayerManagerFr/PlayerManagerFr.slave
+
+; Run WHDLoad
+cd "A-Games:P/PlayerManagerFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlayerManagerFr.slave" $whdloadargs
+ELSE
+  whdload "PlayerManagerFr.slave"
+ENDIF

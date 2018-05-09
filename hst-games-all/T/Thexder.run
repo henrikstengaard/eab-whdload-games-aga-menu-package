@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Thexder/Thexder.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Thexder/"
+IF EXISTS ENV:whdloadargs
+  whdload "Thexder.Slave" $whdloadargs
+ELSE
+  whdload "Thexder.Slave"
+ENDIF

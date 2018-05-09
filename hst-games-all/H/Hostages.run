@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Hostages/Hostages.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Hostages/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hostages.Slave" $whdloadargs
+ELSE
+  whdload "Hostages.Slave"
+ENDIF

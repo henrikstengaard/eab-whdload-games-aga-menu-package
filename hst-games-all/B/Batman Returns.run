@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BatmanReturns/BatmanReturns.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BatmanReturns/"
+IF EXISTS ENV:whdloadargs
+  whdload "BatmanReturns.Slave" $whdloadargs
+ELSE
+  whdload "BatmanReturns.Slave"
+ENDIF

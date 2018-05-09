@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/Italia1990/Italia1990.slave
+
+; Run WHDLoad
+cd "A-Games:I/Italia1990/"
+IF EXISTS ENV:whdloadargs
+  whdload "Italia1990.slave" $whdloadargs
+ELSE
+  whdload "Italia1990.slave"
+ENDIF

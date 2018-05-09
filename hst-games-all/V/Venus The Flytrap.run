@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VenusTheFlytrap/VenusTheFlytrap.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VenusTheFlytrap/"
+IF EXISTS ENV:whdloadargs
+  whdload "VenusTheFlytrap.Slave" $whdloadargs
+ELSE
+  whdload "VenusTheFlytrap.Slave"
+ENDIF

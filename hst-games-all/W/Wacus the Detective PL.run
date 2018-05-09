@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WacusTheDetectivePl/WacusTheDetectivePl.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WacusTheDetectivePl/"
+IF EXISTS ENV:whdloadargs
+  whdload "WacusTheDetectivePl.Slave" $whdloadargs
+ELSE
+  whdload "WacusTheDetectivePl.Slave"
+ENDIF

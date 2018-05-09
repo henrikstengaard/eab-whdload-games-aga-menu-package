@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/Zyconix/Zyconix.Slave
+
+; Run WHDLoad
+cd "A-Games:Z/Zyconix/"
+IF EXISTS ENV:whdloadargs
+  whdload "Zyconix.Slave" $whdloadargs
+ELSE
+  whdload "Zyconix.Slave"
+ENDIF

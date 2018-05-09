@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pegasus/Pegasus.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Pegasus/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pegasus.Slave" $whdloadargs
+ELSE
+  whdload "Pegasus.Slave"
+ENDIF

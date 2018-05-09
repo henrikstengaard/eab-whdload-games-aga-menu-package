@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RollerCoasterRumbler/RollerCoasterRumbler.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RollerCoasterRumbler/"
+IF EXISTS ENV:whdloadargs
+  whdload "RollerCoasterRumbler.Slave" $whdloadargs
+ELSE
+  whdload "RollerCoasterRumbler.Slave"
+ENDIF

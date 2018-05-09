@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Subbuteo/Subbuteo.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Subbuteo/"
+IF EXISTS ENV:whdloadargs
+  whdload "Subbuteo.Slave" $whdloadargs
+ELSE
+  whdload "Subbuteo.Slave"
+ENDIF

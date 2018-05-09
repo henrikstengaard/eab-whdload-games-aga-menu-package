@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SimCity512KB/SimCity512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SimCity512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "SimCity512KB.Slave" $whdloadargs
+ELSE
+  whdload "SimCity512KB.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Skyfox/Skyfox.slave
+
+; Run WHDLoad
+cd "A-Games:S/Skyfox/"
+IF EXISTS ENV:whdloadargs
+  whdload "Skyfox.slave" $whdloadargs
+ELSE
+  whdload "Skyfox.slave"
+ENDIF

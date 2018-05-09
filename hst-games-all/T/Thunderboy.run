@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThunderBoy/ThunderBoy.Slave
+
+; Run WHDLoad
+cd "A-Games:T/ThunderBoy/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThunderBoy.Slave" $whdloadargs
+ELSE
+  whdload "ThunderBoy.Slave"
+ENDIF

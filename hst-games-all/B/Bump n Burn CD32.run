@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BumpNBurnCD32/BumpNBurnCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BumpNBurnCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "BumpNBurnCD32.Slave" $whdloadargs
+ELSE
+  whdload "BumpNBurnCD32.Slave"
+ENDIF

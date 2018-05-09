@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HeartOfTheDragon4Disk/HeartOfTheDragon4Disk.slave
+
+; Run WHDLoad
+cd "A-Games:H/HeartOfTheDragon4Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "HeartOfTheDragon4Disk.slave" $whdloadargs
+ELSE
+  whdload "HeartOfTheDragon4Disk.slave"
+ENDIF

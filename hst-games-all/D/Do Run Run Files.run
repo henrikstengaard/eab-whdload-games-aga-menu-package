@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MrDoRunRunFiles/MrDoRunRunFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MrDoRunRunFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "MrDoRunRunFiles.Slave" $whdloadargs
+ELSE
+  whdload "MrDoRunRunFiles.Slave"
+ENDIF

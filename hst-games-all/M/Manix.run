@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Manix/Manix.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Manix/"
+IF EXISTS ENV:whdloadargs
+  whdload "Manix.Slave" $whdloadargs
+ELSE
+  whdload "Manix.Slave"
+ENDIF

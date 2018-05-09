@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pandora/Pandora.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Pandora/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pandora.Slave" $whdloadargs
+ELSE
+  whdload "Pandora.Slave"
+ENDIF

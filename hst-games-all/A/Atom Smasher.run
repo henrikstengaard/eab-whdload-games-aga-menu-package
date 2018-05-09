@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AtomSmasher/AtomSmasher.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AtomSmasher/"
+IF EXISTS ENV:whdloadargs
+  whdload "AtomSmasher.Slave" $whdloadargs
+ELSE
+  whdload "AtomSmasher.Slave"
+ENDIF

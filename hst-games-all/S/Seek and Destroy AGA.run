@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Seek&DestroyAGA/Seek&DestroyAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Seek&DestroyAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "Seek&DestroyAGA.Slave" $whdloadargs
+ELSE
+  whdload "Seek&DestroyAGA.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HelterSkelter/HelterSkelter.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HelterSkelter/"
+IF EXISTS ENV:whdloadargs
+  whdload "HelterSkelter.Slave" $whdloadargs
+ELSE
+  whdload "HelterSkelter.Slave"
+ENDIF

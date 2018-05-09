@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LeanderNTSC/LeanderNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:L/LeanderNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "LeanderNTSC.slave" $whdloadargs
+ELSE
+  whdload "LeanderNTSC.slave"
+ENDIF

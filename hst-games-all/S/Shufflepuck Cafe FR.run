@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShufflepuckCafeFr/ShufflepuckCafeFr.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShufflepuckCafeFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShufflepuckCafeFr.Slave" $whdloadargs
+ELSE
+  whdload "ShufflepuckCafeFr.Slave"
+ENDIF

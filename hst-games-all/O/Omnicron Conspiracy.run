@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OmnicronConspiracy/OmnicronConspiracy.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OmnicronConspiracy/"
+IF EXISTS ENV:whdloadargs
+  whdload "OmnicronConspiracy.Slave" $whdloadargs
+ELSE
+  whdload "OmnicronConspiracy.Slave"
+ENDIF

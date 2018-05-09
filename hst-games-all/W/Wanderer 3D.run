@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/Wanderer3D/Wanderer3D.Slave
+
+; Run WHDLoad
+cd "A-Games:W/Wanderer3D/"
+IF EXISTS ENV:whdloadargs
+  whdload "Wanderer3D.Slave" $whdloadargs
+ELSE
+  whdload "Wanderer3D.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GamesSummerEdition/GamesSummerEdition.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GamesSummerEdition/"
+IF EXISTS ENV:whdloadargs
+  whdload "GamesSummerEdition.Slave" $whdloadargs
+ELSE
+  whdload "GamesSummerEdition.Slave"
+ENDIF

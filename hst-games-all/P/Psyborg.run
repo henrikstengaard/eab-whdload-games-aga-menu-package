@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Psyborg/Psyborg.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Psyborg/"
+IF EXISTS ENV:whdloadargs
+  whdload "Psyborg.Slave" $whdloadargs
+ELSE
+  whdload "Psyborg.Slave"
+ENDIF

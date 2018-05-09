@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WormsDirectorsCutAGA/WormsDirectorsCutAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WormsDirectorsCutAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "WormsDirectorsCutAGA.Slave" $whdloadargs
+ELSE
+  whdload "WormsDirectorsCutAGA.Slave"
+ENDIF

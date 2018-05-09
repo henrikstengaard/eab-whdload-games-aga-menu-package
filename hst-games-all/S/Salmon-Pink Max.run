@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SalmonPinkMax/SalmonPinkMax.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SalmonPinkMax/"
+IF EXISTS ENV:whdloadargs
+  whdload "SalmonPinkMax.Slave" $whdloadargs
+ELSE
+  whdload "SalmonPinkMax.Slave"
+ENDIF

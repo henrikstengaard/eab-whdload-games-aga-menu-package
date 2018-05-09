@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BackToTheFuturePart2/BackToTheFuturePart2.slave
+
+; Run WHDLoad
+cd "A-Games:B/BackToTheFuturePart2/"
+IF EXISTS ENV:whdloadargs
+  whdload "BackToTheFuturePart2.slave" $whdloadargs
+ELSE
+  whdload "BackToTheFuturePart2.slave"
+ENDIF

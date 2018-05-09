@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Sixiang/Sixiang.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Sixiang/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sixiang.Slave" $whdloadargs
+ELSE
+  whdload "Sixiang.Slave"
+ENDIF

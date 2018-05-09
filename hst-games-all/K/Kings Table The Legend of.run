@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegendOfRagnarok/LegendOfRagnarok.slave
+
+; Run WHDLoad
+cd "A-Games:L/LegendOfRagnarok/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegendOfRagnarok.slave" $whdloadargs
+ELSE
+  whdload "LegendOfRagnarok.slave"
+ENDIF

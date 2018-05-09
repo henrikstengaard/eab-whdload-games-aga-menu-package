@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Scapeghost/Scapeghost.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Scapeghost/"
+IF EXISTS ENV:whdloadargs
+  whdload "Scapeghost.Slave" $whdloadargs
+ELSE
+  whdload "Scapeghost.Slave"
+ENDIF

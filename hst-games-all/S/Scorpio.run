@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Scorpio/Scorpio.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Scorpio/"
+IF EXISTS ENV:whdloadargs
+  whdload "Scorpio.Slave" $whdloadargs
+ELSE
+  whdload "Scorpio.Slave"
+ENDIF

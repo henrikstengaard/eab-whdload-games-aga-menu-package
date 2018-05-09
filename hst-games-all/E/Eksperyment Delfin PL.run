@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EksperymentDelfinPl/EksperymentDelfinPl.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EksperymentDelfinPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "EksperymentDelfinPl.Slave" $whdloadargs
+ELSE
+  whdload "EksperymentDelfinPl.Slave"
+ENDIF

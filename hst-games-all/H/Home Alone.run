@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HomeAlone/HomeAlone.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HomeAlone/"
+IF EXISTS ENV:whdloadargs
+  whdload "HomeAlone.Slave" $whdloadargs
+ELSE
+  whdload "HomeAlone.Slave"
+ENDIF

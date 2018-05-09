@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Perihelion/Perihelion.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Perihelion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Perihelion.Slave" $whdloadargs
+ELSE
+  whdload "Perihelion.Slave"
+ENDIF

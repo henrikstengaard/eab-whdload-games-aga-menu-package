@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:R/Rampage/"
-IF EXISTS ENV:whdloadargs
-  whdload "Rampage.slave" $whdloadargs
-ELSE
-  whdload "Rampage.slave"
-ENDIF

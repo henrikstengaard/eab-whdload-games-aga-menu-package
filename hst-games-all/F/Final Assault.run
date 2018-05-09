@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FinalAssault/FinalAssault.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FinalAssault/"
+IF EXISTS ENV:whdloadargs
+  whdload "FinalAssault.Slave" $whdloadargs
+ELSE
+  whdload "FinalAssault.Slave"
+ENDIF

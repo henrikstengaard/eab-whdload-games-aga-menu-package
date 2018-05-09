@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Rotor/Rotor.slave
+
+; Run WHDLoad
+cd "A-Games:R/Rotor/"
+IF EXISTS ENV:whdloadargs
+  whdload "Rotor.slave" $whdloadargs
+ELSE
+  whdload "Rotor.slave"
+ENDIF

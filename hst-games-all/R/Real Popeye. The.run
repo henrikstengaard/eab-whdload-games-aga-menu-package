@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RealPopeye/RealPopeye.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RealPopeye/"
+IF EXISTS ENV:whdloadargs
+  whdload "RealPopeye.Slave" $whdloadargs
+ELSE
+  whdload "RealPopeye.Slave"
+ENDIF

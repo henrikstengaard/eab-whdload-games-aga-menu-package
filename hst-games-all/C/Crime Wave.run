@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CrimeWave/CrimeWave.slave
+
+; Run WHDLoad
+cd "A-Games:C/CrimeWave/"
+IF EXISTS ENV:whdloadargs
+  whdload "CrimeWave.slave" $whdloadargs
+ELSE
+  whdload "CrimeWave.slave"
+ENDIF

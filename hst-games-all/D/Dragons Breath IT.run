@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonsBreathIt/DragonsBreathIt.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonsBreathIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonsBreathIt.Slave" $whdloadargs
+ELSE
+  whdload "DragonsBreathIt.Slave"
+ENDIF

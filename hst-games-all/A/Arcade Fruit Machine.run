@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ArcadeFruitMachine/ArcadeFruitMachine.Slave
+
+; Run WHDLoad
+cd "A-Games:A/ArcadeFruitMachine/"
+IF EXISTS ENV:whdloadargs
+  whdload "ArcadeFruitMachine.Slave" $whdloadargs
+ELSE
+  whdload "ArcadeFruitMachine.Slave"
+ENDIF

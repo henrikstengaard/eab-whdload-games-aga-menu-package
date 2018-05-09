@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Revelation/Revelation.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Revelation/"
+IF EXISTS ENV:whdloadargs
+  whdload "Revelation.Slave" $whdloadargs
+ELSE
+  whdload "Revelation.Slave"
+ENDIF

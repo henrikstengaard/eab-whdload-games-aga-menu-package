@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Strider2/Strider2.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Strider2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Strider2.Slave" $whdloadargs
+ELSE
+  whdload "Strider2.Slave"
+ENDIF

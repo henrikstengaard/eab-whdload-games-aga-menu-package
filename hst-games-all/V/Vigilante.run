@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/Vigilante/Vigilante.Slave
+
+; Run WHDLoad
+cd "A-Games:V/Vigilante/"
+IF EXISTS ENV:whdloadargs
+  whdload "Vigilante.Slave" $whdloadargs
+ELSE
+  whdload "Vigilante.Slave"
+ENDIF

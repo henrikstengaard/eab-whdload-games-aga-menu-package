@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SideWinderArcadia/SideWinderArcadia.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SideWinderArcadia/"
+IF EXISTS ENV:whdloadargs
+  whdload "SideWinderArcadia.Slave" $whdloadargs
+ELSE
+  whdload "SideWinderArcadia.Slave"
+ENDIF

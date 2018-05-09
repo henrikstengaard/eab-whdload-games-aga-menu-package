@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/Fire&Forget/Fire&Forget.Slave
+
+; Run WHDLoad
+cd "A-Games:F/Fire&Forget/"
+IF EXISTS ENV:whdloadargs
+  whdload "Fire&Forget.Slave" $whdloadargs
+ELSE
+  whdload "Fire&Forget.Slave"
+ENDIF

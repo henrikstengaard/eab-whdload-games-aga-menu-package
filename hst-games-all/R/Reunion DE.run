@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/ReunionDe/ReunionDe.slave
+
+; Run WHDLoad
+cd "A-Games:R/ReunionDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "ReunionDe.slave" $whdloadargs
+ELSE
+  whdload "ReunionDe.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Bismarck/Bismarck.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Bismarck/"
+IF EXISTS ENV:whdloadargs
+  whdload "Bismarck.Slave" $whdloadargs
+ELSE
+  whdload "Bismarck.Slave"
+ENDIF

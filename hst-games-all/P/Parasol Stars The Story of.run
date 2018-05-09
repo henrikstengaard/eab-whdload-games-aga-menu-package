@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ParasolStars/ParasolStars.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ParasolStars/"
+IF EXISTS ENV:whdloadargs
+  whdload "ParasolStars.Slave" $whdloadargs
+ELSE
+  whdload "ParasolStars.Slave"
+ENDIF

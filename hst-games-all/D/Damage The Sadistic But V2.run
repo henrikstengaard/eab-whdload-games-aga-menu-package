@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DamagePreview/DamagePreview.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DamagePreview/"
+IF EXISTS ENV:whdloadargs
+  whdload "DamagePreview.Slave" $whdloadargs
+ELSE
+  whdload "DamagePreview.Slave"
+ENDIF

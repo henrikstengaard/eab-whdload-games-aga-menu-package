@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LemmingsFiles/LemmingsFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LemmingsFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "LemmingsFiles.Slave" $whdloadargs
+ELSE
+  whdload "LemmingsFiles.Slave"
+ENDIF

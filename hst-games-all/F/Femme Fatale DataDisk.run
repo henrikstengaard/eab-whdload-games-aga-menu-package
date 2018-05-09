@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FemmeFatale&DataDisk/FemmeFatale&DataDisk.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FemmeFatale&DataDisk/"
+IF EXISTS ENV:whdloadargs
+  whdload "FemmeFatale&DataDisk.Slave" $whdloadargs
+ELSE
+  whdload "FemmeFatale&DataDisk.Slave"
+ENDIF

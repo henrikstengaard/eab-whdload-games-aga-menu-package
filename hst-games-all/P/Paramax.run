@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Paramax/Paramax.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Paramax/"
+IF EXISTS ENV:whdloadargs
+  whdload "Paramax.Slave" $whdloadargs
+ELSE
+  whdload "Paramax.Slave"
+ENDIF

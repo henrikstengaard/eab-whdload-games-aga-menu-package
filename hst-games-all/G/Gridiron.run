@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Gridiron/Gridiron.Slave
+
+; Run WHDLoad
+cd "A-Games:G/Gridiron/"
+IF EXISTS ENV:whdloadargs
+  whdload "Gridiron.Slave" $whdloadargs
+ELSE
+  whdload "Gridiron.Slave"
+ENDIF

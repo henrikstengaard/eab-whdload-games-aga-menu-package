@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BionicCommandoNTSC/BionicCommandoNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BionicCommandoNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BionicCommandoNTSC.Slave" $whdloadargs
+ELSE
+  whdload "BionicCommandoNTSC.Slave"
+ENDIF

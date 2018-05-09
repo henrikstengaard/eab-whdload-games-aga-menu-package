@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RallyCrossChallenge/RallyCrossChallenge.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RallyCrossChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "RallyCrossChallenge.Slave" $whdloadargs
+ELSE
+  whdload "RallyCrossChallenge.Slave"
+ENDIF

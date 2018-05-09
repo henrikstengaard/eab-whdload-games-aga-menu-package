@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OsWALDOfTheIceFloes/OsWALDOfTheIceFloes.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OsWALDOfTheIceFloes/"
+IF EXISTS ENV:whdloadargs
+  whdload "OsWALDOfTheIceFloes.Slave" $whdloadargs
+ELSE
+  whdload "OsWALDOfTheIceFloes.Slave"
+ENDIF

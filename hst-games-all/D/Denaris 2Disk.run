@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Denaris2Disk/Denaris2Disk.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Denaris2Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "Denaris2Disk.Slave" $whdloadargs
+ELSE
+  whdload "Denaris2Disk.Slave"
+ENDIF

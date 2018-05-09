@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AxelsMagicHammer/AxelsMagicHammer.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AxelsMagicHammer/"
+IF EXISTS ENV:whdloadargs
+  whdload "AxelsMagicHammer.Slave" $whdloadargs
+ELSE
+  whdload "AxelsMagicHammer.Slave"
+ENDIF

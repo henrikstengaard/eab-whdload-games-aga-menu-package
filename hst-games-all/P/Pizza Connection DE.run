@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PizzaConnectionDe/PizzaConnectionDe.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PizzaConnectionDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "PizzaConnectionDe.Slave" $whdloadargs
+ELSE
+  whdload "PizzaConnectionDe.Slave"
+ENDIF

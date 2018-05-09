@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SphericalWorldsCD/SphericalWorldsCD.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SphericalWorldsCD/"
+IF EXISTS ENV:whdloadargs
+  whdload "SphericalWorldsCD.Slave" $whdloadargs
+ELSE
+  whdload "SphericalWorldsCD.Slave"
+ENDIF

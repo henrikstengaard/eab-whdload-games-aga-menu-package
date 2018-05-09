@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MadTV/MadTV.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MadTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "MadTV.Slave" $whdloadargs
+ELSE
+  whdload "MadTV.Slave"
+ENDIF

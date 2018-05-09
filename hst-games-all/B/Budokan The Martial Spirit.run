@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Budokan/Budokan.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Budokan/"
+IF EXISTS ENV:whdloadargs
+  whdload "Budokan.Slave" $whdloadargs
+ELSE
+  whdload "Budokan.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VermeerDe/VermeerDe.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VermeerDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "VermeerDe.Slave" $whdloadargs
+ELSE
+  whdload "VermeerDe.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpaceCrusade&VoyageBeyond/VoyageBeyond.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SpaceCrusade&VoyageBeyond/"
+IF EXISTS ENV:whdloadargs
+  whdload "VoyageBeyond.Slave" $whdloadargs
+ELSE
+  whdload "VoyageBeyond.Slave"
+ENDIF

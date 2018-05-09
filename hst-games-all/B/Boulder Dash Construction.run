@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BoulderDashConstrKit/BoulderDashConstrKit.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BoulderDashConstrKit/"
+IF EXISTS ENV:whdloadargs
+  whdload "BoulderDashConstrKit.Slave" $whdloadargs
+ELSE
+  whdload "BoulderDashConstrKit.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Twintris/Twintris.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Twintris/"
+IF EXISTS ENV:whdloadargs
+  whdload "Twintris.Slave" $whdloadargs
+ELSE
+  whdload "Twintris.Slave"
+ENDIF

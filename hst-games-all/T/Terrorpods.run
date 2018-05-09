@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Terrorpods/Terrorpods.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Terrorpods/"
+IF EXISTS ENV:whdloadargs
+  whdload "Terrorpods.Slave" $whdloadargs
+ELSE
+  whdload "Terrorpods.Slave"
+ENDIF

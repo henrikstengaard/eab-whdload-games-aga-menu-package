@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RageV2/RageV2.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RageV2/"
+IF EXISTS ENV:whdloadargs
+  whdload "RageV2.Slave" $whdloadargs
+ELSE
+  whdload "RageV2.Slave"
+ENDIF

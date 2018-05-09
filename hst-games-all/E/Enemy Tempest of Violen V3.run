@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EnemyTOVEasyPlayDe/EnemyTOVEasyPlayDe.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EnemyTOVEasyPlayDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "EnemyTOVEasyPlayDe.Slave" $whdloadargs
+ELSE
+  whdload "EnemyTOVEasyPlayDe.Slave"
+ENDIF

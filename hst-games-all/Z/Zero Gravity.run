@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/ZeroGravity/ZeroGravity.Slave
+
+; Run WHDLoad
+cd "A-Games:Z/ZeroGravity/"
+IF EXISTS ENV:whdloadargs
+  whdload "ZeroGravity.Slave" $whdloadargs
+ELSE
+  whdload "ZeroGravity.Slave"
+ENDIF

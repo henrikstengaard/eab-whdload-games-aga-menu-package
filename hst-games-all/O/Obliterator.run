@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Obliterator/Obliterator.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Obliterator/"
+IF EXISTS ENV:whdloadargs
+  whdload "Obliterator.Slave" $whdloadargs
+ELSE
+  whdload "Obliterator.Slave"
+ENDIF

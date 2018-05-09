@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegendMindscape/getlegendsavedisk.slave
+
+; Run WHDLoad
+cd "A-Games:L/LegendMindscape/"
+IF EXISTS ENV:whdloadargs
+  whdload "getlegendsavedisk.slave" $whdloadargs
+ELSE
+  whdload "getlegendsavedisk.slave"
+ENDIF

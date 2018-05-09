@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/Ziriax/Ziriax.slave
+
+; Run WHDLoad
+cd "A-Games:Z/Ziriax/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ziriax.slave" $whdloadargs
+ELSE
+  whdload "Ziriax.slave"
+ENDIF

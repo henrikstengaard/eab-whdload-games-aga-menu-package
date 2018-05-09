@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SideWinder/Sidewinder.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SideWinder/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sidewinder.Slave" $whdloadargs
+ELSE
+  whdload "Sidewinder.Slave"
+ENDIF

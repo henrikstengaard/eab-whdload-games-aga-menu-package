@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RevengeOfMutantCamels/RevengeOfMutantCamels.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RevengeOfMutantCamels/"
+IF EXISTS ENV:whdloadargs
+  whdload "RevengeOfMutantCamels.Slave" $whdloadargs
+ELSE
+  whdload "RevengeOfMutantCamels.Slave"
+ENDIF

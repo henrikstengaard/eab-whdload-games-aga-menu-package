@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperCars1Disk/SuperCars1Disk.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperCars1Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperCars1Disk.Slave" $whdloadargs
+ELSE
+  whdload "SuperCars1Disk.Slave"
+ENDIF

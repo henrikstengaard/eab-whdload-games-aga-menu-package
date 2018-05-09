@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DisposableHeroCD32/DisposableHeroCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DisposableHeroCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "DisposableHeroCD32.Slave" $whdloadargs
+ELSE
+  whdload "DisposableHeroCD32.Slave"
+ENDIF

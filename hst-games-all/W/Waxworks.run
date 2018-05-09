@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/Waxworks/Waxworks.Slave
+
+; Run WHDLoad
+cd "A-Games:W/Waxworks/"
+IF EXISTS ENV:whdloadargs
+  whdload "Waxworks.Slave" $whdloadargs
+ELSE
+  whdload "Waxworks.Slave"
+ENDIF

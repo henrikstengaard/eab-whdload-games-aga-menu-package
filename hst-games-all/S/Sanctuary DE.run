@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SanctuaryDe/SanctuaryDe.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SanctuaryDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "SanctuaryDe.Slave" $whdloadargs
+ELSE
+  whdload "SanctuaryDe.Slave"
+ENDIF

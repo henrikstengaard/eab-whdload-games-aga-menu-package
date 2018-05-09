@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Geisha/Geisha.Slave
+
+; Run WHDLoad
+cd "A-Games:G/Geisha/"
+IF EXISTS ENV:whdloadargs
+  whdload "Geisha.Slave" $whdloadargs
+ELSE
+  whdload "Geisha.Slave"
+ENDIF

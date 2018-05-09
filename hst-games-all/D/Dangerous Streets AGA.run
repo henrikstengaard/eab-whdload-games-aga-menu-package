@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DangerousStreetsAGA/DangerousStreetsAGA.slave
+
+; Run WHDLoad
+cd "A-Games:D/DangerousStreetsAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "DangerousStreetsAGA.slave" $whdloadargs
+ELSE
+  whdload "DangerousStreetsAGA.slave"
+ENDIF

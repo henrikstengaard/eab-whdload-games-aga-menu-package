@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AtlantydaPl/AtlantydaPl.slave
+
+; Run WHDLoad
+cd "A-Games:A/AtlantydaPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "AtlantydaPl.slave" $whdloadargs
+ELSE
+  whdload "AtlantydaPl.slave"
+ENDIF

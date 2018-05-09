@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GuardianCD32/GuardianCD32.slave
+
+; Run WHDLoad
+cd "A-Games:G/GuardianCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "GuardianCD32.slave" $whdloadargs
+ELSE
+  whdload "GuardianCD32.slave"
+ENDIF

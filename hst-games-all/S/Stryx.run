@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Stryx/Stryx.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Stryx/"
+IF EXISTS ENV:whdloadargs
+  whdload "Stryx.Slave" $whdloadargs
+ELSE
+  whdload "Stryx.Slave"
+ENDIF

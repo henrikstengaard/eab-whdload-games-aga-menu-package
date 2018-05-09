@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/Ivanhoe/Ivanhoe.slave
+
+; Run WHDLoad
+cd "A-Games:I/Ivanhoe/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ivanhoe.slave" $whdloadargs
+ELSE
+  whdload "Ivanhoe.slave"
+ENDIF

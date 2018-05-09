@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LabyrintheDAnglomania1Fr/LabyrintheDAnglomania1Fr.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LabyrintheDAnglomania1Fr/"
+IF EXISTS ENV:whdloadargs
+  whdload "LabyrintheDAnglomania1Fr.Slave" $whdloadargs
+ELSE
+  whdload "LabyrintheDAnglomania1Fr.Slave"
+ENDIF

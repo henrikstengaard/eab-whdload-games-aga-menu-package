@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpaceQuest2/SpaceQuest2.slave
+
+; Run WHDLoad
+cd "A-Games:S/SpaceQuest2/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpaceQuest2.slave" $whdloadargs
+ELSE
+  whdload "SpaceQuest2.slave"
+ENDIF

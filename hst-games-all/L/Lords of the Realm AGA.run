@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LordsOfTheRealmAGA/LordsOfTheRealmAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LordsOfTheRealmAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "LordsOfTheRealmAGA.Slave" $whdloadargs
+ELSE
+  whdload "LordsOfTheRealmAGA.Slave"
+ENDIF

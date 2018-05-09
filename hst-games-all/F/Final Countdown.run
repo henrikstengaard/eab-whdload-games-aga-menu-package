@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FinalCountdown/FinalCountdown.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FinalCountdown/"
+IF EXISTS ENV:whdloadargs
+  whdload "FinalCountdown.Slave" $whdloadargs
+ELSE
+  whdload "FinalCountdown.Slave"
+ENDIF

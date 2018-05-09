@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MafdetAndTheBookOfTheDead/MafdetAndTheBookOfTheDead.slave
+
+; Run WHDLoad
+cd "A-Games:M/MafdetAndTheBookOfTheDead/"
+IF EXISTS ENV:whdloadargs
+  whdload "MafdetAndTheBookOfTheDead.slave" $whdloadargs
+ELSE
+  whdload "MafdetAndTheBookOfTheDead.slave"
+ENDIF

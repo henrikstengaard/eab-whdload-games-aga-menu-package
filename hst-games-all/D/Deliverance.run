@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Deliverance/Deliverance.slave
+
+; Run WHDLoad
+cd "A-Games:D/Deliverance/"
+IF EXISTS ENV:whdloadargs
+  whdload "Deliverance.slave" $whdloadargs
+ELSE
+  whdload "Deliverance.slave"
+ENDIF

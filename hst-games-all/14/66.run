@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/MegaBall/"
-IF EXISTS ENV:whdloadargs
-  whdload "MegaBall.slave" $whdloadargs
-ELSE
-  whdload "MegaBall.slave"
-ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DungeonsOfAvalon/DungeonsOfAvalon.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DungeonsOfAvalon/"
+IF EXISTS ENV:whdloadargs
+  whdload "DungeonsOfAvalon.Slave" $whdloadargs
+ELSE
+  whdload "DungeonsOfAvalon.Slave"
+ENDIF

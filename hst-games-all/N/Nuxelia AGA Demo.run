@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NuxeliaDemo/NuxeliaDemo.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NuxeliaDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "NuxeliaDemo.Slave" $whdloadargs
+ELSE
+  whdload "NuxeliaDemo.Slave"
+ENDIF

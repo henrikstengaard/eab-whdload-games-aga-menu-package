@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Exolon/Exolon.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Exolon/"
+IF EXISTS ENV:whdloadargs
+  whdload "Exolon.Slave" $whdloadargs
+ELSE
+  whdload "Exolon.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/KingsQuest/KingsQuest.slave
+
+; Run WHDLoad
+cd "A-Games:K/KingsQuest/"
+IF EXISTS ENV:whdloadargs
+  whdload "KingsQuest.slave" $whdloadargs
+ELSE
+  whdload "KingsQuest.slave"
+ENDIF

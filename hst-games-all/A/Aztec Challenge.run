@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AztecChallenge/AztecChallenge.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AztecChallenge/"
+IF EXISTS ENV:whdloadargs
+  whdload "AztecChallenge.Slave" $whdloadargs
+ELSE
+  whdload "AztecChallenge.Slave"
+ENDIF

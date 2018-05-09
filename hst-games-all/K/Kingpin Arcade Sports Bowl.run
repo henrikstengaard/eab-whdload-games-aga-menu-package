@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/KingpinDemo/KingpinDemo.Slave
+
+; Run WHDLoad
+cd "A-Games:K/KingpinDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "KingpinDemo.Slave" $whdloadargs
+ELSE
+  whdload "KingpinDemo.Slave"
+ENDIF

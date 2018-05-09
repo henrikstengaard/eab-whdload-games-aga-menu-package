@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/Backlash/Backlash.Slave
+
+; Run WHDLoad
+cd "A-Games:B/Backlash/"
+IF EXISTS ENV:whdloadargs
+  whdload "Backlash.Slave" $whdloadargs
+ELSE
+  whdload "Backlash.Slave"
+ENDIF

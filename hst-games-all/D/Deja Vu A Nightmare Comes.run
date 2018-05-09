@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DejaVuANightmareComesTrue/DejaVuANightmareComesTrue.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DejaVuANightmareComesTrue/"
+IF EXISTS ENV:whdloadargs
+  whdload "DejaVuANightmareComesTrue.Slave" $whdloadargs
+ELSE
+  whdload "DejaVuANightmareComesTrue.Slave"
+ENDIF

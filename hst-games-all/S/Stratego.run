@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Stratego/Stratego.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Stratego/"
+IF EXISTS ENV:whdloadargs
+  whdload "Stratego.Slave" $whdloadargs
+ELSE
+  whdload "Stratego.Slave"
+ENDIF

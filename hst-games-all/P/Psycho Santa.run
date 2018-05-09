@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PsychoSanta/PsychoSanta.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PsychoSanta/"
+IF EXISTS ENV:whdloadargs
+  whdload "PsychoSanta.Slave" $whdloadargs
+ELSE
+  whdload "PsychoSanta.Slave"
+ENDIF

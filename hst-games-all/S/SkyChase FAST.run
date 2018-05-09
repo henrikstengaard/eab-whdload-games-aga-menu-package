@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SkyChaseFast/SkyChaseFast.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SkyChaseFast/"
+IF EXISTS ENV:whdloadargs
+  whdload "SkyChaseFast.Slave" $whdloadargs
+ELSE
+  whdload "SkyChaseFast.Slave"
+ENDIF

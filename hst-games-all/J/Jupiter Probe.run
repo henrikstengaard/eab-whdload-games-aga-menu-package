@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/JupiterProbe/JupiterProbe.Slave
+
+; Run WHDLoad
+cd "A-Games:J/JupiterProbe/"
+IF EXISTS ENV:whdloadargs
+  whdload "JupiterProbe.Slave" $whdloadargs
+ELSE
+  whdload "JupiterProbe.Slave"
+ENDIF

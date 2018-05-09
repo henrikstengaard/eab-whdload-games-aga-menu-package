@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ChaosInAndromedaCDTV/ChaosInAndromedaCDTV.Slave
+
+; Run WHDLoad
+cd "A-Games:C/ChaosInAndromedaCDTV/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChaosInAndromedaCDTV.Slave" $whdloadargs
+ELSE
+  whdload "ChaosInAndromedaCDTV.Slave"
+ENDIF

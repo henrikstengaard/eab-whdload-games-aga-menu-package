@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LeaderBoard/Leaderboard.slave
+
+; Run WHDLoad
+cd "A-Games:L/LeaderBoard/"
+IF EXISTS ENV:whdloadargs
+  whdload "Leaderboard.slave" $whdloadargs
+ELSE
+  whdload "Leaderboard.slave"
+ENDIF

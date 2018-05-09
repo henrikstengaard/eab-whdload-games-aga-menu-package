@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VenomWing/VenomWing.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VenomWing/"
+IF EXISTS ENV:whdloadargs
+  whdload "VenomWing.Slave" $whdloadargs
+ELSE
+  whdload "VenomWing.Slave"
+ENDIF

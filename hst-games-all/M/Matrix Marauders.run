@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MatrixMarauders/MatrixMarauders.slave
+
+; Run WHDLoad
+cd "A-Games:M/MatrixMarauders/"
+IF EXISTS ENV:whdloadargs
+  whdload "MatrixMarauders.slave" $whdloadargs
+ELSE
+  whdload "MatrixMarauders.slave"
+ENDIF

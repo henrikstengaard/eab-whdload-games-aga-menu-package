@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/APBFiles/APBFiles.slave
+
+; Run WHDLoad
+cd "A-Games:A/APBFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "APBFiles.slave" $whdloadargs
+ELSE
+  whdload "APBFiles.slave"
+ENDIF

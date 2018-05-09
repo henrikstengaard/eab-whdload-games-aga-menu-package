@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LureOfTheTemptressFr/LureOfTheTemptressFr.slave
+
+; Run WHDLoad
+cd "A-Games:L/LureOfTheTemptressFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "LureOfTheTemptressFr.slave" $whdloadargs
+ELSE
+  whdload "LureOfTheTemptressFr.slave"
+ENDIF

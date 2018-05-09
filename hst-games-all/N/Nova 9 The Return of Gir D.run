@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/Nova9/Nova9.Slave
+
+; Run WHDLoad
+cd "A-Games:N/Nova9/"
+IF EXISTS ENV:whdloadargs
+  whdload "Nova9.Slave" $whdloadargs
+ELSE
+  whdload "Nova9.Slave"
+ENDIF

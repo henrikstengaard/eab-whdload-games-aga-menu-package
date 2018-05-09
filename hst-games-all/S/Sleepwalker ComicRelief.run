@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SleepwalkerComicRelief/SleepwalkerComicRelief.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SleepwalkerComicRelief/"
+IF EXISTS ENV:whdloadargs
+  whdload "SleepwalkerComicRelief.Slave" $whdloadargs
+ELSE
+  whdload "SleepwalkerComicRelief.Slave"
+ENDIF

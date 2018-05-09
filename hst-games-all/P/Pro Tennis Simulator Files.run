@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ProTennisSimulatorFiles/ProTennisSimulatorFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ProTennisSimulatorFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "ProTennisSimulatorFiles.Slave" $whdloadargs
+ELSE
+  whdload "ProTennisSimulatorFiles.Slave"
+ENDIF

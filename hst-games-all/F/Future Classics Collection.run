@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FutureClassicsCollection/FutureClassicsCollection.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FutureClassicsCollection/"
+IF EXISTS ENV:whdloadargs
+  whdload "FutureClassicsCollection.Slave" $whdloadargs
+ELSE
+  whdload "FutureClassicsCollection.Slave"
+ENDIF

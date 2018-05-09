@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:A/AnstossDe/"
-IF EXISTS ENV:whdloadargs
-  whdload "AnstossDe.slave" $whdloadargs
-ELSE
-  whdload "AnstossDe.slave"
-ENDIF

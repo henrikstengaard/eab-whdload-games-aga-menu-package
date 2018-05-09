@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AncientArtOfWarInTheSkies/AncientArtOfWarInTheSkies.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AncientArtOfWarInTheSkies/"
+IF EXISTS ENV:whdloadargs
+  whdload "AncientArtOfWarInTheSkies.Slave" $whdloadargs
+ELSE
+  whdload "AncientArtOfWarInTheSkies.Slave"
+ENDIF

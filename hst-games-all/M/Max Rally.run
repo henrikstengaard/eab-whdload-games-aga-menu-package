@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MaxRally/MaxRally.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MaxRally/"
+IF EXISTS ENV:whdloadargs
+  whdload "MaxRally.Slave" $whdloadargs
+ELSE
+  whdload "MaxRally.Slave"
+ENDIF

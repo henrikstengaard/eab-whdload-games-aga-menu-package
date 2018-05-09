@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TitusTheFox/TitusTheFox.slave
+
+; Run WHDLoad
+cd "A-Games:T/TitusTheFox/"
+IF EXISTS ENV:whdloadargs
+  whdload "TitusTheFox.slave" $whdloadargs
+ELSE
+  whdload "TitusTheFox.slave"
+ENDIF

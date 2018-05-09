@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StarushImage/StarushImage.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StarushImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarushImage.Slave" $whdloadargs
+ELSE
+  whdload "StarushImage.Slave"
+ENDIF

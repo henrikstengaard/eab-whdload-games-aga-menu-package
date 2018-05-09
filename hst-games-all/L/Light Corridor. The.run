@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LightCorridor/LightCorridor.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LightCorridor/"
+IF EXISTS ENV:whdloadargs
+  whdload "LightCorridor.Slave" $whdloadargs
+ELSE
+  whdload "LightCorridor.Slave"
+ENDIF

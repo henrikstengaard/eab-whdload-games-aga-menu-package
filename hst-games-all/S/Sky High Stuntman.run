@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SkyHighStuntman/SkyHighStuntman.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SkyHighStuntman/"
+IF EXISTS ENV:whdloadargs
+  whdload "SkyHighStuntman.Slave" $whdloadargs
+ELSE
+  whdload "SkyHighStuntman.Slave"
+ENDIF

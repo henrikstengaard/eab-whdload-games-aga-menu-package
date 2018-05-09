@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MentorPl/MentorPl.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MentorPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "MentorPl.Slave" $whdloadargs
+ELSE
+  whdload "MentorPl.Slave"
+ENDIF

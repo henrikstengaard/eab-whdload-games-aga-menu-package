@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RedHeat/RedHeat.slave
+
+; Run WHDLoad
+cd "A-Games:R/RedHeat/"
+IF EXISTS ENV:whdloadargs
+  whdload "RedHeat.slave" $whdloadargs
+ELSE
+  whdload "RedHeat.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PowerplayEs/PowerplayEs.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PowerplayEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "PowerplayEs.Slave" $whdloadargs
+ELSE
+  whdload "PowerplayEs.Slave"
+ENDIF

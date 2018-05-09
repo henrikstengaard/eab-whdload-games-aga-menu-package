@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SonicBoom/SonicBoom.slave
+
+; Run WHDLoad
+cd "A-Games:S/SonicBoom/"
+IF EXISTS ENV:whdloadargs
+  whdload "SonicBoom.slave" $whdloadargs
+ELSE
+  whdload "SonicBoom.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegendsOfValour/LegendsOfValour.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LegendsOfValour/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegendsOfValour.Slave" $whdloadargs
+ELSE
+  whdload "LegendsOfValour.Slave"
+ENDIF

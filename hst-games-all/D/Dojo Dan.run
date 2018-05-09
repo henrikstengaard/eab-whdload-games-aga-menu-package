@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DojoDan/DojoDan.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DojoDan/"
+IF EXISTS ENV:whdloadargs
+  whdload "DojoDan.Slave" $whdloadargs
+ELSE
+  whdload "DojoDan.Slave"
+ENDIF

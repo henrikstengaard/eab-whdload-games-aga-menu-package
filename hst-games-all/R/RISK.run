@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/Risk/Risk.Slave
+
+; Run WHDLoad
+cd "A-Games:R/Risk/"
+IF EXISTS ENV:whdloadargs
+  whdload "Risk.Slave" $whdloadargs
+ELSE
+  whdload "Risk.Slave"
+ENDIF

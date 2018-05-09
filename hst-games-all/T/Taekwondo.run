@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Taekwondo/Taekwondo.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Taekwondo/"
+IF EXISTS ENV:whdloadargs
+  whdload "Taekwondo.Slave" $whdloadargs
+ELSE
+  whdload "Taekwondo.Slave"
+ENDIF

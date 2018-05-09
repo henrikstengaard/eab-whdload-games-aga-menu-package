@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/Lollypop/Lollypop.Slave
+
+; Run WHDLoad
+cd "A-Games:L/Lollypop/"
+IF EXISTS ENV:whdloadargs
+  whdload "Lollypop.Slave" $whdloadargs
+ELSE
+  whdload "Lollypop.Slave"
+ENDIF

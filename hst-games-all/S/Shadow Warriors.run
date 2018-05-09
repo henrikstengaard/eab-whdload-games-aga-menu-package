@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShadowWarriors/ShadowWarriors.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShadowWarriors/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShadowWarriors.Slave" $whdloadargs
+ELSE
+  whdload "ShadowWarriors.Slave"
+ENDIF

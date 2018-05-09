@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EmbryoDe/EmbryoDe.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EmbryoDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "EmbryoDe.Slave" $whdloadargs
+ELSE
+  whdload "EmbryoDe.Slave"
+ENDIF

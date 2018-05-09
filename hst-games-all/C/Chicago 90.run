@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Chicago90/Chicago90.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Chicago90/"
+IF EXISTS ENV:whdloadargs
+  whdload "Chicago90.Slave" $whdloadargs
+ELSE
+  whdload "Chicago90.Slave"
+ENDIF

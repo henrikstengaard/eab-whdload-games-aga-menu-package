@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FateGatesOfDawnDe/FateGatesOfDawnDe.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FateGatesOfDawnDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "FateGatesOfDawnDe.Slave" $whdloadargs
+ELSE
+  whdload "FateGatesOfDawnDe.Slave"
+ENDIF

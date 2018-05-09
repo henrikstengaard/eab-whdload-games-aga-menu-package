@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/InertiaDrive/InertiaDrive.Slave
+
+; Run WHDLoad
+cd "A-Games:I/InertiaDrive/"
+IF EXISTS ENV:whdloadargs
+  whdload "InertiaDrive.Slave" $whdloadargs
+ELSE
+  whdload "InertiaDrive.Slave"
+ENDIF

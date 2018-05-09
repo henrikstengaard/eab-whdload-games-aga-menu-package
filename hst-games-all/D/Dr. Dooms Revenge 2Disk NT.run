@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DrDoomsRevengeNTSC2Disk/DrDoomsRevengeNTSC2Disk.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DrDoomsRevengeNTSC2Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "DrDoomsRevengeNTSC2Disk.Slave" $whdloadargs
+ELSE
+  whdload "DrDoomsRevengeNTSC2Disk.Slave"
+ENDIF

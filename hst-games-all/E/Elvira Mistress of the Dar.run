@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Elvira/Elvira.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Elvira/"
+IF EXISTS ENV:whdloadargs
+  whdload "Elvira.Slave" $whdloadargs
+ELSE
+  whdload "Elvira.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LemmingsNewYear9192/LemmingsNewYear9192.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LemmingsNewYear9192/"
+IF EXISTS ENV:whdloadargs
+  whdload "LemmingsNewYear9192.Slave" $whdloadargs
+ELSE
+  whdload "LemmingsNewYear9192.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Hacker2/Hacker2.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Hacker2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hacker2.Slave" $whdloadargs
+ELSE
+  whdload "Hacker2.Slave"
+ENDIF

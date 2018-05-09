@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Detonator/Detonator.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Detonator/"
+IF EXISTS ENV:whdloadargs
+  whdload "Detonator.Slave" $whdloadargs
+ELSE
+  whdload "Detonator.Slave"
+ENDIF

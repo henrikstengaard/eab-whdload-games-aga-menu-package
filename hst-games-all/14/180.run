@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:M/MythHistoryInTheMaking/"
-IF EXISTS ENV:whdloadargs
-  whdload "MythHistoryInTheMaking.slave" $whdloadargs
-ELSE
-  whdload "MythHistoryInTheMaking.slave"
-ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GlobalTrek/GlobalTrek.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GlobalTrek/"
+IF EXISTS ENV:whdloadargs
+  whdload "GlobalTrek.Slave" $whdloadargs
+ELSE
+  whdload "GlobalTrek.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GuldkornExpressenDk512KB/GuldkornExpressenDk512KB.slave
+
+; Run WHDLoad
+cd "A-Games:G/GuldkornExpressenDk512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "GuldkornExpressenDk512KB.slave" $whdloadargs
+ELSE
+  whdload "GuldkornExpressenDk512KB.slave"
+ENDIF

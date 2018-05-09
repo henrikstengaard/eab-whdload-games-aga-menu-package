@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MayaEs/MayaEs.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MayaEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "MayaEs.Slave" $whdloadargs
+ELSE
+  whdload "MayaEs.Slave"
+ENDIF

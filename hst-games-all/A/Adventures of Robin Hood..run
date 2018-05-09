@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AdventuresOfRobinHood/AdventuresOfRobinHood.slave
+
+; Run WHDLoad
+cd "A-Games:A/AdventuresOfRobinHood/"
+IF EXISTS ENV:whdloadargs
+  whdload "AdventuresOfRobinHood.slave" $whdloadargs
+ELSE
+  whdload "AdventuresOfRobinHood.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Gainforce/Gainforce.Slave
+
+; Run WHDLoad
+cd "A-Games:G/Gainforce/"
+IF EXISTS ENV:whdloadargs
+  whdload "Gainforce.Slave" $whdloadargs
+ELSE
+  whdload "Gainforce.Slave"
+ENDIF

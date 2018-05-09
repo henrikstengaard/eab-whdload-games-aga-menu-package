@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/Zeewolf/Zeewolf.slave
+
+; Run WHDLoad
+cd "A-Games:Z/Zeewolf/"
+IF EXISTS ENV:whdloadargs
+  whdload "Zeewolf.slave" $whdloadargs
+ELSE
+  whdload "Zeewolf.slave"
+ENDIF

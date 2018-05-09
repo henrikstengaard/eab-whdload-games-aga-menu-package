@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FliesAttackOnEarthDe/FliesAttackOnEarthDe.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FliesAttackOnEarthDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "FliesAttackOnEarthDe.Slave" $whdloadargs
+ELSE
+  whdload "FliesAttackOnEarthDe.Slave"
+ENDIF

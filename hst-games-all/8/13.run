@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:G/GameOfHarmony/"
-IF EXISTS ENV:whdloadargs
-  whdload "GameOfHarmony.Slave" $whdloadargs
-ELSE
-  whdload "GameOfHarmony.Slave"
-ENDIF

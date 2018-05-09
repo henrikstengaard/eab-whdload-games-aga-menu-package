@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MortonStrikesBack/MortonStrikesBack.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MortonStrikesBack/"
+IF EXISTS ENV:whdloadargs
+  whdload "MortonStrikesBack.Slave" $whdloadargs
+ELSE
+  whdload "MortonStrikesBack.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VoyagesOfDiscovery/VoyagesOfDiscovery.slave
+
+; Run WHDLoad
+cd "A-Games:V/VoyagesOfDiscovery/"
+IF EXISTS ENV:whdloadargs
+  whdload "VoyagesOfDiscovery.slave" $whdloadargs
+ELSE
+  whdload "VoyagesOfDiscovery.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Obsession/Obsession.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Obsession/"
+IF EXISTS ENV:whdloadargs
+  whdload "Obsession.Slave" $whdloadargs
+ELSE
+  whdload "Obsession.Slave"
+ENDIF

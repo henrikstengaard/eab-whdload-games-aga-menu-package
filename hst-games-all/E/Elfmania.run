@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Elfmania/Elfmania.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Elfmania/"
+IF EXISTS ENV:whdloadargs
+  whdload "Elfmania.Slave" $whdloadargs
+ELSE
+  whdload "Elfmania.Slave"
+ENDIF

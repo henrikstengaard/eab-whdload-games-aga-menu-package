@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Damocles/Damocles.slave
+
+; Run WHDLoad
+cd "A-Games:D/Damocles/"
+IF EXISTS ENV:whdloadargs
+  whdload "Damocles.slave" $whdloadargs
+ELSE
+  whdload "Damocles.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pawn/Pawn.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Pawn/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pawn.Slave" $whdloadargs
+ELSE
+  whdload "Pawn.Slave"
+ENDIF

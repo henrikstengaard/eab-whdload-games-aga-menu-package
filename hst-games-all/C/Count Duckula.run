@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CountDuckula/CountDuckula.slave
+
+; Run WHDLoad
+cd "A-Games:C/CountDuckula/"
+IF EXISTS ENV:whdloadargs
+  whdload "CountDuckula.slave" $whdloadargs
+ELSE
+  whdload "CountDuckula.slave"
+ENDIF

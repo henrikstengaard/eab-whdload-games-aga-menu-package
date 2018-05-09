@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WildWheels/WildWheels.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WildWheels/"
+IF EXISTS ENV:whdloadargs
+  whdload "WildWheels.Slave" $whdloadargs
+ELSE
+  whdload "WildWheels.Slave"
+ENDIF

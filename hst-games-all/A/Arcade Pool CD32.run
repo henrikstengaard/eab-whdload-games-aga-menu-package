@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ArcadePoolCD32/ArcadePoolCD32.slave
+
+; Run WHDLoad
+cd "A-Games:A/ArcadePoolCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "ArcadePoolCD32.slave" $whdloadargs
+ELSE
+  whdload "ArcadePoolCD32.slave"
+ENDIF

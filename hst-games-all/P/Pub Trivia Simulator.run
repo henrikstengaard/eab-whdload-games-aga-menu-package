@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PubTriviaSimulator/PubTriviaSimulator.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PubTriviaSimulator/"
+IF EXISTS ENV:whdloadargs
+  whdload "PubTriviaSimulator.Slave" $whdloadargs
+ELSE
+  whdload "PubTriviaSimulator.Slave"
+ENDIF

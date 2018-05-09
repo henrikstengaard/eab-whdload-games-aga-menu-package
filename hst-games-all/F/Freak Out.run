@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FreakOut/FreakOut.slave
+
+; Run WHDLoad
+cd "A-Games:F/FreakOut/"
+IF EXISTS ENV:whdloadargs
+  whdload "FreakOut.slave" $whdloadargs
+ELSE
+  whdload "FreakOut.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WarlockTheAvenger/WarlockTheAvenger.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WarlockTheAvenger/"
+IF EXISTS ENV:whdloadargs
+  whdload "WarlockTheAvenger.Slave" $whdloadargs
+ELSE
+  whdload "WarlockTheAvenger.Slave"
+ENDIF

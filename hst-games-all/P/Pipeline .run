@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PipelineOracle/PipelineOracle.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PipelineOracle/"
+IF EXISTS ENV:whdloadargs
+  whdload "PipelineOracle.Slave" $whdloadargs
+ELSE
+  whdload "PipelineOracle.Slave"
+ENDIF

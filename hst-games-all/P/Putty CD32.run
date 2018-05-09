@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperPuttyCD32/SuperPuttyCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperPuttyCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperPuttyCD32.Slave" $whdloadargs
+ELSE
+  whdload "SuperPuttyCD32.Slave"
+ENDIF

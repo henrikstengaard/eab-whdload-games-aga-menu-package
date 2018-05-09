@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Mindbender/Mindbender.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Mindbender/"
+IF EXISTS ENV:whdloadargs
+  whdload "Mindbender.Slave" $whdloadargs
+ELSE
+  whdload "Mindbender.Slave"
+ENDIF

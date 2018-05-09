@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DrivinForce/DrivinForce.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DrivinForce/"
+IF EXISTS ENV:whdloadargs
+  whdload "DrivinForce.Slave" $whdloadargs
+ELSE
+  whdload "DrivinForce.Slave"
+ENDIF

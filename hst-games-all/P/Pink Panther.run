@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PinkPanther/PinkPanther.slave
+
+; Run WHDLoad
+cd "A-Games:P/PinkPanther/"
+IF EXISTS ENV:whdloadargs
+  whdload "PinkPanther.slave" $whdloadargs
+ELSE
+  whdload "PinkPanther.slave"
+ENDIF

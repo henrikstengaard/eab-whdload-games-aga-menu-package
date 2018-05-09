@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Exterminator/Exterminator.slave
+
+; Run WHDLoad
+cd "A-Games:E/Exterminator/"
+IF EXISTS ENV:whdloadargs
+  whdload "Exterminator.slave" $whdloadargs
+ELSE
+  whdload "Exterminator.slave"
+ENDIF

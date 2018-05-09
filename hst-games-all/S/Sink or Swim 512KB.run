@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SinkOrSwim512KB/SinkOrSwim512KB.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SinkOrSwim512KB/"
+IF EXISTS ENV:whdloadargs
+  whdload "SinkOrSwim512KB.Slave" $whdloadargs
+ELSE
+  whdload "SinkOrSwim512KB.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ApidyaAudios/ApidyaAudios.slave
+
+; Run WHDLoad
+cd "A-Games:A/ApidyaAudios/"
+IF EXISTS ENV:whdloadargs
+  whdload "ApidyaAudios.slave" $whdloadargs
+ELSE
+  whdload "ApidyaAudios.slave"
+ENDIF

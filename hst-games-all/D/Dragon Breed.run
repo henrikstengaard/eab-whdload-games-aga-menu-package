@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DragonBreed/DragonBreed.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DragonBreed/"
+IF EXISTS ENV:whdloadargs
+  whdload "DragonBreed.Slave" $whdloadargs
+ELSE
+  whdload "DragonBreed.Slave"
+ENDIF

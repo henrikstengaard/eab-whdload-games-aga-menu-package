@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TotalRecallImage/TotalRecallImage.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TotalRecallImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "TotalRecallImage.Slave" $whdloadargs
+ELSE
+  whdload "TotalRecallImage.Slave"
+ENDIF

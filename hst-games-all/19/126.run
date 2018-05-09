@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:R/RuffNTumble/"
-IF EXISTS ENV:whdloadargs
-  whdload "RuffNTumble.slave" $whdloadargs
-ELSE
-  whdload "RuffNTumble.slave"
-ENDIF

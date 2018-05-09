@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DistantArmies/DistantArmies.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DistantArmies/"
+IF EXISTS ENV:whdloadargs
+  whdload "DistantArmies.Slave" $whdloadargs
+ELSE
+  whdload "DistantArmies.Slave"
+ENDIF

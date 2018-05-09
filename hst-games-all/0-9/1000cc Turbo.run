@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/1000ccTurbo/1000ccTurbo.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/1000ccTurbo/"
+IF EXISTS ENV:whdloadargs
+  whdload "1000ccTurbo.Slave" $whdloadargs
+ELSE
+  whdload "1000ccTurbo.Slave"
+ENDIF

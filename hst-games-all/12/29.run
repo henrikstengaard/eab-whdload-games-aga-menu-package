@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:K/KickOff2FinalWhistle/"
-IF EXISTS ENV:whdloadargs
-  whdload "KickOff2FinalWhistle.slave" $whdloadargs
-ELSE
-  whdload "KickOff2FinalWhistle.slave"
-ENDIF

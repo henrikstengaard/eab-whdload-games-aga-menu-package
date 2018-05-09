@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/UnrealNTSC/UnrealNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:U/UnrealNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "UnrealNTSC.Slave" $whdloadargs
+ELSE
+  whdload "UnrealNTSC.Slave"
+ENDIF

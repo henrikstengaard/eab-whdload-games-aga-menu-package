@@ -1,7 +1,0 @@
-; Run WHDLoad
-cd "A-Games:H/Hydra/"
-IF EXISTS ENV:whdloadargs
-  whdload "Hydra.Slave" $whdloadargs
-ELSE
-  whdload "Hydra.Slave"
-ENDIF

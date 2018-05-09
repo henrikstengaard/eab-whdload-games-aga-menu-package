@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MonsterBusiness/MonsterBusiness.slave
+
+; Run WHDLoad
+cd "A-Games:M/MonsterBusiness/"
+IF EXISTS ENV:whdloadargs
+  whdload "MonsterBusiness.slave" $whdloadargs
+ELSE
+  whdload "MonsterBusiness.slave"
+ENDIF

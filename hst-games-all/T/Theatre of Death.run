@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TheatreOfDeath/TheatreOfDeath.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TheatreOfDeath/"
+IF EXISTS ENV:whdloadargs
+  whdload "TheatreOfDeath.Slave" $whdloadargs
+ELSE
+  whdload "TheatreOfDeath.Slave"
+ENDIF

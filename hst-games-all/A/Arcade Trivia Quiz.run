@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ArcadeTriviaQuiz/ArcadeTriviaQuiz.slave
+
+; Run WHDLoad
+cd "A-Games:A/ArcadeTriviaQuiz/"
+IF EXISTS ENV:whdloadargs
+  whdload "ArcadeTriviaQuiz.slave" $whdloadargs
+ELSE
+  whdload "ArcadeTriviaQuiz.slave"
+ENDIF

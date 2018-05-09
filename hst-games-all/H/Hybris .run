@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/Hybris/Hybris.Slave
+
+; Run WHDLoad
+cd "A-Games:H/Hybris/"
+IF EXISTS ENV:whdloadargs
+  whdload "Hybris.Slave" $whdloadargs
+ELSE
+  whdload "Hybris.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CrazyCars3/CrazyCars3.slave
+
+; Run WHDLoad
+cd "A-Games:C/CrazyCars3/"
+IF EXISTS ENV:whdloadargs
+  whdload "CrazyCars3.slave" $whdloadargs
+ELSE
+  whdload "CrazyCars3.slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WisielecPl/WisielecPl.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WisielecPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "WisielecPl.Slave" $whdloadargs
+ELSE
+  whdload "WisielecPl.Slave"
+ENDIF

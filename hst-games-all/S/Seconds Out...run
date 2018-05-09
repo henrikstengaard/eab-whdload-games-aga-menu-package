@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SecondsOut/SecondsOut.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SecondsOut/"
+IF EXISTS ENV:whdloadargs
+  whdload "SecondsOut.Slave" $whdloadargs
+ELSE
+  whdload "SecondsOut.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IceRunner/IceRunner.Slave
+
+; Run WHDLoad
+cd "A-Games:I/IceRunner/"
+IF EXISTS ENV:whdloadargs
+  whdload "IceRunner.Slave" $whdloadargs
+ELSE
+  whdload "IceRunner.Slave"
+ENDIF

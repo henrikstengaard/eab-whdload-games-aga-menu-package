@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SurfNinjasAGA/SurfNinjasAGA.slave
+
+; Run WHDLoad
+cd "A-Games:S/SurfNinjasAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SurfNinjasAGA.slave" $whdloadargs
+ELSE
+  whdload "SurfNinjasAGA.slave"
+ENDIF

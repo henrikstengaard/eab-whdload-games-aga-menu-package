@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Croak/Croak.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Croak/"
+IF EXISTS ENV:whdloadargs
+  whdload "Croak.Slave" $whdloadargs
+ELSE
+  whdload "Croak.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DecimalDungeon/DecimalDungeon.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DecimalDungeon/"
+IF EXISTS ENV:whdloadargs
+  whdload "DecimalDungeon.Slave" $whdloadargs
+ELSE
+  whdload "DecimalDungeon.Slave"
+ENDIF

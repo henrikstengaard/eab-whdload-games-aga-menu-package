@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IndianaJonesAtlantisAct/IndianaJonesAtlantisAct.slave
+
+; Run WHDLoad
+cd "A-Games:I/IndianaJonesAtlantisAct/"
+IF EXISTS ENV:whdloadargs
+  whdload "IndianaJonesAtlantisAct.slave" $whdloadargs
+ELSE
+  whdload "IndianaJonesAtlantisAct.slave"
+ENDIF

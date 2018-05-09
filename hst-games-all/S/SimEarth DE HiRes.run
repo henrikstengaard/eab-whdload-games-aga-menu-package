@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SimEarthHiResDe/SimEarthHiResDe.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SimEarthHiResDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "SimEarthHiResDe.Slave" $whdloadargs
+ELSE
+  whdload "SimEarthHiResDe.Slave"
+ENDIF

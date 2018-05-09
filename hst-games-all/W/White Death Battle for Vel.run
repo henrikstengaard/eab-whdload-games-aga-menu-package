@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WhiteDeath/WhiteDeath.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WhiteDeath/"
+IF EXISTS ENV:whdloadargs
+  whdload "WhiteDeath.Slave" $whdloadargs
+ELSE
+  whdload "WhiteDeath.Slave"
+ENDIF

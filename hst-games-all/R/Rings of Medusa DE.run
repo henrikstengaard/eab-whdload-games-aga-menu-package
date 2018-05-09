@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RingsOfMedusaDe/RingsOfMedusaDe.Slave
+
+; Run WHDLoad
+cd "A-Games:R/RingsOfMedusaDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "RingsOfMedusaDe.Slave" $whdloadargs
+ELSE
+  whdload "RingsOfMedusaDe.Slave"
+ENDIF

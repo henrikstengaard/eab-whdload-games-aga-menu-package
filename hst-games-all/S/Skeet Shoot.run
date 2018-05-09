@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SkeetShoot/SkeetShoot.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SkeetShoot/"
+IF EXISTS ENV:whdloadargs
+  whdload "SkeetShoot.Slave" $whdloadargs
+ELSE
+  whdload "SkeetShoot.Slave"
+ENDIF

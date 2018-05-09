@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SensibleTrainSpotting/SensibleTrainSpotting.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SensibleTrainSpotting/"
+IF EXISTS ENV:whdloadargs
+  whdload "SensibleTrainSpotting.Slave" $whdloadargs
+ELSE
+  whdload "SensibleTrainSpotting.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WebOfTerror/WebOfTerror.slave
+
+; Run WHDLoad
+cd "A-Games:W/WebOfTerror/"
+IF EXISTS ENV:whdloadargs
+  whdload "WebOfTerror.slave" $whdloadargs
+ELSE
+  whdload "WebOfTerror.slave"
+ENDIF

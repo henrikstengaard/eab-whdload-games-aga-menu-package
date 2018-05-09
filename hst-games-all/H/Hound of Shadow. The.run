@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HoundOfShadow/HoundOfShadow.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HoundOfShadow/"
+IF EXISTS ENV:whdloadargs
+  whdload "HoundOfShadow.Slave" $whdloadargs
+ELSE
+  whdload "HoundOfShadow.Slave"
+ENDIF

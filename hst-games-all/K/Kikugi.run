@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/Kikugi/Kikugi.Slave
+
+; Run WHDLoad
+cd "A-Games:K/Kikugi/"
+IF EXISTS ENV:whdloadargs
+  whdload "Kikugi.Slave" $whdloadargs
+ELSE
+  whdload "Kikugi.Slave"
+ENDIF

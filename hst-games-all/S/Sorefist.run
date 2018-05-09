@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Sorefist/Sorefist.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Sorefist/"
+IF EXISTS ENV:whdloadargs
+  whdload "Sorefist.Slave" $whdloadargs
+ELSE
+  whdload "Sorefist.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PinballFntsiesCD32/PinballFntsiesCD32.slave
+
+; Run WHDLoad
+cd "A-Games:P/PinballFntsiesCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "PinballFntsiesCD32.slave" $whdloadargs
+ELSE
+  whdload "PinballFntsiesCD32.slave"
+ENDIF

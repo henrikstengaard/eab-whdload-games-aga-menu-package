@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Oktagon/Oktagon.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Oktagon/"
+IF EXISTS ENV:whdloadargs
+  whdload "Oktagon.Slave" $whdloadargs
+ELSE
+  whdload "Oktagon.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GoofysRailwayExpress/GoofysRailwayExpress.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GoofysRailwayExpress/"
+IF EXISTS ENV:whdloadargs
+  whdload "GoofysRailwayExpress.Slave" $whdloadargs
+ELSE
+  whdload "GoofysRailwayExpress.Slave"
+ENDIF

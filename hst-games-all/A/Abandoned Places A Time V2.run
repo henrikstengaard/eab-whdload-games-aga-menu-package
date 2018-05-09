@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AbandonedPlacesDe/AbandonedPlacesDe.slave
+
+; Run WHDLoad
+cd "A-Games:A/AbandonedPlacesDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "AbandonedPlacesDe.slave" $whdloadargs
+ELSE
+  whdload "AbandonedPlacesDe.slave"
+ENDIF

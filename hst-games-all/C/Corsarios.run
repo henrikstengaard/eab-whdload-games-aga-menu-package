@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Corsarios/Corsarios.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Corsarios/"
+IF EXISTS ENV:whdloadargs
+  whdload "Corsarios.Slave" $whdloadargs
+ELSE
+  whdload "Corsarios.Slave"
+ENDIF

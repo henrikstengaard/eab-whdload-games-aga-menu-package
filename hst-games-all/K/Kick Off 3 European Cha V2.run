@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:K/KickOff3EuroChallengeAGA/KickOff3EuroChallengeAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:K/KickOff3EuroChallengeAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "KickOff3EuroChallengeAGA.Slave" $whdloadargs
+ELSE
+  whdload "KickOff3EuroChallengeAGA.Slave"
+ENDIF

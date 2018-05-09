@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Outzone/Outzone.Slave
+
+; Run WHDLoad
+cd "A-Games:O/Outzone/"
+IF EXISTS ENV:whdloadargs
+  whdload "Outzone.Slave" $whdloadargs
+ELSE
+  whdload "Outzone.Slave"
+ENDIF

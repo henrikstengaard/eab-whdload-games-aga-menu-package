@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LostTreasuresOfInfocom/LostTreasuresOfInfocom.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LostTreasuresOfInfocom/"
+IF EXISTS ENV:whdloadargs
+  whdload "LostTreasuresOfInfocom.Slave" $whdloadargs
+ELSE
+  whdload "LostTreasuresOfInfocom.Slave"
+ENDIF

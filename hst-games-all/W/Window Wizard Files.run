@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WindowWizardFiles/WindowWizardFiles.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WindowWizardFiles/"
+IF EXISTS ENV:whdloadargs
+  whdload "WindowWizardFiles.Slave" $whdloadargs
+ELSE
+  whdload "WindowWizardFiles.Slave"
+ENDIF

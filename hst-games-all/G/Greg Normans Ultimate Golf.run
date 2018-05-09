@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/UltimateGolf/UltimateGolf.slave
+
+; Run WHDLoad
+cd "A-Games:U/UltimateGolf/"
+IF EXISTS ENV:whdloadargs
+  whdload "UltimateGolf.slave" $whdloadargs
+ELSE
+  whdload "UltimateGolf.slave"
+ENDIF

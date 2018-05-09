@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PowerDrive/PowerDrive.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PowerDrive/"
+IF EXISTS ENV:whdloadargs
+  whdload "PowerDrive.Slave" $whdloadargs
+ELSE
+  whdload "PowerDrive.Slave"
+ENDIF

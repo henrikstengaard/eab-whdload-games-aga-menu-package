@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SafariGunsFr/SafariGunsFr.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SafariGunsFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "SafariGunsFr.Slave" $whdloadargs
+ELSE
+  whdload "SafariGunsFr.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Plutos/Plutos.Slave
+
+; Run WHDLoad
+cd "A-Games:P/Plutos/"
+IF EXISTS ENV:whdloadargs
+  whdload "Plutos.Slave" $whdloadargs
+ELSE
+  whdload "Plutos.Slave"
+ENDIF

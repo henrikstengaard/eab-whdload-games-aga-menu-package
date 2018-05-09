@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pang/Pang.slave
+
+; Run WHDLoad
+cd "A-Games:P/Pang/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pang.slave" $whdloadargs
+ELSE
+  whdload "Pang.slave"
+ENDIF

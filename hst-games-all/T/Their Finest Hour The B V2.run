@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TheirFinestHour&Missions/TheirFinestHour&Missions.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TheirFinestHour&Missions/"
+IF EXISTS ENV:whdloadargs
+  whdload "TheirFinestHour&Missions.Slave" $whdloadargs
+ELSE
+  whdload "TheirFinestHour&Missions.Slave"
+ENDIF

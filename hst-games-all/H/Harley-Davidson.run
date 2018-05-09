@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HarleyDavidson/HarleyDavidson.slave
+
+; Run WHDLoad
+cd "A-Games:H/HarleyDavidson/"
+IF EXISTS ENV:whdloadargs
+  whdload "HarleyDavidson.slave" $whdloadargs
+ELSE
+  whdload "HarleyDavidson.slave"
+ENDIF

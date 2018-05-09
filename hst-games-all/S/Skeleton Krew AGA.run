@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SkeletonKrewAGA/SkeletonKrewAGA.slave
+
+; Run WHDLoad
+cd "A-Games:S/SkeletonKrewAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SkeletonKrewAGA.slave" $whdloadargs
+ELSE
+  whdload "SkeletonKrewAGA.slave"
+ENDIF

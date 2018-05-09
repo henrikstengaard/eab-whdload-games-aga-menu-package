@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Spherical/Spherical.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Spherical/"
+IF EXISTS ENV:whdloadargs
+  whdload "Spherical.Slave" $whdloadargs
+ELSE
+  whdload "Spherical.Slave"
+ENDIF

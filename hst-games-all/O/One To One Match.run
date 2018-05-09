@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OneToOneMatch/OneToOneMatch.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OneToOneMatch/"
+IF EXISTS ENV:whdloadargs
+  whdload "OneToOneMatch.Slave" $whdloadargs
+ELSE
+  whdload "OneToOneMatch.Slave"
+ENDIF

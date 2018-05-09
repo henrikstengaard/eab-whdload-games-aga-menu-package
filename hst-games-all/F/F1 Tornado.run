@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/F1Tornado/F1Tornado.Slave
+
+; Run WHDLoad
+cd "A-Games:F/F1Tornado/"
+IF EXISTS ENV:whdloadargs
+  whdload "F1Tornado.Slave" $whdloadargs
+ELSE
+  whdload "F1Tornado.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpiritOfAdventureDe3Disk/SpiritOfAdventureDe3Disk.slave
+
+; Run WHDLoad
+cd "A-Games:S/SpiritOfAdventureDe3Disk/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpiritOfAdventureDe3Disk.slave" $whdloadargs
+ELSE
+  whdload "SpiritOfAdventureDe3Disk.slave"
+ENDIF

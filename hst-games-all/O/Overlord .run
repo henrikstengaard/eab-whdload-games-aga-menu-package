@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OverlordRowan/OverlordRowan.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OverlordRowan/"
+IF EXISTS ENV:whdloadargs
+  whdload "OverlordRowan.Slave" $whdloadargs
+ELSE
+  whdload "OverlordRowan.Slave"
+ENDIF

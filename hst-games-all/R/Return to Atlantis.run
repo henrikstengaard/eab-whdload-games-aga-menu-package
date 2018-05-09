@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/ReturnToAtlantis/ReturnToAtlantis.Slave
+
+; Run WHDLoad
+cd "A-Games:R/ReturnToAtlantis/"
+IF EXISTS ENV:whdloadargs
+  whdload "ReturnToAtlantis.Slave" $whdloadargs
+ELSE
+  whdload "ReturnToAtlantis.Slave"
+ENDIF

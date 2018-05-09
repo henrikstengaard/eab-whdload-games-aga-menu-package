@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DreamWebAGA/DreamWebAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DreamWebAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "DreamWebAGA.Slave" $whdloadargs
+ELSE
+  whdload "DreamWebAGA.Slave"
+ENDIF

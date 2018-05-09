@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StarCommand/StarCommand.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StarCommand/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarCommand.Slave" $whdloadargs
+ELSE
+  whdload "StarCommand.Slave"
+ENDIF

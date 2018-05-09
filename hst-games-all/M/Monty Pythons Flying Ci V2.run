@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MontyPythonsFlyCirNTSC/MontyPythonsFlyCirNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MontyPythonsFlyCirNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "MontyPythonsFlyCirNTSC.Slave" $whdloadargs
+ELSE
+  whdload "MontyPythonsFlyCirNTSC.Slave"
+ENDIF

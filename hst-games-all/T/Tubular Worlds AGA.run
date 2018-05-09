@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TubularWorldsAGA/TubularWorldsAGA.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TubularWorldsAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "TubularWorldsAGA.Slave" $whdloadargs
+ELSE
+  whdload "TubularWorldsAGA.Slave"
+ENDIF

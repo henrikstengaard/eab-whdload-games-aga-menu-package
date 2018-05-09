@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DejaVu2LostInLasVegas/DejaVu2LostInLasVegas.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DejaVu2LostInLasVegas/"
+IF EXISTS ENV:whdloadargs
+  whdload "DejaVu2LostInLasVegas.Slave" $whdloadargs
+ELSE
+  whdload "DejaVu2LostInLasVegas.Slave"
+ENDIF

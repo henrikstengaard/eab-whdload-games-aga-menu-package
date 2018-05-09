@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Dyter07/Dyter07.slave
+
+; Run WHDLoad
+cd "A-Games:D/Dyter07/"
+IF EXISTS ENV:whdloadargs
+  whdload "Dyter07.slave" $whdloadargs
+ELSE
+  whdload "Dyter07.slave"
+ENDIF

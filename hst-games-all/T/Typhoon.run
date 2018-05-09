@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Typhoon/Typhoon.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Typhoon/"
+IF EXISTS ENV:whdloadargs
+  whdload "Typhoon.Slave" $whdloadargs
+ELSE
+  whdload "Typhoon.Slave"
+ENDIF

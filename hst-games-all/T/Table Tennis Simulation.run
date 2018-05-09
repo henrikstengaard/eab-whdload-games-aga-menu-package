@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TableTennisSimulation/TableTennisSimulation.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TableTennisSimulation/"
+IF EXISTS ENV:whdloadargs
+  whdload "TableTennisSimulation.Slave" $whdloadargs
+ELSE
+  whdload "TableTennisSimulation.Slave"
+ENDIF

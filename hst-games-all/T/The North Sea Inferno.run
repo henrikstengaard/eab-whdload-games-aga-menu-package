@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NorthSeaInferno/NorthSeaInferno.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NorthSeaInferno/"
+IF EXISTS ENV:whdloadargs
+  whdload "NorthSeaInferno.Slave" $whdloadargs
+ELSE
+  whdload "NorthSeaInferno.Slave"
+ENDIF
