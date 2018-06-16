@@ -1,0 +1,82 @@
+.KEY hstlauncherlistfile/a,updatemode/a
+.BRA {
+.KET }
+
+
+; Hst Launcher List Update
+; ------------------------
+; Author: Henrik Noerfjand Stengaard
+; Date: 2018-06-15
+;
+; This script updates hst launcher list files to show entries if it's run file exists, show or hide depending on update mode.
+
+; fail, if hst launcher list file doesn't exist 
+IF NOT EXISTS "{hstlauncherlistfile}"
+  echo "Error: HST Launcher list file '{hstlauncherlistfile}' doesn't exist!"
+  SKIP end
+ENDIF
+
+; make backup of hst launcher list file, if it doesn't exist
+IF NOT EXISTS "{hstlauncherlistfile}.bak"
+  Copy "{hstlauncherlistfile}" "{hstlauncherlistfile}.bak" >NIL:
+ELSE
+  Copy "{hstlauncherlistfile}.bak" "{hstlauncherlistfile}" >NIL:
+ENDIF
+
+; copy backup of hst launcher list file, if update mode is show
+IF "{updatemode}" EQ "SHOW"
+  IF EXISTS "{hstlauncherlistfile}.bak"
+    Copy "{hstlauncherlistfile}" "{hstlauncherlistfile}.bak" >NIL:
+  ELSE
+    echo "" >"{hstlauncherlistfile}"
+  ENDIF
+  SKIP end
+ENDIF
+
+; create empty hst launcher list file, if update mode is hide
+IF "{updatemode}" EQ "HIDE"
+  echo "" >"{hstlauncherlistfile}"
+  SKIP end
+ENDIF
+
+; overwrite hst launcher list file with backup
+Copy "{hstlauncherlistfile}.bak" "{hstlauncherlistfile}" >NIL:
+
+; initialize variables
+set linescount `wc -l <"{hstlauncherlistfile}"`
+set linenumber 0
+
+; create new hst launcher list file
+echo "" NOLINE >"T:_newhstlauncherlistfile"
+
+; update hst launcher list file
+LAB nextline
+IF NOT $linenumber gt $linescount VAL
+  ; get line
+  set linenumber `eval $linenumber + 1`
+  echo "$linenumber" >T:_linenumber
+  set lineregexp `sed "s/\(.\)*$/\1q;d/" T:_linenumber`
+  sed "$lineregexp" "{hstlauncherlistfile}" >T:_hstlauncherlistline
+
+  ; get runfile
+  cut -f 3 "T:_hstlauncherlistline" >"T:_hstlauncherrunfile"
+  set runfile "`sed "1d" "T:_hstlauncherrunfile"`"
+
+  ; next line, if runfile doesn't exist
+  IF NOT EXISTS "$runfile"
+    SKIP BACK nextline
+  ENDIF
+
+  ; add line to new hst launcher list file
+  type "T:_hstlauncherlistline" >>"T:_newhstlauncherlistfile"
+
+  SKIP BACK nextline
+ENDIF 
+
+; overwrite hst launcher list file with new one
+Copy "T:_newhstlauncherlistfile" "{hstlauncherlistfile}" >NIL:
+
+
+; End
+; ---
+LAB end

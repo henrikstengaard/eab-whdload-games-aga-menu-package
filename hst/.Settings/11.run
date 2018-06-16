@@ -1,2 +1,2 @@
-execute S:WHDLoadArgRemove NoCache
-echo "WHDLoad NoCache turned off"
+execute S:WHDLoadArgRemove NoAutoVec
+echo "WHDLoad NoAutoVec turned off"

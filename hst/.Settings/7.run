@@ -1,2 +1,2 @@
-execute S:WHDLoadArgRemove ExpChip
-echo "WHDLoad ExpChip turned off"
+execute S:WHDLoadArgRemove ButtonWait
+echo "WHDLoad ButtonWait turned off"

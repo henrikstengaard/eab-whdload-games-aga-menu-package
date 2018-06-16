@@ -1,2 +1,2 @@
-execute S:WHDLoadArgRemove Preload
-echo "WHDLoad Preload turned off"
+execute S:WHDLoadArgRemove NoVBRMove
+echo "WHDLoad NoVBRMove turned off"

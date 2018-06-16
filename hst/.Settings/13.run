@@ -1,2 +1,2 @@
-execute S:WHDLoadArgRemove NoVBRMove
-echo "WHDLoad NoVBRMove turned off"
+execute S:WHDLoadArgRemove NoCache
+echo "WHDLoad NoCache turned off"

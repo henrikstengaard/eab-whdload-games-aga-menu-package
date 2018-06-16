@@ -2,17 +2,19 @@ Music Off	.Settings/1	.Settings/1.run
 Music On	.Settings/2	.Settings/2.run
 Save settings	.Settings/3	.Settings/3.run
 View settings	.Settings/4	.Settings/4.run
-WHDLoad ButtonWait off	.Settings/5	.Settings/5.run
-WHDLoad ButtonWait on	.Settings/6	.Settings/6.run
-WHDLoad ExpChip off	.Settings/7	.Settings/7.run
-WHDLoad ExpChip on	.Settings/8	.Settings/8.run
-WHDLoad NoAutoVec off	.Settings/9	.Settings/9.run
-WHDLoad NoAutoVec on	.Settings/10	.Settings/10.run
-WHDLoad NoCache off	.Settings/11	.Settings/11.run
-WHDLoad NoCache on	.Settings/12	.Settings/12.run
-WHDLoad NoVBRMove off	.Settings/13	.Settings/13.run
-WHDLoad NoVBRMove on	.Settings/14	.Settings/14.run
-WHDLoad Preload off	.Settings/15	.Settings/15.run
-WHDLoad Preload on	.Settings/16	.Settings/16.run
-WHDLoad Quit Key	.Settings/17	.Settings/17.run
-WHDLoad Splash Delay	.Settings/18	.Settings/18.run
+Update show installed entries	.Settings/5	.Settings/5.run
+Update show all entries	.Settings/6	.Settings/6.run
+WHDLoad ButtonWait off	.Settings/7	.Settings/7.run
+WHDLoad ButtonWait on	.Settings/8	.Settings/8.run
+WHDLoad ExpChip off	.Settings/9	.Settings/9.run
+WHDLoad ExpChip on	.Settings/10	.Settings/10.run
+WHDLoad NoAutoVec off	.Settings/11	.Settings/11.run
+WHDLoad NoAutoVec on	.Settings/12	.Settings/12.run
+WHDLoad NoCache off	.Settings/13	.Settings/13.run
+WHDLoad NoCache on	.Settings/14	.Settings/14.run
+WHDLoad NoVBRMove off	.Settings/15	.Settings/15.run
+WHDLoad NoVBRMove on	.Settings/16	.Settings/16.run
+WHDLoad Preload off	.Settings/17	.Settings/17.run
+WHDLoad Preload on	.Settings/18	.Settings/18.run
+WHDLoad Quit Key	.Settings/19	.Settings/19.run
+WHDLoad Splash Delay	.Settings/20	.Settings/20.run

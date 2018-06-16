@@ -1,0 +1,4 @@
+Update Show Installed Entries
+
+Update AGS2 menu to only
+show installed entries.

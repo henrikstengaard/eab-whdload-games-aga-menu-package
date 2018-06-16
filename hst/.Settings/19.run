@@ -1,0 +1,34 @@
+; End, if whdload.prefs doesn't exist
+IF NOT EXISTS "S:WHDLoad.prefs"
+  SKIP end
+ENDIF
+
+; Disable existing quit key
+rep "S:WHDLoad.prefs" "QuitKey" ";QuitKey"
+
+; Select WHDLoad quit key
+set quitkey `RequestChoice "WHDLoad Quit Key" "Select global quit key for WHDLoad" "F10|Help|Del|NumL|ScrL|SysRq|PrtSc|Default"`
+If $quitkey eq "1" 
+	echo "QuitKey=$59" >>S:WHDLoad.prefs
+EndIf
+If $quitkey eq "2" 
+	echo "QuitKey=$5f" >>S:WHDLoad.prefs
+EndIf
+If $quitkey eq "3" 
+	echo "QuitKey=$46" >>S:WHDLoad.prefs
+EndIf
+If $quitkey eq "4" 
+	echo "QuitKey=$5a" >>S:WHDLoad.prefs
+EndIf
+If $quitkey eq "5" 
+	echo "QuitKey=$5b" >>S:WHDLoad.prefs
+EndIf
+If $quitkey eq "6" 
+	echo "QuitKey=$5c" >>S:WHDLoad.prefs
+EndIf
+If $quitkey eq "7" 
+	echo "QuitKey=$5d" >>S:WHDLoad.prefs
+EndIf
+
+; End
+LAB end

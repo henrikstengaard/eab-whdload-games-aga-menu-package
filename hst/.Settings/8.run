@@ -1,2 +1,2 @@
-execute S:WHDLoadArgAdd ExpChip
-echo "WHDLoad ExpChip turned on"
+execute S:WHDLoadArgAdd ButtonWait
+echo "WHDLoad ButtonWait turned on"

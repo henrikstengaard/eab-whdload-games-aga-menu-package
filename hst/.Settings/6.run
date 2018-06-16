@@ -1,2 +1,14 @@
-execute S:WHDLoadArgAdd ButtonWait
-echo "WHDLoad ButtonWait turned on"
+; Clear screen
+echo "*ec" NOLINE
+
+fsearch "$hstlauncherdir" PAT menu.lst ALL >T:_hstlstfiles1
+fsearch "$hstlauncherdir" PAT search.lst ALL >>T:_hstlstfiles1
+sed "s/^\(.\)/execute S:HSTLauncherListUpdate *"\1/" "T:_hstlstfiles1" >"T:_hstlstfiles2"
+sed "s/\(.\)$/\1*" *"SHOW*"/" "T:_hstlstfiles2" >"T:_hstlstfiles3"
+echo "Updating Hst Launcher menu '$hstlauncherdir'"
+echo "to show all entries..."
+echo "(this can take several minutes)"
+execute "T:_hstlstfiles3"
+echo "Done"
+echo ""
+delete T:_hstlstfiles#? >NIL:

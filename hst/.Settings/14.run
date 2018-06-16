@@ -1,2 +1,2 @@
-execute S:WHDLoadArgAdd NoVBRMove
-echo "WHDLoad NoVBRMove turned on"
+execute S:WHDLoadArgAdd NoCache
+echo "WHDLoad NoCache turned on"

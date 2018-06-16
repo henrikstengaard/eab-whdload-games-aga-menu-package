@@ -1,0 +1,4 @@
+Update Show All Entries
+
+Update AGS2 menu to
+show all entries.
