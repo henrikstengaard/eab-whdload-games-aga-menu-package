@@ -2,8 +2,8 @@ Music Off	.Settings/1	.Settings/1.run
 Music On	.Settings/2	.Settings/2.run
 Save settings	.Settings/3	.Settings/3.run
 View settings	.Settings/4	.Settings/4.run
-Update show installed entries	.Settings/5	.Settings/5.run
-Update show all entries	.Settings/6	.Settings/6.run
+Update show installed	.Settings/5	.Settings/5.run
+Update show all	.Settings/6	.Settings/6.run
 WHDLoad ButtonWait off	.Settings/7	.Settings/7.run
 WHDLoad ButtonWait on	.Settings/8	.Settings/8.run
 WHDLoad ExpChip off	.Settings/9	.Settings/9.run
