@@ -13,7 +13,7 @@
         },
         {
             "name": "FRONTENDSDIR",
-            "path": "SYSTEMDIR:Games"
+            "path": "DH1:"
         },
         {
             "name": "GAMESDIR",
