@@ -1,13 +1,16 @@
 ; Clear screen
 echo "*ec" NOLINE
 
-fsearch "$ags2dir" PAT #?.ru#? ALL >T:_ags2runfiles1
-sed "s/^\(.\)/execute S:AGS2RunUpdate *"\1/" "T:_ags2runfiles1" >"T:_ags2runfiles2"
-sed "s/\(.\)$/\1*" *"SHOW*"/" "T:_ags2runfiles2" >"T:_ags2runfiles3"
-echo "Updating AGS2 menu '$ags2dir'"
-echo "to show all entries..."
-echo "(this can take several minutes)"
-execute "T:_ags2runfiles3"
-echo "Done"
-echo ""
-delete T:_ags2runfiles#? >NIL:
+Set confirm `RequestChoice "Update show all" "Update Hst Launcher menu '$hstlauncherdir'*Nto show all entries?*N(this can take several minutes)" "Yes|No"`
+IF $confirm EQ 1 VAL
+  echo "Updating AGS2 menu '$ags2dir'"
+  echo "to show all entries..."
+  echo "(this can take several minutes)"
+  fsearch "$ags2dir" PAT #?.ru#? ALL >T:_ags2runfiles1
+  sed "s/^\(.\)/execute S:AGS2RunUpdate *"\1/" "T:_ags2runfiles1" >"T:_ags2runfiles2"
+  sed "s/\(.\)$/\1*" *"SHOW*"/" "T:_ags2runfiles2" >"T:_ags2runfiles3"
+  execute "T:_ags2runfiles3"
+  echo "Done"
+  echo ""
+  delete T:_ags2runfiles#? >NIL:
+ENDIF
