@@ -6,7 +6,7 @@
 ; Hst Launcher List Update
 ; ------------------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2018-06-15
+; Date: 2018-06-17
 ;
 ; This script updates hst launcher list files to show entries if it's run file exists, show or hide depending on update mode.
 
@@ -58,13 +58,17 @@ IF NOT $linenumber gt $linescount VAL
   set lineregexp `sed "s/\(.\)*$/\1q;d/" T:_linenumber`
   sed "$lineregexp" "{hstlauncherlistfile}" >T:_hstlauncherlistline
 
-  ; get runfile
-  cut -f 3 "T:_hstlauncherlistline" >"T:_hstlauncherrunfile"
-  set runfile "`sed "1d" "T:_hstlauncherrunfile"`"
+  ; next line, if runfile has a device (colon) in its path and it doesn't exist
+  cut -f 3 "T:_hstlauncherlistline" >"T:_hstlauncherrunfile1"
+  sed "1d" "T:_hstlauncherrunfile1" >"T:_hstlauncherrunfile2"
+  Search "T:_hstlauncherrunfile2" ":" NONUM
+  IF $RC EQ 0 VAL
+    set runfile "`type "T:_hstlauncherrunfile2"`"
 
-  ; next line, if runfile doesn't exist
-  IF NOT EXISTS "$runfile"
-    SKIP BACK nextline
+    ; next line, if runfile doesn't exist
+    IF NOT EXISTS "$runfile"
+      SKIP BACK nextline
+    ENDIF
   ENDIF
 
   ; add line to new hst launcher list file
