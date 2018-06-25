@@ -1,7 +1,7 @@
 ; Clear screen
 echo "*ec" NOLINE
 
-Set confirm `RequestChoice "Update show installed" "Update Hst Launcher menu '$hstlauncherdir'*Nto only show installed entries?*N(this can take several minutes)" "Yes|No"`
+Set confirm `RequestChoice "Update show installed" "Update AGS2 menu '$ags2dir'*Nto only show installed entries?*N(this can take several minutes)" "Yes|No"`
 IF $confirm EQ 1 VAL
   echo "Updating AGS2 menu '$ags2dir'"
   echo "to only show installed entries..."

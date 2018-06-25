@@ -1,7 +1,7 @@
 ; Clear screen
 echo "*ec" NOLINE
 
-Set confirm `RequestChoice "Update show all" "Update Hst Launcher menu '$hstlauncherdir'*Nto show all entries?*N(this can take several minutes)" "Yes|No"`
+Set confirm `RequestChoice "Update show all" "Update AGS2 menu '$ags2dir'*Nto show all entries?*N(this can take several minutes)" "Yes|No"`
 IF $confirm EQ 1 VAL
   echo "Updating AGS2 menu '$ags2dir'"
   echo "to show all entries..."
