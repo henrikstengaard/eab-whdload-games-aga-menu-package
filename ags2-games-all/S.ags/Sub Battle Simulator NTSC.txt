@@ -1,0 +1,7 @@
+Name      : Sub Battle Simulator
+Version   : NTSC
+Publisher : Epyx
+Year      : 1988
+Genre     : Simulation - Marine
+Players   : 1 Only
+RunFile   : SubBattleSimulatorNTSC.Slave

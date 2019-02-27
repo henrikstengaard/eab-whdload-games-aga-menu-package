@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AirSupportNTSC/AirSupportNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AirSupportNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AirSupportNTSC.Slave" $whdloadargs
+ELSE
+  whdload "AirSupportNTSC.Slave"
+ENDIF

@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:S/SpaceQuest4/SpaceQuest4.slave
+;RunFile=A-Games:S/SpaceQuest4DeMT32/SpaceQuest4DeMT32.slave
 
 ; Run WHDLoad
-cd "A-Games:S/SpaceQuest4/"
+cd "A-Games:S/SpaceQuest4DeMT32/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpaceQuest4.slave" $whdloadargs
+  whdload "SpaceQuest4DeMT32.slave" $whdloadargs
 ELSE
-  whdload "SpaceQuest4.slave"
+  whdload "SpaceQuest4DeMT32.slave"
 ENDIF

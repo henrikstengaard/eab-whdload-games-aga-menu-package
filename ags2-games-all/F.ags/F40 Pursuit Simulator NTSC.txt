@@ -1,0 +1,7 @@
+Name      : F40 Pursuit Simulator
+Version   : NTSC
+Publisher : Titus Software
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : F40PursuitSimulatorNTSC.Slave

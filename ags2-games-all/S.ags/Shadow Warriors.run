@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/ShadowWarriors/ShadowWarriors.Slave
+;RunFile=A-Games:S/ShadowWarriors/ShadowWarriors.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/ShadowWarriors/"
 IF EXISTS ENV:whdloadargs
-  whdload "ShadowWarriors.Slave" $whdloadargs
+  whdload "ShadowWarriors.slave" $whdloadargs
 ELSE
-  whdload "ShadowWarriors.Slave"
+  whdload "ShadowWarriors.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

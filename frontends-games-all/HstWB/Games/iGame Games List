@@ -20,7 +20,7 @@ A-Games:   4DSportsBoxing               4DSportsBoxing.Slave              4D Spo
 A-Games:   4DSportsDriving              4DSportsDriving.Slave             4D Sports Driving
 A-Games:   4DSportsDriving&MstrTrcks    4DSportsDriving&MstrTrcks.Slave   4D Sports Driving MstrTrcks
 A-Games:   4th&Inches                   4th&Inches.slave                  4th & Inches
-A-Games:   4x4OffRoadRacing             4x4OffRoadRacing.Slave            4x4 Off-Road Racing
+A-Games:   4x4OffRoadRacingNTSC         4x4OffRoadRacingNTSC.Slave        4x4 Off-Road Racing NTSC
 A-Games:   5thGear                      5thGear.Slave                     5th Gear
 A-Games:   688AttackSub                 688AttackSub.Slave                688 Attack Sub
 A-Games:   7Colors                      7Colors.Slave                     7 Colors
@@ -33,7 +33,7 @@ A-Games:   AbandonedPlaces              AbandonedPlaces.slave             Abando
 A-Games:   AbandonedPlaces2             AbandonedPlaces2.Slave            Abandoned Places 2
 A-Games:   AbandonedPlacesDe            AbandonedPlacesDe.slave           Abandoned Places: A Time for Heroes DE
 A-Games:   AbandonedPlacesEs            AbandonedPlacesEs.slave           Abandoned Places: A Time for Heroes ES
-A-Games:   ABCMondayNightFootball       ABCMondayNightFootball.slave      ABC Monday Night Football
+A-Games:   ABCMondayNightFBNTSC         ABCMondayNightFBNTSC.slave        ABC Monday Night Football NTSC
 A-Games:   Abracadabra                  Abracadabra.Slave                 Abracadabra
 A-Games:   Academy                      Academy.slave                     Academy
 A-Games:   AceBallAGAPl                 AceBallAGAPl.Slave                Ace Ball PL AGA
@@ -46,25 +46,27 @@ A-Games:   Adrenalynn                   Adrenalynn.Slave                  Adrena
 A-Games:   AdvancedDestroyerSim         AdvancedDestroyerSim.Slave        Advanced Destroyer Simulator
 A-Games:   AdvancedSkiSimulator         AdvancedSkiSimulator.slave        Advanced Ski Simulator
 A-Games:   AdvantageTennis              AdvantageTennis.slave             Advantage Tennis
-A-Games:   AdventureConstructionSet     AdventureConstructionSet.slave    Adventure Construction Set
+A-Games:   AdvConstructionSetNTSC       AdvConstructionSetNTSC.slave      Adventure Construction Set NTSC
 A-Games:   AdventuresOfGenlockHolmes    AdventuresOfGenlockHolmes.Slave   The Adventures of Genlock Holmes
 A-Games:   AdventuresOfQuik&Silva       AdventuresOfQuik&Silva.Slave      Adventures of Quik & Silva, The
 A-Games:   AdventuresOfRobinHood        AdventuresOfRobinHood.slave       Adventures of Robin Hood, The
 A-Games:   AdventuresOfWillyBeamish     AdventuresOfWillyBeamish.slave    Adventures of Willy Beamish, The
 A-Games:   AfricanRaiders01             AfricanRaiders01.slave            African Raiders-01
-A-Games:   AfterBurnerActivision        AfterBurnerActivision.Slave       Afterburner
-A-Games:   AfterBurnerSega              AfterBurnerSega.slave             After Burner
+A-Games:   AfterBurner                  AfterBurner.Slave                 Afterburner
+A-Games:   AfterBurnerNTSC              AfterBurnerNTSC.slave             Afterburner NTSC
 A-Games:   AfterTheWar                  AfterTheWar.Slave                 After the War
 A-Games:   AGE                          AGE.Slave                         Advanced Galactic Empire
-A-Games:   Agony                        Agony.Slave                       Agony
+A-Games:   Agony                        Agony.slave                       Agony
 A-Games:   AgonyDemo                    AgonyDemo.slave                   Agony Demo
-A-Games:   AgonyNTSC                    AgonyNTSC.Slave                   Agony NTSC
-A-Games:   AigleDOrFr                   IntroFr.slave                     L'Aigle d'or : le Retour Intro FR
+A-Games:   AgonyNTSC                    AgonyNTSC.slave                   Agony NTSC
 A-Games:   AigleDOrFr                   AigleDOrFr.slave                  L'Aigle d'or : le Retour FR
+A-Games:   AigleDOrFr                   IntroFr.slave                     L'Aigle d'or : le Retour Intro FR
 A-Games:   Airball                      Airball.slave                     Airball
 A-Games:   AirborneRanger               AirborneRanger.Slave              Airborne Ranger
 A-Games:   AirSupport                   AirSupport.Slave                  Air Support
+A-Games:   AirSupportNTSC               AirSupportNTSC.Slave              Air Support NTSC
 A-Games:   Akira                        Akira.slave                       Akira
+A-Games:   AkiraCD32                    AkiraCD32.Slave                   Akira CD32
 A-Games:   AladdinAGA                   AladdinAGA.slave                  Aladdin AGA
 A-Games:   Alcatraz                     Alcatraz.slave                    Alcatraz
 A-Games:   AlchemyDemo                  AlchemyDemo.Slave                 Alchemy Demo
@@ -76,7 +78,7 @@ A-Games:   Alianator                    Alianator.Slave                   Aliana
 A-Games:   Alien3                       Alien3.Slave                      Alien³
 A-Games:   AlienBash                    AlienBash.Slave                   Alien Bash
 A-Games:   AlienBash2                   AlienBash2.slave                  Alien Bash 2
-A-Games:   AlienBreed                   AlienBreed.Slave                  Alien Breed
+A-Games:   AlienBreed                   AlienBreed.slave                  Alien Breed
 A-Games:   AlienBreed2                  AlienBreed2.slave                 Alien Breed II: The Horror Continues
 A-Games:   AlienBreed2AGA               AlienBreed2AGA.slave              Alien Breed II: The Horror Continues AGA
 A-Games:   AlienBreed3D2AGA             AlienBreed3D2AGA.slave            Alien Breed 3D 2: The Killing Grounds AGA
@@ -98,7 +100,7 @@ A-Games:   AlienDrugLords               AlienDrugLords.Slave              Alien 
 A-Games:   AlienFishFinger              AlienFishFinger.Slave             Alien Fish Finger
 A-Games:   AlienLegion                  AlienLegion.Slave                 Alien Legion
 A-Games:   AlienStorm                   AlienStorm.Slave                  Alien Storm
-A-Games:   AlienSyndrome                AlienSyndrome.slave               Alien Syndrome
+A-Games:   AlienSyndromeNTSC            AlienSyndromeNTSC.slave           Alien Syndrome NTSC
 A-Games:   AlienWorld                   AlienWorld.Slave                  Alien World
 A-Games:   Aliex                        Aliex.Slave                       Aliex
 A-Games:   AllanBordersCricket          AllanBordersCricket.Slave         Allan Border's Cricket
@@ -110,7 +112,8 @@ A-Games:   Alpha1                       Alpha1.Slave                      Alpha-
 A-Games:   AlphaWaves                   AlphaWaves.Slave                  Alpha Waves
 A-Games:   AlteredBeast                 AlteredBeast.slave                Altered Beast
 A-Games:   AlteredDestiny               AlteredDestiny.slave              Altered Destiny
-A-Games:   AmazingSpiderMan             AmazingSpiderMan.slave            Amazing Spider-Man, The
+A-Games:   AmazingSpiderMan             AmazingSpiderman.slave            Amazing Spider-Man, The
+A-Games:   AmazingSpiderManNTSC         AmazingSpidermanNTSC.slave        Amazing Spider-Man, The NTSC
 A-Games:   Ambermoon                    Ambermoon.Slave                   Ambermoon
 A-Games:   AmbermoonDe                  AmbermoonDe.Slave                 Ambermoon DE
 A-Games:   Amberstar                    Amberstar.slave                   Amberstar
@@ -120,7 +123,7 @@ A-Games:   AmberstarFast                AmberstarFast.slave               Ambers
 A-Games:   Amegas                       Amegas.Slave                      Amegas
 A-Games:   AmericanGladiators           AmericanGladiators.slave          American Gladiators
 A-Games:   AmericanTagTeamWrestling     AmericanTagTeamWrestling.Slave    American Tag-Team Wrestling
-A-Games:   AmigaKarate                  AmigaKarate.Slave                 Amiga Karate
+A-Games:   AmigaKarateNTSC              AmigaKarateNTSC.Slave             Amiga Karate NTSC
 A-Games:   Amnios                       Amnios.slave                      Amnios
 A-Games:   Anarchy                      Anarchy.Slave                     Anarchy
 A-Games:   AncientArtOfWarInTheSkies    AncientArtOfWarInTheSkies.Slave   The Ancient Art of War in the Skies
@@ -140,9 +143,10 @@ A-Games:   APBFiles                     APBFiles.slave                    APB Fi
 A-Games:   APBImage                     APBImage.slave                    All Points Bulletin Image
 A-Games:   ApidyaAudios                 ApidyaAudios.slave                Apidya
 A-Games:   ApidyaKaiko                  ApidyaKaiko.slave                 Apidya
+A-Games:   ApidyaSpecialEdition         ApidyaSE.slave                    Apidya SE
 A-Games:   Apocalypse                   Apocalypse.Slave                  Apocalypse
 A-Games:   Apprentice                   Apprentice.slave                  Apprentice
-A-Games:   Aquablast                    Aquablast.slave                   Aquablast
+A-Games:   AquablastNTSC                AquablastNTSC.slave               Aquablast NTSC
 A-Games:   AquanautF1Licenceware        AquanautF1Licenceware.slave       Aquanaut
 A-Games:   AquaticGames                 AquaticGames.Slave                Aquatic Games, The: Starring James Pond and the Aquabats
 A-Games:   Aquaventura                  Aquaventura.Slave                 Aquaventura
@@ -160,10 +164,11 @@ A-Games:   ArcherMacLeansBillardAmcn    ArcherMacLeansBillardAmcn.Slave   Archer
 A-Games:   ArcherMacLeansPool           ArcherMacLeansPool.Slave          Archer Maclean's Pool
 A-Games:   Archipelagos                 Archipelagos.Slave                Archipelagos
 A-Games:   ArchipelagosNTSC             ArchipelagosNTSC.Slave            Archipelagos NTSC
-A-Games:   Archon                       Archon.slave                      Archon: The Light and the Dark
-A-Games:   Archon2                      Archon2.slave                     Archon II: Adept
+A-Games:   Archon2NTSC                  Archon2NTSC.slave                 Archon II: Adept NTSC
+A-Games:   ArchonNTSC                   ArchonNTSC.slave                  Archon NTSC
 A-Games:   Arcticfox                    Arcticfox.Slave                   Arcticfox
 A-Games:   ArcticfoxNTSC                ArcticFoxNTSC.Slave               Arcticfox NTSC
+A-Games:   Area88                       Area88.slave                      UN Squadron
 A-Games:   Arena                        Arena.slave                       Arena
 A-Games:   Arkanoid                     Arkanoid.Slave                    Arkanoid
 A-Games:   ArkanoidNTSC                 ArkanoidNTSC.Slave                Arkanoid NTSC
@@ -194,7 +199,8 @@ A-Games:   AtlantydaPl                  AtlantydaPl.slave                 Atlant
 A-Games:   AtomicRoboKid                AtomicRobokid.slave               Atomic Robo-Kid
 A-Games:   Atomino                      Atomino.slave                     Atomino
 A-Games:   AtominoDe                    AtominoDe.slave                   Atomino DE
-A-Games:   Atomix                       atomix.slave                      Atomix
+A-Games:   AtominoNTSC                  AtominoNTSC.slave                 Atomino NTSC
+A-Games:   Atomix                       Atomix.Slave                      Atomix
 A-Games:   AtomSmasher                  AtomSmasher.Slave                 Atom Smasher
 A-Games:   ATrain                       ATrain.slave                      A-Train
 A-Games:   ATrain&ConstrSet512k         ATrain512K.slave                  A-Train 512K ConstrSet 512K
@@ -217,7 +223,7 @@ A-Games:   AventuresDeMoktarFr          AventuresDeMoktarFr.slave         Aventu
 A-Games:   Awesome                      Awesome.Slave                     AWESOME
 A-Games:   AwesomeDemo                  AwesomeDemo.Slave                 AWESOME Demo
 A-Games:   AxelsMagicHammer             AxelsMagicHammer.Slave            Axel's Magic Hammer
-A-Games:   AxeOfRage                    AxeOfRage.slave                   Axe of Rage
+A-Games:   AxeOfRageNTSC                AxeOfRageNTSC.slave               Axe of Rage NTSC
 A-Games:   AztecChallenge               AztecChallenge.Slave              Aztec Challenge
 A-Games:   B17FlyingFortress            B17FlyingFortress.Slave           B-17 Flying Fortress
 A-Games:   B17FlyingFortressDemo        B17FlyingFortressDemo.Slave       B-17 Flying Fortress Demo
@@ -228,6 +234,7 @@ A-Games:   BabylonianTwinsDemo          BabylonianTwinsDemo.slave         Babylo
 A-Games:   Backlash                     Backlash.Slave                    Backlash
 A-Games:   BackToTheFuturePart2         BackToTheFuturePart2.slave        Back to the Future Part II
 A-Games:   BackToTheFuturePart3         BackToTheFuturePart3.Slave        Back to the Future Part III
+A-Games:   BackToTheFuturePart3NTSC     BackToTheFuturePart3NTSC.Slave    Back to the Future Part III NTSC
 A-Games:   BadCat                       BadCat.Slave                      Bad Cat
 A-Games:   BadCompany                   BadCompany.slave                  Bad Company
 A-Games:   BadDudesNTSC                 BadDudesNTSC.Slave                Bad Dudes vs. Dragonninja NTSC
@@ -235,8 +242,8 @@ A-Games:   BadDudesVsDragonNinja        BadDudesVsDragonNinja.slave       Bad Du
 A-Games:   BadLands                     Badlands.slave                    BadLands
 A-Games:   BadlandsPete                 BadlandsPete.Slave                Badlands Pete
 A-Games:   Bagitman                     Bagitman.Slave                    Bagitman
-A-Games:   BalanceOfPower               BalanceOfPower.Slave              Balance of Power: Geopolitics in the Nuclear Age
 A-Games:   BalanceOfPower1990Ed         BalanceOfPower1990Ed.Slave        Balance of Power: Geopolitics in the Nuclear Age
+A-Games:   BalanceOfPowerNTSC           BalanceOfPowerNTSC.Slave          Balance of Power: Geopolitics in the Nuclear Age NTSC
 A-Games:   BallGame                     BallGame.Slave                    Ball Game, The
 A-Games:   Ballistix                    Ballistix.slave                   Ballistix
 A-Games:   BallRaider                   BallRaider.Slave                  Ball Raider
@@ -256,9 +263,11 @@ A-Games:   BardsTaleNTSC                BardsTaleNTSC.Slave               Bard's
 A-Games:   BarGames                     BarGames.Slave                    Bar Games
 A-Games:   BargonAttack                 BargonAttack.Slave                Bargon Attack
 A-Games:   BargonAttackFr               BargonAttackFr.Slave              Bargon Attack FR
+A-Games:   BarneyBearGoesToSchool       BarneyBearGoesToSchool.Slave      Barney Bear goes to School
+A-Games:   BarneyBearGoesToSpace        BarneyBearGoesToSpace.Slave       Barney Bear goes to Space
 A-Games:   BartVsSpaceMutants1Disk      BartVsSpaceMutants1Disk.Slave     Simpsons, The: Bart vs. the Space Mutants 1Disk
-A-Games:   BartVsSpaceMutants2Disk      BartVsSpaceMutants2Disk.Slave     Simpsons, The: Bart vs. the Space Mutants 2Disk
 A-Games:   BartVsSpaceMutants2Disk      Intro2Disk.slave                  Simpsons, The: Bart vs. the Space Mutants Intro 2Disk
+A-Games:   BartVsSpaceMutants2Disk      BartVsSpaceMutants2Disk.Slave     Simpsons, The: Bart vs. the Space Mutants 2Disk
 A-Games:   BartVsTheWorld               BartVsTheWorld.slave              Simpsons, The: Bart vs. the World
 A-Games:   BaseJumpers                  BaseJumpers.slave                 Base Jumpers
 A-Games:   BaseJumpersCD32              BaseJumpersCD32.slave             Base Jumpers CD32
@@ -290,9 +299,9 @@ A-Games:   Battleships                  Battleships.slave                 Battle
 A-Games:   BattleSquadron               BattleSquadron.slave              Battle Squadron
 A-Games:   BattleSquadronDemo           BattleSquadronDemo.Slave          Battle Squadron Demo
 A-Games:   BattleSquadronNTSC           BattleSquadronNTSC.Slave          Battle Squadron NTSC
-A-Games:   Battlestorm                  Battlestorm.Slave                 Battlestorm
 A-Games:   BattlestormCDTV              BattlestormCDTV.Slave             Battlestorm CDTV
-A-Games:   Battletech                   Battletech.Slave                  Battletech: The Crescent Hawk's Inception
+A-Games:   BattlestormNTSC              BattlestormNTSC.Slave             Battlestorm NTSC
+A-Games:   BattletechNTSC               BattletechNTSC.Slave              Battletech: The Crescent Hawk's Inception NTSC
 A-Games:   Battletoads                  Battletoads.slave                 Battletoads
 A-Games:   BattletoadsCD32              BattletoadsCD32.slave             Battletoads CD32
 A-Games:   BattleValley                 BattleValley.Slave                Battle Valley
@@ -305,13 +314,13 @@ A-Games:   Beavers                      Beavers.slave                     Beaver
 A-Games:   BehindTheIronGate            BehindTheIronGate.slave           Behind the Iron Gate
 A-Games:   BehindTheIronGateDe          BehindTheIronGateDe.slave         Behind the Iron Gate DE
 A-Games:   Belial                       Belial.Slave                      Belial
-A-Games:   BeneathAStlSky               BeneathAStlSky.Slave              Beneath A Steel Sky
-A-Games:   BeneathAStlSkyCD32           BeneathAStlSkyCD32.Slave          Beneath A Steel Sky CD32
-A-Games:   BeneathAStlSkyCD32NoVoice    BeneathAStlSkyCD32NoVoice.Slave   Beneath A Steel Sky CD32 NoVoice
-A-Games:   BeneathAStlSkyDe             BeneathAStlSkyDe.Slave            Beneath A Steel Sky DE
-A-Games:   BeneathAStlSkyFr             BeneathAStlSkyFr.Slave            Beneath A Steel Sky FR
-A-Games:   BeneathAStlSkyIt             BeneathAStlSkyIt.Slave            Beneath A Steel Sky IT
-A-Games:   BeneathAStlSkySe             BeneathAStlSkySe.Slave            Beneath A Steel Sky SE
+A-Games:   BeneathAStlSky               BeneathAStlSky.slave              Beneath A Steel Sky
+A-Games:   BeneathAStlSkyCD32           BeneathAStlSkyCD32.slave          Beneath A Steel Sky CD32
+A-Games:   BeneathAStlSkyCD32NoVoice    BeneathAStlSkyCD32NoVoice.slave   Beneath A Steel Sky CD32 NoVoice
+A-Games:   BeneathAStlSkyDe             BeneathAStlSkyDe.slave            Beneath A Steel Sky DE
+A-Games:   BeneathAStlSkyFr             BeneathAStlSkyFr.slave            Beneath A Steel Sky FR
+A-Games:   BeneathAStlSkyIt             BeneathAStlSkyIt.slave            Beneath A Steel Sky IT
+A-Games:   BeneathAStlSkySe             BeneathAStlSkySe.slave            Beneath A Steel Sky SE
 A-Games:   Benefactor                   Benefactor.Slave                  Benefactor
 A-Games:   BenefactorCD32               BenefactorCD32.Slave              Benefactor CD32
 A-Games:   Berlin1948                   Berlin1948.slave                  Berlin 1948
@@ -319,6 +328,7 @@ A-Games:   Berlin1948De                 Berlin1948De.Slave                Berlin
 A-Games:   BestOfTheBest                BestOfTheBest.Slave               Best of the Best: Championship Karate
 A-Games:   Betrayal                     Betrayal.Slave                    Betrayal
 A-Games:   BetterDeadThanAlien          BetterDeadThanAlien.Slave         Better Dead Than Alien!
+A-Games:   BetterDeadThanAlienNTSC      BetterDeadThanAlienNTSC.Slave     Better Dead Than Alien! NTSC
 A-Games:   BetterMaths                  BetterMaths.Slave                 Better Maths
 A-Games:   BeverlyHillsCop              BeverlyHillsCop.slave             Beverly Hills Cop
 A-Games:   BeyondDarkCastle             BeyondDarkCastle.slave            Beyond Dark Castle
@@ -345,8 +355,8 @@ A-Games:   BlackShadow                  BlackShadow.Slave                 Black 
 A-Games:   BlackTiger                   BlackTiger.slave                  Black Tiger
 A-Games:   BlackViper                   BlackViper.Slave                  Black Viper
 A-Games:   BlackViperAGA                BlackViperAGA.Slave               Black Viper AGA
-A-Games:   BlackViperCD32               IntroCD32.Slave                   Black Viper Intro CD32
 A-Games:   BlackViperCD32               BlackViperCD32.Slave              Black Viper CD32
+A-Games:   BlackViperCD32               IntroCD32.Slave                   Black Viper Intro CD32
 A-Games:   BladesOfSteel                BladesOfSteel.Slave               Blades of Steel
 A-Games:   BladeWarrior                 BladeWarrior.Slave                Blade Warrior
 A-Games:   BlastaBallArcadia            BlastaBallArcadia.Slave           Blastaball
@@ -365,7 +375,7 @@ A-Games:   Bloodwych                    Bloodwych.Slave                   Bloodw
 A-Games:   Bloodwych&ExtendedLevels     Bloodwych.Slave                   Bloodwych ExtendedLevels
 A-Games:   Bloodwych&ExtendedLevels     ExtendedLevels.Slave              Bloodwych ExtendedLevels
 A-Games:   BlueAngel69                  BlueAngel69.slave                 Blue Angel 69
-A-Games:   BlueAngels                   BlueAngels.Slave                  Blue Angels
+A-Games:   BlueAngelsNTSC               BlueAngelsNTSC.Slave              Blue Angels NTSC
 A-Games:   BlueberryDe                  BlueberryDe.Slave                 Blueberry DE
 A-Games:   BlueMax                      BlueMax.Slave                     Blue Max: Aces of the Great War
 A-Games:   BluesBrothers                BluesBrothers.Slave               Blues Brothers, The
@@ -380,12 +390,15 @@ A-Games:   BodyBlowsGalacticAGA         BodyBlowsGalacticAGA.Slave        Body B
 A-Games:   BomberBob                    BomberBob.Slave                   Bomber Bob
 A-Games:   BombFusion                   BombFusion.Slave                  Bomb Fusion
 A-Games:   BombJack                     BombJack.slave                    Bomb Jack
+A-Games:   BombJackBeerEdition          BombJackBeerEdition.slave         Bomb Jack Beer Edition
 A-Games:   BombPacCD32AGA               BombPacCD32AGA.Slave              BombPac AGA CD32
 A-Games:   BombPacCD32AGAAminet         BombPacCD32AGAAminet.Slave        BombPac AGA CD32 Aminet
 A-Games:   Bombuzal                     Bombuzal.slave                    Bombuzal
 A-Games:   BombX                        BombX.slave                       Bomb'X
 A-Games:   BonanzaBros                  BonanzaBros.slave                 Bonanza Bros
 A-Games:   Booly                        Booly.Slave                       Booly
+A-Games:   BootNTSC                     BootNTSC.Slave                    Boot, Das NTSC
+A-Games:   Boppin                       Boppin.Slave                      Boppin'
 A-Games:   Borobodur                    Borobodur.Slave                   Borobodur: The Planet of Doom
 A-Games:   BorrowedTime                 BorrowedTime.Slave                Borrowed Time
 A-Games:   BostonBombClub               BostonBombClub.Slave              Boston Bomb Club
@@ -397,9 +410,10 @@ A-Games:   BrainBlasters                BrainBlasters.Slave               Brain 
 A-Games:   BrainMan                     BrainMan.Slave                    Brain Man
 A-Games:   BramStokersDracula           BramStokersDracula.Slave          Bram Stoker's Dracula
 A-Games:   Brat                         Brat.slave                        Brat
-A-Games:   Brataccas                    Brataccas.Slave                   Brataccas
-A-Games:   Breach                       Breach.Slave                      Breach
+A-Games:   BrataccasNTSC                BrataccasNTSC.Slave               Brataccas NTSC
 A-Games:   Breach2                      Breach2.Slave                     Breach 2
+A-Games:   BreachNTSC                   BreachNTSC.Slave                  Breach NTSC
+A-Games:   BreakOutRevolutionAGA        BreakOutRevolutionAGA.slave       BreakOut Revolution AGA
 A-Games:   BreathlessAGA                BreathlessAGA.Slave               Breathless AGA
 A-Games:   BreathlessAGA060             BreathlessAGA060.Slave            Breathless AGA 060
 A-Games:   BreathlessDemo               BreathlessDemo.Slave              Breathless AGA Demo
@@ -424,19 +438,20 @@ A-Games:   BubbleBobble                 BubbleBobble.Slave                Bubble
 A-Games:   BubbleBobbleNTSC             BubbleBobbleNTSC.Slave            Bubble Bobble NTSC
 A-Games:   BubbleDizzy                  BubbleDizzy.slave                 Bubble Dizzy
 A-Games:   BubbleGun                    BubbleGun.Slave                   Bubble Gun
-A-Games:   BuckRogersCountdownDday      BuckRogersCountdownDday.slave     Buck Rogers XXVc: Countdown To Doomsday
-A-Games:   BuckRogersCountdownDdayDe    BuckRogersCountdownDdayDe.slave   Buck Rogers XXVc: Countdown To Doomsday DE
+A-Games:   BuckRogersDe                 BuckRogersDe.slave                Buck Rogers XXVc: Countdown To Doomsday DE
+A-Games:   BuckRogersNTSC               BuckRogersNTSC.slave              Buck Rogers XXVc: Countdown To Doomsday NTSC
 A-Games:   Budokan                      Budokan.Slave                     Budokan: The Martial Spirit
 A-Games:   BuffaloBillsWildWestShow     BuffaloBillsWildWestShow.Slave    Buffalo Bill's Wild West Show
 A-Games:   BugBash                      BugBash.Slave                     Bug Bash
 A-Games:   BugBomber                    BugBomber.Slave                   Bugbomber
-A-Games:   BuggyBoy                     BuggyBoy.Slave                    Buggy Boy
 A-Games:   BuggyBoy                     BuggyBoy.slave                    Buggy Boy
+A-Games:   BuggyBoy                     BuggyBoy.Slave                    Buggy Boy
 A-Games:   Builderland                  Builderland.Slave                 Builderland
 A-Games:   BumpNBurn                    BumpNBurn.slave                   Bump 'n' Burn
 A-Games:   BumpNBurnCD32                BumpNBurnCD32.Slave               Bump 'n' Burn CD32
 A-Games:   BumpysArcadeFantasy          BumpysArcadeFantasy.Slave         Bumpy's Arcade Fantasy
 A-Games:   BundesligaManagerHattDe      BundesligaManagerHattDe.Slave     Bundesliga Manager Hattrick DE AGA
+A-Games:   BundesligaManagerProDe       BundesligaManagerProDe.Slave      Bundesliga Manager Professional DE
 A-Games:   BunnyBricks                  BunnyBricks.Slave                 Bunny Bricks
 A-Games:   BunnyBricksFast              BunnyBricksFast.Slave             Bunny Bricks FAST
 A-Games:   BurgerMan                    BurgerMan.Slave                   Burger Man
@@ -451,10 +466,8 @@ A-Games:   ButcherHill                  ButcherHill.Slave                 Butche
 A-Games:   Cabal                        Cabal.slave                       Cabal
 A-Games:   CabaretAsteroids             CabaretAsteroids.slave            Cabaret Asteroids
 A-Games:   CabaretAsteroidsRepacked     CabaretAsteroidsRepacked.slave    Cabaret Asteroids
-A-Games:   Cadaver                      Cadaver.Slave                     Cadaver
-A-Games:   Cadaver&CadaverThePayoff     Cadaver&CadaverThePayoff.Slave    Cadaver: The Pay Off CadaverThePayoff
+A-Games:   Cadaver&ThePayoff            Cadaver&ThePayoff.slave           Cadaver: The Pay Off
 A-Games:   CadaverDemos                 CadaverDemos.slave                Cadaver Demos
-A-Games:   CadaverThePayoff             CadaverThePayoff.Slave            Cadaver: The Pay Off
 A-Games:   Caesar                       Caesar.Slave                      Caesar
 A-Games:   CalepharImage                CalepharImage.Slave               Calephar Image
 A-Games:   CaliforniaGames              CaliforniaGames.Slave             California Games
@@ -462,12 +475,15 @@ A-Games:   CaliforniaGames2             CaliforniaGames2.slave            Califo
 A-Games:   Campaign                     Campaign.slave                    Campaign
 A-Games:   Campaign&DataDisk            Campaign&DataDisk.slave           Campaign DataDisk
 A-Games:   Campaign2                    Campaign2.slave                   Campaign II
-A-Games:   CannonFodder                 CannonFodder.slave                Cannon Fodder
+A-Games:   CannonFodder                 CannonFodder.Slave                Cannon Fodder
 A-Games:   CannonFodder2                CannonFodder2.Slave               Cannon Fodder 2
 A-Games:   CannonFodder2AlienLevels     CannonFodder2AlienLevels.Slave    Cannon Fodder 2 - Alien Levels
 A-Games:   CannonFodder2De              CannonFodder2De.Slave             Cannon Fodder 2 DE
 A-Games:   CannonFodder2Fr              CannonFodder2Fr.Slave             Cannon Fodder 2 FR
 A-Games:   CannonFodderCD32             CannonFodderCD32.Slave            Cannon Fodder CD32
+A-Games:   CannonFodderDe               CannonFodderDe.Slave              Cannon Fodder DE
+A-Games:   CannonFodderFr               CannonFodderFr.Slave              Cannon Fodder FR
+A-Games:   CannonFodderIt               CannonFodderIt.Slave              Cannon Fodder IT
 A-Games:   CannonFodderNewCampaign      CannonFodderNewCampaign.slave     Cannon Fodder: New Campaign
 A-Games:   CannonFodderPlus             CannonFodderPlus.Slave            Cannon Fodder Plus
 A-Games:   CannonSoccer                 CannonSoccer.Slave                Cannon Soccer
@@ -476,13 +492,14 @@ A-Games:   CapitalPunishmentAGACD       CapitalPunishmentAGACD.Slave      Capita
 A-Games:   CapNCarnage                  CapNCarnage.slave                 Cap 'n' Carnage
 A-Games:   Capone                       Capone.Slave                      Capone
 A-Games:   CaptainBlood                 CaptainBlood.Slave                Captain Blood
-A-Games:   CaptainDynamo                CaptainDynamo.slave               Captain Dynamo
+A-Games:   CaptainBloodNTSC             CaptainBloodNTSC.Slave            Captain Blood NTSC
 A-Games:   CaptainFizz                  CaptainFizz.slave                 Captain Fizz Meets the Blaster-Trons
 A-Games:   CaptainPlanet&Planeteers     CaptainPlanet&Planeteers.Slave    Captain Planet and the Planeteers
 A-Games:   Captive                      Captive.slave                     Captive
-A-Games:   Carcharodon                  Carcharodon.Slave                 Carcharodon: White Sharks
+A-Games:   Carcharodon                  Carcharodon.slave                 Carcharodon: White Sharks
 A-Games:   CardiaxxElectronicZoo        CardiaxxElectronicZoo.Slave       Cardiaxx
 A-Games:   CardiaxxTeam17               CardiaxxTeam17.Slave              Cardiaxx
+A-Games:   CardinalOfTheKremlin         CardinalOfTheKremlin.Slave        Cardinal of the Kremlin, The
 A-Games:   CarlLewisChallenge           CarlLewisChallenge.slave          Carl Lewis Challenge, The
 A-Games:   Carlos                       Carlos.Slave                      Carlos
 A-Games:   Carnage                      Carnage.slave                     Carnage
@@ -497,8 +514,10 @@ A-Games:   CarVup                       CarVup.Slave                      Car-Vu
 A-Games:   CastleKingdoms               CastleKingdoms.Slave              Castle Kingdoms
 A-Games:   CastleMaster                 CastleMaster.Slave                Castle Master
 A-Games:   CastleMaster2                CastleMaster2.Slave               Castle Master II: The Crypt
-A-Games:   CastleOfDrBrain              CastleOfDrBrain.Slave             Castle of Dr. Brain
 A-Games:   CastleOfDrBrainDe            CastleOfDrBrainDe.Slave           Castle of Dr. Brain DE
+A-Games:   CastleOfDrBrainDeMT32        CastleOfDrBrainDeMT32.Slave       Castle of Dr. Brain
+A-Games:   CastleOfDrBrainNTSC          CastleOfDrBrainNTSC.Slave         Castle of Dr. Brain NTSC
+A-Games:   CastleOfDrBrainNTSCMT32      CastleOfDrBrainNTSCMT32.Slave     Castle of Dr. Brain
 A-Games:   Castles                      Castles.slave                     Castles
 A-Games:   Castles2CD32                 Castles2CD32.Slave                Castles II: Siege & Conquest CD32
 A-Games:   CastlesDe                    CastlesDe.slave                   Castles DE
@@ -514,9 +533,9 @@ A-Games:   CedricCD32Fast               CedricCD32Fast.Slave              Cedric
 A-Games:   CedricFast                   CedricFast.Slave                  Cedric and the Lost Sceptre FAST
 A-Games:   CelticLegends                CelticLegends.slave               Celtic Legends
 A-Games:   CentrefoldSquares            CentrefoldSquares.Slave           Centerfold Squares
-A-Games:   Centurion                    Centurion.Slave                   Centurion: Defender of Rome
+A-Games:   CenturionNTSC                CenturionNTSC.Slave               Centurion: Defender of Rome NTSC
 A-Games:   Century                      Century.Slave                     Century
-A-Games:   ChamberSciMutantPriestess    ChamberSciMutantPriestess.slave   Chamber of the Sci-Mutant Priestess
+A-Games:   ChamberSciMutantPrstNTSC     ChamberSciMutantPrstNTSC.slave    Chamber of the Sci-Mutant Priestess NTSC
 A-Games:   ChambersOfShaolin            ChambersOfShaolin.Slave           Chambers of Shaolin
 A-Games:   Champ                        Champ.Slave                       Champ, The
 A-Games:   ChampionDriver               ChampionDriver.Slave              Champion Driver
@@ -539,6 +558,7 @@ A-Games:   CharlieJCoolAGA              CharlieJCoolAGA.slave             Charli
 A-Games:   ChaseHQ                      ChaseHQ.Slave                     Chase HQ
 A-Games:   ChaseHQ2                     ChaseHQ2.slave                    Chase HQ II: Special Criminal Investigation
 A-Games:   Chessmaster2000              Chessmaster2000.Slave             Chessmaster 2000, The
+A-Games:   Chessmaster2100NTSC          Chessmaster2100NTSC.Slave         Fidelity Chessmaster 2100, The NTSC
 A-Games:   ChessPlayer2150              ChessPlayer2150.Slave             Chess Player 2150
 A-Games:   ChessPlayer2150AA            ChessPlayer2150AA.Slave           Chess Player 2150
 A-Games:   ChessPlayer2150De            ChessPlayer2150De.Slave           Chess Player 2150 DE
@@ -546,8 +566,8 @@ A-Games:   ChessPlayer2150Fr            ChessPlayer2150Fr.Slave           Chess 
 A-Games:   ChessSimulator               ChessSimulator.Slave              Chess Simulator
 A-Games:   Chicago90                    Chicago90.Slave                   Chicago 90
 A-Games:   ChichenItzaEs                ChichenItzaEs.slave               Chichén Itzá ES
-A-Games:   ChipsChallengeEpyx           ChipsChallengeEpyx.Slave          Chip's Challenge
-A-Games:   ChipsChallengeUSGold         ChipsChallengeUSGold.Slave        Chip's Challenge
+A-Games:   ChipsChallenge               ChipsChallenge.Slave              Chip's Challenge
+A-Games:   ChipsChallengeNTSC           ChipsChallengeNTSC.Slave          Chip's Challenge NTSC
 A-Games:   ChristophKolumbusAGADe       ChristophKolumbusAGADe.slave      Christoph Kolumbus DE AGA
 A-Games:   ChristophKolumbusDe          ChristophKolumbusDe.slave         Christoph Kolumbus DE
 A-Games:   Chrome                       Chrome.Slave                      Chrome
@@ -594,9 +614,9 @@ A-Games:   ClownOMania                  ClownOMania.slave                 Clown-
 A-Games:   Clue                         Clue.slave                        Clue!, The
 A-Games:   ClueAGA                      ClueAGA.slave                     Clue!, The AGA
 A-Games:   CluedoMasterDetective        CluedoMasterDetective.Slave       Cluedo: Master Detective
-A-Games:   ClueMasterDetective          ClueMasterDetective.slave         Clue: Master Detective
-A-Games:   Coala                        Coala.Slave                       COALA
-A-Games:   CoalaAGA                     CoalaAGA.Slave                    COALA AGA
+A-Games:   ClueMasterDetectiveNTSC      ClueMasterDetectiveNTSC.slave     Clue: Master Detective NTSC
+A-Games:   Coala                        Coala.slave                       COALA
+A-Games:   CoalaAGA                     CoalaAGA.slave                    COALA AGA
 A-Games:   Cobra                        Cobra.slave                       Cobra
 A-Games:   CodeNameIceman               CodenameIceman.slave              Code Name: Iceman
 A-Games:   CogansRun                    CogansRun.Slave                   Cogans Run
@@ -623,6 +643,7 @@ A-Games:   ConflictMiddleEastPolSim     ConflictMiddleEastPolSim.Slave    Confli
 A-Games:   Conqueror                    Conqueror.Slave                   Conqueror
 A-Games:   ConquestsOfCamelot           ConquestsOfCamelot.Slave          Conquests of Camelot
 A-Games:   ConquestsOfTheLongbow        ConquestsOfTheLongbow.slave       Conquests of the Longbow
+A-Games:   ConquestsOfTheLongbowMT32    ConquestsOfTheLongbowMT32.slave   Conquests of the Longbow
 A-Games:   ContinentalCircus            ContinentalCircus.Slave           Continental Circus
 A-Games:   CoolCrocTwins                CoolCrocTwins.Slave               Cool Croc Twins
 A-Games:   CoolSpot                     CoolSpot.slave                    Cool Spot
@@ -636,15 +657,16 @@ A-Games:   Corsarios                    Corsarios.Slave                   Corsar
 A-Games:   Corx                         Corx.Slave                        Corx
 A-Games:   CosmicBouncer                CosmicBouncer.Slave               Cosmic Bouncer
 A-Games:   CosmicPirate                 CosmicPirate.Slave                Cosmic Pirate
-A-Games:   CosmicRelief                 CosmicRelief.Slave                Cosmic Relief: Prof. Renegade to the Rescue
+A-Games:   CosmicReliefNTSC             CosmicReliefNTSC.Slave            Cosmic Relief: Prof. Renegade to the Rescue NTSC
 A-Games:   CosmicSpacehead              CosmicSpacehead.slave             Cosmic Spacehead
+A-Games:   CougarForce                  CougarForce.Slave                 Cougar Force
 A-Games:   CountDuckula                 CountDuckula.slave                Count Duckula
 A-Games:   CoverGirlStripPoker          CoverGirlStripPoker.slave         Cover Girl Strip Poker
 A-Games:   CovertAction                 CovertAction.Slave                Covert Action
 A-Games:   CovertActionDe               CovertActionDe.Slave              Covert Action DE
 A-Games:   Crack                        Crack.Slave                       Crack
 A-Games:   Crackdown                    Crackdown.slave                   Crack Down
-A-Games:   CrashGarrett                 CrashGarrett.Slave                Crash Garrett
+A-Games:   CrashGarrettNTSC             CrashGarrettNTSC.Slave            Crash Garrett NTSC
 A-Games:   CrazyCars                    CrazyCars.Slave                   Crazy Cars
 A-Games:   CrazyCars2                   CrazyCars2.Slave                  Crazy Cars II
 A-Games:   CrazyCars3                   CrazyCars3.slave                  Crazy Cars III
@@ -671,8 +693,8 @@ A-Games:   CruiseForACorpseIt           CruiseForACorpseIt.slave          Cruise
 A-Games:   CruncherFactory              CruncherFactory.Slave             Cruncher Factory
 A-Games:   CrystalDragon                CrystalDragon.Slave               Crystal Dragon
 A-Games:   CrystalDragonDe              CrystalDragonDe.slave             Crystal Dragon DE
-A-Games:   CrystalHammerV1              CrystalHammerV1.Slave             Crystal Hammer
-A-Games:   CrystalHammerV2              CrystalHammerV2.Slave             Crystal Hammer
+A-Games:   CrystalHammerV1              CrystalHammerV1.slave             Crystal Hammer
+A-Games:   CrystalHammerV2              CrystalHammerV2.slave             Crystal Hammer
 A-Games:   CrystalKingdomDizzy          CrystalKingdomDizzy.slave         Crystal Kingdom Dizzy
 A-Games:   CrystalPalace                CrystalPalace.slave               Crystal Palace
 A-Games:   CrystalsOfArborea            CrystalsOfArborea.Slave           Crystals of Arborea
@@ -705,16 +727,18 @@ A-Games:   Cycles                       Cycles.Slave                      Cycles
 A-Games:   Cygnus8                      Cygnus8.Slave                     Cygnus 8
 A-Games:   CytadelaPl                   CytadelaPl.slave                  Citadel PL
 A-Games:   Cytron                       Cytron.slave                      Cytron
+A-Games:   CytronNTSC                   CytronNTSC.slave                  Cytron NTSC
 A-Games:   DalekAttack                  DalekAttack.Slave                 Dalek Attack
 A-Games:   DaleyThompsonsOC1Disk        DaleyThompsonsOC1Disk.Slave       Daley Thompson's Olympic Challenge 1Disk
 A-Games:   DaleyThompsonsOC2Disk        DaleyThompsonsOC2Disk.Slave       Daley Thompson's Olympic Challenge 2Disk
 A-Games:   Damage                       Damage.slave                      Damage: The Sadistic Butchering of Humanity
 A-Games:   DamagePreview                DamagePreview.Slave               Damage: The Sadistic Butchering of Humanity Preview
 A-Games:   Damocles                     Damocles.slave                    Damocles - Mercenary II
-A-Games:   DanDare3                     DanDare3.slave                    Dan Dare III: The Escape
+A-Games:   DamoclesNTSC                 DamoclesNTSC.slave                Damocles - Mercenary II NTSC
+A-Games:   DanDare3                     DanDare3.Slave                    Dan Dare III: The Escape
 A-Games:   DangerousStreetsAGA          DangerousStreetsAGA.slave         Dangerous Streets AGA
 A-Games:   Darius+                      Darius+.slave                     Darius+
-A-Games:   DarkCastle                   DarkCastle.slave                  Dark Castle
+A-Games:   DarkCastleNTSC               DarkCastleNTSC.slave              Dark Castle NTSC
 A-Games:   DarkCentury                  DarkCentury.Slave                 Dark Century
 A-Games:   DarkFusion                   DarkFusion.Slave                  Dark Fusion
 A-Games:   Darkman                      Darkman.Slave                     Darkman
@@ -726,8 +750,8 @@ A-Games:   DarkSeedDe                   DarkSeedDe.Slave                  Darkse
 A-Games:   DarkSeedEs                   DarkSeedEs.Slave                  Darkseed ES
 A-Games:   DarkSeedFr                   DarkSeedFr.Slave                  Darkseed FR
 A-Games:   DarkSide                     DarkSide.Slave                    Dark Side
+A-Games:   DarkSideNTSC                 DarkSideNTSC.Slave                Dark Side NTSC
 A-Games:   DarkSpyre                    DarkSpyre.Slave                   DarkSpyre
-A-Games:   DasBoot                      DasBoot.Slave                     Das Boot
 A-Games:   Datastorm                    Datastorm.Slave                   Datastorm
 A-Games:   DawnPatrol                   DawnPatrol.Slave                  Dawn Patrol
 A-Games:   DawnPatrolDe                 DawnPatrolDe.Slave                Dawn Patrol DE
@@ -738,13 +762,13 @@ A-Games:   DaysOfThunder                DaysOfThunder.Slave               Days o
 A-Games:   DDayImpressions              DDayImpressions.slave             D-Day: The Beginning of the End
 A-Games:   DDayImpressionsFr            DDayImpressionsFr.Slave           D-Day: The Beginning of the End FR
 A-Games:   DeathbringerEmpire           DeathbringerEmpire.Slave          Death Bringer
-A-Games:   DeathBringerSpotlight        DeathBringerSpotlight.Slave       Death Bringer
+A-Games:   DeathBringerSpotlightNTSC    DeathBringerSpotlightNTSC.Slave   Death Bringer NTSC
 A-Games:   DeathKnightsOfKrynn          DeathKnightsOfKrynn.Slave         Death Knights of Krynn
 A-Games:   DeathKnightsOfKrynnDe        DeathKnightsOfKrynnDe.Slave       Death Knights of Krynn DE
 A-Games:   DeathMask                    DeathMask.Slave                   Death Mask
 A-Games:   DeathMaskAGA                 DeathMaskAGA.Slave                Death Mask AGA
 A-Games:   DeathOrGloryDe               DeathOrGloryDe.Slave              Death or Glory: The Battle of Morgan DE
-A-Games:   DeathSword                   DeathSword.Slave                  Death Sword
+A-Games:   DeathSwordNTSC               DeathSwordNTSC.Slave              Death Sword NTSC
 A-Games:   DeathTrap                    DeathTrap.Slave                   Death Trap
 A-Games:   DebutPlanetSimulation        DebutPlanetSimulation.Slave       Début: Planet Simulation
 A-Games:   DecimalDungeon               DecimalDungeon.Slave              Decimal Dungeon
@@ -758,13 +782,14 @@ A-Games:   Defender2                    Defender2.Slave                   Defend
 A-Games:   DefenderOfTheCrown           DefenderOfTheCrown.Slave          Defender of the Crown
 A-Games:   DefenderOfTheCrown2CD32      DefenderOfTheCrown2CD32.slave     Defender of the Crown II CD32
 A-Games:   DefenderOfTheCrownCDTV       DefenderOfTheCrownCDTV.Slave      Defender of the Crown CDTV
+A-Games:   DefenderOfTheCrownNTSC       DefenderOfTheCrownNTSC.Slave      Defender of the Crown NTSC
 A-Games:   DefenderRatsoft              DefenderRatsoft.slave             Defender
 A-Games:   DefendersOfTheEarth          DefendersOfTheEarth.slave         Defenders of the Earth
 A-Games:   DefenseurCouronne2CD32Fr     DefenseurCouronne2CD32Fr.slave    Defender of the Crown II FR CD32
 A-Games:   DefensorDeLaCorona2CD32Es    DefensorDeLaCorona2CD32ES.slave   Defender of the Crown II ES CD32
 A-Games:   Deflektor                    Deflektor.slave                   Deflektor
 A-Games:   DejaVu2LostInLasVegas        DejaVu2LostInLasVegas.Slave       Deja Vu II: Lost in Las Vegas
-A-Games:   DejaVuANightmareComesTrue    DejaVuANightmareComesTrue.Slave   Deja Vu: A Nightmare Comes True
+A-Games:   DejaVuNTSC                   DejaVuNTSC.Slave                  Deja Vu: A Nightmare Comes True NTSC
 A-Games:   Deliverance                  Deliverance.slave                 Deliverance
 A-Games:   DeltaCommandArcadia          DeltaCommandArcadia.Slave         Delta Command
 A-Games:   DeluxeGalaga                 DeluxeGalaga.Slave                Deluxe Galaga
@@ -840,7 +865,7 @@ A-Games:   DoubleDragon2                DoubleDragon2.Slave               Double
 A-Games:   DoubleDragon2NTSC            DoubleDragon2NTSC.Slave           Double Dragon II: The Revenge NTSC
 A-Games:   DoubleDragon3                DoubleDragon3.slave               Double Dragon 3: The Rosetta Stone
 A-Games:   DoubleDribble                DoubleDribble.slave               Double Dribble
-A-Games:   DownhillChallenge            DownhillChallenge.Slave           Downhill Challenge
+A-Games:   DownhillChallengeNTSC        DownhillChallengeNTSC.Slave       Downhill Challenge NTSC
 A-Games:   DrachenVonLaasDe             DrachenVonLaasDe.slave            Drachen von Laas, Die DE
 A-Games:   DragonBreed                  DragonBreed.Slave                 Dragon Breed
 A-Games:   DragonFighter                DragonFighter.Slave               Dragon Fighter
@@ -864,7 +889,7 @@ A-Games:   DragonsLairEscapeSlow        DragonsLairEscapeSlow.Slave       Dragon
 A-Games:   DragonSpirit                 DragonSpirit.Slave                Dragon Spirit
 A-Games:   Dragonstone                  Dragonstone.Slave                 Dragonstone
 A-Games:   DragonstoneCD32              DragonstoneCD32.slave             Dragonstone CD32
-A-Games:   DragonStrike                 DragonStrike.Slave                Dragon Strike
+A-Games:   DragonStrikeNTSC             DragonStrikeNTSC.Slave            Dragon Strike NTSC
 A-Games:   DragonTiles                  DragonTiles.Slave                 Dragon Tiles
 A-Games:   DragonTiles2                 DragonTiles2.Slave                Dragon Tiles II: The Tournament
 A-Games:   DragonTilesAGA               DragonTilesAGA.Slave              Dragon Tiles AGA
@@ -905,12 +930,13 @@ A-Games:   DungeonsOfAvalon             DungeonsOfAvalon.Slave            Dungeo
 A-Games:   DungeonsOfAvalon2            DungeonsOfAvalon2.Slave           Dungeons of Avalon II: The Island of Darkness
 A-Games:   Dux                          Dux.Slave                         Dux
 A-Games:   DylanDogTheMurderers         DylanDogTheMurderers.slave        Dylan Dog: The Murderers
-A-Games:   DynaBlaster                  DynaBlaster.Slave                 Dyna Blaster
+A-Games:   DynaBlaster                  DynaBlaster.slave                 Dyna Blaster
 A-Games:   DynamiteDux                  DynamiteDux.Slave                 Dynamite Düx
+A-Games:   Dynamo                       Dynamo.slave                      Captain Dynamo
 A-Games:   DynastyWars                  DynastyWars.slave                 Dynasty Wars
 A-Games:   Dyter07                      Dyter07.slave                     Dyter-07
 A-Games:   EaglesRider                  EaglesRider.slave                 Eagle's Rider
-A-Games:   Ebonstar                     Ebonstar.Slave                    EbonStar
+A-Games:   EbonstarNTSC                 EbonstarNTSC.Slave                EbonStar NTSC
 A-Games:   Eco                          Eco.Slave                         Eco
 A-Games:   EcoPhantoms                  EcoPhantoms.Slave                 Eco Phantoms
 A-Games:   EddTheDuck                   EddTheDuck.Slave                  Edd the Duck!
@@ -1001,21 +1027,26 @@ A-Games:   EyeOfTheBeholderDe           EyeOfTheBeholderDe.Slave          Eye of
 A-Games:   EyeOfTheStorm                EyeOfTheStorm.Slave               Eye of the Storm
 A-Games:   EyeOfTheStorm                Intro.Slave                       Eye of the Storm Intro
 A-Games:   F1                           F1.slave                          F1
+A-Games:   F117ANightHawk               F117ANightHawk.slave              F-117A Nighthawk Stealth Fighter 2.0
 A-Games:   F15StrikeEagle2              F15StrikeEagle2.Slave             F-15 Strike Eagle II
 A-Games:   F16CombatPilot               F16CombatPilot.slave              F-16 Combat Pilot
 A-Games:   F17Challenge                 F17Challenge.Slave                F17 Challenge
-A-Games:   F19StealthFighter            F19StealthFighter.Slave           F-19 Stealth Fighter
+A-Games:   F19StealthFighter            F19StealthFighter.slave           F-19 Stealth Fighter
+A-Games:   F19StealthFighterNTSC        F19StealthFighterNTSC.slave       F-19 Stealth Fighter NTSC
 A-Games:   F1Tornado                    F1Tornado.Slave                   F1 Tornado
 A-Games:   F1WorldChampionshipEd        F1WorldChampionshipEd.slave       F1 World Championship Edition
 A-Games:   F29Retaliator                F29Retaliator.Slave               F29 Retaliator
-A-Games:   F40PursuitSimulator          F40PursuitSimulator.Slave         F40 Pursuit Simulator
+A-Games:   F40PursuitSimulatorNTSC      F40PursuitSimulatorNTSC.Slave     F40 Pursuit Simulator NTSC
 A-Games:   FA18Interceptor              FA18Interceptor.slave             F/A-18 Interceptor
 A-Games:   FaceOff                      FaceOff.Slave                     Face Off
 A-Games:   FaeryTaleAdventure           FaeryTaleAdventure.slave          Faery Tale Adventure, The
 A-Games:   Falcon                       Falcon.Slave                      Falcon
+A-Games:   Falcon&MissionDisk1NTSC      Falcon&MissionDisk1NTSC.Slave     Falcon MissionDisk NTSC
 A-Games:   Falcon&MissionDisks          Falcon&MissionDisks.Slave         Falcon MissionDisk
+A-Games:   FalconNTSC                   FalconNTSC.Slave                  Falcon NTSC
 A-Games:   FallenAngel                  FallenAngel.slave                 Fallen Angel
 A-Games:   FantasticDizzy               FantasticDizzy.slave              Fantastic Dizzy
+A-Games:   FantasticDizzyAGA            FantasticDizzyAGA.slave           Fantastic Dizzy AGA
 A-Games:   FantasticVoyage              FantasticVoyage.slave             Fantastic Voyage
 A-Games:   FantasticVoyageCDTV          FantasticVoyageCDTV.slave         Fantastic Voyage CDTV
 A-Games:   FantasyFlyer                 FantasyFlyer.Slave                Fantasy Flyer
@@ -1033,8 +1064,9 @@ A-Games:   FastFoodDizzyCollection      FastFoodDizzyCollection.Slave     Fast F
 A-Games:   FastLane                     FastLane.Slave                    Fast Lane! The Spice Engineering Challenge
 A-Games:   FatalHeritageDe              FatalHeritageDe.Slave             Fatal Heritage DE
 A-Games:   FatalMission                 FatalMission.slave                Fatal Mission
-A-Games:   FateGatesOfDawn              FateGatesOfDawn.Slave             Fate: Gates of Dawn
-A-Games:   FateGatesOfDawnDe            FateGatesOfDawnDe.Slave           Fate: Gates of Dawn DE
+A-Games:   FateGatesOfDawn              FateGatesofDawn.slave             Fate: Gates of Dawn
+A-Games:   FateGatesOfDawnDe            FateGatesofDawnDe.slave           Fate: Gates of Dawn DE
+A-Games:   FateGatesOfDawnUncensored    FateGatesofDawnUncensored.slave   Fate: Gates of Dawn
 A-Games:   FatmanCapedConsumer          FatmanCapedConsumer.Slave         Fatman: The Caped Consumer
 A-Games:   FatmanCapedConsumerAGA       FatmanCapedConsumerAGA.Slave      Fatman: The Caped Consumer AGA
 A-Games:   FearsAGA                     FearsAGA.slave                    Fears AGA
@@ -1042,16 +1074,15 @@ A-Games:   FearsAGACensored             FearsAGACensored.slave            Fears 
 A-Games:   FearsCD32                    FearsCD32.Slave                   Fears CD32
 A-Games:   FederationOfFreeTraders      FederationOfFreeTraders.slave     Federation of Free Traders
 A-Games:   FemmeFatale                  FemmeFatale.Slave                 Femme Fatale
-A-Games:   FemmeFatale&DataDisk         FemmeFatale&DataDisk.Slave        Femme Fatale DataDisk
+A-Games:   FemmeFatale&DataDisks        FemmeFatale&DataDisks.Slave       Femme Fatale DataDisk
 A-Games:   FernandezMustDie             FernandezMustDie.Slave            Fernandez Must Die
 A-Games:   FerrariFormulaOne            FerrariFormulaOne.slave           Ferrari Formula One
 A-Games:   Feud                         Feud.Slave                        Feud
-A-Games:   FidelityChessmaster2100      FidelityChessmaster2100.Slave     Fidelity Chessmaster 2100, The
 A-Games:   FiendishFreddysBigTopOFun    FiendishFreddysBigTopOFun.slave   Fiendish Freddy's Big Top o' Fun
 A-Games:   FIFAInternationalSoccer      FIFAInternationalSoccer.slave     FIFA International Soccer
 A-Games:   FighterBomber                FighterBomber.slave               Fighter Bomber
 A-Games:   FighterBomberAM              FighterBomberAM.slave             Fighter Bomber
-A-Games:   FighterDuelPro               FighterDuelPro.Slave              Fighter Duel Pro
+A-Games:   FighterDuelProNTSC           FighterDuelProNTSC.Slave          Fighter Duel Pro NTSC
 A-Games:   FightingSoccerNTSC           FightingSoccerNTSC.slave          Fighting Soccer NTSC
 A-Games:   FightinSpirit                FightinSpirit.slave               Fightin' Spirit
 A-Games:   FightinSpiritAGA             FightinSpiritAGA.Slave            Fightin' Spirit AGA
@@ -1083,10 +1114,10 @@ A-Games:   FistFighter                  FistFighter.slave                 Fist F
 A-Games:   FiveASideSoccer              FiveASideSoccer.Slave             Five-A-Side Soccer
 A-Games:   Flaschbier                   Flaschbier.Slave                  Werner Flaschbier
 A-Games:   FlaschbierNoIntro            FlaschbierNoIntro.Slave           Werner Flaschbier NoIntro
-A-Games:   Flashback                    Flashback.Slave                   Flashback
+A-Games:   Flashback                    Flashback.slave                   Flashback
 A-Games:   FlashbackCz                  FlashbackCz.slave                 Flashback CZ
-A-Games:   FlashbackDe                  FlashbackDe.Slave                 Flashback DE
-A-Games:   FlashbackFr                  FlashbackFr.Slave                 Flashback FR
+A-Games:   FlashbackDe                  FlashbackDe.slave                 Flashback DE
+A-Games:   FlashbackFr                  FlashbackFr.slave                 Flashback FR
 A-Games:   FlashbackIt                  FlashbackIt.slave                 Flashback IT
 A-Games:   FlashbackLowMem              FlashbackLowMem.slave             Flashback LOWMEM
 A-Games:   FlashbackLowMemCz            FlashbackLowMemCz.slave           Flashback CZ LOWMEM
@@ -1116,11 +1147,12 @@ A-Games:   Flood                        Flood.Slave                       Flood
 A-Games:   Floor13                      Floor13.Slave                     Floor 13
 A-Games:   FluchtAusColditzDe           FluchtAusColditzDe.Slave          Escape from Colditz DE
 A-Games:   FlugDerAmazonQueenDe         FlugDerAmazonQueenDe.Slave        Flight of the Amazon Queen DE
-A-Games:   FlyFighter                   FlyFighter.Slave                  Fly Fighter
 A-Games:   FlyFighter                   highs                             Fly Fighter highs
+A-Games:   FlyFighter                   FlyFighter.Slave                  Fly Fighter
 A-Games:   FlyHarder                    FlyHarder.slave                   Fly Harder
 A-Games:   FlyHarderCD32                FlyHarderCD32.slave               Fly Harder CD32
 A-Games:   FlyingShark                  FlyingShark.Slave                 Flying Shark
+A-Games:   FlyingSharkSE                FlyingSharkSE.Slave               Flying Shark
 A-Games:   FoolsErrand                  FoolsErrand.Slave                 Fool's Errand, The
 A-Games:   FootballerOfTheYear2         FootballerOfTheYear2.slave        Footballer of the Year 2
 A-Games:   FootballGlory                FootballGlory.Slave               Football Glory
@@ -1135,8 +1167,9 @@ A-Games:   FormulaOne3D                 FormulaOne3D.slave                Formul
 A-Games:   FormulaOneGrandPrix3Disk     FormulaOneGrandPrix3Disk.Slave    Formula One Grand Prix 3Disk
 A-Games:   FormulaOneGrandPrix4Disk     FormulaOneGrandPrix4Disk.Slave    Formula One Grand Prix 4Disk
 A-Games:   FoundationsWaste             FoundationsWaste.Slave            Foundation's Waste
-A-Games:   FourCrystalsOfTrazere        getlegendsavedisk.slave           The Four Crystals of Trazere getlegendsavedisk
-A-Games:   FourCrystalsOfTrazere        FourCrystalsOfTrazere.Slave       The Four Crystals of Trazere
+A-Games:   FourCrystalsOfTrazereNTSC    getlegendsavedisk.slave           The Four Crystals of Trazere getlegendsavedisk NTSC
+A-Games:   FourCrystalsOfTrazereNTSC    FourCrystalsOfTrazereNTSC.Slave   The Four Crystals of Trazere NTSC
+A-Games:   FractionAction               FractionAction.Slave              Fraction Action
 A-Games:   FrancoBaresiWorldCupIt       FrancoBaresiWorldCupIt.Slave      Franco Baresi World Cup Kick Off IT
 A-Games:   Frankenstein                 Frankenstein.slave                Frankenstein
 A-Games:   FrankoCensoredPl             FrankoCensoredPl.slave            Franko: The Crazy Revenge! PL Censored
@@ -1149,6 +1182,7 @@ A-Games:   FreedomEs                    FreedomEs.Slave                   Freedo
 A-Games:   FreedomFr                    FreedomFr.Slave                   Freedom: Rebels in the Darkness FR
 A-Games:   Frenetic                     Frenetic.Slave                    Frenetic
 A-Games:   FrightNight                  FrightNight.Slave                 Fright Night
+A-Games:   FrightNight512k              FrightNight512k.Slave             Fright Night 512K
 A-Games:   Frontier                     Frontier.slave                    Frontier: Elite II
 A-Games:   FrontierCD32                 FrontierCD32.slave                Frontier: Elite II CD32
 A-Games:   FrontierCz                   FrontierCz.slave                  Frontier: Elite II CZ
@@ -1190,7 +1224,7 @@ A-Games:   Galaxy89                     Galaxy89.slave                    Galaxy
 A-Games:   GalaxyBlast                  GalaxyBlast.Slave                 Galaxy Blast
 A-Games:   GalaxyForce2                 GalaxyForce2.slave                Galaxy Force II
 A-Games:   GaldregonsDomain             GaldregonsDomain.Slave            Galdregon's Domain
-A-Games:   GameOfHarmony                GameOfHarmony.Slave               Game of Harmony, The
+A-Games:   GameOfHarmonyNTSC            GameOfHarmonyNTSC.Slave           Game of Harmony, The NTSC
 A-Games:   GamesSummerEdition           GamesSummerEdition.Slave          The Games: Summer Edition
 A-Games:   GamesWinterEdition           GamesWinterEdition.Slave          The Games: Winter Edition
 A-Games:   Ganymed                      Ganymed.slave                     Ganymed
@@ -1235,7 +1269,7 @@ A-Games:   Globulus                     Globulus.slave                    Globul
 A-Games:   GLOCR360                     GLOCR360.slave                    G-LOC R360
 A-Games:   GloomAGA                     GloomAGA.slave                    Gloom AGA
 A-Games:   GloomCD32                    GloomCD32.slave                   Gloom CD32
-A-Games:   GloomDemoAGA                 GloomDemoAGA.Slave                Gloom AGA Demo
+A-Games:   GloomDemoAGA                 GloomDemoAGA.slave                Gloom AGA Demo
 A-Games:   GNius                        GNius.Slave                       G.Nius
 A-Games:   Gnome                        Gnome.Slave                       Gnome
 A-Games:   GnomeAlone                   GnomeAlone.Slave                  Gnome Alone
@@ -1253,8 +1287,9 @@ A-Games:   Gods                         Gods.Slave                        Gods
 A-Games:   GodsDemo                     GodsDemo.Slave                    Gods Demo
 A-Games:   GodsNTSC                     GodsNTSC.slave                    Gods NTSC
 A-Games:   GoldenAxe                    GoldenAxe.Slave                   Golden Axe
-A-Games:   GoldenEagle                  GoldenEagle.slave                 Golden Eagle
+A-Games:   GoldenAxeNTSC                GoldenAxeNTSC.Slave               Golden Axe NTSC
 A-Games:   GoldenEagle                  Intro.slave                       Golden Eagle Intro
+A-Games:   GoldenEagle                  GoldenEagle.slave                 Golden Eagle
 A-Games:   GoldenPath                   GoldenPath.Slave                  Golden Path
 A-Games:   GoldOfTheAztecs              GoldOfTheAztecs.Slave             Gold of the Aztecs, The
 A-Games:   GoldOfTheAztecs_Kernal1.1    GoldOfTheAztecs(v1.1).Slave       Gold of the Aztecs, The (v1.1) Kernal1.1
@@ -1283,6 +1318,7 @@ A-Games:   Gremlins2                    Gremlins2.Slave                   Gremli
 A-Games:   Gridiron                     Gridiron.Slave                    Gridiron!
 A-Games:   GridStart                    GridStart.Slave                   Grid Start
 A-Games:   GTSoccerChallenge            GTSoccerChallenge.Slave           Graham Taylors Soccer Challenge
+A-Games:   GuardianAGA                  GuardianAGA.Slave                 Guardian AGA
 A-Games:   GuardianAngel                GuardianAngel.Slave               Guardian Angel, The
 A-Games:   GuardianCD32                 GuardianCD32.slave                Guardian CD32
 A-Games:   GuildOfThieves               GuildOfThieves.Slave              Guild of Thieves, The
@@ -1297,17 +1333,17 @@ A-Games:   GunshipNTSC                  GunshipNTSC.Slave                 Gunshi
 A-Games:   Gunshoot                     Gunshoot.Slave                    Gunshoot
 A-Games:   GuySpy                       GuySpy.Slave                      Guy Spy and the Crystals of Armageddon
 A-Games:   GuySpyCDTV                   GuySpyCDTV.Slave                  Guy Spy and the Crystals of Armageddon CDTV
-A-Games:   Hacker                       Hacker.Slave                      Hacker
 A-Games:   Hacker2                      Hacker2.Slave                     Hacker II: The Doomsday Papers
+A-Games:   HackerNTSC                   HackerNTSC.Slave                  Hacker NTSC
 A-Games:   HagarTheHorrible             HagarTheHorrible.Slave            Hägar
 A-Games:   HagarTheHorribleDe           HagarTheHorribleDe.Slave          Hägar DE
 A-Games:   HalleyProject                HalleyProject.Slave               Halley Project, The: A Mission In Our Solar System
 A-Games:   HammerBoy                    HammerBoy.slave                   Hammer Boy
-A-Games:   Hammerfist                   Hammerfist.slave                  Hammerfist
+A-Games:   Hammerfist                   Hammerfist.Slave                  Hammerfist
 A-Games:   HanseDe                      HanseDe.Slave                     Hanse DE
 A-Games:   HaraldHaardtandDk            HaraldHaardtandDk.slave           Harald Hårdtand: Kampen om de Rene Tænder DK
 A-Games:   HardBall                     HardBall.Slave                    Hardball!
-A-Games:   HardBall2                    HardBall2.Slave                   Hardball II
+A-Games:   HardBall2NTSC                HardBall2NTSC.Slave               Hardball II NTSC
 A-Games:   HardDrivin                   HardDrivin.Slave                  Hard Drivin'
 A-Games:   HardDrivin2                  HardDrivin2.Slave                 Hard Drivin'
 A-Games:   HardNHeavy                   HardNHeavy.slave                  Hard 'n' Heavy
@@ -1318,7 +1354,7 @@ A-Games:   Harpoon&Battleset1           Harpoon&Battleset1.Slave          Harpoo
 A-Games:   Harpoon&Battleset2           Harpoon&Battleset2.slave          Harpoon Battleset 2: North Atlantic Convoys
 A-Games:   Harpoon&Battleset3           Harpoon&Battleset3.slave          Harpoon Battleset 3: The Mediterranean Conflict
 A-Games:   Harpoon&Battleset4           Harpoon&Battleset4.slave          Harpoon Battleset 4: The Indian Ocean
-A-Games:   HarrierCombatSimulator       HarrierCombatSimulator.Slave      Harrier Combat Simulator
+A-Games:   HarrierCombatSimNTSC         HarrierCombatSimNTSC.Slave        Harrier Combat Simulator NTSC
 A-Games:   HATE                         HATE.slave                        H.A.T.E.: Hostile All Terrain Encounter
 A-Games:   Hawkeye                      Hawkeye.slave                     Hawkeye
 A-Games:   HeadOverHeels                HeadOverHeels.slave               Head Over Heels
@@ -1328,10 +1364,12 @@ A-Games:   HeartOfTheDragon3Disk        HeartOfTheDragon3Disk.Slave       Heart 
 A-Games:   HeartOfTheDragon4Disk        HeartOfTheDragon4Disk.slave       Heart of the Dragon 4Disk
 A-Games:   HeavyMetal                   HeavyMetal.slave                  Heavy Metal
 A-Games:   HeavyMetalHeroes             HeavyMetalHeroes.Slave            Heavy Metal Heroes
-A-Games:   Heimdall                     Heimdall.Slave                    Heimdall
+A-Games:   Heimdall                     Heimdall.slave                    Heimdall
 A-Games:   Heimdall2                    Heimdall2.Slave                   Heimdall 2: Into the Hall of Worlds
 A-Games:   Heimdall2AGA                 Heimdall2AGA.Slave                Heimdall 2: Into the Hall of Worlds AGA
 A-Games:   Heimdall2CD32                Heimdall2CD32.Slave               Heimdall 2: Into the Hall of Worlds CD32
+A-Games:   HeimdallDe                   HeimdallDe.slave                  Heimdall DE
+A-Games:   HeimdallFr                   HeimdallFr.slave                  Heimdall FR
 A-Games:   Hellbent                     Hellbent.Slave                    Hellbent
 A-Games:   HellfireAttack               HellfireAttack.Slave              Hellfire Attack
 A-Games:   HellowoonDe                  HellowoonDe.Slave                 Hellowoon: Das Geheimnis des Zauberstabs DE
@@ -1387,6 +1425,7 @@ A-Games:   Hugo2Dk                      Hugo2Dk.Slave                     Hugo p
 A-Games:   Hugo2Fi                      Hugo2Fi.Slave                     Hugo på nye Eventyr Del 2 FI
 A-Games:   HugoDe                       HugoDe.Slave                      Hugo på nye Eventyr DE
 A-Games:   HugoEs                       HugoEs.Slave                      Hugo på nye Eventyr ES
+A-Games:   HugoSe                       HugoSe.Slave                      Hugo på nye Eventyr SE
 A-Games:   HumanKillingMachine          HumanKillingMachine.slave         Human Killing Machine
 A-Games:   Humans                       Humans.slave                      Humans, The
 A-Games:   Humans2                      Humans2.slave                     Humans 2: The Jurassic Levels
@@ -1395,13 +1434,13 @@ A-Games:   Humans3AGA                   Humans3AGA.Slave                  Humans
 A-Games:   HumansCD32                   HumansCD32.slave                  Humans, The CD32
 A-Games:   HumansDe                     HumansDe.slave                    Humans, The DE
 A-Games:   HumansFr                     HumansFr.slave                    Humans, The FR
-A-Games:   Hunter                       Hunter.slave                      Hunter
+A-Games:   Hunter                       Hunter.Slave                      Hunter
 A-Games:   HunterDe                     HunterDe.slave                    Hunter DE
 A-Games:   HunterFr                     HunterFr.slave                    Hunter FR
 A-Games:   HuntForRedOctober            HuntForRedOctober.Slave           The Hunt for Red October
 A-Games:   HuntForRedOctoberTheMovie    HuntForRedOctoberTheMovie.Slave   Hunt for Red October, The
 A-Games:   Hybris                       Hybris.slave                      Hybris
-A-Games:   Hybris                       Hybris.Slave                      Hybris
+A-Games:   HybrisNTSC                   HybrisNTSC.Slave                  Hybris NTSC
 A-Games:   Hydra                        Hydra.Slave                       Hydra
 A-Games:   Hyperdome                    Hyperdome.Slave                   Hyperdome
 A-Games:   Hyperion                     Hyperion.Slave                    Hyperion
@@ -1427,7 +1466,6 @@ A-Games:   IndianaJonesAtlantisAdvEs    IndianaJonesAtlantisAdvEs.slave   Indian
 A-Games:   IndianaJonesAtlantisAdvFr    IndianaJonesAtlantisAdvFr.slave   Indiana Jones and the Fate of Atlantis FR
 A-Games:   IndianaJonesAtlantisAdvIt    IndianaJonesAtlantisAdvIt.slave   Indiana Jones and the Fate of Atlantis IT
 A-Games:   IndianaJonesLastCrusAct      IndianaJonesLastCrusAct.Slave     Indiana Jones and the Last Crusade
-A-Games:   IndianaJonesLastCrusAdv      IndianaJonesLastCrusAdv.slave     Indiana Jones and the Last Crusade
 A-Games:   IndianaJonesLastCrusAdvDe    IndianaJonesLastCrusAdvDe.slave   Indiana Jones and the Last Crusade DE
 A-Games:   IndianaJonesLastCrusAdvEs    IndianaJonesLastCrusAdvEs.slave   Indiana Jones and the Last Crusade ES
 A-Games:   IndianaJonesLastCrusAdvFr    IndianaJonesLastCrusAdvFr.slave   Indiana Jones and the Last Crusade FR
@@ -1438,6 +1476,8 @@ A-Games:   IndigoFiles                  IndigoFiles.Slave                 Indigo
 A-Games:   IndigoImage                  IndigoImage.Slave                 Indigo Image
 A-Games:   IndoorSports                 IndoorSports.Slave                Indoor Sports: Volume 1
 A-Games:   IndyHeat                     IndyHeat.Slave                    Indy Heat
+A-Games:   IndyJonesLastCrusAdvNTSC     IndyJonesLastCrusAdvNTSC.slave    Indiana Jones and the Last Crusade NTSC
+A-Games:   IndyLastCrusAdvDeCDTV        IndyLastCrusAdvDeCDTV.slave       Indiana Jones and the Last Crusade DE CDTV
 A-Games:   InertiaDrive                 InertiaDrive.Slave                Inertia Drive
 A-Games:   Infection                    Infection.Slave                   Infection
 A-Games:   Infestation                  Infestation.slave                 Infestation
@@ -1492,12 +1532,13 @@ A-Games:   JabatoEs                     JabatoEs.slave                    Jabato
 A-Games:   JaguarXJ220Files             JaguarXJ220Files.slave            Jaguar XJ220 Files
 A-Games:   JaguarXJ220Image             JaguarXJ220Image.slave            Jaguar XJ220 Image
 A-Games:   JahangirKhansWChampSquash    JahangirKhansWChampSquash.Slave   Jahangir Khan's World Championship Squash
-A-Games:   JamesBondTheStealthAffair    JamesBondTheStealthAffair.Slave   James Bond: The Stealth Affair
+A-Games:   JamesBondStlthAffairNTSC     JamesBondStlthAffairNTSC.Slave    James Bond: The Stealth Affair NTSC
 A-Games:   JamesPond                    JamesPond.slave                   James Pond: Underwater Agent
+A-Games:   JamesPond1MB                 JamesPond1MB.slave                James Pond: Underwater Agent 1MB
 A-Games:   JamesPond2                   JamesPond2.Slave                  James Pond 2: Codename RoboCod
 A-Games:   JamesPond2                   JamesPond2.Slave                  James Pond 2: Codename RoboCod
 A-Games:   JamesPond2AGA                JamesPond2AGA.Slave               James Pond 2: Codename RoboCod AGA
-A-Games:   JamesPond2CD32               JamesPond2CD32.Slave              James Pond 2: Codename RoboCod CD32
+A-Games:   JamesPond2CD32               JamesPond2CD32.slave              James Pond 2: Codename RoboCod CD32
 A-Games:   JamesPond3AGA                JamesPond3AGA.slave               James Pond 3: Operation Starfish AGA
 A-Games:   JamesPond3CD32               JamesPond3CD32.slave              James Pond 3: Operation Starfish CD32
 A-Games:   Jaws                         Jaws.Slave                        Jaws
@@ -1518,8 +1559,8 @@ A-Games:   JetstrikeAGA                 JetstrikeAGAIntro.Slave           Jetstr
 A-Games:   JewelsOfDarkness             JewelsOfDarkness.Slave            Jewels of Darkness
 A-Games:   JimmysFantasticJourney       JimmysFantasticJourney.slave      Jimmy's Fantastic Journey
 A-Games:   JimmyWhitesSnooker           JimmyWhitesSnooker.slave          Jimmy White's Whirlwind Snooker
-A-Games:   JimmyWillburneFr             IntroFr.Slave                     Jimmy Willburne - A La Recherche Du Peigne Perdu Intro FR
 A-Games:   JimmyWillburneFr             JimmyWillburneFr.Slave            Jimmy Willburne - A La Recherche Du Peigne Perdu FR
+A-Games:   JimmyWillburneFr             IntroFr.Slave                     Jimmy Willburne - A La Recherche Du Peigne Perdu Intro FR
 A-Games:   JimPower                     JimPower.Slave                    Jim Power in Mutant Planet
 A-Games:   Jinks                        Jinks.Slave                       Jinks
 A-Games:   Jinxter                      Jinxter.Slave                     Jinxter
@@ -1559,7 +1600,7 @@ A-Games:   KartingGrandPrix             KartingGrandPrix.Slave            Kartin
 A-Games:   Katakis1Disk                 Katakis1Disk.Slave                Katakis 1Disk
 A-Games:   Katakis2Disk                 Katakis2Disk.Slave                Katakis 2Disk
 A-Games:   KathedraleDe                 KathedraleDe.slave                Die Kathedrale DE
-A-Games:   KeefTheThief                 KeefTheThief.Slave                Keef the Thief
+A-Games:   KeefTheThiefNTSC             KeefTheThiefNTSC.Slave            Keef the Thief NTSC
 A-Games:   KellyX                       KellyX.slave                      Kelly X
 A-Games:   KennedyApproach              KennedyApproach.slave             Kennedy Approach
 A-Games:   KeysToMaramon                KeysToMaramon.Slave               Keys to Maramon, The
@@ -1567,6 +1608,9 @@ A-Games:   KGB                          KGB.Slave                         KGB
 A-Games:   KGBDe                        KGBDe.Slave                       KGB DE
 A-Games:   KGBFr                        KGBFr.Slave                       KGB FR
 A-Games:   Khalaan                      Khalaan.Slave                     Khalaan
+A-Games:   KhalaanDe                    KhalaanDe.Slave                   Khalaan DE
+A-Games:   KhalaanFr                    KhalaanFr.Slave                   Khalaan FR
+A-Games:   KhalaanNTSC                  KhalaanNTSC.Slave                 Khalaan NTSC
 A-Games:   KickOff                      KickOff.Slave                     Kick Off
 A-Games:   KickOff&ExtraTime1Disk       KickOff&ExtraTime1Disk.Slave      Kick Off ExtraTime 1Disk
 A-Games:   KickOff&ExtraTime2Disk       KickOff&ExtraTime2Disk.Slave      Kick Off ExtraTime 2Disk
@@ -1597,26 +1641,33 @@ A-Games:   Kikstart2                    Kikstart2.Slave                   Kiksta
 A-Games:   Kikugi                       Kikugi.Slave                      Kikugi
 A-Games:   Killerball                   Killerball.Slave                  Killerball
 A-Games:   KillingCloud                 KillingCloud.Slave                Killing Cloud, The
+A-Games:   KillingCloudNTSC             KillingCloudNTSC.Slave            Killing Cloud, The NTSC
 A-Games:   KillingGameShow              KillingGameShow.Slave             Killing Game Show, The
 A-Games:   KillingMachine               KillingMachine.Slave              Killing Machine
-A-Games:   Kinderama                    Kinderama.Slave                   F1-Racer
+A-Games:   Kinderama                    Kinderama.Slave                   Kinderama: Five Early Learning Games
 A-Games:   KingmakerQuestForTheCrown    KingmakerQuestForTheCrown.Slave   Kingmaker: The Quest for the Crown
 A-Games:   KingOfChicago                KingOfChicago.Slave               King of Chicago, The
 A-Games:   Kingpin                      Kingpin.Slave                     Kingpin: Arcade Sports Series Bowling
 A-Games:   Kingpin1Mb                   Kingpin1Mb.Slave                  Kingpin: Arcade Sports Series Bowling 1MB
 A-Games:   KingpinCD32                  KingpinCD32.Slave                 Kingpin: Arcade Sports Series Bowling CD32
 A-Games:   KingpinDemo                  KingpinDemo.Slave                 Kingpin: Arcade Sports Bowling Demo
+A-Games:   KingsBounty                  KingsBounty.slave                 King's Bounty
+A-Games:   KingsBountyNTSC              KingsBountyNTSC.Slave             King's Bounty NTSC
 A-Games:   KingsQuest                   KingsQuest.slave                  King's Quest
 A-Games:   KingsQuest2                  KingsQuest2.Slave                 King's Quest II
 A-Games:   KingsQuest3                  KingsQuest3.Slave                 King's Quest III: To Heir is Human
 A-Games:   KingsQuest4                  KingsQuest4.slave                 King's Quest IV
 A-Games:   KingsQuest5                  KingsQuest5.slave                 King's Quest V
 A-Games:   KingsQuest5De                KingsQuest5De.slave               King's Quest V DE
+A-Games:   KingsQuest5DeMT32            KingsQuest5DeMT32.slave           King's Quest V
 A-Games:   KingsQuest5It                KingsQuest5It.slave               King's Quest V IT
+A-Games:   KingsQuest5ItMT32            KingsQuest5ItMT32.slave           King's Quest V
+A-Games:   KingsQuest5MT32              KingsQuest5MT32.slave             King's Quest V
 A-Games:   KingsQuest6                  KingsQuest6.slave                 King's Quest VI
 A-Games:   KingsQuest6De                KingsQuest6De.slave               King's Quest VI DE
 A-Games:   KingsQuest6Fr                KingsQuest6Fr.slave               King's Quest VI FR
 A-Games:   KingsQuestEnhanced           KingsQuestEnhanced.slave          King's Quest: Quest for the Crown
+A-Games:   KingsQuestEnhancedMT32       KingsQuestEnhancedMT32.slave      King's Quest: Quest for the Crown
 A-Games:   KirosQuest                   KirosQuest.slave                  Kiro's Quest
 A-Games:   Klax                         Klax.Slave                        Klax
 A-Games:   KnightForce                  KnightForce.Slave                 Knight Force
@@ -1635,7 +1686,7 @@ A-Games:   Kwasimodo                    Kwasimodo.Slave                   Kwasim
 A-Games:   KwikSnax                     KwikSnax.slave                    Kwik Snax
 A-Games:   LaAventuraEspacialEs         LaAventuraEspacialEs.slave        La Aventura Espacial ES
 A-Games:   LaAventuraOriginalEs         LaAventuraOriginalEs.slave        La Aventura Original ES
-A-Games:   LabyrinthDk                  LabyrinthDk.slave                 Labyrinth DK
+A-Games:   LabyrinthDetNyeCOMputerDk    LabyrinthDetNyeCOMputerDk.slave   Labyrinth DK
 A-Games:   LabyrintheDAnglomania1Fr     LabyrintheDAnglomania1Fr.Slave    Labyrinthe D'Anglomania 1 FR
 A-Games:   LabyrintheDAnglomania2Fr     LabyrintheDAnglomania2Fr.Slave    Labyrinthe D'Anglomania 2 FR
 A-Games:   LabyrintheDeLexicosFr        LabyrintheDeLexicosFr.Slave       Labyrinthe de Lexicos, Le FR
@@ -1677,6 +1728,7 @@ A-Games:   LegendOfDjel                 LegendOfDjel.Slave                Legend
 A-Games:   LegendOfDjelDe               LegendOfDjelDe.Slave              Legend of Djel DE
 A-Games:   LegendOfFaerghail            LegendOfFaerghail.Slave           Legend of Faerghail
 A-Games:   LegendOfFaerghailDe          LegendOfFaerghailDe.Slave         Legend of Faerghail DE
+A-Games:   LegendOfFaerghailNTSC        LegendOfFaerghailNTSC.Slave       Legend of Faerghail NTSC
 A-Games:   LegendOfKyrandia             LegendOfKyrandia.Slave            Legend of Kyrandia
 A-Games:   LegendOfKyrandiaDe           LegendOfKyrandiaDe.Slave          Legend of Kyrandia DE
 A-Games:   LegendOfKyrandiaFr           LegendOfKyrandiaFr.Slave          Legend of Kyrandia FR
@@ -1696,7 +1748,10 @@ A-Games:   LeisureSuitLarry2            LeisureSuitLarry2.Slave           Leisur
 A-Games:   LeisureSuitLarry3            LeisureSuitLarry3.Slave           Leisure Suit Larry 3
 A-Games:   LeisureSuitLarry5            LeisureSuitLarry5.Slave           Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work
 A-Games:   LeisureSuitLarry5De          LeisureSuitLarry5De.Slave         Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work DE
+A-Games:   LeisureSuitLarry5DeMT32      LeisureSuitLarry5DeMT32.Slave     Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work
+A-Games:   LeisureSuitLarry5MT32        LeisureSuitLarry5MT32.Slave       Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work
 A-Games:   LeisureSuitLarryEnhanced     LeisureSuitLarryEnhanced.slave    Leisure Suit Larry in the Land of the Lounge Lizards
+A-Games:   LeisureSuitLarryEnhndMT32    LeisureSuitLarryEnhndMT32.slave   Leisure Suit Larry in the Land of the Lounge Lizards
 A-Games:   Lemmings21MB                 Lemmings21MB.slave                Lemmings 2: The Tribes 1MB
 A-Games:   Lemmings2512KB               Lemmings2512KB.slave              Lemmings 2: The Tribes 512KB
 A-Games:   Lemmings2Demo                Lemmings2Demo.Slave               Lemmings 2: The Tribes Demo
@@ -1741,6 +1796,7 @@ A-Games:   LionKingAGA                  LionKingAGA.Slave                 Lion K
 A-Games:   LiquidKidsFiles              LiquidKidsFiles.Slave             Liquid Kids Files
 A-Games:   LiquidKidsImage              LiquidKidsImage.Slave             Liquid Kids Image
 A-Games:   LittleComputerPeople         LittleComputerPeople.Slave        Little Computer People
+A-Games:   LittleComputerPeopleNTSC     LittleComputerPeopleNTSC.Slave    Little Computer People NTSC
 A-Games:   LittlePuffInDragonland       LittlePuffInDragonland.slave      Little Puff in Dragonland
 A-Games:   LiveAndLetDie                LiveAndLetDie.Slave               Live and Let Die
 A-Games:   Livingstone2                 Livingstone2.Slave                Livingstone II
@@ -1755,8 +1811,10 @@ A-Games:   LombardRACRally1Disk         LombardRACRally1Disk.Slave        Lombar
 A-Games:   LombardRACRally2Disk         LombardRACRally2Disk.Slave        Lombard RAC Rally 2Disk
 A-Games:   Loom                         Loom.slave                        Loom
 A-Games:   LoomDe                       LoomDe.slave                      Loom DE
+A-Games:   LoomDeCDTV                   LoomDeCDTV.slave                  Loom DE CDTV
 A-Games:   LoomEs                       LoomEs.slave                      Loom ES
 A-Games:   LoomFr                       LoomFr.slave                      Loom FR
+A-Games:   LoomIt                       LoomIt.slave                      Loom IT
 A-Games:   Loopz                        Loopz.Slave                       Loopz
 A-Games:   LordsOfChaos&DataDisk        LordsOfChaos&DataDisk.Slave       Lords of Chaos DataDisk
 A-Games:   LordsOfDoom                  LordsOfDoom.Slave                 Lords of Doom
@@ -1777,9 +1835,12 @@ A-Games:   LostDutchmanMine             LostDutchmanMine.Slave            Lost D
 A-Games:   LosTemplosSagradosEs         LosTemplosSagradosEs.slave        Templos Sagrados, Los ES
 A-Games:   LostInMinePl                 LostInMinePl.slave                Lost in Mine PL
 A-Games:   LostPatrol                   LostPatrol.Slave                  Lost Patrol, The
+A-Games:   LostPatrolNTSC               LostPatrolNTSC.Slave              Lost Patrol, The NTSC
 A-Games:   LostTreasuresOfInfocom       LostTreasuresOfInfocom.Slave      Lost Treasures Of Infocom, The
 A-Games:   LostVikings                  LostVikings.Slave                 Lost Vikings, The
 A-Games:   LostVikingsCD32              LostVikingsCD32.slave             Lost Vikings, The CD32
+A-Games:   LostVikingsDe                LostVikingsDe.Slave               Lost Vikings, The DE
+A-Games:   LostVikingsFr                LostVikingsFr.Slave               Lost Vikings, The FR
 A-Games:   LotharMatthausFussball       LotharMatthausFussball.slave      Lothar Matthäus
 A-Games:   Lotus                        Lotus.Slave                       Lotus Esprit Turbo Challenge
 A-Games:   Lotus2                       Lotus2.Slave                      Lotus Turbo Challenge 2
@@ -1814,6 +1875,7 @@ A-Games:   MagicMarble                  MagicMarble.Slave                 Magic 
 A-Games:   MagicPockets                 MagicPockets.Slave                Magic Pockets
 A-Games:   MagicPocketsDemo             MagicPocketsDemo.Slave            Magic Pockets Demo
 A-Games:   MagicPocketsNTSC             MagicPocketsNTSC.Slave            Magic Pockets NTSC
+A-Games:   MagicPocketsNTSC             MagicPocketsNTSC.slave            Magic Pockets NTSC
 A-Games:   Magnatron                    Magnatron.Slave                   Magnatron
 A-Games:   MajorMotion                  MajorMotion.Slave                 Major Motion
 A-Games:   ManchesterUnited             ManchesterUnited.Slave            Manchester United
@@ -1827,9 +1889,10 @@ A-Games:   ManFromTheCouncil            ManFromTheCouncil.Slave           Man fr
 A-Games:   ManhattanDealers             ManhattanDealers.Slave            Manhattan Dealers
 A-Games:   ManhattanDealersFr           ManhattanDealersFr.Slave          Manhattan Dealers FR
 A-Games:   Manhunter                    Manhunter.slave                   Manhunter: New York
-A-Games:   Manhunter2                   Manhunter2.slave                  Manhunter 2: San Francisco
+A-Games:   Manhunter2NTSC               Manhunter2NTSC.slave              Manhunter 2: San Francisco NTSC
 A-Games:   ManiacMansion                ManiacMansion.slave               Maniac Mansion
 A-Games:   ManiacMansionDe              ManiacMansionDe.slave             Maniac Mansion DE
+A-Games:   ManiacMansionEs              ManiacMansionEs.slave             Maniac Mansion ES
 A-Games:   ManiacMansionFr              ManiacMansionFr.slave             Maniac Mansion FR
 A-Games:   Maniax                       maniax.slave                      Maniax
 A-Games:   ManicMiner                   ManicMiner.slave                  Manic Miner
@@ -1848,7 +1911,7 @@ A-Games:   MatrixMarauders              MatrixMarauders.slave             Matrix
 A-Games:   MaupitiIsland                MaupitiIsland.Slave               Maupiti Island
 A-Games:   MaupitiIslandDe              MaupitiIslandDe.Slave             Maupiti Island DE
 A-Games:   MaupitiIslandFr              MaupitiIslandFr.Slave             Maupiti Island FR
-A-Games:   MaxRally                     MaxRally.Slave                    Max Rally
+A-Games:   MaxRally                     MaxRally.slave                    Max Rally
 A-Games:   Maya                         Maya.Slave                        Fetiche Maya, Le
 A-Games:   MayaEs                       MayaEs.Slave                      Fetiche Maya, Le ES
 A-Games:   MayaFast                     MayaFast.slave                    Fetiche Maya, Le FAST
@@ -1920,12 +1983,13 @@ A-Games:   Might&Magic3De               Might&Magic3De.Slave              Might 
 A-Games:   MightyBombJack               MightyBombjack.Slave              Mighty Bombjack
 A-Games:   MikeReadsComputerPopQuiz     MikeReadsComputerPopQuiz.Slave    Mike Read's Computer Pop Quiz
 A-Games:   MikroMortalTennis            MikroMortalTennis.Slave           Mikro Mortal Tennis
+A-Games:   MilleniumNTSC                MilleniumNTSC.Slave               Millennium 2.2 NTSC
 A-Games:   Millennium22                 Millennium22.Slave                Millennium 2.2
 A-Games:   Mindbender                   Mindbender.Slave                  Mindbender
 A-Games:   Mindfighter                  Mindfighter.Slave                 Mindfighter
 A-Games:   Mindroll                     Mindroll.Slave                    Mindroll
 A-Games:   Mindshadow                   Mindshadow.Slave                  Mindshadow
-A-Games:   MindWalker                   MindWalker.slave                  Mind Walker
+A-Games:   MindWalkerNTSC               MindWalkerNTSC.slave              Mind Walker NTSC
 A-Games:   MiniGolf                     MiniGolf.Slave                    Mini Golf
 A-Games:   MiniGolfPlus                 MiniGolfPlus.slave                Mini Golf Plus
 A-Games:   Minskies                     Minskies.slave                    Minskies ... The Abduction
@@ -1933,13 +1997,14 @@ A-Games:   MinskiesAGA                  MinskiesAGA.slave                 Minski
 A-Games:   MisjaHaroldaPl               MisjaHaroldaPl.slave              Misja Harolda: Zaginiony w systemie PL
 A-Games:   MissilesOverXerion           MissilesOverXerion.slave          Missiles over Xerion AGA
 A-Games:   MissionElevator              MissionElevator.Slave             Mission Elevator
-A-Games:   Moebius                      Moebius.Slave                     Moebius
 A-Games:   MoebiusGoatlizard            MoebiusGoatlizard.slave           Incredible Adventures Of Moebius Goatlizard DX, The
-A-Games:   MonkeyIsland2                MonkeyIsland2.Slave               Monkey Island 2: LeChuck's Revenge
-A-Games:   MonkeyIsland2De              MonkeyIsland2De.Slave             Monkey Island 2: LeChuck's Revenge DE
-A-Games:   MonkeyIsland2Es              MonkeyIsland2Es.Slave             Monkey Island 2: LeChuck's Revenge ES
-A-Games:   MonkeyIsland2Fr              MonkeyIsland2Fr.Slave             Monkey Island 2: LeChuck's Revenge FR
-A-Games:   MonkeyIsland2It              MonkeyIsland2It.Slave             Monkey Island 2: LeChuck's Revenge IT
+A-Games:   MoebiusNTSC                  MoebiusNTSC.Slave                 Moebius NTSC
+A-Games:   MonkeyBusiness               MonkeyBusiness.slave              Monkey Business
+A-Games:   MonkeyIsland2                MonkeyIsland2.slave               Monkey Island 2: LeChuck's Revenge
+A-Games:   MonkeyIsland2De              MonkeyIsland2De.slave             Monkey Island 2: LeChuck's Revenge DE
+A-Games:   MonkeyIsland2Es              MonkeyIsland2Es.slave             Monkey Island 2: LeChuck's Revenge ES
+A-Games:   MonkeyIsland2Fr              MonkeyIsland2Fr.slave             Monkey Island 2: LeChuck's Revenge FR
+A-Games:   MonkeyIsland2It              MonkeyIsland2It.slave             Monkey Island 2: LeChuck's Revenge IT
 A-Games:   MonsterBusiness              MonsterBusiness.slave             Monster Business
 A-Games:   MontyPythonsFlyCir           MontyPythonsFlyCir.Slave          Monty Python's Flying Circus
 A-Games:   MontyPythonsFlyCirNTSC       MontyPythonsFlyCirNTSC.Slave      Monty Python's Flying Circus NTSC
@@ -1963,7 +2028,7 @@ A-Games:   MOT                          MOT.Slave                         Mot
 A-Games:   MotorbikeMadness             MotorbikeMadness.Slave            Motorbike Madness
 A-Games:   Motorhead                    Motorhead.Slave                   Motörhead
 A-Games:   MotorMassacre                MotorMassacre.Slave               Motor Massacre
-A-Games:   MouseQuest                   MouseQuest.Slave                  MouseQuest
+A-Games:   MouseQuestNTSC               MouseQuestNTSC.Slave              MouseQuest NTSC
 A-Games:   Mousetrap                    Mousetrap.Slave                   Mousetrap
 A-Games:   MrBlobby                     MrBlobby.slave                    Mr Blobby
 A-Games:   MrDoRunRunFiles              MrDoRunRunFiles.Slave             Do! Run Run Files
@@ -2019,7 +2084,7 @@ A-Games:   NigelMansellsWrldChmpCD32    NigelMansellsWrldChmpCD32.slave   Nigel 
 A-Games:   NightbreedAction             NightbreedAction.Slave            Nightbreed: The Action Game
 A-Games:   NightbreedMovie              NightbreedMovie.Slave             Night Breed: The Interactive Movie
 A-Games:   Nightdawn                    Nightdawn.slave                   Nightdawn
-A-Games:   NightHawkF117A               NightHawkF117A.slave              F-117A Nighthawk Stealth Fighter 2.0
+A-Games:   NightdawnNTSC                NightdawnNTSC.slave               Nightdawn NTSC
 A-Games:   NightHunter                  NightHunter.slave                 Night Hunter
 A-Games:   NightShift                   NightShift.slave                  Night Shift
 A-Games:   NightWalk                    NightWalk.Slave                   Night Walk
@@ -2047,7 +2112,7 @@ A-Games:   NorthSeaInferno              NorthSeaInferno.Slave             The No
 A-Games:   NoSecondPrize                NoSecondPrize.slave               No Second Prize
 A-Games:   NotVeryFestiveFodder         NotVeryFestiveFodder.Slave        Not Very Festive Fodder
 A-Games:   Nova9                        Nova9.Slave                       Nova 9: The Return of Gir Draxon
-A-Games:   NuclearWar                   NuclearWar.Slave                  Nuclear War
+A-Games:   NuclearWarNTSC               NuclearWarNTSC.Slave              Nuclear War NTSC
 A-Games:   Nucleus                      Nucleus.Slave                     Nucleus
 A-Games:   NuxeliaDemo                  NuxeliaDemo.Slave                 Nuxelia AGA Demo
 A-Games:   Oath                         Oath.Slave                        Oath, The
@@ -2058,7 +2123,7 @@ A-Games:   Obsession                    Obsession.Slave                   Obsess
 A-Games:   Odyssey                      Odyssey.slave                     Odyssey
 A-Games:   OffShoreWarrior              OffShoreWarrior.Slave             Off Shore Warrior
 A-Games:   OgAGA                        OgAGA.Slave                       Trog AGA
-A-Games:   Ogre                         Ogre.Slave                        Ogre
+A-Games:   OgreNTSC                     OgreNTSC.Slave                    Ogre NTSC
 A-Games:   OhNoMoreLemmings             OhNoMoreLemmings.Slave            Oh No! More Lemmings
 A-Games:   OhNoMoreLemmingsNTSC         OhNoMoreLemmingsNTSC.Slave        Oh No! More Lemmings NTSC
 A-Games:   OilImperium                  OilImperium.Slave                 Oil Imperium
@@ -2066,7 +2131,9 @@ A-Games:   OilImperiumDe                OilImperiumDe.Slave               Oil Im
 A-Games:   Oktagon                      Oktagon.Slave                     Oktagon
 A-Games:   Omega                        Omega.Slave                       Omega
 A-Games:   OmnicronConspiracy           OmnicronConspiracy.Slave          Omnicron Conspiracy
-A-Games:   OneOnOne                     OneOnOne.slave                    One on One
+A-Games:   OmnicronConspiracyDe         OmnicronConspiracyDe.Slave        Omnicron Conspiracy DE
+A-Games:   OmnicronConspiracyFr         OmnicronConspiracyFr.Slave        Omnicron Conspiracy FR
+A-Games:   OneOnOneNTSC                 OneOnOneNTSC.slave                One on One NTSC
 A-Games:   OneStepBeyond                OneStepBeyond.slave               One Step Beyond
 A-Games:   OneToOneMatch                OneToOneMatch.Slave               One To One Match
 A-Games:   Onslaught                    Onslaught.slave                   Onslaught
@@ -2092,15 +2159,16 @@ A-Games:   OrientalGames                OrientalGames.Slave               Orient
 A-Games:   Ork                          Ork.Slave                         Ork
 A-Games:   OrkAttackTheReturn           OrkAttackTheReturn.Slave          Ork Attack: The Return
 A-Games:   OrkDemo                      OrkDemo.Slave                     Ork Demo
-A-Games:   OrkNTSC                      OrkNTSC.slave                     Ork NTSC
+A-Games:   OrkNTSC                      OrkNTSC.Slave                     Ork NTSC
 A-Games:   OscarAGA                     OscarAGA.Slave                    Oscar AGA
 A-Games:   OscarCD32                    OscarCD32.Slave                   Oscar CD32
-A-Games:   OsWALDOfTheIceFloes          OsWALDOfTheIceFloes.Slave         OsWALD of the Ice Floes
+A-Games:   OscarCD32NTSC                OscarCD32NTSC.slave               Oscar CD32 NTSC
+A-Games:   OsWALDOfTheIceFloesNTSC      OsWALDOfTheIceFloesNTSC.Slave     OsWALD of the Ice Floes NTSC
 A-Games:   Outlands&DizzyDice           Outlands&DizzyDice.slave          Outlands
-A-Games:   OutOfThisWorld               OutOfThisWorld.slave              Out of this World
+A-Games:   OutOfThisWorldNTSC           OutOfThisWorldNTSC.slave          Out of this World NTSC
+A-Games:   OutRun                       OutRun.slave                      Out Run
 A-Games:   OutRunEuropa                 OutRunEuropa.Slave                Out Run Europa
-A-Games:   OutRunSega                   OutRunSega.slave                  Out Run
-A-Games:   OutRunUSGold                 OutRunUSGold.slave                Out Run
+A-Games:   OutRunNTSC                   OutRunNTSC.slave                  Out Run NTSC
 A-Games:   Outzone                      Outzone.Slave                     Outzone
 A-Games:   OverdriveInfacto             OverdriveInfacto.Slave            Overdrive
 A-Games:   OverdriveTeam17              OverdriveTeam17.Slave             Overdrive
@@ -2108,7 +2176,7 @@ A-Games:   OverkillAGA                  OverkillAGA.slave                 Overki
 A-Games:   Overlander                   Overlander.Slave                  Overlander
 A-Games:   OverlordDemoRowan            OverlordDemoRowan.Slave           Overlord
 A-Games:   OverlordRowan                OverlordRowan.Slave               Overlord
-A-Games:   OverTheNet                   OverTheNet.Slave                  Over the Net
+A-Games:   OverTheNetNTSC               OverTheNetNTSC.Slave              Over the Net NTSC
 A-Games:   Oxxonian                     Oxxonian.Slave                    Oxxonian
 A-Games:   P47Thunderbolt               P47Thunderbolt.Slave              P47 Thunderbolt
 A-Games:   PacificIslands               PacificIslands.Slave              Pacific Islands
@@ -2143,7 +2211,7 @@ A-Games:   PenthouseHotNumsDlxDe        PenthouseHotNumsDlxDe.Slave       Pentho
 A-Games:   Perihelion                   Perihelion.Slave                  Perihelion
 A-Games:   PersianGulfInferno           PersianGulfInferno.Slave          Persian Gulf Inferno, The
 A-Games:   PersonalNightmare            PersonalNightmare.Slave           Personal Nightmare
-A-Games:   PeterBeardsleysIF            PeterBeardsleysIF.Slave           Peter Beardsley's International Football
+A-Games:   PeterBeardsleysIFNTSC        PeterBeardsleysIFNTSC.Slave       Peter Beardsley's International Football NTSC
 A-Games:   PeterSchmeichelSoccer        PeterSchmeichelSoccer.Slave       Peter Schmeichel Soccer
 A-Games:   PGAEuropeanTour              PGAEuropeanTour.Slave             PGA European Tour
 A-Games:   PGAEuropeanTourAGA           PGAEuropeanTourAGA.Slave          PGA European Tour AGA
@@ -2162,6 +2230,7 @@ A-Games:   PickNPile                    PickNPile.Slave                   Pick '
 A-Games:   PierreIsOutToLunchAGA        PierreIsOutToLunchAGA.Slave       Pierre Le Chef is... Out to Lunch AGA
 A-Games:   PierreIsOutToLunchCD32       PierreIsOutToLunchCD32.Slave      Pierre Le Chef is... Out to Lunch CD32
 A-Games:   PinballDreams                PinballDreams.Slave               Pinball Dreams
+A-Games:   PinballDreamsNTSC            PinballDreamsNTSC.Slave           Pinball Dreams NTSC
 A-Games:   PinballFntsies               PinballFntsies.slave              Pinball Fantasies
 A-Games:   PinballFntsiesAGA            PinballFntsiesAGA.slave           Pinball Fantasies AGA
 A-Games:   PinballFntsiesAGAChip        PinballFntsiesAGAChip.slave       Pinball Fantasies AGA CHIP
@@ -2182,7 +2251,7 @@ A-Games:   PinballWizardPrerelease      PinballWizardPrerelease.Slave     Pinbal
 A-Games:   Pinkie                       Pinkie.slave                      Pinkie
 A-Games:   PinkPanther                  PinkPanther.slave                 Pink Panther
 A-Games:   Pinomania                    Pinomania.Slave                   Pinomania
-A-Games:   PipeDream                    PipeDream.Slave                   Pipe Dream
+A-Games:   PipeDreamNTSC                PipeDreamNTSC.Slave               Pipe Dream NTSC
 A-Games:   PipelineNomad                PipelineNomad.Slave               Pipeline
 A-Games:   PipelineOracle               PipelineOracle.Slave              Pipeline
 A-Games:   PipeMania                    PipeMania.Slave                   Pipe Mania
@@ -2193,7 +2262,7 @@ A-Games:   Pixie&Dixie                  Pixie&Dixie.Slave                 Pixie 
 A-Games:   PizzaConnectionDe            PizzaConnectionDe.Slave           Pizza Connection DE
 A-Games:   Plague                       Plague.slave                      Plague, The
 A-Games:   Plan9FromOuterSpace          Plan9FromOuterSpace.Slave         Plan 9 from Outer Space
-A-Games:   Platoon                      Platoon.Slave                     Platoon
+A-Games:   PlatoonNTSC                  PlatoonNTSC.Slave                 Platoon NTSC
 A-Games:   PlayerManager                PlayerManager.slave               Player Manager
 A-Games:   PlayerManager2               PlayerManager2.Slave              Player Manager 2
 A-Games:   PlayerManager2ExtraAGA       PlayerManager2ExtraAGA.Slave      Player Manager 2 Extra AGA
@@ -2203,12 +2272,16 @@ A-Games:   PlayerManagerIt              PlayerManagerIt.slave             Player
 A-Games:   PlayroomFr                   PlayroomFr.Slave                  Playroom, The: La Chambre De Peppy FR
 A-Games:   Plotting                     Plotting.slave                    Plotting
 A-Games:   Plutos                       Plutos.Slave                      Plutos
-A-Games:   Pod                          Pod.Slave                         Pod
+A-Games:   PlutosNTSC                   PlutosNTSC.Slave                  Plutos NTSC
+A-Games:   Pod                          Pod.slave                         Pod
 A-Games:   PokerNightsDe                PokerNightsDe.Slave               Poker Nights: Teresa Personally DE
 A-Games:   PoliceQuest                  PoliceQuest.slave                 Police Quest
 A-Games:   PoliceQuest2                 PoliceQuest2.slave                Police Quest II
-A-Games:   PoliceQuest3                 PoliceQuest3.slave                Police Quest III: The Kindred
 A-Games:   PoliceQuest3De               PoliceQuest3De.slave              Police Quest III: The Kindred DE
+A-Games:   PoliceQuest3DeMT32           PoliceQuest3DeMT32.slave          Police Quest III: The Kindred
+A-Games:   PoliceQuest3NTSC             PoliceQuest3NTSC.slave            Police Quest III: The Kindred NTSC
+A-Games:   PoliceQuest3NTSCMT32         PoliceQuest3NTSCMT32.slave        Police Quest III: The Kindred
+A-Games:   PoliceQuestNTSC              PoliceQuestNTSC.slave             Police Quest NTSC
 A-Games:   Pong                         Pong.slave                        Pong
 A-Games:   Pool                         Pool.Slave                        Pool
 A-Games:   PoolOfRadiance               PoolOfRadiance.Slave              Pool of Radiance
@@ -2222,6 +2295,7 @@ A-Games:   Populous&DataDisks           Populous&DataDisks.Slave          Populo
 A-Games:   Populous2                    Populous2.slave                   Populous II: Trials of the Olympian Gods
 A-Games:   Populous2&ChallengeGames     Populous2.slave                   Populous II: Trials of the Olympian Gods ChallengeGames
 A-Games:   Populous2&ChallengeGames     ChallengeGames.slave              Populous II: Trials of the Olympian Gods ChallengeGames
+A-Games:   PopulousNTSC                 PopulousNTSC.Slave                Populous NTSC
 A-Games:   PopulousWorldEditor          PopulousWorldEditor.Slave         Populous World Editor
 A-Games:   Portal                       Portal.slave                      Portal
 A-Games:   PortesDuTempsFr              PortesDuTempsFr.Slave             Portes du Temps, Les FR
@@ -2247,6 +2321,7 @@ A-Games:   Predator                     Predator.Slave                    Predat
 A-Games:   Predator2                    Predator2.Slave                   Predator 2
 A-Games:   PrehistoricTale              PrehistoricTale.slave             A Prehistoric Tale
 A-Games:   Prehistorik                  Prehistorik.slave                 Prehistorik
+A-Games:   PrehistorikCDTV              PrehistorikCDTV.slave             Prehistorik CDTV
 A-Games:   Premiere                     Premiere.Slave                    Premiere
 A-Games:   PremiereCD32                 PremiereCD32.Slave                Premiere CD32
 A-Games:   PremierManager               PremierManager.Slave              Premier Manager
@@ -2265,11 +2340,12 @@ A-Games:   Prison                       Prison.Slave                      Prison
 A-Games:   PrisonNTSC                   PrisonNTSC.Slave                  Prison NTSC
 A-Games:   ProBoxingSimulator           ProBoxingSimulator.Slave          Pro Boxing Simulator
 A-Games:   ProfeziaIt                   ProfeziaIt.Slave                  Profezia IT
-A-Games:   ProjectX                     ProjectX.Slave                    Project-X
+A-Games:   ProjectX                     ProjectX.slave                    Project-X
 A-Games:   ProjectXBonusLevel           ProjectXBonusLevel.Slave          Project-X
 A-Games:   ProjectXSE                   ProjectXSE.Slave                  Project-X Special Edition 93
+A-Games:   ProjectXSE2017               ProjectXSE2017.slave              Project-X 2017
 A-Games:   ProjectXSECD32               ProjectXSECD32.slave              Project-X Special Edition 93 CD32
-A-Games:   ProjectXv2                   ProjectXv2.Slave                  Project-X
+A-Games:   ProjectXv2                   ProjectXv2.slave                  Project-X
 A-Games:   Projectyle                   Projectyle.slave                  Projectyle
 A-Games:   Prophecy1VikingChild         Prophecy1VikingChild.Slave        Prophecy I: The Viking Child
 A-Games:   ProPowerBoatSimulator        ProPowerBoatSimulator.Slave       Pro Powerboat Simulator
@@ -2294,12 +2370,13 @@ A-Games:   PuttySquadDemoAGA            PuttySquadDemoAGA.Slave           Putty 
 A-Games:   Puzznic                      Puzznic.Slave                     Puzznic
 A-Games:   Pyramax                      Pyramax.Slave                     Pyramax
 A-Games:   QBic                         QBic.slave                        Q-Bic
-A-Games:   Qix                          Qix.Slave                         Qix
+A-Games:   QixNTSC                      QixNTSC.Slave                     Qix NTSC
 A-Games:   Quadralien                   Quadralien.slave                  Quadralien
 A-Games:   Quadrel                      Quadrel.Slave                     Quadrel
 A-Games:   Quartz                       Quartz.slave                      Quartz
 A-Games:   QuestForGlory                QuestForGlory.slave               Hero's Quest: So You Want To Be A Hero
 A-Games:   QuestForGlory2               QuestForGlory2.Slave              Quest for Glory II: Trial by Fire
+A-Games:   QuestForGlory2MT32           QuestForGlory2MT32.Slave          Quest for Glory II: Trial by Fire
 A-Games:   QuestForTimeBirdFiles        QuestForTimeBirdFiles.Slave       The Quest For The Time-Bird Files
 A-Games:   QuestForTimeBirdImage        QuestForTimeBirdImage.Slave       The Quest For The Time-Bird Image
 A-Games:   QuestionOfSport              QuestionOfSport.Slave             A Question of Sport
@@ -2332,6 +2409,7 @@ A-Games:   RallyChampionships           RallyChampionships.Slave          Rally 
 A-Games:   RallyChampionshipsAGA        RallyChampionshipsAGA.Slave       Rally Championships AGA
 A-Games:   RallyCrossChallenge          RallyCrossChallenge.Slave         Rally Cross Challenge
 A-Games:   Rambo3                       Rambo3.slave                      Rambo III
+A-Games:   Rambo3NTSC                   Rambo3NTSC.slave                  Rambo III NTSC
 A-Games:   Rampage                      Rampage.slave                     Rampage
 A-Games:   Rampart                      Rampart.Slave                     Rampart
 A-Games:   RanX                         RanX.Slave                        Ranx
@@ -2348,15 +2426,15 @@ A-Games:   Rebellion                    Rebellion.slave                   Rebell
 A-Games:   RedBaron                     RedBaron.slave                    Red Baron
 A-Games:   RedBaronDe                   RedBaronDe.slave                  Red Baron DE
 A-Games:   RedHeat                      RedHeat.slave                     Red Heat
-A-Games:   RedLightning                 RedLightning.slave                Red Lightning
+A-Games:   RedLightningNTSC             RedLightningNTSC.slave            Red Lightning NTSC
 A-Games:   RedStormRising               RedStormRising.Slave              Red Storm Rising
 A-Games:   RedZone                      RedZone.Slave                     Red Zone
 A-Games:   Reflexity                    Reflexity.Slave                   Reflexity: Pinball Challenge
 A-Games:   Renaissance                  Renaissance.Slave                 Renaissance
 A-Games:   Renegade                     Renegade.slave                    Renegade
 A-Games:   Renegade3                    Renegade3.Slave                   Renegade III: The Final Chapter
-A-Games:   Renegades                    RenegadesEditor.Slave             Renegades Deluxe Editor
 A-Games:   Renegades                    Renegades.Slave                   Renegades Deluxe
+A-Games:   Renegades                    RenegadesEditor.Slave             Renegades Deluxe Editor
 A-Games:   Resolution101                Resolution101.Slave               Resolution 101
 A-Games:   ReturnOfTheJedi              ReturnOfTheJedi.slave             Star Wars: Return of the Jedi
 A-Games:   ReturnToAtlantis             ReturnToAtlantis.Slave            Return to Atlantis
@@ -2380,8 +2458,9 @@ A-Games:   RingsOfMedusaFr              RingsOfMedusaFr.Slave             Rings 
 A-Games:   RingsOfMedusaGoldDe          RingsOfMedusaGoldDe.Slave         Rings of Medusa Gold DE
 A-Games:   RiseOfTheDragon              RiseOfTheDragon.Slave             Rise of the Dragon
 A-Games:   RiseOfTheDragonDe            RiseOfTheDragonDe.Slave           Rise of the Dragon DE
+A-Games:   RiseOftheRobots              RiseOfTheRobots.slave             Rise of the Robots
 A-Games:   RiseOfTheRobotsAGA           RiseOfTheRobotsAGA.slave          Rise of the Robots AGA
-A-Games:   RiseOfTheRobotsCD32          RiseOfTheRobotsCD32.Slave         Rise of the Robots CD32
+A-Games:   RiseOfTheRobotsCD32          RiseOfTheRobotsCD32.slave         Rise of the Robots CD32
 A-Games:   Risk                         Risk.Slave                        RISK
 A-Games:   RiskyWoods                   RiskyWoods.Slave                  Risky Woods
 A-Games:   RoadBlasters                 RoadBlasters.Slave                RoadBlasters
@@ -2468,12 +2547,12 @@ A-Games:   SchmutzigeErbeDe             SchmutzigeErbeDe.Slave            Erbe 2
 A-Games:   SchwarzeAugeDe               SchwarzeAugeDe.slave              Schwarze Auge, Das: Die Schicksalsklinge DE
 A-Games:   ScoobyDoo&ScrappyDoo         ScoobyDoo&ScrappyDoo.slave        Scooby Doo and Scrappy Doo
 A-Games:   Scorpio                      Scorpio.Slave                     Scorpio
-A-Games:   Scorpion                     Scorpion.Slave                    Scorpion
 A-Games:   Scorpion                     highs                             Scorpion highs
+A-Games:   Scorpion                     Scorpion.Slave                    Scorpion
 A-Games:   Scrabble                     Scrabble.Slave                    Scrabble
 A-Games:   ScrambleSpirits              ScrambleSpirits.Slave             Scramble Spirits
 A-Games:   ScrollingWalls               ScrollingWalls.Slave              Scrolling Walls
-A-Games:   SDICinemaware                SDICinemaware.Slave               S.D.I.
+A-Games:   SDICinemawareNTSC            SDICinemawareNTSC.Slave           S.D.I. NTSC
 A-Games:   SecondSamurai                SecondSamurai.slave               Second Samurai
 A-Games:   SecondSamuraiAGA             SecondSamuraiAGA.slave            Second Samurai AGA
 A-Games:   SecondsOut                   SecondsOut.Slave                  Seconds Out..!
@@ -2510,7 +2589,7 @@ A-Games:   SensibleWorldOfSoccerWC98    SensibleWorldOfSoccerWC98.Slave   Sensib
 A-Games:   Sentinel                     Sentinel.Slave                    Sentinel, The
 A-Games:   Settlers                     Settlers.slave                    Settlers, The
 A-Games:   SettlersFr                   SettlersFr.slave                  Settlers, The FR
-A-Games:   SevenCitiesOfGold            SevenCitiesOfGold.slave           Seven Cities of Gold
+A-Games:   SevenCitiesOfGoldNTSC        SevenCitiesOfGoldNTSC.slave       Seven Cities of Gold NTSC
 A-Games:   SevenGatesOfJambalaFiles     SevenGatesOfJambalaFiles.slave    Seven Gates of Jambala, The Files
 A-Games:   SevenGatesOfJambalaImage     SevenGatesOfJambalaImage.slave    Seven Gates of Jambala, The Image
 A-Games:   Sextimates                   Sextimates.Slave                  Sextimates
@@ -2521,7 +2600,7 @@ A-Games:   ShadowFighterAGA             ShadowFighterAGA.Slave            Shadow
 A-Games:   ShadowFighterCD32            ShadowFighterCD32.Slave           Shadow Fighter CD32
 A-Games:   Shadowgate                   Shadowgate.Slave                  Shadowgate
 A-Games:   Shadowlands                  Shadowlands.Slave                 Shadowlands
-A-Games:   ShadowOfTheBeast             ShadowOfTheBeast.slave            Shadow of the Beast
+A-Games:   ShadowOfTheBeast             ShadowOfTheBeast.Slave            Shadow of the Beast
 A-Games:   ShadowOfTheBeast2            ShadowOfTheBeast2.Slave           Shadow of the Beast II
 A-Games:   ShadowOfTheBeast2Demo        ShadowOfTheBeast2Demo.Slave       Shadow of the Beast II Demo
 A-Games:   ShadowOfTheBeast2NTSC        ShadowOfTheBeast2NTSC.Slave       Shadow of the Beast II NTSC
@@ -2530,10 +2609,11 @@ A-Games:   ShadowOfTheBeast3NTSC        ShadowOfTheBeast3NTSC.slave       Shadow
 A-Games:   ShadowOfTheBeastDemo         ShadowOfTheBeastDemo.Slave        Shadow of the Beast Demo
 A-Games:   Shadoworlds                  Shadoworlds.Slave                 Shadoworlds
 A-Games:   ShadowSorcererDeFrIt         ShadowSorcererDeFrIt.Slave        Shadow Sorcerer IT FR DE
-A-Games:   ShadowWarriors               ShadowWarriors.Slave              Shadow Warriors
 A-Games:   ShadowWarriors               ShadowWarriors.slave              Shadow Warriors
+A-Games:   ShadowWarriors               ShadowWarriors.Slave              Shadow Warriors
 A-Games:   Shanghai                     Shanghai.Slave                    Shanghai
 A-Games:   ShanghaiFr                   ShanghaiFr.Slave                  Shanghai FR
+A-Games:   ShanghaiNTSC                 ShanghaiNTSC.Slave                Shanghai NTSC
 A-Games:   ShaqFu                       ShaqFu.slave                      Shaq Fu
 A-Games:   ShaqFuAGA                    ShaqFuAGA.slave                   Shaq Fu AGA
 A-Games:   SharkeysMoll                 SharkeysMoll.Slave                Sharkey's Moll
@@ -2556,8 +2636,8 @@ A-Games:   SideWinderArcadia            SideWinderArcadia.Slave           SideWi
 A-Games:   SiedlerDe                    SiedlerDe.slave                   Siedler, Die DE
 A-Games:   SierraSoccer                 SierraSoccer.Slave                Sierra Soccer: World Challenge Edition
 A-Games:   SilentService                SilentService.Slave               Silent Service
-A-Games:   SilentService2               SilentService2.slave              Silent Service II
-A-Games:   SiliconDreams                SiliconDreams.Slave               Silicon Dreams
+A-Games:   SilentService2NTSC           SilentService2NTSC.slave          Silent Service II NTSC
+A-Games:   SiliconDreamsNTSC            SiliconDreamsNTSC.Slave           Silicon Dreams NTSC
 A-Games:   Silkworm                     Silkworm.slave                    Silk Worm
 A-Games:   SillyPutty                   SillyPutty.Slave                  Putty
 A-Games:   SimAntHiRes                  SimAntHires.slave                 SimAnt HiRes
@@ -2566,9 +2646,10 @@ A-Games:   SimAntHiResFr                SimAntHiresFr.slave               SimAnt
 A-Games:   SimAntLoRes                  SimAntLoRes.slave                 SimAnt LoRes
 A-Games:   SimAntLoResDe                SimAntLoResDe.slave               SimAnt DE LoRes
 A-Games:   SimAntLoResFr                SimAntLoResFr.slave               SimAnt FR LoRes
-A-Games:   SimCity12                    SimCity12.Slave                   Sim City
+A-Games:   SimCity                      SimCity.Slave                     Sim City
 A-Games:   SimCity512KB                 SimCity512KB.Slave                Sim City 512KB
 A-Games:   SimCityCDTV                  SimCityCDTV.Slave                 Sim City CDTV
+A-Games:   SimCityNTSC                  SimCityNTSC.Slave                 Sim City NTSC
 A-Games:   SimEarthHiRes                SimEarthHiRes.Slave               SimEarth HiRes
 A-Games:   SimEarthHiResDe              SimEarthHiResDe.Slave             SimEarth DE HiRes
 A-Games:   SimEarthHiResFr              SimEarthHiResFr.Slave             SimEarth FR HiRes
@@ -2585,13 +2666,14 @@ A-Games:   SimonTheSorcererAGAFr        SimonTheSorcererAGAFr.Slave       Simon 
 A-Games:   SimonTheSorcererDe           SimonTheSorcererDe.Slave          Simon the Sorcerer DE
 A-Games:   SimonTheSorcererFr           SimonTheSorcererFr.Slave          Simon the Sorcerer FR
 A-Games:   Simulcra                     Simulcra.Slave                    Simulcra
-A-Games:   Sinbad                       Sinbad.Slave                      Sinbad and the Throne of the Falcon
+A-Games:   SinbadNTSC                   SinbadNTSC.Slave                  Sinbad and the Throne of the Falcon NTSC
 A-Games:   SinkOrSwim1MB                SinkOrSwim1MB.Slave               Sink or Swim 1MB
 A-Games:   SinkOrSwim512KB              SinkOrSwim512KB.Slave             Sink or Swim 512KB
 A-Games:   SirFredTheLegend             SirFredTheLegend.slave            Sir Fred: The Legend
 A-Games:   Sixiang                      Sixiang.Slave                     Sixiang
 A-Games:   SkaermtroldenHugoDk          SkaermtroldenHugoDk.Slave         Skærmtrolden Hugo DK
 A-Games:   SkateOfTheArt                SkateOfTheArt.Slave               Skate of the Art
+A-Games:   SkautKwatermasterPl          SkautKwatermasterPl.slave         Kwatermaster PL
 A-Games:   SkeetShoot                   SkeetShoot.Slave                  Skeet Shoot
 A-Games:   SkeletonKrewAGA              SkeletonKrewAGA.slave             Skeleton Krew AGA
 A-Games:   SkeletonKrewCD32             SkeletonKrewCD32.slave            Skeleton Krew CD32
@@ -2604,8 +2686,8 @@ A-Games:   Skull&Crossbones             Skull&CrossBones.slave            Skull 
 A-Games:   Skweek                       Skweek.Slave                      Skweek
 A-Games:   SkyChase                     SkyChase.Slave                    SkyChase
 A-Games:   SkyChaseFast                 SkyChaseFast.Slave                SkyChase FAST
-A-Games:   Skyfox                       Skyfox.slave                      Skyfox
 A-Games:   Skyfox2                      Skyfox2.Slave                     Skyfox II: The Cygnus Conflict
+A-Games:   SkyfoxNTSC                   SkyfoxNTSC.slave                  Skyfox NTSC
 A-Games:   SkyHighStuntman              SkyHighStuntman.Slave             Sky High Stuntman
 A-Games:   Slackskin&Flint              Slackskin&Flint.Slave             Slackskin & Flint
 A-Games:   SlamTiltAGA                  SlamTiltAGA.Slave                 Slamtilt AGA
@@ -2658,7 +2740,7 @@ A-Games:   Spaceball                    Spaceball.Slave                   Spaceb
 A-Games:   SpaceCrusade                 SpaceCrusade.Slave                Space Crusade
 A-Games:   SpaceCrusade&VoyageBeyond    VoyageBeyond.Slave                Space Crusade VoyageBeyond
 A-Games:   SpaceCrusade&VoyageBeyond    SpaceCrusade.Slave                Space Crusade VoyageBeyond
-A-Games:   Spacecutter                  Spacecutter.Slave                 Spacecutter
+A-Games:   SpacecutterNTSC              SpacecutterNTSC.Slave             Spacecutter NTSC
 A-Games:   SpaceGun                     SpaceGun.Slave                    Space Gun
 A-Games:   SpaceHarrier                 SpaceHarrier.Slave                Space Harrier
 A-Games:   SpaceHarrier&RetrnFntZone    SpaceHarrier.slave                Space Harrier RetrnFntZone
@@ -2667,26 +2749,32 @@ A-Games:   SpaceHarrierNTSC             SpaceHarrierNTSC.Slave            Space 
 A-Games:   SpaceHulk                    SpaceHulk.Slave                   Space Hulk
 A-Games:   SpaceMAXDe                   SpaceMAXDe.Slave                  Space MAX DE
 A-Games:   SpacePilot89                 SpacePilot89.Slave                Space Pilot 89
-A-Games:   SpaceQuest                   SpaceQuest.Slave                  Space Quest
+A-Games:   Spaceport                    Spaceport.Slave                   Spaceport
 A-Games:   SpaceQuest2                  SpaceQuest2.slave                 Space Quest II
 A-Games:   SpaceQuest3                  SpaceQuest3.slave                 Space Quest III: The Pirates of Pestulon
 A-Games:   SpaceQuest3De                SpaceQuest3De.slave               Space Quest III: The Pirates of Pestulon DE
-A-Games:   SpaceQuest4                  SpaceQuest4.slave                 Space Quest IV
+A-Games:   SpaceQuest3DeMT32            SpaceQuest3DeMT32.slave           Space Quest III: The Pirates of Pestulon
 A-Games:   SpaceQuest4De                SpaceQuest4De.slave               Space Quest IV DE
+A-Games:   SpaceQuest4DeMT32            SpaceQuest4DeMT32.slave           Space Quest IV
+A-Games:   SpaceQuest4NTSC              SpaceQuest4NTSC.slave             Space Quest IV NTSC
+A-Games:   SpaceQuest4NTSCMT32          SpaceQuest4NTSCMT32.slave         Space Quest IV
 A-Games:   SpaceQuestEnhanced           SpaceQuestEnhanced.slave          Space Quest: The Sarien Encounter
+A-Games:   SpaceQuestEnhancedMT32       SpaceQuestEnhancedMT32.slave      Space Quest: The Sarien Encounter
+A-Games:   SpaceQuestNTSC               SpaceQuestNTSC.Slave              Space Quest NTSC
 A-Games:   SpaceRacer                   SpaceRacer.Slave                  Space Racer
 A-Games:   SpaceRacerFr                 SpaceRacerFr.Slave                Space Racer FR
 A-Games:   SpaceRangerArcadia           SpaceRangerArcadia.Slave          Space Ranger
 A-Games:   SpaceRogue                   SpaceRogue.Slave                  Space Rogue
 A-Games:   SpaceStation                 SpaceStation.Slave                Space Station Oblivion
+A-Games:   SpacewreckedNTSC             SpacewreckedNTSC.Slave            Spacewrecked: 14 Billion Light Years From Earth NTSC
 A-Games:   SpecialForces                SpecialForces.slave               Special Forces
 A-Games:   Speedball                    Speedball.slave                   Speedball
 A-Games:   Speedball2                   Speedball2.Slave                  Speedball 2: Brutal Deluxe
-A-Games:   Speedball2CD32               Speedball2CD32.Slave              Speedball 2: Brutal Deluxe CD32
+A-Games:   Speedball2CD32               Speedball2CD32.slave              Speedball 2: Brutal Deluxe CD32
 A-Games:   Speedball2NTSC               Speedball2NTSC.Slave              Speedball 2: Brutal Deluxe NTSC
 A-Games:   SpeedballNTSC                SpeedballNTSC.slave               Speedball NTSC
 A-Games:   SpeedboatAssassins           SpeedboatAssassins.Slave          Speedboat Assassin
-A-Games:   SpeedBuggy                   SpeedBuggy.slave                  Speed Buggy
+A-Games:   SpeedBuggyNTSC               SpeedBuggyNTSC.slave              Speed Buggy NTSC
 A-Games:   SpellBound                   SpellBound.Slave                  Spell Bound
 A-Games:   SpellboundDizzy              SpellboundDizzy.Slave             Spellbound Dizzy
 A-Games:   SpellfireTheSorcerer         SpellfireTheSorcerer.slave        Sorcerer
@@ -2699,6 +2787,8 @@ A-Games:   SpikeInTransylvania          SpikeInTransylvania.Slave         Spike 
 A-Games:   SpindizzyWorlds              SpindizzyWorlds.slave             Spindizzy Worlds
 A-Games:   SpiritOfAdventureDe1Disk     SpiritOfAdventureDe1Disk.slave    Spirit of Adventure DE 1Disk
 A-Games:   SpiritOfAdventureDe3Disk     SpiritOfAdventureDe3Disk.slave    Spirit of Adventure DE 3Disk
+A-Games:   SpiritOfExcalibur            SpiritOfExcalibur.slave           Spirit of Excalibur
+A-Games:   SpiritOfExcaliburNTSC        SpiritOfExcaliburNTSC.slave       Spirit of Excalibur NTSC
 A-Games:   SpittingImage                SpittingImage.slave               Spitting Image Image
 A-Games:   Spot                         Spot.Slave                        Spot
 A-Games:   SpotArcadia                  SpotArcadia.Slave                 Spot
@@ -2718,6 +2808,7 @@ A-Games:   StarCommand                  StarCommand.Slave                 Star C
 A-Games:   StarControl                  StarControl.Slave                 Star Control
 A-Games:   StarCrusaderAGA              StarCrusaderAGA.Slave             Star Crusader AGA
 A-Games:   Stardust                     Stardust.slave                    Stardust
+A-Games:   Starflight                   Starflight.Slave                  Starflight
 A-Games:   Starglider                   Starglider.Slave                  Starglider
 A-Games:   Starglider2                  Starglider2.Slave                 Starglider 2
 A-Games:   StarGoose                    StarGoose.Slave                   Star Goose!
@@ -2738,8 +2829,8 @@ A-Games:   Steel                        Steel.Slave                       Steel
 A-Games:   SteelEmpire                  SteelEmpire.Slave                 Steel Empire
 A-Games:   StegTheSlug                  StegTheSlug.slave                 Steg the Slug
 A-Games:   Steigar                      Steigar.Slave                     Steigar
-A-Games:   Stellar7                     Stellar7.Slave                    Stellar 7
 A-Games:   Stellar7De                   Stellar7De.Slave                  Stellar 7 DE
+A-Games:   Stellar7NTSC                 Stellar7NTSC.Slave                Stellar 7 NTSC
 A-Games:   StirCrazyFeaturingBobo       StirCrazyFeaturingBobo.Slave      Bobo
 A-Games:   StoneAge                     StoneAge.slave                    Stone Age
 A-Games:   Stormball                    Stormball.Slave                   Stormball
@@ -2758,11 +2849,11 @@ A-Games:   StreetFighter2               StreetFighter2.Slave              Street
 A-Games:   StreetGang                   StreetGang.slave                  Street Gang
 A-Games:   StreetRacerCD32              StreetRacerCD32.slave             Street Racer CD32
 A-Games:   StreetRod                    StreetRod.slave                   Street Rod
-A-Games:   StreetRod2                   StreetRod2.Slave                  Street Rod 2
-A-Games:   StreetSportsBasketball       StreetSportsBasketball.Slave      Street Sports Basketball
+A-Games:   StreetRod2                   StreetRod2.slave                  Street Rod 2
+A-Games:   StreetSportsBBNTSC           StreetSportsBBNTSC.Slave          Street Sports Basketball NTSC
 A-Games:   Strider                      Strider.Slave                     Strider
 A-Games:   Strider2                     Strider2.Slave                    Strider II
-A-Games:   StrikeAces                   StrikeAces.Slave                  Strike Aces
+A-Games:   StrikeAcesNTSC               StrikeAcesNTSC.Slave              Strike Aces NTSC
 A-Games:   Striker                      Striker.slave                     Striker
 A-Games:   StripPoker                   StripPoker.slave                  Strip Poker: A Sizzling Game of Chance
 A-Games:   StripPoker2                  StripPoker2.slave                 Strip Poker II
@@ -2774,8 +2865,8 @@ A-Games:   Stryx                        Stryx.Slave                       Stryx
 A-Games:   STUNRunner                   STUNRunner.Slave                  S.T.U.N. Runner
 A-Games:   StuntCarRacer                StuntCarRacer.Slave               Stunt Car Racer
 A-Games:   StuntCarRacerTNT             StuntCarRacerTNT.Slave            Stunt Car Racer
-A-Games:   StuntTrackRacer              StuntTrackRacer.Slave             Stunt Track Racer
-A-Games:   SubBattleSimulator           SubBattleSimulator.Slave          Sub Battle Simulator
+A-Games:   StuntTrackRacerNTSC          StuntTrackRacerNTSC.Slave         Stunt Track Racer NTSC
+A-Games:   SubBattleSimulatorNTSC       SubBattleSimulatorNTSC.Slave      Sub Battle Simulator NTSC
 A-Games:   Subbuteo                     Subbuteo.Slave                    Subbuteo: The Computer Game
 A-Games:   Subtrade                     Subtrade.slave                    Subtrade: Return to Irata
 A-Games:   SuburbanCommando             SuburbanCommando.Slave            Suburban Commando
@@ -2794,23 +2885,24 @@ A-Games:   SuperCars2                   SuperCars2.Slave                  Super 
 A-Games:   SuperCars2Disk               SuperCars2Disk.Slave              Super Cars 2Disk
 A-Games:   SuperCauldron                SuperCauldron.Slave               Super Cauldron
 A-Games:   SuperCFast                   SuperCFast.Slave                  Super C FAST
-A-Games:   Superfrog                    SuperfrogIntro.Slave              Superfrog Intro
 A-Games:   Superfrog                    Superfrog.Slave                   Superfrog
-A-Games:   SuperfrogCD32                SuperfrogCD32.Slave               Superfrog CD32
+A-Games:   Superfrog                    SuperfrogIntro.Slave              Superfrog Intro
 A-Games:   SuperfrogCD32                SuperfrogIntroCD32.Slave          Superfrog Intro CD32
+A-Games:   SuperfrogCD32                SuperfrogCD32.Slave               Superfrog CD32
 A-Games:   SuperfrogDemoAmigaAction     SuperfrogDemoAmigaAction.Slave    Superfrog Demo AmigaAction
 A-Games:   SuperfrogDemoCUAmiga         SuperfrogDemoCUAmiga.Slave        Superfrog Demo CUAmiga
 A-Games:   SuperfrogDemoTheOne          SuperfrogDemoTheOne.Slave         Superfrog Demo TheOne
 A-Games:   SuperGrandPrix               SuperGrandPrix.Slave              Super Grand Prix
 A-Games:   SuperGridRunner              SuperGridRunner.Slave             Grid Runner
+A-Games:   SuperHangOn                  SuperHangOn.slave                 Super Hang-On
 A-Games:   SuperHangOn                  SuperHangOn.Slave                 Super Hang-On
 A-Games:   SuperheroDemo                SuperheroDemo.Slave               Superhero Demo
 A-Games:   SuperLoopzAGA                SuperLoopzAGA.Slave               Super Loopz AGA
 A-Games:   Superman                     Superman.Slave                    Superman: The Man of Steel
 A-Games:   SuperMethaneBros             SuperMethaneBros.Slave            Super Methane Bros
 A-Games:   SuperMethaneBrosCD32         SuperMethaneBrosCD32.Slave        Super Methane Bros CD32
-A-Games:   SuperMonacoGP                SuperMonacoGP.slave               Super Monaco GP
 A-Games:   SuperMonacoGP                SuperMonacoGP.Slave               Super Monaco GP
+A-Games:   SuperMonacoGP                SuperMonacoGP.slave               Super Monaco GP
 A-Games:   SuperObliteration            SuperObliteration.Slave           Super Obliteration
 A-Games:   SuperOffRoad                 SuperOffRoad.Slave                Ivan 'Ironman' Stewart's Super Off Road
 A-Games:   SuperOffRoadNTSC             SuperOffRoadNTSC.Slave            Ivan 'Ironman' Stewart's Super Off Road NTSC
@@ -2826,6 +2918,7 @@ A-Games:   SuperSkiFr                   SuperSkiFr.Slave                  Super 
 A-Games:   SuperSkweek1MB               SuperSkweek1MB.Slave              Super Skweek 1MB
 A-Games:   SuperSkweek512KB             SuperSkweek512KB.Slave            Super Skweek 512KB
 A-Games:   SuperSpaceInvaders           SuperSpaceInvaders.slave          Super Space Invaders
+A-Games:   SuperSpaceInvadersNTSC       SuperSpaceInvadersNTSC.slave      Super Space Invaders NTSC
 A-Games:   SuperStardustAGA             SuperStardustAGA.Slave            Super Stardust AGA
 A-Games:   SuperstarIceHockey           SuperstarIceHockey.Slave          Superstar Ice Hockey
 A-Games:   SuperStreetFighter2          SuperStreetFighter2.Slave         Super Street Fighter II: The New Challengers
@@ -2850,11 +2943,13 @@ A-Games:   SWIV                         SWIV.Slave                        SWIV
 A-Games:   Swooper                      Swooper.Slave                     Swooper
 A-Games:   Sword                        Sword.Slave                       Sword
 A-Games:   Sword&TheRose                Sword&TheRose.slave               Sword & The Rose, The
+A-Games:   SwordOfAragon                SwordOfAragon.slave               Sword of Aragon
 A-Games:   SwordOfHonour                SwordOfHonour.slave               Sword of Honour
 A-Games:   SwordOfSodan                 SwordOfSodan.slave                Sword of Sodan
 A-Games:   Swords&Galleons              Swords&Galleons.slave             Swords & Galleons
 A-Games:   SwordsOfTwilight             SwordsOfTwilight.Slave            Swords of Twilight
 A-Games:   Syndicate                    Syndicate.slave                   Syndicate
+A-Games:   SyndicateAmericanRevolt      SyndicateAmericanRevolt.slave     Syndicate: American Revolt Mission Disk
 A-Games:   SyndicateCD32                SyndicateCD32.slave               Syndicate CD32
 A-Games:   SyndicateDe                  SyndicateDe.slave                 Syndicate DE
 A-Games:   TableHockeyArcadia           TableHockeyArcadia.Slave          SportTime Table Hockey
@@ -2909,19 +3004,20 @@ A-Games:   TheirFinestHour&Missions     TheirFinestHour&Missions.Slave    Their 
 A-Games:   ThemePark                    ThemePark.Slave                   Theme Park
 A-Games:   ThemeParkAGA                 ThemeParkAGA.Slave                Theme Park AGA
 A-Games:   ThemeParkMystery             ThemeParkMystery.slave            Theme Park Mystery
-A-Games:   Thexder                      Thexder.Slave                     Thexder
+A-Games:   ThemeParkMysteryNTSC         ThemeParkMysteryNTSC.slave        Theme Park Mystery NTSC
+A-Games:   Thexder                      Thexder.slave                     Thexder
 A-Games:   ThirdCourier                 ThirdCourier.Slave                Third Courier, The
 A-Games:   ThomasTankEngPinballAGA      ThomasTankEngPinballAGA.Slave     Thomas the Tank Engine AGA
 A-Games:   ThomasTankEngPinballCD32     ThomasTankEngPinballCD32.Slave    Thomas the Tank Engine CD32
 A-Games:   ThomasTheTankEngine          ThomasTheTankEngine.Slave         Thomas the Tank Engine
 A-Games:   ThomasTheTankEngine2         ThomasTheTankEngine2.slave        Thomas the Tank Engine 2
-A-Games:   ThreeStooges                 ThreeStooges.Slave                Three Stooges, The
+A-Games:   ThreeStoogesNTSC             ThreeStoogesNTSC.Slave            Three Stooges, The NTSC
 A-Games:   Thunderbirds                 Thunderbirds.slave                Thunderbirds
 A-Games:   ThunderBlade                 ThunderBlade.Slave                Thunder Blade
 A-Games:   ThunderBladeNTSC             ThunderBladeNTSC.Slave            Thunder Blade NTSC
 A-Games:   ThunderBoy                   ThunderBoy.Slave                  Thunderboy
 A-Games:   ThunderBurner                ThunderBurner.Slave               Thunder Burner
-A-Games:   ThunderCats                  ThunderCats.Slave                 ThunderCats
+A-Games:   ThunderCats                  ThunderCats.slave                 ThunderCats
 A-Games:   ThunderHawkAH73M             ThunderHawkAH73M.Slave            Thunderhawk AH-73M
 A-Games:   ThunderHawkAH73MDe           ThunderHawkAH73MDe.Slave          Thunderhawk AH-73M DE
 A-Games:   ThunderHawkAH73MFr           ThunderHawkAH73MFr.Slave          Thunderhawk AH-73M FR
@@ -2967,36 +3063,36 @@ A-Games:   TimeRunners27                TimeRunners27.Slave               Time R
 A-Games:   TimeRunners28                TimeRunners28.Slave               Time Runners 28: Beyond the End
 A-Games:   TimeRunners29                TimeRunners29.Slave               Time Runners 29: The Last Revelation
 A-Games:   TimeRunners30                TimeRunners30.Slave               Time Runners 30: The Final Duel
-A-Games:   TimeRunnersSeries            TimeRunners27.Slave               Time Runners 27: Red Night TimeRunners27
-A-Games:   TimeRunnersSeries            TimeRunners30.Slave               Time Runners 30: The Final Duel TimeRunners30
-A-Games:   TimeRunnersSeries            TimeRunners29.Slave               Time Runners 29: The Last Revelation TimeRunners29
-A-Games:   TimeRunnersSeries            TimeRunners24.Slave               Time Runners 24: Beyond All Dimensions TimeRunners24
-A-Games:   TimeRunnersSeries            TimeRunners20.Slave               Time Runners 20: The Mountains of Death TimeRunners20
-A-Games:   TimeRunnersSeries            TimeRunners26.Slave               Time Runners 26: The Time Warrior TimeRunners26
 A-Games:   TimeRunnersSeries            TimeRunners25.Slave               Time Runners 25: The Lost Planet Earth TimeRunners25
-A-Games:   TimeRunnersSeries            TimeRunners28.Slave               Time Runners 28: Beyond the End TimeRunners28
-A-Games:   TimeRunnersSeries            TimeRunners19.Slave               Time Runners 19: The Nightmare Prince TimeRunners19
+A-Games:   TimeRunnersSeries            TimeRunners30.Slave               Time Runners 30: The Final Duel TimeRunners30
+A-Games:   TimeRunnersSeries            TimeRunners27.Slave               Time Runners 27: Red Night TimeRunners27
+A-Games:   TimeRunnersSeries            TimeRunners24.Slave               Time Runners 24: Beyond All Dimensions TimeRunners24
+A-Games:   TimeRunnersSeries            TimeRunners07.Slave               Time Runners 07: In the Land of the Invaders TimeRunners07
+A-Games:   TimeRunnersSeries            TimeRunners26.Slave               Time Runners 26: The Time Warrior TimeRunners26
+A-Games:   TimeRunnersSeries            TimeRunners05.Slave               Time Runners 05: The Black Knight TimeRunners05
+A-Games:   TimeRunnersSeries            TimeRunners06.Slave               Time Runners 06: The Bewitched Forest TimeRunners06
+A-Games:   TimeRunnersSeries            TimeRunners29.Slave               Time Runners 29: The Last Revelation TimeRunners29
 A-Games:   TimeRunnersSeries            TimeRunners22.Slave               Time Runners 22: The Eternal Damned TimeRunners22
+A-Games:   TimeRunnersSeries            TimeRunners19.Slave               Time Runners 19: The Nightmare Prince TimeRunners19
+A-Games:   TimeRunnersSeries            TimeRunners20.Slave               Time Runners 20: The Mountains of Death TimeRunners20
 A-Games:   TimeRunnersSeries            TimeRunners21.Slave               Time Runners 21: The Black Dragon's Curse TimeRunners21
 A-Games:   TimeRunnersSeries            TimeRunners16.Slave               Time Runners 16: The Galaxy Emperor TimeRunners16
 A-Games:   TimeRunnersSeries            TimeRunners23.Slave               Time Runners 23: The Time Monarch TimeRunners23
-A-Games:   TimeRunnersSeries            TimeRunners18.Slave               Time Runners 18: The Killer Shadow TimeRunners18
+A-Games:   TimeRunnersSeries            TimeRunners28.Slave               Time Runners 28: Beyond the End TimeRunners28
 A-Games:   TimeRunnersSeries            TimeRunners17.Slave               Time Runners 17: The Living Labyrinth TimeRunners17
-A-Games:   TimeRunnersSeries            TimeRunners06.Slave               Time Runners 06: The Bewitched Forest TimeRunners06
+A-Games:   TimeRunnersSeries            TimeRunners18.Slave               Time Runners 18: The Killer Shadow TimeRunners18
+A-Games:   TimeRunnersSeries            TimeRunners09.Slave               Time Runners 09: The Time Demon TimeRunners09
 A-Games:   TimeRunnersSeries            TimeRunners12.Slave               Time Runners 12: A Target for the Cyborg TimeRunners12
 A-Games:   TimeRunnersSeries            TimeRunners15.Slave               Time Runners 15: At the Speed of Light TimeRunners15
-A-Games:   TimeRunnersSeries            TimeRunners14.Slave               Time Runners 14: Toraxid - War Star TimeRunners14
-A-Games:   TimeRunnersSeries            TimeRunners09.Slave               Time Runners 09: The Time Demon TimeRunners09
-A-Games:   TimeRunnersSeries            TimeRunners05.Slave               Time Runners 05: The Black Knight TimeRunners05
+A-Games:   TimeRunnersSeries            TimeRunners04.Slave               Time Runners 04: The Castle of Fear TimeRunners04
 A-Games:   TimeRunnersSeries            TimeRunners11.Slave               Time Runners 11: The Steel City TimeRunners11
 A-Games:   TimeRunnersSeries            TimeRunners10.Slave               Time Runners 10: The Time Sentry TimeRunners10
-A-Games:   TimeRunnersSeries            TimeRunners01.Slave               Time Runners 01: Gateways in Time TimeRunners01
-A-Games:   TimeRunnersSeries            TimeRunners04.Slave               Time Runners 04: The Castle of Fear TimeRunners04
-A-Games:   TimeRunnersSeries            TimeRunners07.Slave               Time Runners 07: In the Land of the Invaders TimeRunners07
+A-Games:   TimeRunnersSeries            TimeRunners03.Slave               Time Runners 03: The Big Run TimeRunners03
 A-Games:   TimeRunnersSeries            TimeRunners02.Slave               Time Runners 02: The Space Stone TimeRunners02
+A-Games:   TimeRunnersSeries            TimeRunners01.Slave               Time Runners 01: Gateways in Time TimeRunners01
+A-Games:   TimeRunnersSeries            TimeRunners14.Slave               Time Runners 14: Toraxid - War Star TimeRunners14
 A-Games:   TimeRunnersSeries            TimeRunners13.Slave               Time Runners 13: Cyberkiller TimeRunners13
 A-Games:   TimeRunnersSeries            TimeRunners08.Slave               Time Runners 08: The Impregnable Fortress TimeRunners08
-A-Games:   TimeRunnersSeries            TimeRunners03.Slave               Time Runners 03: The Big Run TimeRunners03
 A-Games:   TimeScanner                  TimeScanner.Slave                 Time Scanner
 A-Games:   TimesOfLore                  TimesOfLore.Slave                 Times of Lore
 A-Games:   TimeSoldier                  TimeSoldier.Slave                 Time Soldier
@@ -3018,6 +3114,7 @@ A-Games:   TomAndTheGhost               TomAndTheGhost.Slave              Tom an
 A-Games:   TomLandryFootball            TomLandryFootball.Slave           Tom Landry Strategy Football
 A-Games:   TomLandryFootballDeluxe      TomLandryFootballDeluxe.Slave     Tom Landry Strategy Football
 A-Games:   TommyGun                     TommyGun.Slave                    Tommy Gun
+A-Games:   Tony&Friends                 Tony&Friends.Slave                Tony & Friends in Kellogg's Land
 A-Games:   Tony&FriendsDe               Tony&FriendsDe.Slave              Tony & Friends in Kellogg's Land DE
 A-Games:   Toobin                       Toobin.Slave                      Toobin'
 A-Games:   TopBanana                    TopBanana.Slave                   Top Banana
@@ -3032,13 +3129,14 @@ A-Games:   TornadoGroundAttack          TornadoGroundAttack.Slave         Tornad
 A-Games:   TorvakTheWarrior             TorvakTheWarrior.slave            Torvak the Warrior
 A-Games:   TotalCarnageAGA              TotalCarnageAGA.Slave             Total Carnage AGA
 A-Games:   TotalEclipse                 TotalEclipse.Slave                Total Eclipse
+A-Games:   TotalEclipseNTSC             TotalEclipseNTSC.Slave            Total Eclipse NTSC
 A-Games:   TotalFootball                TotalFootball.Slave               Total Football
 A-Games:   TotalRecallFiles             TotalRecallFiles.Slave            Total Recall Files
 A-Games:   TotalRecallImage             TotalRecallImage.Slave            Total Recall Image
 A-Games:   TournamentGolf               TournamentGolf.Slave              Tournament Golf
 A-Games:   TowerOfBabel                 TowerOfBabel.Slave                Tower of Babel
 A-Games:   TowerOfSoulsAGA              TowerOfSoulsAGA.Slave             Tower of Souls AGA
-A-Games:   TowerToppler                 TowerToppler.slave                Tower Toppler
+A-Games:   TowerTopplerNTSC             TowerTopplerNTSC.slave            Tower Toppler NTSC
 A-Games:   TownWithNoNameCDTV           TownWithNoNameCDTV.Slave          Town with No Name, The CDTV
 A-Games:   ToyotaCelicaGTRally          ToyotaCelicaGTRally.Slave         Celica GT Rally
 A-Games:   ToyottesFiles                ToyottesFiles.Slave               Toyottes, The Files
@@ -3056,7 +3154,7 @@ A-Games:   TrapsNTreasures              TrapsNTreasures.Slave             Traps 
 A-Games:   TrapsNTreasuresDe            TrapsNTreasuresDe.Slave           Traps 'n' Treasures DE
 A-Games:   TreasureIslandDizzy          TreasureIslandDizzy.slave         Treasure Island Dizzy
 A-Games:   TreasureIslandDizzyCD32      TreasureIslandDizzyCD32.slave     Treasure Island Dizzy CD32
-A-Games:   TreasuresOfSavageFrontier    TreasuresOfSavageFrontier.Slave   Treasures of the Savage Frontier
+A-Games:   TreasureSavageFrontNTSC      TreasureSavageFrontNTSC.Slave     Treasures of the Savage Frontier NTSC
 A-Games:   TreasureTrap                 TreasureTrap.slave                Treasure Trap
 A-Games:   TrexWarrior                  TrexWarrior.slave                 Trex Warrior
 A-Games:   TrianGO                      TrianGO.Slave                     TrianGo
@@ -3104,7 +3202,7 @@ A-Games:   TwinTurbos                   TwinTurbos.slave                  Twin T
 A-Games:   TwinWorld                    TwinWorld.Slave                   Twinworld: Land of Vision
 A-Games:   Twylyte                      Twylyte.Slave                     Twylyte
 A-Games:   Typhoon                      Typhoon.Slave                     Typhoon
-A-Games:   TyphoonThompson              TyphoonThompson.Slave             Typhoon Thompson in Search for the Sea Child
+A-Games:   TyphoonThompsonNTSC          TyphoonThompsonNTSC.Slave         Typhoon Thompson in Search for the Sea Child NTSC
 A-Games:   TZer0DemoAGA                 TZer0DemoAGA.Slave                T-Zer0 AGA Demo
 A-Games:   TZer0DemoNoMovieAGA          TZer0DemoNoMovieAGA.Slave         T-ZerO AGA
 A-Games:   UFOEnemyUnknown              UFOEnemyUnknown.Slave             UFO: Enemy Unknown
@@ -3112,7 +3210,7 @@ A-Games:   UFOEnemyUnknownAGA           UFOEnemyUnknownAGA.Slave          UFO: E
 A-Games:   UFOEnemyUnknownCD32          UFOEnemyUnknownCD32.Slave         UFO: Enemy Unknown CD32
 A-Games:   Ugh                          Ugh.Slave                         Ugh!
 A-Games:   Ultima3                      Ultima3.Slave                     Ultima III: Exodus
-A-Games:   Ultima4                      Ultima4.slave                     Ultima IV: Quest of the Avatar
+A-Games:   Ultima4NTSC                  Ultima4NTSC.slave                 Ultima IV: Quest of the Avatar NTSC
 A-Games:   Ultima5                      Ultima5.Slave                     Ultima V: Warriors of Destiny
 A-Games:   Ultima6                      Ultima6.Slave                     Ultima VI: The False Prophet
 A-Games:   UltimateBodyBlowsCD32        UltimateBodyBlowsCD32.slave       Ultimate Body Blows CD32
@@ -3127,7 +3225,7 @@ A-Games:   UniversalMilitarySim         UniversalMilitarySim.Slave        UMS (U
 A-Games:   UniversalMonsters            UniversalMonsters.Slave           Universal Monsters
 A-Games:   UniversalWarrior             UniversalWarrior.slave            Universal Warrior
 A-Games:   Universe                     Universe.Slave                    Universe
-A-Games:   Universe3                    Universe3.Slave                   Universe 3
+A-Games:   Universe3NTSC                Universe3NTSC.Slave               Universe 3 NTSC
 A-Games:   UniverseCD32                 UniverseCD32.Slave                Universe CD32
 A-Games:   Unreal                       Unreal.Slave                      Unreal
 A-Games:   UnrealNTSC                   UnrealNTSC.Slave                  Unreal NTSC
@@ -3150,6 +3248,9 @@ A-Games:   VampiresEmpire               VampiresEmpire.Slave              Vampir
 A-Games:   Vaxine                       Vaxine.Slave                      Vaxine
 A-Games:   Vectorball                   Vectorball.Slave                  Vectorball
 A-Games:   VegasGambler                 VegasGambler.Slave                Vegas Gambler
+A-Games:   VengeanceOfExcalibur         VengeanceOfExcalibur.slave        Vengeance of Excalibur
+A-Games:   VengeanceOfExcaliburDe       VengeanceOfExcaliburDe.slave      Vengeance of Excalibur DE
+A-Games:   VengeanceOfExcaliburFr       VengeanceOfExcaliburFr.slave      Vengeance of Excalibur FR
 A-Games:   VenomWing                    VenomWing.Slave                   Venom Wing
 A-Games:   VenusTheFlytrap              VenusTheFlytrap.Slave             Venus: The Flytrap
 A-Games:   VenusTheFlytrapNoIntro       VenusTheFlytrapNoIntro.Slave      Venus: The Flytrap NoIntro
@@ -3162,8 +3263,8 @@ A-Games:   VideoKid                     VideoKid.slave                    Videok
 A-Games:   Vigilante                    Vigilante.Slave                   Vigilante
 A-Games:   Vindicators                  Vindicators.Slave                 Vindicators
 A-Games:   Violator                     Violator.Slave                    Violator
-A-Games:   Virocop                      Virocop.Slave                     Virocop
 A-Games:   Virocop                      Virocop2Meg.slave                 Virocop 2Meg
+A-Games:   Virocop                      Virocop.Slave                     Virocop
 A-Games:   VirocopAGA                   VirocopAGA.slave                  Virocop AGA
 A-Games:   VirtualKarting2AGA           VirtualKarting2AGA.slave          Virtual Karting II AGA
 A-Games:   VirtualKarting2AGACD         VirtualKarting2AGACD.slave        Virtual Karting II CD AGA
@@ -3180,8 +3281,8 @@ A-Games:   Voyager                      Voyager.slave                     Voyage
 A-Games:   VoyagesOfDiscovery           VoyagesOfDiscovery.slave          Voyages of Discovery
 A-Games:   VoyageursDuTempsFr           VoyageursDuTempsFr.slave          Voyageurs Du Temps, Les: La Menace FR
 A-Games:   Vroom                        Vroom.Slave                       Vroom
-A-Games:   Vroom&DataDisk               Vroom.Slave                       Vroom DataDisk
 A-Games:   Vroom&DataDisk               DataDisk.Slave                    Vroom DataDisk
+A-Games:   Vroom&DataDisk               Vroom.Slave                       Vroom DataDisk
 A-Games:   VroomMultiPlayer             VroomMultiplayer.Slave            Vroom Multi-Player
 A-Games:   Vyper                        Vyper.Slave                       Vyper
 A-Games:   Vyrus                        Vyrus.Slave                       Vyrus
@@ -3206,7 +3307,7 @@ A-Games:   WarmUp                       WarmUp.Slave                      Warm U
 A-Games:   Warp                         Warp.slave                        Warp
 A-Games:   WarZoneCoreDesign            WarzoneCoreDesign.slave           War Zone
 A-Games:   WarZoneParadox               WarzoneParadox.Slave              War Zone
-A-Games:   WatchtowerAGA                WatchtowerAGA.Slave               Watchtower AGA
+A-Games:   WatchtowerAGA                WatchTowerAGA.slave               Watchtower AGA
 A-Games:   Waterloo                     Waterloo.Slave                    Waterloo
 A-Games:   Waxworks                     Waxworks.Slave                    Waxworks
 A-Games:   WaxworksDe                   WaxworksDe.Slave                  Waxworks DE
@@ -3228,8 +3329,8 @@ A-Games:   Welltris                     Welltris.slave                    Welltr
 A-Games:   WembleyIntSoccer             WembleyIntSoccer.Slave            Wembley International Soccer
 A-Games:   WembleyIntSoccerAGA          WembleyIntSoccerAGA.Slave         Wembley International Soccer AGA AGA
 A-Games:   WembleyRugbyLeague           WembleyRugbyLeague.Slave          Wembley Rugby League
-A-Games:   WesternGames                 WesternGames.slave                Western Games
 A-Games:   WesternGames                 WesternGames.Slave                Western Games
+A-Games:   WesternGames                 WesternGames.slave                Western Games
 A-Games:   WestPhaser                   WestPhaser.Slave                  West Phaser
 A-Games:   WheelsOnFireAGA              WheelsOnFireAGA.Slave             Wheels on Fire AGA
 A-Games:   WhereTimeStoodStill          WhereTimeStoodStill.Slave         Where Time Stood Still
@@ -3252,7 +3353,7 @@ A-Games:   WindSurfWilly                WindSurfWilly.Slave               Wind S
 A-Games:   WindSurfWillyFast            WindSurfWillyFast.slave           Wind Surf Willy FAST
 A-Games:   WindSurfWillyFastFr          WindSurfWillyFastFr.Slave         Wind Surf Willy FR FAST
 A-Games:   WindSurfWillyFr              WindSurfWillyFr.Slave             Wind Surf Willy FR
-A-Games:   Windwalker                   Windwalker.Slave                  Windwalker
+A-Games:   WindwalkerNTSC               WindwalkerNTSC.Slave              Windwalker NTSC
 A-Games:   WingCommander                WingCommander.Slave               Wing Commander
 A-Games:   WingCommanderCD32            WingCommanderCD32.Slave           Wing Commander CD32
 A-Games:   WingCommanderDe              WingCommanderDe.Slave             Wing Commander DE
@@ -3262,7 +3363,7 @@ A-Games:   WingsOfFury                  WingsOfFury.Slave                 Wings 
 A-Games:   WinnieThePooh                WinnieThePooh.Slave               Winnie the Pooh in the Hundred Acre Wood
 A-Games:   WinningPost                  WinningPost.Slave                 Winning Post
 A-Games:   WinterCamp                   WinterCamp.Slave                  Winter Camp
-A-Games:   WinterChallenge              WinterChallenge.Slave             Winter Challenge: World Class Competition
+A-Games:   WinterChallengeNTSC          WinterChallengeNTSC.Slave         Winter Olympiad 88 NTSC
 A-Games:   WinterGames                  WinterGames.Slave                 Winter Games
 A-Games:   WinterOlympiad88             WinterOlympiad88.Slave            Winter Olympiad 88
 A-Games:   WinterOlympics               WinterOlympics.Slave              Winter Olympics
@@ -3273,7 +3374,7 @@ A-Games:   WinzerDe                     WinzerDe.slave                    Winzer
 A-Games:   WipeOut                      WipeOut.slave                     Wipe Out
 A-Games:   WisielecPl                   WisielecPl.Slave                  Wisielec PL
 A-Games:   WITUSAIsCarmenSandiego       WITUSAIsCarmenSandiego.slave      Where in the USA is Carmen Sandiego?
-A-Games:   WITWIsCarmenSandiego         WITWIsCarmenSandiego.slave        Where in the World is Carmen Sandiego?
+A-Games:   WITWIsCarmenSandiegoNTSC     WITWIsCarmenSandiegoNTSC.slave    Where in the World is Carmen Sandiego? NTSC
 A-Games:   Wizardry6BaneCosmicForg      Wizardry6BaneCosmicForg.slave     Wizardry: Bane of the Cosmic Forge
 A-Games:   Wizardry6BaneCosmicForgDe    Wizardry6BaneCosmicForgDe.slave   Wizardry: Bane of the Cosmic Forge DE
 A-Games:   Wizball                      Wizball.Slave                     Wizball
@@ -3282,12 +3383,14 @@ A-Games:   WizNLiz                      WizNLiz.Slave                     Wiz 'n
 A-Games:   Wolfchild                    Wolfchild.Slave                   Wolfchild
 A-Games:   Wolfpack                     Wolfpack.Slave                    Wolfpack
 A-Games:   WonderboyInMonsterland       WonderboyInMonsterland.Slave      Wonderboy in Monsterland
-A-Games:   WonderDog                    WonderDog.Slave                   Wonder Dog
+A-Games:   WonderboyInMonsterlandSE     WonderboyInMonsterlandSE.Slave    Wonderboy in Monsterland
+A-Games:   WonderDog                    WonderDog.slave                   Wonder Dog
+A-Games:   WonderDogSE                  WonderDogSE.slave                 Wonder Dog
 A-Games:   Wonderland                   Wonderland.Slave                  Wonderland
 A-Games:   WoodysWorld                  WoodysWorld.Slave                 Woody's World
 A-Games:   WorldChampBoxingManager      WorldChampBoxingManager.Slave     World Championship Boxing Manager
 A-Games:   WorldChampionshipSoccer      WorldChampSoccer.Slave            World Championship Soccer WorldChampSoccer
-A-Games:   WorldCircuit                 WorldCircuit.Slave                World Circuit
+A-Games:   WorldCircuitNTSC             WorldCircuitNTSC.Slave            World Circuit NTSC
 A-Games:   WorldClassRugby              WorldClassRugby.Slave             World Class Rugby
 A-Games:   WorldClassRugby5Nations      WorldClassRugby5Nations.Slave     World Class Rugby: Five Nations Edition
 A-Games:   WorldClassRugby95            WorldClassRugby95.Slave           World Class Rugby '95
@@ -3296,7 +3399,7 @@ A-Games:   WorldCricket                 WorldCricket.Slave                World 
 A-Games:   WorldCup90                   WorldCup90.Slave                  World Cup 90
 A-Games:   WorldDarts                   WorldDarts.Slave                  World Darts
 A-Games:   WorldDartsArcadia            WorldDartsArcadia.Slave           World Darts
-A-Games:   WorldGames                   WorldGames.Slave                  World Games
+A-Games:   WorldGamesNTSC               WorldGamesNTSC.Slave              World Games NTSC
 A-Games:   WorldRugby                   WorldRugby.Slave                  World Rugby
 A-Games:   WorldSoccer                  WorldSoccer.Slave                 World Soccer
 A-Games:   WorldsOfLegend               WorldsOfLegend.slave              Worlds of Legend: Son of the Empire
@@ -3306,7 +3409,9 @@ A-Games:   Worms1MB                     Worms1MB.Slave                    Worms 
 A-Games:   Worms2MB                     Worms2MB.Slave                    Worms 2MB
 A-Games:   WormsCD321MB                 WormsCD321MB.Slave                Worms CD32 1MB
 A-Games:   WormsCD322MB                 WormsCD322MB.Slave                Worms CD32 2MB
-A-Games:   WormsDirectorsCutAGA         WormsDirectorsCutAGA.Slave        Worms: The Director's Cut AGA
+A-Games:   WormsDCAGA                   WormsDCAGA.Slave                  Worms: The Director's Cut AGA
+A-Games:   WormsDCAGA12MB               WormsDCAGA12MB.Slave              Worms: The Director's Cut AGA 2MB
+A-Games:   WormsDCAGA8MB                WormsDCAGA8MB.Slave               Worms: The Director's Cut AGA
 A-Games:   Wormsigns                    Wormsigns.Slave                   Wormsigns
 A-Games:   WPotrzaskuPl                 WPotrzaskuPl.Slave                W Potrzasku PL
 A-Games:   WrathOfTheDemon              WrathOfTheDemon.Slave             Wrath of the Demon
@@ -3321,6 +3426,7 @@ A-Games:   Xenon21Disk                  Xenon21Disk.Slave                 Xenon 
 A-Games:   Xenon22Disk                  Xenon22Disk.Slave                 Xenon 2: Megablast 2Disk
 A-Games:   Xenon2CDTV                   Xenon2CDTV.Slave                  Xenon 2: Megablast CDTV
 A-Games:   Xenon2Demo                   Xenon2Demo.Slave                  Xenon 2: Megablast Demo
+A-Games:   Xenon2NTSC                   Xenon2NTSC.Slave                  Xenon 2: Megablast NTSC
 A-Games:   XenonArcadia                 XenonArcadia.slave                Xenon
 A-Games:   Xenophobe                    Xenophobe.slave                   Xenophobe
 A-Games:   Xiphos                       Xiphos.Slave                      Xiphos
@@ -3344,14 +3450,16 @@ A-Games:   ZakMcKracken                 ZakMcKracken.slave                Zak Mc
 A-Games:   ZakMcKrackenDe               ZakMcKrackenDe.slave              Zak McKracken and the Alien Mindbenders DE
 A-Games:   ZakMcKrackenFr               ZakMcKrackenFr.slave              Zak McKracken and the Alien Mindbenders FR
 A-Games:   ZakMcKrackenIt               ZakMcKrackenIt.slave              Zak McKracken and the Alien Mindbenders IT
-A-Games:   ZanyGolf                     ZanyGolf.slave                    Zany Golf
+A-Games:   ZanyGolfNTSC                 ZanyGolfNTSC.slave                Zany Golf NTSC
 A-Games:   Zarathrusta                  Zarathrusta.slave                 Zarathrusta
 A-Games:   Zaxxon1MB                    Zaxxon1MB.Slave                   Zaxxon 1MB
 A-Games:   Zaxxon512KB                  Zaxxon512KB.Slave                 Zaxxon 512KB
+A-Games:   ZaZelaznaBramaPl             ZaZelaznaBramaPl.Slave            Za Zelazna Brama PL
 A-Games:   Zeewolf                      Zeewolf.slave                     Zeewolf
 A-Games:   Zeewolf2                     Zeewolf2.Slave                    Zeewolf 2: Wild Justice
 A-Games:   ZeroGravity                  ZeroGravity.Slave                 Zero Gravity
 A-Games:   Ziriax                       Ziriax.slave                      Ziriax
+A-Games:   ZiriaxUltimateEdition        ZiriaxUltimateEdition.slave       Ziriax
 A-Games:   Zombi                        Zombi.slave                       Zombi
 A-Games:   ZombiDe                      ZombiDe.Slave                     Zombi DE
 A-Games:   ZombieApocalypse             ZombieApocalypse.Slave            Zombie Apocalypse
@@ -3359,10 +3467,13 @@ A-Games:   ZombieApocalypse2AGA         ZombieApocalypse2AGA.Slave        Zombie
 A-Games:   ZombiFr                      ZombiFr.Slave                     Zombi FR
 A-Games:   ZoneWarrior                  ZoneWarrior.slave                 Zone Warrior
 A-Games:   Zool                         Zool.slave                        Zool
+A-Games:   Zool                         Zool.slave                        Zool
 A-Games:   Zool2                        Zool2.Slave                       Zool 2
 A-Games:   Zool2AGA                     Zool2AGA.Slave                    Zool 2 AGA
 A-Games:   ZoolAGA                      ZoolAGA.slave                     Zool AGA
+A-Games:   ZoolAGA                      ZoolAGA.slave                     Zool AGA
 A-Games:   ZoolCD32                     ZoolCD32.slave                    Zool CD32
+A-Games:   ZoolCD32NTSC                 ZoolCD32NTSC.slave                Zool CD32 NTSC
 A-Games:   Zoom                         Zoom.Slave                        Zoom!
 A-Games:   ZOut                         ZOut.slave                        Z-Out
 A-Games:   Zyconix                      Zyconix.Slave                     Zyconix

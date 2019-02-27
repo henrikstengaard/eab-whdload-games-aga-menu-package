@@ -4,4 +4,4 @@ Publisher : Empire Interactive
 Year      : 1995
 Genre     : Simulation - Flight
 Players   : 1 Only
-RunFile   : CoalaAGA.Slave
+RunFile   : CoalaAGA.slave

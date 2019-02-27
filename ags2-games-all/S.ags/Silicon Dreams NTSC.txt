@@ -1,0 +1,7 @@
+Name      : Silicon Dreams
+Version   : NTSC
+Publisher : Rainbird
+Year      : 1988
+Genre     : Adventure - Text With Still Pics
+Players   : 1
+RunFile   : SiliconDreamsNTSC.Slave

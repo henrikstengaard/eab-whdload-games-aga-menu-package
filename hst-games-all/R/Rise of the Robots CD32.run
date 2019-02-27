@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:R/RiseOfTheRobotsCD32/RiseOfTheRobotsCD32.Slave
+;RunFile=A-Games:R/RiseOfTheRobotsCD32/RiseOfTheRobotsCD32.slave
 
 ; Run WHDLoad
 cd "A-Games:R/RiseOfTheRobotsCD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "RiseOfTheRobotsCD32.Slave" $whdloadargs
+  whdload "RiseOfTheRobotsCD32.slave" $whdloadargs
 ELSE
-  whdload "RiseOfTheRobotsCD32.Slave"
+  whdload "RiseOfTheRobotsCD32.slave"
 ENDIF

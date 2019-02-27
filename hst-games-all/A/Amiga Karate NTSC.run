@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AmigaKarateNTSC/AmigaKarateNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AmigaKarateNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AmigaKarateNTSC.Slave" $whdloadargs
+ELSE
+  whdload "AmigaKarateNTSC.Slave"
+ENDIF

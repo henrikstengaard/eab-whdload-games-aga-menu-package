@@ -3,4 +3,4 @@ Publisher : Elite
 Year      : 1988
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : ThunderCats.Slave
+RunFile   : ThunderCats.slave

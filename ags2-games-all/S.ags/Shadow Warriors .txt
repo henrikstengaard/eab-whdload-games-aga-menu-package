@@ -2,4 +2,4 @@ Name      : Shadow Warriors
 Publisher : Ocean
 Year      : 1990
 Players   : 1 or 2, Simultaneous
-RunFile   : ShadowWarriors.slave
+RunFile   : ShadowWarriors.Slave

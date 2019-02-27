@@ -1,0 +1,8 @@
+Name      : Loom
+Language  : German
+Version   : CDTV
+Publisher : Lucasfilm Games
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : LoomDeCDTV.slave

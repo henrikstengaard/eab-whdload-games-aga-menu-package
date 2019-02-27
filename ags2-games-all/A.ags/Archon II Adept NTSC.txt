@@ -1,0 +1,7 @@
+Name      : Archon II: Adept
+Version   : NTSC
+Publisher : Electronic Arts
+Year      : 1988
+Genre     : Board - Miscellaneous
+Players   : 1 or 2, Simultaneous
+RunFile   : Archon2NTSC.slave

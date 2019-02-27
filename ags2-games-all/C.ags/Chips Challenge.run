@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:C/ChipsChallengeEpyx/ChipsChallengeEpyx.Slave
+;RunFile=A-Games:C/ChipsChallenge/ChipsChallenge.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:C/ChipsChallengeEpyx/"
+cd "A-Games:C/ChipsChallenge/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChipsChallengeEpyx.Slave" $whdloadargs
+  whdload "ChipsChallenge.Slave" $whdloadargs
 ELSE
-  whdload "ChipsChallengeEpyx.Slave"
+  whdload "ChipsChallenge.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

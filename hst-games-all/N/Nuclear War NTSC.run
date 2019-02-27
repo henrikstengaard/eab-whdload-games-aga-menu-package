@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:N/NuclearWarNTSC/NuclearWarNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:N/NuclearWarNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "NuclearWarNTSC.Slave" $whdloadargs
+ELSE
+  whdload "NuclearWarNTSC.Slave"
+ENDIF

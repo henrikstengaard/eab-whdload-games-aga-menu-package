@@ -3,4 +3,4 @@ Publisher : Activision
 Year      : 1991
 Genre     : Adventure - Arcade 3D
 Players   : 1 Only
-RunFile   : Hunter.slave
+RunFile   : Hunter.Slave

@@ -3,4 +3,4 @@ Version   : AGA Demo
 Publisher : Guildhall
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-RunFile   : GloomDemoAGA.Slave
+RunFile   : GloomDemoAGA.slave

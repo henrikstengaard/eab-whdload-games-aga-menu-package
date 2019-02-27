@@ -1,0 +1,7 @@
+Name      : Akira
+Version   : CD32
+Publisher : ICE
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : AkiraCD32.Slave

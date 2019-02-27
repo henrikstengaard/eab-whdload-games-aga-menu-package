@@ -1,0 +1,7 @@
+Name      : Millennium 2.2
+Version   : NTSC
+Publisher : Electric Dreams (Activision)
+Year      : 1989
+Genre     : Strategy
+Players   : 1
+RunFile   : MilleniumNTSC.Slave

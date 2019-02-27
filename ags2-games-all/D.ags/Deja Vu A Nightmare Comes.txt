@@ -1,6 +1,7 @@
 Name      : Deja Vu: A Nightmare Comes True
+Version   : NTSC
 Publisher : Mindscape
 Year      : 1987
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-RunFile   : DejaVuANightmareComesTrue.Slave
+RunFile   : DejaVuNTSC.Slave

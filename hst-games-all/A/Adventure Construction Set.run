@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:A/AdventureConstructionSet/AdventureConstructionSet.slave
+;RunFile=A-Games:A/AdvConstructionSetNTSC/AdvConstructionSetNTSC.slave
 
 ; Run WHDLoad
-cd "A-Games:A/AdventureConstructionSet/"
+cd "A-Games:A/AdvConstructionSetNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "AdventureConstructionSet.slave" $whdloadargs
+  whdload "AdvConstructionSetNTSC.slave" $whdloadargs
 ELSE
-  whdload "AdventureConstructionSet.slave"
+  whdload "AdvConstructionSetNTSC.slave"
 ENDIF

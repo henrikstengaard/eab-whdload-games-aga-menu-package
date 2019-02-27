@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StrikeAcesNTSC/StrikeAcesNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StrikeAcesNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "StrikeAcesNTSC.Slave" $whdloadargs
+ELSE
+  whdload "StrikeAcesNTSC.Slave"
+ENDIF

@@ -10,7 +10,7 @@ Galaxy '89	G/Galaxy 89	A-Games:G/Galaxy89/Galaxy89.slave
 Galaxy Blast	G/Galaxy Blast	A-Games:G/GalaxyBlast/GalaxyBlast.Slave
 Galaxy Force II	G/Galaxy Force II	A-Games:G/GalaxyForce2/GalaxyForce2.slave
 Galdregon's Domain	G/Galdregons Domain	A-Games:G/GaldregonsDomain/GaldregonsDomain.Slave
-Game of Harmony, The	G/Game of Harmony. The	A-Games:G/GameOfHarmony/GameOfHarmony.Slave
+Game of Harmony, The NTSC	G/Game of Harmony. The NTSC	A-Games:G/GameOfHarmonyNTSC/GameOfHarmonyNTSC.Slave
 Ganymed	G/Ganymed	A-Games:G/Ganymed/Ganymed.slave
 Garfield: Winter's Tail	G/Garfield Winters Tail	A-Games:G/GarfieldAWintersTail/GarfieldAWintersTail.Slave
 Garfield: Big, Fat, Hairy Deal	G/Garfield Big. Fat. Hairy D	A-Games:G/GarfieldBigFatHairyDeal/GarfieldBigFatHairyDeal.Slave
@@ -51,7 +51,7 @@ Globulus	G/Globulus	A-Games:G/Globulus/Globulus.slave
 G-LOC R360	G/G-LOC R360	A-Games:G/GLOCR360/GLOCR360.slave
 Gloom AGA	G/Gloom AGA	A-Games:G/GloomAGA/GloomAGA.slave
 Gloom CD32	G/Gloom CD32	A-Games:G/GloomCD32/GloomCD32.slave
-Gloom AGA Demo	G/Gloom AGA Demo	A-Games:G/GloomDemoAGA/GloomDemoAGA.Slave
+Gloom AGA Demo	G/Gloom AGA Demo	A-Games:G/GloomDemoAGA/GloomDemoAGA.slave
 G.Nius	G/G.Nius	A-Games:G/GNius/GNius.Slave
 Gnome	G/Gnome	A-Games:G/Gnome/Gnome.Slave
 Gnome Alone	G/Gnome Alone	A-Games:G/GnomeAlone/GnomeAlone.Slave
@@ -69,8 +69,9 @@ Gods	G/Gods	A-Games:G/Gods/Gods.Slave
 Gods Demo	G/Gods Demo	A-Games:G/GodsDemo/GodsDemo.Slave
 Gods NTSC	G/Gods NTSC	A-Games:G/GodsNTSC/GodsNTSC.slave
 Golden Axe	G/Golden Axe	A-Games:G/GoldenAxe/GoldenAxe.Slave
-Golden Eagle	G/Golden Eagle	A-Games:G/GoldenEagle/GoldenEagle.slave
+Golden Axe NTSC	G/Golden Axe NTSC	A-Games:G/GoldenAxeNTSC/GoldenAxeNTSC.Slave
 Golden Eagle Intro	G/Golden Eagle Intro	A-Games:G/GoldenEagle/Intro.slave
+Golden Eagle	G/Golden Eagle	A-Games:G/GoldenEagle/GoldenEagle.slave
 Golden Path	G/Golden Path	A-Games:G/GoldenPath/GoldenPath.Slave
 Gold of the Aztecs, The	G/Gold of the Aztecs. The	A-Games:G/GoldOfTheAztecs/GoldOfTheAztecs.Slave
 Gold of the Aztecs, The (v1.1) Kernal1.1	G/Gold of the Aztecs. The v1	A-Games:G/GoldOfTheAztecs_Kernal1.1/GoldOfTheAztecs(v1.1).Slave
@@ -99,6 +100,7 @@ Gremlins 2: The New Batch	G/Gremlins 2 The New Batch	A-Games:G/Gremlins2/Gremlin
 Gridiron!	G/Gridiron	A-Games:G/Gridiron/Gridiron.Slave
 Grid Start	G/Grid Start	A-Games:G/GridStart/GridStart.Slave
 Graham Taylors Soccer Challenge	G/Graham Taylors Soccer Chal	A-Games:G/GTSoccerChallenge/GTSoccerChallenge.Slave
+Guardian AGA	G/Guardian AGA	A-Games:G/GuardianAGA/GuardianAGA.Slave
 Guardian Angel, The	G/Guardian Angel. The	A-Games:G/GuardianAngel/GuardianAngel.Slave
 Guardian CD32	G/Guardian CD32	A-Games:G/GuardianCD32/GuardianCD32.slave
 Guild of Thieves, The	G/Guild of Thieves. The	A-Games:G/GuildOfThieves/GuildOfThieves.Slave

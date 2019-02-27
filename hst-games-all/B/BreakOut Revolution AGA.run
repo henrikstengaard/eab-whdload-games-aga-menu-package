@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BreakOutRevolutionAGA/BreakOutRevolutionAGA.slave
+
+; Run WHDLoad
+cd "A-Games:B/BreakOutRevolutionAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "BreakOutRevolutionAGA.slave" $whdloadargs
+ELSE
+  whdload "BreakOutRevolutionAGA.slave"
+ENDIF

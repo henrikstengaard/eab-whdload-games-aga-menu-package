@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:P/PeterBeardsleysIF/PeterBeardsleysIF.Slave
+;RunFile=A-Games:P/PeterBeardsleysIFNTSC/PeterBeardsleysIFNTSC.Slave
 
 ; Run WHDLoad
-cd "A-Games:P/PeterBeardsleysIF/"
+cd "A-Games:P/PeterBeardsleysIFNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "PeterBeardsleysIF.Slave" $whdloadargs
+  whdload "PeterBeardsleysIFNTSC.Slave" $whdloadargs
 ELSE
-  whdload "PeterBeardsleysIF.Slave"
+  whdload "PeterBeardsleysIFNTSC.Slave"
 ENDIF

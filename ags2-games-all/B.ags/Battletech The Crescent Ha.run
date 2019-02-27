@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/Battletech/Battletech.Slave
+;RunFile=A-Games:B/BattletechNTSC/BattletechNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/Battletech/"
+cd "A-Games:B/BattletechNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Battletech.Slave" $whdloadargs
+  whdload "BattletechNTSC.Slave" $whdloadargs
 ELSE
-  whdload "Battletech.Slave"
+  whdload "BattletechNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

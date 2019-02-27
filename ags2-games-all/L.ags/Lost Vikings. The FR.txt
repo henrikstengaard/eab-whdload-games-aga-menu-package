@@ -1,0 +1,7 @@
+Name      : Lost Vikings, The
+Language  : French
+Publisher : Interplay Productions
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : LostVikingsFr.Slave

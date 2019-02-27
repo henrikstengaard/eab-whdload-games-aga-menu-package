@@ -1,0 +1,7 @@
+Name      : Falcon
+Version   : NTSC
+Publisher : Spectrum HoloByte
+Year      : 1988
+Genre     : Simulation - Flight
+Players   : 1 or 2, Simultaneous
+RunFile   : FalconNTSC.Slave

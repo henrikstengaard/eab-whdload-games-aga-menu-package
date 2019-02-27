@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/F19StealthFighter/F19StealthFighter.Slave
+;RunFile=A-Games:F/F19StealthFighter/F19StealthFighter.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/F19StealthFighter/"
 IF EXISTS ENV:whdloadargs
-  whdload "F19StealthFighter.Slave" $whdloadargs
+  whdload "F19StealthFighter.slave" $whdloadargs
 ELSE
-  whdload "F19StealthFighter.Slave"
+  whdload "F19StealthFighter.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

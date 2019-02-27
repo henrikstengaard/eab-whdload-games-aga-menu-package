@@ -1,0 +1,7 @@
+Name      : Mind Walker
+Version   : NTSC
+Publisher : Commodore
+Year      : 1986
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+RunFile   : MindWalkerNTSC.slave

@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BuckRogersCountdownDdayDe/BuckRogersCountdownDdayDe.slave
+;RunFile=A-Games:B/BuckRogersNTSC/BuckRogersNTSC.slave
 
 ; Run WHDLoad
-cd "A-Games:B/BuckRogersCountdownDdayDe/"
+cd "A-Games:B/BuckRogersNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "BuckRogersCountdownDdayDe.slave" $whdloadargs
+  whdload "BuckRogersNTSC.slave" $whdloadargs
 ELSE
-  whdload "BuckRogersCountdownDdayDe.slave"
+  whdload "BuckRogersNTSC.slave"
 ENDIF

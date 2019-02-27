@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AlienSyndromeNTSC/AlienSyndromeNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:A/AlienSyndromeNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AlienSyndromeNTSC.slave" $whdloadargs
+ELSE
+  whdload "AlienSyndromeNTSC.slave"
+ENDIF

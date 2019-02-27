@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1987
 Genre     : Strategy - War
 Players   : 1 or 2
-RunFile   : BalanceOfPower.Slave
+RunFile   : BalanceOfPower1990Ed.Slave

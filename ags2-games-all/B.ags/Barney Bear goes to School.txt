@@ -1,0 +1,6 @@
+Name      : Barney Bear goes to School
+Publisher : Free Spirit Software
+Year      : 1990
+Genre     : Educational - Children
+Players   : 1 Only
+RunFile   : BarneyBearGoesToSchool.Slave

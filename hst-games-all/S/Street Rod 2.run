@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:S/StreetRod2/StreetRod2.Slave
+;RunFile=A-Games:S/StreetRod2/StreetRod2.slave
 
 ; Run WHDLoad
 cd "A-Games:S/StreetRod2/"
 IF EXISTS ENV:whdloadargs
-  whdload "StreetRod2.Slave" $whdloadargs
+  whdload "StreetRod2.slave" $whdloadargs
 ELSE
-  whdload "StreetRod2.Slave"
+  whdload "StreetRod2.slave"
 ENDIF

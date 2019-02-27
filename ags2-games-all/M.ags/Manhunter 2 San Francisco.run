@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:M/Manhunter2/Manhunter2.slave
+;RunFile=A-Games:M/Manhunter2NTSC/Manhunter2NTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:M/Manhunter2/"
+cd "A-Games:M/Manhunter2NTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Manhunter2.slave" $whdloadargs
+  whdload "Manhunter2NTSC.slave" $whdloadargs
 ELSE
-  whdload "Manhunter2.slave"
+  whdload "Manhunter2NTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

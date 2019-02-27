@@ -1,6 +1,7 @@
 Name      : Fidelity Chessmaster 2100, The
+Version   : NTSC
 Publisher : The Software Toolworks
 Year      : 1990
 Genre     : Board - Chess
 Players   : 1 or 2
-RunFile   : FidelityChessmaster2100.Slave
+RunFile   : Chessmaster2100NTSC.Slave

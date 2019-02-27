@@ -1,0 +1,6 @@
+Name      : Cannon Fodder
+Language  : French
+Publisher : Virgin Interactive
+Year      : 1994
+Players   : 1 Only
+RunFile   : CannonFodderFr.Slave

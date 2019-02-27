@@ -1,0 +1,7 @@
+Name      : Back to the Future Part III
+Version   : NTSC
+Publisher : Image Works
+Year      : 1991
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+RunFile   : BackToTheFuturePart3NTSC.Slave

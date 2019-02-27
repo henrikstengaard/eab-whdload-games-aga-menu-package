@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GameOfHarmonyNTSC/GameOfHarmonyNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GameOfHarmonyNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "GameOfHarmonyNTSC.Slave" $whdloadargs
+ELSE
+  whdload "GameOfHarmonyNTSC.Slave"
+ENDIF

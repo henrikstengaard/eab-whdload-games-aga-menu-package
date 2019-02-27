@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SubBattleSimulatorNTSC/SubBattleSimulatorNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SubBattleSimulatorNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "SubBattleSimulatorNTSC.Slave" $whdloadargs
+ELSE
+  whdload "SubBattleSimulatorNTSC.Slave"
+ENDIF

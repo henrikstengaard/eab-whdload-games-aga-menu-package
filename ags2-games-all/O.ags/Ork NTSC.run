@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:O/OrkNTSC/OrkNTSC.slave
+;RunFile=A-Games:O/OrkNTSC/OrkNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:O/OrkNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "OrkNTSC.slave" $whdloadargs
+  whdload "OrkNTSC.Slave" $whdloadargs
 ELSE
-  whdload "OrkNTSC.slave"
+  whdload "OrkNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

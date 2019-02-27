@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SimCity12/SimCity12.Slave
+;RunFile=A-Games:S/SimCity/SimCity.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/SimCity12/"
+cd "A-Games:S/SimCity/"
 IF EXISTS ENV:whdloadargs
-  whdload "SimCity12.Slave" $whdloadargs
+  whdload "SimCity.Slave" $whdloadargs
 ELSE
-  whdload "SimCity12.Slave"
+  whdload "SimCity.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:C/ChamberSciMutantPriestess/ChamberSciMutantPriestess.slave
+;RunFile=A-Games:C/ChamberSciMutantPrstNTSC/ChamberSciMutantPrstNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:C/ChamberSciMutantPriestess/"
+cd "A-Games:C/ChamberSciMutantPrstNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChamberSciMutantPriestess.slave" $whdloadargs
+  whdload "ChamberSciMutantPrstNTSC.slave" $whdloadargs
 ELSE
-  whdload "ChamberSciMutantPriestess.slave"
+  whdload "ChamberSciMutantPrstNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

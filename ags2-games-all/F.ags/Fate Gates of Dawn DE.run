@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FateGatesOfDawnDe/FateGatesOfDawnDe.Slave
+;RunFile=A-Games:F/FateGatesOfDawnDe/FateGatesofDawnDe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/FateGatesOfDawnDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "FateGatesOfDawnDe.Slave" $whdloadargs
+  whdload "FateGatesofDawnDe.slave" $whdloadargs
 ELSE
-  whdload "FateGatesOfDawnDe.Slave"
+  whdload "FateGatesofDawnDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

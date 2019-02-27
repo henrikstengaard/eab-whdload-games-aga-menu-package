@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BuckRogersCountdownDdayDe/BuckRogersCountdownDdayDe.slave
+;RunFile=A-Games:B/BuckRogersNTSC/BuckRogersNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BuckRogersCountdownDdayDe/"
+cd "A-Games:B/BuckRogersNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "BuckRogersCountdownDdayDe.slave" $whdloadargs
+  whdload "BuckRogersNTSC.slave" $whdloadargs
 ELSE
-  whdload "BuckRogersCountdownDdayDe.slave"
+  whdload "BuckRogersNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

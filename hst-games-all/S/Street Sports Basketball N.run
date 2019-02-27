@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StreetSportsBBNTSC/StreetSportsBBNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StreetSportsBBNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "StreetSportsBBNTSC.Slave" $whdloadargs
+ELSE
+  whdload "StreetSportsBBNTSC.Slave"
+ENDIF

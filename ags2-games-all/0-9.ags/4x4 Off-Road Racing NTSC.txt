@@ -1,0 +1,7 @@
+Name      : 4x4 Off-Road Racing
+Version   : NTSC
+Publisher : Epyx
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : 4x4OffRoadRacingNTSC.Slave

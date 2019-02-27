@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OgreNTSC/OgreNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:O/OgreNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "OgreNTSC.Slave" $whdloadargs
+ELSE
+  whdload "OgreNTSC.Slave"
+ENDIF

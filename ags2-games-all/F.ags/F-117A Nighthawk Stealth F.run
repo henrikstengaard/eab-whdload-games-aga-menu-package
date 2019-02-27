@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:N/NightHawkF117A/NightHawkF117A.slave
+;RunFile=A-Games:F/F117ANightHawk/F117ANightHawk.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:N/NightHawkF117A/"
+cd "A-Games:F/F117ANightHawk/"
 IF EXISTS ENV:whdloadargs
-  whdload "NightHawkF117A.slave" $whdloadargs
+  whdload "F117ANightHawk.slave" $whdloadargs
 ELSE
-  whdload "NightHawkF117A.slave"
+  whdload "F117ANightHawk.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

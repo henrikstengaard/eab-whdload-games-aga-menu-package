@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:C/Centurion/Centurion.Slave
+;RunFile=A-Games:C/CenturionNTSC/CenturionNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:C/Centurion/"
+cd "A-Games:C/CenturionNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Centurion.Slave" $whdloadargs
+  whdload "CenturionNTSC.Slave" $whdloadargs
 ELSE
-  whdload "Centurion.Slave"
+  whdload "CenturionNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

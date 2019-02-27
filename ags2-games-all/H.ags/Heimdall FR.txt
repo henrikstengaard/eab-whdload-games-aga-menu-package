@@ -1,0 +1,7 @@
+Name      : Heimdall
+Language  : French
+Publisher : Core Design
+Year      : 1991
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : HeimdallFr.slave

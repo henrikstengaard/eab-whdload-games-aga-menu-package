@@ -1,0 +1,7 @@
+Name      : Game of Harmony, The
+Version   : NTSC
+Publisher : Accolade
+Year      : 1990
+Genre     : Arcade - Miscellaneous
+Players   : 1 or 2, Simultaneous
+RunFile   : GameOfHarmonyNTSC.Slave

@@ -1,0 +1,6 @@
+Name      : Cougar Force
+Publisher : Tomahawk
+Year      : 1990
+Genre     : Arcade - Multigenre
+Players   : 1 Only
+RunFile   : CougarForce.Slave

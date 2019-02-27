@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SilentService2NTSC/SilentService2NTSC.slave
+
+; Run WHDLoad
+cd "A-Games:S/SilentService2NTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "SilentService2NTSC.slave" $whdloadargs
+ELSE
+  whdload "SilentService2NTSC.slave"
+ENDIF

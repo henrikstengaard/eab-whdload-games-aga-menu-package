@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WorldCircuitNTSC/WorldCircuitNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WorldCircuitNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "WorldCircuitNTSC.Slave" $whdloadargs
+ELSE
+  whdload "WorldCircuitNTSC.Slave"
+ENDIF

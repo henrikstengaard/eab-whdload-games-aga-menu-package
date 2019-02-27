@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HackerNTSC/HackerNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HackerNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "HackerNTSC.Slave" $whdloadargs
+ELSE
+  whdload "HackerNTSC.Slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Space Quest IV
+Version   : NTSC
+Publisher : Sierra
+Year      : 1992
+Players   : 1
+RunFile   : SpaceQuest4NTSC.slave

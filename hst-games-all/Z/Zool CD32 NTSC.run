@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/ZoolCD32NTSC/ZoolCD32NTSC.slave
+
+; Run WHDLoad
+cd "A-Games:Z/ZoolCD32NTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "ZoolCD32NTSC.slave" $whdloadargs
+ELSE
+  whdload "ZoolCD32NTSC.slave"
+ENDIF

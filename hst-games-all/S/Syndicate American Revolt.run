@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SyndicateAmericanRevolt/SyndicateAmericanRevolt.slave
+
+; Run WHDLoad
+cd "A-Games:S/SyndicateAmericanRevolt/"
+IF EXISTS ENV:whdloadargs
+  whdload "SyndicateAmericanRevolt.slave" $whdloadargs
+ELSE
+  whdload "SyndicateAmericanRevolt.slave"
+ENDIF

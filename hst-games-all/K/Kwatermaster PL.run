@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SkautKwatermasterPl/SkautKwatermasterPl.slave
+
+; Run WHDLoad
+cd "A-Games:S/SkautKwatermasterPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "SkautKwatermasterPl.slave" $whdloadargs
+ELSE
+  whdload "SkautKwatermasterPl.slave"
+ENDIF

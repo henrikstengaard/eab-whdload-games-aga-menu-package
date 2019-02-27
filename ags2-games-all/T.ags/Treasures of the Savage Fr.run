@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TreasuresOfSavageFrontier/TreasuresOfSavageFrontier.Slave
+;RunFile=A-Games:T/TreasureSavageFrontNTSC/TreasureSavageFrontNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:T/TreasuresOfSavageFrontier/"
+cd "A-Games:T/TreasureSavageFrontNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "TreasuresOfSavageFrontier.Slave" $whdloadargs
+  whdload "TreasureSavageFrontNTSC.Slave" $whdloadargs
 ELSE
-  whdload "TreasuresOfSavageFrontier.Slave"
+  whdload "TreasureSavageFrontNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

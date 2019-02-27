@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FourCrystalsOfTrazere/FourCrystalsOfTrazere.Slave
+;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/FourCrystalsOfTrazereNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:F/FourCrystalsOfTrazere/"
+cd "A-Games:F/FourCrystalsOfTrazereNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "FourCrystalsOfTrazere.Slave" $whdloadargs
+  whdload "FourCrystalsOfTrazereNTSC.Slave" $whdloadargs
 ELSE
-  whdload "FourCrystalsOfTrazere.Slave"
+  whdload "FourCrystalsOfTrazereNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:C/CrystalHammerV1/CrystalHammerV1.Slave
+;RunFile=A-Games:C/CrystalHammerV1/CrystalHammerV1.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:C/CrystalHammerV1/"
 IF EXISTS ENV:whdloadargs
-  whdload "CrystalHammerV1.Slave" $whdloadargs
+  whdload "CrystalHammerV1.slave" $whdloadargs
 ELSE
-  whdload "CrystalHammerV1.Slave"
+  whdload "CrystalHammerV1.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

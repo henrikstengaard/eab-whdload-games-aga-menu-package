@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RedLightningNTSC/RedLightningNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:R/RedLightningNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "RedLightningNTSC.slave" $whdloadargs
+ELSE
+  whdload "RedLightningNTSC.slave"
+ENDIF

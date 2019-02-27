@@ -1,0 +1,6 @@
+Name      : Fighter Duel Pro
+Version   : NTSC
+Publisher : Jaeger
+Year      : 1992
+Players   : 1 - 2 (2 simultaneous)
+RunFile   : FighterDuelProNTSC.Slave

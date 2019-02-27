@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:C/CastleOfDrBrain/CastleOfDrBrain.Slave
+;RunFile=A-Games:C/CastleOfDrBrainDeMT32/CastleOfDrBrainDeMT32.Slave
 
 ; Run WHDLoad
-cd "A-Games:C/CastleOfDrBrain/"
+cd "A-Games:C/CastleOfDrBrainDeMT32/"
 IF EXISTS ENV:whdloadargs
-  whdload "CastleOfDrBrain.Slave" $whdloadargs
+  whdload "CastleOfDrBrainDeMT32.Slave" $whdloadargs
 ELSE
-  whdload "CastleOfDrBrain.Slave"
+  whdload "CastleOfDrBrainDeMT32.Slave"
 ENDIF

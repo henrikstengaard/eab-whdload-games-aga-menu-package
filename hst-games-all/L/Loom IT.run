@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LoomIt/LoomIt.slave
+
+; Run WHDLoad
+cd "A-Games:L/LoomIt/"
+IF EXISTS ENV:whdloadargs
+  whdload "LoomIt.slave" $whdloadargs
+ELSE
+  whdload "LoomIt.slave"
+ENDIF

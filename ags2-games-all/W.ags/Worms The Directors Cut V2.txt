@@ -1,0 +1,7 @@
+Name      : Worms: The Director's Cut
+Version   : AGA 2MB
+Publisher : Ocean, Team 17
+Year      : 1997
+Genre     : Puzzler
+Players   : 8
+RunFile   : WormsDCAGA12MB.Slave

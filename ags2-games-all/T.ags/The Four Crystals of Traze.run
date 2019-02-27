@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FourCrystalsOfTrazere/getlegendsavedisk.slave
+;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/getlegendsavedisk.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:F/FourCrystalsOfTrazere/"
+cd "A-Games:F/FourCrystalsOfTrazereNTSC/"
 IF EXISTS ENV:whdloadargs
   whdload "getlegendsavedisk.slave" $whdloadargs
 ELSE

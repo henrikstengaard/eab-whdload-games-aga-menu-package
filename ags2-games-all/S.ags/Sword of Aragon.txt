@@ -1,0 +1,5 @@
+Name      : Sword of Aragon
+Publisher : Strategic Simulations, Inc.
+Year      : 1990
+Genre     : Strategy - War
+RunFile   : SwordOfAragon.slave

@@ -1,0 +1,6 @@
+Name      : Rambo III
+Version   : NTSC
+Publisher : Ocean
+Year      : 1989
+Players   : 1 Only
+RunFile   : Rambo3NTSC.slave

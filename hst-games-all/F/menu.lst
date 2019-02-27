@@ -1,20 +1,26 @@
 Federation Quest 1: BSS Jane Seymour	F/Federation Quest 1 BSS Jan	A-Games:B/BSSJaneSeymour/BSSJaneSeymour.slave
+Fidelity Chessmaster 2100, The NTSC	F/Fidelity Chessmaster 2100.	A-Games:C/Chessmaster2100NTSC/Chessmaster2100NTSC.Slave
 F1	F/F1	A-Games:F/F1/F1.slave
+F-117A Nighthawk Stealth Fighter 2.0	F/F-117A Nighthawk Stealth F	A-Games:F/F117ANightHawk/F117ANightHawk.slave
 F-15 Strike Eagle II	F/F-15 Strike Eagle II	A-Games:F/F15StrikeEagle2/F15StrikeEagle2.Slave
 F-16 Combat Pilot	F/F-16 Combat Pilot	A-Games:F/F16CombatPilot/F16CombatPilot.slave
 F17 Challenge	F/F17 Challenge	A-Games:F/F17Challenge/F17Challenge.Slave
-F-19 Stealth Fighter	F/F-19 Stealth Fighter	A-Games:F/F19StealthFighter/F19StealthFighter.Slave
+F-19 Stealth Fighter	F/F-19 Stealth Fighter	A-Games:F/F19StealthFighter/F19StealthFighter.slave
+F-19 Stealth Fighter NTSC	F/F-19 Stealth Fighter NTSC	A-Games:F/F19StealthFighterNTSC/F19StealthFighterNTSC.slave
 F1 Tornado	F/F1 Tornado	A-Games:F/F1Tornado/F1Tornado.Slave
 F1 World Championship Edition	F/F1 World Championship Edit	A-Games:F/F1WorldChampionshipEd/F1WorldChampionshipEd.slave
 F29 Retaliator	F/F29 Retaliator	A-Games:F/F29Retaliator/F29Retaliator.Slave
-F40 Pursuit Simulator	F/F40 Pursuit Simulator	A-Games:F/F40PursuitSimulator/F40PursuitSimulator.Slave
+F40 Pursuit Simulator NTSC	F/F40 Pursuit Simulator NTSC	A-Games:F/F40PursuitSimulatorNTSC/F40PursuitSimulatorNTSC.Slave
 F/A-18 Interceptor	F/FA-18 Interceptor	A-Games:F/FA18Interceptor/FA18Interceptor.slave
 Face Off	F/Face Off	A-Games:F/FaceOff/FaceOff.Slave
 Faery Tale Adventure, The	F/Faery Tale Adventure. The	A-Games:F/FaeryTaleAdventure/FaeryTaleAdventure.slave
 Falcon	F/Falcon	A-Games:F/Falcon/Falcon.Slave
+Falcon MissionDisk NTSC	F/Falcon MissionDisk NTSC	A-Games:F/Falcon&MissionDisk1NTSC/Falcon&MissionDisk1NTSC.Slave
 Falcon MissionDisk	F/Falcon MissionDisk	A-Games:F/Falcon&MissionDisks/Falcon&MissionDisks.Slave
+Falcon NTSC	F/Falcon NTSC	A-Games:F/FalconNTSC/FalconNTSC.Slave
 Fallen Angel	F/Fallen Angel	A-Games:F/FallenAngel/FallenAngel.slave
 Fantastic Dizzy	F/Fantastic Dizzy	A-Games:F/FantasticDizzy/FantasticDizzy.slave
+Fantastic Dizzy AGA	F/Fantastic Dizzy AGA	A-Games:F/FantasticDizzyAGA/FantasticDizzyAGA.slave
 Fantastic Voyage	F/Fantastic Voyage	A-Games:F/FantasticVoyage/FantasticVoyage.slave
 Fantastic Voyage CDTV	F/Fantastic Voyage CDTV	A-Games:F/FantasticVoyageCDTV/FantasticVoyageCDTV.slave
 Fantasy Flyer	F/Fantasy Flyer	A-Games:F/FantasyFlyer/FantasyFlyer.Slave
@@ -32,8 +38,9 @@ Fast Food!	F/Fast Food 	A-Games:F/FastFoodDizzyCollection/FastFoodDizzyCollectio
 Fast Lane! The Spice Engineering Challenge	F/Fast Lane The Spice Engine	A-Games:F/FastLane/FastLane.Slave
 Fatal Heritage DE	F/Fatal Heritage DE	A-Games:F/FatalHeritageDe/FatalHeritageDe.Slave
 Fatal Mission	F/Fatal Mission	A-Games:F/FatalMission/FatalMission.slave
-Fate: Gates of Dawn	F/Fate Gates of Dawn	A-Games:F/FateGatesOfDawn/FateGatesOfDawn.Slave
-Fate: Gates of Dawn DE	F/Fate Gates of Dawn DE	A-Games:F/FateGatesOfDawnDe/FateGatesOfDawnDe.Slave
+Fate: Gates of Dawn	F/Fate Gates of Dawn	A-Games:F/FateGatesOfDawn/FateGatesofDawn.slave
+Fate: Gates of Dawn DE	F/Fate Gates of Dawn DE	A-Games:F/FateGatesOfDawnDe/FateGatesofDawnDe.slave
+Fate: Gates of Dawn	F/Fate Gates of Dawn 	A-Games:F/FateGatesOfDawnUncensored/FateGatesofDawnUncensored.slave
 Fatman: The Caped Consumer	F/Fatman The Caped Consumer	A-Games:F/FatmanCapedConsumer/FatmanCapedConsumer.Slave
 Fatman: The Caped Consumer AGA	F/Fatman The Caped Consumer 	A-Games:F/FatmanCapedConsumerAGA/FatmanCapedConsumerAGA.Slave
 Fears AGA	F/Fears AGA	A-Games:F/FearsAGA/FearsAGA.slave
@@ -41,16 +48,15 @@ Fears AGA Censored	F/Fears AGA Censored	A-Games:F/FearsAGACensored/FearsAGACenso
 Fears CD32	F/Fears CD32	A-Games:F/FearsCD32/FearsCD32.Slave
 Federation of Free Traders	F/Federation of Free Traders	A-Games:F/FederationOfFreeTraders/FederationOfFreeTraders.slave
 Femme Fatale	F/Femme Fatale	A-Games:F/FemmeFatale/FemmeFatale.Slave
-Femme Fatale DataDisk	F/Femme Fatale DataDisk	A-Games:F/FemmeFatale&DataDisk/FemmeFatale&DataDisk.Slave
+Femme Fatale DataDisk	F/Femme Fatale DataDisk	A-Games:F/FemmeFatale&DataDisks/FemmeFatale&DataDisks.Slave
 Fernandez Must Die	F/Fernandez Must Die	A-Games:F/FernandezMustDie/FernandezMustDie.Slave
 Ferrari Formula One	F/Ferrari Formula One	A-Games:F/FerrariFormulaOne/FerrariFormulaOne.slave
 Feud	F/Feud	A-Games:F/Feud/Feud.Slave
-Fidelity Chessmaster 2100, The	F/Fidelity Chessmaster 2100.	A-Games:F/FidelityChessmaster2100/FidelityChessmaster2100.Slave
 Fiendish Freddy's Big Top o' Fun	F/Fiendish Freddys Big Top o	A-Games:F/FiendishFreddysBigTopOFun/FiendishFreddysBigTopOFun.slave
 FIFA International Soccer	F/FIFA International Soccer	A-Games:F/FIFAInternationalSoccer/FIFAInternationalSoccer.slave
 Fighter Bomber	F/Fighter Bomber	A-Games:F/FighterBomber/FighterBomber.slave
 Fighter Bomber	F/Fighter Bomber 	A-Games:F/FighterBomberAM/FighterBomberAM.slave
-Fighter Duel Pro	F/Fighter Duel Pro	A-Games:F/FighterDuelPro/FighterDuelPro.Slave
+Fighter Duel Pro NTSC	F/Fighter Duel Pro NTSC	A-Games:F/FighterDuelProNTSC/FighterDuelProNTSC.Slave
 Fighting Soccer NTSC	F/Fighting Soccer NTSC	A-Games:F/FightingSoccerNTSC/FightingSoccerNTSC.slave
 Fightin' Spirit	F/Fightin Spirit	A-Games:F/FightinSpirit/FightinSpirit.slave
 Fightin' Spirit AGA	F/Fightin Spirit AGA	A-Games:F/FightinSpiritAGA/FightinSpiritAGA.Slave
@@ -79,10 +85,10 @@ First Samurai, The	F/First Samurai. The	A-Games:F/FirstSamurai/FirstSamurai.Slav
 Fish!	F/Fish	A-Games:F/Fish/Fish.Slave
 Fist Fighter	F/Fist Fighter	A-Games:F/FistFighter/FistFighter.slave
 Five-A-Side Soccer	F/Five-A-Side Soccer	A-Games:F/FiveASideSoccer/FiveASideSoccer.Slave
-Flashback	F/Flashback	A-Games:F/Flashback/Flashback.Slave
+Flashback	F/Flashback	A-Games:F/Flashback/Flashback.slave
 Flashback CZ	F/Flashback CZ	A-Games:F/FlashbackCz/FlashbackCz.slave
-Flashback DE	F/Flashback DE	A-Games:F/FlashbackDe/FlashbackDe.Slave
-Flashback FR	F/Flashback FR	A-Games:F/FlashbackFr/FlashbackFr.Slave
+Flashback DE	F/Flashback DE	A-Games:F/FlashbackDe/FlashbackDe.slave
+Flashback FR	F/Flashback FR	A-Games:F/FlashbackFr/FlashbackFr.slave
 Flashback IT	F/Flashback IT	A-Games:F/FlashbackIt/FlashbackIt.slave
 Flashback LOWMEM	F/Flashback LOWMEM	A-Games:F/FlashbackLowMem/FlashbackLowMem.slave
 Flashback CZ LOWMEM	F/Flashback CZ LOWMEM	A-Games:F/FlashbackLowMemCz/FlashbackLowMemCz.slave
@@ -110,11 +116,12 @@ Flip-it & Magnose: Water Carriers from Mars	F/Flip-it Magnose Water Carr	A-Games
 Flood	F/Flood	A-Games:F/Flood/Flood.Slave
 Floor 13	F/Floor 13	A-Games:F/Floor13/Floor13.Slave
 Flight of the Amazon Queen DE	F/Flight of the Amazon Qu V2	A-Games:F/FlugDerAmazonQueenDe/FlugDerAmazonQueenDe.Slave
-Fly Fighter	F/Fly Fighter	A-Games:F/FlyFighter/FlyFighter.Slave
 Fly Fighter highs	F/Fly Fighter highs	A-Games:F/FlyFighter/highs
+Fly Fighter	F/Fly Fighter	A-Games:F/FlyFighter/FlyFighter.Slave
 Fly Harder	F/Fly Harder	A-Games:F/FlyHarder/FlyHarder.slave
 Fly Harder CD32	F/Fly Harder CD32	A-Games:F/FlyHarderCD32/FlyHarderCD32.slave
 Flying Shark	F/Flying Shark	A-Games:F/FlyingShark/FlyingShark.Slave
+Flying Shark	F/Flying Shark 	A-Games:F/FlyingSharkSE/FlyingSharkSE.Slave
 Fool's Errand, The	F/Fools Errand. The	A-Games:F/FoolsErrand/FoolsErrand.Slave
 Footballer of the Year 2	F/Footballer of the Year 2	A-Games:F/FootballerOfTheYear2/FootballerOfTheYear2.slave
 Football Glory	F/Football Glory	A-Games:F/FootballGlory/FootballGlory.Slave
@@ -129,6 +136,7 @@ Formula 1 3D	F/Formula 1 3D	A-Games:F/FormulaOne3D/FormulaOne3D.slave
 Formula One Grand Prix 3Disk	F/Formula One Grand Prix 3Di	A-Games:F/FormulaOneGrandPrix3Disk/FormulaOneGrandPrix3Disk.Slave
 Formula One Grand Prix 4Disk	F/Formula One Grand Prix 4Di	A-Games:F/FormulaOneGrandPrix4Disk/FormulaOneGrandPrix4Disk.Slave
 Foundation's Waste	F/Foundations Waste	A-Games:F/FoundationsWaste/FoundationsWaste.Slave
+Fraction Action	F/Fraction Action	A-Games:F/FractionAction/FractionAction.Slave
 Franco Baresi World Cup Kick Off IT	F/Franco Baresi World Cup Ki	A-Games:F/FrancoBaresiWorldCupIt/FrancoBaresiWorldCupIt.Slave
 Frankenstein	F/Frankenstein	A-Games:F/Frankenstein/Frankenstein.slave
 Franko: The Crazy Revenge! PL Censored	F/Franko The Crazy Revenge P	A-Games:F/FrankoCensoredPl/FrankoCensoredPl.slave
@@ -141,6 +149,7 @@ Freedom: Rebels in the Darkness ES	F/Freedom Rebels in the D V3	A-Games:F/Freedo
 Freedom: Rebels in the Darkness FR	F/Freedom Rebels in the D V4	A-Games:F/FreedomFr/FreedomFr.Slave
 Frenetic	F/Frenetic	A-Games:F/Frenetic/Frenetic.Slave
 Fright Night	F/Fright Night	A-Games:F/FrightNight/FrightNight.Slave
+Fright Night 512K	F/Fright Night 512K	A-Games:F/FrightNight512k/FrightNight512k.Slave
 Frontier: Elite II	F/Frontier Elite II	A-Games:F/Frontier/Frontier.slave
 Frontier: Elite II CD32	F/Frontier Elite II CD32	A-Games:F/FrontierCD32/FrontierCD32.slave
 Frontier: Elite II CZ	F/Frontier Elite II CZ	A-Games:F/FrontierCz/FrontierCz.slave
@@ -169,7 +178,6 @@ Future Wars: Time Travellers IT	F/Future Wars Time Travel V4	A-Games:F/FutureWar
 Fuzzball	F/Fuzzball	A-Games:F/Fuzzball/Fuzzball.Slave
 Fuzzball Intro	F/Fuzzball Intro	A-Games:F/Fuzzball/Intro.Slave
 Fuzzball NoIntro	F/Fuzzball NoIntro	A-Games:F/FuzzballNoIntro/FuzzballNoIntro.Slave
-F1-Racer	F/F1-Racer	A-Games:K/Kinderama/Kinderama.Slave
 Flight of the Amazon Queen FR	F/Flight of the Amazon Qu V3	A-Games:L/LAmazoneQueenFr/LAmazoneQueenFr.Slave
 Fetiche Maya, Le	F/Fetiche Maya. Le	A-Games:M/Maya/Maya.Slave
 Fetiche Maya, Le ES	F/Fetiche Maya. Le ES	A-Games:M/MayaEs/MayaEs.Slave
@@ -177,4 +185,3 @@ Fetiche Maya, Le FAST	F/Fetiche Maya. Le FAST	A-Games:M/MayaFast/MayaFast.slave
 Fetiche Maya, Le ES FAST	F/Fetiche Maya. Le ES FAST	A-Games:M/MayaFastEs/MayaFastEs.Slave
 Fetiche Maya, Le FR FAST	F/Fetiche Maya. Le FR FAST	A-Games:M/MayaFastFr/MayaFastFr.slave
 Fetiche Maya, Le FR	F/Fetiche Maya. Le FR	A-Games:M/MayaFr/MayaFr.Slave
-F-117A Nighthawk Stealth Fighter 2.0	F/F-117A Nighthawk Stealth F	A-Games:N/NightHawkF117A/NightHawkF117A.slave

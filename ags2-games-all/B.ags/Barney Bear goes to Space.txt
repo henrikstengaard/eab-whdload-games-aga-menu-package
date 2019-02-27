@@ -1,0 +1,6 @@
+Name      : Barney Bear goes to Space
+Publisher : Free Spirit Software
+Year      : 1990
+Genre     : Educational - Children
+Players   : 1 Only
+RunFile   : BarneyBearGoesToSpace.Slave

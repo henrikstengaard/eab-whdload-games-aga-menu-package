@@ -1,0 +1,7 @@
+Name      : Loom
+Language  : Italian
+Publisher : Lucasfilm Games
+Year      : 1990
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : LoomIt.slave

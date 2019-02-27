@@ -1,0 +1,6 @@
+Name      : Za Zelazna Brama
+Language  : Polish
+Publisher : Black Legend
+Year      : 1995
+Players   : 1 Only
+RunFile   : ZaZelaznaBramaPl.Slave

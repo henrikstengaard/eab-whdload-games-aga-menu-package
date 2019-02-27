@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OscarCD32NTSC/OscarCD32NTSC.slave
+
+; Run WHDLoad
+cd "A-Games:O/OscarCD32NTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "OscarCD32NTSC.slave" $whdloadargs
+ELSE
+  whdload "OscarCD32NTSC.slave"
+ENDIF

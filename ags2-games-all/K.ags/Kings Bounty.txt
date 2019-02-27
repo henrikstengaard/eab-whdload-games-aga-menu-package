@@ -1,0 +1,6 @@
+Name      : King's Bounty
+Publisher : New World Computing
+Year      : 1991
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+RunFile   : KingsBounty.slave

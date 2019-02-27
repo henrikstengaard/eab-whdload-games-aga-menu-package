@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:D/DynaBlaster/DynaBlaster.Slave
+;RunFile=A-Games:D/DynaBlaster/DynaBlaster.slave
 
 ; Run WHDLoad
 cd "A-Games:D/DynaBlaster/"
 IF EXISTS ENV:whdloadargs
-  whdload "DynaBlaster.Slave" $whdloadargs
+  whdload "DynaBlaster.slave" $whdloadargs
 ELSE
-  whdload "DynaBlaster.Slave"
+  whdload "DynaBlaster.slave"
 ENDIF

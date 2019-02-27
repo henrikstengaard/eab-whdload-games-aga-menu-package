@@ -1,10 +1,8 @@
 Cabal	C/Cabal	A-Games:C/Cabal/Cabal.slave
 Cabaret Asteroids	C/Cabaret Asteroids	A-Games:C/CabaretAsteroids/CabaretAsteroids.slave
 Cabaret Asteroids	C/Cabaret Asteroids 	A-Games:C/CabaretAsteroidsRepacked/CabaretAsteroidsRepacked.slave
-Cadaver	C/Cadaver	A-Games:C/Cadaver/Cadaver.Slave
-Cadaver: The Pay Off CadaverThePayoff	C/Cadaver The Pay Off Cadave	A-Games:C/Cadaver&CadaverThePayoff/Cadaver&CadaverThePayoff.Slave
+Cadaver: The Pay Off	C/Cadaver The Pay Off	A-Games:C/Cadaver&ThePayoff/Cadaver&ThePayoff.slave
 Cadaver Demos	C/Cadaver Demos	A-Games:C/CadaverDemos/CadaverDemos.slave
-Cadaver: The Pay Off	C/Cadaver The Pay Off	A-Games:C/CadaverThePayoff/CadaverThePayoff.Slave
 Caesar	C/Caesar	A-Games:C/Caesar/Caesar.Slave
 Calephar Image	C/Calephar Image	A-Games:C/CalepharImage/CalepharImage.Slave
 California Games	C/California Games	A-Games:C/CaliforniaGames/CaliforniaGames.Slave
@@ -12,12 +10,15 @@ California Games II	C/California Games II	A-Games:C/CaliforniaGames2/CaliforniaG
 Campaign	C/Campaign	A-Games:C/Campaign/Campaign.slave
 Campaign DataDisk	C/Campaign DataDisk	A-Games:C/Campaign&DataDisk/Campaign&DataDisk.slave
 Campaign II	C/Campaign II	A-Games:C/Campaign2/Campaign2.slave
-Cannon Fodder	C/Cannon Fodder	A-Games:C/CannonFodder/CannonFodder.slave
+Cannon Fodder	C/Cannon Fodder	A-Games:C/CannonFodder/CannonFodder.Slave
 Cannon Fodder 2	C/Cannon Fodder 2	A-Games:C/CannonFodder2/CannonFodder2.Slave
 Cannon Fodder 2 - Alien Levels	C/Cannon Fodder 2 - Alien Le	A-Games:C/CannonFodder2AlienLevels/CannonFodder2AlienLevels.Slave
 Cannon Fodder 2 DE	C/Cannon Fodder 2 DE	A-Games:C/CannonFodder2De/CannonFodder2De.Slave
 Cannon Fodder 2 FR	C/Cannon Fodder 2 FR	A-Games:C/CannonFodder2Fr/CannonFodder2Fr.Slave
 Cannon Fodder CD32	C/Cannon Fodder CD32	A-Games:C/CannonFodderCD32/CannonFodderCD32.Slave
+Cannon Fodder DE	C/Cannon Fodder DE	A-Games:C/CannonFodderDe/CannonFodderDe.Slave
+Cannon Fodder FR	C/Cannon Fodder FR	A-Games:C/CannonFodderFr/CannonFodderFr.Slave
+Cannon Fodder IT	C/Cannon Fodder IT	A-Games:C/CannonFodderIt/CannonFodderIt.Slave
 Cannon Fodder: New Campaign	C/Cannon Fodder New Campaign	A-Games:C/CannonFodderNewCampaign/CannonFodderNewCampaign.slave
 Cannon Fodder Plus	C/Cannon Fodder Plus	A-Games:C/CannonFodderPlus/CannonFodderPlus.Slave
 Cannon Soccer	C/Cannon Soccer	A-Games:C/CannonSoccer/CannonSoccer.Slave
@@ -26,13 +27,14 @@ Capital Punishment CD AGA	C/Capital Punishment CD AGA	A-Games:C/CapitalPunishmen
 Cap 'n' Carnage	C/Cap n Carnage	A-Games:C/CapNCarnage/CapNCarnage.slave
 Capone	C/Capone	A-Games:C/Capone/Capone.Slave
 Captain Blood	C/Captain Blood	A-Games:C/CaptainBlood/CaptainBlood.Slave
-Captain Dynamo	C/Captain Dynamo	A-Games:C/CaptainDynamo/CaptainDynamo.slave
+Captain Blood NTSC	C/Captain Blood NTSC	A-Games:C/CaptainBloodNTSC/CaptainBloodNTSC.Slave
 Captain Fizz Meets the Blaster-Trons	C/Captain Fizz Meets the Bla	A-Games:C/CaptainFizz/CaptainFizz.slave
 Captain Planet and the Planeteers	C/Captain Planet and the Pla	A-Games:C/CaptainPlanet&Planeteers/CaptainPlanet&Planeteers.Slave
 Captive	C/Captive	A-Games:C/Captive/Captive.slave
-Carcharodon: White Sharks	C/Carcharodon White Sharks	A-Games:C/Carcharodon/Carcharodon.Slave
+Carcharodon: White Sharks	C/Carcharodon White Sharks	A-Games:C/Carcharodon/Carcharodon.slave
 Cardiaxx	C/Cardiaxx	A-Games:C/CardiaxxElectronicZoo/CardiaxxElectronicZoo.Slave
 Cardiaxx	C/Cardiaxx 	A-Games:C/CardiaxxTeam17/CardiaxxTeam17.Slave
+Cardinal of the Kremlin, The	C/Cardinal of the Kremlin. T	A-Games:C/CardinalOfTheKremlin/CardinalOfTheKremlin.Slave
 Carl Lewis Challenge, The	C/Carl Lewis Challenge. The	A-Games:C/CarlLewisChallenge/CarlLewisChallenge.slave
 Carlos	C/Carlos	A-Games:C/Carlos/Carlos.Slave
 Carnage	C/Carnage	A-Games:C/Carnage/Carnage.slave
@@ -46,8 +48,10 @@ Car-Vup	C/Car-Vup	A-Games:C/CarVup/CarVup.Slave
 Castle Kingdoms	C/Castle Kingdoms	A-Games:C/CastleKingdoms/CastleKingdoms.Slave
 Castle Master	C/Castle Master	A-Games:C/CastleMaster/CastleMaster.Slave
 Castle Master II: The Crypt	C/Castle Master II The Crypt	A-Games:C/CastleMaster2/CastleMaster2.Slave
-Castle of Dr. Brain	C/Castle of Dr. Brain	A-Games:C/CastleOfDrBrain/CastleOfDrBrain.Slave
 Castle of Dr. Brain DE	C/Castle of Dr. Brain DE	A-Games:C/CastleOfDrBrainDe/CastleOfDrBrainDe.Slave
+Castle of Dr. Brain	C/Castle of Dr. Brain	A-Games:C/CastleOfDrBrainDeMT32/CastleOfDrBrainDeMT32.Slave
+Castle of Dr. Brain NTSC	C/Castle of Dr. Brain NTSC	A-Games:C/CastleOfDrBrainNTSC/CastleOfDrBrainNTSC.Slave
+Castle of Dr. Brain	C/Castle of Dr. Brain 	A-Games:C/CastleOfDrBrainNTSCMT32/CastleOfDrBrainNTSCMT32.Slave
 Castles	C/Castles	A-Games:C/Castles/Castles.slave
 Castles II: Siege & Conquest CD32	C/Castles II Siege Conquest	A-Games:C/Castles2CD32/Castles2CD32.Slave
 Castles DE	C/Castles DE	A-Games:C/CastlesDe/CastlesDe.slave
@@ -63,9 +67,9 @@ Cedric and the Lost Sceptre CD32 FAST	C/Cedric and the Lost Sce V3	A-Games:C/Ced
 Cedric and the Lost Sceptre FAST	C/Cedric and the Lost Sce V4	A-Games:C/CedricFast/CedricFast.Slave
 Celtic Legends	C/Celtic Legends	A-Games:C/CelticLegends/CelticLegends.slave
 Centerfold Squares	C/Centerfold Squares	A-Games:C/CentrefoldSquares/CentrefoldSquares.Slave
-Centurion: Defender of Rome	C/Centurion Defender of Rome	A-Games:C/Centurion/Centurion.Slave
+Centurion: Defender of Rome NTSC	C/Centurion Defender of Rome	A-Games:C/CenturionNTSC/CenturionNTSC.Slave
 Century	C/Century	A-Games:C/Century/Century.Slave
-Chamber of the Sci-Mutant Priestess	C/Chamber of the Sci-Mutant	A-Games:C/ChamberSciMutantPriestess/ChamberSciMutantPriestess.slave
+Chamber of the Sci-Mutant Priestess NTSC	C/Chamber of the Sci-Mutant	A-Games:C/ChamberSciMutantPrstNTSC/ChamberSciMutantPrstNTSC.slave
 Chambers of Shaolin	C/Chambers of Shaolin	A-Games:C/ChambersOfShaolin/ChambersOfShaolin.Slave
 Champ, The	C/Champ. The	A-Games:C/Champ/Champ.Slave
 Champion Driver	C/Champion Driver	A-Games:C/ChampionDriver/ChampionDriver.Slave
@@ -94,8 +98,8 @@ Chess Player 2150 FR	C/Chess Player 2150 FR	A-Games:C/ChessPlayer2150Fr/ChessPla
 Chess Simulator	C/Chess Simulator	A-Games:C/ChessSimulator/ChessSimulator.Slave
 Chicago 90	C/Chicago 90	A-Games:C/Chicago90/Chicago90.Slave
 Chichén Itzá ES	C/Chichen Itza ES	A-Games:C/ChichenItzaEs/ChichenItzaEs.slave
-Chip's Challenge	C/Chips Challenge	A-Games:C/ChipsChallengeEpyx/ChipsChallengeEpyx.Slave
-Chip's Challenge	C/Chips Challenge 	A-Games:C/ChipsChallengeUSGold/ChipsChallengeUSGold.Slave
+Chip's Challenge	C/Chips Challenge	A-Games:C/ChipsChallenge/ChipsChallenge.Slave
+Chip's Challenge NTSC	C/Chips Challenge NTSC	A-Games:C/ChipsChallengeNTSC/ChipsChallengeNTSC.Slave
 Christoph Kolumbus DE AGA	C/Christoph Kolumbus DE AGA	A-Games:C/ChristophKolumbusAGADe/ChristophKolumbusAGADe.slave
 Christoph Kolumbus DE	C/Christoph Kolumbus DE	A-Games:C/ChristophKolumbusDe/ChristophKolumbusDe.slave
 Chrome	C/Chrome	A-Games:C/Chrome/Chrome.Slave
@@ -138,9 +142,9 @@ Clown-O-Mania	C/Clown-O-Mania	A-Games:C/ClownOMania/ClownOMania.slave
 Clue!, The	C/Clue. The	A-Games:C/Clue/Clue.slave
 Clue!, The AGA	C/Clue. The AGA	A-Games:C/ClueAGA/ClueAGA.slave
 Cluedo: Master Detective	C/Cluedo Master Detective	A-Games:C/CluedoMasterDetective/CluedoMasterDetective.Slave
-Clue: Master Detective	C/Clue Master Detective	A-Games:C/ClueMasterDetective/ClueMasterDetective.slave
-COALA	C/COALA	A-Games:C/Coala/Coala.Slave
-COALA AGA	C/COALA AGA	A-Games:C/CoalaAGA/CoalaAGA.Slave
+Clue: Master Detective NTSC	C/Clue Master Detective NTSC	A-Games:C/ClueMasterDetectiveNTSC/ClueMasterDetectiveNTSC.slave
+COALA	C/COALA	A-Games:C/Coala/Coala.slave
+COALA AGA	C/COALA AGA	A-Games:C/CoalaAGA/CoalaAGA.slave
 Cobra	C/Cobra	A-Games:C/Cobra/Cobra.slave
 Code Name: Iceman	C/Code Name Iceman	A-Games:C/CodeNameIceman/CodenameIceman.slave
 Cogans Run	C/Cogans Run	A-Games:C/CogansRun/CogansRun.Slave
@@ -166,6 +170,7 @@ Conflict: The Middle East Political Simulator	C/Conflict The Middle East P	A-Gam
 Conqueror	C/Conqueror	A-Games:C/Conqueror/Conqueror.Slave
 Conquests of Camelot	C/Conquests of Camelot	A-Games:C/ConquestsOfCamelot/ConquestsOfCamelot.Slave
 Conquests of the Longbow	C/Conquests of the Longbow	A-Games:C/ConquestsOfTheLongbow/ConquestsOfTheLongbow.slave
+Conquests of the Longbow	C/Conquests of the Longbow 	A-Games:C/ConquestsOfTheLongbowMT32/ConquestsOfTheLongbowMT32.slave
 Continental Circus	C/Continental Circus	A-Games:C/ContinentalCircus/ContinentalCircus.Slave
 Cool Croc Twins	C/Cool Croc Twins	A-Games:C/CoolCrocTwins/CoolCrocTwins.Slave
 Cool Spot	C/Cool Spot	A-Games:C/CoolSpot/CoolSpot.slave
@@ -179,15 +184,16 @@ Corsarios	C/Corsarios	A-Games:C/Corsarios/Corsarios.Slave
 Corx	C/Corx	A-Games:C/Corx/Corx.Slave
 Cosmic Bouncer	C/Cosmic Bouncer	A-Games:C/CosmicBouncer/CosmicBouncer.Slave
 Cosmic Pirate	C/Cosmic Pirate	A-Games:C/CosmicPirate/CosmicPirate.Slave
-Cosmic Relief: Prof. Renegade to the Rescue	C/Cosmic Relief Prof. Renega	A-Games:C/CosmicRelief/CosmicRelief.Slave
+Cosmic Relief: Prof. Renegade to the Rescue NTSC	C/Cosmic Relief Prof. Renega	A-Games:C/CosmicReliefNTSC/CosmicReliefNTSC.Slave
 Cosmic Spacehead	C/Cosmic Spacehead	A-Games:C/CosmicSpacehead/CosmicSpacehead.slave
+Cougar Force	C/Cougar Force	A-Games:C/CougarForce/CougarForce.Slave
 Count Duckula	C/Count Duckula	A-Games:C/CountDuckula/CountDuckula.slave
 Cover Girl Strip Poker	C/Cover Girl Strip Poker	A-Games:C/CoverGirlStripPoker/CoverGirlStripPoker.slave
 Covert Action	C/Covert Action	A-Games:C/CovertAction/CovertAction.Slave
 Covert Action DE	C/Covert Action DE	A-Games:C/CovertActionDe/CovertActionDe.Slave
 Crack	C/Crack	A-Games:C/Crack/Crack.Slave
 Crack Down	C/Crack Down	A-Games:C/Crackdown/Crackdown.slave
-Crash Garrett	C/Crash Garrett	A-Games:C/CrashGarrett/CrashGarrett.Slave
+Crash Garrett NTSC	C/Crash Garrett NTSC	A-Games:C/CrashGarrettNTSC/CrashGarrettNTSC.Slave
 Crazy Cars	C/Crazy Cars	A-Games:C/CrazyCars/CrazyCars.Slave
 Crazy Cars II	C/Crazy Cars II	A-Games:C/CrazyCars2/CrazyCars2.Slave
 Crazy Cars III	C/Crazy Cars III	A-Games:C/CrazyCars3/CrazyCars3.slave
@@ -214,8 +220,8 @@ Cruise for a Corpse IT	C/Cruise for a Corpse IT	A-Games:C/CruiseForACorpseIt/Cru
 Cruncher Factory	C/Cruncher Factory	A-Games:C/CruncherFactory/CruncherFactory.Slave
 Crystal Dragon	C/Crystal Dragon	A-Games:C/CrystalDragon/CrystalDragon.Slave
 Crystal Dragon DE	C/Crystal Dragon DE	A-Games:C/CrystalDragonDe/CrystalDragonDe.slave
-Crystal Hammer	C/Crystal Hammer	A-Games:C/CrystalHammerV1/CrystalHammerV1.Slave
-Crystal Hammer	C/Crystal Hammer 	A-Games:C/CrystalHammerV2/CrystalHammerV2.Slave
+Crystal Hammer	C/Crystal Hammer	A-Games:C/CrystalHammerV1/CrystalHammerV1.slave
+Crystal Hammer	C/Crystal Hammer 	A-Games:C/CrystalHammerV2/CrystalHammerV2.slave
 Crystal Kingdom Dizzy	C/Crystal Kingdom Dizzy	A-Games:C/CrystalKingdomDizzy/CrystalKingdomDizzy.slave
 Crystal Palace	C/Crystal Palace	A-Games:C/CrystalPalace/CrystalPalace.slave
 Crystals of Arborea	C/Crystals of Arborea	A-Games:C/CrystalsOfArborea/CrystalsOfArborea.Slave
@@ -248,4 +254,6 @@ Cycles, The: International Grand Prix Racing	C/Cycles. The International	A-Games
 Cygnus 8	C/Cygnus 8	A-Games:C/Cygnus8/Cygnus8.Slave
 Citadel PL	C/Citadel PL	A-Games:C/CytadelaPl/CytadelaPl.slave
 Cytron	C/Cytron	A-Games:C/Cytron/Cytron.slave
+Cytron NTSC	C/Cytron NTSC	A-Games:C/CytronNTSC/CytronNTSC.slave
+Captain Dynamo	C/Captain Dynamo	A-Games:D/Dynamo/Dynamo.slave
 Celica GT Rally	C/Celica GT Rally	A-Games:T/ToyotaCelicaGTRally/ToyotaCelicaGTRally.Slave

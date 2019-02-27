@@ -1,0 +1,7 @@
+Name      : Khalaan
+Version   : NTSC
+Publisher : Rainbow Arts
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : KhalaanNTSC.Slave

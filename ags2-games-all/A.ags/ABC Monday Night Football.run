@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:A/ABCMondayNightFootball/ABCMondayNightFootball.slave
+;RunFile=A-Games:A/ABCMondayNightFBNTSC/ABCMondayNightFBNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/ABCMondayNightFootball/"
+cd "A-Games:A/ABCMondayNightFBNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "ABCMondayNightFootball.slave" $whdloadargs
+  whdload "ABCMondayNightFBNTSC.slave" $whdloadargs
 ELSE
-  whdload "ABCMondayNightFootball.slave"
+  whdload "ABCMondayNightFBNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,7 @@
+Name      : Hacker
+Version   : NTSC
+Publisher : Activision
+Year      : 1985
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : HackerNTSC.Slave

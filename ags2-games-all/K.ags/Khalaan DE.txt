@@ -1,0 +1,7 @@
+Name      : Khalaan
+Language  : German
+Publisher : Rainbow Arts
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : KhalaanDe.Slave

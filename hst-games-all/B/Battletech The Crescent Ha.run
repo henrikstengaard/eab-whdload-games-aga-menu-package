@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/Battletech/Battletech.Slave
+;RunFile=A-Games:B/BattletechNTSC/BattletechNTSC.Slave
 
 ; Run WHDLoad
-cd "A-Games:B/Battletech/"
+cd "A-Games:B/BattletechNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Battletech.Slave" $whdloadargs
+  whdload "BattletechNTSC.Slave" $whdloadargs
 ELSE
-  whdload "Battletech.Slave"
+  whdload "BattletechNTSC.Slave"
 ENDIF

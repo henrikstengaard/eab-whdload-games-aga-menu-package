@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:W/WITWIsCarmenSandiego/WITWIsCarmenSandiego.slave
+;RunFile=A-Games:W/WITWIsCarmenSandiegoNTSC/WITWIsCarmenSandiegoNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:W/WITWIsCarmenSandiego/"
+cd "A-Games:W/WITWIsCarmenSandiegoNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "WITWIsCarmenSandiego.slave" $whdloadargs
+  whdload "WITWIsCarmenSandiegoNTSC.slave" $whdloadargs
 ELSE
-  whdload "WITWIsCarmenSandiego.slave"
+  whdload "WITWIsCarmenSandiegoNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

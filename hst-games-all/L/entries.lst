@@ -1,8 +1,8 @@
-L'Aigle d'or : le Retour Intro FR	L/LAigle dor le Retour Intro	A-Games:A/AigleDOrFr/IntroFr.slave
 L'Aigle d'or : le Retour FR	L/LAigle dor le Retour FR	A-Games:A/AigleDOrFr/AigleDOrFr.slave
+L'Aigle d'or : le Retour Intro FR	L/LAigle dor le Retour Intro	A-Games:A/AigleDOrFr/IntroFr.slave
 La Aventura Espacial ES	L/La Aventura Espacial ES	A-Games:L/LaAventuraEspacialEs/LaAventuraEspacialEs.slave
 La Aventura Original ES	L/La Aventura Original ES	A-Games:L/LaAventuraOriginalEs/LaAventuraOriginalEs.slave
-Labyrinth DK	L/Labyrinth DK	A-Games:L/LabyrinthDk/LabyrinthDk.slave
+Labyrinth DK	L/Labyrinth DK	A-Games:L/LabyrinthDetNyeCOMputerDk/LabyrinthDetNyeCOMputerDk.slave
 Labyrinthe D'Anglomania 1 FR	L/Labyrinthe DAnglomania 1 F	A-Games:L/LabyrintheDAnglomania1Fr/LabyrintheDAnglomania1Fr.Slave
 Labyrinthe D'Anglomania 2 FR	L/Labyrinthe DAnglomania 2 F	A-Games:L/LabyrintheDAnglomania2Fr/LabyrintheDAnglomania2Fr.Slave
 Labyrinthe de Lexicos, Le FR	L/Labyrinthe de Lexicos. Le	A-Games:L/LabyrintheDeLexicosFr/LabyrintheDeLexicosFr.Slave
@@ -41,6 +41,7 @@ Legend of Djel	L/Legend of Djel	A-Games:L/LegendOfDjel/LegendOfDjel.Slave
 Legend of Djel DE	L/Legend of Djel DE	A-Games:L/LegendOfDjelDe/LegendOfDjelDe.Slave
 Legend of Faerghail	L/Legend of Faerghail	A-Games:L/LegendOfFaerghail/LegendOfFaerghail.Slave
 Legend of Faerghail DE	L/Legend of Faerghail DE	A-Games:L/LegendOfFaerghailDe/LegendOfFaerghailDe.Slave
+Legend of Faerghail NTSC	L/Legend of Faerghail NTSC	A-Games:L/LegendOfFaerghailNTSC/LegendOfFaerghailNTSC.Slave
 Legend of Kyrandia	L/Legend of Kyrandia	A-Games:L/LegendOfKyrandia/LegendOfKyrandia.Slave
 Legend of Kyrandia DE	L/Legend of Kyrandia DE	A-Games:L/LegendOfKyrandiaDe/LegendOfKyrandiaDe.Slave
 Legend of Kyrandia FR	L/Legend of Kyrandia FR	A-Games:L/LegendOfKyrandiaFr/LegendOfKyrandiaFr.Slave
@@ -59,7 +60,10 @@ Leisure Suit Larry 2	L/Leisure Suit Larry 2	A-Games:L/LeisureSuitLarry2/LeisureS
 Leisure Suit Larry 3	L/Leisure Suit Larry 3	A-Games:L/LeisureSuitLarry3/LeisureSuitLarry3.Slave
 Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work	L/Leisure Suit Larry 5 Passi	A-Games:L/LeisureSuitLarry5/LeisureSuitLarry5.Slave
 Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work DE	L/Leisure Suit Larry 5 Pa V2	A-Games:L/LeisureSuitLarry5De/LeisureSuitLarry5De.Slave
+Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work	L/Leisure Suit Larry 5 Pa V3	A-Games:L/LeisureSuitLarry5DeMT32/LeisureSuitLarry5DeMT32.Slave
+Leisure Suit Larry 5: Passionate Patti does a Little Undercover Work	L/Leisure Suit Larry 5 Pa V4	A-Games:L/LeisureSuitLarry5MT32/LeisureSuitLarry5MT32.Slave
 Leisure Suit Larry in the Land of the Lounge Lizards	L/Leisure Suit Larry in the	A-Games:L/LeisureSuitLarryEnhanced/LeisureSuitLarryEnhanced.slave
+Leisure Suit Larry in the Land of the Lounge Lizards	L/Leisure Suit Larry in the 	A-Games:L/LeisureSuitLarryEnhndMT32/LeisureSuitLarryEnhndMT32.slave
 Lemmings 2: The Tribes 1MB	L/Lemmings 2 The Tribes 1MB	A-Games:L/Lemmings21MB/Lemmings21MB.slave
 Lemmings 2: The Tribes 512KB	L/Lemmings 2 The Tribes 512K	A-Games:L/Lemmings2512KB/Lemmings2512KB.slave
 Lemmings 2: The Tribes Demo	L/Lemmings 2 The Tribes Demo	A-Games:L/Lemmings2Demo/Lemmings2Demo.Slave
@@ -98,6 +102,7 @@ Lion King, The AGA	L/Lion King. The AGA	A-Games:L/LionKingAGA/LionKingAGA.Slave
 Liquid Kids Files	L/Liquid Kids Files	A-Games:L/LiquidKidsFiles/LiquidKidsFiles.Slave
 Liquid Kids Image	L/Liquid Kids Image	A-Games:L/LiquidKidsImage/LiquidKidsImage.Slave
 Little Computer People	L/Little Computer People	A-Games:L/LittleComputerPeople/LittleComputerPeople.Slave
+Little Computer People NTSC	L/Little Computer People NTS	A-Games:L/LittleComputerPeopleNTSC/LittleComputerPeopleNTSC.Slave
 Little Puff in Dragonland	L/Little Puff in Dragonland	A-Games:L/LittlePuffInDragonland/LittlePuffInDragonland.slave
 Live and Let Die	L/Live and Let Die	A-Games:L/LiveAndLetDie/LiveAndLetDie.Slave
 Livingstone II	L/Livingstone II	A-Games:L/Livingstone2/Livingstone2.Slave
@@ -112,8 +117,10 @@ Lombard RAC Rally 1Disk	L/Lombard RAC Rally 1Disk	A-Games:L/LombardRACRally1Disk
 Lombard RAC Rally 2Disk	L/Lombard RAC Rally 2Disk	A-Games:L/LombardRACRally2Disk/LombardRACRally2Disk.Slave
 Loom	L/Loom	A-Games:L/Loom/Loom.slave
 Loom DE	L/Loom DE	A-Games:L/LoomDe/LoomDe.slave
+Loom DE CDTV	L/Loom DE CDTV	A-Games:L/LoomDeCDTV/LoomDeCDTV.slave
 Loom ES	L/Loom ES	A-Games:L/LoomEs/LoomEs.slave
 Loom FR	L/Loom FR	A-Games:L/LoomFr/LoomFr.slave
+Loom IT	L/Loom IT	A-Games:L/LoomIt/LoomIt.slave
 Loopz	L/Loopz	A-Games:L/Loopz/Loopz.Slave
 Lords of Chaos DataDisk	L/Lords of Chaos DataDisk	A-Games:L/LordsOfChaos&DataDisk/LordsOfChaos&DataDisk.Slave
 Lords of Doom	L/Lords of Doom	A-Games:L/LordsOfDoom/LordsOfDoom.Slave
@@ -133,9 +140,12 @@ Lorna	L/Lorna	A-Games:L/Lorna/Lorna.slave
 Lost Dutchman Mine	L/Lost Dutchman Mine	A-Games:L/LostDutchmanMine/LostDutchmanMine.Slave
 Lost in Mine PL	L/Lost in Mine PL	A-Games:L/LostInMinePl/LostInMinePl.slave
 Lost Patrol, The	L/Lost Patrol. The	A-Games:L/LostPatrol/LostPatrol.Slave
+Lost Patrol, The NTSC	L/Lost Patrol. The NTSC	A-Games:L/LostPatrolNTSC/LostPatrolNTSC.Slave
 Lost Treasures Of Infocom, The	L/Lost Treasures Of Infocom.	A-Games:L/LostTreasuresOfInfocom/LostTreasuresOfInfocom.Slave
 Lost Vikings, The	L/Lost Vikings. The	A-Games:L/LostVikings/LostVikings.Slave
 Lost Vikings, The CD32	L/Lost Vikings. The CD32	A-Games:L/LostVikingsCD32/LostVikingsCD32.slave
+Lost Vikings, The DE	L/Lost Vikings. The DE	A-Games:L/LostVikingsDe/LostVikingsDe.Slave
+Lost Vikings, The FR	L/Lost Vikings. The FR	A-Games:L/LostVikingsFr/LostVikingsFr.Slave
 Lothar Matthäus	L/Lothar Matthaus	A-Games:L/LotharMatthausFussball/LotharMatthausFussball.slave
 Lotus Esprit Turbo Challenge	L/Lotus Esprit Turbo Challen	A-Games:L/Lotus/Lotus.Slave
 Lotus Turbo Challenge 2	L/Lotus Turbo Challenge 2	A-Games:L/Lotus2/Lotus2.Slave

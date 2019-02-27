@@ -2,4 +2,4 @@ Name      : Hammerfist
 Publisher : Activision
 Year      : 1990
 Players   : 1 Only
-RunFile   : Hammerfist.slave
+RunFile   : Hammerfist.Slave

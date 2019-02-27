@@ -1,0 +1,7 @@
+Name      : Pipe Dream
+Version   : NTSC
+Publisher : Lucasfilm Games
+Year      : 1989
+Genre     : Brain - Puzzle
+Players   : 1 or 2
+RunFile   : PipeDreamNTSC.Slave

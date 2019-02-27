@@ -1,0 +1,7 @@
+Name      : Damocles - Mercenary II
+Version   : NTSC
+Publisher : Novagen
+Year      : 1990
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : DamoclesNTSC.slave

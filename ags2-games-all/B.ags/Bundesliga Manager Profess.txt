@@ -1,0 +1,7 @@
+Name      : Bundesliga Manager Professional
+Language  : German
+Publisher : Software 2000
+Year      : 1991
+Genre     : Sports - Football/Soccer
+Players   : 1 to 4
+RunFile   : BundesligaManagerProDe.Slave

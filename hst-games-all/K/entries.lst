@@ -11,7 +11,7 @@ Karate King	K/Karate King	A-Games:K/KarateKing&CityDefence/KarateKing&CityDefenc
 Karting Grand Prix	K/Karting Grand Prix	A-Games:K/KartingGrandPrix/KartingGrandPrix.Slave
 Katakis 1Disk	K/Katakis 1Disk	A-Games:K/Katakis1Disk/Katakis1Disk.Slave
 Katakis 2Disk	K/Katakis 2Disk	A-Games:K/Katakis2Disk/Katakis2Disk.Slave
-Keef the Thief	K/Keef the Thief	A-Games:K/KeefTheThief/KeefTheThief.Slave
+Keef the Thief NTSC	K/Keef the Thief NTSC	A-Games:K/KeefTheThiefNTSC/KeefTheThiefNTSC.Slave
 Kelly X	K/Kelly X	A-Games:K/KellyX/KellyX.slave
 Kennedy Approach	K/Kennedy Approach	A-Games:K/KennedyApproach/KennedyApproach.slave
 Keys to Maramon, The	K/Keys to Maramon. The	A-Games:K/KeysToMaramon/KeysToMaramon.Slave
@@ -19,6 +19,9 @@ KGB	K/KGB	A-Games:K/KGB/KGB.Slave
 KGB DE	K/KGB DE	A-Games:K/KGBDe/KGBDe.Slave
 KGB FR	K/KGB FR	A-Games:K/KGBFr/KGBFr.Slave
 Khalaan	K/Khalaan	A-Games:K/Khalaan/Khalaan.Slave
+Khalaan DE	K/Khalaan DE	A-Games:K/KhalaanDe/KhalaanDe.Slave
+Khalaan FR	K/Khalaan FR	A-Games:K/KhalaanFr/KhalaanFr.Slave
+Khalaan NTSC	K/Khalaan NTSC	A-Games:K/KhalaanNTSC/KhalaanNTSC.Slave
 Kick Off	K/Kick Off	A-Games:K/KickOff/KickOff.Slave
 Kick Off ExtraTime 1Disk	K/Kick Off ExtraTime 1Disk	A-Games:K/KickOff&ExtraTime1Disk/KickOff&ExtraTime1Disk.Slave
 Kick Off ExtraTime 2Disk	K/Kick Off ExtraTime 2Disk	A-Games:K/KickOff&ExtraTime2Disk/KickOff&ExtraTime2Disk.Slave
@@ -49,25 +52,33 @@ Kikstart II	K/Kikstart II	A-Games:K/Kikstart2/Kikstart2.Slave
 Kikugi	K/Kikugi	A-Games:K/Kikugi/Kikugi.Slave
 Killerball	K/Killerball	A-Games:K/Killerball/Killerball.Slave
 Killing Cloud, The	K/Killing Cloud. The	A-Games:K/KillingCloud/KillingCloud.Slave
+Killing Cloud, The NTSC	K/Killing Cloud. The NTSC	A-Games:K/KillingCloudNTSC/KillingCloudNTSC.Slave
 Killing Game Show, The	K/Killing Game Show. The	A-Games:K/KillingGameShow/KillingGameShow.Slave
 Killing Machine	K/Killing Machine	A-Games:K/KillingMachine/KillingMachine.Slave
+Kinderama: Five Early Learning Games	K/Kinderama Five Early Learn	A-Games:K/Kinderama/Kinderama.Slave
 Kingmaker: The Quest for the Crown	K/Kingmaker The Quest for th	A-Games:K/KingmakerQuestForTheCrown/KingmakerQuestForTheCrown.Slave
 King of Chicago, The	K/King of Chicago. The	A-Games:K/KingOfChicago/KingOfChicago.Slave
 Kingpin: Arcade Sports Series Bowling	K/Kingpin Arcade Sports Seri	A-Games:K/Kingpin/Kingpin.Slave
 Kingpin: Arcade Sports Series Bowling 1MB	K/Kingpin Arcade Sports S V2	A-Games:K/Kingpin1Mb/Kingpin1Mb.Slave
 Kingpin: Arcade Sports Series Bowling CD32	K/Kingpin Arcade Sports S V3	A-Games:K/KingpinCD32/KingpinCD32.Slave
 Kingpin: Arcade Sports Bowling Demo	K/Kingpin Arcade Sports Bowl	A-Games:K/KingpinDemo/KingpinDemo.Slave
+King's Bounty	K/Kings Bounty	A-Games:K/KingsBounty/KingsBounty.slave
+King's Bounty NTSC	K/Kings Bounty NTSC	A-Games:K/KingsBountyNTSC/KingsBountyNTSC.Slave
 King's Quest	K/Kings Quest	A-Games:K/KingsQuest/KingsQuest.slave
 King's Quest II	K/Kings Quest II	A-Games:K/KingsQuest2/KingsQuest2.Slave
 King's Quest III: To Heir is Human	K/Kings Quest III To Heir is	A-Games:K/KingsQuest3/KingsQuest3.Slave
 King's Quest IV	K/Kings Quest IV	A-Games:K/KingsQuest4/KingsQuest4.slave
 King's Quest V	K/Kings Quest V	A-Games:K/KingsQuest5/KingsQuest5.slave
 King's Quest V DE	K/Kings Quest V DE	A-Games:K/KingsQuest5De/KingsQuest5De.slave
+King's Quest V	K/Kings Quest V 	A-Games:K/KingsQuest5DeMT32/KingsQuest5DeMT32.slave
 King's Quest V IT	K/Kings Quest V IT	A-Games:K/KingsQuest5It/KingsQuest5It.slave
+King's Quest V	K/Kings Quest V  	A-Games:K/KingsQuest5ItMT32/KingsQuest5ItMT32.slave
+King's Quest V	K/Kings Quest V   	A-Games:K/KingsQuest5MT32/KingsQuest5MT32.slave
 King's Quest VI	K/Kings Quest VI	A-Games:K/KingsQuest6/KingsQuest6.slave
 King's Quest VI DE	K/Kings Quest VI DE	A-Games:K/KingsQuest6De/KingsQuest6De.slave
 King's Quest VI FR	K/Kings Quest VI FR	A-Games:K/KingsQuest6Fr/KingsQuest6Fr.slave
 King's Quest: Quest for the Crown	K/Kings Quest Quest for the	A-Games:K/KingsQuestEnhanced/KingsQuestEnhanced.slave
+King's Quest: Quest for the Crown	K/Kings Quest Quest for the 	A-Games:K/KingsQuestEnhancedMT32/KingsQuestEnhancedMT32.slave
 Kiro's Quest	K/Kiros Quest	A-Games:K/KirosQuest/KirosQuest.slave
 Klax	K/Klax	A-Games:K/Klax/Klax.Slave
 Knight Force	K/Knight Force	A-Games:K/KnightForce/KnightForce.Slave
@@ -85,3 +96,4 @@ Kult	K/Kult	A-Games:K/Kult/Kult.slave
 Kwasimodo	K/Kwasimodo	A-Games:K/Kwasimodo/Kwasimodo.Slave
 Kwik Snax	K/Kwik Snax	A-Games:K/KwikSnax/KwikSnax.slave
 King's Table: The Legend of Ragnarok	K/Kings Table The Legend of	A-Games:L/LegendOfRagnarok/LegendOfRagnarok.slave
+Kwatermaster PL	K/Kwatermaster PL	A-Games:S/SkautKwatermasterPl/SkautKwatermasterPl.slave

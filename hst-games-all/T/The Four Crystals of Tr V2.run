@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/FourCrystalsOfTrazere/FourCrystalsOfTrazere.Slave
+;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/FourCrystalsOfTrazereNTSC.Slave
 
 ; Run WHDLoad
-cd "A-Games:F/FourCrystalsOfTrazere/"
+cd "A-Games:F/FourCrystalsOfTrazereNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "FourCrystalsOfTrazere.Slave" $whdloadargs
+  whdload "FourCrystalsOfTrazereNTSC.Slave" $whdloadargs
 ELSE
-  whdload "FourCrystalsOfTrazere.Slave"
+  whdload "FourCrystalsOfTrazereNTSC.Slave"
 ENDIF

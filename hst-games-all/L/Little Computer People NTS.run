@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LittleComputerPeopleNTSC/LittleComputerPeopleNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LittleComputerPeopleNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "LittleComputerPeopleNTSC.Slave" $whdloadargs
+ELSE
+  whdload "LittleComputerPeopleNTSC.Slave"
+ENDIF

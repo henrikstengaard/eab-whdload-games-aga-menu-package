@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:D/DejaVuANightmareComesTrue/DejaVuANightmareComesTrue.Slave
+;RunFile=A-Games:D/DejaVuNTSC/DejaVuNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:D/DejaVuANightmareComesTrue/"
+cd "A-Games:D/DejaVuNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "DejaVuANightmareComesTrue.Slave" $whdloadargs
+  whdload "DejaVuNTSC.Slave" $whdloadargs
 ELSE
-  whdload "DejaVuANightmareComesTrue.Slave"
+  whdload "DejaVuNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

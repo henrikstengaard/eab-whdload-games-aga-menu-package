@@ -1,5 +1,6 @@
-Name      : Out Run [Sega]
-Publisher : Sega
-Year      : 1988
-Players   : 1
-RunFile   : OutRunSega.slave
+Name      : Out Run
+Publisher : US Gold
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : OutRun.slave

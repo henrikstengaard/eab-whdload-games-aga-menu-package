@@ -1,0 +1,6 @@
+Name      : S.D.I.
+Version   : NTSC
+Publisher : Cinemaware
+Year      : 1987
+Players   : 1 Only
+RunFile   : SDICinemawareNTSC.Slave

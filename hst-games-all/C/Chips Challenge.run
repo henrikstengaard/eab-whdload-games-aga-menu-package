@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:C/ChipsChallengeEpyx/ChipsChallengeEpyx.Slave
+;RunFile=A-Games:C/ChipsChallenge/ChipsChallenge.Slave
 
 ; Run WHDLoad
-cd "A-Games:C/ChipsChallengeEpyx/"
+cd "A-Games:C/ChipsChallenge/"
 IF EXISTS ENV:whdloadargs
-  whdload "ChipsChallengeEpyx.Slave" $whdloadargs
+  whdload "ChipsChallenge.Slave" $whdloadargs
 ELSE
-  whdload "ChipsChallengeEpyx.Slave"
+  whdload "ChipsChallenge.Slave"
 ENDIF

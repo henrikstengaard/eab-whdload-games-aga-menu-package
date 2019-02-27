@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:M/MonkeyIsland2De/MonkeyIsland2De.Slave
+;RunFile=A-Games:M/MonkeyIsland2De/MonkeyIsland2De.slave
 
 ; Run WHDLoad
 cd "A-Games:M/MonkeyIsland2De/"
 IF EXISTS ENV:whdloadargs
-  whdload "MonkeyIsland2De.Slave" $whdloadargs
+  whdload "MonkeyIsland2De.slave" $whdloadargs
 ELSE
-  whdload "MonkeyIsland2De.Slave"
+  whdload "MonkeyIsland2De.slave"
 ENDIF

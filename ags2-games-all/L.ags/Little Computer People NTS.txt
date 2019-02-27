@@ -1,0 +1,7 @@
+Name      : Little Computer People
+Version   : NTSC
+Publisher : Activision
+Year      : 1987
+Genre     : Simulation - Miscellaneous
+Players   : 1 Only
+RunFile   : LittleComputerPeopleNTSC.Slave

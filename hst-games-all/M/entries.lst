@@ -21,6 +21,7 @@ Magic Marble	M/Magic Marble	A-Games:M/MagicMarble/MagicMarble.Slave
 Magic Pockets	M/Magic Pockets	A-Games:M/MagicPockets/MagicPockets.Slave
 Magic Pockets Demo	M/Magic Pockets Demo	A-Games:M/MagicPocketsDemo/MagicPocketsDemo.Slave
 Magic Pockets NTSC	M/Magic Pockets NTSC	A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.Slave
+Magic Pockets NTSC	M/Magic Pockets NTSC 	A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.slave
 Magnatron	M/Magnatron	A-Games:M/Magnatron/Magnatron.Slave
 Major Motion	M/Major Motion	A-Games:M/MajorMotion/MajorMotion.Slave
 Manchester United	M/Manchester United	A-Games:M/ManchesterUnited/ManchesterUnited.Slave
@@ -34,9 +35,10 @@ Man from the Council, The	M/Man from the Council. The	A-Games:M/ManFromTheCounci
 Manhattan Dealers	M/Manhattan Dealers	A-Games:M/ManhattanDealers/ManhattanDealers.Slave
 Manhattan Dealers FR	M/Manhattan Dealers FR	A-Games:M/ManhattanDealersFr/ManhattanDealersFr.Slave
 Manhunter: New York	M/Manhunter New York	A-Games:M/Manhunter/Manhunter.slave
-Manhunter 2: San Francisco	M/Manhunter 2 San Francisco	A-Games:M/Manhunter2/Manhunter2.slave
+Manhunter 2: San Francisco NTSC	M/Manhunter 2 San Francisco	A-Games:M/Manhunter2NTSC/Manhunter2NTSC.slave
 Maniac Mansion	M/Maniac Mansion	A-Games:M/ManiacMansion/ManiacMansion.slave
 Maniac Mansion DE	M/Maniac Mansion DE	A-Games:M/ManiacMansionDe/ManiacMansionDe.slave
+Maniac Mansion ES	M/Maniac Mansion ES	A-Games:M/ManiacMansionEs/ManiacMansionEs.slave
 Maniac Mansion FR	M/Maniac Mansion FR	A-Games:M/ManiacMansionFr/ManiacMansionFr.slave
 Maniax	M/Maniax	A-Games:M/Maniax/maniax.slave
 Manic Miner	M/Manic Miner	A-Games:M/ManicMiner/ManicMiner.slave
@@ -55,7 +57,7 @@ Matrix Marauders	M/Matrix Marauders	A-Games:M/MatrixMarauders/MatrixMarauders.sl
 Maupiti Island	M/Maupiti Island	A-Games:M/MaupitiIsland/MaupitiIsland.Slave
 Maupiti Island DE	M/Maupiti Island DE	A-Games:M/MaupitiIslandDe/MaupitiIslandDe.Slave
 Maupiti Island FR	M/Maupiti Island FR	A-Games:M/MaupitiIslandFr/MaupitiIslandFr.Slave
-Max Rally	M/Max Rally	A-Games:M/MaxRally/MaxRally.Slave
+Max Rally	M/Max Rally	A-Games:M/MaxRally/MaxRally.slave
 Mayday Squad	M/Mayday Squad	A-Games:M/MaydaySquadHeroes/MaydaySquadHeroes.Slave
 McDonald Land	M/McDonald Land	A-Games:M/McDonaldLand/McDonaldLand.Slave
 Mean Arenas	M/Mean Arenas	A-Games:M/MeanArenas/MeanArenas.slave
@@ -121,12 +123,13 @@ Might and Magic III: Isles of Terra DE	M/Might and Magic III Isles 	A-Games:M/Mi
 Mighty Bombjack	M/Mighty Bombjack	A-Games:M/MightyBombJack/MightyBombjack.Slave
 Mike Read's Computer Pop Quiz	M/Mike Reads Computer Pop Qu	A-Games:M/MikeReadsComputerPopQuiz/MikeReadsComputerPopQuiz.Slave
 Mikro Mortal Tennis	M/Mikro Mortal Tennis	A-Games:M/MikroMortalTennis/MikroMortalTennis.Slave
+Millennium 2.2 NTSC	M/Millennium 2.2 NTSC	A-Games:M/MilleniumNTSC/MilleniumNTSC.Slave
 Millennium 2.2	M/Millennium 2.2	A-Games:M/Millennium22/Millennium22.Slave
 Mindbender	M/Mindbender	A-Games:M/Mindbender/Mindbender.Slave
 Mindfighter	M/Mindfighter	A-Games:M/Mindfighter/Mindfighter.Slave
 Mindroll	M/Mindroll	A-Games:M/Mindroll/Mindroll.Slave
 Mindshadow	M/Mindshadow	A-Games:M/Mindshadow/Mindshadow.Slave
-Mind Walker	M/Mind Walker	A-Games:M/MindWalker/MindWalker.slave
+Mind Walker NTSC	M/Mind Walker NTSC	A-Games:M/MindWalkerNTSC/MindWalkerNTSC.slave
 Mini Golf	M/Mini Golf	A-Games:M/MiniGolf/MiniGolf.Slave
 Mini Golf Plus	M/Mini Golf Plus	A-Games:M/MiniGolfPlus/MiniGolfPlus.slave
 Minskies ... The Abduction	M/Minskies ... The Abduction	A-Games:M/Minskies/Minskies.slave
@@ -134,12 +137,13 @@ Minskies ... The Abduction AGA	M/Minskies ... The Abduct V2	A-Games:M/MinskiesAG
 Misja Harolda: Zaginiony w systemie PL	M/Misja Harolda Zaginiony w	A-Games:M/MisjaHaroldaPl/MisjaHaroldaPl.slave
 Missiles over Xerion AGA	M/Missiles over Xerion AGA	A-Games:M/MissilesOverXerion/MissilesOverXerion.slave
 Mission Elevator	M/Mission Elevator	A-Games:M/MissionElevator/MissionElevator.Slave
-Moebius	M/Moebius	A-Games:M/Moebius/Moebius.Slave
-Monkey Island 2: LeChuck's Revenge	M/Monkey Island 2 LeChucks R	A-Games:M/MonkeyIsland2/MonkeyIsland2.Slave
-Monkey Island 2: LeChuck's Revenge DE	M/Monkey Island 2 LeChuck V2	A-Games:M/MonkeyIsland2De/MonkeyIsland2De.Slave
-Monkey Island 2: LeChuck's Revenge ES	M/Monkey Island 2 LeChuck V3	A-Games:M/MonkeyIsland2Es/MonkeyIsland2Es.Slave
-Monkey Island 2: LeChuck's Revenge FR	M/Monkey Island 2 LeChuck V4	A-Games:M/MonkeyIsland2Fr/MonkeyIsland2Fr.Slave
-Monkey Island 2: LeChuck's Revenge IT	M/Monkey Island 2 LeChuck V5	A-Games:M/MonkeyIsland2It/MonkeyIsland2It.Slave
+Moebius NTSC	M/Moebius NTSC	A-Games:M/MoebiusNTSC/MoebiusNTSC.Slave
+Monkey Business	M/Monkey Business	A-Games:M/MonkeyBusiness/MonkeyBusiness.slave
+Monkey Island 2: LeChuck's Revenge	M/Monkey Island 2 LeChucks R	A-Games:M/MonkeyIsland2/MonkeyIsland2.slave
+Monkey Island 2: LeChuck's Revenge DE	M/Monkey Island 2 LeChuck V2	A-Games:M/MonkeyIsland2De/MonkeyIsland2De.slave
+Monkey Island 2: LeChuck's Revenge ES	M/Monkey Island 2 LeChuck V3	A-Games:M/MonkeyIsland2Es/MonkeyIsland2Es.slave
+Monkey Island 2: LeChuck's Revenge FR	M/Monkey Island 2 LeChuck V4	A-Games:M/MonkeyIsland2Fr/MonkeyIsland2Fr.slave
+Monkey Island 2: LeChuck's Revenge IT	M/Monkey Island 2 LeChuck V5	A-Games:M/MonkeyIsland2It/MonkeyIsland2It.slave
 Monster Business	M/Monster Business	A-Games:M/MonsterBusiness/MonsterBusiness.slave
 Monty Python's Flying Circus	M/Monty Pythons Flying Circu	A-Games:M/MontyPythonsFlyCir/MontyPythonsFlyCir.Slave
 Monty Python's Flying Circus NTSC	M/Monty Pythons Flying Ci V2	A-Games:M/MontyPythonsFlyCirNTSC/MontyPythonsFlyCirNTSC.Slave
@@ -163,7 +167,7 @@ Mot	M/Mot	A-Games:M/MOT/MOT.Slave
 Motorbike Madness	M/Motorbike Madness	A-Games:M/MotorbikeMadness/MotorbikeMadness.Slave
 Motörhead	M/Motorhead	A-Games:M/Motorhead/Motorhead.Slave
 Motor Massacre	M/Motor Massacre	A-Games:M/MotorMassacre/MotorMassacre.Slave
-MouseQuest	M/MouseQuest	A-Games:M/MouseQuest/MouseQuest.Slave
+MouseQuest NTSC	M/MouseQuest NTSC	A-Games:M/MouseQuestNTSC/MouseQuestNTSC.Slave
 Mousetrap	M/Mousetrap	A-Games:M/Mousetrap/Mousetrap.Slave
 Mr Blobby	M/Mr Blobby	A-Games:M/MrBlobby/MrBlobby.slave
 Mr. HELI	M/Mr. HELI	A-Games:M/MrHeli/MrHeli.slave

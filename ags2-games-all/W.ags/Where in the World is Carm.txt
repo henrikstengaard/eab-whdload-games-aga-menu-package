@@ -1,6 +1,7 @@
 Name      : Where in the World is Carmen Sandiego?
+Version   : NTSC
 Publisher : Brøderbund
 Year      : 1989
 Genre     : Adventure - Selectable Answers
 Players   : 1 Only
-RunFile   : WITWIsCarmenSandiego.slave
+RunFile   : WITWIsCarmenSandiegoNTSC.slave

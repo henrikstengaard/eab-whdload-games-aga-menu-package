@@ -1,0 +1,7 @@
+Name      : Police Quest III: The Kindred
+Version   : NTSC
+Publisher : Sierra On-Line
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : PoliceQuest3NTSC.slave

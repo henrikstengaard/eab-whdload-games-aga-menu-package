@@ -1,0 +1,7 @@
+Name      : Blue Angels
+Version   : NTSC
+Publisher : Accolade
+Year      : 1989
+Genre     : Simulation - Flight
+Players   : 1 Only
+RunFile   : BlueAngelsNTSC.Slave

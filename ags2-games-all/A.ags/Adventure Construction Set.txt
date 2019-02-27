@@ -1,6 +1,7 @@
 Name      : Adventure Construction Set
+Version   : NTSC
 Publisher : Electronic Arts
 Year      : 1986
 Genre     : Adventure - Construction Kit
 Players   : 1 Only
-RunFile   : AdventureConstructionSet.slave
+RunFile   : AdvConstructionSetNTSC.slave

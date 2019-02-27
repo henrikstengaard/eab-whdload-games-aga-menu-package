@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:A/Atomix/atomix.slave
+;RunFile=A-Games:A/Atomix/Atomix.Slave
 
 ; Run WHDLoad
 cd "A-Games:A/Atomix/"
 IF EXISTS ENV:whdloadargs
-  whdload "atomix.slave" $whdloadargs
+  whdload "Atomix.Slave" $whdloadargs
 ELSE
-  whdload "atomix.slave"
+  whdload "Atomix.Slave"
 ENDIF

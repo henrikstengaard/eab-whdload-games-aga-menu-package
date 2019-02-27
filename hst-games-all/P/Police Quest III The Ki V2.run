@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:P/PoliceQuest3De/PoliceQuest3De.slave
+;RunFile=A-Games:P/PoliceQuest3DeMT32/PoliceQuest3DeMT32.slave
 
 ; Run WHDLoad
-cd "A-Games:P/PoliceQuest3De/"
+cd "A-Games:P/PoliceQuest3DeMT32/"
 IF EXISTS ENV:whdloadargs
-  whdload "PoliceQuest3De.slave" $whdloadargs
+  whdload "PoliceQuest3DeMT32.slave" $whdloadargs
 ELSE
-  whdload "PoliceQuest3De.slave"
+  whdload "PoliceQuest3DeMT32.slave"
 ENDIF

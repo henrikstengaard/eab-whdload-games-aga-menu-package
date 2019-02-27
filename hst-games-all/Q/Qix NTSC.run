@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Q/QixNTSC/QixNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:Q/QixNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "QixNTSC.Slave" $whdloadargs
+ELSE
+  whdload "QixNTSC.Slave"
+ENDIF

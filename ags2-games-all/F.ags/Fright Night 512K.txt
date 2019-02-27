@@ -1,0 +1,7 @@
+Name      : Fright Night
+Version   : 512K
+Publisher : Microdeal
+Year      : 1988
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : FrightNight512k.Slave

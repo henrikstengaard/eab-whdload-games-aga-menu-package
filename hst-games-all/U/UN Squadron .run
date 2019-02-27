@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:U/UNSquadronEarok/UNSquadronEarok.slave
+;RunFile=A-Games:U/UNSquadron/UNSquadron.slave
 
 ; Run WHDLoad
-cd "A-Games:U/UNSquadronEarok/"
+cd "A-Games:U/UNSquadron/"
 IF EXISTS ENV:whdloadargs
-  whdload "UNSquadronEarok.slave" $whdloadargs
+  whdload "UNSquadron.slave" $whdloadargs
 ELSE
-  whdload "UNSquadronEarok.slave"
+  whdload "UNSquadron.slave"
 ENDIF

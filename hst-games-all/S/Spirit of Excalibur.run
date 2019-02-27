@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpiritOfExcalibur/SpiritOfExcalibur.slave
+
+; Run WHDLoad
+cd "A-Games:S/SpiritOfExcalibur/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpiritOfExcalibur.slave" $whdloadargs
+ELSE
+  whdload "SpiritOfExcalibur.slave"
+ENDIF

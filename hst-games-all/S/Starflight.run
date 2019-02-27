@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Starflight/Starflight.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Starflight/"
+IF EXISTS ENV:whdloadargs
+  whdload "Starflight.Slave" $whdloadargs
+ELSE
+  whdload "Starflight.Slave"
+ENDIF

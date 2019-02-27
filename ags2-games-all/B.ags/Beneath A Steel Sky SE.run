@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BeneathAStlSkySe/BeneathAStlSkySe.Slave
+;RunFile=A-Games:B/BeneathAStlSkySe/BeneathAStlSkySe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:B/BeneathAStlSkySe/"
 IF EXISTS ENV:whdloadargs
-  whdload "BeneathAStlSkySe.Slave" $whdloadargs
+  whdload "BeneathAStlSkySe.slave" $whdloadargs
 ELSE
-  whdload "BeneathAStlSkySe.Slave"
+  whdload "BeneathAStlSkySe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,7 @@
+Name      : Killing Cloud, The
+Version   : NTSC
+Publisher : Image Works
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : KillingCloudNTSC.Slave

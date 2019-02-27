@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:M/MonkeyIsland2It/MonkeyIsland2It.Slave
+;RunFile=A-Games:M/MonkeyIsland2It/MonkeyIsland2It.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:M/MonkeyIsland2It/"
 IF EXISTS ENV:whdloadargs
-  whdload "MonkeyIsland2It.Slave" $whdloadargs
+  whdload "MonkeyIsland2It.slave" $whdloadargs
 ELSE
-  whdload "MonkeyIsland2It.Slave"
+  whdload "MonkeyIsland2It.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

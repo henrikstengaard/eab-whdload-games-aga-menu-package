@@ -1,0 +1,6 @@
+Name      : Theme Park Mystery
+Version   : NTSC
+Publisher : Joined Up Writing
+Year      : 1991
+Players   : 1
+RunFile   : ThemeParkMysteryNTSC.slave

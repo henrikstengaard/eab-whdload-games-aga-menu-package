@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:I/IndianaJonesLastCrusAdvIt/IndianaJonesLastCrusAdvIt.slave
+;RunFile=A-Games:I/IndyJonesLastCrusAdvNTSC/IndyJonesLastCrusAdvNTSC.slave
 
 ; Run WHDLoad
-cd "A-Games:I/IndianaJonesLastCrusAdvIt/"
+cd "A-Games:I/IndyJonesLastCrusAdvNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "IndianaJonesLastCrusAdvIt.slave" $whdloadargs
+  whdload "IndyJonesLastCrusAdvNTSC.slave" $whdloadargs
 ELSE
-  whdload "IndianaJonesLastCrusAdvIt.slave"
+  whdload "IndyJonesLastCrusAdvNTSC.slave"
 ENDIF

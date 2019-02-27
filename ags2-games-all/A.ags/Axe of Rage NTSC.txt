@@ -1,0 +1,6 @@
+Name      : Axe of Rage
+Version   : NTSC
+Publisher : Epyx
+Year      : 1989
+Players   : 1 Only
+RunFile   : AxeOfRageNTSC.slave

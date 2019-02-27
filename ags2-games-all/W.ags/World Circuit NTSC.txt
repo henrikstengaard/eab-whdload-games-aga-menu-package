@@ -1,0 +1,6 @@
+Name      : World Circuit
+Version   : NTSC
+Publisher : MicroProse Software
+Year      : 1992
+Genre     : Sports - Formula One
+RunFile   : WorldCircuitNTSC.Slave

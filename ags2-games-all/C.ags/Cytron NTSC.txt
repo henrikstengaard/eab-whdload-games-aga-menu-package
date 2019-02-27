@@ -1,0 +1,6 @@
+Name      : Cytron
+Version   : NTSC
+Publisher : Psygnosis
+Year      : 1992
+Players   : 1 Only
+RunFile   : CytronNTSC.slave

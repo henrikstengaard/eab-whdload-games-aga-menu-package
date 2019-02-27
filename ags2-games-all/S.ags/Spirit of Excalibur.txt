@@ -1,0 +1,6 @@
+Name      : Spirit of Excalibur
+Publisher : Virgin Mastertronic
+Year      : 1990
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+RunFile   : SpiritOfExcalibur.slave

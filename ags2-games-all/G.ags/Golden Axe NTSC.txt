@@ -1,0 +1,6 @@
+Name      : Golden Axe
+Version   : NTSC
+Publisher : Virgin Games
+Year      : 1990
+Players   : 1 or 2, Simultaneous
+RunFile   : GoldenAxeNTSC.Slave

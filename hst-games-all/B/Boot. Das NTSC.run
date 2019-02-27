@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BootNTSC/BootNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BootNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BootNTSC.Slave" $whdloadargs
+ELSE
+  whdload "BootNTSC.Slave"
+ENDIF

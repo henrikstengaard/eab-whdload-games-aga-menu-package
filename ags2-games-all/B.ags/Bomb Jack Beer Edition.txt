@@ -1,0 +1,6 @@
+Name      : Bomb Jack Beer Edition
+Publisher : Unknown
+Year      : 2018
+Genre     : Platform
+Players   : 1
+RunFile   : BombJackBeerEdition.slave

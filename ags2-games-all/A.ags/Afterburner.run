@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:A/AfterBurnerActivision/AfterBurnerActivision.Slave
+;RunFile=A-Games:A/AfterBurner/AfterBurner.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/AfterBurnerActivision/"
+cd "A-Games:A/AfterBurner/"
 IF EXISTS ENV:whdloadargs
-  whdload "AfterBurnerActivision.Slave" $whdloadargs
+  whdload "AfterBurner.Slave" $whdloadargs
 ELSE
-  whdload "AfterBurnerActivision.Slave"
+  whdload "AfterBurner.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

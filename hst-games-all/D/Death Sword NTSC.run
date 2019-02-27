@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeathSwordNTSC/DeathSwordNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeathSwordNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeathSwordNTSC.Slave" $whdloadargs
+ELSE
+  whdload "DeathSwordNTSC.Slave"
+ENDIF

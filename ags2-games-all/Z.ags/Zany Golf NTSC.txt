@@ -1,0 +1,7 @@
+Name      : Zany Golf
+Version   : NTSC
+Publisher : Electronic Arts
+Year      : 1988
+Genre     : Sports - Golf
+Players   : 1 to 4
+RunFile   : ZanyGolfNTSC.slave

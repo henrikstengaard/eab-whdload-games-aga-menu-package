@@ -1,0 +1,6 @@
+Name      : Project-X 2017
+Publisher : Team 17
+Year      : 2017
+Genre     : Shooter
+Players   : 1 or 2
+RunFile   : ProjectXSE2017.slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FractionAction/FractionAction.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FractionAction/"
+IF EXISTS ENV:whdloadargs
+  whdload "FractionAction.Slave" $whdloadargs
+ELSE
+  whdload "FractionAction.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MouseQuestNTSC/MouseQuestNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MouseQuestNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "MouseQuestNTSC.Slave" $whdloadargs
+ELSE
+  whdload "MouseQuestNTSC.Slave"
+ENDIF

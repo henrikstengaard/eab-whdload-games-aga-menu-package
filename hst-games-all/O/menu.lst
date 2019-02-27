@@ -5,7 +5,7 @@ Oblivion	O/Oblivion	A-Games:O/Oblivion/Oblivion.Slave
 Obsession	O/Obsession	A-Games:O/Obsession/Obsession.Slave
 Odyssey	O/Odyssey	A-Games:O/Odyssey/Odyssey.slave
 Off Shore Warrior	O/Off Shore Warrior	A-Games:O/OffShoreWarrior/OffShoreWarrior.Slave
-Ogre	O/Ogre	A-Games:O/Ogre/Ogre.Slave
+Ogre NTSC	O/Ogre NTSC	A-Games:O/OgreNTSC/OgreNTSC.Slave
 Oh No! More Lemmings	O/Oh No More Lemmings	A-Games:O/OhNoMoreLemmings/OhNoMoreLemmings.Slave
 Oh No! More Lemmings NTSC	O/Oh No More Lemmings NTSC	A-Games:O/OhNoMoreLemmingsNTSC/OhNoMoreLemmingsNTSC.Slave
 Oil Imperium	O/Oil Imperium	A-Games:O/OilImperium/OilImperium.Slave
@@ -13,7 +13,9 @@ Oil Imperium DE	O/Oil Imperium DE	A-Games:O/OilImperiumDe/OilImperiumDe.Slave
 Oktagon	O/Oktagon	A-Games:O/Oktagon/Oktagon.Slave
 Omega	O/Omega	A-Games:O/Omega/Omega.Slave
 Omnicron Conspiracy	O/Omnicron Conspiracy	A-Games:O/OmnicronConspiracy/OmnicronConspiracy.Slave
-One on One	O/One on One	A-Games:O/OneOnOne/OneOnOne.slave
+Omnicron Conspiracy DE	O/Omnicron Conspiracy DE	A-Games:O/OmnicronConspiracyDe/OmnicronConspiracyDe.Slave
+Omnicron Conspiracy FR	O/Omnicron Conspiracy FR	A-Games:O/OmnicronConspiracyFr/OmnicronConspiracyFr.Slave
+One on One NTSC	O/One on One NTSC	A-Games:O/OneOnOneNTSC/OneOnOneNTSC.slave
 One Step Beyond	O/One Step Beyond	A-Games:O/OneStepBeyond/OneStepBeyond.slave
 One To One Match	O/One To One Match	A-Games:O/OneToOneMatch/OneToOneMatch.Slave
 Onslaught	O/Onslaught	A-Games:O/Onslaught/Onslaught.slave
@@ -39,15 +41,16 @@ Oriental Games	O/Oriental Games	A-Games:O/OrientalGames/OrientalGames.Slave
 Ork	O/Ork	A-Games:O/Ork/Ork.Slave
 Ork Attack: The Return	O/Ork Attack The Return	A-Games:O/OrkAttackTheReturn/OrkAttackTheReturn.Slave
 Ork Demo	O/Ork Demo	A-Games:O/OrkDemo/OrkDemo.Slave
-Ork NTSC	O/Ork NTSC	A-Games:O/OrkNTSC/OrkNTSC.slave
+Ork NTSC	O/Ork NTSC	A-Games:O/OrkNTSC/OrkNTSC.Slave
 Oscar AGA	O/Oscar AGA	A-Games:O/OscarAGA/OscarAGA.Slave
 Oscar CD32	O/Oscar CD32	A-Games:O/OscarCD32/OscarCD32.Slave
-OsWALD of the Ice Floes	O/OsWALD of the Ice Floes	A-Games:O/OsWALDOfTheIceFloes/OsWALDOfTheIceFloes.Slave
+Oscar CD32 NTSC	O/Oscar CD32 NTSC	A-Games:O/OscarCD32NTSC/OscarCD32NTSC.slave
+OsWALD of the Ice Floes NTSC	O/OsWALD of the Ice Floes NT	A-Games:O/OsWALDOfTheIceFloesNTSC/OsWALDOfTheIceFloesNTSC.Slave
 Outlands	O/Outlands	A-Games:O/Outlands&DizzyDice/Outlands&DizzyDice.slave
-Out of this World	O/Out of this World	A-Games:O/OutOfThisWorld/OutOfThisWorld.slave
+Out of this World NTSC	O/Out of this World NTSC	A-Games:O/OutOfThisWorldNTSC/OutOfThisWorldNTSC.slave
+Out Run	O/Out Run	A-Games:O/OutRun/OutRun.slave
 Out Run Europa	O/Out Run Europa	A-Games:O/OutRunEuropa/OutRunEuropa.Slave
-Out Run	O/Out Run	A-Games:O/OutRunSega/OutRunSega.slave
-Out Run	O/Out Run 	A-Games:O/OutRunUSGold/OutRunUSGold.slave
+Out Run NTSC	O/Out Run NTSC	A-Games:O/OutRunNTSC/OutRunNTSC.slave
 Outzone	O/Outzone	A-Games:O/Outzone/Outzone.Slave
 Overdrive	O/Overdrive	A-Games:O/OverdriveInfacto/OverdriveInfacto.Slave
 Overdrive	O/Overdrive 	A-Games:O/OverdriveTeam17/OverdriveTeam17.Slave
@@ -55,5 +58,5 @@ Overkill AGA	O/Overkill AGA	A-Games:O/OverkillAGA/OverkillAGA.slave
 Overlander	O/Overlander	A-Games:O/Overlander/Overlander.Slave
 Overlord	O/Overlord	A-Games:O/OverlordDemoRowan/OverlordDemoRowan.Slave
 Overlord	O/Overlord 	A-Games:O/OverlordRowan/OverlordRowan.Slave
-Over the Net	O/Over the Net	A-Games:O/OverTheNet/OverTheNet.Slave
+Over the Net NTSC	O/Over the Net NTSC	A-Games:O/OverTheNetNTSC/OverTheNetNTSC.Slave
 Oxxonian	O/Oxxonian	A-Games:O/Oxxonian/Oxxonian.Slave

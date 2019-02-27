@@ -1,0 +1,7 @@
+Name      : Harrier Combat Simulator
+Version   : NTSC
+Publisher : Mindscape
+Year      : 1988
+Genre     : Simulation - Flight
+Players   : 1 Only
+RunFile   : HarrierCombatSimNTSC.Slave

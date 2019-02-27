@@ -1,0 +1,7 @@
+Name      : Silent Service II
+Version   : NTSC
+Publisher : MicroProse Software
+Year      : 1990
+Genre     : Simulation - Marine
+Players   : 1 Only
+RunFile   : SilentService2NTSC.slave

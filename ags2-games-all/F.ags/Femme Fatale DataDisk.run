@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FemmeFatale&DataDisk/FemmeFatale&DataDisk.Slave
+;RunFile=A-Games:F/FemmeFatale&DataDisks/FemmeFatale&DataDisks.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:F/FemmeFatale&DataDisk/"
+cd "A-Games:F/FemmeFatale&DataDisks/"
 IF EXISTS ENV:whdloadargs
-  whdload "FemmeFatale&DataDisk.Slave" $whdloadargs
+  whdload "FemmeFatale&DataDisks.Slave" $whdloadargs
 ELSE
-  whdload "FemmeFatale&DataDisk.Slave"
+  whdload "FemmeFatale&DataDisks.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

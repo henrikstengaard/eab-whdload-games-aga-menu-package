@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:D/DynaBlaster/DynaBlaster.Slave
+;RunFile=A-Games:D/DynaBlaster/DynaBlaster.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:D/DynaBlaster/"
 IF EXISTS ENV:whdloadargs
-  whdload "DynaBlaster.Slave" $whdloadargs
+  whdload "DynaBlaster.slave" $whdloadargs
 ELSE
-  whdload "DynaBlaster.Slave"
+  whdload "DynaBlaster.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

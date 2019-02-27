@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SuperMonacoGP/SuperMonacoGP.slave
+;RunFile=A-Games:S/SuperMonacoGP/SuperMonacoGP.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/SuperMonacoGP/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperMonacoGP.slave" $whdloadargs
+  whdload "SuperMonacoGP.Slave" $whdloadargs
 ELSE
-  whdload "SuperMonacoGP.slave"
+  whdload "SuperMonacoGP.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

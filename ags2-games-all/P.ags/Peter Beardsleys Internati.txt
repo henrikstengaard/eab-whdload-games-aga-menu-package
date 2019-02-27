@@ -1,6 +1,7 @@
 Name      : Peter Beardsley's International Football
+Version   : NTSC
 Publisher : Grandslam
 Year      : 1988
 Genre     : Sports - Football/Soccer
 Players   : 1 or 2, Simultaneous
-RunFile   : PeterBeardsleysIF.Slave
+RunFile   : PeterBeardsleysIFNTSC.Slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AtominoNTSC/AtominoNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:A/AtominoNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AtominoNTSC.slave" $whdloadargs
+ELSE
+  whdload "AtominoNTSC.slave"
+ENDIF

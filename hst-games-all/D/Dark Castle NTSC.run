@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DarkCastleNTSC/DarkCastleNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:D/DarkCastleNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "DarkCastleNTSC.slave" $whdloadargs
+ELSE
+  whdload "DarkCastleNTSC.slave"
+ENDIF

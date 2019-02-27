@@ -17,6 +17,7 @@ Rally Championships	R/Rally Championships	A-Games:R/RallyChampionships/RallyCham
 Rally Championships AGA	R/Rally Championships AGA	A-Games:R/RallyChampionshipsAGA/RallyChampionshipsAGA.Slave
 Rally Cross Challenge	R/Rally Cross Challenge	A-Games:R/RallyCrossChallenge/RallyCrossChallenge.Slave
 Rambo III	R/Rambo III	A-Games:R/Rambo3/Rambo3.slave
+Rambo III NTSC	R/Rambo III NTSC	A-Games:R/Rambo3NTSC/Rambo3NTSC.slave
 Rampage	R/Rampage	A-Games:R/Rampage/Rampage.slave
 Rampart	R/Rampart	A-Games:R/Rampart/Rampart.Slave
 Ranx	R/Ranx	A-Games:R/RanX/RanX.Slave
@@ -33,15 +34,15 @@ Rebellion	R/Rebellion	A-Games:R/Rebellion/Rebellion.slave
 Red Baron	R/Red Baron	A-Games:R/RedBaron/RedBaron.slave
 Red Baron DE	R/Red Baron DE	A-Games:R/RedBaronDe/RedBaronDe.slave
 Red Heat	R/Red Heat	A-Games:R/RedHeat/RedHeat.slave
-Red Lightning	R/Red Lightning	A-Games:R/RedLightning/RedLightning.slave
+Red Lightning NTSC	R/Red Lightning NTSC	A-Games:R/RedLightningNTSC/RedLightningNTSC.slave
 Red Storm Rising	R/Red Storm Rising	A-Games:R/RedStormRising/RedStormRising.Slave
 Red Zone	R/Red Zone	A-Games:R/RedZone/RedZone.Slave
 Reflexity: Pinball Challenge	R/Reflexity Pinball Challeng	A-Games:R/Reflexity/Reflexity.Slave
 Renaissance	R/Renaissance	A-Games:R/Renaissance/Renaissance.Slave
 Renegade	R/Renegade	A-Games:R/Renegade/Renegade.slave
 Renegade III: The Final Chapter	R/Renegade III The Final Cha	A-Games:R/Renegade3/Renegade3.Slave
-Renegades Deluxe Editor	R/Renegades Deluxe Editor	A-Games:R/Renegades/RenegadesEditor.Slave
 Renegades Deluxe	R/Renegades Deluxe	A-Games:R/Renegades/Renegades.Slave
+Renegades Deluxe Editor	R/Renegades Deluxe Editor	A-Games:R/Renegades/RenegadesEditor.Slave
 Resolution 101	R/Resolution 101	A-Games:R/Resolution101/Resolution101.Slave
 Return to Atlantis	R/Return to Atlantis	A-Games:R/ReturnToAtlantis/ReturnToAtlantis.Slave
 Return to Genesis	R/Return to Genesis	A-Games:R/ReturnToGenesis/ReturnToGenesis.Slave
@@ -64,8 +65,9 @@ Rings of Medusa FR	R/Rings of Medusa FR	A-Games:R/RingsOfMedusaFr/RingsOfMedusaF
 Rings of Medusa Gold DE	R/Rings of Medusa Gold DE	A-Games:R/RingsOfMedusaGoldDe/RingsOfMedusaGoldDe.Slave
 Rise of the Dragon	R/Rise of the Dragon	A-Games:R/RiseOfTheDragon/RiseOfTheDragon.Slave
 Rise of the Dragon DE	R/Rise of the Dragon DE	A-Games:R/RiseOfTheDragonDe/RiseOfTheDragonDe.Slave
+Rise of the Robots	R/Rise of the Robots	A-Games:R/RiseOftheRobots/RiseOfTheRobots.slave
 Rise of the Robots AGA	R/Rise of the Robots AGA	A-Games:R/RiseOfTheRobotsAGA/RiseOfTheRobotsAGA.slave
-Rise of the Robots CD32	R/Rise of the Robots CD32	A-Games:R/RiseOfTheRobotsCD32/RiseOfTheRobotsCD32.Slave
+Rise of the Robots CD32	R/Rise of the Robots CD32	A-Games:R/RiseOfTheRobotsCD32/RiseOfTheRobotsCD32.slave
 RISK	R/RISK	A-Games:R/Risk/Risk.Slave
 Risky Woods	R/Risky Woods	A-Games:R/RiskyWoods/RiskyWoods.Slave
 RoadBlasters	R/RoadBlasters	A-Games:R/RoadBlasters/RoadBlasters.Slave

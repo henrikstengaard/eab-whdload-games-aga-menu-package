@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TyphoonThompson/TyphoonThompson.Slave
+;RunFile=A-Games:T/TyphoonThompsonNTSC/TyphoonThompsonNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:T/TyphoonThompson/"
+cd "A-Games:T/TyphoonThompsonNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "TyphoonThompson.Slave" $whdloadargs
+  whdload "TyphoonThompsonNTSC.Slave" $whdloadargs
 ELSE
-  whdload "TyphoonThompson.Slave"
+  whdload "TyphoonThompsonNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

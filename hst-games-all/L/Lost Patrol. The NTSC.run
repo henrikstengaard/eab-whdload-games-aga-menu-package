@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LostPatrolNTSC/LostPatrolNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LostPatrolNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "LostPatrolNTSC.Slave" $whdloadargs
+ELSE
+  whdload "LostPatrolNTSC.Slave"
+ENDIF

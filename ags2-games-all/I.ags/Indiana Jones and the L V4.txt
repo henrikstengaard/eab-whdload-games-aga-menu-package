@@ -1,7 +1,7 @@
 Name      : Indiana Jones and the Last Crusade
-Language  : Spanish
+Language  : French
 Publisher : US Gold
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-RunFile   : IndianaJonesLastCrusAdvEs.slave
+RunFile   : IndianaJonesLastCrusAdvFr.slave

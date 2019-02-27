@@ -1,0 +1,6 @@
+Name      : Platoon
+Version   : NTSC
+Publisher : Ocean
+Year      : 1988
+Players   : 1 Only
+RunFile   : PlatoonNTSC.Slave

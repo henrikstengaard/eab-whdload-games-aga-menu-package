@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WindwalkerNTSC/WindwalkerNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WindwalkerNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "WindwalkerNTSC.Slave" $whdloadargs
+ELSE
+  whdload "WindwalkerNTSC.Slave"
+ENDIF

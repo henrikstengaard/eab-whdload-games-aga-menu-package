@@ -1,0 +1,7 @@
+Name      : Clue: Master Detective
+Version   : NTSC
+Publisher : Leisure Genius
+Year      : 1990
+Genre     : Board - Miscellaneous
+Players   : 3 to 10
+RunFile   : ClueMasterDetectiveNTSC.slave

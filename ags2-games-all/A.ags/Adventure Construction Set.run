@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:A/AdventureConstructionSet/AdventureConstructionSet.slave
+;RunFile=A-Games:A/AdvConstructionSetNTSC/AdvConstructionSetNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/AdventureConstructionSet/"
+cd "A-Games:A/AdvConstructionSetNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "AdventureConstructionSet.slave" $whdloadargs
+  whdload "AdvConstructionSetNTSC.slave" $whdloadargs
 ELSE
-  whdload "AdventureConstructionSet.slave"
+  whdload "AdvConstructionSetNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SpacewreckedNTSC/SpacewreckedNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SpacewreckedNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "SpacewreckedNTSC.Slave" $whdloadargs
+ELSE
+  whdload "SpacewreckedNTSC.Slave"
+ENDIF

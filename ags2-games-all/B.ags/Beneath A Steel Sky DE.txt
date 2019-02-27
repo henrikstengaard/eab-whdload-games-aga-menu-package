@@ -4,4 +4,4 @@ Publisher : Virgin Interactive
 Year      : 1994
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-RunFile   : BeneathAStlSkyDe.Slave
+RunFile   : BeneathAStlSkyDe.slave

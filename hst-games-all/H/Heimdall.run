@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:H/Heimdall/Heimdall.Slave
+;RunFile=A-Games:H/Heimdall/Heimdall.slave
 
 ; Run WHDLoad
 cd "A-Games:H/Heimdall/"
 IF EXISTS ENV:whdloadargs
-  whdload "Heimdall.Slave" $whdloadargs
+  whdload "Heimdall.slave" $whdloadargs
 ELSE
-  whdload "Heimdall.Slave"
+  whdload "Heimdall.slave"
 ENDIF

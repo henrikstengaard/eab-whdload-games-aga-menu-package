@@ -1,0 +1,6 @@
+Name      : Skyfox
+Version   : NTSC
+Publisher : Electronic Arts
+Year      : 1986
+Players   : 1 Only
+RunFile   : SkyfoxNTSC.slave

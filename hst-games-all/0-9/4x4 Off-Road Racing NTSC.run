@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/4x4OffRoadRacingNTSC/4x4OffRoadRacingNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/4x4OffRoadRacingNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "4x4OffRoadRacingNTSC.Slave" $whdloadargs
+ELSE
+  whdload "4x4OffRoadRacingNTSC.Slave"
+ENDIF

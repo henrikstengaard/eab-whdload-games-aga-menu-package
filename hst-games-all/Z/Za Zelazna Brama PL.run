@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:Z/ZaZelaznaBramaPl/ZaZelaznaBramaPl.Slave
+
+; Run WHDLoad
+cd "A-Games:Z/ZaZelaznaBramaPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "ZaZelaznaBramaPl.Slave" $whdloadargs
+ELSE
+  whdload "ZaZelaznaBramaPl.Slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Afterburner
+Version   : NTSC
+Publisher : Activision
+Year      : 1988
+Players   : 1 Only
+RunFile   : AfterBurnerNTSC.slave

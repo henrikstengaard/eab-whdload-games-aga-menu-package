@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:H/Hammerfist/Hammerfist.slave
+;RunFile=A-Games:H/Hammerfist/Hammerfist.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:H/Hammerfist/"
 IF EXISTS ENV:whdloadargs
-  whdload "Hammerfist.slave" $whdloadargs
+  whdload "Hammerfist.Slave" $whdloadargs
 ELSE
-  whdload "Hammerfist.slave"
+  whdload "Hammerfist.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

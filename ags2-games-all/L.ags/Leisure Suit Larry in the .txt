@@ -1,0 +1,6 @@
+Name      : Leisure Suit Larry in the Land of the Lounge Lizards
+Publisher : Sierra On-Line
+Year      : 1991
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : LeisureSuitLarryEnhndMT32.slave

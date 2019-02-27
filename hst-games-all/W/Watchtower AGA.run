@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:W/WatchtowerAGA/WatchtowerAGA.Slave
+;RunFile=A-Games:W/WatchtowerAGA/WatchTowerAGA.slave
 
 ; Run WHDLoad
 cd "A-Games:W/WatchtowerAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "WatchtowerAGA.Slave" $whdloadargs
+  whdload "WatchTowerAGA.slave" $whdloadargs
 ELSE
-  whdload "WatchtowerAGA.Slave"
+  whdload "WatchTowerAGA.slave"
 ENDIF

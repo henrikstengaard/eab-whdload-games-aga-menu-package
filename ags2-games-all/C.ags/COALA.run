@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:C/Coala/Coala.Slave
+;RunFile=A-Games:C/Coala/Coala.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:C/Coala/"
 IF EXISTS ENV:whdloadargs
-  whdload "Coala.Slave" $whdloadargs
+  whdload "Coala.slave" $whdloadargs
 ELSE
-  whdload "Coala.Slave"
+  whdload "Coala.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

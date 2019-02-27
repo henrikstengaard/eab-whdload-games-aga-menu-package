@@ -1,6 +1,7 @@
 Name      : ABC Monday Night Football
+Version   : NTSC
 Publisher : MVP Sports
 Year      : 1991
 Genre     : Sports - American Football
 Players   : 1 or 2, Simultaneous
-RunFile   : ABCMondayNightFootball.slave
+RunFile   : ABCMondayNightFBNTSC.slave

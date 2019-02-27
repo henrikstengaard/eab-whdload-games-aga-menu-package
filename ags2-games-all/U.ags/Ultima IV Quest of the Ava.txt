@@ -1,6 +1,7 @@
 Name      : Ultima IV: Quest of the Avatar
+Version   : NTSC
 Publisher : Origin Systems
 Year      : 1988
 Genre     : Adventure - RPG 2D
 Players   : 1 Only
-RunFile   : Ultima4.slave
+RunFile   : Ultima4NTSC.slave

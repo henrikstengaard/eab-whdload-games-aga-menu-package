@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SiliconDreamsNTSC/SiliconDreamsNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SiliconDreamsNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "SiliconDreamsNTSC.Slave" $whdloadargs
+ELSE
+  whdload "SiliconDreamsNTSC.Slave"
+ENDIF

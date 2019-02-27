@@ -1,0 +1,6 @@
+Name      : Spacecutter
+Version   : NTSC
+Publisher : Rainbird
+Year      : 1988
+Players   : 1 Only
+RunFile   : SpacecutterNTSC.Slave

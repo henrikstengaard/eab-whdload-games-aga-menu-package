@@ -1,0 +1,6 @@
+Name      : Archon
+Version   : NTSC
+Publisher : Ariolasoft / Electronic Arts
+Year      : 1985
+Players   : 1 - 2 (1 simultaneous)
+RunFile   : ArchonNTSC.slave

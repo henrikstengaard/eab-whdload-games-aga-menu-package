@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:U/Universe3NTSC/Universe3NTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:U/Universe3NTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "Universe3NTSC.Slave" $whdloadargs
+ELSE
+  whdload "Universe3NTSC.Slave"
+ENDIF

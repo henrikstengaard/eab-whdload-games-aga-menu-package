@@ -1,0 +1,7 @@
+Name      : Prehistorik
+Version   : CDTV
+Publisher : Titus Software
+Year      : 1991
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+RunFile   : PrehistorikCDTV.slave

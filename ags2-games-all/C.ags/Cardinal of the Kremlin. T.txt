@@ -1,0 +1,6 @@
+Name      : Cardinal of the Kremlin, The
+Publisher : Accolade
+Year      : 1991
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : CardinalOfTheKremlin.Slave

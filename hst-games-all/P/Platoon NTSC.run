@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PlatoonNTSC/PlatoonNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PlatoonNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlatoonNTSC.Slave" $whdloadargs
+ELSE
+  whdload "PlatoonNTSC.Slave"
+ENDIF

@@ -3,4 +3,4 @@ Publisher : Codemasters
 Year      : 1992
 Genre     : Platformer - Single Screen
 Players   : 1 Only
-RunFile   : CaptainDynamo.slave
+RunFile   : Dynamo.slave

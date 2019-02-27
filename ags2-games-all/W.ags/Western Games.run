@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:W/WesternGames/data/WesternGames.slave
+;RunFile=A-Games:W/WesternGames/WesternGames.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:W/WesternGames/data/"
+cd "A-Games:W/WesternGames/"
 IF EXISTS ENV:whdloadargs
-  whdload "WesternGames.slave" $whdloadargs
+  whdload "WesternGames.Slave" $whdloadargs
 ELSE
-  whdload "WesternGames.slave"
+  whdload "WesternGames.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

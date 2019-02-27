@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:O/OutRunSega/OutRunSega.slave
+;RunFile=A-Games:O/OutRun/OutRun.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:O/OutRunSega/"
+cd "A-Games:O/OutRun/"
 IF EXISTS ENV:whdloadargs
-  whdload "OutRunSega.slave" $whdloadargs
+  whdload "OutRun.slave" $whdloadargs
 ELSE
-  whdload "OutRunSega.slave"
+  whdload "OutRun.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

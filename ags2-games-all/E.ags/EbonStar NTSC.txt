@@ -1,0 +1,6 @@
+Name      : EbonStar
+Version   : NTSC
+Publisher : MicroIllusions
+Year      : 1988
+Players   : 1 to 4, Simultaneous
+RunFile   : EbonstarNTSC.Slave

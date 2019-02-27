@@ -1,0 +1,7 @@
+Name      : Nuclear War
+Version   : NTSC
+Publisher : New World Computing
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : NuclearWarNTSC.Slave

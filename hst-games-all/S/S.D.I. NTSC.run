@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SDICinemawareNTSC/SDICinemawareNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SDICinemawareNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "SDICinemawareNTSC.Slave" $whdloadargs
+ELSE
+  whdload "SDICinemawareNTSC.Slave"
+ENDIF

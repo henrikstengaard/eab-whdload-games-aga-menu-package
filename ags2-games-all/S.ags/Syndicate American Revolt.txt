@@ -1,0 +1,6 @@
+Name      : Syndicate: American Revolt Mission Disk
+Publisher : Amiga Format, Amiga Game Zone
+Year      : 1994
+Genre     : Strategy - Company
+Players   : 1
+RunFile   : SyndicateAmericanRevolt.slave

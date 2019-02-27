@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/ApidyaSpecialEdition/ApidyaSE.slave
+
+; Run WHDLoad
+cd "A-Games:A/ApidyaSpecialEdition/"
+IF EXISTS ENV:whdloadargs
+  whdload "ApidyaSE.slave" $whdloadargs
+ELSE
+  whdload "ApidyaSE.slave"
+ENDIF

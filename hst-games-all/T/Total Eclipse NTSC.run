@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TotalEclipseNTSC/TotalEclipseNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TotalEclipseNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "TotalEclipseNTSC.Slave" $whdloadargs
+ELSE
+  whdload "TotalEclipseNTSC.Slave"
+ENDIF

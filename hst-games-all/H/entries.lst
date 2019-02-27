@@ -1,15 +1,15 @@
 Hard 'n' Heavy	H/Hard n Heavy	A-Games:G/Giana2/Giana2.slave
-Hacker	H/Hacker	A-Games:H/Hacker/Hacker.Slave
 Hacker II: The Doomsday Papers	H/Hacker II The Doomsday Pap	A-Games:H/Hacker2/Hacker2.Slave
+Hacker NTSC	H/Hacker NTSC	A-Games:H/HackerNTSC/HackerNTSC.Slave
 Hägar	H/Hagar	A-Games:H/HagarTheHorrible/HagarTheHorrible.Slave
 Hägar DE	H/Hagar DE	A-Games:H/HagarTheHorribleDe/HagarTheHorribleDe.Slave
 Halley Project, The: A Mission In Our Solar System	H/Halley Project. The A Miss	A-Games:H/HalleyProject/HalleyProject.Slave
 Hammer Boy	H/Hammer Boy	A-Games:H/HammerBoy/HammerBoy.slave
-Hammerfist	H/Hammerfist	A-Games:H/Hammerfist/Hammerfist.slave
+Hammerfist	H/Hammerfist	A-Games:H/Hammerfist/Hammerfist.Slave
 Hanse DE	H/Hanse DE	A-Games:H/HanseDe/HanseDe.Slave
 Harald Hårdtand: Kampen om de Rene Tænder DK	H/Harald Hardtand Kampen om	A-Games:H/HaraldHaardtandDk/HaraldHaardtandDk.slave
 Hardball!	H/Hardball	A-Games:H/HardBall/HardBall.Slave
-Hardball II	H/Hardball II	A-Games:H/HardBall2/HardBall2.Slave
+Hardball II NTSC	H/Hardball II NTSC	A-Games:H/HardBall2NTSC/HardBall2NTSC.Slave
 Hard Drivin'	H/Hard Drivin	A-Games:H/HardDrivin/HardDrivin.Slave
 Hard Drivin'	H/Hard Drivin 	A-Games:H/HardDrivin2/HardDrivin2.Slave
 Hard 'n' Heavy	H/Hard n Heavy 	A-Games:H/HardNHeavy/HardNHeavy.slave
@@ -20,7 +20,7 @@ Harpoon & Battleset 1: Greenland - Iceland - United Kingdom Gap	H/Harpoon Battle
 Harpoon Battleset 2: North Atlantic Convoys	H/Harpoon Battleset 2 North	A-Games:H/Harpoon&Battleset2/Harpoon&Battleset2.slave
 Harpoon Battleset 3: The Mediterranean Conflict	H/Harpoon Battleset 3 The Me	A-Games:H/Harpoon&Battleset3/Harpoon&Battleset3.slave
 Harpoon Battleset 4: The Indian Ocean	H/Harpoon Battleset 4 The In	A-Games:H/Harpoon&Battleset4/Harpoon&Battleset4.slave
-Harrier Combat Simulator	H/Harrier Combat Simulator	A-Games:H/HarrierCombatSimulator/HarrierCombatSimulator.Slave
+Harrier Combat Simulator NTSC	H/Harrier Combat Simulator N	A-Games:H/HarrierCombatSimNTSC/HarrierCombatSimNTSC.Slave
 H.A.T.E.: Hostile All Terrain Encounter	H/H.A.T.E. Hostile All Terra	A-Games:H/HATE/HATE.slave
 Hawkeye	H/Hawkeye	A-Games:H/Hawkeye/Hawkeye.slave
 Head Over Heels	H/Head Over Heels	A-Games:H/HeadOverHeels/HeadOverHeels.slave
@@ -30,10 +30,12 @@ Heart of the Dragon 3Disk	H/Heart of the Dragon 3Disk	A-Games:H/HeartOfTheDragon
 Heart of the Dragon 4Disk	H/Heart of the Dragon 4Disk	A-Games:H/HeartOfTheDragon4Disk/HeartOfTheDragon4Disk.slave
 Heavy Metal	H/Heavy Metal	A-Games:H/HeavyMetal/HeavyMetal.slave
 Heavy Metal Heroes	H/Heavy Metal Heroes	A-Games:H/HeavyMetalHeroes/HeavyMetalHeroes.Slave
-Heimdall	H/Heimdall	A-Games:H/Heimdall/Heimdall.Slave
+Heimdall	H/Heimdall	A-Games:H/Heimdall/Heimdall.slave
 Heimdall 2: Into the Hall of Worlds	H/Heimdall 2 Into the Hall o	A-Games:H/Heimdall2/Heimdall2.Slave
 Heimdall 2: Into the Hall of Worlds AGA	H/Heimdall 2 Into the Hal V2	A-Games:H/Heimdall2AGA/Heimdall2AGA.Slave
 Heimdall 2: Into the Hall of Worlds CD32	H/Heimdall 2 Into the Hal V3	A-Games:H/Heimdall2CD32/Heimdall2CD32.Slave
+Heimdall DE	H/Heimdall DE	A-Games:H/HeimdallDe/HeimdallDe.slave
+Heimdall FR	H/Heimdall FR	A-Games:H/HeimdallFr/HeimdallFr.slave
 Hellbent	H/Hellbent	A-Games:H/Hellbent/Hellbent.Slave
 Hellfire Attack	H/Hellfire Attack	A-Games:H/HellfireAttack/HellfireAttack.Slave
 Hellowoon: Das Geheimnis des Zauberstabs DE	H/Hellowoon Das Geheimnis de	A-Games:H/HellowoonDe/HellowoonDe.Slave
@@ -87,6 +89,7 @@ Hugo på nye Eventyr Del 2 DK	H/Hugo pa nye Eventyr Del 2	A-Games:H/Hugo2Dk/Hugo2
 Hugo på nye Eventyr Del 2 FI	H/Hugo pa nye Eventyr Del 2 	A-Games:H/Hugo2Fi/Hugo2Fi.Slave
 Hugo på nye Eventyr DE	H/Hugo pa nye Eventyr DE	A-Games:H/HugoDe/HugoDe.Slave
 Hugo på nye Eventyr ES	H/Hugo pa nye Eventyr ES	A-Games:H/HugoEs/HugoEs.Slave
+Hugo på nye Eventyr SE	H/Hugo pa nye Eventyr SE	A-Games:H/HugoSe/HugoSe.Slave
 Human Killing Machine	H/Human Killing Machine	A-Games:H/HumanKillingMachine/HumanKillingMachine.slave
 Humans, The	H/Humans. The	A-Games:H/Humans/Humans.slave
 Humans 2: The Jurassic Levels	H/Humans 2 The Jurassic Leve	A-Games:H/Humans2/Humans2.slave
@@ -95,12 +98,12 @@ Humans III: Evolution Lost in Time... AGA	H/Humans III Evolution Lost	A-Games:H/
 Humans, The CD32	H/Humans. The CD32	A-Games:H/HumansCD32/HumansCD32.slave
 Humans, The DE	H/Humans. The DE	A-Games:H/HumansDe/HumansDe.slave
 Humans, The FR	H/Humans. The FR	A-Games:H/HumansFr/HumansFr.slave
-Hunter	H/Hunter	A-Games:H/Hunter/Hunter.slave
+Hunter	H/Hunter	A-Games:H/Hunter/Hunter.Slave
 Hunter DE	H/Hunter DE	A-Games:H/HunterDe/HunterDe.slave
 Hunter FR	H/Hunter FR	A-Games:H/HunterFr/HunterFr.slave
 Hunt for Red October, The	H/Hunt for Red October. The	A-Games:H/HuntForRedOctoberTheMovie/HuntForRedOctoberTheMovie.Slave
 Hybris	H/Hybris	A-Games:H/Hybris/Hybris.slave
-Hybris	H/Hybris 	A-Games:H/Hybris/Hybris.Slave
+Hybris NTSC	H/Hybris NTSC	A-Games:H/HybrisNTSC/HybrisNTSC.Slave
 Hydra	H/Hydra	A-Games:H/Hydra/Hydra.Slave
 Hyperdome	H/Hyperdome	A-Games:H/Hyperdome/Hyperdome.Slave
 Hyperion	H/Hyperion	A-Games:H/Hyperion/Hyperion.Slave

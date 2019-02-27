@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AmazingSpiderManNTSC/AmazingSpidermanNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:A/AmazingSpiderManNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AmazingSpidermanNTSC.slave" $whdloadargs
+ELSE
+  whdload "AmazingSpidermanNTSC.slave"
+ENDIF

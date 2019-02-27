@@ -1,0 +1,5 @@
+Name      : Spaceport
+Publisher : ReLINE Software
+Year      : 1987
+Players   : 1 Only
+RunFile   : Spaceport.Slave

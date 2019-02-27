@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BeneathAStlSkyCD32/BeneathAStlSkyCD32.Slave
+;RunFile=A-Games:B/BeneathAStlSkyCD32/BeneathAStlSkyCD32.slave
 
 ; Run WHDLoad
 cd "A-Games:B/BeneathAStlSkyCD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "BeneathAStlSkyCD32.Slave" $whdloadargs
+  whdload "BeneathAStlSkyCD32.slave" $whdloadargs
 ELSE
-  whdload "BeneathAStlSkyCD32.Slave"
+  whdload "BeneathAStlSkyCD32.slave"
 ENDIF

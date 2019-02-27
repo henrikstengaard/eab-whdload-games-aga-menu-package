@@ -1,0 +1,7 @@
+Name      : Moebius
+Version   : NTSC
+Publisher : Origin Systems
+Year      : 1988
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+RunFile   : MoebiusNTSC.Slave

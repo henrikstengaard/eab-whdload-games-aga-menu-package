@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BalanceOfPower1990Ed/BalanceOfPower1990Ed.Slave
+;RunFile=A-Games:B/BalanceOfPowerNTSC/BalanceOfPowerNTSC.Slave
 
 ; Run WHDLoad
-cd "A-Games:B/BalanceOfPower1990Ed/"
+cd "A-Games:B/BalanceOfPowerNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "BalanceOfPower1990Ed.Slave" $whdloadargs
+  whdload "BalanceOfPowerNTSC.Slave" $whdloadargs
 ELSE
-  whdload "BalanceOfPower1990Ed.Slave"
+  whdload "BalanceOfPowerNTSC.Slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BalanceOfPower1990Ed/BalanceOfPower1990Ed.Slave
+;RunFile=A-Games:B/BalanceOfPowerNTSC/BalanceOfPowerNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BalanceOfPower1990Ed/"
+cd "A-Games:B/BalanceOfPowerNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "BalanceOfPower1990Ed.Slave" $whdloadargs
+  whdload "BalanceOfPowerNTSC.Slave" $whdloadargs
 ELSE
-  whdload "BalanceOfPower1990Ed.Slave"
+  whdload "BalanceOfPowerNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

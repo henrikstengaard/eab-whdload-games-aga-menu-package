@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FighterDuelProNTSC/FighterDuelProNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FighterDuelProNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "FighterDuelProNTSC.Slave" $whdloadargs
+ELSE
+  whdload "FighterDuelProNTSC.Slave"
+ENDIF

@@ -1,6 +1,7 @@
 Name      : Sinbad and the Throne of the Falcon
+Version   : NTSC
 Publisher : Cinemaware
 Year      : 1987
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-RunFile   : Sinbad.Slave
+RunFile   : SinbadNTSC.Slave

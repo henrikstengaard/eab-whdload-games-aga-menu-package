@@ -3,4 +3,4 @@ Language  : German
 Publisher : ReLINE Software
 Year      : 1991
 Genre     : Adventure - RPG 3D
-RunFile   : FateGatesOfDawnDe.Slave
+RunFile   : FateGatesofDawnDe.slave

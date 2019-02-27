@@ -1,0 +1,7 @@
+Name      : Kwatermaster
+Language  : Polish
+Publisher : L.K. Avalon
+Year      : 1995
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : SkautKwatermasterPl.slave

@@ -1,5 +1,6 @@
 Name      : Buck Rogers XXVc: Countdown To Doomsday
+Language  : German
 Publisher : SSI
 Year      : 1991
 Players   : 1
-RunFile   : BuckRogersCountdownDday.slave
+RunFile   : BuckRogersDe.slave

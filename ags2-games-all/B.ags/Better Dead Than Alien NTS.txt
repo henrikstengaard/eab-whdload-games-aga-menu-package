@@ -1,0 +1,6 @@
+Name      : Better Dead Than Alien!
+Version   : NTSC
+Publisher : Electra Software
+Year      : 1988
+Players   : 1 or 2, Simultaneous
+RunFile   : BetterDeadThanAlienNTSC.Slave

@@ -3,4 +3,4 @@ Publisher : Sierra On-Line
 Year      : 1992
 Genre     : Brain - Puzzle
 Players   : 1 Only
-RunFile   : CastleOfDrBrain.Slave
+RunFile   : CastleOfDrBrainDeMT32.Slave

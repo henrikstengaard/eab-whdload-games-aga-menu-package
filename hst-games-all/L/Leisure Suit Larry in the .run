@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LeisureSuitLarryEnhndMT32/LeisureSuitLarryEnhndMT32.slave
+
+; Run WHDLoad
+cd "A-Games:L/LeisureSuitLarryEnhndMT32/"
+IF EXISTS ENV:whdloadargs
+  whdload "LeisureSuitLarryEnhndMT32.slave" $whdloadargs
+ELSE
+  whdload "LeisureSuitLarryEnhndMT32.slave"
+ENDIF

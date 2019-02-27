@@ -1,0 +1,7 @@
+Name      : Seven Cities of Gold
+Version   : NTSC
+Publisher : Electronic Arts
+Year      : 1985
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : SevenCitiesOfGoldNTSC.slave

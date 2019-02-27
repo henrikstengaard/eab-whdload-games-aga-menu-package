@@ -1,0 +1,7 @@
+Name      : Boot, Das
+Version   : NTSC
+Publisher : Mindscape
+Year      : 1990
+Genre     : Simulation - Marine
+Players   : 1 Only
+RunFile   : BootNTSC.Slave

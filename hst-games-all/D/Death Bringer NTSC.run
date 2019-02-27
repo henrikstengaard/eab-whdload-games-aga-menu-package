@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeathBringerSpotlightNTSC/DeathBringerSpotlightNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DeathBringerSpotlightNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeathBringerSpotlightNTSC.Slave" $whdloadargs
+ELSE
+  whdload "DeathBringerSpotlightNTSC.Slave"
+ENDIF

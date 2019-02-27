@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AquablastNTSC/AquablastNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:A/AquablastNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "AquablastNTSC.slave" $whdloadargs
+ELSE
+  whdload "AquablastNTSC.slave"
+ENDIF

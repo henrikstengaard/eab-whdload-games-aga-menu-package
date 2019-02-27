@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/LabyrinthDk/LabyrinthDk.slave
+;RunFile=A-Games:L/LabyrinthDetNyeCOMputerDk/LabyrinthDetNyeCOMputerDk.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:L/LabyrinthDk/"
+cd "A-Games:L/LabyrinthDetNyeCOMputerDk/"
 IF EXISTS ENV:whdloadargs
-  whdload "LabyrinthDk.slave" $whdloadargs
+  whdload "LabyrinthDetNyeCOMputerDk.slave" $whdloadargs
 ELSE
-  whdload "LabyrinthDk.slave"
+  whdload "LabyrinthDetNyeCOMputerDk.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

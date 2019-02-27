@@ -1,0 +1,7 @@
+Name      : Brataccas
+Version   : NTSC
+Publisher : Psygnosis
+Year      : 1987
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : BrataccasNTSC.Slave

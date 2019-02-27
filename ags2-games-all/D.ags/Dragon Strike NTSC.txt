@@ -1,0 +1,7 @@
+Name      : Dragon Strike
+Version   : NTSC
+Publisher : Strategic Simulations, Inc.
+Year      : 1990
+Genre     : Adventure - Arcade 3D
+Players   : 1 Only
+RunFile   : DragonStrikeNTSC.Slave

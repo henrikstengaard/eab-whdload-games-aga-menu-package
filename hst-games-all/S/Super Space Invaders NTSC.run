@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperSpaceInvadersNTSC/SuperSpaceInvadersNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperSpaceInvadersNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSpaceInvadersNTSC.slave" $whdloadargs
+ELSE
+  whdload "SuperSpaceInvadersNTSC.slave"
+ENDIF

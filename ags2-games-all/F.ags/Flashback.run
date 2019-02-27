@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/Flashback/Flashback.Slave
+;RunFile=A-Games:F/Flashback/Flashback.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/Flashback/"
 IF EXISTS ENV:whdloadargs
-  whdload "Flashback.Slave" $whdloadargs
+  whdload "Flashback.slave" $whdloadargs
 ELSE
-  whdload "Flashback.Slave"
+  whdload "Flashback.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,6 @@
+Name      : Hardball II
+Version   : NTSC
+Publisher : Accolade
+Year      : 1990
+Genre     : Sports - Baseball
+RunFile   : HardBall2NTSC.Slave

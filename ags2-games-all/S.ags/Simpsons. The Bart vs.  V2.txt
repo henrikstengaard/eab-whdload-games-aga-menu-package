@@ -4,4 +4,4 @@ Publisher : Ocean
 Year      : 1991
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : BartVsSpaceMutants2Disk.Slave
+RunFile   : Intro2Disk.slave

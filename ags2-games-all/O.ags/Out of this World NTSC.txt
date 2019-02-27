@@ -1,0 +1,7 @@
+Name      : Out of this World
+Version   : NTSC
+Publisher : Interplay Productions
+Year      : 1991
+Genre     : Adventure - Arcade 2D
+Players   : 1 Only
+RunFile   : OutOfThisWorldNTSC.slave

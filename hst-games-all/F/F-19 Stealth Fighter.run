@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/F19StealthFighter/F19StealthFighter.Slave
+;RunFile=A-Games:F/F19StealthFighter/F19StealthFighter.slave
 
 ; Run WHDLoad
 cd "A-Games:F/F19StealthFighter/"
 IF EXISTS ENV:whdloadargs
-  whdload "F19StealthFighter.Slave" $whdloadargs
+  whdload "F19StealthFighter.slave" $whdloadargs
 ELSE
-  whdload "F19StealthFighter.Slave"
+  whdload "F19StealthFighter.slave"
 ENDIF

@@ -22,7 +22,7 @@ Warm Up	W/Warm Up	A-Games:W/WarmUp/WarmUp.Slave
 Warp	W/Warp	A-Games:W/Warp/Warp.slave
 War Zone	W/War Zone	A-Games:W/WarZoneCoreDesign/WarzoneCoreDesign.slave
 War Zone	W/War Zone 	A-Games:W/WarZoneParadox/WarzoneParadox.Slave
-Watchtower AGA	W/Watchtower AGA	A-Games:W/WatchtowerAGA/WatchtowerAGA.Slave
+Watchtower AGA	W/Watchtower AGA	A-Games:W/WatchtowerAGA/WatchTowerAGA.slave
 Waterloo	W/Waterloo	A-Games:W/Waterloo/Waterloo.Slave
 Waxworks	W/Waxworks	A-Games:W/Waxworks/Waxworks.Slave
 Waxworks DE	W/Waxworks DE	A-Games:W/WaxworksDe/WaxworksDe.Slave
@@ -42,8 +42,8 @@ Welltris	W/Welltris	A-Games:W/Welltris/Welltris.slave
 Wembley International Soccer	W/Wembley International Socc	A-Games:W/WembleyIntSoccer/WembleyIntSoccer.Slave
 Wembley International Soccer AGA AGA	W/Wembley International S V2	A-Games:W/WembleyIntSoccerAGA/WembleyIntSoccerAGA.Slave
 Wembley Rugby League	W/Wembley Rugby League	A-Games:W/WembleyRugbyLeague/WembleyRugbyLeague.Slave
-Western Games	W/Western Games	A-Games:W/WesternGames/data/WesternGames.slave
-Western Games	W/Western Games 	A-Games:W/WesternGames/WesternGames.Slave
+Western Games	W/Western Games	A-Games:W/WesternGames/WesternGames.Slave
+Western Games	W/Western Games 	A-Games:W/WesternGames/data/WesternGames.slave
 West Phaser	W/West Phaser	A-Games:W/WestPhaser/WestPhaser.Slave
 Wheels on Fire AGA	W/Wheels on Fire AGA	A-Games:W/WheelsOnFireAGA/WheelsOnFireAGA.Slave
 Where Time Stood Still	W/Where Time Stood Still	A-Games:W/WhereTimeStoodStill/WhereTimeStoodStill.Slave
@@ -66,7 +66,7 @@ Wind Surf Willy	W/Wind Surf Willy	A-Games:W/WindSurfWilly/WindSurfWilly.Slave
 Wind Surf Willy FAST	W/Wind Surf Willy FAST	A-Games:W/WindSurfWillyFast/WindSurfWillyFast.slave
 Wind Surf Willy FR FAST	W/Wind Surf Willy FR FAST	A-Games:W/WindSurfWillyFastFr/WindSurfWillyFastFr.Slave
 Wind Surf Willy FR	W/Wind Surf Willy FR	A-Games:W/WindSurfWillyFr/WindSurfWillyFr.Slave
-Windwalker	W/Windwalker	A-Games:W/Windwalker/Windwalker.Slave
+Windwalker NTSC	W/Windwalker NTSC	A-Games:W/WindwalkerNTSC/WindwalkerNTSC.Slave
 Wing Commander	W/Wing Commander	A-Games:W/WingCommander/WingCommander.Slave
 Wing Commander CD32	W/Wing Commander CD32	A-Games:W/WingCommanderCD32/WingCommanderCD32.Slave
 Wing Commander DE	W/Wing Commander DE	A-Games:W/WingCommanderDe/WingCommanderDe.Slave
@@ -76,7 +76,7 @@ Wings of Fury	W/Wings of Fury	A-Games:W/WingsOfFury/WingsOfFury.Slave
 Winnie the Pooh in the Hundred Acre Wood	W/Winnie the Pooh in the Hun	A-Games:W/WinnieThePooh/WinnieThePooh.Slave
 Winning Post	W/Winning Post	A-Games:W/WinningPost/WinningPost.Slave
 Winter Camp	W/Winter Camp	A-Games:W/WinterCamp/WinterCamp.Slave
-Winter Challenge: World Class Competition	W/Winter Challenge World Cla	A-Games:W/WinterChallenge/WinterChallenge.Slave
+Winter Olympiad 88 NTSC	W/Winter Olympiad 88 NTSC	A-Games:W/WinterChallengeNTSC/WinterChallengeNTSC.Slave
 Winter Games	W/Winter Games	A-Games:W/WinterGames/WinterGames.Slave
 Winter Olympiad 88	W/Winter Olympiad 88	A-Games:W/WinterOlympiad88/WinterOlympiad88.Slave
 Winter Olympics	W/Winter Olympics	A-Games:W/WinterOlympics/WinterOlympics.Slave
@@ -87,7 +87,7 @@ Winzer DE	W/Winzer DE	A-Games:W/WinzerDe/WinzerDe.slave
 Wipe Out	W/Wipe Out	A-Games:W/WipeOut/WipeOut.slave
 Wisielec PL	W/Wisielec PL	A-Games:W/WisielecPl/WisielecPl.Slave
 Where in the USA is Carmen Sandiego?	W/Where in the USA is Carmen	A-Games:W/WITUSAIsCarmenSandiego/WITUSAIsCarmenSandiego.slave
-Where in the World is Carmen Sandiego?	W/Where in the World is Carm	A-Games:W/WITWIsCarmenSandiego/WITWIsCarmenSandiego.slave
+Where in the World is Carmen Sandiego? NTSC	W/Where in the World is Carm	A-Games:W/WITWIsCarmenSandiegoNTSC/WITWIsCarmenSandiegoNTSC.slave
 Wizardry: Bane of the Cosmic Forge	W/Wizardry Bane of the Cosmi	A-Games:W/Wizardry6BaneCosmicForg/Wizardry6BaneCosmicForg.slave
 Wizardry: Bane of the Cosmic Forge DE	W/Wizardry Bane of the Co V2	A-Games:W/Wizardry6BaneCosmicForgDe/Wizardry6BaneCosmicForgDe.slave
 Wizball	W/Wizball	A-Games:W/Wizball/Wizball.Slave
@@ -96,12 +96,14 @@ Wiz 'n' Liz	W/Wiz n Liz	A-Games:W/WizNLiz/WizNLiz.Slave
 Wolfchild	W/Wolfchild	A-Games:W/Wolfchild/Wolfchild.Slave
 Wolfpack	W/Wolfpack	A-Games:W/Wolfpack/Wolfpack.Slave
 Wonderboy in Monsterland	W/Wonderboy in Monsterland	A-Games:W/WonderboyInMonsterland/WonderboyInMonsterland.Slave
-Wonder Dog	W/Wonder Dog	A-Games:W/WonderDog/WonderDog.Slave
+Wonderboy in Monsterland	W/Wonderboy in Monsterland 	A-Games:W/WonderboyInMonsterlandSE/WonderboyInMonsterlandSE.Slave
+Wonder Dog	W/Wonder Dog	A-Games:W/WonderDog/WonderDog.slave
+Wonder Dog	W/Wonder Dog 	A-Games:W/WonderDogSE/WonderDogSE.slave
 Wonderland	W/Wonderland	A-Games:W/Wonderland/Wonderland.Slave
 Woody's World	W/Woodys World	A-Games:W/WoodysWorld/WoodysWorld.Slave
 World Championship Boxing Manager	W/World Championship Boxing	A-Games:W/WorldChampBoxingManager/WorldChampBoxingManager.Slave
 World Championship Soccer WorldChampSoccer	W/World Championship Soccer	A-Games:W/WorldChampionshipSoccer/WorldChampSoccer.Slave
-World Circuit	W/World Circuit	A-Games:W/WorldCircuit/WorldCircuit.Slave
+World Circuit NTSC	W/World Circuit NTSC	A-Games:W/WorldCircuitNTSC/WorldCircuitNTSC.Slave
 World Class Rugby	W/World Class Rugby	A-Games:W/WorldClassRugby/WorldClassRugby.Slave
 World Class Rugby: Five Nations Edition	W/World Class Rugby Five Nat	A-Games:W/WorldClassRugby5Nations/WorldClassRugby5Nations.Slave
 World Class Rugby '95	W/World Class Rugby 95	A-Games:W/WorldClassRugby95/WorldClassRugby95.Slave
@@ -109,7 +111,7 @@ World Cricket	W/World Cricket	A-Games:W/WorldCricket/WorldCricket.Slave
 World Cup 90	W/World Cup 90	A-Games:W/WorldCup90/WorldCup90.Slave
 World Darts	W/World Darts	A-Games:W/WorldDarts/WorldDarts.Slave
 World Darts	W/World Darts 	A-Games:W/WorldDartsArcadia/WorldDartsArcadia.Slave
-World Games	W/World Games	A-Games:W/WorldGames/WorldGames.Slave
+World Games NTSC	W/World Games NTSC	A-Games:W/WorldGamesNTSC/WorldGamesNTSC.Slave
 World Rugby	W/World Rugby	A-Games:W/WorldRugby/WorldRugby.Slave
 World Soccer	W/World Soccer	A-Games:W/WorldSoccer/WorldSoccer.Slave
 Worlds of Legend: Son of the Empire	W/Worlds of Legend Son of th	A-Games:W/WorldsOfLegend/WorldsOfLegend.slave
@@ -119,7 +121,9 @@ Worms 1MB	W/Worms 1MB	A-Games:W/Worms1MB/Worms1MB.Slave
 Worms 2MB	W/Worms 2MB	A-Games:W/Worms2MB/Worms2MB.Slave
 Worms CD32 1MB	W/Worms CD32 1MB	A-Games:W/WormsCD321MB/WormsCD321MB.Slave
 Worms CD32 2MB	W/Worms CD32 2MB	A-Games:W/WormsCD322MB/WormsCD322MB.Slave
-Worms: The Director's Cut AGA	W/Worms The Directors Cut AG	A-Games:W/WormsDirectorsCutAGA/WormsDirectorsCutAGA.Slave
+Worms: The Director's Cut AGA	W/Worms The Directors Cut AG	A-Games:W/WormsDCAGA/WormsDCAGA.Slave
+Worms: The Director's Cut AGA 2MB	W/Worms The Directors Cut V2	A-Games:W/WormsDCAGA12MB/WormsDCAGA12MB.Slave
+Worms: The Director's Cut AGA	W/Worms The Directors Cut V3	A-Games:W/WormsDCAGA8MB/WormsDCAGA8MB.Slave
 Wormsigns	W/Wormsigns	A-Games:W/Wormsigns/Wormsigns.Slave
 W Potrzasku PL	W/W Potrzasku PL	A-Games:W/WPotrzaskuPl/WPotrzaskuPl.Slave
 Wrath of the Demon	W/Wrath of the Demon	A-Games:W/WrathOfTheDemon/WrathOfTheDemon.Slave

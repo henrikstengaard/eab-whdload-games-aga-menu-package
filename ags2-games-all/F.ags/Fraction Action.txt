@@ -1,0 +1,6 @@
+Name      : Fraction Action
+Publisher : Unicorn Educational Software
+Year      : 1986
+Genre     : Platform
+Players   : 2
+RunFile   : FractionAction.Slave

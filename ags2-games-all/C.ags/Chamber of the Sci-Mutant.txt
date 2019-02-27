@@ -1,6 +1,7 @@
 Name      : Chamber of the Sci-Mutant Priestess
+Version   : NTSC
 Publisher : Infogrames
 Year      : 1990
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-RunFile   : ChamberSciMutantPriestess.slave
+RunFile   : ChamberSciMutantPrstNTSC.slave

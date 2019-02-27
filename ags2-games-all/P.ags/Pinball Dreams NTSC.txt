@@ -1,0 +1,7 @@
+Name      : Pinball Dreams
+Version   : NTSC
+Publisher : 21st Century Entertainment
+Year      : 1992
+Genre     : Arcade - Pinball
+Players   : 1 to 8
+RunFile   : PinballDreamsNTSC.Slave

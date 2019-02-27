@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BreachNTSC/BreachNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BreachNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BreachNTSC.Slave" $whdloadargs
+ELSE
+  whdload "BreachNTSC.Slave"
+ENDIF

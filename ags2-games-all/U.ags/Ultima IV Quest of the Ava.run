@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:U/Ultima4/Ultima4.slave
+;RunFile=A-Games:U/Ultima4NTSC/Ultima4NTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:U/Ultima4/"
+cd "A-Games:U/Ultima4NTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Ultima4.slave" $whdloadargs
+  whdload "Ultima4NTSC.slave" $whdloadargs
 ELSE
-  whdload "Ultima4.slave"
+  whdload "Ultima4NTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

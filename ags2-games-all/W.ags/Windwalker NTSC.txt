@@ -1,0 +1,7 @@
+Name      : Windwalker
+Version   : NTSC
+Publisher : Origin Systems
+Year      : 1989
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+RunFile   : WindwalkerNTSC.Slave

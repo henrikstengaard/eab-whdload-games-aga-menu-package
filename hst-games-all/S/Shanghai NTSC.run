@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/ShanghaiNTSC/ShanghaiNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:S/ShanghaiNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "ShanghaiNTSC.Slave" $whdloadargs
+ELSE
+  whdload "ShanghaiNTSC.Slave"
+ENDIF

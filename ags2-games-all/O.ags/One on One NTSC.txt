@@ -1,0 +1,7 @@
+Name      : One on One
+Version   : NTSC
+Publisher : Electronic Arts
+Year      : 1985
+Genre     : Sports - Basketball
+Players   : 1 or 2, Simultaneous
+RunFile   : OneOnOneNTSC.slave

@@ -1,0 +1,7 @@
+Name      : Tony & Friends in Kellogg's Land
+Language  : German
+Publisher : Rauser Advertainment
+Year      : 1994
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : Tony&FriendsDe.Slave

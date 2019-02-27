@@ -2,4 +2,4 @@ Name      : Agony
 Publisher : Psygnosis
 Year      : 1992
 Players   : 1 Only
-RunFile   : Agony.Slave
+RunFile   : Agony.slave

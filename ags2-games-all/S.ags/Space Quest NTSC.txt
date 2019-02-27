@@ -1,0 +1,6 @@
+Name      : Space Quest
+Version   : NTSC
+Publisher : Sierra
+Year      : 1987
+Players   : 1
+RunFile   : SpaceQuestNTSC.Slave

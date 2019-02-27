@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/Thexder/Thexder.Slave
+;RunFile=A-Games:T/Thexder/Thexder.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/Thexder/"
 IF EXISTS ENV:whdloadargs
-  whdload "Thexder.Slave" $whdloadargs
+  whdload "Thexder.slave" $whdloadargs
 ELSE
-  whdload "Thexder.Slave"
+  whdload "Thexder.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

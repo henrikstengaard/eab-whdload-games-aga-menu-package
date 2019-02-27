@@ -1,0 +1,6 @@
+Name      : Zool
+Version   : CD32 NTSC
+Publisher : Gremlin
+Year      : 1992
+Players   : 1
+RunFile   : ZoolCD32NTSC.slave

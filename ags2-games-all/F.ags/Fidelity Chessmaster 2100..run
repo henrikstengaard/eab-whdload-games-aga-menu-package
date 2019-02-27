@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FidelityChessmaster2100/FidelityChessmaster2100.Slave
+;RunFile=A-Games:C/Chessmaster2100NTSC/Chessmaster2100NTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:F/FidelityChessmaster2100/"
+cd "A-Games:C/Chessmaster2100NTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "FidelityChessmaster2100.Slave" $whdloadargs
+  whdload "Chessmaster2100NTSC.Slave" $whdloadargs
 ELSE
-  whdload "FidelityChessmaster2100.Slave"
+  whdload "Chessmaster2100NTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

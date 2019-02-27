@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:W/WonderDog/WonderDog.Slave
+;RunFile=A-Games:W/WonderDog/WonderDog.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:W/WonderDog/"
 IF EXISTS ENV:whdloadargs
-  whdload "WonderDog.Slave" $whdloadargs
+  whdload "WonderDog.slave" $whdloadargs
 ELSE
-  whdload "WonderDog.Slave"
+  whdload "WonderDog.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

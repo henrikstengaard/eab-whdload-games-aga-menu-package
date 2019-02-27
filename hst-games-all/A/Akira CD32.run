@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:A/AkiraCD32/AkiraCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:A/AkiraCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "AkiraCD32.Slave" $whdloadargs
+ELSE
+  whdload "AkiraCD32.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+Name      : Lost Patrol, The
+Version   : NTSC
+Publisher : Ocean
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : LostPatrolNTSC.Slave

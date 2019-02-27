@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:0-9/4x4OffRoadRacingNTSC/4x4OffRoadRacingNTSC.Slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "0-9" "4x4 Off-Road Racing NTSC"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Games:0-9/4x4OffRoadRacingNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "4x4OffRoadRacingNTSC.Slave" $whdloadargs
+ELSE
+  whdload "4x4OffRoadRacingNTSC.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end
