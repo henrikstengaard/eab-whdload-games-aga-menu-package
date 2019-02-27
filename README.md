@@ -1,8 +1,10 @@
 # EAB WHDLoad Games AGA Menu Package
 
-EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in Retroplay's WHDLoad packs at English Board Amiga. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
+EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in Retroplay's WHDLoad packs at English Amiga Board. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
 
-**Note that this package only supports Retroplay's WHDLoad packs at English Board Amiga as paths to start games are specifically generated for Retroplay's WHDLoad packs.**
+Screenshots and details for all AGA games are based on Retroplay's WHDLoad packs downloaded February 26th 2019.
+
+**Note that this package only supports Retroplay's WHDLoad packs at English Amiga Board as paths to start games are specifically generated for Retroplay's WHDLoad packs.**
 
 ## Requirements
 
