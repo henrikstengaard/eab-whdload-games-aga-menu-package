@@ -5,7 +5,7 @@
 ; AGS2 Music
 ; ----------
 ;
-; Date: 2017-12-14
+; Date: 2019-06-18
 ; Author: Henrik Noerfjand Stengaard
 ;
 ; An AmigaDOS script to start and stop AGS2 music.
@@ -22,6 +22,11 @@ ENDIF
 
 ; Start music
 IF NOT "{start}" EQ ""
+  ; end, if ags2music prefs doesn't exist
+  IF NOT EXISTS SYS:Prefs/AGS2/ags2music
+    SKIP end
+  ENDIF
+
   ; Pick random music file from ags2 dir music directory
   set randommusic ""
   set randommusic "`C:filepick "$ags2dir/music/#?"`"

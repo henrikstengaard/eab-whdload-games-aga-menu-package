@@ -1,23 +1,23 @@
 echo "*ec" NOLINE
 IF EXISTS ENV:whdloadargs
-  copy >NIL: ENV:whdloadargs S:Settings/whdloadargs
+  copy >NIL: ENV:whdloadargs SYS:Prefs/WHDLoad/whdloadargs
 ELSE
-  IF EXISTS S:Settings/whdloadargs
-	  Delete >NIL: S:Settings/whdloadargs
+  IF EXISTS SYS:Prefs/WHDLoad/whdloadargs
+	  Delete >NIL: SYS:Prefs/WHDLoad/whdloadargs
   ENDIF
 ENDIF
 IF EXISTS ENV:ags2favouritesmode
-  copy >NIL: ENV:ags2favouritesmode S:Settings/ags2favouritesmode
+  copy >NIL: ENV:ags2favouritesmode SYS:Prefs/AGS2/ags2favouritesmode
 ELSE
-  IF EXISTS S:Settings/ags2favouritesmode
-	  Delete >NIL: S:Settings/ags2favouritesmode
+  IF EXISTS SYS:Prefs/AGS2/ags2favouritesmode
+	  Delete >NIL: SYS:Prefs/AGS2/ags2favouritesmode
   ENDIF
 ENDIF
 IF EXISTS ENV:ags2music
-  copy >NIL: ENV:ags2music S:Settings/ags2music
+  copy >NIL: ENV:ags2music SYS:Prefs/AGS2/ags2music
 ELSE
-  IF EXISTS S:Settings/ags2music
-	  Delete >NIL: S:Settings/ags2music
+  IF EXISTS SYS:Prefs/AGS2/ags2music
+	  Delete >NIL: SYS:Prefs/AGS2/ags2music
   ENDIF
 ENDIF
 echo "Settings saved"

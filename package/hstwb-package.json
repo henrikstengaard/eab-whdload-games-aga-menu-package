@@ -1,6 +1,7 @@
 {
+    "selectionId": "eab-whdload-games-menu",
     "name": "EAB WHDLoad Games AGA Menu",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "priority": 1000,
     "assigns":
     [

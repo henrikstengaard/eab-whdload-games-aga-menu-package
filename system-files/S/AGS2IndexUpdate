@@ -1,4 +1,4 @@
-.KEY ags2menupath/a,ags2indexname/a
+.KEY ags2dir/a,ags2indexname/a
 .BRA {
 .KET }
 
@@ -6,25 +6,25 @@
 ; AGS2 Index Update Script
 ; ------------------------
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2017-01-04
+; Date: 2019-06-18
 ;
 ; This script updates ags2 index directories to show ags2 index if it's contains run files or hide if it doesn't contains run files.
 
 
 ; Hide ags2 index, if it doesn't contains run files
-IF EXISTS "{ags2menupath}/{ags2indexname}.ags"
-  search "{ags2menupath}/{ags2indexname}.ags" "#?.run" FILE >NIL:
+IF EXISTS "{ags2dir}/{ags2indexname}.ags"
+  search "{ags2dir}/{ags2indexname}.ags" "#?.run" FILE >NIL:
   IF WARN
-    rename "{ags2menupath}/{ags2indexname}.ags" "{ags2menupath}/{ags2indexname}.ag_"
+    rename "{ags2dir}/{ags2indexname}.ags" "{ags2dir}/{ags2indexname}.ag_"
     SKIP end
   ENDIF
 ENDIF
 
 ; Show ags2 index, if it contains run files
-IF EXISTS "{ags2menupath}/{ags2indexname}.ag_"
-  search "{ags2menupath}/{ags2indexname}.ag_" "#?.run" FILE >NIL:
+IF EXISTS "{ags2dir}/{ags2indexname}.ag_"
+  search "{ags2dir}/{ags2indexname}.ag_" "#?.run" FILE >NIL:
   IF NOT WARN
-    rename "{ags2menupath}/{ags2indexname}.ag_" "{ags2menupath}/{ags2indexname}.ags"
+    rename "{ags2dir}/{ags2indexname}.ag_" "{ags2dir}/{ags2indexname}.ags"
   ENDIF
 ENDIF
 
