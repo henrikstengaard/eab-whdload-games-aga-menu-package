@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/FutureWarsNTSC/FutureWarsNTSC.slave
+;RunFile=A-Games:V/VoyageursDuTempsFr/VoyageursDuTempsFr.slave
 
 ; Run WHDLoad
-cd "A-Games:F/FutureWarsNTSC/"
+cd "A-Games:V/VoyageursDuTempsFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "FutureWarsNTSC.slave" $whdloadargs
+  whdload "VoyageursDuTempsFr.slave" $whdloadargs
 ELSE
-  whdload "FutureWarsNTSC.slave"
+  whdload "VoyageursDuTempsFr.slave"
 ENDIF

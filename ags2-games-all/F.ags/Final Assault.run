@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FinalAssault/FinalAssault.Slave
+;RunFile=A-Games:F/FinalAssault/FinalAssault.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/FinalAssault/"
 IF EXISTS ENV:whdloadargs
-  whdload "FinalAssault.Slave" $whdloadargs
+  whdload "FinalAssault.slave" $whdloadargs
 ELSE
-  whdload "FinalAssault.Slave"
+  whdload "FinalAssault.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

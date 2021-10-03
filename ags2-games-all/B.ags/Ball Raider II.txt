@@ -1,0 +1,6 @@
+Name      : Ball Raider II
+Publisher : US Action
+Year      : 1988
+Genre     : Arcade - Breakout/Pong
+Players   : 1 Only
+RunFile   : BallRaider2.slave

@@ -1,0 +1,7 @@
+Name      : 20000 Leagues under the Sea
+Language  : Spanish
+Publisher : Coktel Vision
+Year      : 1989
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : 20000LeaguesUnderTheSeaEs.Slave

@@ -1,0 +1,7 @@
+Name      : Simulman 09: Il Giocattolaio
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Genre     : Action Adventure
+Players   : 1
+RunFile   : Simulman09It.Slave

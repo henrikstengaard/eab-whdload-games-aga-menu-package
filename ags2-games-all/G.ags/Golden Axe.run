@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/GoldenAxe/GoldenAxe.Slave
+;RunFile=A-Games:G/GoldenAxe/GoldenAxe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:G/GoldenAxe/"
 IF EXISTS ENV:whdloadargs
-  whdload "GoldenAxe.Slave" $whdloadargs
+  whdload "GoldenAxe.slave" $whdloadargs
 ELSE
-  whdload "GoldenAxe.Slave"
+  whdload "GoldenAxe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

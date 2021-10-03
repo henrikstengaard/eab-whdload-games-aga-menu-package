@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Skyblaster/Skyblaster.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Skyblaster/"
+IF EXISTS ENV:whdloadargs
+  whdload "Skyblaster.Slave" $whdloadargs
+ELSE
+  whdload "Skyblaster.Slave"
+ENDIF

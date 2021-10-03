@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:A/AsterixOpHinkelsteinDe/AsterixOpHinkelsteinDe.slave
+;RunFile=A-Games:A/AsterixLeCoupDuMenhirFr/AsterixLeCoupDuMenhirFr.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/AsterixOpHinkelsteinDe/"
+cd "A-Games:A/AsterixLeCoupDuMenhirFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "AsterixOpHinkelsteinDe.slave" $whdloadargs
+  whdload "AsterixLeCoupDuMenhirFr.slave" $whdloadargs
 ELSE
-  whdload "AsterixOpHinkelsteinDe.slave"
+  whdload "AsterixLeCoupDuMenhirFr.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

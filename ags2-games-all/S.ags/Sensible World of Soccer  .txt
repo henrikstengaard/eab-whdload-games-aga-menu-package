@@ -3,4 +3,4 @@ Publisher : Renegade
 Year      : 1994
 Genre     : Sports - Football/Soccer
 Players   : 1 or 2, Simultaneous
-RunFile   : SensibleWorldOfSoccer1617.Slave
+RunFile   : SWOS2020.Slave

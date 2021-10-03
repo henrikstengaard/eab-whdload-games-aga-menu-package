@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FormulaOne3D/FormulaOne3D.slave
+;RunFile=A-Games:F/Formula13D/Formula13D.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:F/FormulaOne3D/"
+cd "A-Games:F/Formula13D/"
 IF EXISTS ENV:whdloadargs
-  whdload "FormulaOne3D.slave" $whdloadargs
+  whdload "Formula13D.Slave" $whdloadargs
 ELSE
-  whdload "FormulaOne3D.slave"
+  whdload "Formula13D.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

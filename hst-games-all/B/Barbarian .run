@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BarbarianPsygnosis/BarbarianPsygnosis.Slave
+;RunFile=A-Games:B/BarbarianPsygnosis/BarBarianPsygnosis.Slave
 
 ; Run WHDLoad
 cd "A-Games:B/BarbarianPsygnosis/"
 IF EXISTS ENV:whdloadargs
-  whdload "BarbarianPsygnosis.Slave" $whdloadargs
+  whdload "BarBarianPsygnosis.Slave" $whdloadargs
 ELSE
-  whdload "BarbarianPsygnosis.Slave"
+  whdload "BarBarianPsygnosis.Slave"
 ENDIF

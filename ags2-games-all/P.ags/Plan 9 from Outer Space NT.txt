@@ -1,0 +1,7 @@
+Name      : Plan 9 from Outer Space
+Version   : NTSC
+Publisher : Gremlin Graphics
+Year      : 1992
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : Plan9FromOuterSpaceNTSC.Slave

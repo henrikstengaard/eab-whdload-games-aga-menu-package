@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StoriaAncestrale/StoriaAncestrale.Slave
+
+; Run WHDLoad
+cd "A-Games:S/StoriaAncestrale/"
+IF EXISTS ENV:whdloadargs
+  whdload "StoriaAncestrale.Slave" $whdloadargs
+ELSE
+  whdload "StoriaAncestrale.Slave"
+ENDIF

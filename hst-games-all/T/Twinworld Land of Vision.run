@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:T/TwinWorld/TwinWorld.Slave
+;RunFile=A-Games:T/TwinWorld/Twinworld.slave
 
 ; Run WHDLoad
 cd "A-Games:T/TwinWorld/"
 IF EXISTS ENV:whdloadargs
-  whdload "TwinWorld.Slave" $whdloadargs
+  whdload "Twinworld.slave" $whdloadargs
 ELSE
-  whdload "TwinWorld.Slave"
+  whdload "Twinworld.slave"
 ENDIF

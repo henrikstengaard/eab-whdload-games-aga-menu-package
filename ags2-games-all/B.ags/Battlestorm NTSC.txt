@@ -3,4 +3,4 @@ Version   : NTSC
 Publisher : Titus Software
 Year      : 1992
 Players   : 1 Only
-RunFile   : BattlestormNTSC.Slave
+RunFile   : BattleStormNTSC.Slave

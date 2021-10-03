@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:G/GianaSistersSE/GianaSistersSE.slave
+;RunFile=A-Beta:G/GianaSistersSE/GianaSistersSE.slave
 
 ; Run WHDLoad
-cd "A-Games:G/GianaSistersSE/"
+cd "A-Beta:G/GianaSistersSE/"
 IF EXISTS ENV:whdloadargs
   whdload "GianaSistersSE.slave" $whdloadargs
 ELSE

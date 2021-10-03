@@ -1,0 +1,6 @@
+Name      : Jungle Strike
+Version   : AGA
+Publisher : Ocean
+Year      : 1994
+Players   : 1 Only
+RunFile   : JungleStrikeAGA.Slave

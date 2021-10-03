@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Renegade
 Year      : 1993
 Players   : 1 or 2, Simultaneous
-RunFile   : ChaosEngineAGA.Slave
+RunFile   : ChaosEngineAGA.slave

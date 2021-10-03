@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:H/HeroQuestDeFix/HeroQuestDeFix.slave
+
+; Run WHDLoad
+cd "A-Beta:H/HeroQuestDeFix/"
+IF EXISTS ENV:whdloadargs
+  whdload "HeroQuestDeFix.slave" $whdloadargs
+ELSE
+  whdload "HeroQuestDeFix.slave"
+ENDIF

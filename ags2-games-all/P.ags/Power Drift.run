@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:P/PowerDrift/PowerDrift.Slave
+;RunFile=A-Games:P/PowerDrift/PowerDrift.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:P/PowerDrift/"
 IF EXISTS ENV:whdloadargs
-  whdload "PowerDrift.Slave" $whdloadargs
+  whdload "PowerDrift.slave" $whdloadargs
 ELSE
-  whdload "PowerDrift.Slave"
+  whdload "PowerDrift.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

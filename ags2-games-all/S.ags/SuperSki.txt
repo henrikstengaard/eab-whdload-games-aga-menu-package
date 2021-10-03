@@ -1,0 +1,6 @@
+Name      : SuperSki
+Publisher : Loriciels / Microids
+Year      : 1988
+Genre     : Sport
+Players   : 6
+RunFile   : SuperSki.Slave

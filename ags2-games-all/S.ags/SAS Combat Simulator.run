@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SASCombatSimulatorQArcade/SASCombatSimulatorQArcade.Slave
+;RunFile=A-Games:S/SASCombatSimulator/SASCombatSimulator.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/SASCombatSimulatorQArcade/"
+cd "A-Games:S/SASCombatSimulator/"
 IF EXISTS ENV:whdloadargs
-  whdload "SASCombatSimulatorQArcade.Slave" $whdloadargs
+  whdload "SASCombatSimulator.Slave" $whdloadargs
 ELSE
-  whdload "SASCombatSimulatorQArcade.Slave"
+  whdload "SASCombatSimulator.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:I/IPlay3DSoccer/IPlay3DSoccer.slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "I" "I Play 3D Soccer"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Games:I/IPlay3DSoccer/"
+IF EXISTS ENV:whdloadargs
+  whdload "IPlay3DSoccer.slave" $whdloadargs
+ELSE
+  whdload "IPlay3DSoccer.slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

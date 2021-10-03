@@ -1,0 +1,6 @@
+Name      : Cosmo Ranger: SOL AD 2000
+Version   : NTSC
+Publisher : Turtle Byte Software
+Year      : 1989
+Players   : 1 Only
+RunFile   : CosmoRangerNTSC.slave

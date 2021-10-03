@@ -1,4 +1,4 @@
 Name      : Universal Warrior
 Publisher : Zeppelin Games
 Year      : 1993
-RunFile   : UniversalWarrior.slave
+RunFile   : UniversalWarrior.Slave

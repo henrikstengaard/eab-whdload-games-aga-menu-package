@@ -1,0 +1,6 @@
+Name      : Paris Dakar 1990
+Publisher : Coktel Vision
+Year      : 1990
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : ParisDakar90.Slave

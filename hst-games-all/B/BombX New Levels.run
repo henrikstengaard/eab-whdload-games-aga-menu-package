@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BombXNewLevels/BombXNewLevels.slave
+
+; Run WHDLoad
+cd "A-Games:B/BombXNewLevels/"
+IF EXISTS ENV:whdloadargs
+  whdload "BombXNewLevels.slave" $whdloadargs
+ELSE
+  whdload "BombXNewLevels.slave"
+ENDIF

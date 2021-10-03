@@ -14,14 +14,12 @@ Magic Fly 512KB	M/Magic Fly 512KB	A-Games:M/MagicFly512KB/MagicFly512KB.Slave
 Magician, The	M/Magician. The	A-Games:M/Magician/Magician.Slave
 Magic Johnson's Fast Break	M/Magic Johnsons Fast Break	A-Games:M/MagicJohnsonFstBrkArcadia/MagicJohnsonFstBrkArcadia.Slave
 Magic Johnson's Basketball	M/Magic Johnsons Basketball	A-Games:M/MagicJohnsonsBasketball/MagicJohnsonsBasketball.Slave
-Magicland Dizzy	M/Magicland Dizzy	A-Games:M/MagiclandDizzy/data/MagiclandDizzy.slave
-Magicland Dizzy	M/Magicland Dizzy 	A-Games:M/MagiclandDizzy/MagiclandDizzy.Slave
+Magicland Dizzy	M/Magicland Dizzy	A-Games:M/MagiclandDizzy/MagiclandDizzy.Slave
 Magic Lines	M/Magic Lines	A-Games:M/MagicLines/MagicLines.Slave
 Magic Marble	M/Magic Marble	A-Games:M/MagicMarble/MagicMarble.Slave
-Magic Pockets	M/Magic Pockets	A-Games:M/MagicPockets/MagicPockets.Slave
+Magic Pockets	M/Magic Pockets	A-Games:M/MagicPockets/MagicPockets.slave
 Magic Pockets Demo	M/Magic Pockets Demo	A-Games:M/MagicPocketsDemo/MagicPocketsDemo.Slave
-Magic Pockets NTSC	M/Magic Pockets NTSC	A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.Slave
-Magic Pockets NTSC	M/Magic Pockets NTSC 	A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.slave
+Magic Pockets NTSC	M/Magic Pockets NTSC	A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.slave
 Magnatron	M/Magnatron	A-Games:M/Magnatron/Magnatron.Slave
 Major Motion	M/Major Motion	A-Games:M/MajorMotion/MajorMotion.Slave
 Manchester United	M/Manchester United	A-Games:M/ManchesterUnited/ManchesterUnited.Slave
@@ -40,6 +38,7 @@ Maniac Mansion	M/Maniac Mansion	A-Games:M/ManiacMansion/ManiacMansion.slave
 Maniac Mansion DE	M/Maniac Mansion DE	A-Games:M/ManiacMansionDe/ManiacMansionDe.slave
 Maniac Mansion ES	M/Maniac Mansion ES	A-Games:M/ManiacMansionEs/ManiacMansionEs.slave
 Maniac Mansion FR	M/Maniac Mansion FR	A-Games:M/ManiacMansionFr/ManiacMansionFr.slave
+Maniac Mansion IT	M/Maniac Mansion IT	A-Games:M/ManiacMansionIt/ManiacMansionIt.slave
 Maniax	M/Maniax	A-Games:M/Maniax/maniax.slave
 Manic Miner	M/Manic Miner	A-Games:M/ManicMiner/ManicMiner.slave
 Manix	M/Manix	A-Games:M/Manix/Manix.Slave
@@ -48,18 +47,20 @@ Marble Madness	M/Marble Madness	A-Games:M/MarbleMadness/MarbleMadness.slave
 Maria's Xmas Box	M/Marias Xmas Box	A-Games:M/MariasXmasBox/MariasXmasBox.Slave
 Marvin's Marvellous Adventure AGA	M/Marvins Marvellous Adventu	A-Games:M/MarvinsMarvellousAdvAGA/MarvinsMarvellousAdvAGA.Slave
 Marvin's Marvellous Adventure CD32	M/Marvins Marvellous Adve V2	A-Games:M/MarvinsMarvellousAdvCD32/MarvinsMarvellousAdvCD32.Slave
-Master Axe: The Genesis of MysterX AGA	M/Master Axe The Genesis of	A-Games:M/MasterAxe/MasterAxe.slave
+Master Axe: The Genesis of MysterX	M/Master Axe The Genesis of	A-Games:M/MasterAxe/MasterAxe.slave
 Master Blaster	M/Master Blaster	A-Games:M/MasterBlaster/MasterBlaster.Slave
-Masterblazer	M/Masterblazer	A-Games:M/Masterblazer/Masterblazer.slave
+Masterblazer	M/Masterblazer	A-Games:M/Masterblazer/Masterblazer.Slave
 Match of the Day	M/Match of the Day	A-Games:M/MatchOfTheDay/MatchOfTheDay.Slave
 Math Wizard	M/Math Wizard	A-Games:M/MathWizard/MathWizard.Slave
 Matrix Marauders	M/Matrix Marauders	A-Games:M/MatrixMarauders/MatrixMarauders.slave
 Maupiti Island	M/Maupiti Island	A-Games:M/MaupitiIsland/MaupitiIsland.Slave
 Maupiti Island DE	M/Maupiti Island DE	A-Games:M/MaupitiIslandDe/MaupitiIslandDe.Slave
+Maupiti Island ES	M/Maupiti Island ES	A-Games:M/MaupitiIslandEs/MaupitiIslandEs.Slave
 Maupiti Island FR	M/Maupiti Island FR	A-Games:M/MaupitiIslandFr/MaupitiIslandFr.Slave
 Max Rally	M/Max Rally	A-Games:M/MaxRally/MaxRally.slave
 Mayday Squad	M/Mayday Squad	A-Games:M/MaydaySquadHeroes/MaydaySquadHeroes.Slave
-McDonald Land	M/McDonald Land	A-Games:M/McDonaldLand/McDonaldLand.Slave
+McDonald Land	M/McDonald Land	A-Games:M/McDonaldLand/McDonaldLand.slave
+McDonald Land	M/McDonald Land 	A-Games:M/McDonaldLandV2/McDonaldLandV2.slave
 Mean Arenas	M/Mean Arenas	A-Games:M/MeanArenas/MeanArenas.slave
 Mean Arenas CD32	M/Mean Arenas CD32	A-Games:M/MeanArenasCD32/MeanArenasCD32.slave
 Mean Machine	M/Mean Machine	A-Games:M/MeanMachine/MeanMachine.slave
@@ -69,7 +70,7 @@ Mean Streets FR	M/Mean Streets FR	A-Games:M/MeanStreetsFr/MeanStreetsFr.slave
 Megaball	M/Megaball	A-Games:M/MegaBall/MegaBall.slave
 Megaball 1MB	M/Megaball 1MB	A-Games:M/MegaBall1MB/Megaball1MB.slave
 Megaball AGA	M/Megaball AGA	A-Games:M/MegaBallAGA/MegaBallAGA.slave
-Mega Block 2	M/Mega Block 2	A-Games:M/MegaBlock2/MegaBlock2.Slave
+Mega Block 2 (Beta/Unreleased)	M/Mega Block 2 BetaUnrelease	A-Beta:M/MegaBlock2/MegaBlock2.Slave
 Mega lo Mania	M/Mega lo Mania	A-Games:M/MegaLoMania/MegaLoMania.Slave
 Mega lo Mania DE	M/Mega lo Mania DE	A-Games:M/MegaLoManiaDe/MegaLoManiaDe.Slave
 Mega lo Mania FR	M/Mega lo Mania FR	A-Games:M/MegaLoManiaFr/MegaLoManiaFr.Slave
@@ -86,15 +87,18 @@ Mercenary I: Escape from Targ and the Second City	M/Mercenary I Escape from Ta	A
 Mercenary III: The Dion Crisis	M/Mercenary III The Dion Cri	A-Games:M/Mercenary3/Mercenary3.Slave
 Mercs	M/Mercs	A-Games:M/Mercs/Mercs.Slave
 Merv the Merciless	M/Merv the Merciless	A-Games:M/MervTheMerciless/MervTheMerciless.slave
+Metal Gear	M/Metal Gear	A-Games:M/MetalGear/MetalGear.Slave
 Metal Law	M/Metal Law	A-Games:M/MetalLaw/MetalLaw.slave
 Metal Masters	M/Metal Masters	A-Games:M/MetalMasters/MetalMasters.Slave
-Metal Masters Intro	M/Metal Masters Intro	A-Games:M/MetalMasters/MetalMastersIntro.Slave
 Metal Mutant	M/Metal Mutant	A-Games:M/MetalMutant/MetalMutant.slave
 Metal Mutant DE	M/Metal Mutant DE	A-Games:M/MetalMutantDe/MetalMutantDe.slave
 Metal Mutant FR	M/Metal Mutant FR	A-Games:M/MetalMutantFr/MetalMutantFr.slave
 Metal Warrior	M/Metal Warrior	A-Games:M/MetalWarrior/MetalWarrior.Slave
+Metro-Cross	M/Metro-Cross	A-Games:M/MetroCross/MetroCross.Slave
+Mewilo DE	M/Mewilo DE	A-Games:M/MewiloDe/MewiloDe.Slave
+Mewilo FR	M/Mewilo FR	A-Games:M/MewiloFr/MewiloFr.Slave
 MF Tanks	M/MF Tanks	A-Games:M/MFTanks/MFTanks.Slave
-Miami Chase	M/Miami Chase	A-Games:M/MiamiChase/MiamiChase.Slave
+Miami Chase	M/Miami Chase	A-Games:M/MiamiChase/MiamiChase.slave
 Mickey's 123's: The BIG Surprise Party FR	M/Mickeys 123s The BIG Surpr	A-Games:M/Mickey123Fr/Mickey123Fr.Slave
 Mickey ABC: Une journée à la fête FR	M/Mickey ABC Une journee a l	A-Games:M/MickeyABCFr/MickeyABCFr.Slave
 Mickey Jeu De Memoire FR	M/Mickey Jeu De Memoire FR	A-Games:M/MickeyJeuDeMemoireFr/MickeyJeuDeMemoireFr.Slave
@@ -132,13 +136,15 @@ Mindshadow	M/Mindshadow	A-Games:M/Mindshadow/Mindshadow.Slave
 Mind Walker NTSC	M/Mind Walker NTSC	A-Games:M/MindWalkerNTSC/MindWalkerNTSC.slave
 Mini Golf	M/Mini Golf	A-Games:M/MiniGolf/MiniGolf.Slave
 Mini Golf Plus	M/Mini Golf Plus	A-Games:M/MiniGolfPlus/MiniGolfPlus.slave
+Minos	M/Minos	A-Games:M/Minos/Minos.Slave
 Minskies ... The Abduction	M/Minskies ... The Abduction	A-Games:M/Minskies/Minskies.slave
 Minskies ... The Abduction AGA	M/Minskies ... The Abduct V2	A-Games:M/MinskiesAGA/MinskiesAGA.slave
 Misja Harolda: Zaginiony w systemie PL	M/Misja Harolda Zaginiony w	A-Games:M/MisjaHaroldaPl/MisjaHaroldaPl.slave
-Missiles over Xerion AGA	M/Missiles over Xerion AGA	A-Games:M/MissilesOverXerion/MissilesOverXerion.slave
-Mission Elevator	M/Mission Elevator	A-Games:M/MissionElevator/MissionElevator.Slave
+Missiles over Xerion	M/Missiles over Xerion	A-Games:M/MissilesOverXerion/MissilesOverXerion.slave
+Mission Elevator	M/Mission Elevator	A-Games:M/MissionElevator/MissionElevator.slave
+Mixed-Up Mother Goose	M/Mixed-Up Mother Goose	A-Games:M/MixedUpMotherGoose/MixedUpMotherGoose.Slave
 Moebius NTSC	M/Moebius NTSC	A-Games:M/MoebiusNTSC/MoebiusNTSC.Slave
-Monkey Business	M/Monkey Business	A-Games:M/MonkeyBusiness/MonkeyBusiness.slave
+Monkey Business (Beta/Unreleased)	M/Monkey Business BetaUnrele	A-Beta:M/MonkeyBusiness/MonkeyBusiness.slave
 Monkey Island 2: LeChuck's Revenge	M/Monkey Island 2 LeChucks R	A-Games:M/MonkeyIsland2/MonkeyIsland2.slave
 Monkey Island 2: LeChuck's Revenge DE	M/Monkey Island 2 LeChuck V2	A-Games:M/MonkeyIsland2De/MonkeyIsland2De.slave
 Monkey Island 2: LeChuck's Revenge ES	M/Monkey Island 2 LeChuck V3	A-Games:M/MonkeyIsland2Es/MonkeyIsland2Es.slave
@@ -163,7 +169,7 @@ Mortal Kombat Censored	M/Mortal Kombat Censored	A-Games:M/MortalKombatCensored/M
 Morton Strikes Back	M/Morton Strikes Back	A-Games:M/MortonStrikesBack/MortonStrikesBack.Slave
 Morton Strikes Back AGA	M/Morton Strikes Back AGA	A-Games:M/MortonStrikesBackAGA/MortonStrikesBackAGA.Slave
 Mortville Manor	M/Mortville Manor	A-Games:M/MortvilleManor/MortvilleManor.Slave
-Mot	M/Mot	A-Games:M/MOT/MOT.Slave
+Mot	M/Mot	A-Games:M/Mot/Mot.slave
 Motorbike Madness	M/Motorbike Madness	A-Games:M/MotorbikeMadness/MotorbikeMadness.Slave
 Motörhead	M/Motorhead	A-Games:M/Motorhead/Motorhead.Slave
 Motor Massacre	M/Motor Massacre	A-Games:M/MotorMassacre/MotorMassacre.Slave
@@ -171,14 +177,14 @@ MouseQuest NTSC	M/MouseQuest NTSC	A-Games:M/MouseQuestNTSC/MouseQuestNTSC.Slave
 Mousetrap	M/Mousetrap	A-Games:M/Mousetrap/Mousetrap.Slave
 Mr Blobby	M/Mr Blobby	A-Games:M/MrBlobby/MrBlobby.slave
 Mr. HELI	M/Mr. HELI	A-Games:M/MrHeli/MrHeli.slave
-Mr. Men Olympics, The	M/Mr. Men Olympics. The	A-Games:M/MrMenOlympics/MrMenOlympics.slave
+Mr. Men Olympics, The (Beta/Unreleased)	M/Mr. Men Olympics. The Beta	A-Beta:M/MrMenOlympics/MrMenOlympics.slave
 Mr. Nutz	M/Mr. Nutz	A-Games:M/MrNutz/MrNutz.Slave
 M.U.D.S.	M/M.U.D.S.	A-Games:M/MUDS/MUDS.slave
 Multi Player Soccer Manager	M/Multi Player Soccer Manage	A-Games:M/MultiPlayerSoccerManager/MultiPlayerSoccerManager.Slave
-Munsters, The	M/Munsters. The	A-Games:M/Munsters/Munsters.Slave
+Munsters, The	M/Munsters. The	A-Games:M/Munsters/Munsters.slave
 Murder	M/Murder	A-Games:M/Murder/Murder.Slave
-Murders in Space Files	M/Murders in Space Files	A-Games:M/MurdersInSpaceFiles/MurdersInSpaceFiles.Slave
-Murders in Space Image	M/Murders in Space Image	A-Games:M/MurdersInSpaceImage/MurdersInSpaceImage.Slave
+Murders in Space Files	M/Murders in Space Files	A-Games:M/MurdersInSpaceFiles/MurdersInSpaceFiles.slave
+Murders in Space Image	M/Murders in Space Image	A-Games:M/MurdersInSpaceImage/MurdersInSpaceImage.slave
 Mysterious Worlds	M/Mysterious Worlds	A-Games:M/MysteriousWorlds/MysteriousWorlds.Slave
 Mystery of the Mummy	M/Mystery of the Mummy	A-Games:M/MysteryOfTheMummy/MysteryOfTheMummy.Slave
 Mystical	M/Mystical	A-Games:M/Mystical/Mystical.Slave

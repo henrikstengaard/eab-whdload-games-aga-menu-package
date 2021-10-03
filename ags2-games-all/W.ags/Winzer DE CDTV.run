@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:W/WinzerCDTVDe/WinzerCDTVDe.Slave
+;RunFile=A-Games:W/WinzerDeCDTV/WinzerDeCDTV.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:W/WinzerCDTVDe/"
+cd "A-Games:W/WinzerDeCDTV/"
 IF EXISTS ENV:whdloadargs
-  whdload "WinzerCDTVDe.Slave" $whdloadargs
+  whdload "WinzerDeCDTV.slave" $whdloadargs
 ELSE
-  whdload "WinzerCDTVDe.Slave"
+  whdload "WinzerDeCDTV.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,7 @@
+Name      : Sci-Fi
+Language  : Finnish
+Publisher : Digital Magic
+Year      : 1989
+Genre     : Shooter
+Players   : 1
+RunFile   : SciFi.Slave

@@ -1,0 +1,7 @@
+Name      : Asterix im Morgenland
+Language  : French
+Publisher : Coktel Vision
+Year      : 1987
+Genre     : Adventure - Selectable Answers
+Players   : 1 Only
+RunFile   : AsterixChezRahazadeFr.slave

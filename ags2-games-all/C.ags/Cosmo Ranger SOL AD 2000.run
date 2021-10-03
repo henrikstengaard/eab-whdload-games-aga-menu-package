@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:C/CosmoRanger/CosmoRanger.Slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "C" "Cosmo Ranger SOL AD 2000"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Games:C/CosmoRanger/"
+IF EXISTS ENV:whdloadargs
+  whdload "CosmoRanger.Slave" $whdloadargs
+ELSE
+  whdload "CosmoRanger.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SuperStardustAGA/SuperStardustAGA.Slave
+;RunFile=A-Games:S/SuperStardustAGA/SuperStardustAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/SuperStardustAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuperStardustAGA.Slave" $whdloadargs
+  whdload "SuperStardustAGA.slave" $whdloadargs
 ELSE
-  whdload "SuperStardustAGA.Slave"
+  whdload "SuperStardustAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TrivialPursuitNewBeginFr/TrivialPursuitNewBeginFr.Slave
+;RunFile=A-Games:T/TrivialPursuitANBFr/TrivialPursuitANBFr.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:T/TrivialPursuitNewBeginFr/"
+cd "A-Games:T/TrivialPursuitANBFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "TrivialPursuitNewBeginFr.Slave" $whdloadargs
+  whdload "TrivialPursuitANBFr.Slave" $whdloadargs
 ELSE
-  whdload "TrivialPursuitNewBeginFr.Slave"
+  whdload "TrivialPursuitANBFr.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

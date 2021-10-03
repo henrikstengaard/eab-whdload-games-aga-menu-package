@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:R/RiseOftheRobots/RiseOfTheRobots.slave
+;RunFile=A-Games:R/RiseOfTheRobots/RiseOfTheRobots.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:R/RiseOftheRobots/"
+cd "A-Games:R/RiseOfTheRobots/"
 IF EXISTS ENV:whdloadargs
   whdload "RiseOfTheRobots.slave" $whdloadargs
 ELSE

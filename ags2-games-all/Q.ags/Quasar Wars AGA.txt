@@ -1,0 +1,6 @@
+Name      : Quasar Wars
+Version   : AGA
+Publisher : Light Designs
+Year      : 1996
+Players   : 1 Only
+RunFile   : QuasarWarsAGA.slave

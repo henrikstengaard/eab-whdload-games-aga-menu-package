@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VortexNTSC/VortexNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VortexNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "VortexNTSC.Slave" $whdloadargs
+ELSE
+  whdload "VortexNTSC.Slave"
+ENDIF

@@ -1,0 +1,7 @@
+Name      : Indian Mission
+Language  : French
+Publisher : Coktel Vision
+Year      : 1988
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : IndianMissionFr.Slave

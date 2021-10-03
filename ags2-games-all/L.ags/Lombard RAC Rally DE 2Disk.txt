@@ -1,0 +1,8 @@
+Name      : Lombard RAC Rally
+Language  : German
+Version   : 2Disk
+Publisher : Mandarin
+Year      : 1988
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : LombardRACRally2DiskDe.Slave

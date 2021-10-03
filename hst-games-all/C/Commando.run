@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:C/Commando/Commando.Slave
+;RunFile=A-Games:C/Commando/Commando.slave
 
 ; Run WHDLoad
 cd "A-Games:C/Commando/"
 IF EXISTS ENV:whdloadargs
-  whdload "Commando.Slave" $whdloadargs
+  whdload "Commando.slave" $whdloadargs
 ELSE
-  whdload "Commando.Slave"
+  whdload "Commando.slave"
 ENDIF

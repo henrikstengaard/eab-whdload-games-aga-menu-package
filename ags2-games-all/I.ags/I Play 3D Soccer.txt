@@ -1,0 +1,6 @@
+Name      : I Play: 3D Soccer
+Publisher : Simulmondo
+Year      : 1991
+Genre     : Sports - Football/Soccer
+Players   : 1 or 2, Simultaneous
+RunFile   : IPlay3DSoccer.slave

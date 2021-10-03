@@ -1,0 +1,7 @@
+Name      : Candy Puzzle
+Version   : CD32
+Publisher : Gevin
+Year      : 1995
+Genre     : Puzzler
+Players   : 1
+RunFile   : CandyPuzzleCD32.slave

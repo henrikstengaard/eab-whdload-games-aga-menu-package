@@ -3,4 +3,4 @@ Publisher : Opera Soft
 Year      : 1989
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : MOT.Slave
+RunFile   : Mot.slave

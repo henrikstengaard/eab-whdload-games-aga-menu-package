@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:N/Nightdawn/Nightdawn.slave
+;RunFile=A-Games:N/Nightdawn/Nightdawn.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:N/Nightdawn/"
 IF EXISTS ENV:whdloadargs
-  whdload "Nightdawn.slave" $whdloadargs
+  whdload "Nightdawn.Slave" $whdloadargs
 ELSE
-  whdload "Nightdawn.slave"
+  whdload "Nightdawn.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

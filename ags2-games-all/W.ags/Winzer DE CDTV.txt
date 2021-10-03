@@ -3,4 +3,4 @@ Language  : German
 Version   : CDTV
 Publisher : Starbyte
 Players   : 1 - 4 (1 simultaneous)
-RunFile   : WinzerCDTVDe.Slave
+RunFile   : WinzerDeCDTV.slave

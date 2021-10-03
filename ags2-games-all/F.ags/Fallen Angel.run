@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FallenAngel/FallenAngel.slave
+;RunFile=A-Games:F/FallenAngel/FallenAngel.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/FallenAngel/"
 IF EXISTS ENV:whdloadargs
-  whdload "FallenAngel.slave" $whdloadargs
+  whdload "FallenAngel.Slave" $whdloadargs
 ELSE
-  whdload "FallenAngel.slave"
+  whdload "FallenAngel.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

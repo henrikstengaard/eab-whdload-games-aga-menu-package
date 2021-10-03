@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SpaceQuestEnhancedMT32/SpaceQuestEnhancedMT32.slave
+;RunFile=A-Games:S/SpaceQuestEnhanced512k/SpaceQuestEnhanced512k.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/SpaceQuestEnhancedMT32/"
+cd "A-Games:S/SpaceQuestEnhanced512k/"
 IF EXISTS ENV:whdloadargs
-  whdload "SpaceQuestEnhancedMT32.slave" $whdloadargs
+  whdload "SpaceQuestEnhanced512k.slave" $whdloadargs
 ELSE
-  whdload "SpaceQuestEnhancedMT32.slave"
+  whdload "SpaceQuestEnhanced512k.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

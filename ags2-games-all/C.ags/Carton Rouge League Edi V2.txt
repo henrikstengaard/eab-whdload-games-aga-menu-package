@@ -1,0 +1,7 @@
+Name      : Carton Rouge: League Edition
+Language  : French
+Publisher : Sports (Ascon)
+Year      : 1994
+Genre     : Sport
+Players   : 4
+RunFile   : CartonRougeLEFr.slave

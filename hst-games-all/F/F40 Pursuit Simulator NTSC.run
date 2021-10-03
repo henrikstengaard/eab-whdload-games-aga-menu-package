@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/F40PursuitSimulatorNTSC/F40PursuitSimulatorNTSC.Slave
+;RunFile=A-Games:F/F40PursuitSimulatorNTSC/F40PursuitSimulatorNTSC.slave
 
 ; Run WHDLoad
 cd "A-Games:F/F40PursuitSimulatorNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "F40PursuitSimulatorNTSC.Slave" $whdloadargs
+  whdload "F40PursuitSimulatorNTSC.slave" $whdloadargs
 ELSE
-  whdload "F40PursuitSimulatorNTSC.Slave"
+  whdload "F40PursuitSimulatorNTSC.slave"
 ENDIF

@@ -1,0 +1,6 @@
+Name      : Chamonix Challenge
+Publisher : Infogrames
+Year      : 1987
+Genre     : Sports - Miscellaneous
+Players   : 1 Only
+RunFile   : ChamonixChallenge.slave

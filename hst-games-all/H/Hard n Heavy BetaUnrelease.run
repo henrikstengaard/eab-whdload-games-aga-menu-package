@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:G/Giana2/Giana2.slave
+
+; Run WHDLoad
+cd "A-Beta:G/Giana2/"
+IF EXISTS ENV:whdloadargs
+  whdload "Giana2.slave" $whdloadargs
+ELSE
+  whdload "Giana2.slave"
+ENDIF

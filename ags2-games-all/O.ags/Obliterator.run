@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:O/Obliterator/Obliterator.Slave
+;RunFile=A-Games:O/Obliterator/Obliterator.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:O/Obliterator/"
 IF EXISTS ENV:whdloadargs
-  whdload "Obliterator.Slave" $whdloadargs
+  whdload "Obliterator.slave" $whdloadargs
 ELSE
-  whdload "Obliterator.Slave"
+  whdload "Obliterator.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

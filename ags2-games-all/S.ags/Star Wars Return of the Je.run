@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:R/ReturnOfTheJedi/ReturnOfTheJedi.slave
+;RunFile=A-Games:R/ReturnOfTheJedi/ReturnOfTheJedi.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:R/ReturnOfTheJedi/"
 IF EXISTS ENV:whdloadargs
-  whdload "ReturnOfTheJedi.slave" $whdloadargs
+  whdload "ReturnOfTheJedi.Slave" $whdloadargs
 ELSE
-  whdload "ReturnOfTheJedi.slave"
+  whdload "ReturnOfTheJedi.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -2,4 +2,4 @@ Name      : Outlands
 Publisher : Pandora (Players/Interceptor)
 Year      : 1989
 Players   : 1 - 2 (2 simultaneous)
-RunFile   : Outlands&DizzyDice.slave
+RunFile   : Outlands.slave

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:E/EcoPhantoms/EcoPhantoms.Slave
+;RunFile=A-Games:E/EcoPhantoms/EcoPhantoms.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:E/EcoPhantoms/"
 IF EXISTS ENV:whdloadargs
-  whdload "EcoPhantoms.Slave" $whdloadargs
+  whdload "EcoPhantoms.slave" $whdloadargs
 ELSE
-  whdload "EcoPhantoms.Slave"
+  whdload "EcoPhantoms.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

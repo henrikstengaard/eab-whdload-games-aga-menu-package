@@ -3,4 +3,4 @@ Publisher : Electric Dreams
 Year      : 1989
 Genre     : Arcade - Labyrinth/Maze
 Players   : 1 Only
-RunFile   : ISS.Slave
+RunFile   : ISS.slave

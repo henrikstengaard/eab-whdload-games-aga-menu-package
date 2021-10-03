@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:O/Outlands&DizzyDice/Outlands&DizzyDice.slave
+;RunFile=A-Games:O/Outlands/Outlands.slave
 
 ; Run WHDLoad
-cd "A-Games:O/Outlands&DizzyDice/"
+cd "A-Games:O/Outlands/"
 IF EXISTS ENV:whdloadargs
-  whdload "Outlands&DizzyDice.slave" $whdloadargs
+  whdload "Outlands.slave" $whdloadargs
 ELSE
-  whdload "Outlands&DizzyDice.slave"
+  whdload "Outlands.slave"
 ENDIF

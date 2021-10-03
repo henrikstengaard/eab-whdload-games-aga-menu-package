@@ -3,4 +3,4 @@ Publisher : Play Byte
 Year      : 1992
 Genre     : Platformer - Single Screen
 Players   : 1 or 2, Simultaneous
-RunFile   : Ugh.Slave
+RunFile   : Ugh.slave

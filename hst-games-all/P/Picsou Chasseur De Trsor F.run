@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PicsouChasseurDeTresorFr/PicsouchasseurDeTresorFr.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PicsouChasseurDeTresorFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "PicsouchasseurDeTresorFr.Slave" $whdloadargs
+ELSE
+  whdload "PicsouchasseurDeTresorFr.Slave"
+ENDIF

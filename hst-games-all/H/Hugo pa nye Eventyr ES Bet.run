@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:H/HugoEs/HugoEs.Slave
+
+; Run WHDLoad
+cd "A-Beta:H/HugoEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "HugoEs.Slave" $whdloadargs
+ELSE
+  whdload "HugoEs.Slave"
+ENDIF

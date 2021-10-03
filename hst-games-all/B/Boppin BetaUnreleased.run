@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:B/Boppin/Boppin.Slave
+
+; Run WHDLoad
+cd "A-Beta:B/Boppin/"
+IF EXISTS ENV:whdloadargs
+  whdload "Boppin.Slave" $whdloadargs
+ELSE
+  whdload "Boppin.Slave"
+ENDIF

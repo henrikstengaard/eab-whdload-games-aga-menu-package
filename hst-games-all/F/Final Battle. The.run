@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/FinalBattle/FinalBattle.slave
+;RunFile=A-Games:F/FinalBattle/FinalBattle.Slave
 
 ; Run WHDLoad
 cd "A-Games:F/FinalBattle/"
 IF EXISTS ENV:whdloadargs
-  whdload "FinalBattle.slave" $whdloadargs
+  whdload "FinalBattle.Slave" $whdloadargs
 ELSE
-  whdload "FinalBattle.slave"
+  whdload "FinalBattle.Slave"
 ENDIF

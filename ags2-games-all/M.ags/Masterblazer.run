@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:M/Masterblazer/Masterblazer.slave
+;RunFile=A-Games:M/Masterblazer/Masterblazer.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:M/Masterblazer/"
 IF EXISTS ENV:whdloadargs
-  whdload "Masterblazer.slave" $whdloadargs
+  whdload "Masterblazer.Slave" $whdloadargs
 ELSE
-  whdload "Masterblazer.slave"
+  whdload "Masterblazer.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

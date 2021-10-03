@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:M/MonkeyBusiness/MonkeyBusiness.slave
+
+; Run WHDLoad
+cd "A-Beta:M/MonkeyBusiness/"
+IF EXISTS ENV:whdloadargs
+  whdload "MonkeyBusiness.slave" $whdloadargs
+ELSE
+  whdload "MonkeyBusiness.slave"
+ENDIF

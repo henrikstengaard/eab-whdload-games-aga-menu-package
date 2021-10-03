@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/Benefactor/Benefactor.Slave
+;RunFile=A-Games:B/Benefactor/Benefactor.slave
 
 ; Run WHDLoad
 cd "A-Games:B/Benefactor/"
 IF EXISTS ENV:whdloadargs
-  whdload "Benefactor.Slave" $whdloadargs
+  whdload "Benefactor.slave" $whdloadargs
 ELSE
-  whdload "Benefactor.Slave"
+  whdload "Benefactor.slave"
 ENDIF

@@ -4,4 +4,4 @@ Version   : CD32
 Publisher : Commodore
 Year      : 1993
 Players   : 1
-RunFile   : DefensorDeLaCorona2CD32ES.slave
+RunFile   : DefensorDeLaCorona2CD32Es.slave

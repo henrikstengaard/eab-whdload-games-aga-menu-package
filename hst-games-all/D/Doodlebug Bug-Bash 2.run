@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/Doodlebug/Doodlebug.Slave
+
+; Run WHDLoad
+cd "A-Games:D/Doodlebug/"
+IF EXISTS ENV:whdloadargs
+  whdload "Doodlebug.Slave" $whdloadargs
+ELSE
+  whdload "Doodlebug.Slave"
+ENDIF

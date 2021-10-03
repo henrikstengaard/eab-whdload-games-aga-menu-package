@@ -1,0 +1,7 @@
+Name      : Simulman 08: Il Giardino Virtuale
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Genre     : Action Adventure
+Players   : 1
+RunFile   : Simulman08It.Slave

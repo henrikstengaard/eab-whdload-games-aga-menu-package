@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:N/NitroNTSC/NitroNTSC.slave
+;RunFile=A-Games:N/NitroNTSC/NitroNTSC.Slave
 
 ; Run WHDLoad
 cd "A-Games:N/NitroNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "NitroNTSC.slave" $whdloadargs
+  whdload "NitroNTSC.Slave" $whdloadargs
 ELSE
-  whdload "NitroNTSC.slave"
+  whdload "NitroNTSC.Slave"
 ENDIF

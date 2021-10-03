@@ -1,0 +1,6 @@
+Name      : Top Wrestling
+Publisher : Genias
+Year      : 1992
+Genre     : Sports - Wrestling
+Players   : 1 or 2, Simultaneous
+RunFile   : TopWrestling.Slave

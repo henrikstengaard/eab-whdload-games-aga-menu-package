@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/Fire&Ice/Fire&Ice.slave
+;RunFile=A-Games:F/FireAndIce/FireAndIce.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:F/Fire&Ice/"
+cd "A-Games:F/FireAndIce/"
 IF EXISTS ENV:whdloadargs
-  whdload "Fire&Ice.slave" $whdloadargs
+  whdload "FireAndIce.slave" $whdloadargs
 ELSE
-  whdload "Fire&Ice.slave"
+  whdload "FireAndIce.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

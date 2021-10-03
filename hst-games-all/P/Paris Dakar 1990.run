@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/ParisDakar90/ParisDakar90.Slave
+
+; Run WHDLoad
+cd "A-Games:P/ParisDakar90/"
+IF EXISTS ENV:whdloadargs
+  whdload "ParisDakar90.Slave" $whdloadargs
+ELSE
+  whdload "ParisDakar90.Slave"
+ENDIF

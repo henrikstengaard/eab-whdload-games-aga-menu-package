@@ -1,0 +1,7 @@
+Name      : Final Countdown
+Version   : FAST
+Publisher : Demonware
+Year      : 1989
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : FinalCountdownFast.Slave

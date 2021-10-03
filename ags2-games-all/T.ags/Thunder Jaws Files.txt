@@ -1,0 +1,6 @@
+Name      : Thunder Jaws
+Version   : Files
+Publisher : Domark
+Year      : 1991
+Players   : 1 or 2, Simultaneous
+RunFile   : ThunderJawsFiles.slave

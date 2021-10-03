@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/Gulp/Gulp.slave
+
+; Run WHDLoad
+cd "A-Games:G/Gulp/"
+IF EXISTS ENV:whdloadargs
+  whdload "Gulp.slave" $whdloadargs
+ELSE
+  whdload "Gulp.slave"
+ENDIF

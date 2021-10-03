@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.Slave
+;RunFile=A-Games:M/MagicPocketsNTSC/MagicPocketsNTSC.slave
 
 ; Run WHDLoad
 cd "A-Games:M/MagicPocketsNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "MagicPocketsNTSC.Slave" $whdloadargs
+  whdload "MagicPocketsNTSC.slave" $whdloadargs
 ELSE
-  whdload "MagicPocketsNTSC.Slave"
+  whdload "MagicPocketsNTSC.slave"
 ENDIF

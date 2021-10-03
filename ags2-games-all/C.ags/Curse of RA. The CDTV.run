@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:C/CurseOfRaCDTV/CurseOfRaCDTV.Slave
+;RunFile=A-Games:C/CurseOfRaCDTV/CurseOfRaCDTV.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:C/CurseOfRaCDTV/"
 IF EXISTS ENV:whdloadargs
-  whdload "CurseOfRaCDTV.Slave" $whdloadargs
+  whdload "CurseOfRaCDTV.slave" $whdloadargs
 ELSE
-  whdload "CurseOfRaCDTV.Slave"
+  whdload "CurseOfRaCDTV.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

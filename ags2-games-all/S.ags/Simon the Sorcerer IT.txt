@@ -1,0 +1,7 @@
+Name      : Simon the Sorcerer
+Language  : Italian
+Publisher : Blittersoft
+Year      : 1993
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : SimonTheSorcererIt.Slave

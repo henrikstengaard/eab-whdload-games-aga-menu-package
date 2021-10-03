@@ -1,0 +1,7 @@
+Name      : Ultima VI: The False Prophet
+Version   : NTSC
+Publisher : Origin Systems
+Year      : 1992
+Genre     : Adventure - RPG 2D
+Players   : 1 Only
+RunFile   : Ultima6NTSC.Slave

@@ -1,0 +1,7 @@
+Name      : AmiRobbo
+Language  : Polish
+Publisher : Unknown
+Year      : 1993
+Genre     : Puzzler
+Players   : 1
+RunFile   : AmiRobboPl.Slave

@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:D/DimosQuest/DimosQuest.Slave
+;RunFile=A-Games:D/DimosQuest/DimosQuest.slave
 
 ; Run WHDLoad
 cd "A-Games:D/DimosQuest/"
 IF EXISTS ENV:whdloadargs
-  whdload "DimosQuest.Slave" $whdloadargs
+  whdload "DimosQuest.slave" $whdloadargs
 ELSE
-  whdload "DimosQuest.Slave"
+  whdload "DimosQuest.slave"
 ENDIF

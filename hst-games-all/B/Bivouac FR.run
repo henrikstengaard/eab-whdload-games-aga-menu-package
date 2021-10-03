@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BivouacFr/BivouacFr.slave
+
+; Run WHDLoad
+cd "A-Games:B/BivouacFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "BivouacFr.slave" $whdloadargs
+ELSE
+  whdload "BivouacFr.slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Deliverance
+Version   : 512K
+Publisher : 21st Century Entertainment
+Year      : 1992
+Players   : 1 Only
+RunFile   : Deliverance512k.slave

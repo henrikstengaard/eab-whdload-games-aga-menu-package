@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:E/Exile/Exile.Slave
+;RunFile=A-Games:E/Exile/Exile.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:E/Exile/"
 IF EXISTS ENV:whdloadargs
-  whdload "Exile.Slave" $whdloadargs
+  whdload "Exile.slave" $whdloadargs
 ELSE
-  whdload "Exile.Slave"
+  whdload "Exile.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GotchaPrestige/GotchaPrestige.Slave
+
+; Run WHDLoad
+cd "A-Games:G/GotchaPrestige/"
+IF EXISTS ENV:whdloadargs
+  whdload "GotchaPrestige.Slave" $whdloadargs
+ELSE
+  whdload "GotchaPrestige.Slave"
+ENDIF

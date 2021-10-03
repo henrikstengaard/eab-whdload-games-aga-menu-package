@@ -1,0 +1,7 @@
+Name      : Forest Dumb Forever
+Language  : Polish
+Publisher : APC&TCP
+Year      : 1998
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : ForestDumbForeverPl.slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:U/UNSquadronEarok/UNSquadronEarok.slave
+
+; Run WHDLoad
+cd "A-Beta:U/UNSquadronEarok/"
+IF EXISTS ENV:whdloadargs
+  whdload "UNSquadronEarok.slave" $whdloadargs
+ELSE
+  whdload "UNSquadronEarok.slave"
+ENDIF

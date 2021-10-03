@@ -3,4 +3,4 @@ Publisher : Go!
 Year      : 1988
 Genre     : Racing - Overhead
 Players   : 1 Only
-RunFile   : LEDStorm.Slave
+RunFile   : LEDStorm.slave

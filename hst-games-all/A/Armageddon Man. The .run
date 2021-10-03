@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/Pacman87/Pacman87.slave
+
+; Run WHDLoad
+cd "A-Games:P/Pacman87/"
+IF EXISTS ENV:whdloadargs
+  whdload "Pacman87.slave" $whdloadargs
+ELSE
+  whdload "Pacman87.slave"
+ENDIF

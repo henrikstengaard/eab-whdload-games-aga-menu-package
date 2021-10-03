@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/FourCrystalsOfTrazereNTSC.Slave
+;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/getlegendsavedisk.slave
 
 ; Run WHDLoad
 cd "A-Games:F/FourCrystalsOfTrazereNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "FourCrystalsOfTrazereNTSC.Slave" $whdloadargs
+  whdload "getlegendsavedisk.slave" $whdloadargs
 ELSE
-  whdload "FourCrystalsOfTrazereNTSC.Slave"
+  whdload "getlegendsavedisk.slave"
 ENDIF

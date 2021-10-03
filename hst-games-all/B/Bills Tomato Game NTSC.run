@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BillsTomatoGameNTSC/BillsTomatoGameNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:B/BillsTomatoGameNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BillsTomatoGameNTSC.slave" $whdloadargs
+ELSE
+  whdload "BillsTomatoGameNTSC.slave"
+ENDIF

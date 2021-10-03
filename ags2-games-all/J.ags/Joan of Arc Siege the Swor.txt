@@ -1,0 +1,6 @@
+Name      : Joan of Arc: Siege & the Sword
+Publisher : Brøderbund
+Year      : 1989
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : JoanOfArc.Slave

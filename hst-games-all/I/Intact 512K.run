@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/Intact512k/Intact512k.Slave
+
+; Run WHDLoad
+cd "A-Games:I/Intact512k/"
+IF EXISTS ENV:whdloadargs
+  whdload "Intact512k.Slave" $whdloadargs
+ELSE
+  whdload "Intact512k.Slave"
+ENDIF

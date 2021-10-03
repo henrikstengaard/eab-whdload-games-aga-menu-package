@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PlagueNTSC/PlagueNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PlagueNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlagueNTSC.Slave" $whdloadargs
+ELSE
+  whdload "PlagueNTSC.Slave"
+ENDIF

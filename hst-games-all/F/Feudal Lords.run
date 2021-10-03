@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FeudalLords/FeudalLords.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FeudalLords/"
+IF EXISTS ENV:whdloadargs
+  whdload "FeudalLords.Slave" $whdloadargs
+ELSE
+  whdload "FeudalLords.Slave"
+ENDIF

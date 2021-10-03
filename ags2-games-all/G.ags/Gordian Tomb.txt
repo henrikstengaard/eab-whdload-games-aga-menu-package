@@ -1,0 +1,6 @@
+Name      : Gordian Tomb
+Publisher : Amigo! (CompuTec Verlag)
+Year      : 1992
+Genre     : Platform
+Players   : 1
+RunFile   : GordianTomb.slave

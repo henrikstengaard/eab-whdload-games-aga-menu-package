@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:O/OutOfThisWorldNTSC/OutOfThisWorldNTSC.slave
+;RunFile=A-Games:O/OutOfThisWorldNTSC/OutOfThisWorldNTSC.Slave
 
 ; Run WHDLoad
 cd "A-Games:O/OutOfThisWorldNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "OutOfThisWorldNTSC.slave" $whdloadargs
+  whdload "OutOfThisWorldNTSC.Slave" $whdloadargs
 ELSE
-  whdload "OutOfThisWorldNTSC.slave"
+  whdload "OutOfThisWorldNTSC.Slave"
 ENDIF

@@ -13,12 +13,12 @@ Galdregon's Domain	G/Galdregons Domain	A-Games:G/GaldregonsDomain/GaldregonsDoma
 Game of Harmony, The NTSC	G/Game of Harmony. The NTSC	A-Games:G/GameOfHarmonyNTSC/GameOfHarmonyNTSC.Slave
 Ganymed	G/Ganymed	A-Games:G/Ganymed/Ganymed.slave
 Garfield: Winter's Tail	G/Garfield Winters Tail	A-Games:G/GarfieldAWintersTail/GarfieldAWintersTail.Slave
-Garfield: Big, Fat, Hairy Deal	G/Garfield Big. Fat. Hairy D	A-Games:G/GarfieldBigFatHairyDeal/GarfieldBigFatHairyDeal.Slave
+Garfield: Big, Fat, Hairy Deal	G/Garfield Big. Fat. Hairy D	A-Games:G/GarfieldBigFatHairyDeal/GarfieldBigFatHairyDeal.slave
 Garrison	G/Garrison	A-Games:G/Garrison/Garrison.Slave
 Garrison II: The Legend Continues	G/Garrison II The Legend Con	A-Games:G/Garrison2/Garrison2.Slave
 Gary Lineker's Hot Shot	G/Gary Linekers Hot Shot	A-Games:G/GaryLinekersHotShot/GaryLinekersHotShot.Slave
 Gateway to the Savage Frontier	G/Gateway to the Savage Fron	A-Games:G/GatewayToSavageFrontier/GatewayToSavageFrontier.Slave
-Gauntlet II	G/Gauntlet II	A-Games:G/Gauntlet2/Gauntlet2.slave
+Gauntlet II	G/Gauntlet II	A-Games:G/Gauntlet2/Gauntlet2.Slave
 Gauntlet III: The Final Quest	G/Gauntlet III The Final Que	A-Games:G/Gauntlet3/Gauntlet3.slave
 Gazza II	G/Gazza II	A-Games:G/Gazza2/Gazza2.Slave
 GBA Championship Basketball	G/GBA Championship Basketbal	A-Games:G/GBAChampionshipBB/GBAChampionshipBB.Slave
@@ -28,13 +28,15 @@ Geisha	G/Geisha	A-Games:G/Geisha/Geisha.Slave
 Geisha DE	G/Geisha DE	A-Games:G/GeishaDe/GeishaDe.Slave
 Geisha ES	G/Geisha ES	A-Games:G/GeishaEs/GeishaEs.Slave
 Geisha FR	G/Geisha FR	A-Games:G/GeishaFr/GeishaFr.Slave
-Gemini Wing	G/Gemini Wing	A-Games:G/GeminiWing/GeminiWing.slave
-Gem Stone Legend	G/Gem Stone Legend	A-Games:G/GemStoneLegend/GemStoneLegend.Slave
+Gemini Wing	G/Gemini Wing	A-Games:G/GeminiWing/GeminiWing.Slave
+Gem Stone Legend	G/Gem Stone Legend	A-Games:G/GemStoneLegend/GemStoneLegend.slave
 Gem'X	G/GemX	A-Games:G/GemX/GemX.slave
 Genesia	G/Genesia	A-Games:G/Genesia/Genesia.slave
 Genesia FR	G/Genesia FR	A-Games:G/GenesiaFr/GenesiaFr.slave
+Germ Crazy DE	G/Germ Crazy DE	A-Games:G/GermCrazyDe/GermCrazyDe.Slave
 Gettysburg	G/Gettysburg	A-Games:G/Gettysburg/Gettysburg.Slave
 Ghost Battle	G/Ghost Battle	A-Games:G/GhostBattle/GhostBattle.Slave
+Ghost Battle (Beta/Unreleased)	G/Ghost Battle BetaUnrelease	A-Beta:G/GhostBattle/GhostBattle.slave
 Ghostbusters II	G/Ghostbusters II	A-Games:G/Ghostbusters2/Ghostbusters2.Slave
 Ghostbusters II NTSC	G/Ghostbusters II NTSC	A-Games:G/Ghostbusters2NTSC/Ghostbusters2NTSC.Slave
 Ghost Chaser	G/Ghost Chaser	A-Games:G/GhostChaser/GhostChaser.Slave
@@ -45,9 +47,10 @@ Giganoid	G/Giganoid	A-Games:G/Giganoid/Giganoid.slave
 Gladiators	G/Gladiators	A-Games:G/Gladiators/Gladiators.slave
 Global Gladiators	G/Global Gladiators	A-Games:G/GlobalGladiators/GlobalGladiators.slave
 Global Trek	G/Global Trek	A-Games:G/GlobalTrek/GlobalTrek.Slave
-Globdule	G/Globdule	A-Games:G/Globdule/Globdule.Slave
-Globdule NTSC	G/Globdule NTSC	A-Games:G/GlobduleNTSC/GlobduleNTSC.Slave
+Globdule	G/Globdule	A-Games:G/Globdule/Globdule.slave
+Globdule NTSC	G/Globdule NTSC	A-Games:G/GlobduleNTSC/GlobduleNTSC.slave
 Globulus	G/Globulus	A-Games:G/Globulus/Globulus.slave
+Globulus	G/Globulus 	A-Games:G/GlobulusPR/GlobulusPR.slave
 G-LOC R360	G/G-LOC R360	A-Games:G/GLOCR360/GLOCR360.slave
 Gloom AGA	G/Gloom AGA	A-Games:G/GloomAGA/GloomAGA.slave
 Gloom CD32	G/Gloom CD32	A-Games:G/GloomCD32/GloomCD32.slave
@@ -57,7 +60,7 @@ Gnome	G/Gnome	A-Games:G/Gnome/Gnome.Slave
 Gnome Alone	G/Gnome Alone	A-Games:G/GnomeAlone/GnomeAlone.Slave
 Gnome Ranger	G/Gnome Ranger	A-Games:G/GnomeRanger/GnomeRanger.Slave
 Goal!	G/Goal	A-Games:G/Goal/Goal.slave
-Gobliiins	G/Gobliiins	A-Games:G/Gobliiins/Gobliiins.Slave
+Gobliiins	G/Gobliiins	A-Games:G/Gobliiins/Gobliiins.slave
 Gobliins 2: The Prince Buffoon	G/Gobliins 2 The Prince Buff	A-Games:G/Gobliins2/Gobliins2.slave
 Gobliins 2: The Prince Buffoon DE	G/Gobliins 2 The Prince B V2	A-Games:G/Gobliins2De/Gobliins2De.slave
 Gobliins 2: The Prince Buffoon ES	G/Gobliins 2 The Prince B V3	A-Games:G/Gobliins2Es/Gobliins2Es.slave
@@ -65,13 +68,13 @@ Gobliins 2: The Prince Buffoon FR	G/Gobliins 2 The Prince B V4	A-Games:G/Gobliin
 Gobliins 2: The Prince Buffoon IT	G/Gobliins 2 The Prince B V5	A-Games:G/Gobliins2It/Gobliins2It.slave
 Goblins 3	G/Goblins 3	A-Games:G/Goblins3/Goblins3.slave
 Godfather, The	G/Godfather. The	A-Games:G/Godfather/Godfather.Slave
-Gods	G/Gods	A-Games:G/Gods/Gods.Slave
+Gods	G/Gods	A-Games:G/Gods/Gods.slave
 Gods Demo	G/Gods Demo	A-Games:G/GodsDemo/GodsDemo.Slave
 Gods NTSC	G/Gods NTSC	A-Games:G/GodsNTSC/GodsNTSC.slave
-Golden Axe	G/Golden Axe	A-Games:G/GoldenAxe/GoldenAxe.Slave
-Golden Axe NTSC	G/Golden Axe NTSC	A-Games:G/GoldenAxeNTSC/GoldenAxeNTSC.Slave
-Golden Eagle Intro	G/Golden Eagle Intro	A-Games:G/GoldenEagle/Intro.slave
-Golden Eagle	G/Golden Eagle	A-Games:G/GoldenEagle/GoldenEagle.slave
+Golden Axe	G/Golden Axe	A-Games:G/GoldenAxe/GoldenAxe.slave
+Golden Axe NTSC	G/Golden Axe NTSC	A-Games:G/GoldenAxeNTSC/GoldenAxeNTSC.slave
+Golden Eagle	G/Golden Eagle	A-Games:G/GoldenEagle/GoldenEagle.Slave
+Golden Eagle 512K	G/Golden Eagle 512K	A-Games:G/GoldenEagle512k/GoldenEagle512k.Slave
 Golden Path	G/Golden Path	A-Games:G/GoldenPath/GoldenPath.Slave
 Gold of the Aztecs, The	G/Gold of the Aztecs. The	A-Games:G/GoldOfTheAztecs/GoldOfTheAztecs.Slave
 Gold of the Aztecs, The (v1.1) Kernal1.1	G/Gold of the Aztecs. The v1	A-Games:G/GoldOfTheAztecs_Kernal1.1/GoldOfTheAztecs(v1.1).Slave
@@ -80,12 +83,15 @@ Goldrunner II	G/Goldrunner II	A-Games:G/Goldrunner2/Goldrunner2.Slave
 Goldrunner II SceneryDisk	G/Goldrunner II SceneryDisk	A-Games:G/Goldrunner2&SceneryDisks/Goldrunner2&SceneryDisks.Slave
 Gold Rush!	G/Gold Rush	A-Games:G/GoldRush/GoldRush.slave
 Goofy's Railway Express	G/Goofys Railway Express	A-Games:G/GoofysRailwayExpress/GoofysRailwayExpress.Slave
+Gordian Tomb	G/Gordian Tomb	A-Games:G/GordianTomb/GordianTomb.slave
+Gotcha	G/Gotcha	A-Games:G/GotchaPrestige/GotchaPrestige.Slave
 Graeme Souness Soccer Manager	G/Graeme Souness Soccer Mana	A-Games:G/GraemeSounessSoccerManagr/GraemeSounessSoccerManagr.Slave
 Graeme Souness Vector Soccer	G/Graeme Souness Vector Socc	A-Games:G/GraemeSounessVectorSoccer/GraemeSounessVectorSoccer.Slave
 Graham Gooch's Second Innings	G/Graham Goochs Second Innin	A-Games:G/GrahamGoochSecondInnings/GrahamGoochSecondInnings.Slave
 Graham Gooch World Class Cricket	G/Graham Gooch World Class C	A-Games:G/GrahamGoochWCCricket/GrahamGoochWCCricket.Slave
 Graham Gooch World Class Cricket Test Match Special Edition	G/Graham Gooch World Clas V2	A-Games:G/GrahamGoochWCCricketSE/GrahamGoochWCCricketSE.Slave
-Grand Monster Slam	G/Grand Monster Slam	A-Games:G/GrandMonsterSlam/GrandMonsterSlam.Slave
+Grand Monster Slam 1Disk	G/Grand Monster Slam 1Disk	A-Games:G/GrandMonsterSlam1Disk/GrandMonsterSlam1Disk.slave
+Grand Monster Slam 2Disk	G/Grand Monster Slam 2Disk	A-Games:G/GrandMonsterSlam2Disk/GrandMonsterSlam2Disk.slave
 Grand Prix 500 2 FR	G/Grand Prix 500 2 FR	A-Games:G/GrandPrix5002Fr/GrandPrix5002Fr.slave
 Grand Prix Circuit	G/Grand Prix Circuit	A-Games:G/GrandPrixCircuit/GrandPrixCircuit.Slave
 Grand Prix Master	G/Grand Prix Master	A-Games:G/GrandPrixMaster/GrandPrixMaster.Slave
@@ -106,12 +112,14 @@ Guardian CD32	G/Guardian CD32	A-Games:G/GuardianCD32/GuardianCD32.slave
 Guild of Thieves, The	G/Guild of Thieves. The	A-Games:G/GuildOfThieves/GuildOfThieves.Slave
 Guldkorn Expressen DK 1MB	G/Guldkorn Expressen DK 1MB	A-Games:G/GuldkornExpressenDk1MB/GuldkornExpressenDk1MB.slave
 Guldkorn Expressen DK 512KB	G/Guldkorn Expressen DK 512K	A-Games:G/GuldkornExpressenDk512KB/GuldkornExpressenDk512KB.slave
+Gulp!	G/Gulp	A-Games:G/Gulp/Gulp.slave
+Gulp! CD32	G/Gulp CD32	A-Games:G/GulpCD32/GulpCD32.slave
 Gunboat	G/Gunboat	A-Games:G/Gunboat/Gunboat.Slave
-Gunship	G/Gunship	A-Games:G/Gunship/Gunship.Slave
+Gunship	G/Gunship	A-Games:G/Gunship/Gunship.slave
 Gunship 2000	G/Gunship 2000	A-Games:G/Gunship2000/Gunship2000.slave
 Gunship 2000 AGA	G/Gunship 2000 AGA	A-Games:G/Gunship2000AGA/Gunship2000AGA.slave
 Gunship 2000 CD32	G/Gunship 2000 CD32	A-Games:G/Gunship2000CD32/Gunship2000CD32.slave
-Gunship NTSC	G/Gunship NTSC	A-Games:G/GunshipNTSC/GunshipNTSC.Slave
+Gunship NTSC	G/Gunship NTSC	A-Games:G/GunshipNTSC/GunshipNTSC.slave
 Gunshoot	G/Gunshoot	A-Games:G/Gunshoot/Gunshoot.Slave
 Guy Spy and the Crystals of Armageddon	G/Guy Spy and the Crystals o	A-Games:G/GuySpy/GuySpy.Slave
 Guy Spy and the Crystals of Armageddon CDTV	G/Guy Spy and the Crystal V2	A-Games:G/GuySpyCDTV/GuySpyCDTV.Slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:M/MrMenOlympics/MrMenOlympics.slave
+
+; Run WHDLoad
+cd "A-Beta:M/MrMenOlympics/"
+IF EXISTS ENV:whdloadargs
+  whdload "MrMenOlympics.slave" $whdloadargs
+ELSE
+  whdload "MrMenOlympics.slave"
+ENDIF

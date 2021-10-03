@@ -1,21 +1,24 @@
 Dalek Attack	D/Dalek Attack	A-Games:D/DalekAttack/DalekAttack.Slave
 Daley Thompson's Olympic Challenge 1Disk	D/Daley Thompsons Olympic Ch	A-Games:D/DaleyThompsonsOC1Disk/DaleyThompsonsOC1Disk.Slave
 Daley Thompson's Olympic Challenge 2Disk	D/Daley Thompsons Olympic V2	A-Games:D/DaleyThompsonsOC2Disk/DaleyThompsonsOC2Disk.Slave
+Dal'X FR	D/DalX FR	A-Games:D/DalXFr/DalXFr.Slave
 Damage: The Sadistic Butchering of Humanity	D/Damage The Sadistic Butche	A-Games:D/Damage/Damage.slave
 Damage: The Sadistic Butchering of Humanity Preview	D/Damage The Sadistic But V2	A-Games:D/DamagePreview/DamagePreview.Slave
 Damocles - Mercenary II	D/Damocles - Mercenary II	A-Games:D/Damocles/Damocles.slave
 Damocles - Mercenary II NTSC	D/Damocles - Mercenary II NT	A-Games:D/DamoclesNTSC/DamoclesNTSC.slave
 Dan Dare III: The Escape	D/Dan Dare III The Escape	A-Games:D/DanDare3/DanDare3.Slave
+Danger Freak	D/Danger Freak	A-Games:D/DangerFreak/DangerFreak.slave
+Danger Freak	D/Danger Freak 	A-Games:D/DangerFreak/DangerFreak.slave
 Dangerous Streets AGA	D/Dangerous Streets AGA	A-Games:D/DangerousStreetsAGA/DangerousStreetsAGA.slave
-Darius+	D/Darius+	A-Games:D/Darius+/Darius+.slave
+Darius+	D/Darius+	A-Games:D/Darius+/Darius+.Slave
 Dark Castle NTSC	D/Dark Castle NTSC	A-Games:D/DarkCastleNTSC/DarkCastleNTSC.slave
 Dark Century	D/Dark Century	A-Games:D/DarkCentury/DarkCentury.Slave
 Dark Fusion	D/Dark Fusion	A-Games:D/DarkFusion/DarkFusion.Slave
-Darkman	D/Darkman	A-Games:D/Darkman/Darkman.Slave
+Darkman	D/Darkman	A-Games:D/Darkman/Darkman.slave
 Darkmere	D/Darkmere	A-Games:D/Darkmere/Darkmere.Slave
 Dark Queen of Krynn, The	D/Dark Queen of Krynn. The	A-Games:D/DarkQueenOfKrynn/DarkQueenOfKrynn.Slave
 Darkseed	D/Darkseed	A-Games:D/DarkSeed/DarkSeed.Slave
-Darkseed CD32	D/Darkseed CD32	A-Games:D/DarkSeedCD32/DarkSeedCD32.slave
+Darkseed CD32	D/Darkseed CD32	A-Games:D/DarkSeedCD32/DarkSeedCD32.Slave
 Darkseed DE	D/Darkseed DE	A-Games:D/DarkSeedDe/DarkSeedDe.Slave
 Darkseed ES	D/Darkseed ES	A-Games:D/DarkSeedEs/DarkSeedEs.Slave
 Darkseed FR	D/Darkseed FR	A-Games:D/DarkSeedFr/DarkSeedFr.Slave
@@ -35,8 +38,9 @@ Death Bringer	D/Death Bringer	A-Games:D/DeathbringerEmpire/DeathbringerEmpire.Sl
 Death Bringer NTSC	D/Death Bringer NTSC	A-Games:D/DeathBringerSpotlightNTSC/DeathBringerSpotlightNTSC.Slave
 Death Knights of Krynn	D/Death Knights of Krynn	A-Games:D/DeathKnightsOfKrynn/DeathKnightsOfKrynn.Slave
 Death Knights of Krynn DE	D/Death Knights of Krynn DE	A-Games:D/DeathKnightsOfKrynnDe/DeathKnightsOfKrynnDe.Slave
-Death Mask	D/Death Mask	A-Games:D/DeathMask/DeathMask.Slave
-Death Mask AGA	D/Death Mask AGA	A-Games:D/DeathMaskAGA/DeathMaskAGA.Slave
+Death Mask	D/Death Mask	A-Games:D/DeathMask/DeathMask.slave
+Death Mask AGA	D/Death Mask AGA	A-Games:D/DeathMaskAGA/DeathMaskAGA.slave
+Death Mask CD32	D/Death Mask CD32	A-Games:D/DeathMaskCD32/DeathMaskCD32.slave
 Death or Glory: The Battle of Morgan DE	D/Death or Glory The Battle	A-Games:D/DeathOrGloryDe/DeathOrGloryDe.Slave
 Death Sword NTSC	D/Death Sword NTSC	A-Games:D/DeathSwordNTSC/DeathSwordNTSC.Slave
 Death Trap	D/Death Trap	A-Games:D/DeathTrap/DeathTrap.Slave
@@ -45,8 +49,8 @@ Decimal Dungeon	D/Decimal Dungeon	A-Games:D/DecimalDungeon/DecimalDungeon.Slave
 Deconstruction AGA	D/Deconstruction AGA	A-Games:D/DeconstructionAGA/DeconstructionAGA.Slave
 Deep, The	D/Deep. The	A-Games:D/Deep/Deep.Slave
 Deep Core	D/Deep Core	A-Games:D/DeepCore/DeepCore.Slave
-Deep Core	D/Deep Core 	A-Games:D/DeepCore/DeepCore.Slave
-Deep Core CD32	D/Deep Core CD32	A-Games:D/DeepCoreCD32/DeepCoreCD32.Slave
+Deep Core (Beta/Unreleased)	D/Deep Core BetaUnreleased	A-Beta:D/DeepCore/DeepCore.Slave
+Deep Core CD32 (Beta/Unreleased)	D/Deep Core CD32 BetaUnrelea	A-Beta:D/DeepCoreCD32/DeepCoreCD32.Slave
 Deep Space	D/Deep Space	A-Games:D/DeepSpace/DeepSpace.slave
 Defender II	D/Defender II	A-Games:D/Defender2/Defender2.Slave
 Defender of the Crown	D/Defender of the Crown	A-Games:D/DefenderOfTheCrown/DefenderOfTheCrown.Slave
@@ -56,13 +60,14 @@ Defender of the Crown NTSC	D/Defender of the Crown NTSC	A-Games:D/DefenderOfTheC
 Defender	D/Defender	A-Games:D/DefenderRatsoft/DefenderRatsoft.slave
 Defenders of the Earth	D/Defenders of the Earth	A-Games:D/DefendersOfTheEarth/DefendersOfTheEarth.slave
 Defender of the Crown II FR CD32	D/Defender of the Crown II F	A-Games:D/DefenseurCouronne2CD32Fr/DefenseurCouronne2CD32Fr.slave
-Defender of the Crown II ES CD32	D/Defender of the Crown II E	A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32ES.slave
+Defender of the Crown II ES CD32	D/Defender of the Crown II E	A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32Es.slave
 Deflektor	D/Deflektor	A-Games:D/Deflektor/Deflektor.slave
 Deja Vu II: Lost in Las Vegas	D/Deja Vu II Lost in Las Veg	A-Games:D/DejaVu2LostInLasVegas/DejaVu2LostInLasVegas.Slave
-Deja Vu: A Nightmare Comes True NTSC	D/Deja Vu A Nightmare Comes	A-Games:D/DejaVuNTSC/DejaVuNTSC.Slave
+Deja Vu: A Nightmare Comes True NTSC	D/Deja Vu A Nightmare Comes	A-Games:D/DejaVuNTSC/DejaVuNTSC.slave
 Deliverance	D/Deliverance	A-Games:D/Deliverance/Deliverance.slave
+Deliverance 512K	D/Deliverance 512K	A-Games:D/Deliverance512k/Deliverance512k.slave
 Delta Command	D/Delta Command	A-Games:D/DeltaCommandArcadia/DeltaCommandArcadia.Slave
-Deluxe Galaga	D/Deluxe Galaga	A-Games:D/DeluxeGalaga/DeluxeGalaga.Slave
+Deluxe Galaga	D/Deluxe Galaga	A-Games:D/DeluxeGalaga/DeluxeGalaga.slave
 Deluxe Galaga AGA	D/Deluxe Galaga AGA	A-Games:D/DeluxeGalagaAGA/DeluxeGalagaAGA.Slave
 Deluxe Pacman	D/Deluxe Pacman	A-Games:D/DeluxePacMan/DeluxePacMan.Slave
 Deluxe Pacman AGA	D/Deluxe Pacman AGA	A-Games:D/DeluxePacManAGA/DeluxePacManAGA.Slave
@@ -96,15 +101,15 @@ Defender of the Crown II IT CD32	D/Defender of the Crown II I	A-Games:D/Difensor
 Digger	D/Digger	A-Games:D/Digger/Digger.Slave
 Diggers AGA	D/Diggers AGA	A-Games:D/DiggersAGA/DiggersAGA.slave
 Diggers CD32	D/Diggers CD32	A-Games:D/DiggersCD32/DiggersCD32.slave
-Dimo's Quest	D/Dimos Quest	A-Games:D/DimosQuest/DimosQuest.Slave
+Dimo's Quest	D/Dimos Quest	A-Games:D/DimosQuest/DimosQuest.slave
 Dinosaur Detective Agency	D/Dinosaur Detective Agency	A-Games:D/DinosaurDetectiveAgency/DinosaurDetectiveAgency.Slave
 Dino Wars	D/Dino Wars	A-Games:D/DinoWars/DinoWars.slave
 Dino Wars DE	D/Dino Wars DE	A-Games:D/DinoWarsDe/DinoWarsDe.Slave
 Disc	D/Disc	A-Games:D/Disc/Disc.Slave
 Discovery: In The Steps of Columbus	D/Discovery In The Steps of	A-Games:D/Discovery/Discovery.Slave
 Discovery (MicroIllusions)	D/Discovery MicroIllusions	A-Games:D/DiscoveryMicroIllusions/DiscoveryMicroIllusions.Slave
-Disposable Hero	D/Disposable Hero	A-Games:D/DisposableHero/DisposableHero.Slave
-Disposable Hero CD32	D/Disposable Hero CD32	A-Games:D/DisposableHeroCD32/DisposableHeroCD32.Slave
+Disposable Hero	D/Disposable Hero	A-Games:D/DisposableHero/DisposableHero.slave
+Disposable Hero CD32	D/Disposable Hero CD32	A-Games:D/DisposableHeroCD32/DisposableHeroCD32.slave
 Disposable Hero FAST	D/Disposable Hero FAST	A-Games:D/DisposableHeroFast/DisposableHeroFast.slave
 Distant Armies: A Playing History of Chess	D/Distant Armies A Playing H	A-Games:D/DistantArmies/DistantArmies.Slave
 Ditris	D/Ditris	A-Games:D/Ditris/Ditris.Slave
@@ -113,8 +118,8 @@ Dizzy Collection Disk2	D/Dizzy Collection Disk2	A-Games:D/DizzyCollection/Disk2.
 Dizzy Dice	D/Dizzy Dice	A-Games:D/DizzyDice/DizzyDice.Slave
 Dizzy Panic	D/Dizzy Panic	A-Games:D/DizzyPanic/DizzyPanic.slave
 Dizzy: Prince of the Yolkfolk	D/Dizzy Prince of the Yolkfo	A-Games:D/DizzyPrinceOfTheYolkfolk/DizzyPrinceOfTheYolkfolk.slave
-Dizzy's Excellent Adventures Disk2	D/Dizzys Excellent Adventure	A-Games:D/DizzysExcellentAdventures/Disk2.Slave
-Dizzy's Excellent Adventures Disk1	D/Dizzys Excellent Advent V2	A-Games:D/DizzysExcellentAdventures/Disk1.Slave
+Dizzy's Excellent Adventures Disk1	D/Dizzys Excellent Adventure	A-Games:D/DizzysExcellentAdventures/Disk1.Slave
+Dizzy's Excellent Adventures Disk2	D/Dizzys Excellent Advent V2	A-Games:D/DizzysExcellentAdventures/Disk2.Slave
 Dog Fight	D/Dog Fight	A-Games:D/Dogfight/Dogfight.Slave
 Dogs of War	D/Dogs of War	A-Games:D/DogsOfWar/DogsOfWar.Slave
 Dojo Dan	D/Dojo Dan	A-Games:D/DojoDan/DojoDan.Slave
@@ -126,7 +131,7 @@ Donald's Alphabet Chase	D/Donalds Alphabet Chase	A-Games:D/DonaldsAlphabetChase/
 Donkey Kong	D/Donkey Kong	A-Games:D/DonkeyKong/DonkeyKong.slave
 Donk!: The Samurai Duck!	D/Donk The Samurai Duck	A-Games:D/DonkTheSamuraiDuck/DonkTheSamuraiDuck.slave
 Donk!: The Samurai Duck! AGA	D/Donk The Samurai Duck AGA	A-Games:D/DonkTheSamuraiDuckAGA/DonkTheSamuraiDuckAGA.slave
-Doodlebug	D/Doodlebug	A-Games:D/Doodlebug/Doodlebug.slave
+Doodlebug: Bug-Bash 2	D/Doodlebug Bug-Bash 2	A-Games:D/Doodlebug/Doodlebug.Slave
 Doofus	D/Doofus	A-Games:D/Doofus/Doofus.Slave
 Double Agent	D/Double Agent	A-Games:D/DoubleAgent/DoubleAgent.slave
 Double Dragon	D/Double Dragon	A-Games:D/DoubleDragon/DoubleDragon.Slave
@@ -134,6 +139,7 @@ Double Dragon II: The Revenge	D/Double Dragon II The Reven	A-Games:D/DoubleDrago
 Double Dragon II: The Revenge NTSC	D/Double Dragon II The Re V2	A-Games:D/DoubleDragon2NTSC/DoubleDragon2NTSC.Slave
 Double Dragon 3: The Rosetta Stone	D/Double Dragon 3 The Rosett	A-Games:D/DoubleDragon3/DoubleDragon3.slave
 Double Dribble	D/Double Dribble	A-Games:D/DoubleDribble/DoubleDribble.slave
+Down At The Trolls	D/Down At The Trolls	A-Games:D/DownAtTheTrolls/DownAtTheTrolls.Slave
 Downhill Challenge NTSC	D/Downhill Challenge NTSC	A-Games:D/DownhillChallengeNTSC/DownhillChallengeNTSC.Slave
 Drachen von Laas, Die DE	D/Drachen von Laas. Die DE	A-Games:D/DrachenVonLaasDe/DrachenVonLaasDe.slave
 Dragon Breed	D/Dragon Breed	A-Games:D/DragonBreed/DragonBreed.Slave
@@ -172,6 +178,7 @@ Drakkhen Image	D/Drakkhen Image	A-Games:D/DrakkhenImage/DrakkhenImage.Slave
 Drakkhen DE Image	D/Drakkhen DE Image	A-Games:D/DrakkhenImageDe/DrakkhenImageDe.Slave
 Drakkhen FR Image	D/Drakkhen FR Image	A-Games:D/DrakkhenImageFr/DrakkhenImageFr.Slave
 Drakkhen NTSC Image	D/Drakkhen NTSC Image	A-Games:D/DrakkhenImageNTSC/DrakkhenImageNTSC.Slave
+Dr. Cube's Magic Lands	D/Dr. Cubes Magic Lands	A-Games:D/DrCubesMagicLands/DrCubesMagicLands.Slave
 Dr. Doom's Revenge! 1Disk	D/Dr. Dooms Revenge 1Disk	A-Games:D/DrDoomsRevenge1Disk/DrDoomsRevenge1Disk.Slave
 Dr. Doom's Revenge! 2Disk NTSC	D/Dr. Dooms Revenge 2Disk NT	A-Games:D/DrDoomsRevengeNTSC2Disk/DrDoomsRevengeNTSC2Disk.Slave
 DreamWeb	D/DreamWeb	A-Games:D/DreamWeb/DreamWeb.Slave
@@ -191,6 +198,7 @@ Dune II: The Battle for Arrakis	D/Dune II The Battle for Arr	A-Games:D/Dune2/Dun
 Dune DE	D/Dune DE	A-Games:D/DuneDe/DuneDe.Slave
 Dune ES	D/Dune ES	A-Games:D/DuneEs/DuneEs.Slave
 Dune FR	D/Dune FR	A-Games:D/DuneFr/DuneFr.Slave
+Dune GR	D/Dune GR	A-Games:D/DuneGr/DuneGr.Slave
 Dune IT	D/Dune IT	A-Games:D/DuneIt/DuneIt.Slave
 Dungeon Master	D/Dungeon Master	A-Games:D/DungeonMaster/DungeonMaster.slave
 Dungeon Master II: The Legend of Skullkeep AGA	D/Dungeon Master II The Lege	A-Games:D/DungeonMaster2AGA/DungeonMaster2AGA.Slave
@@ -200,7 +208,7 @@ Dungeons of Avalon II: The Island of Darkness	D/Dungeons of Avalon II The	A-Game
 Dux	D/Dux	A-Games:D/Dux/Dux.Slave
 Dylan Dog: The Murderers	D/Dylan Dog The Murderers	A-Games:D/DylanDogTheMurderers/DylanDogTheMurderers.slave
 Dyna Blaster	D/Dyna Blaster	A-Games:D/DynaBlaster/DynaBlaster.slave
-Dynamite Düx	D/Dynamite Dux	A-Games:D/DynamiteDux/DynamiteDux.Slave
+Dynamite Düx	D/Dynamite Dux	A-Games:D/DynamiteDux/DynamiteDux.slave
 Dynasty Wars	D/Dynasty Wars	A-Games:D/DynastyWars/DynastyWars.slave
 Dyter-07	D/Dyter-07	A-Games:D/Dyter07/Dyter07.slave
 Diggers 2: Extractors CD32 Preview	D/Diggers 2 Extractors CD32	A-Games:E/ExtractorsPreviewCD32/ExtractorsPreviewCD32.slave

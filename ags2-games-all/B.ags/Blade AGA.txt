@@ -1,0 +1,7 @@
+Name      : Blade
+Version   : AGA
+Publisher : Alive Mediasoft
+Year      : 1998
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+RunFile   : BladeAGA.Slave

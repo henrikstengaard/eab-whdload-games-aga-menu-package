@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:D/DynamiteDux/DynamiteDux.Slave
+;RunFile=A-Games:D/DynamiteDux/DynamiteDux.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:D/DynamiteDux/"
 IF EXISTS ENV:whdloadargs
-  whdload "DynamiteDux.Slave" $whdloadargs
+  whdload "DynamiteDux.slave" $whdloadargs
 ELSE
-  whdload "DynamiteDux.Slave"
+  whdload "DynamiteDux.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/ReiseMittelpunktDerErdeDe/ReiseMittelpunktDerErdeDe.Slave
+
+; Run WHDLoad
+cd "A-Games:R/ReiseMittelpunktDerErdeDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "ReiseMittelpunktDerErdeDe.Slave" $whdloadargs
+ELSE
+  whdload "ReiseMittelpunktDerErdeDe.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CaveRunner/CaveRunner.slave
+
+; Run WHDLoad
+cd "A-Games:C/CaveRunner/"
+IF EXISTS ENV:whdloadargs
+  whdload "CaveRunner.slave" $whdloadargs
+ELSE
+  whdload "CaveRunner.slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Golden Eagle
+Version   : 512K
+Publisher : Loriciel
+Year      : 1991
+Players   : 1
+RunFile   : GoldenEagle512k.Slave

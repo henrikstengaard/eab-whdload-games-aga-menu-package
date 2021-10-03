@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BundesligaManagerHattDe/BundesligaManagerHattDe.Slave
+;RunFile=A-Games:B/BundesligaMngrHattAGADe/BundesligaMngrHattAGADe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BundesligaManagerHattDe/"
+cd "A-Games:B/BundesligaMngrHattAGADe/"
 IF EXISTS ENV:whdloadargs
-  whdload "BundesligaManagerHattDe.Slave" $whdloadargs
+  whdload "BundesligaMngrHattAGADe.slave" $whdloadargs
 ELSE
-  whdload "BundesligaManagerHattDe.Slave"
+  whdload "BundesligaMngrHattAGADe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

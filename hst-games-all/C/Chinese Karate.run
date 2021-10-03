@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/ChineseKarate/ChineseKarate.slave
+
+; Run WHDLoad
+cd "A-Games:C/ChineseKarate/"
+IF EXISTS ENV:whdloadargs
+  whdload "ChineseKarate.slave" $whdloadargs
+ELSE
+  whdload "ChineseKarate.slave"
+ENDIF

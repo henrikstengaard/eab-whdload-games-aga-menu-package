@@ -1,0 +1,5 @@
+Name      : Metro-Cross
+Publisher : [unofficial]
+Year      : 2013
+Players   : 1
+RunFile   : MetroCross.Slave

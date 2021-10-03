@@ -1,0 +1,7 @@
+Name      : Tex 04: San Francisco
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Genre     : Action, Adventure
+Players   : 1
+RunFile   : Tex04It.Slave

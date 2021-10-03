@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32ES.slave
+;RunFile=A-Games:D/DefensorDeLaCorona2CD32Es/DefensorDeLaCorona2CD32Es.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:D/DefensorDeLaCorona2CD32Es/"
 IF EXISTS ENV:whdloadargs
-  whdload "DefensorDeLaCorona2CD32ES.slave" $whdloadargs
+  whdload "DefensorDeLaCorona2CD32Es.slave" $whdloadargs
 ELSE
-  whdload "DefensorDeLaCorona2CD32ES.slave"
+  whdload "DefensorDeLaCorona2CD32Es.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

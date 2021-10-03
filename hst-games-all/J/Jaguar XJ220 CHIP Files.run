@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/JaguarXJ220FilesChip/JaguarXJ220FilesChip.Slave
+
+; Run WHDLoad
+cd "A-Games:J/JaguarXJ220FilesChip/"
+IF EXISTS ENV:whdloadargs
+  whdload "JaguarXJ220FilesChip.Slave" $whdloadargs
+ELSE
+  whdload "JaguarXJ220FilesChip.Slave"
+ENDIF

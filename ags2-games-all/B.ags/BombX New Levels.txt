@@ -1,0 +1,6 @@
+Name      : Bomb'X New Levels
+Publisher : Mediagogo
+Year      : 1993
+Genre     : Arcade - Miscellaneous
+Players   : 1
+RunFile   : BombXNewLevels.slave

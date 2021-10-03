@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BlackViper/BlackViper.Slave
+;RunFile=A-Games:B/BlackViper/BlackViper.slave
 
 ; Run WHDLoad
 cd "A-Games:B/BlackViper/"
 IF EXISTS ENV:whdloadargs
-  whdload "BlackViper.Slave" $whdloadargs
+  whdload "BlackViper.slave" $whdloadargs
 ELSE
-  whdload "BlackViper.Slave"
+  whdload "BlackViper.slave"
 ENDIF

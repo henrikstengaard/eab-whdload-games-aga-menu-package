@@ -1,0 +1,6 @@
+Name      : Full Metal Planete
+Version   : NTSC Files
+Publisher : Infogrames
+Year      : 1989
+Genre     : Strategy - War
+RunFile   : FullMetalPlaneteFilesNTSC.Slave

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SwordOfAragon/SwordOfAragon.slave
+;RunFile=A-Games:S/SwordOfAragon/SwordOfAragon.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/SwordOfAragon/"
 IF EXISTS ENV:whdloadargs
-  whdload "SwordOfAragon.slave" $whdloadargs
+  whdload "SwordOfAragon.Slave" $whdloadargs
 ELSE
-  whdload "SwordOfAragon.slave"
+  whdload "SwordOfAragon.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

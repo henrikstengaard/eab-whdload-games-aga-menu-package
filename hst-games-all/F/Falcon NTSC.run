@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/FalconNTSC/FalconNTSC.Slave
+;RunFile=A-Games:F/FalconNTSC/FalconNTSC.slave
 
 ; Run WHDLoad
 cd "A-Games:F/FalconNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "FalconNTSC.Slave" $whdloadargs
+  whdload "FalconNTSC.slave" $whdloadargs
 ELSE
-  whdload "FalconNTSC.Slave"
+  whdload "FalconNTSC.slave"
 ENDIF

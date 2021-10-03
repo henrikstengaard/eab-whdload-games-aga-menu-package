@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:S/SuperHangOn/SuperHangOn.Slave
+
+; Run WHDLoad
+cd "A-Beta:S/SuperHangOn/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperHangOn.Slave" $whdloadargs
+ELSE
+  whdload "SuperHangOn.Slave"
+ENDIF

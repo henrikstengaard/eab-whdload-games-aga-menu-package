@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FlugDerAmazonQueenDe/FlugDerAmazonQueenDe.Slave
+;RunFile=A-Games:F/FlugDerAmazonQueenDe/FlugDerAmazonQueenDe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/FlugDerAmazonQueenDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "FlugDerAmazonQueenDe.Slave" $whdloadargs
+  whdload "FlugDerAmazonQueenDe.slave" $whdloadargs
 ELSE
-  whdload "FlugDerAmazonQueenDe.Slave"
+  whdload "FlugDerAmazonQueenDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

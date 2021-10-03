@@ -3,4 +3,4 @@ Version   : Files
 Publisher : Infogrames
 Year      : 1989
 Players   : 1
-RunFile   : QuestForTimeBirdFiles.Slave
+RunFile   : QuestForTimeBirdFiles.slave

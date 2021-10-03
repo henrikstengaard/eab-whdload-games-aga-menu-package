@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CenterCourt2AGA/CenterCourt2AGA.slave
+
+; Run WHDLoad
+cd "A-Games:C/CenterCourt2AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "CenterCourt2AGA.slave" $whdloadargs
+ELSE
+  whdload "CenterCourt2AGA.slave"
+ENDIF

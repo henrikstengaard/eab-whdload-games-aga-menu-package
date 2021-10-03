@@ -1,0 +1,7 @@
+Name      : Prawo Krwi
+Language  : Polish
+Version   : AGA
+Publisher : Techland Soft
+Year      : 1995
+Players   : 1 Only
+RunFile   : PrawoKrwiAGAPl.slave

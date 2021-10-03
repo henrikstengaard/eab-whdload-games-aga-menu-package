@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:D/DejaVuNTSC/DejaVuNTSC.Slave
+;RunFile=A-Games:D/DejaVuNTSC/DejaVuNTSC.slave
 
 ; Run WHDLoad
 cd "A-Games:D/DejaVuNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "DejaVuNTSC.Slave" $whdloadargs
+  whdload "DejaVuNTSC.slave" $whdloadargs
 ELSE
-  whdload "DejaVuNTSC.Slave"
+  whdload "DejaVuNTSC.slave"
 ENDIF

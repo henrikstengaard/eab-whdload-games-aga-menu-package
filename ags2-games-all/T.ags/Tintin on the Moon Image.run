@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TintinOnTheMoonImage/TintinOnTheMoonImage.Slave
+;RunFile=A-Games:T/TintinOnTheMoonImage/TintinOnTheMoonImage.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/TintinOnTheMoonImage/"
 IF EXISTS ENV:whdloadargs
-  whdload "TintinOnTheMoonImage.Slave" $whdloadargs
+  whdload "TintinOnTheMoonImage.slave" $whdloadargs
 ELSE
-  whdload "TintinOnTheMoonImage.Slave"
+  whdload "TintinOnTheMoonImage.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

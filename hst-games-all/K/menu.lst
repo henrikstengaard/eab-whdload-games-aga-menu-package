@@ -25,8 +25,7 @@ Khalaan NTSC	K/Khalaan NTSC	A-Games:K/KhalaanNTSC/KhalaanNTSC.Slave
 Kick Off	K/Kick Off	A-Games:K/KickOff/KickOff.Slave
 Kick Off ExtraTime 1Disk	K/Kick Off ExtraTime 1Disk	A-Games:K/KickOff&ExtraTime1Disk/KickOff&ExtraTime1Disk.Slave
 Kick Off ExtraTime 2Disk	K/Kick Off ExtraTime 2Disk	A-Games:K/KickOff&ExtraTime2Disk/KickOff&ExtraTime2Disk.Slave
-Kick Off 2	K/Kick Off 2	A-Games:K/KickOff2/KickOff2.slave
-Kick Off 2	K/Kick Off 2 	A-Games:K/KickOff216/KickOff216.slave
+Kick Off 2	K/Kick Off 2	A-Games:K/KickOff2/KickOff2.Slave
 Kick Off 2 CV	K/Kick Off 2 CV	A-Games:K/KickOff2CV/KickOff2CV.slave
 Kick Off 2 DE	K/Kick Off 2 DE	A-Games:K/KickOff2De/KickOff2De.slave
 Kick Off 2 ES	K/Kick Off 2 ES	A-Games:K/KickOff2Es/KickOff2Es.slave
@@ -35,12 +34,13 @@ Kick Off 2: The Final Whistle CV	K/Kick Off 2 The Final Wh V2	A-Games:K/KickOff2
 Kick Off 2: The Final Whistle KickOff2FW DE	K/Kick Off 2 The Final Wh V3	A-Games:K/KickOff2FinalWhistleDe/KickOff2FWDe.Slave
 Kick Off 2 FR	K/Kick Off 2 FR	A-Games:K/KickOff2Fr/KickOff2Fr.slave
 Kick Off 2 IT	K/Kick Off 2 IT	A-Games:K/KickOff2It/KickOff2It.slave
-Kick Off 2	K/Kick Off 2  	A-Games:K/KickOff2PlusWC90/KickOff2PlusWC90.slave
+Kick Off 2	K/Kick Off 2 	A-Games:K/KickOff2PlusWC90/KickOff2PlusWC90.slave
 Kick Off 2 DE	K/Kick Off 2 DE 	A-Games:K/KickOff2PlusWC90De/KickOff2PlusWC90De.slave
 Kick Off 2 FR	K/Kick Off 2 FR 	A-Games:K/KickOff2PlusWC90Fr/KickOff2PlusWC90Fr.slave
 Kick Off 2 IT	K/Kick Off 2 IT 	A-Games:K/KickOff2PlusWC90It/KickOff2PlusWC90It.slave
 Kick Off 2: Return to Europe	K/Kick Off 2 Return to Europ	A-Games:K/KickOff2ReturnToEurope/KickOff2ReturnToEurope.slave
 Kick Off 3	K/Kick Off 3	A-Games:K/KickOff3/KickOff3.Slave
+Kick Off 3 AGA	K/Kick Off 3 AGA	A-Games:K/KickOff3AGA/KickOff3AGA.Slave
 Kick Off 3: European Challenge	K/Kick Off 3 European Challe	A-Games:K/KickOff3EuroChallenge/KickOff3EuroChallenge.Slave
 Kick Off 3 European Challenge AGA	K/Kick Off 3 European Cha V2	A-Games:K/KickOff3EuroChallengeAGA/KickOff3EuroChallengeAGA.Slave
 Kick Off 96	K/Kick Off 96	A-Games:K/KickOff96/KickOff96.slave
@@ -56,7 +56,7 @@ Killing Cloud, The NTSC	K/Killing Cloud. The NTSC	A-Games:K/KillingCloudNTSC/Kil
 Killing Game Show, The	K/Killing Game Show. The	A-Games:K/KillingGameShow/KillingGameShow.Slave
 Killing Machine	K/Killing Machine	A-Games:K/KillingMachine/KillingMachine.Slave
 Kinderama: Five Early Learning Games	K/Kinderama Five Early Learn	A-Games:K/Kinderama/Kinderama.Slave
-Kingmaker: The Quest for the Crown	K/Kingmaker The Quest for th	A-Games:K/KingmakerQuestForTheCrown/KingmakerQuestForTheCrown.Slave
+Kingmaker: The Quest for the Crown	K/Kingmaker The Quest for th	A-Games:K/Kingmaker/KingMaker.slave
 King of Chicago, The	K/King of Chicago. The	A-Games:K/KingOfChicago/KingOfChicago.Slave
 Kingpin: Arcade Sports Series Bowling	K/Kingpin Arcade Sports Seri	A-Games:K/Kingpin/Kingpin.Slave
 Kingpin: Arcade Sports Series Bowling 1MB	K/Kingpin Arcade Sports S V2	A-Games:K/Kingpin1Mb/Kingpin1Mb.Slave
@@ -64,10 +64,10 @@ Kingpin: Arcade Sports Series Bowling CD32	K/Kingpin Arcade Sports S V3	A-Games:
 Kingpin: Arcade Sports Bowling Demo	K/Kingpin Arcade Sports Bowl	A-Games:K/KingpinDemo/KingpinDemo.Slave
 King's Bounty	K/Kings Bounty	A-Games:K/KingsBounty/KingsBounty.slave
 King's Bounty NTSC	K/Kings Bounty NTSC	A-Games:K/KingsBountyNTSC/KingsBountyNTSC.Slave
-King's Quest	K/Kings Quest	A-Games:K/KingsQuest/KingsQuest.slave
+King's Quest	K/Kings Quest	A-Games:K/KingsQuest/KingsQuest.Slave
 King's Quest II	K/Kings Quest II	A-Games:K/KingsQuest2/KingsQuest2.Slave
 King's Quest III: To Heir is Human	K/Kings Quest III To Heir is	A-Games:K/KingsQuest3/KingsQuest3.Slave
-King's Quest IV	K/Kings Quest IV	A-Games:K/KingsQuest4/KingsQuest4.slave
+King's Quest IV	K/Kings Quest IV	A-Games:K/KingsQuest4/KingsQuest4.Slave
 King's Quest V	K/Kings Quest V	A-Games:K/KingsQuest5/KingsQuest5.slave
 King's Quest V DE	K/Kings Quest V DE	A-Games:K/KingsQuest5De/KingsQuest5De.slave
 King's Quest V	K/Kings Quest V 	A-Games:K/KingsQuest5DeMT32/KingsQuest5DeMT32.slave
@@ -78,18 +78,17 @@ King's Quest VI	K/Kings Quest VI	A-Games:K/KingsQuest6/KingsQuest6.slave
 King's Quest VI DE	K/Kings Quest VI DE	A-Games:K/KingsQuest6De/KingsQuest6De.slave
 King's Quest VI FR	K/Kings Quest VI FR	A-Games:K/KingsQuest6Fr/KingsQuest6Fr.slave
 King's Quest: Quest for the Crown	K/Kings Quest Quest for the	A-Games:K/KingsQuestEnhanced/KingsQuestEnhanced.slave
-King's Quest: Quest for the Crown	K/Kings Quest Quest for the 	A-Games:K/KingsQuestEnhancedMT32/KingsQuestEnhancedMT32.slave
 Kiro's Quest	K/Kiros Quest	A-Games:K/KirosQuest/KirosQuest.slave
 Klax	K/Klax	A-Games:K/Klax/Klax.Slave
-Knight Force	K/Knight Force	A-Games:K/KnightForce/KnightForce.Slave
+Knight Force	K/Knight Force	A-Games:K/KnightForce/KnightForce.slave
 Knightmare	K/Knightmare	A-Games:K/Knightmare/Knightmare.slave
 Knight Orc	K/Knight Orc	A-Games:K/KnightOrc/KnightOrc.Slave
 Knights of the Crystallion	K/Knights of the Crystallion	A-Games:K/KnightsOfTheCrystallion/KnightsOfTheCrystallion.slave
 Knights of the Crystallion KnightsOfCrystallion DE	K/Knights of the Crystall V2	A-Games:K/KnightsOfTheCrystallionDe/KnightsOfCrystallionDe.Slave
 Knights of the Sky	K/Knights of the Sky	A-Games:K/KnightsOfTheSky/KnightsOfTheSky.Slave
-Kristal, The	K/Kristal. The	A-Games:K/Kristal/Kristal.Slave
-Kristal, The DE	K/Kristal. The DE	A-Games:K/KristalDe/KristalDe.Slave
-Kristal, The NTSC	K/Kristal. The NTSC	A-Games:K/KristalNTSC/KristalNTSC.Slave
+Kristal, The	K/Kristal. The	A-Games:K/Kristal/Kristal.slave
+Kristal, The DE	K/Kristal. The DE	A-Games:K/KristalDe/KristalDe.slave
+Kristal, The NTSC	K/Kristal. The NTSC	A-Games:K/KristalNTSC/KristalNTSC.slave
 Krusty's Super Fun House	K/Krustys Super Fun House	A-Games:K/KrustysSuperFunHouse/KrustysSuperFunHouse.Slave
 Krypton Egg	K/Krypton Egg	A-Games:K/KryptonEgg/KryptonEgg.Slave
 Kult	K/Kult	A-Games:K/Kult/Kult.slave

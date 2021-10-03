@@ -1,0 +1,6 @@
+Name      : Simulman 04: Il Mondo Simulato
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Players   : 1
+RunFile   : Simulman04It.Slave

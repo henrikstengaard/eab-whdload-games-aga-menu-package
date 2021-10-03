@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/Lemmings2NTSC512KB/Lemmings2NTSC512KB.slave
+;RunFile=A-Games:L/Lemmings2512KBNTSC/Lemmings2512KBNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:L/Lemmings2NTSC512KB/"
+cd "A-Games:L/Lemmings2512KBNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "Lemmings2NTSC512KB.slave" $whdloadargs
+  whdload "Lemmings2512KBNTSC.slave" $whdloadargs
 ELSE
-  whdload "Lemmings2NTSC512KB.slave"
+  whdload "Lemmings2512KBNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

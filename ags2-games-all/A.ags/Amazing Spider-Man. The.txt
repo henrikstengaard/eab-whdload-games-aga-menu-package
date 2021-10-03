@@ -1,6 +1,0 @@
-Name      : Amazing Spider-Man, The
-Publisher : Empire, Paragon
-Year      : 1990
-Genre     : Platform
-Players   : 1
-RunFile   : AmazingSpiderman.slave

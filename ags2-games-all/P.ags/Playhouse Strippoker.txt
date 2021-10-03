@@ -1,0 +1,6 @@
+Name      : Playhouse Strippoker
+Publisher : Eurosoft
+Year      : 1988
+Genre     : Cards - Poker
+Players   : 1 Only
+RunFile   : PlayhouseStripPoker.Slave

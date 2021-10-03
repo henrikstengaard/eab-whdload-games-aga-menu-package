@@ -1,0 +1,6 @@
+Name      : E.S.S. - European Space Simulator
+Publisher : Tomahawk
+Year      : 1989
+Genre     : Simulation - Space
+Players   : 1 Only
+RunFile   : EuropeanSpaceSimulator.Slave

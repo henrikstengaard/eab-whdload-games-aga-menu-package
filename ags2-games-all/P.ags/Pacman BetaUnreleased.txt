@@ -1,0 +1,6 @@
+Name      : Pacman
+Publisher : Unknown
+Year      : 2021
+Genre     : Maze Game
+Players   : 1
+RunFile   : PacMan.slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MaupitiIslandEs/MaupitiIslandEs.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MaupitiIslandEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "MaupitiIslandEs.Slave" $whdloadargs
+ELSE
+  whdload "MaupitiIslandEs.Slave"
+ENDIF

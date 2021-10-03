@@ -1,0 +1,6 @@
+Name      : Jungle Book, The
+Publisher : Coktel Vision
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : JungleBook.Slave

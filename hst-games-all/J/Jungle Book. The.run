@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/JungleBook/JungleBook.Slave
+
+; Run WHDLoad
+cd "A-Games:J/JungleBook/"
+IF EXISTS ENV:whdloadargs
+  whdload "JungleBook.Slave" $whdloadargs
+ELSE
+  whdload "JungleBook.Slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Feudal Lords
+Publisher : Impressions
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 to 4
+RunFile   : FeudalLords.Slave

@@ -3,4 +3,4 @@ Publisher : Neo Software Produktions
 Year      : 1996
 Genre     : Racing - Motorcycle
 Players   : 1 Only
-RunFile   : BlackViper.Slave
+RunFile   : BlackViper.slave

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/LegendOfFaerghailDe/LegendOfFaerghailDe.Slave
+;RunFile=A-Games:L/LegendOfFaerghailDe/LegendOfFaerghailDe.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:L/LegendOfFaerghailDe/"
 IF EXISTS ENV:whdloadargs
-  whdload "LegendOfFaerghailDe.Slave" $whdloadargs
+  whdload "LegendOfFaerghailDe.slave" $whdloadargs
 ELSE
-  whdload "LegendOfFaerghailDe.Slave"
+  whdload "LegendOfFaerghailDe.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

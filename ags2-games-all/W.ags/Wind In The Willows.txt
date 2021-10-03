@@ -1,0 +1,6 @@
+Name      : Wind In The Willows
+Publisher : LeisureLand (School Software)
+Year      : 1992
+Genre     : Adventure
+Players   : 1
+RunFile   : WindInTheWillows.Slave

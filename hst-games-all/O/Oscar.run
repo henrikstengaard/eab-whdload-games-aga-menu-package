@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/Oscar/Oscar.slave
+
+; Run WHDLoad
+cd "A-Games:O/Oscar/"
+IF EXISTS ENV:whdloadargs
+  whdload "Oscar.slave" $whdloadargs
+ELSE
+  whdload "Oscar.slave"
+ENDIF

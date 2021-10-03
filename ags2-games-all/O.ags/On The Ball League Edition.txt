@@ -1,0 +1,6 @@
+Name      : On The Ball: League Edition
+Publisher : Sports (Ascon)
+Year      : 1994
+Genre     : Sport
+Players   : 4
+RunFile   : OnTheBallLE.slave

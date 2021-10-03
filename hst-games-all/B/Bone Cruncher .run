@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BoneCruncherEnhanced/BoneCruncherEnhanced.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BoneCruncherEnhanced/"
+IF EXISTS ENV:whdloadargs
+  whdload "BoneCruncherEnhanced.Slave" $whdloadargs
+ELSE
+  whdload "BoneCruncherEnhanced.Slave"
+ENDIF

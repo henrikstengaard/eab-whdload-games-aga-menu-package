@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TFXAGA/TFXAGA.slave
+
+; Run WHDLoad
+cd "A-Games:T/TFXAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "TFXAGA.slave" $whdloadargs
+ELSE
+  whdload "TFXAGA.slave"
+ENDIF

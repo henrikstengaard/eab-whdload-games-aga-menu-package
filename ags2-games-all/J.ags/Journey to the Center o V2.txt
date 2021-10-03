@@ -1,0 +1,7 @@
+Name      : Journey to the Center of the Earth
+Language  : German
+Publisher : Rainbow Arts
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : ReiseMittelpunktDerErdeDe.Slave

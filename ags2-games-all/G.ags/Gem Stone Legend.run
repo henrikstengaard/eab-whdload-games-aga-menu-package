@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/GemStoneLegend/GemStoneLegend.Slave
+;RunFile=A-Games:G/GemStoneLegend/GemStoneLegend.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:G/GemStoneLegend/"
 IF EXISTS ENV:whdloadargs
-  whdload "GemStoneLegend.Slave" $whdloadargs
+  whdload "GemStoneLegend.slave" $whdloadargs
 ELSE
-  whdload "GemStoneLegend.Slave"
+  whdload "GemStoneLegend.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

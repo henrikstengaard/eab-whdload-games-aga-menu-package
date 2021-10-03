@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:A/Area88/Area88.slave
+;RunFile=A-Games:U/UNSquadron/UNSquadron.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:A/Area88/"
+cd "A-Games:U/UNSquadron/"
 IF EXISTS ENV:whdloadargs
-  whdload "Area88.slave" $whdloadargs
+  whdload "UNSquadron.slave" $whdloadargs
 ELSE
-  whdload "Area88.slave"
+  whdload "UNSquadron.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SWOS98/SWOS98.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SWOS98/"
+IF EXISTS ENV:whdloadargs
+  whdload "SWOS98.Slave" $whdloadargs
+ELSE
+  whdload "SWOS98.Slave"
+ENDIF

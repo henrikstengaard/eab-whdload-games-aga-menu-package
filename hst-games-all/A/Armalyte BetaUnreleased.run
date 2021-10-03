@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:A/Armalyte/Armalyte.Slave
+
+; Run WHDLoad
+cd "A-Beta:A/Armalyte/"
+IF EXISTS ENV:whdloadargs
+  whdload "Armalyte.Slave" $whdloadargs
+ELSE
+  whdload "Armalyte.Slave"
+ENDIF

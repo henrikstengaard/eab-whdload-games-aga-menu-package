@@ -1,0 +1,6 @@
+Name      : Center Court Tennis
+Version   : AGA
+Publisher : Acid
+Year      : 1994
+Players   : 1 - 2 (2 simultaneous)
+RunFile   : CenterCourtAGA.Slave

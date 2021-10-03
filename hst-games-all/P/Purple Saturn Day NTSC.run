@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PurpleSaturnDayNTSC/PurpleSaturnDayNTSC.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PurpleSaturnDayNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "PurpleSaturnDayNTSC.Slave" $whdloadargs
+ELSE
+  whdload "PurpleSaturnDayNTSC.Slave"
+ENDIF

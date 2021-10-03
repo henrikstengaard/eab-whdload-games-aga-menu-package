@@ -3,4 +3,4 @@ Version   : NTSC
 Publisher : Mindscape
 Year      : 1992
 Players   : 1
-RunFile   : FourCrystalsOfTrazereNTSC.Slave
+RunFile   : getlegendsavedisk.slave

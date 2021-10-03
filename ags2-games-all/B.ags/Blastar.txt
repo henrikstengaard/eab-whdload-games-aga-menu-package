@@ -2,4 +2,4 @@ Name      : Blastar
 Publisher : Core Design
 Year      : 1993
 Players   : 1 Only
-RunFile   : Blastar.slave
+RunFile   : Blastar.Slave

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:R/RoadRash/RoadRash.Slave
+;RunFile=A-Games:R/RoadRash/RoadRash.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:R/RoadRash/"
 IF EXISTS ENV:whdloadargs
-  whdload "RoadRash.Slave" $whdloadargs
+  whdload "RoadRash.slave" $whdloadargs
 ELSE
-  whdload "RoadRash.Slave"
+  whdload "RoadRash.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

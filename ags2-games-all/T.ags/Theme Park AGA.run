@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/ThemeParkAGA/ThemeParkAGA.Slave
+;RunFile=A-Games:T/ThemeParkAGA/ThemeParkAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/ThemeParkAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "ThemeParkAGA.Slave" $whdloadargs
+  whdload "ThemeParkAGA.slave" $whdloadargs
 ELSE
-  whdload "ThemeParkAGA.Slave"
+  whdload "ThemeParkAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

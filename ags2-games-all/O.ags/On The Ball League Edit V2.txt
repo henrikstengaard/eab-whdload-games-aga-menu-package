@@ -1,0 +1,7 @@
+Name      : On The Ball: League Edition AGA
+Version   : AGA
+Publisher : Sports (Ascon)
+Year      : 1994
+Genre     : Sport
+Players   : 4
+RunFile   : OnTheBallLEAGA.slave

@@ -1,0 +1,7 @@
+Name      : Cruise for a Corpse
+Version   : NTSC
+Publisher : US Gold
+Year      : 1991
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : CruiseForACorpseNTSC.Slave

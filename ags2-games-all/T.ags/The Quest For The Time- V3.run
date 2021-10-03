@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:Q/QueteLOiseauDuTempFrFiles/QueteLOiseauDuTempFrFiles.Slave
+;RunFile=A-Games:Q/QueteLOiseauDuTempFrFiles/QueteLOiseauDuTempFrFiles.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:Q/QueteLOiseauDuTempFrFiles/"
 IF EXISTS ENV:whdloadargs
-  whdload "QueteLOiseauDuTempFrFiles.Slave" $whdloadargs
+  whdload "QueteLOiseauDuTempFrFiles.slave" $whdloadargs
 ELSE
-  whdload "QueteLOiseauDuTempFrFiles.Slave"
+  whdload "QueteLOiseauDuTempFrFiles.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

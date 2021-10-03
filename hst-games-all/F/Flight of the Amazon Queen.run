@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:F/FlightOfTheAmazonQueen/FlightOfTheAmazonQueen.Slave
+;RunFile=A-Games:F/FlightOfTheAmazonQueen/FlightOfTheAmazonQueen.slave
 
 ; Run WHDLoad
 cd "A-Games:F/FlightOfTheAmazonQueen/"
 IF EXISTS ENV:whdloadargs
-  whdload "FlightOfTheAmazonQueen.Slave" $whdloadargs
+  whdload "FlightOfTheAmazonQueen.slave" $whdloadargs
 ELSE
-  whdload "FlightOfTheAmazonQueen.Slave"
+  whdload "FlightOfTheAmazonQueen.slave"
 ENDIF

@@ -1,4 +1,4 @@
-Hard 'n' Heavy	H/Hard n Heavy	A-Games:G/Giana2/Giana2.slave
+Hard 'n' Heavy (Beta/Unreleased)	H/Hard n Heavy BetaUnrelease	A-Beta:G/Giana2/Giana2.slave
 Hacker II: The Doomsday Papers	H/Hacker II The Doomsday Pap	A-Games:H/Hacker2/Hacker2.Slave
 Hacker NTSC	H/Hacker NTSC	A-Games:H/HackerNTSC/HackerNTSC.Slave
 Hägar	H/Hagar	A-Games:H/HagarTheHorrible/HagarTheHorrible.Slave
@@ -12,7 +12,8 @@ Hardball!	H/Hardball	A-Games:H/HardBall/HardBall.Slave
 Hardball II NTSC	H/Hardball II NTSC	A-Games:H/HardBall2NTSC/HardBall2NTSC.Slave
 Hard Drivin'	H/Hard Drivin	A-Games:H/HardDrivin/HardDrivin.Slave
 Hard Drivin'	H/Hard Drivin 	A-Games:H/HardDrivin2/HardDrivin2.Slave
-Hard 'n' Heavy	H/Hard n Heavy 	A-Games:H/HardNHeavy/HardNHeavy.slave
+Hard 'n' Heavy	H/Hard n Heavy	A-Games:H/HardNHeavy/HardNHeavy.slave
+Hare Raising Havoc NTSC	H/Hare Raising Havoc NTSC	A-Games:H/HareRaisingHavocNTSC/HareRaisingHavocNTSC.slave
 Harlequin 1MB	H/Harlequin 1MB	A-Games:H/Harlequin1MB/Harlequin1MB.Slave
 Harlequin 512KB	H/Harlequin 512KB	A-Games:H/Harlequin512KB/Harlequin512KB.Slave
 Harley-Davidson	H/Harley-Davidson	A-Games:H/HarleyDavidson/HarleyDavidson.slave
@@ -20,7 +21,6 @@ Harpoon & Battleset 1: Greenland - Iceland - United Kingdom Gap	H/Harpoon Battle
 Harpoon Battleset 2: North Atlantic Convoys	H/Harpoon Battleset 2 North	A-Games:H/Harpoon&Battleset2/Harpoon&Battleset2.slave
 Harpoon Battleset 3: The Mediterranean Conflict	H/Harpoon Battleset 3 The Me	A-Games:H/Harpoon&Battleset3/Harpoon&Battleset3.slave
 Harpoon Battleset 4: The Indian Ocean	H/Harpoon Battleset 4 The In	A-Games:H/Harpoon&Battleset4/Harpoon&Battleset4.slave
-Harrier Combat Simulator NTSC	H/Harrier Combat Simulator N	A-Games:H/HarrierCombatSimNTSC/HarrierCombatSimNTSC.Slave
 H.A.T.E.: Hostile All Terrain Encounter	H/H.A.T.E. Hostile All Terra	A-Games:H/HATE/HATE.slave
 Hawkeye	H/Hawkeye	A-Games:H/Hawkeye/Hawkeye.slave
 Head Over Heels	H/Head Over Heels	A-Games:H/HeadOverHeels/HeadOverHeels.slave
@@ -35,6 +35,7 @@ Heimdall 2: Into the Hall of Worlds	H/Heimdall 2 Into the Hall o	A-Games:H/Heimd
 Heimdall 2: Into the Hall of Worlds AGA	H/Heimdall 2 Into the Hal V2	A-Games:H/Heimdall2AGA/Heimdall2AGA.Slave
 Heimdall 2: Into the Hall of Worlds CD32	H/Heimdall 2 Into the Hal V3	A-Games:H/Heimdall2CD32/Heimdall2CD32.Slave
 Heimdall DE	H/Heimdall DE	A-Games:H/HeimdallDe/HeimdallDe.slave
+Heimdall ES	H/Heimdall ES	A-Games:H/HeimdallEs/HeimdallEs.slave
 Heimdall FR	H/Heimdall FR	A-Games:H/HeimdallFr/HeimdallFr.slave
 Hellbent	H/Hellbent	A-Games:H/Hellbent/Hellbent.Slave
 Hellfire Attack	H/Hellfire Attack	A-Games:H/HellfireAttack/HellfireAttack.Slave
@@ -46,12 +47,14 @@ Heroes of the Lance	H/Heroes of the Lance	A-Games:H/HeroesOfTheLance/HeroesOfThe
 HeroQuest	H/HeroQuest	A-Games:H/HeroQuest/HeroQuest.slave
 HeroQuest	H/HeroQuest 	A-Games:H/HeroQuest&ReturnWitchLord/HeroQuest&ReturnWitchLord.slave
 HeroQuest II: Legacy of Sorasil	H/HeroQuest II Legacy of Sor	A-Games:H/HeroQuest2/HeroQuest2.Slave
-HeroQuest DE Fix	H/HeroQuest DE Fix	A-Games:H/HeroQuestDeFix/HeroQuestDeFix.slave
+HeroQuest DE Fix (Beta/Unreleased)	H/HeroQuest DE Fix BetaUnrel	A-Beta:H/HeroQuestDeFix/HeroQuestDeFix.slave
+Hero's Quest	H/Heros Quest	A-Games:H/HerosQuest/HerosQuest.slave
 Hexuma: Das Auge Des Kal DE	H/Hexuma Das Auge Des Kal DE	A-Games:H/HexumaDe/HexumaDe.Slave
 High Seas Trader AGA	H/High Seas Trader AGA	A-Games:H/HighSeasTraderAGA/HighSeasTraderAGA.Slave
 High Steel	H/High Steel	A-Games:H/HighSteel/HighSteel.Slave
-Highway Hawks	H/Highway Hawks	A-Games:H/HighwayHawks/HighwayHawks.Slave
+Highway Hawks	H/Highway Hawks	A-Games:H/HighwayHawks/HighwayHawks.slave
 Highway Patrol II	H/Highway Patrol II	A-Games:H/HighwayPatrol2/HighwayPatrol2.Slave
+Highway Patrol II FAST	H/Highway Patrol II FAST	A-Games:H/HighwayPatrol2Fast/HighwayPatrol2Fast.Slave
 Hillsfar	H/Hillsfar	A-Games:H/Hillsfar/Hillsfar.Slave
 Hillsfar DE	H/Hillsfar DE	A-Games:H/HillsfarDe/HillsfarDe.Slave
 Hill Street Blues	H/Hill Street Blues	A-Games:H/HillStreetBlues/HillStreetBlues.Slave
@@ -75,12 +78,14 @@ Home Alone	H/Home Alone	A-Games:H/HomeAlone/HomeAlone.Slave
 Hong Kong Phooey	H/Hong Kong Phooey	A-Games:H/HongKongPhooey/HongKongPhooey.Slave
 Hook	H/Hook	A-Games:H/Hook/Hook.slave
 Horror Zombies from the Crypt	H/Horror Zombies from the Cr	A-Games:H/HorrorZombiesFromTheCrypt/HorrorZombiesFromTheCrypt.Slave
+Hostage: Rescue Mission NTSC	H/Hostage Rescue Mission NTS	A-Games:H/HostageNTSC/HostageNTSC.Slave
 Hostages	H/Hostages	A-Games:H/Hostages/Hostages.Slave
 Hostile Breed	H/Hostile Breed	A-Games:H/HostileBreed/HostileBreed.Slave
 Hot Rod	H/Hot Rod	A-Games:H/HotRod/HotRod.Slave
 Hot Rubber	H/Hot Rubber	A-Games:H/HotRubber/HotRubber.Slave
 Hotshot	H/Hotshot	A-Games:H/Hotshot/Hotshot.Slave
 Hound of Shadow, The	H/Hound of Shadow. The	A-Games:H/HoundOfShadow/HoundOfShadow.Slave
+Hoyle Book Of Games Volume 3: Great Board Games	H/Hoyle Book Of Games Volume	A-Games:H/HoyleVolume3/HoyleVolume3.slave
 Huckleberry Hound in Hollywood Capers	H/Huckleberry Hound in Holly	A-Games:H/HuckleberryHound/HuckleberryHound.Slave
 Hudson Hawk	H/Hudson Hawk	A-Games:H/HudsonHawk/HudsonHawk.Slave
 Hugo på nye Eventyr DK	H/Hugo pa nye Eventyr DK	A-Games:H/Hugo1Dk/Hugo1Dk.Slave
@@ -88,7 +93,7 @@ Hugo på nye Eventyr FI	H/Hugo pa nye Eventyr FI	A-Games:H/Hugo1Fi/Hugo1Fi.Slave
 Hugo på nye Eventyr Del 2 DK	H/Hugo pa nye Eventyr Del 2	A-Games:H/Hugo2Dk/Hugo2Dk.Slave
 Hugo på nye Eventyr Del 2 FI	H/Hugo pa nye Eventyr Del 2 	A-Games:H/Hugo2Fi/Hugo2Fi.Slave
 Hugo på nye Eventyr DE	H/Hugo pa nye Eventyr DE	A-Games:H/HugoDe/HugoDe.Slave
-Hugo på nye Eventyr ES	H/Hugo pa nye Eventyr ES	A-Games:H/HugoEs/HugoEs.Slave
+Hugo på nye Eventyr ES (Beta/Unreleased)	H/Hugo pa nye Eventyr ES Bet	A-Beta:H/HugoEs/HugoEs.Slave
 Hugo på nye Eventyr SE	H/Hugo pa nye Eventyr SE	A-Games:H/HugoSe/HugoSe.Slave
 Human Killing Machine	H/Human Killing Machine	A-Games:H/HumanKillingMachine/HumanKillingMachine.slave
 Humans, The	H/Humans. The	A-Games:H/Humans/Humans.slave
@@ -102,7 +107,7 @@ Hunter	H/Hunter	A-Games:H/Hunter/Hunter.Slave
 Hunter DE	H/Hunter DE	A-Games:H/HunterDe/HunterDe.slave
 Hunter FR	H/Hunter FR	A-Games:H/HunterFr/HunterFr.slave
 Hunt for Red October, The	H/Hunt for Red October. The	A-Games:H/HuntForRedOctoberTheMovie/HuntForRedOctoberTheMovie.Slave
-Hybris	H/Hybris	A-Games:H/Hybris/Hybris.slave
+Hybris (Beta/Unreleased)	H/Hybris BetaUnreleased	A-Beta:H/Hybris/Hybris.slave
 Hybris NTSC	H/Hybris NTSC	A-Games:H/HybrisNTSC/HybrisNTSC.Slave
 Hydra	H/Hydra	A-Games:H/Hydra/Hydra.Slave
 Hyperdome	H/Hyperdome	A-Games:H/Hyperdome/Hyperdome.Slave

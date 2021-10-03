@@ -1,0 +1,6 @@
+Name      : Wings of Fury
+Version   : FAST
+Publisher : Brøderbund
+Year      : 1990
+Players   : 1 Only
+RunFile   : WingsOfFuryFast.Slave

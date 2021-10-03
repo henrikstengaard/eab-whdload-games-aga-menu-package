@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LegionsOfDawn/LegionsOfDawn.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LegionsOfDawn/"
+IF EXISTS ENV:whdloadargs
+  whdload "LegionsOfDawn.Slave" $whdloadargs
+ELSE
+  whdload "LegionsOfDawn.Slave"
+ENDIF

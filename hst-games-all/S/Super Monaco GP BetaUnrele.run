@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:S/SuperMonacoGP/SuperMonacoGP.Slave
+
+; Run WHDLoad
+cd "A-Beta:S/SuperMonacoGP/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperMonacoGP.Slave" $whdloadargs
+ELSE
+  whdload "SuperMonacoGP.Slave"
+ENDIF

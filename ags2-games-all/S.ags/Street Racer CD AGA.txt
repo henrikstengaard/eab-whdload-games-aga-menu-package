@@ -1,0 +1,7 @@
+Name      : Street Racer
+Version   : CD AGA
+Publisher : Guildhall
+Year      : 1997
+Genre     : Racing - Cars
+Players   : 1 to 4
+RunFile   : StreetRacerAGACD.slave

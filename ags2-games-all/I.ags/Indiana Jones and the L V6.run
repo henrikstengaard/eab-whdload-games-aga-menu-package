@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:I/IndyJonesLastCrusAdvNTSC/IndyJonesLastCrusAdvNTSC.slave
+;RunFile=A-Games:I/IndyJonesLastCrusAdvNTSC/IndyLastCrusAdvNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:I/IndyJonesLastCrusAdvNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "IndyJonesLastCrusAdvNTSC.slave" $whdloadargs
+  whdload "IndyLastCrusAdvNTSC.slave" $whdloadargs
 ELSE
-  whdload "IndyJonesLastCrusAdvNTSC.slave"
+  whdload "IndyLastCrusAdvNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

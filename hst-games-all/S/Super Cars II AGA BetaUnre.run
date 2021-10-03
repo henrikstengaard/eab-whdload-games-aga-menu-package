@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:S/SuperCars2AGA/SuperCars2AGA.slave
+
+; Run WHDLoad
+cd "A-Beta:S/SuperCars2AGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperCars2AGA.slave" $whdloadargs
+ELSE
+  whdload "SuperCars2AGA.slave"
+ENDIF

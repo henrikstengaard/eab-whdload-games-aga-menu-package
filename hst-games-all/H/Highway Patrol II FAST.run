@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HighwayPatrol2Fast/HighwayPatrol2Fast.Slave
+
+; Run WHDLoad
+cd "A-Games:H/HighwayPatrol2Fast/"
+IF EXISTS ENV:whdloadargs
+  whdload "HighwayPatrol2Fast.Slave" $whdloadargs
+ELSE
+  whdload "HighwayPatrol2Fast.Slave"
+ENDIF

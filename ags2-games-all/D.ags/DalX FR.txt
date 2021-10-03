@@ -1,0 +1,7 @@
+Name      : Dal'X
+Language  : French
+Publisher : Mediagogo
+Year      : 1994
+Genre     : Platformer - 3D
+Players   : 1 or 2, Simultaneous
+RunFile   : DalXFr.Slave

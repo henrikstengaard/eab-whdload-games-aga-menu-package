@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:E/Exile/Exile.Slave
+;RunFile=A-Games:E/Exile/Exile.slave
 
 ; Run WHDLoad
 cd "A-Games:E/Exile/"
 IF EXISTS ENV:whdloadargs
-  whdload "Exile.Slave" $whdloadargs
+  whdload "Exile.slave" $whdloadargs
 ELSE
-  whdload "Exile.Slave"
+  whdload "Exile.slave"
 ENDIF

@@ -1,0 +1,7 @@
+Name      : Hostage: Rescue Mission
+Version   : NTSC
+Publisher : Mindscape
+Year      : 1989
+Genre     : Multi Type
+Players   : 1
+RunFile   : HostageNTSC.Slave

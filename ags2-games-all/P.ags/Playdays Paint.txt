@@ -1,0 +1,5 @@
+Name      : Playdays Paint
+Publisher : Alternative Software
+Year      : 1996
+Genre     : Educational - Children
+RunFile   : Playdays.Slave

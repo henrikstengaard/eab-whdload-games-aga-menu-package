@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MixedUpMotherGoose/MixedUpMotherGoose.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MixedUpMotherGoose/"
+IF EXISTS ENV:whdloadargs
+  whdload "MixedUpMotherGoose.Slave" $whdloadargs
+ELSE
+  whdload "MixedUpMotherGoose.Slave"
+ENDIF

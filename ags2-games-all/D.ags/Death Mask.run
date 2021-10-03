@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:D/DeathMask/DeathMask.Slave
+;RunFile=A-Games:D/DeathMask/DeathMask.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:D/DeathMask/"
 IF EXISTS ENV:whdloadargs
-  whdload "DeathMask.Slave" $whdloadargs
+  whdload "DeathMask.slave" $whdloadargs
 ELSE
-  whdload "DeathMask.Slave"
+  whdload "DeathMask.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

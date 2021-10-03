@@ -3,4 +3,4 @@ Publisher : Mindscape
 Year      : 1991
 Genre     : Sports - Boxing
 Players   : 1 or 2, Simultaneous
-RunFile   : 4DSportsBoxing.Slave
+RunFile   : 4DSportsBoxing.slave

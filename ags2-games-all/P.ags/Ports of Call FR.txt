@@ -1,0 +1,7 @@
+Name      : Ports of Call
+Language  : French
+Publisher : Aegis
+Year      : 1987
+Genre     : Strategy - Company
+Players   : 1 to 4
+RunFile   : PortsOfCallFr.Slave

@@ -1,6 +1,6 @@
 Name      : Myth
-Publisher : Rainbird
+Publisher : Magnetic Scrolls
 Year      : 1989
-Genre     : Adventure - Graphics/Text
-Players   : 1 Only
+Genre     : Adventure
+Players   : 1
 RunFile   : MythSystem3.slave

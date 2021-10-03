@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TopWrestling/TopWrestling.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TopWrestling/"
+IF EXISTS ENV:whdloadargs
+  whdload "TopWrestling.Slave" $whdloadargs
+ELSE
+  whdload "TopWrestling.Slave"
+ENDIF

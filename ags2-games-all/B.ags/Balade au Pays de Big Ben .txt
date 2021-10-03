@@ -1,0 +1,7 @@
+Name      : Balade au Pays de Big Ben
+Language  : German
+Publisher : Coktel Vision
+Year      : 1989
+Genre     : Educational - Miscellaneous
+Players   : 1 Only
+RunFile   : ReiseInsLandDesBigBenDe.Slave

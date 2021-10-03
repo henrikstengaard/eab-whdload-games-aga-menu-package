@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/Minos/Minos.Slave
+
+; Run WHDLoad
+cd "A-Games:M/Minos/"
+IF EXISTS ENV:whdloadargs
+  whdload "Minos.Slave" $whdloadargs
+ELSE
+  whdload "Minos.Slave"
+ENDIF

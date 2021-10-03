@@ -3,4 +3,4 @@ Publisher : Renegade
 Year      : 1992
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : Fire&Ice.slave
+RunFile   : FireAndIce.slave

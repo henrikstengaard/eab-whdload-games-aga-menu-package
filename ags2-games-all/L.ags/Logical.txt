@@ -3,4 +3,4 @@ Publisher : Rainbow Arts
 Year      : 1991
 Genre     : Brain - Puzzle
 Players   : 1 Only
-RunFile   : Logical.Slave
+RunFile   : Logical.slave

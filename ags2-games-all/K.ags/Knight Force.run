@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:K/KnightForce/KnightForce.Slave
+;RunFile=A-Games:K/KnightForce/KnightForce.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:K/KnightForce/"
 IF EXISTS ENV:whdloadargs
-  whdload "KnightForce.Slave" $whdloadargs
+  whdload "KnightForce.slave" $whdloadargs
 ELSE
-  whdload "KnightForce.Slave"
+  whdload "KnightForce.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

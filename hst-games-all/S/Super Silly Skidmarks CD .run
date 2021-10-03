@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperSillySkidmarksLMCD/SuperSillySkidmarksLMCD.slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperSillySkidmarksLMCD/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSillySkidmarksLMCD.slave" $whdloadargs
+ELSE
+  whdload "SuperSillySkidmarksLMCD.slave"
+ENDIF

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TimeMachine/TimeMachine.slave
+;RunFile=A-Games:T/TimeMachine/TimeMachine.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/TimeMachine/"
 IF EXISTS ENV:whdloadargs
-  whdload "TimeMachine.slave" $whdloadargs
+  whdload "TimeMachine.Slave" $whdloadargs
 ELSE
-  whdload "TimeMachine.slave"
+  whdload "TimeMachine.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/getlegendsavedisk.slave
+;RunFile=A-Games:F/FourCrystalsOfTrazereNTSC/FourCrystalsOfTrazereNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/FourCrystalsOfTrazereNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "getlegendsavedisk.slave" $whdloadargs
+  whdload "FourCrystalsOfTrazereNTSC.Slave" $whdloadargs
 ELSE
-  whdload "getlegendsavedisk.slave"
+  whdload "FourCrystalsOfTrazereNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

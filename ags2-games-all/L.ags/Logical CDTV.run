@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/LogicalCDTV/LogicalCDTV.Slave
+;RunFile=A-Games:L/LogicalCDTV/LogicalCDTV.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:L/LogicalCDTV/"
 IF EXISTS ENV:whdloadargs
-  whdload "LogicalCDTV.Slave" $whdloadargs
+  whdload "LogicalCDTV.slave" $whdloadargs
 ELSE
-  whdload "LogicalCDTV.Slave"
+  whdload "LogicalCDTV.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

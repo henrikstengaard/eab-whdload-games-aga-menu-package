@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EnigmeAOxford/EnigmeAOxford.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EnigmeAOxford/"
+IF EXISTS ENV:whdloadargs
+  whdload "EnigmeAOxford.Slave" $whdloadargs
+ELSE
+  whdload "EnigmeAOxford.Slave"
+ENDIF

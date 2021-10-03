@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:A/AsterixOpHinkelsteinDe/AsterixOpHinkelsteinDe.slave
+;RunFile=A-Games:A/AsterixLeCoupDuMenhirFr/AsterixLeCoupDuMenhirFr.slave
 
 ; Run WHDLoad
-cd "A-Games:A/AsterixOpHinkelsteinDe/"
+cd "A-Games:A/AsterixLeCoupDuMenhirFr/"
 IF EXISTS ENV:whdloadargs
-  whdload "AsterixOpHinkelsteinDe.slave" $whdloadargs
+  whdload "AsterixLeCoupDuMenhirFr.slave" $whdloadargs
 ELSE
-  whdload "AsterixOpHinkelsteinDe.slave"
+  whdload "AsterixLeCoupDuMenhirFr.slave"
 ENDIF

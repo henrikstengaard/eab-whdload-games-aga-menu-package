@@ -1,0 +1,6 @@
+Name      : Count Duckula II
+Publisher : Alternative Software
+Year      : 1992
+Genre     : Platformer - Multi Screen
+Players   : 1 Only
+RunFile   : CountDuckula2.Slave

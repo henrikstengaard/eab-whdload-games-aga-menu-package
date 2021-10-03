@@ -1,0 +1,7 @@
+Name      : Bivouac
+Language  : French
+Publisher : Infogrames
+Year      : 1987
+Genre     : Sports - Miscellaneous
+Players   : 1 Only
+RunFile   : BivouacFr.slave

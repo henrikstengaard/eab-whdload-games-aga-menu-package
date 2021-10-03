@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/WestPhaserFr/WestPhaserFr.Slave
+
+; Run WHDLoad
+cd "A-Games:W/WestPhaserFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "WestPhaserFr.Slave" $whdloadargs
+ELSE
+  whdload "WestPhaserFr.Slave"
+ENDIF

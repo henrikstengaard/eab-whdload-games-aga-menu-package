@@ -3,4 +3,4 @@ Publisher : Infogrames
 Year      : 1988
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : StirCrazyFeaturingBobo.Slave
+RunFile   : Bobo.Slave

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:K/KingmakerQuestForTheCrown/KingmakerQuestForTheCrown.Slave
+;RunFile=A-Games:K/Kingmaker/KingMaker.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:K/KingmakerQuestForTheCrown/"
+cd "A-Games:K/Kingmaker/"
 IF EXISTS ENV:whdloadargs
-  whdload "KingmakerQuestForTheCrown.Slave" $whdloadargs
+  whdload "KingMaker.slave" $whdloadargs
 ELSE
-  whdload "KingmakerQuestForTheCrown.Slave"
+  whdload "KingMaker.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

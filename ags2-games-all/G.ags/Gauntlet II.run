@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/Gauntlet2/Gauntlet2.slave
+;RunFile=A-Games:G/Gauntlet2/Gauntlet2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:G/Gauntlet2/"
 IF EXISTS ENV:whdloadargs
-  whdload "Gauntlet2.slave" $whdloadargs
+  whdload "Gauntlet2.Slave" $whdloadargs
 ELSE
-  whdload "Gauntlet2.slave"
+  whdload "Gauntlet2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

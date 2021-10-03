@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:U/Ultima6/Ultima6.Slave
+
+; Run WHDLoad
+cd "A-Beta:U/Ultima6/"
+IF EXISTS ENV:whdloadargs
+  whdload "Ultima6.Slave" $whdloadargs
+ELSE
+  whdload "Ultima6.Slave"
+ENDIF

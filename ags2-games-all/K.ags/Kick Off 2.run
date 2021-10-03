@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:K/KickOff2/KickOff2.slave
+;RunFile=A-Games:K/KickOff2/KickOff2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:K/KickOff2/"
 IF EXISTS ENV:whdloadargs
-  whdload "KickOff2.slave" $whdloadargs
+  whdload "KickOff2.Slave" $whdloadargs
 ELSE
-  whdload "KickOff2.slave"
+  whdload "KickOff2.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BlueberryDe/BlueberryDe.Slave
+;RunFile=A-Games:B/BlueBerryDe/BlueberryDe.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BlueberryDe/"
+cd "A-Games:B/BlueBerryDe/"
 IF EXISTS ENV:whdloadargs
   whdload "BlueberryDe.Slave" $whdloadargs
 ELSE

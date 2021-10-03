@@ -1,0 +1,7 @@
+Name      : Battleships
+Version   : NTSC
+Publisher : Elite
+Year      : 1987
+Genre     : Gambling - Battleships
+Players   : 1 or 2
+RunFile   : BattleshipNTSC.slave

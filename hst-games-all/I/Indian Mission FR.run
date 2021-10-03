@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IndianMissionFr/IndianMissionFr.Slave
+
+; Run WHDLoad
+cd "A-Games:I/IndianMissionFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "IndianMissionFr.Slave" $whdloadargs
+ELSE
+  whdload "IndianMissionFr.Slave"
+ENDIF

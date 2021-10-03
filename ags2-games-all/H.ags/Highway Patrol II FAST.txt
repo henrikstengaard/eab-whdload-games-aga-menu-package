@@ -1,0 +1,7 @@
+Name      : Highway Patrol II
+Version   : FAST
+Publisher : Microids
+Year      : 1989
+Genre     : Racing - Cars
+Players   : 1 Only
+RunFile   : HighwayPatrol2Fast.Slave

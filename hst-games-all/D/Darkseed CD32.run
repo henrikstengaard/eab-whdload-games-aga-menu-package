@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:D/DarkSeedCD32/DarkSeedCD32.slave
+;RunFile=A-Games:D/DarkSeedCD32/DarkSeedCD32.Slave
 
 ; Run WHDLoad
 cd "A-Games:D/DarkSeedCD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "DarkSeedCD32.slave" $whdloadargs
+  whdload "DarkSeedCD32.Slave" $whdloadargs
 ELSE
-  whdload "DarkSeedCD32.slave"
+  whdload "DarkSeedCD32.Slave"
 ENDIF

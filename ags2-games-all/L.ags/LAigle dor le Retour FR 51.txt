@@ -1,0 +1,7 @@
+Name      : L'Aigle d'or : le Retour
+Language  : French
+Version   : 512K
+Publisher : Loriciel
+Year      : 1991
+Players   : 1
+RunFile   : AigleDOr512kFr.Slave

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/StreetFighter2/StreetFighter2.Slave
+;RunFile=A-Games:S/StreetFighter2/StreetFighter2.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/StreetFighter2/"
 IF EXISTS ENV:whdloadargs
-  whdload "StreetFighter2.Slave" $whdloadargs
+  whdload "StreetFighter2.slave" $whdloadargs
 ELSE
-  whdload "StreetFighter2.Slave"
+  whdload "StreetFighter2.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

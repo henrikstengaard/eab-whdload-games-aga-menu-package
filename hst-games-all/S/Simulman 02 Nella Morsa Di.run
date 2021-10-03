@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Simulman02It/Simulman02It.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Simulman02It/"
+IF EXISTS ENV:whdloadargs
+  whdload "Simulman02It.Slave" $whdloadargs
+ELSE
+  whdload "Simulman02It.Slave"
+ENDIF

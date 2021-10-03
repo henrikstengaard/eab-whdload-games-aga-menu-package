@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:O/OutRunEuropa/OutRunEuropa.Slave
+;RunFile=A-Games:O/OutRunEuropa/OutrunEuropa.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:O/OutRunEuropa/"
 IF EXISTS ENV:whdloadargs
-  whdload "OutRunEuropa.Slave" $whdloadargs
+  whdload "OutrunEuropa.slave" $whdloadargs
 ELSE
-  whdload "OutRunEuropa.Slave"
+  whdload "OutrunEuropa.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

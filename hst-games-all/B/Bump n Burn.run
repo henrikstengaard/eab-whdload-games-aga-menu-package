@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BumpNBurn/BumpNBurn.slave
+;RunFile=A-Games:B/BumpNBurn/BumpNBurn.Slave
 
 ; Run WHDLoad
 cd "A-Games:B/BumpNBurn/"
 IF EXISTS ENV:whdloadargs
-  whdload "BumpNBurn.slave" $whdloadargs
+  whdload "BumpNBurn.Slave" $whdloadargs
 ELSE
-  whdload "BumpNBurn.slave"
+  whdload "BumpNBurn.Slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SuprStrtFtr2TrboAGA/SuprStrtFtr2TrboAGA.slave
+;RunFile=A-Games:S/SuprStrtFtr2TrboAGA/SuprStrtFtr2TrboIntroAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/SuprStrtFtr2TrboAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuprStrtFtr2TrboAGA.slave" $whdloadargs
+  whdload "SuprStrtFtr2TrboIntroAGA.slave" $whdloadargs
 ELSE
-  whdload "SuprStrtFtr2TrboAGA.slave"
+  whdload "SuprStrtFtr2TrboIntroAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

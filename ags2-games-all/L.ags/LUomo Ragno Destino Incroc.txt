@@ -1,0 +1,5 @@
+Name      : L'Uomo Ragno: Destino Incrociato
+Publisher : Simulmondo
+Year      : 1994
+Players   : 1
+RunFile   : Spiderman3.Slave

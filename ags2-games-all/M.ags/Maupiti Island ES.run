@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:M/MaupitiIslandEs/MaupitiIslandEs.Slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "M" "Maupiti Island ES"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Games:M/MaupitiIslandEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "MaupitiIslandEs.Slave" $whdloadargs
+ELSE
+  whdload "MaupitiIslandEs.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

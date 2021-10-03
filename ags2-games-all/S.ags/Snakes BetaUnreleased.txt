@@ -1,0 +1,6 @@
+Name      : Snakes
+Publisher : Victrix
+Year      : 1992
+Genre     : Reaction & Navigation
+Players   : 2
+RunFile   : Snakes.Slave

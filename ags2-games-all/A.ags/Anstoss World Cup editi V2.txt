@@ -1,0 +1,6 @@
+Name      : Anstoss World Cup edition
+Publisher : Sports
+Year      : 1994
+Genre     : Sports - Football/Soccer
+Players   : 1 to 4
+RunFile   : OnTheBallWCE.slave

@@ -1,0 +1,6 @@
+Name      : Death Mask
+Version   : CD32
+Publisher : Alternative Software
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+RunFile   : DeathMaskCD32.slave

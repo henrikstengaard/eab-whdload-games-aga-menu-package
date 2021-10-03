@@ -1,0 +1,6 @@
+Name      : Tiny Galaga
+Publisher : Unknown
+Year      : 2020
+Genre     : Shooter
+Players   : 1
+RunFile   : TinyGalaga.slave

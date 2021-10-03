@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:R/RuffNTumble512k/RuffNTumble512k.slave
+
+; Run WHDLoad
+cd "A-Games:R/RuffNTumble512k/"
+IF EXISTS ENV:whdloadargs
+  whdload "RuffNTumble512k.slave" $whdloadargs
+ELSE
+  whdload "RuffNTumble512k.slave"
+ENDIF

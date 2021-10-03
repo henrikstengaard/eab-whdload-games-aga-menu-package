@@ -1,0 +1,6 @@
+Name      : Simulman 02: Nella Morsa Di SS DOS
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Players   : 1
+RunFile   : Simulman02It.Slave

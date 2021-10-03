@@ -3,4 +3,4 @@ Publisher : Interplay Productions
 Year      : 1989
 Genre     : Adventure - Point and Click
 Players   : 1 Only
-RunFile   : Neuromancer.Slave
+RunFile   : Neuromancer.slave

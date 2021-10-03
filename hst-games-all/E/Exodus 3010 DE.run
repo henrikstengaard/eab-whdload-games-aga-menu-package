@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/Exodus3010De/Exodus3010De.Slave
+
+; Run WHDLoad
+cd "A-Games:E/Exodus3010De/"
+IF EXISTS ENV:whdloadargs
+  whdload "Exodus3010De.Slave" $whdloadargs
+ELSE
+  whdload "Exodus3010De.Slave"
+ENDIF

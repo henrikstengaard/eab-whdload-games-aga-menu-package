@@ -1,0 +1,7 @@
+Name      : Intrigue a la Renaissance
+Language  : French
+Publisher : Coktel Vision
+Year      : 1990
+Genre     : Educational - Miscellaneous
+Players   : 1 Only
+RunFile   : IntrigueALaRenaissanceFr.Slave

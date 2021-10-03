@@ -1,0 +1,6 @@
+Name      : Ancient Art of War in the Skies, The
+Publisher : MicroProse Software
+Year      : 1993
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : AncientArtOfWar.slave

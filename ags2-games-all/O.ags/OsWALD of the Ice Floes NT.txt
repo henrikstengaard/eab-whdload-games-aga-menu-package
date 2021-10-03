@@ -1,6 +1,0 @@
-Name      : OsWALD of the Ice Floes
-Version   : NTSC
-Publisher : Silverrock / Centaur
-Year      : 1988
-Players   : 1
-RunFile   : OsWALDOfTheIceFloesNTSC.Slave

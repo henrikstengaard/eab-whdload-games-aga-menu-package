@@ -1,0 +1,5 @@
+Name      : Cosmo Ranger: SOL AD 2000
+Publisher : Turtle Byte Software
+Year      : 1989
+Players   : 1 Only
+RunFile   : CosmoRanger.Slave

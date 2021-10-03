@@ -1,0 +1,6 @@
+Name      : F1-Racer
+Version   : AGA
+Publisher : F1 Licenceware
+Year      : 1994
+Players   : 1
+RunFile   : TFXAGA.slave

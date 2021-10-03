@@ -4,4 +4,4 @@ Publisher : Flair Software
 Year      : 1993
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : OscarCD32NTSC.slave
+RunFile   : OscarCD32NTSC.Slave

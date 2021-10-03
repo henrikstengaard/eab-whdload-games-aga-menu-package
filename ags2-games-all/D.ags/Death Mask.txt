@@ -2,4 +2,4 @@ Name      : Death Mask
 Publisher : Alternative Software
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-RunFile   : DeathMask.Slave
+RunFile   : DeathMask.slave

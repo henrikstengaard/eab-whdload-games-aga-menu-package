@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DeathMaskCD32/DeathMaskCD32.slave
+
+; Run WHDLoad
+cd "A-Games:D/DeathMaskCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeathMaskCD32.slave" $whdloadargs
+ELSE
+  whdload "DeathMaskCD32.slave"
+ENDIF

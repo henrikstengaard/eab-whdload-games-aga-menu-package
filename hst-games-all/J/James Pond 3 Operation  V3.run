@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/JamesPond3CD32Fr/JamesPond3CD32Fr.slave
+
+; Run WHDLoad
+cd "A-Games:J/JamesPond3CD32Fr/"
+IF EXISTS ENV:whdloadargs
+  whdload "JamesPond3CD32Fr.slave" $whdloadargs
+ELSE
+  whdload "JamesPond3CD32Fr.slave"
+ENDIF

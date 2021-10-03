@@ -1,0 +1,5 @@
+Name      : L'Uomo Ragno: E ora, Carnage
+Publisher : Simulmondo
+Year      : 1994
+Players   : 1
+RunFile   : Spiderman2.Slave

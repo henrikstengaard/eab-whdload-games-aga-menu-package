@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:U/UniversalWarrior/UniversalWarrior.slave
+;RunFile=A-Games:U/UniversalWarrior/UniversalWarrior.Slave
 
 ; Run WHDLoad
 cd "A-Games:U/UniversalWarrior/"
 IF EXISTS ENV:whdloadargs
-  whdload "UniversalWarrior.slave" $whdloadargs
+  whdload "UniversalWarrior.Slave" $whdloadargs
 ELSE
-  whdload "UniversalWarrior.slave"
+  whdload "UniversalWarrior.Slave"
 ENDIF

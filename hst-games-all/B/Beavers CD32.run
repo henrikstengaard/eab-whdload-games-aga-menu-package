@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BeaversCD32/BeaversCD32.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BeaversCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "BeaversCD32.Slave" $whdloadargs
+ELSE
+  whdload "BeaversCD32.Slave"
+ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/EuropeanSpaceSimulator/EuropeanSpaceSimulator.Slave
+
+; Run WHDLoad
+cd "A-Games:E/EuropeanSpaceSimulator/"
+IF EXISTS ENV:whdloadargs
+  whdload "EuropeanSpaceSimulator.Slave" $whdloadargs
+ELSE
+  whdload "EuropeanSpaceSimulator.Slave"
+ENDIF

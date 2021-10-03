@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:R/RoadkillCD32NoIntro/RoadKillCD32NoIntro.Slave
+;RunFile=A-Games:R/RoadkillCD32NoIntro/RoadkillCD32NoIntro.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:R/RoadkillCD32NoIntro/"
 IF EXISTS ENV:whdloadargs
-  whdload "RoadKillCD32NoIntro.Slave" $whdloadargs
+  whdload "RoadkillCD32NoIntro.Slave" $whdloadargs
 ELSE
-  whdload "RoadKillCD32NoIntro.Slave"
+  whdload "RoadkillCD32NoIntro.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

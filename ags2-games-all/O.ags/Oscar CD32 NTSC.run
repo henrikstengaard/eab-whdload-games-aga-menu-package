@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:O/OscarCD32NTSC/OscarCD32NTSC.slave
+;RunFile=A-Games:O/OscarCD32NTSC/OscarCD32NTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:O/OscarCD32NTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "OscarCD32NTSC.slave" $whdloadargs
+  whdload "OscarCD32NTSC.Slave" $whdloadargs
 ELSE
-  whdload "OscarCD32NTSC.slave"
+  whdload "OscarCD32NTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

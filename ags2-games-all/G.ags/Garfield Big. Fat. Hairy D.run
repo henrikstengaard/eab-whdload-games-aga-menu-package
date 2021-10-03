@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/GarfieldBigFatHairyDeal/GarfieldBigFatHairyDeal.Slave
+;RunFile=A-Games:G/GarfieldBigFatHairyDeal/GarfieldBigFatHairyDeal.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:G/GarfieldBigFatHairyDeal/"
 IF EXISTS ENV:whdloadargs
-  whdload "GarfieldBigFatHairyDeal.Slave" $whdloadargs
+  whdload "GarfieldBigFatHairyDeal.slave" $whdloadargs
 ELSE
-  whdload "GarfieldBigFatHairyDeal.Slave"
+  whdload "GarfieldBigFatHairyDeal.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

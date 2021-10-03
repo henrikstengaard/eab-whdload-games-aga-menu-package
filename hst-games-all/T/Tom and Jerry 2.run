@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/Tom&Jerry/Tom&Jerry.Slave
+
+; Run WHDLoad
+cd "A-Games:T/Tom&Jerry/"
+IF EXISTS ENV:whdloadargs
+  whdload "Tom&Jerry.Slave" $whdloadargs
+ELSE
+  whdload "Tom&Jerry.Slave"
+ENDIF

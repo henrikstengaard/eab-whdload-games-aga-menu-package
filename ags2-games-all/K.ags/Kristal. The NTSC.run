@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:K/KristalNTSC/KristalNTSC.Slave
+;RunFile=A-Games:K/KristalNTSC/KristalNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:K/KristalNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "KristalNTSC.Slave" $whdloadargs
+  whdload "KristalNTSC.slave" $whdloadargs
 ELSE
-  whdload "KristalNTSC.Slave"
+  whdload "KristalNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,6 @@
+Name      : Chinese Karate
+Publisher : Turtle Byte
+Year      : 1989
+Genre     : Beat-'em-up
+Players   : 1
+RunFile   : ChineseKarate.slave

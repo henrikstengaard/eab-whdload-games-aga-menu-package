@@ -1,0 +1,7 @@
+Name      : Center Court 2
+Version   : AGA
+Publisher : Unknown
+Year      : 2016
+Genre     : Sport, Tennis
+Players   : 4
+RunFile   : CenterCourt2AGA.slave

@@ -4,4 +4,4 @@ Publisher : Ubi Soft
 Year      : 1990
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-RunFile   : BATDe.Slave
+RunFile   : BATDe.slave

@@ -1,0 +1,7 @@
+Name      : Tex 08: Dramma Al Circo
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Genre     : Action Adventure
+Players   : 1
+RunFile   : Tex08It.Slave

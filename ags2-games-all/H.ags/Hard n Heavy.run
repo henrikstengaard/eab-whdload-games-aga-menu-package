@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/Giana2/Giana2.slave
+;RunFile=A-Games:H/HardNHeavy/HardNHeavy.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:G/Giana2/"
+cd "A-Games:H/HardNHeavy/"
 IF EXISTS ENV:whdloadargs
-  whdload "Giana2.slave" $whdloadargs
+  whdload "HardNHeavy.slave" $whdloadargs
 ELSE
-  whdload "Giana2.slave"
+  whdload "HardNHeavy.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

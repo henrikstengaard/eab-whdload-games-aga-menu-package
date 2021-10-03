@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/Bobo/BoboFr.Slave
+;RunFile=A-Games:B/BoboFr/BoboFr.Slave
 
 ; Run WHDLoad
-cd "A-Games:B/Bobo/"
+cd "A-Games:B/BoboFr/"
 IF EXISTS ENV:whdloadargs
   whdload "BoboFr.Slave" $whdloadargs
 ELSE

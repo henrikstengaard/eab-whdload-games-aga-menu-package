@@ -2,4 +2,4 @@ Name      : Assassin
 Publisher : Team 17
 Year      : 1992
 Players   : 1 Only
-RunFile   : Assassin.Slave
+RunFile   : Assassin.slave

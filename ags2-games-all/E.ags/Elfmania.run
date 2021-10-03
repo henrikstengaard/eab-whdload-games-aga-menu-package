@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:E/Elfmania/Elfmania.Slave
+;RunFile=A-Games:E/Elfmania/Elfmania.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:E/Elfmania/"
 IF EXISTS ENV:whdloadargs
-  whdload "Elfmania.Slave" $whdloadargs
+  whdload "Elfmania.slave" $whdloadargs
 ELSE
-  whdload "Elfmania.Slave"
+  whdload "Elfmania.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TroddlersImage/TroddlersImage.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TroddlersImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "TroddlersImage.Slave" $whdloadargs
+ELSE
+  whdload "TroddlersImage.Slave"
+ENDIF

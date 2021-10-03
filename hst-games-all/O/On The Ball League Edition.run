@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:O/OnTheBallLE/OnTheBallLE.slave
+
+; Run WHDLoad
+cd "A-Games:O/OnTheBallLE/"
+IF EXISTS ENV:whdloadargs
+  whdload "OnTheBallLE.slave" $whdloadargs
+ELSE
+  whdload "OnTheBallLE.slave"
+ENDIF

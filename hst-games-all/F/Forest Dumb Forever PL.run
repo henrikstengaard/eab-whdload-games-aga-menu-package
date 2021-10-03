@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/ForestDumbForeverPl/ForestDumbForeverPl.slave
+
+; Run WHDLoad
+cd "A-Games:F/ForestDumbForeverPl/"
+IF EXISTS ENV:whdloadargs
+  whdload "ForestDumbForeverPl.slave" $whdloadargs
+ELSE
+  whdload "ForestDumbForeverPl.slave"
+ENDIF

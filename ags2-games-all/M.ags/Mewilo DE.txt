@@ -1,0 +1,7 @@
+Name      : Mewilo
+Language  : German
+Publisher : Coktel
+Year      : 1988
+Genre     : Adventure
+Players   : 1
+RunFile   : MewiloDe.Slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:S/StuntCarRacerTNT/StuntCarRacerTNT.slave
+
+; Run WHDLoad
+cd "A-Beta:S/StuntCarRacerTNT/"
+IF EXISTS ENV:whdloadargs
+  whdload "StuntCarRacerTNT.slave" $whdloadargs
+ELSE
+  whdload "StuntCarRacerTNT.slave"
+ENDIF

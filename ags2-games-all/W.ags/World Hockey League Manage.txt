@@ -1,0 +1,7 @@
+Name      : World Hockey League Manager
+Version   : AGA
+Publisher : Sayonara Software
+Year      : 1993
+Genre     : Sports - Ice Hockey
+Players   : 1 Only
+RunFile   : MutantLeagueHockeyAGA.Slave

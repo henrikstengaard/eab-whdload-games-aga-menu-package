@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:J/JaguarXJ220Image/JaguarXJ220Image.slave
+;RunFile=A-Games:J/JaguarXJ220Image/JaguarXJ220Image.Slave
 
 ; Run WHDLoad
 cd "A-Games:J/JaguarXJ220Image/"
 IF EXISTS ENV:whdloadargs
-  whdload "JaguarXJ220Image.slave" $whdloadargs
+  whdload "JaguarXJ220Image.Slave" $whdloadargs
 ELSE
-  whdload "JaguarXJ220Image.slave"
+  whdload "JaguarXJ220Image.Slave"
 ENDIF

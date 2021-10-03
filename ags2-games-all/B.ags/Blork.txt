@@ -1,0 +1,5 @@
+Name      : Blork
+Publisher : Unknown
+Genre     : Shooter
+Players   : 1
+RunFile   : Blork.Slave

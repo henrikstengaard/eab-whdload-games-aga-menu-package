@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Spiderman/Spiderman.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Spiderman/"
+IF EXISTS ENV:whdloadargs
+  whdload "Spiderman.Slave" $whdloadargs
+ELSE
+  whdload "Spiderman.Slave"
+ENDIF

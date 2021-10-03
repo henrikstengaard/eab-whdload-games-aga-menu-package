@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SuperSkidmarksLowMem/SuperSkidmarksLowMem.slave
+
+; Run WHDLoad
+cd "A-Games:S/SuperSkidmarksLowMem/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSkidmarksLowMem.slave" $whdloadargs
+ELSE
+  whdload "SuperSkidmarksLowMem.slave"
+ENDIF

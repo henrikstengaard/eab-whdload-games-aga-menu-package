@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:D/DalXFr/DalXFr.Slave
+
+; Run WHDLoad
+cd "A-Games:D/DalXFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "DalXFr.Slave" $whdloadargs
+ELSE
+  whdload "DalXFr.Slave"
+ENDIF

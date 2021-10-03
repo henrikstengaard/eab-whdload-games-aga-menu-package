@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:I/InsectsInSpace/InsectsInSpace.slave
+;RunFile=A-Games:I/InsectsInSpace/InsectsInSpace.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:I/InsectsInSpace/"
 IF EXISTS ENV:whdloadargs
-  whdload "InsectsInSpace.slave" $whdloadargs
+  whdload "InsectsInSpace.Slave" $whdloadargs
 ELSE
-  whdload "InsectsInSpace.slave"
+  whdload "InsectsInSpace.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

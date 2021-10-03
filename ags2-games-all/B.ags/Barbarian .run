@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BarbarianPsygnosis/BarbarianPsygnosis.Slave
+;RunFile=A-Games:B/BarbarianPsygnosis/BarBarianPsygnosis.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:B/BarbarianPsygnosis/"
 IF EXISTS ENV:whdloadargs
-  whdload "BarbarianPsygnosis.Slave" $whdloadargs
+  whdload "BarBarianPsygnosis.Slave" $whdloadargs
 ELSE
-  whdload "BarbarianPsygnosis.Slave"
+  whdload "BarBarianPsygnosis.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

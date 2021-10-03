@@ -1,0 +1,5 @@
+Name      : Tom and Jerry 2
+Publisher : Magic Bytes / Innerprise
+Year      : 1989
+Players   : 1
+RunFile   : Tom&Jerry.Slave

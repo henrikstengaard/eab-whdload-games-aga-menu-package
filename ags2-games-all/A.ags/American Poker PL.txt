@@ -1,0 +1,6 @@
+Name      : American Poker
+Language  : Polish
+Publisher : Mirage
+Year      : 1993
+Genre     : Cards - Poker
+RunFile   : AmericanPokerPl.slave

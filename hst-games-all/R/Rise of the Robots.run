@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:R/RiseOftheRobots/RiseOfTheRobots.slave
+;RunFile=A-Games:R/RiseOfTheRobots/RiseOfTheRobots.slave
 
 ; Run WHDLoad
-cd "A-Games:R/RiseOftheRobots/"
+cd "A-Games:R/RiseOfTheRobots/"
 IF EXISTS ENV:whdloadargs
   whdload "RiseOfTheRobots.slave" $whdloadargs
 ELSE

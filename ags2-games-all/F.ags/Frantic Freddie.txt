@@ -2,4 +2,4 @@ Name      : Frantic Freddie
 Publisher : (unknown)
 Year      : 1990
 Players   : 1 Only
-RunFile   : FranticFreddie.Slave
+RunFile   : FranticFreddie.slave

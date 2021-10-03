@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FireAndIceCD32/FireAndIceCD32.slave
+
+; Run WHDLoad
+cd "A-Games:F/FireAndIceCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "FireAndIceCD32.slave" $whdloadargs
+ELSE
+  whdload "FireAndIceCD32.slave"
+ENDIF

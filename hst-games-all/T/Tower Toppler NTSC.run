@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:T/TowerTopplerNTSC/TowerTopplerNTSC.slave
+;RunFile=A-Games:T/TowerTopplerNTSC/TowerTopplerNTSC.Slave
 
 ; Run WHDLoad
 cd "A-Games:T/TowerTopplerNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "TowerTopplerNTSC.slave" $whdloadargs
+  whdload "TowerTopplerNTSC.Slave" $whdloadargs
 ELSE
-  whdload "TowerTopplerNTSC.slave"
+  whdload "TowerTopplerNTSC.Slave"
 ENDIF

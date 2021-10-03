@@ -1,0 +1,5 @@
+Name      : Sky Fighter
+Publisher : Anco
+Year      : 1987
+Players   : 1 or 2
+RunFile   : SkyFighter.Slave

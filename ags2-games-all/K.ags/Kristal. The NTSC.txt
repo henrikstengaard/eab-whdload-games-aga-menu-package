@@ -4,4 +4,4 @@ Publisher : Addictive Games
 Year      : 1989
 Genre     : Adventure - Miscellaneous
 Players   : 1 Only
-RunFile   : KristalNTSC.Slave
+RunFile   : KristalNTSC.slave

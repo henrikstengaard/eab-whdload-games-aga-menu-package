@@ -1,0 +1,7 @@
+Name      : Picsou: Chasseur De Tr?sor
+Language  : Swedish
+Publisher : Coktel
+Year      : 1989
+Genre     : Unknown
+Players   : 1
+RunFile   : JoakimVonAnkaSe.Slave

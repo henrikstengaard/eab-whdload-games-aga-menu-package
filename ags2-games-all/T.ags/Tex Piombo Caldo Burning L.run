@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:T/TexPiomboCaldoPart1It/TexPiomboCaldoPart1It.Slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "T" "Tex Piombo Caldo Burning L"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Games:T/TexPiomboCaldoPart1It/"
+IF EXISTS ENV:whdloadargs
+  whdload "TexPiomboCaldoPart1It.Slave" $whdloadargs
+ELSE
+  whdload "TexPiomboCaldoPart1It.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

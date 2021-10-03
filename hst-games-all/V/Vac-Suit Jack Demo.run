@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/VacSuitJackDemo/VacSuitJackDemo.Slave
+
+; Run WHDLoad
+cd "A-Games:V/VacSuitJackDemo/"
+IF EXISTS ENV:whdloadargs
+  whdload "VacSuitJackDemo.Slave" $whdloadargs
+ELSE
+  whdload "VacSuitJackDemo.Slave"
+ENDIF

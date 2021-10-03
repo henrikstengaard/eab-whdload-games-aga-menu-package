@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:K/KickOff216/KickOff216.slave
+;RunFile=A-Games:K/KickOff2PlusWC90/KickOff2PlusWC90.slave
 
 ; Run WHDLoad
-cd "A-Games:K/KickOff216/"
+cd "A-Games:K/KickOff2PlusWC90/"
 IF EXISTS ENV:whdloadargs
-  whdload "KickOff216.slave" $whdloadargs
+  whdload "KickOff2PlusWC90.slave" $whdloadargs
 ELSE
-  whdload "KickOff216.slave"
+  whdload "KickOff2PlusWC90.slave"
 ENDIF

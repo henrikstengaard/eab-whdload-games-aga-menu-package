@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:M/MagicPockets/MagicPockets.Slave
+;RunFile=A-Games:M/MagicPockets/MagicPockets.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:M/MagicPockets/"
 IF EXISTS ENV:whdloadargs
-  whdload "MagicPockets.Slave" $whdloadargs
+  whdload "MagicPockets.slave" $whdloadargs
 ELSE
-  whdload "MagicPockets.Slave"
+  whdload "MagicPockets.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

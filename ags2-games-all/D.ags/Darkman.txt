@@ -2,4 +2,4 @@ Name      : Darkman
 Publisher : Ocean
 Year      : 1991
 Players   : 1 Only
-RunFile   : Darkman.Slave
+RunFile   : Darkman.slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TexPiomboCaldoPart1It/TexPiomboCaldoPart1It.Slave
+
+; Run WHDLoad
+cd "A-Games:T/TexPiomboCaldoPart1It/"
+IF EXISTS ENV:whdloadargs
+  whdload "TexPiomboCaldoPart1It.Slave" $whdloadargs
+ELSE
+  whdload "TexPiomboCaldoPart1It.Slave"
+ENDIF

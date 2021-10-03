@@ -1,0 +1,7 @@
+Name      : Dune
+Language  : Greek
+Publisher : Virgin Games
+Year      : 1992
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : DuneGr.Slave

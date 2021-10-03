@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:E/EyeOfTheBeholder2AGA/EyeOfTheBeholder2AGA.Slave
+;RunFile=A-Beta:E/EyeOfTheBeholder2AGA/EyeOfTheBeholder2AGA.Slave
 
 ; Run WHDLoad
-cd "A-Games:E/EyeOfTheBeholder2AGA/"
+cd "A-Beta:E/EyeOfTheBeholder2AGA/"
 IF EXISTS ENV:whdloadargs
   whdload "EyeOfTheBeholder2AGA.Slave" $whdloadargs
 ELSE

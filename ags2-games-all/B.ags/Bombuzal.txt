@@ -2,4 +2,4 @@ Name      : Bombuzal
 Publisher : Image Works
 Year      : 1988
 Genre     : Arcade - Logical Game
-RunFile   : Bombuzal.slave
+RunFile   : Bombuzal.Slave

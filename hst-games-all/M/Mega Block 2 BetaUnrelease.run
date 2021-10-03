@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:M/MegaBlock2/MegaBlock2.Slave
+
+; Run WHDLoad
+cd "A-Beta:M/MegaBlock2/"
+IF EXISTS ENV:whdloadargs
+  whdload "MegaBlock2.Slave" $whdloadargs
+ELSE
+  whdload "MegaBlock2.Slave"
+ENDIF

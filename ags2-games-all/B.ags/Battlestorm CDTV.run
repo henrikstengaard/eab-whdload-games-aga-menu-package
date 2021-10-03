@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BattlestormCDTV/BattlestormCDTV.Slave
+;RunFile=A-Games:B/BattlestormCDTV/BattleStormCDTV.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:B/BattlestormCDTV/"
 IF EXISTS ENV:whdloadargs
-  whdload "BattlestormCDTV.Slave" $whdloadargs
+  whdload "BattleStormCDTV.Slave" $whdloadargs
 ELSE
-  whdload "BattlestormCDTV.Slave"
+  whdload "BattleStormCDTV.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

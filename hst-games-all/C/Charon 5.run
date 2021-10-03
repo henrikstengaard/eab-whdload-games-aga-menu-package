@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Charon5/Charon5.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Charon5/"
+IF EXISTS ENV:whdloadargs
+  whdload "Charon5.Slave" $whdloadargs
+ELSE
+  whdload "Charon5.Slave"
+ENDIF

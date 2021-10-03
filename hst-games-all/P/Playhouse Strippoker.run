@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:P/PlayhouseStripPoker/PlayhouseStripPoker.Slave
+
+; Run WHDLoad
+cd "A-Games:P/PlayhouseStripPoker/"
+IF EXISTS ENV:whdloadargs
+  whdload "PlayhouseStripPoker.Slave" $whdloadargs
+ELSE
+  whdload "PlayhouseStripPoker.Slave"
+ENDIF

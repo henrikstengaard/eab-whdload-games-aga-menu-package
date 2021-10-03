@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:U/UniversalWarrior/UniversalWarrior.slave
+;RunFile=A-Games:U/UniversalWarrior/UniversalWarrior.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:U/UniversalWarrior/"
 IF EXISTS ENV:whdloadargs
-  whdload "UniversalWarrior.slave" $whdloadargs
+  whdload "UniversalWarrior.Slave" $whdloadargs
 ELSE
-  whdload "UniversalWarrior.slave"
+  whdload "UniversalWarrior.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

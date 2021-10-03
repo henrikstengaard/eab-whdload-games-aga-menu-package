@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:A/AlienBreed3DCD32/AlienBreed3DCD32.Slave
+;RunFile=A-Games:A/AlienBreed3DCD32/AlienBreed3DCD32.slave
 
 ; Run WHDLoad
 cd "A-Games:A/AlienBreed3DCD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "AlienBreed3DCD32.Slave" $whdloadargs
+  whdload "AlienBreed3DCD32.slave" $whdloadargs
 ELSE
-  whdload "AlienBreed3DCD32.Slave"
+  whdload "AlienBreed3DCD32.slave"
 ENDIF

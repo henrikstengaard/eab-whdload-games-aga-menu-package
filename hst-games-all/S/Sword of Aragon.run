@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:S/SwordOfAragon/SwordOfAragon.slave
+;RunFile=A-Games:S/SwordOfAragon/SwordOfAragon.Slave
 
 ; Run WHDLoad
 cd "A-Games:S/SwordOfAragon/"
 IF EXISTS ENV:whdloadargs
-  whdload "SwordOfAragon.slave" $whdloadargs
+  whdload "SwordOfAragon.Slave" $whdloadargs
 ELSE
-  whdload "SwordOfAragon.slave"
+  whdload "SwordOfAragon.Slave"
 ENDIF

@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:R/RiskyWoods/RiskyWoods.Slave
+;RunFile=A-Games:R/RiskyWoods/RiskyWoods.slave
 
 ; Run WHDLoad
 cd "A-Games:R/RiskyWoods/"
 IF EXISTS ENV:whdloadargs
-  whdload "RiskyWoods.Slave" $whdloadargs
+  whdload "RiskyWoods.slave" $whdloadargs
 ELSE
-  whdload "RiskyWoods.Slave"
+  whdload "RiskyWoods.slave"
 ENDIF

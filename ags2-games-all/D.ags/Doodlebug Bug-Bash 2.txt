@@ -1,0 +1,6 @@
+Name      : Doodlebug: Bug-Bash 2
+Publisher : Core Design
+Year      : 1992
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : Doodlebug.Slave

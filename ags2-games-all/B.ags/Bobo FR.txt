@@ -1,4 +1,5 @@
 Name      : Bobo
+Language  : French
 Publisher : Infogrames
 Year      : 1988
 Genre     : Arcade - Miscellaneous

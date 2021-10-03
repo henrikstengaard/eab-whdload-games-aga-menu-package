@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:F/Falcon&MissionDisks/Falcon&MissionDisks.Slave
+;RunFile=A-Games:F/Falcon&MissionDisks/Falcon&MissionDisks.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:F/Falcon&MissionDisks/"
 IF EXISTS ENV:whdloadargs
-  whdload "Falcon&MissionDisks.Slave" $whdloadargs
+  whdload "Falcon&MissionDisks.slave" $whdloadargs
 ELSE
-  whdload "Falcon&MissionDisks.Slave"
+  whdload "Falcon&MissionDisks.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

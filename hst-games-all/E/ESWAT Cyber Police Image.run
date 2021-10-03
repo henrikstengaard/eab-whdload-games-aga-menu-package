@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/ESWATImage/ESWATImage.Slave
+
+; Run WHDLoad
+cd "A-Games:E/ESWATImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "ESWATImage.Slave" $whdloadargs
+ELSE
+  whdload "ESWATImage.Slave"
+ENDIF

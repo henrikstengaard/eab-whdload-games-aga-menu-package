@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Gametek
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-RunFile   : SuprStrtFtr2TrboIntroAGA.slave
+RunFile   : SuprStrtFtr2TrboAGA.slave

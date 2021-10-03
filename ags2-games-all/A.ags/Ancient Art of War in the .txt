@@ -1,0 +1,7 @@
+Name      : Ancient Art of War in the Skies, The
+Language  : Spanish
+Publisher : MicroProse Software
+Year      : 1993
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : ArteDeLaGuerraEs.slave

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/McDonaldLandV2/McDonaldLandV2.slave
+
+; Run WHDLoad
+cd "A-Games:M/McDonaldLandV2/"
+IF EXISTS ENV:whdloadargs
+  whdload "McDonaldLandV2.slave" $whdloadargs
+ELSE
+  whdload "McDonaldLandV2.slave"
+ENDIF

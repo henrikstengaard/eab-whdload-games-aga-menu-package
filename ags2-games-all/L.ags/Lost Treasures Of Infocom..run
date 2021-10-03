@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/LostTreasuresOfInfocom/LostTreasuresOfInfocom.Slave
+;RunFile=A-Beta:L/LostTreasuresOfInfocom/LostTreasuresOfInfocom.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:L/LostTreasuresOfInfocom/"
+cd "A-Beta:L/LostTreasuresOfInfocom/"
 IF EXISTS ENV:whdloadargs
   whdload "LostTreasuresOfInfocom.Slave" $whdloadargs
 ELSE

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:D/DeepCore/DeepCore.Slave
+
+; Run WHDLoad
+cd "A-Beta:D/DeepCore/"
+IF EXISTS ENV:whdloadargs
+  whdload "DeepCore.Slave" $whdloadargs
+ELSE
+  whdload "DeepCore.Slave"
+ENDIF

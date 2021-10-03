@@ -1,0 +1,7 @@
+Name      : Super Skidmarks Plus
+Version   : CD
+Publisher : Acid
+Year      : 1998
+Genre     : Racing
+Players   : 4
+RunFile   : SuperSkidmarks+LMCD.slave

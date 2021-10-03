@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:D/DynamiteDux/DynamiteDux.Slave
+;RunFile=A-Games:D/DynamiteDux/DynamiteDux.slave
 
 ; Run WHDLoad
 cd "A-Games:D/DynamiteDux/"
 IF EXISTS ENV:whdloadargs
-  whdload "DynamiteDux.Slave" $whdloadargs
+  whdload "DynamiteDux.slave" $whdloadargs
 ELSE
-  whdload "DynamiteDux.Slave"
+  whdload "DynamiteDux.slave"
 ENDIF

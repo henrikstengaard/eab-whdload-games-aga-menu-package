@@ -1,0 +1,7 @@
+Name      : Final Assault
+Version   : NTSC
+Publisher : Epyx
+Year      : 1988
+Genre     : Sports - Miscellaneous
+Players   : 1 Only
+RunFile   : FinalAssaultNTSC.slave

@@ -3,4 +3,4 @@ Publisher : Firebird
 Year      : 1988
 Genre     : Platformer - Multi Screen
 Players   : 1 Only
-RunFile   : BlackLamp.Slave
+RunFile   : BlackLamp.slave

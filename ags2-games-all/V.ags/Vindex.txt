@@ -1,0 +1,5 @@
+Name      : Vindex
+Publisher : Turtle Byte Software
+Year      : 1989
+Players   : 1 or 2
+RunFile   : Vindex.Slave

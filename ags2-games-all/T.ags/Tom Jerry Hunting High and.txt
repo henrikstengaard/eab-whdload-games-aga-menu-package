@@ -1,0 +1,5 @@
+Name      : Tom & Jerry: Hunting High and Low
+Publisher : Magic Bytes
+Year      : 1989
+Players   : 1
+RunFile   : Tom&JerryHHAL.Slave

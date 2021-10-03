@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:T/TeamSuzuki/TeamSuzuki.slave
+;RunFile=A-Games:T/TeamSuzuki/TeamSuzuki.Slave
 
 ; Run WHDLoad
 cd "A-Games:T/TeamSuzuki/"
 IF EXISTS ENV:whdloadargs
-  whdload "TeamSuzuki.slave" $whdloadargs
+  whdload "TeamSuzuki.Slave" $whdloadargs
 ELSE
-  whdload "TeamSuzuki.slave"
+  whdload "TeamSuzuki.Slave"
 ENDIF

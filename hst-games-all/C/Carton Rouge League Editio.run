@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/CartonRougeLEAGAFr/CartonRougeLEAGAFr.slave
+
+; Run WHDLoad
+cd "A-Games:C/CartonRougeLEAGAFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "CartonRougeLEAGAFr.slave" $whdloadargs
+ELSE
+  whdload "CartonRougeLEAGAFr.slave"
+ENDIF

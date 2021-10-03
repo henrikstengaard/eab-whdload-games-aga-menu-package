@@ -1,0 +1,6 @@
+Name      : Temple Of The Enlightened Souls, The
+Publisher : Softsell
+Year      : 1989
+Genre     : Racing
+Players   : 1
+RunFile   : TempleOfEnlightenedSouls.slave

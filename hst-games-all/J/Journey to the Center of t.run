@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:J/JourneyCenterOfTheEarth/JourneyCenterOfTheEarth.Slave
+
+; Run WHDLoad
+cd "A-Games:J/JourneyCenterOfTheEarth/"
+IF EXISTS ENV:whdloadargs
+  whdload "JourneyCenterOfTheEarth.Slave" $whdloadargs
+ELSE
+  whdload "JourneyCenterOfTheEarth.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/LureOfTheTemptress/LureOfTheTemptress.slave
+;RunFile=A-Games:L/LureOfTheTemptress/LureOfTheTemptress.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:L/LureOfTheTemptress/"
 IF EXISTS ENV:whdloadargs
-  whdload "LureOfTheTemptress.slave" $whdloadargs
+  whdload "LureOfTheTemptress.Slave" $whdloadargs
 ELSE
-  whdload "LureOfTheTemptress.slave"
+  whdload "LureOfTheTemptress.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

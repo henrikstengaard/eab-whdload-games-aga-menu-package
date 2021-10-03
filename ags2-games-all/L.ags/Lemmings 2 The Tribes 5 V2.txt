@@ -4,4 +4,4 @@ Publisher : Psygnosis
 Year      : 1993
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : Lemmings2NTSC512KB.slave
+RunFile   : Lemmings2512KBNTSC.slave

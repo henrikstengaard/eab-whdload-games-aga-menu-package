@@ -4,4 +4,4 @@ Publisher : Rainbow Arts
 Year      : 1990
 Genre     : Arcade - Logical Game
 Players   : 1 Only
-RunFile   : CurseOfRaCDTV.Slave
+RunFile   : CurseOfRaCDTV.slave

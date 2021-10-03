@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/IPlay3DSoccer/IPlay3DSoccer.slave
+
+; Run WHDLoad
+cd "A-Games:I/IPlay3DSoccer/"
+IF EXISTS ENV:whdloadargs
+  whdload "IPlay3DSoccer.slave" $whdloadargs
+ELSE
+  whdload "IPlay3DSoccer.slave"
+ENDIF

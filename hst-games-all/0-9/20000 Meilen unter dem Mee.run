@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:0-9/20000MeilenUnterDemMeerDe/20000MeilenUnterDemMeerDe.Slave
+
+; Run WHDLoad
+cd "A-Games:0-9/20000MeilenUnterDemMeerDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "20000MeilenUnterDemMeerDe.Slave" $whdloadargs
+ELSE
+  whdload "20000MeilenUnterDemMeerDe.Slave"
+ENDIF

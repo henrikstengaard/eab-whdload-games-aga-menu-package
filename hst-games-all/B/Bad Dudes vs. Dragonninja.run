@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:B/BadDudesNTSC/BadDudesNTSC.Slave
+;RunFile=A-Games:B/BadDudesChipNTSC/BadDudesChipNTSC.slave
 
 ; Run WHDLoad
-cd "A-Games:B/BadDudesNTSC/"
+cd "A-Games:B/BadDudesChipNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "BadDudesNTSC.Slave" $whdloadargs
+  whdload "BadDudesChipNTSC.slave" $whdloadargs
 ELSE
-  whdload "BadDudesNTSC.Slave"
+  whdload "BadDudesChipNTSC.slave"
 ENDIF

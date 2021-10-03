@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/Gobliiins/Gobliiins.Slave
+;RunFile=A-Games:G/Gobliiins/Gobliiins.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:G/Gobliiins/"
 IF EXISTS ENV:whdloadargs
-  whdload "Gobliiins.Slave" $whdloadargs
+  whdload "Gobliiins.slave" $whdloadargs
 ELSE
-  whdload "Gobliiins.Slave"
+  whdload "Gobliiins.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

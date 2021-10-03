@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SensibleWorldOfSoccerWC98/SensibleWorldOfSoccerWC98.Slave
+;RunFile=A-Games:S/SWOS9697/SWOS9697.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/SensibleWorldOfSoccerWC98/"
+cd "A-Games:S/SWOS9697/"
 IF EXISTS ENV:whdloadargs
-  whdload "SensibleWorldOfSoccerWC98.Slave" $whdloadargs
+  whdload "SWOS9697.Slave" $whdloadargs
 ELSE
-  whdload "SensibleWorldOfSoccerWC98.Slave"
+  whdload "SWOS9697.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

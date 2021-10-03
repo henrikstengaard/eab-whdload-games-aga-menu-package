@@ -3,4 +3,4 @@ Publisher : Epyx
 Year      : 1988
 Genre     : Sports - Multi-Event
 Players   : 1 to 8
-RunFile   : CaliforniaGames.Slave
+RunFile   : CaliforniaGames.slave

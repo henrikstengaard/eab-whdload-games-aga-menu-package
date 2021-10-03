@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:N/Nightdawn/Nightdawn.slave
+;RunFile=A-Games:N/Nightdawn/Nightdawn.Slave
 
 ; Run WHDLoad
 cd "A-Games:N/Nightdawn/"
 IF EXISTS ENV:whdloadargs
-  whdload "Nightdawn.slave" $whdloadargs
+  whdload "Nightdawn.Slave" $whdloadargs
 ELSE
-  whdload "Nightdawn.slave"
+  whdload "Nightdawn.Slave"
 ENDIF

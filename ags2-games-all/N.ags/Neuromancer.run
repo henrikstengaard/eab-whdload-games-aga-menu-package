@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:N/Neuromancer/Neuromancer.Slave
+;RunFile=A-Games:N/Neuromancer/Neuromancer.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:N/Neuromancer/"
 IF EXISTS ENV:whdloadargs
-  whdload "Neuromancer.Slave" $whdloadargs
+  whdload "Neuromancer.slave" $whdloadargs
 ELSE
-  whdload "Neuromancer.Slave"
+  whdload "Neuromancer.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,6 @@
+Name      : Strikefleet
+Publisher : Electronic Arts
+Year      : 1991
+Genre     : Simulation - Marine
+Players   : 1 Only
+RunFile   : Strikefleet.slave

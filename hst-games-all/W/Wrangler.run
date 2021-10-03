@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:W/Wrangler/Wrangler.Slave
+
+; Run WHDLoad
+cd "A-Games:W/Wrangler/"
+IF EXISTS ENV:whdloadargs
+  whdload "Wrangler.Slave" $whdloadargs
+ELSE
+  whdload "Wrangler.Slave"
+ENDIF

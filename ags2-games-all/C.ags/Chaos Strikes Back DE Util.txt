@@ -5,4 +5,4 @@ Publisher : FTL
 Year      : 1989
 Genre     : Adventure - RPG 3D
 Players   : 1 Only
-RunFile   : ChaosStrikesBack.Slave
+RunFile   : ChaosStrikesBack.slave

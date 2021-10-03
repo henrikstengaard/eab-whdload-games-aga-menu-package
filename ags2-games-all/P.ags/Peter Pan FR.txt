@@ -1,0 +1,7 @@
+Name      : Peter Pan
+Language  : French
+Publisher : Coktel Vision
+Year      : 1988
+Genre     : Educational - Miscellaneous
+Players   : 1 Only
+RunFile   : PeterPanFr.Slave

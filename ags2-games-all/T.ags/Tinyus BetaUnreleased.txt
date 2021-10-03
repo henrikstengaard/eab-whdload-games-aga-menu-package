@@ -1,0 +1,6 @@
+Name      : Tinyus
+Publisher : Unknown
+Year      : 2021
+Genre     : Platform
+Players   : 1
+RunFile   : Tinyus.slave

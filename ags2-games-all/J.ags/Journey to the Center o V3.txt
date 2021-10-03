@@ -1,0 +1,7 @@
+Name      : Journey to the Center of the Earth
+Language  : French
+Publisher : Rainbow Arts
+Year      : 1989
+Genre     : Adventure - Miscellaneous
+Players   : 1 Only
+RunFile   : VoyageAuCentreDeLaTerreFr.Slave

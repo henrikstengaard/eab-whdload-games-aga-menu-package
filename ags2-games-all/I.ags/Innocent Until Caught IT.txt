@@ -1,0 +1,7 @@
+Name      : Innocent Until Caught
+Language  : Italian
+Publisher : Psygnosis
+Year      : 1994
+Genre     : Adventure - Point and Click
+Players   : 1 Only
+RunFile   : InnocentUntilCaughtIt.Slave

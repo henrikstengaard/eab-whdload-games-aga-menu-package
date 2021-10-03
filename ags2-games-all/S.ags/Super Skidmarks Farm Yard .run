@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Games:S/SuperSkidmarksFYEdLMCD/SuperSkidmarksFYEdLMCD.slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "S" "Super Skidmarks Farm Yard "
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Games:S/SuperSkidmarksFYEdLMCD/"
+IF EXISTS ENV:whdloadargs
+  whdload "SuperSkidmarksFYEdLMCD.slave" $whdloadargs
+ELSE
+  whdload "SuperSkidmarksFYEdLMCD.slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

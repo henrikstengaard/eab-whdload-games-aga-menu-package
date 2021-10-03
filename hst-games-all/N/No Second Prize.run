@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:N/NoSecondPrize/NoSecondPrize.slave
+;RunFile=A-Games:N/NoSecondPrize/NoSecondPrize.Slave
 
 ; Run WHDLoad
 cd "A-Games:N/NoSecondPrize/"
 IF EXISTS ENV:whdloadargs
-  whdload "NoSecondPrize.slave" $whdloadargs
+  whdload "NoSecondPrize.Slave" $whdloadargs
 ELSE
-  whdload "NoSecondPrize.slave"
+  whdload "NoSecondPrize.Slave"
 ENDIF

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/ThunderJawsImage/ThunderJawsImage.slave
+
+; Run WHDLoad
+cd "A-Games:T/ThunderJawsImage/"
+IF EXISTS ENV:whdloadargs
+  whdload "ThunderJawsImage.slave" $whdloadargs
+ELSE
+  whdload "ThunderJawsImage.slave"
+ENDIF

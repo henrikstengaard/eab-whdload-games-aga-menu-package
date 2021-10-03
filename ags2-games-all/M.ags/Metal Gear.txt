@@ -1,0 +1,6 @@
+Name      : Metal Gear
+Publisher : Unknown
+Year      : 2021
+Genre     : Action Adventure
+Players   : 1
+RunFile   : MetalGear.Slave

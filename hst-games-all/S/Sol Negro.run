@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SolNegro/SolNegro.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SolNegro/"
+IF EXISTS ENV:whdloadargs
+  whdload "SolNegro.Slave" $whdloadargs
+ELSE
+  whdload "SolNegro.Slave"
+ENDIF

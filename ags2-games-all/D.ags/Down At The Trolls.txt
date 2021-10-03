@@ -1,0 +1,6 @@
+Name      : Down At The Trolls
+Publisher : U.S. GOLD / Rainbow Arts
+Year      : 1988
+Genre     : Platform
+Players   : 8
+RunFile   : DownAtTheTrolls.Slave

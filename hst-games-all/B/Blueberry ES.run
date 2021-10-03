@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BlueBerryEs/BlueberryEs.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BlueBerryEs/"
+IF EXISTS ENV:whdloadargs
+  whdload "BlueberryEs.Slave" $whdloadargs
+ELSE
+  whdload "BlueberryEs.Slave"
+ENDIF

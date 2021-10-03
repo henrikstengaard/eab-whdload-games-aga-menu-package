@@ -1,0 +1,6 @@
+Name      : The Amazing Spider-Man
+Version   : NTSC
+Publisher : Empire / Paragon
+Year      : 1990
+Players   : 1
+RunFile   : AmazingSpidermanNTSC.slave

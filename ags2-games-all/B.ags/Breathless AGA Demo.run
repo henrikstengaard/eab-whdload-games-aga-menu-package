@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BreathlessDemo/BreathlessDemo.Slave
+;RunFile=A-Games:B/BreathlessDemoAGA/BreathlessDemoAGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BreathlessDemo/"
+cd "A-Games:B/BreathlessDemoAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "BreathlessDemo.Slave" $whdloadargs
+  whdload "BreathlessDemoAGA.Slave" $whdloadargs
 ELSE
-  whdload "BreathlessDemo.Slave"
+  whdload "BreathlessDemoAGA.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:N/Neuromancer/Neuromancer.Slave
+;RunFile=A-Games:N/Neuromancer/Neuromancer.slave
 
 ; Run WHDLoad
 cd "A-Games:N/Neuromancer/"
 IF EXISTS ENV:whdloadargs
-  whdload "Neuromancer.Slave" $whdloadargs
+  whdload "Neuromancer.slave" $whdloadargs
 ELSE
-  whdload "Neuromancer.Slave"
+  whdload "Neuromancer.slave"
 ENDIF

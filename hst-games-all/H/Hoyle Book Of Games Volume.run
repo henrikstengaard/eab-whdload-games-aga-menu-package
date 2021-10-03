@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HoyleVolume3/HoyleVolume3.slave
+
+; Run WHDLoad
+cd "A-Games:H/HoyleVolume3/"
+IF EXISTS ENV:whdloadargs
+  whdload "HoyleVolume3.slave" $whdloadargs
+ELSE
+  whdload "HoyleVolume3.slave"
+ENDIF

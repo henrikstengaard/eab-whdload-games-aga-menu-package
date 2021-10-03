@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:C/Crown/Crown.Slave
+
+; Run WHDLoad
+cd "A-Games:C/Crown/"
+IF EXISTS ENV:whdloadargs
+  whdload "Crown.Slave" $whdloadargs
+ELSE
+  whdload "Crown.Slave"
+ENDIF

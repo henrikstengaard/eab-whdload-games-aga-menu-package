@@ -1,10 +1,10 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/Bobo/BoboFr.Slave
+;RunFile=A-Games:B/BoboFr/BoboFr.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
-  execute S:AGS2Favourites "B" "Bobo Fr"
+  execute S:AGS2Favourites "B" "Bobo FR"
   IF $ags2favouritesmode EQ "add"
     SKIP end
   ENDIF
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/Bobo/"
+cd "A-Games:B/BoboFr/"
 IF EXISTS ENV:whdloadargs
   whdload "BoboFr.Slave" $whdloadargs
 ELSE

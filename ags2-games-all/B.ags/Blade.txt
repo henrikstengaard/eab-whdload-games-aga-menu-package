@@ -1,0 +1,6 @@
+Name      : Blade
+Publisher : Alive Mediasoft
+Year      : 1998
+Genre     : Adventure - Isometric 3D
+Players   : 1 Only
+RunFile   : Blade.Slave

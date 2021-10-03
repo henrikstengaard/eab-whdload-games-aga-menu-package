@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:Q/QueteLOiseauDuTempFrFiles/QueteLOiseauDuTempFrFiles.Slave
+;RunFile=A-Games:Q/QueteLOiseauDuTempFrFiles/QueteLOiseauDuTempFrFiles.slave
 
 ; Run WHDLoad
 cd "A-Games:Q/QueteLOiseauDuTempFrFiles/"
 IF EXISTS ENV:whdloadargs
-  whdload "QueteLOiseauDuTempFrFiles.Slave" $whdloadargs
+  whdload "QueteLOiseauDuTempFrFiles.slave" $whdloadargs
 ELSE
-  whdload "QueteLOiseauDuTempFrFiles.Slave"
+  whdload "QueteLOiseauDuTempFrFiles.slave"
 ENDIF

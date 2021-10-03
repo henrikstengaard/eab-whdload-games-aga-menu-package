@@ -1,5 +1,4 @@
 Race Drivin'	R/Race Drivin	A-Games:R/RaceDrivin/RaceDrivin.slave
-Race Drivin' NoIntro	R/Race Drivin NoIntro	A-Games:R/RaceDrivinNoIntro/RaceDrivinNoIntro.slave
 Rackney's Island	R/Rackneys Island	A-Games:R/RackneysIsland/RackneysIsland.Slave
 Racter	R/Racter	A-Games:R/Racter/Racter.Slave
 Raffles	R/Raffles	A-Games:R/Raffles/Raffles.slave
@@ -27,6 +26,8 @@ Rat Trap	R/Rat Trap	A-Games:R/RatTrap/RatTrap.Slave
 R.B.I. 2 Baseball	R/R.B.I. 2 Baseball	A-Games:R/RBI2Baseball/RBI2Baseball.Slave
 Read & Rhyme	R/Read Rhyme	A-Games:R/Read&Rhyme/Read&Rhyme.Slave
 Real Ghostbusters, The	R/Real Ghostbusters. The	A-Games:R/RealGhostbusters/RealGhostbusters.Slave
+Realm of the Trolls 1Disk	R/Realm of the Trolls 1Disk	A-Games:R/RealmOfTheTrolls1Disk/RealmOfTheTrolls1Disk.Slave
+Realm of the Trolls 2Disk	R/Realm of the Trolls 2Disk	A-Games:R/RealmOfTheTrolls2Disk/RealmOfTheTrolls2Disk.Slave
 Realms	R/Realms	A-Games:R/Realms/Realms.Slave
 Realms of Arkania: Blade of Destiny	R/Realms of Arkania Blade of	A-Games:R/RealmsOfArkania/RealmsOfArkania.Slave
 Real Popeye, The	R/Real Popeye. The	A-Games:R/RealPopeye/RealPopeye.Slave
@@ -65,16 +66,16 @@ Rings of Medusa FR	R/Rings of Medusa FR	A-Games:R/RingsOfMedusaFr/RingsOfMedusaF
 Rings of Medusa Gold DE	R/Rings of Medusa Gold DE	A-Games:R/RingsOfMedusaGoldDe/RingsOfMedusaGoldDe.Slave
 Rise of the Dragon	R/Rise of the Dragon	A-Games:R/RiseOfTheDragon/RiseOfTheDragon.Slave
 Rise of the Dragon DE	R/Rise of the Dragon DE	A-Games:R/RiseOfTheDragonDe/RiseOfTheDragonDe.Slave
-Rise of the Robots	R/Rise of the Robots	A-Games:R/RiseOftheRobots/RiseOfTheRobots.slave
+Rise of the Robots	R/Rise of the Robots	A-Games:R/RiseOfTheRobots/RiseOfTheRobots.slave
 Rise of the Robots AGA	R/Rise of the Robots AGA	A-Games:R/RiseOfTheRobotsAGA/RiseOfTheRobotsAGA.slave
 Rise of the Robots CD32	R/Rise of the Robots CD32	A-Games:R/RiseOfTheRobotsCD32/RiseOfTheRobotsCD32.slave
 RISK	R/RISK	A-Games:R/Risk/Risk.Slave
-Risky Woods	R/Risky Woods	A-Games:R/RiskyWoods/RiskyWoods.Slave
+Risky Woods	R/Risky Woods	A-Games:R/RiskyWoods/RiskyWoods.slave
 RoadBlasters	R/RoadBlasters	A-Games:R/RoadBlasters/RoadBlasters.Slave
 Roadkill AGA	R/Roadkill AGA	A-Games:R/RoadkillAGA/RoadkillAGA.Slave
-Roadkill CD32	R/Roadkill CD32	A-Games:R/RoadkillCD32/RoadKillCD32.Slave
-Roadkill CD32 NoIntro	R/Roadkill CD32 NoIntro	A-Games:R/RoadkillCD32NoIntro/RoadKillCD32NoIntro.Slave
-Road Rash	R/Road Rash	A-Games:R/RoadRash/RoadRash.Slave
+Roadkill CD32	R/Roadkill CD32	A-Games:R/RoadkillCD32/RoadkillCD32.Slave
+Roadkill CD32 NoIntro	R/Roadkill CD32 NoIntro	A-Games:R/RoadkillCD32NoIntro/RoadkillCD32NoIntro.Slave
+Road Rash	R/Road Rash	A-Games:R/RoadRash/RoadRash.slave
 Roadwar Europa	R/Roadwar Europa	A-Games:R/RoadwarEuropa/RoadwarEuropa.Slave
 Roadwars	R/Roadwars	A-Games:R/RoadWars/RoadWars.Slave
 Roadwars	R/Roadwars 	A-Games:R/RoadWarsArcadia/RoadWarsArcadia.Slave
@@ -114,18 +115,20 @@ Rogue Trooper	R/Rogue Trooper	A-Games:R/RogueTrooper/RogueTrooper.Slave
 Roketz AGA	R/Roketz AGA	A-Games:R/RoketzAGA/RoketzAGA.Slave
 RollerCoaster Rumbler	R/RollerCoaster Rumbler	A-Games:R/RollerCoasterRumbler/RollerCoasterRumbler.Slave
 Rolling Ronny	R/Rolling Ronny	A-Games:R/RollingRonny/RollingRonny.Slave
+Rolling Thunder	R/Rolling Thunder	A-Games:R/RollingThunder/RollingThunder.slave
 Roll or Die	R/Roll or Die	A-Games:R/RollOrDie/RollOrDie.slave
 Rome AD92: The Pathway To Power	R/Rome AD92 The Pathway To P	A-Games:R/RomeAD92/RomeAD92.Slave
 Rotor	R/Rotor	A-Games:R/Rotor/Rotor.slave
 Rotox	R/Rotox	A-Games:R/Rotox/Rotox.slave
 Round the Bend!	R/Round the Bend	A-Games:R/RoundTheBend/RoundTheBend.Slave
-R-Type	R/R-Type	A-Games:R/RType/RType.Slave
+R-Type	R/R-Type	A-Games:R/RType/RType.slave
 R-Type II	R/R-Type II	A-Games:R/RType2/RType2.Slave
 Rubicon	R/Rubicon	A-Games:R/Rubicon/Rubicon.slave
 Rüsselsheim DE	R/Russelsheim DE	A-Games:R/RuesselsheimDe/RuesselsheimDe.Slave
 Ruff and Reddy in the Space Adventure	R/Ruff and Reddy in the Spac	A-Games:R/Ruff&ReddySpaceAdventure/Ruff&ReddySpaceAdventure.slave
 Ruffian	R/Ruffian	A-Games:R/Ruffian/Ruffian.Slave
 Ruff 'n' Tumble	R/Ruff n Tumble	A-Games:R/RuffNTumble/RuffNTumble.slave
+Ruff 'n' Tumble 512K	R/Ruff n Tumble 512K	A-Games:R/RuffNTumble512k/RuffNTumble512k.slave
 Rugby: The World Cup	R/Rugby The World Cup	A-Games:R/RugbyTheWorldCup/RugbyTheWorldCup.Slave
 Rugby: The World Cup RugbyTheWorldCupEarlyBld	R/Rugby The World Cup RugbyT	A-Games:R/RugbyTheWorldCupEarlyBuild/RugbyTheWorldCupEarlyBld.Slave
 Running Man, The	R/Running Man. The	A-Games:R/RunningMan/RunningMan.slave

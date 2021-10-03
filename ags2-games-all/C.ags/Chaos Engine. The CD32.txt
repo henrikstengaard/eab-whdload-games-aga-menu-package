@@ -3,4 +3,4 @@ Version   : CD32
 Publisher : Renegade
 Year      : 1994
 Players   : 1 or 2, Simultaneous
-RunFile   : ChaosEngineCD32.Slave
+RunFile   : ChaosEngineCD32.slave

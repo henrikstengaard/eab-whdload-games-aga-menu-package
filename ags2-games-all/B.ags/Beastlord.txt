@@ -2,4 +2,4 @@ Name      : Beastlord
 Publisher : Grandslam
 Year      : 1993
 Players   : 1 Only
-RunFile   : Beastlord.Slave
+RunFile   : Beastlord.slave

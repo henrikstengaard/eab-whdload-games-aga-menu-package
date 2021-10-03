@@ -1,0 +1,6 @@
+Name      : Strike Force Harrier
+Publisher : Mirrorsoft
+Year      : 1988
+Genre     : Simulation - Flight
+Players   : 1 Only
+RunFile   : StrikeForceHarrier.Slave

@@ -3,4 +3,4 @@ Publisher : Rainbird
 Year      : 1988
 Genre     : Simulation - Flight
 Players   : 1 Only
-RunFile   : CarrierCommand.Slave
+RunFile   : CarrierCommand.slave

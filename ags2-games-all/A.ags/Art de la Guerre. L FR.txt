@@ -1,0 +1,7 @@
+Name      : Art de la Guerre, L'
+Language  : French
+Publisher : Brøderbund
+Year      : 1990
+Genre     : Strategy - War
+Players   : 1 Only
+RunFile   : ArtDeLaGuerreFr.slave

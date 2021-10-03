@@ -3,4 +3,4 @@ Version   : AGA
 Publisher : Ocean
 Year      : 1995
 Players   : 1 or 2, Simultaneous
-RunFile   : AlienBreed3DAGA.Slave
+RunFile   : AlienBreed3DAGA.slave

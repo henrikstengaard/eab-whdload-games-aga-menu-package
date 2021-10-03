@@ -3,4 +3,4 @@ Publisher : US Gold
 Year      : 1991
 Genre     : Racing - Miscellaneous
 Players   : 1 Only
-RunFile   : OutRunEuropa.Slave
+RunFile   : OutrunEuropa.slave

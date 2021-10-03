@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Strikefleet/Strikefleet.slave
+
+; Run WHDLoad
+cd "A-Games:S/Strikefleet/"
+IF EXISTS ENV:whdloadargs
+  whdload "Strikefleet.slave" $whdloadargs
+ELSE
+  whdload "Strikefleet.slave"
+ENDIF

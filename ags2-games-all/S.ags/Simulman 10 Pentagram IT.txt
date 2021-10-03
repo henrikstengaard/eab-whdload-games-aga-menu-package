@@ -1,0 +1,7 @@
+Name      : Simulman 10: Pentagram
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1994
+Genre     : Action Adventure
+Players   : 1
+RunFile   : Simulman10It.Slave

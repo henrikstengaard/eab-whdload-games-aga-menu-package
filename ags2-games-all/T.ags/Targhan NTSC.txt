@@ -1,0 +1,6 @@
+Name      : Targhan
+Version   : NTSC
+Publisher : Silmarils
+Year      : 1989
+Players   : 1 Only
+RunFile   : TarghanNTSC.Slave

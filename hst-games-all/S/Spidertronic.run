@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Spidertronic/Spidertronic.Slave
+
+; Run WHDLoad
+cd "A-Games:S/Spidertronic/"
+IF EXISTS ENV:whdloadargs
+  whdload "Spidertronic.Slave" $whdloadargs
+ELSE
+  whdload "Spidertronic.Slave"
+ENDIF

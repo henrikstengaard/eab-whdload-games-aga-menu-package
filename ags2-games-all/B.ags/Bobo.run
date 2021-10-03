@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/StirCrazyFeaturingBobo/StirCrazyFeaturingBobo.Slave
+;RunFile=A-Games:B/Bobo/Bobo.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:S/StirCrazyFeaturingBobo/"
+cd "A-Games:B/Bobo/"
 IF EXISTS ENV:whdloadargs
-  whdload "StirCrazyFeaturingBobo.Slave" $whdloadargs
+  whdload "Bobo.Slave" $whdloadargs
 ELSE
-  whdload "StirCrazyFeaturingBobo.Slave"
+  whdload "Bobo.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

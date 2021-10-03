@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:I/ILudicrus/ILudicrus.Slave
+
+; Run WHDLoad
+cd "A-Games:I/ILudicrus/"
+IF EXISTS ENV:whdloadargs
+  whdload "ILudicrus.Slave" $whdloadargs
+ELSE
+  whdload "ILudicrus.Slave"
+ENDIF

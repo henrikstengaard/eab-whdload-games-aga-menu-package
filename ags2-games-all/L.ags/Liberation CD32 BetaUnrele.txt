@@ -1,0 +1,7 @@
+Name      : Liberation
+Version   : CD32
+Publisher : Mindscape
+Year      : 1994
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+RunFile   : LiberationCD32.Slave

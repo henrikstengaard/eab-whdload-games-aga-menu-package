@@ -1,0 +1,6 @@
+Name      : Simulman 01: Simulman
+Language  : Italian
+Publisher : Simulmondo
+Year      : 1993
+Players   : 1
+RunFile   : Simulman01It.Slave

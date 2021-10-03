@@ -1,0 +1,6 @@
+Name      : Liberation
+Publisher : Mindscape
+Year      : 1994
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+RunFile   : Liberation.Slave

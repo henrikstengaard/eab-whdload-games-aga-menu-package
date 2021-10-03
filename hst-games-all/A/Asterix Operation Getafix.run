@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:A/AsterixOpGetafix/AsterixOpGetafix.slave
+;RunFile=A-Games:A/AsterixElGolpeDelMenhirEs/AsterixElGolpeDelMenhirEs.slave
 
 ; Run WHDLoad
-cd "A-Games:A/AsterixOpGetafix/"
+cd "A-Games:A/AsterixElGolpeDelMenhirEs/"
 IF EXISTS ENV:whdloadargs
-  whdload "AsterixOpGetafix.slave" $whdloadargs
+  whdload "AsterixElGolpeDelMenhirEs.slave" $whdloadargs
 ELSE
-  whdload "AsterixOpGetafix.slave"
+  whdload "AsterixElGolpeDelMenhirEs.slave"
 ENDIF

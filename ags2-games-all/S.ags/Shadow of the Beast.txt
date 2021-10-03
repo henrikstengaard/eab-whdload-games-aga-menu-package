@@ -3,4 +3,4 @@ Publisher : Psygnosis
 Year      : 1989
 Genre     : Platformer - Scrolling Screen
 Players   : 1 Only
-RunFile   : ShadowOfTheBeast.Slave
+RunFile   : ShadowOfTheBeast.slave

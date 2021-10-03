@@ -1,0 +1,7 @@
+Name      : Germ Crazy
+Language  : German
+Publisher : Electronic Zoo
+Year      : 1991
+Genre     : Brain - Puzzle
+Players   : 1 Only
+RunFile   : GermCrazyDe.Slave

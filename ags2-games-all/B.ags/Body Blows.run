@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BodyBlows/BodyBlows.Slave
+;RunFile=A-Games:B/BodyBlows/BodyBlows.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:B/BodyBlows/"
 IF EXISTS ENV:whdloadargs
-  whdload "BodyBlows.Slave" $whdloadargs
+  whdload "BodyBlows.slave" $whdloadargs
 ELSE
-  whdload "BodyBlows.Slave"
+  whdload "BodyBlows.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

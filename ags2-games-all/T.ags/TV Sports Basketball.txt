@@ -3,4 +3,4 @@ Publisher : Cinemaware
 Year      : 1990
 Genre     : Sports - Basketball
 Players   : 1 or 2, Simultaneous
-RunFile   : TVSportsBasketball.Slave
+RunFile   : TVSportsBasketball.slave

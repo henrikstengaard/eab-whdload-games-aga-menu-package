@@ -1,0 +1,6 @@
+Name      : Ruff 'n' Tumble
+Version   : 512K
+Publisher : Renegade
+Year      : 1994
+Players   : 1 Only
+RunFile   : RuffNTumble512k.slave

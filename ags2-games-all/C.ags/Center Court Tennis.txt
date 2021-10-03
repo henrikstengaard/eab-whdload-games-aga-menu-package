@@ -1,0 +1,5 @@
+Name      : Center Court Tennis
+Publisher : Acid
+Year      : 1994
+Players   : 1 - 2 (2 simultaneous)
+RunFile   : CenterCourt.slave

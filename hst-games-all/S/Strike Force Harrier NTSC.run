@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:H/HarrierCombatSimNTSC/HarrierCombatSimNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:H/HarrierCombatSimNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "HarrierCombatSimNTSC.slave" $whdloadargs
+ELSE
+  whdload "HarrierCombatSimNTSC.slave"
+ENDIF

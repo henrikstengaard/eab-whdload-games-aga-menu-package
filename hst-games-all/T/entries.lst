@@ -1,30 +1,33 @@
 The Adventures of Genlock Holmes	T/The Adventures of Genlock	A-Games:A/AdventuresOfGenlockHolmes/AdventuresOfGenlockHolmes.Slave
+The Amazing Spider-Man	T/The Amazing Spider-Man	A-Games:A/AmazingSpiderMan/AmazingSpiderman.slave
+The Amazing Spider-Man NTSC	T/The Amazing Spider-Man NTS	A-Games:A/AmazingSpiderManNTSC/AmazingSpidermanNTSC.slave
 The Ancient Art of War in the Skies	T/The Ancient Art of War in	A-Games:A/AncientArtOfWarInTheSkies/AncientArtOfWarInTheSkies.Slave
 The Attack of the Green Smelly Aliens From Planet 27b/6	T/The Attack of the Green Sm	A-Games:A/AotGSAFP27b6/AotGSAFP27b6.Slave
-The Cartoons	T/The Cartoons	A-Games:C/Cartoons/Cartoons.Slave
+The Aquatic Games	T/The Aquatic Games	A-Games:A/AquaticGames/AquaticGames.Slave
+The Cartoons	T/The Cartoons	A-Games:C/Cartoons/Cartoons.slave
+The Chaos Engine 2 1MB	T/The Chaos Engine 2 1MB	A-Games:C/ChaosEngine21MB/ChaosEngine21MB.slave
 The Clue! DE	T/The Clue DE	A-Games:C/ClouDe/ClouDe.Slave
 The Clue! Profidisk DE	T/The Clue Profidisk DE	A-Games:C/ClouDe&Profidisk/ClouDe&Profidisk.Slave
 The Clue! DE AGA	T/The Clue DE AGA	A-Games:C/ClouDeAGA/ClouDeAGA.Slave
 The Clue! Profidisk DE AGA	T/The Clue Profidisk DE AGA	A-Games:C/ClouDeAGA&Profidisk/ClouDeAGA&Profidisk.Slave
 Third Reich	T/Third Reich	A-Games:C/ComputerThirdReich/ComputerThirdReich.Slave
 The First Samurai	T/The First Samurai	A-Games:F/FirstSamuraiA1200Version/FirstSamuraiA1200Version.Slave
-The Four Crystals of Trazere getlegendsavedisk NTSC	T/The Four Crystals of Traze	A-Games:F/FourCrystalsOfTrazereNTSC/getlegendsavedisk.slave
-The Four Crystals of Trazere NTSC	T/The Four Crystals of Tr V2	A-Games:F/FourCrystalsOfTrazereNTSC/FourCrystalsOfTrazereNTSC.Slave
+The Four Crystals of Trazere NTSC	T/The Four Crystals of Traze	A-Games:F/FourCrystalsOfTrazereNTSC/FourCrystalsOfTrazereNTSC.Slave
+The Four Crystals of Trazere getlegendsavedisk NTSC	T/The Four Crystals of Tr V2	A-Games:F/FourCrystalsOfTrazereNTSC/getlegendsavedisk.slave
 The Games: Summer Edition	T/The Games Summer Edition	A-Games:G/GamesSummerEdition/GamesSummerEdition.Slave
 The Games: Winter Edition	T/The Games Winter Edition	A-Games:G/GamesWinterEdition/GamesWinterEdition.Slave
-The Great Giana Sisters Special Edition	T/The Great Giana Sisters Sp	A-Games:G/GianaSistersSE/GianaSistersSE.slave
+The Great Giana Sisters Special Edition (Beta/Unreleased)	T/The Great Giana Sisters Sp	A-Beta:G/GianaSistersSE/GianaSistersSE.slave
 The Hellrun Machine	T/The Hellrun Machine	A-Games:H/HellrunMachine/HellrunMachine.Slave
 The Hitchhiker's Guide to the Galaxy	T/The Hitchhikers Guide to t	A-Games:H/HitchhikersGuideTTG/HitchhikersGuideTTG.Slave
 The Hunt for Red October	T/The Hunt for Red October	A-Games:H/HuntForRedOctober/HuntForRedOctober.Slave
-Templos Sagrados, Los ES	T/Templos Sagrados. Los ES	A-Games:L/LosTemplosSagradosEs/LosTemplosSagradosEs.slave
 The North Sea Inferno	T/The North Sea Inferno	A-Games:N/NorthSeaInferno/NorthSeaInferno.Slave
 Trog AGA	T/Trog AGA	A-Games:O/OgAGA/OgAGA.Slave
 The Paranoia Complex	T/The Paranoia Complex	A-Games:P/ParanoiaComplex/ParanoiaComplex.Slave
 The Paranoia Complex DE	T/The Paranoia Complex DE	A-Games:P/ParanoiaComplexDe/ParanoiaComplexDe.Slave
-The Quest For The Time-Bird Files	T/The Quest For The Time-Bir	A-Games:Q/QuestForTimeBirdFiles/QuestForTimeBirdFiles.Slave
-The Quest For The Time-Bird Image	T/The Quest For The Time- V2	A-Games:Q/QuestForTimeBirdImage/QuestForTimeBirdImage.Slave
-The Quest For The Time-Bird FR Files	T/The Quest For The Time- V3	A-Games:Q/QueteLOiseauDuTempFrFiles/QueteLOiseauDuTempFrFiles.Slave
-The Quest For The Time-Bird FR Image	T/The Quest For The Time- V4	A-Games:Q/QueteLOiseauDuTempFrImage/QueteLOiseauDuTempFrImage.Slave
+The Quest For The Time-Bird Files	T/The Quest For The Time-Bir	A-Games:Q/QuestForTimeBirdFiles/QuestForTimeBirdFiles.slave
+The Quest For The Time-Bird Image	T/The Quest For The Time- V2	A-Games:Q/QuestForTimeBirdImage/QuestForTimeBirdImage.slave
+The Quest For The Time-Bird FR Files	T/The Quest For The Time- V3	A-Games:Q/QueteLOiseauDuTempFrFiles/QueteLOiseauDuTempFrFiles.slave
+The Quest For The Time-Bird FR Image	T/The Quest For The Time- V4	A-Games:Q/QueteLOiseauDuTempFrImage/QueteLOiseauDuTempFrImage.slave
 Tower of Souls DE AGA	T/Tower of Souls DE AGA	A-Games:S/SeelenturmAGADe/SeelenturmAGADe.Slave
 Table Tennis Simulation	T/Table Tennis Simulation	A-Games:T/TableTennisSimulation/TableTennisSimulation.Slave
 Taekwondo	T/Taekwondo	A-Games:T/Taekwondo/Taekwondo.Slave
@@ -35,9 +38,10 @@ Targhan	T/Targhan	A-Games:T/Targhan/Targhan.Slave
 Targhan FAST	T/Targhan FAST	A-Games:T/TarghanFast/TarghanFast.slave
 Targhan FR FAST	T/Targhan FR FAST	A-Games:T/TarghanFastFr/TarghanFastFr.slave
 Targhan FR	T/Targhan FR	A-Games:T/TarghanFr/TarghanFr.Slave
+Targhan NTSC	T/Targhan NTSC	A-Games:T/TarghanNTSC/TarghanNTSC.Slave
 Tass Times in Tonetown	T/Tass Times in Tonetown	A-Games:T/TassTimesInTonetown/TassTimesInTonetown.Slave
 T-Bird	T/T-Bird	A-Games:T/TBird/TBird.Slave
-Team Suzuki	T/Team Suzuki	A-Games:T/TeamSuzuki/TeamSuzuki.slave
+Team Suzuki	T/Team Suzuki	A-Games:T/TeamSuzuki/TeamSuzuki.Slave
 Team Yankee	T/Team Yankee	A-Games:T/TeamYankee/TeamYankee.Slave
 Tearaway Thomas	T/Tearaway Thomas	A-Games:T/TearawayThomas/TearawayThomas.slave
 Tech	T/Tech	A-Games:T/Tech/Tech.Slave
@@ -49,10 +53,12 @@ Teenage Mutant Hero Turtles	T/Teenage Mutant Hero Tur V2	A-Games:T/TeenageMtntHe
 Teenage Mutant Ninja Turtles	T/Teenage Mutant Ninja Turtl	A-Games:T/TeenageMtntNinjaTurtles/TeenageMtntNinjaTurtles.Slave
 Teenage Queen	T/Teenage Queen	A-Games:T/TeenageQueen/TeenageQueen.Slave
 Temple of Apshai Trilogy	T/Temple of Apshai Trilogy	A-Games:T/TempleOfApshaiTrilogy/TempleOfApshaiTrilogy.Slave
+Temple Of The Enlightened Souls, The	T/Temple Of The Enlightened	A-Games:T/TempleOfEnlightenedSouls/TempleOfEnlightenedSouls.slave
+Templos Sagrados, Los ES	T/Templos Sagrados. Los ES	A-Games:T/TemplosSagradosEs/TemplosSagradosEs.slave
 Tennis Champs	T/Tennis Champs	A-Games:T/TennisChamps/TennisChamps.Slave
 Tennis Cup 1MB	T/Tennis Cup 1MB	A-Games:T/TennisCup1Mb/TennisCup1Mb.Slave
 Tennis Cup FR 1MB	T/Tennis Cup FR 1MB	A-Games:T/TennisCup1MbFr/TennisCup1MbFr.Slave
-Tennis Cup II	T/Tennis Cup II	A-Games:T/TennisCup2/TennisCup2.Slave
+Tennis Cup II	T/Tennis Cup II	A-Games:T/TennisCup2/TennisCup2.slave
 Tennis Cup 512KB	T/Tennis Cup 512KB	A-Games:T/TennisCup512Kb/TennisCup512Kb.Slave
 Tennis Cup FR 512KB	T/Tennis Cup FR 512KB	A-Games:T/TennisCup512KbFr/TennisCup512KbFr.Slave
 Tensai Demo	T/Tensai Demo	A-Games:T/TensaiDemo/TensaiDemo.Slave
@@ -69,11 +75,26 @@ Tetris	T/Tetris	A-Games:T/TetrisInfogrames/TetrisInfogrames.Slave
 Tetris	T/Tetris 	A-Games:T/TetrisMirrorsoft/TetrisMirrorsoft.Slave
 Tetris Pro	T/Tetris Pro	A-Games:T/TetrisPro/TetrisPro.Slave
 Tetrix	T/Tetrix	A-Games:T/Tetrix/Tetrix.Slave
+Tex 01: Mefisto IT	T/Tex 01 Mefisto IT	A-Games:T/Tex01It/Tex01It.Slave
+Tex 02: Il Drago Rosso IT	T/Tex 02 Il Drago Rosso IT	A-Games:T/Tex02It/Tex02It.Slave
+Tex 03: Spettri (Ghosts) IT	T/Tex 03 Spettri Ghosts IT	A-Games:T/Tex03It/Tex03It.Slave
+Tex 04: San Francisco IT	T/Tex 04 San Francisco IT	A-Games:T/Tex04It/Tex04It.Slave
+Tex 05: Diabolico Intrigo (Diabolic Plot) IT	T/Tex 05 Diabolico Intrigo D	A-Games:T/Tex05It/Tex05It.Slave
+Tex 06: Lotta Sul Mare (Battle On The Sea) IT	T/Tex 06 Lotta Sul Mare Batt	A-Games:T/Tex06It/Tex06It.Slave
+Tex 07: El Morisco IT	T/Tex 07 El Morisco IT	A-Games:T/Tex07It/Tex07It.Slave
+Tex 08: Dramma Al Circo IT	T/Tex 08 Dramma Al Circo IT	A-Games:T/Tex08It/Tex08It.Slave
+Tex 09: Il Fiore Della Morte IT	T/Tex 09 Il Fiore Della Mort	A-Games:T/Tex09It/Tex09It.Slave
+Tex 10: Kento Non Perdona IT	T/Tex 10 Kento Non Perdona I	A-Games:T/Tex10It/Tex10It.Slave
+Tex 11: Duello All'Alba IT	T/Tex 11 Duello AllAlba IT	A-Games:T/Tex11It/Tex11It.Slave
+Tex 12: La Mano Rossa IT	T/Tex 12 La Mano Rossa IT	A-Games:T/Tex12It/Tex12It.Slave
+Tex: Piombo Caldo (Burning Lead) IT	T/Tex Piombo Caldo Burning L	A-Games:T/TexPiomboCaldoPart1It/TexPiomboCaldoPart1It.Slave
+Tex: Piombo Caldo (Burning Lead) IT	T/Tex Piombo Caldo Burnin V2	A-Games:T/TexPiomboCaldoPart2It/TexPiomboCaldoPart2It.Slave
 Theatre of Death	T/Theatre of Death	A-Games:T/TheatreOfDeath/TheatreOfDeath.Slave
 Their Finest Hour: The Battle of Britain	T/Their Finest Hour The Batt	A-Games:T/TheirFinestHour/TheirFinestHour.Slave
 Their Finest Hour: The Battle of Britain Missions	T/Their Finest Hour The B V2	A-Games:T/TheirFinestHour&Missions/TheirFinestHour&Missions.Slave
-Theme Park	T/Theme Park	A-Games:T/ThemePark/ThemePark.Slave
-Theme Park AGA	T/Theme Park AGA	A-Games:T/ThemeParkAGA/ThemeParkAGA.Slave
+Theme Park	T/Theme Park	A-Games:T/ThemePark/ThemePark.slave
+Theme Park AGA	T/Theme Park AGA	A-Games:T/ThemeParkAGA/ThemeParkAGA.slave
+Theme Park CD32	T/Theme Park CD32	A-Games:T/ThemeParkCD32/ThemeParkCD32.slave
 Theme Park Mystery	T/Theme Park Mystery	A-Games:T/ThemeParkMystery/ThemeParkMystery.slave
 Theme Park Mystery NTSC	T/Theme Park Mystery NTSC	A-Games:T/ThemeParkMysteryNTSC/ThemeParkMysteryNTSC.slave
 Thexder	T/Thexder	A-Games:T/Thexder/Thexder.slave
@@ -82,6 +103,7 @@ Thomas the Tank Engine AGA	T/Thomas the Tank Engine AGA	A-Games:T/ThomasTankEngP
 Thomas the Tank Engine CD32	T/Thomas the Tank Engine CD3	A-Games:T/ThomasTankEngPinballCD32/ThomasTankEngPinballCD32.Slave
 Thomas the Tank Engine	T/Thomas the Tank Engine	A-Games:T/ThomasTheTankEngine/ThomasTheTankEngine.Slave
 Thomas the Tank Engine 2	T/Thomas the Tank Engine 2	A-Games:T/ThomasTheTankEngine2/ThomasTheTankEngine2.slave
+Three Stooges, The	T/Three Stooges. The	A-Games:T/ThreeStooges/ThreeStooges.Slave
 Three Stooges, The NTSC	T/Three Stooges. The NTSC	A-Games:T/ThreeStoogesNTSC/ThreeStoogesNTSC.Slave
 Thunderbirds	T/Thunderbirds	A-Games:T/Thunderbirds/Thunderbirds.slave
 Thunder Blade	T/Thunder Blade	A-Games:T/ThunderBlade/ThunderBlade.Slave
@@ -92,7 +114,8 @@ ThunderCats	T/ThunderCats	A-Games:T/ThunderCats/ThunderCats.slave
 Thunderhawk AH-73M	T/Thunderhawk AH-73M	A-Games:T/ThunderHawkAH73M/ThunderHawkAH73M.Slave
 Thunderhawk AH-73M DE	T/Thunderhawk AH-73M DE	A-Games:T/ThunderHawkAH73MDe/ThunderHawkAH73MDe.Slave
 Thunderhawk AH-73M FR	T/Thunderhawk AH-73M FR	A-Games:T/ThunderHawkAH73MFr/ThunderHawkAH73MFr.Slave
-Thunder Jaws	T/Thunder Jaws	A-Games:T/ThunderJaws/ThunderJaws.Slave
+Thunder Jaws Files	T/Thunder Jaws Files	A-Games:T/ThunderJawsFiles/ThunderJawsFiles.slave
+Thunder Jaws Image	T/Thunder Jaws Image	A-Games:T/ThunderJawsImage/ThunderJawsImage.slave
 Thunderstrike	T/Thunderstrike	A-Games:T/ThunderStrike/ThunderStrike.slave
 Tie-Break	T/Tie-Break	A-Games:T/TieBreak/TieBreak.Slave
 Tiger Road	T/Tiger Road	A-Games:T/TigerRoad/TigerRoad.Slave
@@ -102,7 +125,7 @@ Time Bandit	T/Time Bandit	A-Games:T/TimeBandit/TimeBandit.slave
 Time DE	T/Time DE	A-Games:T/TimeDe/TimeDe.Slave
 Time FR	T/Time FR	A-Games:T/TimeFr/TimeFr.Slave
 Time Lock	T/Time Lock	A-Games:T/TimeLock/TimeLock.slave
-Time Machine	T/Time Machine	A-Games:T/TimeMachine/TimeMachine.slave
+Time Machine	T/Time Machine	A-Games:T/TimeMachine/TimeMachine.Slave
 Time Race	T/Time Race	A-Games:T/TimeRace/TimeRace.Slave
 Time Runners 01: Gateways in Time	T/Time Runners 01 Gateways i	A-Games:T/TimeRunners01/TimeRunners01.Slave
 Time Runners 02: The Space Stone	T/Time Runners 02 The Space	A-Games:T/TimeRunners02/TimeRunners02.Slave
@@ -134,46 +157,50 @@ Time Runners 27: Red Night	T/Time Runners 27 Red Night	A-Games:T/TimeRunners27/T
 Time Runners 28: Beyond the End	T/Time Runners 28 Beyond the	A-Games:T/TimeRunners28/TimeRunners28.Slave
 Time Runners 29: The Last Revelation	T/Time Runners 29 The Last R	A-Games:T/TimeRunners29/TimeRunners29.Slave
 Time Runners 30: The Final Duel	T/Time Runners 30 The Final	A-Games:T/TimeRunners30/TimeRunners30.Slave
-Time Runners 25: The Lost Planet Earth TimeRunners25	T/Time Runners 25 The Los V2	A-Games:T/TimeRunnersSeries/TimeRunners25.Slave
-Time Runners 30: The Final Duel TimeRunners30	T/Time Runners 30 The Final 	A-Games:T/TimeRunnersSeries/TimeRunners30.Slave
-Time Runners 27: Red Night TimeRunners27	T/Time Runners 27 Red Night 	A-Games:T/TimeRunnersSeries/TimeRunners27.Slave
-Time Runners 24: Beyond All Dimensions TimeRunners24	T/Time Runners 24 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners24.Slave
-Time Runners 07: In the Land of the Invaders TimeRunners07	T/Time Runners 07 In the  V2	A-Games:T/TimeRunnersSeries/TimeRunners07.Slave
-Time Runners 26: The Time Warrior TimeRunners26	T/Time Runners 26 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners26.Slave
-Time Runners 05: The Black Knight TimeRunners05	T/Time Runners 05 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners05.Slave
-Time Runners 06: The Bewitched Forest TimeRunners06	T/Time Runners 06 The Bew V2	A-Games:T/TimeRunnersSeries/TimeRunners06.Slave
-Time Runners 29: The Last Revelation TimeRunners29	T/Time Runners 29 The Las V2	A-Games:T/TimeRunnersSeries/TimeRunners29.Slave
-Time Runners 22: The Eternal Damned TimeRunners22	T/Time Runners 22 The Ete V2	A-Games:T/TimeRunnersSeries/TimeRunners22.Slave
-Time Runners 19: The Nightmare Prince TimeRunners19	T/Time Runners 19 The Nig V2	A-Games:T/TimeRunnersSeries/TimeRunners19.Slave
-Time Runners 20: The Mountains of Death TimeRunners20	T/Time Runners 20 The Mou V2	A-Games:T/TimeRunnersSeries/TimeRunners20.Slave
-Time Runners 21: The Black Dragon's Curse TimeRunners21	T/Time Runners 21 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners21.Slave
+Time Runners 17: The Living Labyrinth TimeRunners17	T/Time Runners 17 The Liv V2	A-Games:T/TimeRunnersSeries/TimeRunners17.Slave
 Time Runners 16: The Galaxy Emperor TimeRunners16	T/Time Runners 16 The Gal V2	A-Games:T/TimeRunnersSeries/TimeRunners16.Slave
 Time Runners 23: The Time Monarch TimeRunners23	T/Time Runners 23 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners23.Slave
-Time Runners 28: Beyond the End TimeRunners28	T/Time Runners 28 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners28.Slave
-Time Runners 17: The Living Labyrinth TimeRunners17	T/Time Runners 17 The Liv V2	A-Games:T/TimeRunnersSeries/TimeRunners17.Slave
 Time Runners 18: The Killer Shadow TimeRunners18	T/Time Runners 18 The Kil V2	A-Games:T/TimeRunnersSeries/TimeRunners18.Slave
-Time Runners 09: The Time Demon TimeRunners09	T/Time Runners 09 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners09.Slave
-Time Runners 12: A Target for the Cyborg TimeRunners12	T/Time Runners 12 A Targe V2	A-Games:T/TimeRunnersSeries/TimeRunners12.Slave
-Time Runners 15: At the Speed of Light TimeRunners15	T/Time Runners 15 At the  V2	A-Games:T/TimeRunnersSeries/TimeRunners15.Slave
-Time Runners 04: The Castle of Fear TimeRunners04	T/Time Runners 04 The Cas V2	A-Games:T/TimeRunnersSeries/TimeRunners04.Slave
+Time Runners 21: The Black Dragon's Curse TimeRunners21	T/Time Runners 21 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners21.Slave
+Time Runners 20: The Mountains of Death TimeRunners20	T/Time Runners 20 The Mou V2	A-Games:T/TimeRunnersSeries/TimeRunners20.Slave
+Time Runners 19: The Nightmare Prince TimeRunners19	T/Time Runners 19 The Nig V2	A-Games:T/TimeRunnersSeries/TimeRunners19.Slave
+Time Runners 22: The Eternal Damned TimeRunners22	T/Time Runners 22 The Ete V2	A-Games:T/TimeRunnersSeries/TimeRunners22.Slave
+Time Runners 08: The Impregnable Fortress TimeRunners08	T/Time Runners 08 The Imp V2	A-Games:T/TimeRunnersSeries/TimeRunners08.Slave
 Time Runners 11: The Steel City TimeRunners11	T/Time Runners 11 The Steel 	A-Games:T/TimeRunnersSeries/TimeRunners11.Slave
-Time Runners 10: The Time Sentry TimeRunners10	T/Time Runners 10 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners10.Slave
 Time Runners 03: The Big Run TimeRunners03	T/Time Runners 03 The Big V2	A-Games:T/TimeRunnersSeries/TimeRunners03.Slave
-Time Runners 02: The Space Stone TimeRunners02	T/Time Runners 02 The Space 	A-Games:T/TimeRunnersSeries/TimeRunners02.Slave
 Time Runners 01: Gateways in Time TimeRunners01	T/Time Runners 01 Gateway V2	A-Games:T/TimeRunnersSeries/TimeRunners01.Slave
+Time Runners 02: The Space Stone TimeRunners02	T/Time Runners 02 The Space 	A-Games:T/TimeRunnersSeries/TimeRunners02.Slave
+Time Runners 10: The Time Sentry TimeRunners10	T/Time Runners 10 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners10.Slave
 Time Runners 14: Toraxid - War Star TimeRunners14	T/Time Runners 14 Toraxid - 	A-Games:T/TimeRunnersSeries/TimeRunners14.Slave
 Time Runners 13: Cyberkiller TimeRunners13	T/Time Runners 13 Cyberki V2	A-Games:T/TimeRunnersSeries/TimeRunners13.Slave
-Time Runners 08: The Impregnable Fortress TimeRunners08	T/Time Runners 08 The Imp V2	A-Games:T/TimeRunnersSeries/TimeRunners08.Slave
+Time Runners 15: At the Speed of Light TimeRunners15	T/Time Runners 15 At the  V2	A-Games:T/TimeRunnersSeries/TimeRunners15.Slave
+Time Runners 09: The Time Demon TimeRunners09	T/Time Runners 09 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners09.Slave
+Time Runners 12: A Target for the Cyborg TimeRunners12	T/Time Runners 12 A Targe V2	A-Games:T/TimeRunnersSeries/TimeRunners12.Slave
+Time Runners 27: Red Night TimeRunners27	T/Time Runners 27 Red Night 	A-Games:T/TimeRunnersSeries/TimeRunners27.Slave
+Time Runners 30: The Final Duel TimeRunners30	T/Time Runners 30 The Final 	A-Games:T/TimeRunnersSeries/TimeRunners30.Slave
+Time Runners 24: Beyond All Dimensions TimeRunners24	T/Time Runners 24 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners24.Slave
+Time Runners 25: The Lost Planet Earth TimeRunners25	T/Time Runners 25 The Los V2	A-Games:T/TimeRunnersSeries/TimeRunners25.Slave
+Time Runners 26: The Time Warrior TimeRunners26	T/Time Runners 26 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners26.Slave
+Time Runners 29: The Last Revelation TimeRunners29	T/Time Runners 29 The Las V2	A-Games:T/TimeRunnersSeries/TimeRunners29.Slave
+Time Runners 07: In the Land of the Invaders TimeRunners07	T/Time Runners 07 In the  V2	A-Games:T/TimeRunnersSeries/TimeRunners07.Slave
+Time Runners 04: The Castle of Fear TimeRunners04	T/Time Runners 04 The Cas V2	A-Games:T/TimeRunnersSeries/TimeRunners04.Slave
+Time Runners 06: The Bewitched Forest TimeRunners06	T/Time Runners 06 The Bew V2	A-Games:T/TimeRunnersSeries/TimeRunners06.Slave
+Time Runners 28: Beyond the End TimeRunners28	T/Time Runners 28 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners28.Slave
+Time Runners 05: The Black Knight TimeRunners05	T/Time Runners 05 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners05.Slave
 Time Scanner	T/Time Scanner	A-Games:T/TimeScanner/TimeScanner.Slave
 Times of Lore	T/Times of Lore	A-Games:T/TimesOfLore/TimesOfLore.Slave
 Time Soldier	T/Time Soldier	A-Games:T/TimeSoldier/TimeSoldier.Slave
-Tintin on the Moon Files	T/Tintin on the Moon Files	A-Games:T/TintinOnTheMoonFiles/TintinOnTheMoonFiles.Slave
-Tintin on the Moon Image	T/Tintin on the Moon Image	A-Games:T/TintinOnTheMoonImage/TintinOnTheMoonImage.Slave
-Tin Toy Adventure AGA	T/Tin Toy Adventure AGA	A-Games:T/TinToyAdventureAGA/TinToyAdventureAGA.Slave
+Tintin on the Moon Files	T/Tintin on the Moon Files	A-Games:T/TintinOnTheMoonFiles/TintinOnTheMoonFiles.slave
+Tintin on the Moon Image	T/Tintin on the Moon Image	A-Games:T/TintinOnTheMoonImage/TintinOnTheMoonImage.slave
+Tin Toy Adventure AGA	T/Tin Toy Adventure AGA	A-Games:T/TinToyAdventureAGA/TinToyAdventureAGA.slave
+Tiny Bobble	T/Tiny Bobble	A-Games:T/TinyBobble/TinyBobble.slave
+Tiny Galaga	T/Tiny Galaga	A-Games:T/TinyGalaga/TinyGalaga.slave
+Tiny Invaders	T/Tiny Invaders	A-Games:T/TinyInvaders/TinyInvaders.slave
 Tiny Skweeks	T/Tiny Skweeks	A-Games:T/TinySkweeks/TinySkweeks.Slave
 Tiny Troops	T/Tiny Troops	A-Games:T/TinyTroops/TinyTroops.Slave
 Tiny Troops CD	T/Tiny Troops CD	A-Games:T/TinyTroopsCD/TinyTroopsCD.Slave
 Tiny Troops DE CD	T/Tiny Troops DE CD	A-Games:T/TinyTroopsCDDe/TinyTroopsCDDe.Slave
+Tinyus (Beta/Unreleased)	T/Tinyus BetaUnreleased	A-Beta:T/Tinyus/Tinyus.slave
 Tip Off	T/Tip Off	A-Games:T/TipOff/TipOff.Slave
 Tip Off IT FR ES DE	T/Tip Off IT FR ES DE	A-Games:T/TipOffDeEsFrIt/TipOffDeEsFrIt.Slave
 Tip Off NTSC	T/Tip Off NTSC	A-Games:T/TipOffNTSC/TipOffNTSC.Slave
@@ -181,11 +208,14 @@ Titan	T/Titan	A-Games:T/Titan/Titan.slave
 Titanic Blinky	T/Titanic Blinky	A-Games:T/TitanicBlinky/TitanicBlinky.Slave
 Titus the Fox	T/Titus the Fox	A-Games:T/TitusTheFox/TitusTheFox.slave
 Toki	T/Toki	A-Games:T/Toki/Toki.slave
+Tom and Jerry 2	T/Tom and Jerry 2	A-Games:T/Tom&Jerry/Tom&Jerry.Slave
+Tom and Jerry 2	T/Tom and Jerry 2 	A-Games:T/Tom&Jerry2/Tom&Jerry2.Slave
+Tom & Jerry: Hunting High and Low	T/Tom Jerry Hunting High and	A-Games:T/Tom&JerryHHAL/Tom&JerryHHAL.Slave
 Tom and the Ghost	T/Tom and the Ghost	A-Games:T/TomAndTheGhost/TomAndTheGhost.Slave
 Tom Landry Strategy Football	T/Tom Landry Strategy Footba	A-Games:T/TomLandryFootball/TomLandryFootball.Slave
 Tom Landry Strategy Football	T/Tom Landry Strategy Foo V2	A-Games:T/TomLandryFootballDeluxe/TomLandryFootballDeluxe.Slave
 Tommy Gun	T/Tommy Gun	A-Games:T/TommyGun/TommyGun.Slave
-Tony & Friends in Kellogg's Land	T/Tony Friends in Kelloggs L	A-Games:T/Tony&Friends/Tony&Friends.Slave
+Tony & Friends in Kellogg's Land (Beta/Unreleased)	T/Tony Friends in Kelloggs L	A-Beta:T/Tony&Friends/Tony&Friends.Slave
 Tony & Friends in Kellogg's Land DE	T/Tony Friends in Kellogg V2	A-Games:T/Tony&FriendsDe/Tony&FriendsDe.Slave
 Toobin'	T/Toobin	A-Games:T/Toobin/Toobin.Slave
 Top Banana	T/Top Banana	A-Games:T/TopBanana/TopBanana.Slave
@@ -194,6 +224,7 @@ TopGear 2	T/TopGear 2	A-Games:T/TopGear2/TopGear2.Slave
 TopGear 2 AGA	T/TopGear 2 AGA	A-Games:T/TopGear2AGA/TopGear2AGA.Slave
 TopGear 2 CD32	T/TopGear 2 CD32	A-Games:T/TopGear2CD32/TopGear2CD32.Slave
 Top Secret	T/Top Secret	A-Games:T/TopSecret/TopSecret.Slave
+Top Wrestling	T/Top Wrestling	A-Games:T/TopWrestling/TopWrestling.Slave
 Tornado	T/Tornado	A-Games:T/Tornado/Tornado.slave
 Tornado AGA	T/Tornado AGA	A-Games:T/TornadoAGA/TornadoAGA.slave
 Tornado Ground Attack	T/Tornado Ground Attack	A-Games:T/TornadoGroundAttack/TornadoGroundAttack.Slave
@@ -207,7 +238,7 @@ Total Recall Image	T/Total Recall Image	A-Games:T/TotalRecallImage/TotalRecallIm
 Tournament Golf	T/Tournament Golf	A-Games:T/TournamentGolf/TournamentGolf.Slave
 Tower of Babel	T/Tower of Babel	A-Games:T/TowerOfBabel/TowerOfBabel.Slave
 Tower of Souls AGA	T/Tower of Souls AGA	A-Games:T/TowerOfSoulsAGA/TowerOfSoulsAGA.Slave
-Tower Toppler NTSC	T/Tower Toppler NTSC	A-Games:T/TowerTopplerNTSC/TowerTopplerNTSC.slave
+Tower Toppler NTSC	T/Tower Toppler NTSC	A-Games:T/TowerTopplerNTSC/TowerTopplerNTSC.Slave
 Town with No Name, The CDTV	T/Town with No Name. The CDT	A-Games:T/TownWithNoNameCDTV/TownWithNoNameCDTV.Slave
 Toyottes, The Files	T/Toyottes. The Files	A-Games:T/ToyottesFiles/ToyottesFiles.Slave
 Toyottes, The Image	T/Toyottes. The Image	A-Games:T/ToyottesImage/ToyottesImage.Slave
@@ -231,13 +262,15 @@ TrianGo	T/TrianGo	A-Games:T/TrianGO/TrianGO.Slave
 Tricky-Quiky-Games: Die Suche nach den Verschollenen Seiten DE	T/Tricky-Quiky-Games Die Suc	A-Games:T/TrickyQuikyGamesDe/TrickyQuikyGamesDe.Slave
 Tripple-X	T/Tripple-X	A-Games:T/TripleX/TripleX.Slave
 Trivial Pursuit: Amiga Genus Edition	T/Trivial Pursuit Amiga Genu	A-Games:T/TrivialPursuit/TrivialPursuit.slave
+Trivial Pursuit: A New Beginning	T/Trivial Pursuit A New Begi	A-Games:T/TrivialPursuitANB/TrivialPursuitANB.Slave
+Trivial Pursuit: A New Beginning DE	T/Trivial Pursuit A New B V2	A-Games:T/TrivialPursuitANBDe/TrivialPursuitANBDe.Slave
+Trivial Pursuit: A New Beginning FR	T/Trivial Pursuit A New B V3	A-Games:T/TrivialPursuitANBFr/TrivialPursuitANBFr.Slave
 Trivial Pursuit: Amiga Genus Edition DE	T/Trivial Pursuit Amiga G V2	A-Games:T/TrivialPursuitDe/TrivialPursuitDe.slave
 Trivial Pursuit: Amiga Genus Edition FR	T/Trivial Pursuit Amiga G V3	A-Games:T/TrivialPursuitFr/TrivialPursuitFr.slave
-Trivial Pursuit: A New Beginning	T/Trivial Pursuit A New Begi	A-Games:T/TrivialPursuitNewBegin/TrivialPursuitNewBegin.slave
-Trivial Pursuit: A New Beginning DE	T/Trivial Pursuit A New B V2	A-Games:T/TrivialPursuitNewBeginDe/TrivialPursuitNewBeginDe.Slave
-Trivial Pursuit: A New Beginning FR	T/Trivial Pursuit A New B V3	A-Games:T/TrivialPursuitNewBeginFr/TrivialPursuitNewBeginFr.Slave
-Troddlers	T/Troddlers	A-Games:T/Troddlers/Troddlers.Slave
+Troddlers Files	T/Troddlers Files	A-Games:T/TroddlersFiles/TroddlersFiles.Slave
+Troddlers Image	T/Troddlers Image	A-Games:T/TroddlersImage/TroddlersImage.Slave
 Trog	T/Trog	A-Games:T/Trog/Trog.Slave
+Trois Petits Cochons s'Amusent, Les FR	T/Trois Petits Cochons sAmus	A-Games:T/TroisPetitsCochonsFr/TroisPetitsCochonsFr.Slave
 Trolls	T/Trolls	A-Games:T/Trolls/Trolls.Slave
 Trolls AGA	T/Trolls AGA	A-Games:T/TrollsAGA/TrollsAGA.Slave
 Trolls CD32	T/Trolls CD32	A-Games:T/TrollsCD32/TrollsCD32.Slave
@@ -264,15 +297,16 @@ Turrican Demo	T/Turrican Demo	A-Games:T/TurricanDemo/TurricanDemo.Slave
 Turrican NTSC	T/Turrican NTSC	A-Games:T/TurricanNTSC/TurricanNTSC.Slave
 Tusker	T/Tusker	A-Games:T/Tusker/Tusker.Slave
 TV Sports Baseball	T/TV Sports Baseball	A-Games:T/TVSportsBaseball/TVSportsBaseball.Slave
-TV Sports Basketball	T/TV Sports Basketball	A-Games:T/TVSportsBasketball/TVSportsBasketball.Slave
+TV Sports Basketball	T/TV Sports Basketball	A-Games:T/TVSportsBasketball/TVSportsBasketball.slave
 TV Sports Boxing	T/TV Sports Boxing	A-Games:T/TVSportsBoxing/TVSportsBoxing.Slave
 TV Sports Football	T/TV Sports Football	A-Games:T/TVSportsFootball/TVSportsFootball.slave
 Twintris	T/Twintris	A-Games:T/Twintris/Twintris.Slave
 Twin Turbos	T/Twin Turbos	A-Games:T/TwinTurbos/TwinTurbos.slave
-Twinworld: Land of Vision	T/Twinworld Land of Vision	A-Games:T/TwinWorld/TwinWorld.Slave
+Twinworld: Land of Vision	T/Twinworld Land of Vision	A-Games:T/TwinWorld/Twinworld.slave
 Twylyte	T/Twylyte	A-Games:T/Twylyte/Twylyte.Slave
 Typhoon	T/Typhoon	A-Games:T/Typhoon/Typhoon.Slave
-Typhoon Thompson in Search for the Sea Child NTSC	T/Typhoon Thompson in Search	A-Games:T/TyphoonThompsonNTSC/TyphoonThompsonNTSC.Slave
+Typhoon Thompson in Search for the Sea Child 512K NTSC	T/Typhoon Thompson in Search	A-Games:T/TyphoonThompson512kNTSC/TyphoonThompson512kNTSC.slave
+Typhoon Thompson in Search for the Sea Child NTSC	T/Typhoon Thompson in Sea V2	A-Games:T/TyphoonThompsonNTSC/TyphoonThompsonNTSC.slave
 T-Zer0 AGA Demo	T/T-Zer0 AGA Demo	A-Games:T/TZer0DemoAGA/TZer0DemoAGA.Slave
 T-ZerO AGA	T/T-ZerO AGA	A-Games:T/TZer0DemoNoMovieAGA/TZer0DemoNoMovieAGA.Slave
 The Way Of The Little Dragon	T/The Way Of The Little Drag	A-Games:W/WayOfTheLittleDragon/WayOfTheLittleDragon.Slave

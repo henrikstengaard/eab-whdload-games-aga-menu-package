@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/StarRayNoIntro/StarRayNoIntro.slave
+
+; Run WHDLoad
+cd "A-Games:S/StarRayNoIntro/"
+IF EXISTS ENV:whdloadargs
+  whdload "StarRayNoIntro.slave" $whdloadargs
+ELSE
+  whdload "StarRayNoIntro.slave"
+ENDIF

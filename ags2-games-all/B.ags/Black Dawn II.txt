@@ -1,0 +1,6 @@
+Name      : Black Dawn II
+Publisher : (unknown)
+Year      : 1994
+Genre     : Adventure - RPG 3D
+Players   : 1 Only
+RunFile   : BlackDawn2.Slave

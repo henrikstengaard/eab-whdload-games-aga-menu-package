@@ -1,0 +1,7 @@
+Name      : Exodus 3010
+Language  : German
+Publisher : Demonware
+Year      : 1993
+Genre     : Strategy - Miscellaneous
+Players   : 1 Only
+RunFile   : Exodus3010De.Slave

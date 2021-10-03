@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TowerTopplerNTSC/TowerTopplerNTSC.slave
+;RunFile=A-Games:T/TowerTopplerNTSC/TowerTopplerNTSC.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/TowerTopplerNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "TowerTopplerNTSC.slave" $whdloadargs
+  whdload "TowerTopplerNTSC.Slave" $whdloadargs
 ELSE
-  whdload "TowerTopplerNTSC.slave"
+  whdload "TowerTopplerNTSC.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:M/MissionElevator/MissionElevator.Slave
+;RunFile=A-Games:M/MissionElevator/MissionElevator.slave
 
 ; Run WHDLoad
 cd "A-Games:M/MissionElevator/"
 IF EXISTS ENV:whdloadargs
-  whdload "MissionElevator.Slave" $whdloadargs
+  whdload "MissionElevator.slave" $whdloadargs
 ELSE
-  whdload "MissionElevator.Slave"
+  whdload "MissionElevator.slave"
 ENDIF

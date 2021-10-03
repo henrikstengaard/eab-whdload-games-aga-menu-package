@@ -1,6 +1,6 @@
 Oath, The	O/Oath. The	A-Games:O/Oath/Oath.Slave
 Obitus	O/Obitus	A-Games:O/Obitus/Obitus.Slave
-Obliterator	O/Obliterator	A-Games:O/Obliterator/Obliterator.Slave
+Obliterator	O/Obliterator	A-Games:O/Obliterator/Obliterator.slave
 Oblivion	O/Oblivion	A-Games:O/Oblivion/Oblivion.Slave
 Obsession	O/Obsession	A-Games:O/Obsession/Obsession.Slave
 Odyssey	O/Odyssey	A-Games:O/Odyssey/Odyssey.slave
@@ -19,6 +19,8 @@ One on One NTSC	O/One on One NTSC	A-Games:O/OneOnOneNTSC/OneOnOneNTSC.slave
 One Step Beyond	O/One Step Beyond	A-Games:O/OneStepBeyond/OneStepBeyond.slave
 One To One Match	O/One To One Match	A-Games:O/OneToOneMatch/OneToOneMatch.Slave
 Onslaught	O/Onslaught	A-Games:O/Onslaught/Onslaught.slave
+On The Ball: League Edition	O/On The Ball League Edition	A-Games:O/OnTheBallLE/OnTheBallLE.slave
+On The Ball: League Edition AGA AGA	O/On The Ball League Edit V2	A-Games:O/OnTheBallLEAGA/OnTheBallLEAGA.slave
 Ooops Up	O/Ooops Up	A-Games:O/OoopsUp/OoopsUp.Slave
 Ooze	O/Ooze	A-Games:O/Ooze/Ooze.Slave
 Ooze DE	O/Ooze DE	A-Games:O/OozeDe/OozeDe.Slave
@@ -34,7 +36,7 @@ Operation Stealth DE	O/Operation Stealth DE	A-Games:O/OperationStealthDe/Operati
 Operation Stealth ES	O/Operation Stealth ES	A-Games:O/OperationStealthEs/OperationStealthEs.slave
 Operation Stealth FR	O/Operation Stealth FR	A-Games:O/OperationStealthFr/OperationStealthFr.slave
 Operation Stealth IT	O/Operation Stealth IT	A-Games:O/OperationStealthIt/OperationStealthIt.slave
-Operation Thunderbolt	O/Operation Thunderbolt	A-Games:O/OperationThunderbolt/OperationThunderbolt.Slave
+Operation Thunderbolt	O/Operation Thunderbolt	A-Games:O/OperationThunderbolt/OperationThunderbolt.slave
 Operation Wolf	O/Operation Wolf	A-Games:O/OperationWolf/OperationWolf.Slave
 Orbital Destroyer	O/Orbital Destroyer	A-Games:O/OrbitalDestroyer/OrbitalDestroyer.Slave
 Oriental Games	O/Oriental Games	A-Games:O/OrientalGames/OrientalGames.Slave
@@ -42,14 +44,17 @@ Ork	O/Ork	A-Games:O/Ork/Ork.Slave
 Ork Attack: The Return	O/Ork Attack The Return	A-Games:O/OrkAttackTheReturn/OrkAttackTheReturn.Slave
 Ork Demo	O/Ork Demo	A-Games:O/OrkDemo/OrkDemo.Slave
 Ork NTSC	O/Ork NTSC	A-Games:O/OrkNTSC/OrkNTSC.Slave
+Oscar	O/Oscar	A-Games:O/Oscar/Oscar.slave
 Oscar AGA	O/Oscar AGA	A-Games:O/OscarAGA/OscarAGA.Slave
 Oscar CD32	O/Oscar CD32	A-Games:O/OscarCD32/OscarCD32.Slave
-Oscar CD32 NTSC	O/Oscar CD32 NTSC	A-Games:O/OscarCD32NTSC/OscarCD32NTSC.slave
-OsWALD of the Ice Floes NTSC	O/OsWALD of the Ice Floes NT	A-Games:O/OsWALDOfTheIceFloesNTSC/OsWALDOfTheIceFloesNTSC.Slave
-Outlands	O/Outlands	A-Games:O/Outlands&DizzyDice/Outlands&DizzyDice.slave
-Out of this World NTSC	O/Out of this World NTSC	A-Games:O/OutOfThisWorldNTSC/OutOfThisWorldNTSC.slave
+Oscar CD32 NTSC	O/Oscar CD32 NTSC	A-Games:O/OscarCD32NTSC/OscarCD32NTSC.Slave
+OsWALD DK	O/OsWALD DK	A-Games:O/OswaldDk/OswaldDk.Slave
+OsWALD NTSC	O/OsWALD NTSC	A-Games:O/OswaldNTSC/OswaldNTSC.Slave
+Outlands	O/Outlands	A-Games:O/Outlands/Outlands.slave
+Outlands	O/Outlands 	A-Games:O/Outlands&DizzyDice/Outlands&DizzyDice.slave
+Out of this World NTSC	O/Out of this World NTSC	A-Games:O/OutOfThisWorldNTSC/OutOfThisWorldNTSC.Slave
 Out Run	O/Out Run	A-Games:O/OutRun/OutRun.slave
-Out Run Europa	O/Out Run Europa	A-Games:O/OutRunEuropa/OutRunEuropa.Slave
+Out Run Europa	O/Out Run Europa	A-Games:O/OutRunEuropa/OutrunEuropa.slave
 Out Run NTSC	O/Out Run NTSC	A-Games:O/OutRunNTSC/OutRunNTSC.slave
 Outzone	O/Outzone	A-Games:O/Outzone/Outzone.Slave
 Overdrive	O/Overdrive	A-Games:O/OverdriveInfacto/OverdriveInfacto.Slave

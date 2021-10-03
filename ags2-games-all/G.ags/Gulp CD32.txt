@@ -1,0 +1,7 @@
+Name      : Gulp!
+Version   : CD32
+Publisher : ICE
+Year      : 1994
+Genre     : Brain - Puzzle
+Players   : 1 Only
+RunFile   : GulpCD32.slave

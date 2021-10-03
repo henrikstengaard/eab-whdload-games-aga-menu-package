@@ -1,0 +1,6 @@
+Name      : The Chaos Engine 2
+Version   : 1MB
+Publisher : Renegade, Time Warner Interactive
+Year      : 1996
+Players   : 1 - 2 (2 simultaneous)
+RunFile   : ChaosEngine21MB.slave

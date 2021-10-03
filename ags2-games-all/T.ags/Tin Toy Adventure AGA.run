@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:T/TinToyAdventureAGA/TinToyAdventureAGA.Slave
+;RunFile=A-Games:T/TinToyAdventureAGA/TinToyAdventureAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:T/TinToyAdventureAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "TinToyAdventureAGA.Slave" $whdloadargs
+  whdload "TinToyAdventureAGA.slave" $whdloadargs
 ELSE
-  whdload "TinToyAdventureAGA.Slave"
+  whdload "TinToyAdventureAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

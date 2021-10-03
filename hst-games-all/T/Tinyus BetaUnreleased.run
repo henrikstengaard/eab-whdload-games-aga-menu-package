@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:T/Tinyus/Tinyus.slave
+
+; Run WHDLoad
+cd "A-Beta:T/Tinyus/"
+IF EXISTS ENV:whdloadargs
+  whdload "Tinyus.slave" $whdloadargs
+ELSE
+  whdload "Tinyus.slave"
+ENDIF

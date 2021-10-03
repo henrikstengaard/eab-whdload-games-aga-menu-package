@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:E/ExileCD32/ExileCD32.slave
+
+; Run WHDLoad
+cd "A-Games:E/ExileCD32/"
+IF EXISTS ENV:whdloadargs
+  whdload "ExileCD32.slave" $whdloadargs
+ELSE
+  whdload "ExileCD32.slave"
+ENDIF

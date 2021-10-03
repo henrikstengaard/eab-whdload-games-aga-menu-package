@@ -1,8 +1,7 @@
-Name      : Bundesliga Manager Hattrick
+Name      : Bundesliga Manager Hattrick [AGA]
 Language  : German
 Version   : AGA
 Publisher : Software 2000
 Year      : 1994
-Genre     : Sports - Football/Soccer
-Players   : 1 to 4
-RunFile   : BundesligaManagerHattDe.Slave
+Players   : 1 - 4 (1 simultaneous)
+RunFile   : BundesligaMngrHattAGADe.slave

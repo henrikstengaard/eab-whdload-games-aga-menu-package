@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:L/LosTemplosSagradosEs/LosTemplosSagradosEs.slave
+;RunFile=A-Games:T/TemplosSagradosEs/TemplosSagradosEs.slave
 
 ; Run WHDLoad
-cd "A-Games:L/LosTemplosSagradosEs/"
+cd "A-Games:T/TemplosSagradosEs/"
 IF EXISTS ENV:whdloadargs
-  whdload "LosTemplosSagradosEs.slave" $whdloadargs
+  whdload "TemplosSagradosEs.slave" $whdloadargs
 ELSE
-  whdload "LosTemplosSagradosEs.slave"
+  whdload "TemplosSagradosEs.slave"
 ENDIF

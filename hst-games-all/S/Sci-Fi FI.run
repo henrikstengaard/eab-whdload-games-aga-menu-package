@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/SciFi/SciFi.Slave
+
+; Run WHDLoad
+cd "A-Games:S/SciFi/"
+IF EXISTS ENV:whdloadargs
+  whdload "SciFi.Slave" $whdloadargs
+ELSE
+  whdload "SciFi.Slave"
+ENDIF

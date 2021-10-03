@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:B/BadDudesNTSC/BadDudesNTSC.Slave
+;RunFile=A-Games:B/BadDudesChipNTSC/BadDudesChipNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:B/BadDudesNTSC/"
+cd "A-Games:B/BadDudesChipNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "BadDudesNTSC.Slave" $whdloadargs
+  whdload "BadDudesChipNTSC.slave" $whdloadargs
 ELSE
-  whdload "BadDudesNTSC.Slave"
+  whdload "BadDudesChipNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

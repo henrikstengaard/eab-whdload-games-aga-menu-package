@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:S/Smash/Smash.slave
+
+; Run WHDLoad
+cd "A-Games:S/Smash/"
+IF EXISTS ENV:whdloadargs
+  whdload "Smash.slave" $whdloadargs
+ELSE
+  whdload "Smash.slave"
+ENDIF

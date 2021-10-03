@@ -1,0 +1,6 @@
+Name      : Body Blows
+Version   : FAST
+Publisher : Team 17
+Year      : 1993
+Players   : 1 or 2, Simultaneous
+RunFile   : BodyBlowsFast.Slave

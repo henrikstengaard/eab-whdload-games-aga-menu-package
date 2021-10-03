@@ -1,0 +1,5 @@
+Name      : Wild Life
+Publisher : New Deal Productions
+Year      : 1990
+Players   : 1 Only
+RunFile   : WildLife.Slave

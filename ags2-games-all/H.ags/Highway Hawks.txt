@@ -3,4 +3,4 @@ Publisher : Anco
 Year      : 1988
 Genre     : Racing - Cars
 Players   : 1 Only
-RunFile   : HighwayHawks.Slave
+RunFile   : HighwayHawks.slave

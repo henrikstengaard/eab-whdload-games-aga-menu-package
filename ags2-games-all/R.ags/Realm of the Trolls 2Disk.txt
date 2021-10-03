@@ -1,0 +1,6 @@
+Name      : Realm of the Trolls
+Version   : 2Disk
+Publisher : Rainbow Arts (Softgold) / GO! (U.S. Gold)
+Year      : 1988
+Players   : 1 - 8 (1 simultaneous)
+RunFile   : RealmOfTheTrolls2Disk.Slave

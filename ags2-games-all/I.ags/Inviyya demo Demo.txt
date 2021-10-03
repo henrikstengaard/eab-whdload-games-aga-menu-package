@@ -1,0 +1,7 @@
+Name      : Inviyya demo
+Version   : Demo
+Publisher : Unknown
+Year      : 2020
+Genre     : Shooter
+Players   : 1
+RunFile   : InviyyaDemo.slave

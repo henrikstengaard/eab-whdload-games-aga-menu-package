@@ -1,5 +1,6 @@
 Name      : Myth
-Publisher : Magnetic Scrolls (Promotional)
+Publisher : Magnetic Scrolls
 Year      : 1989
+Genre     : Adventure
 Players   : 1
 RunFile   : MythMagneticScrolls.Slave

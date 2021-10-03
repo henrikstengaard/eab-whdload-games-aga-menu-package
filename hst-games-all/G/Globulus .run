@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:G/GlobulusPR/GlobulusPR.slave
+
+; Run WHDLoad
+cd "A-Games:G/GlobulusPR/"
+IF EXISTS ENV:whdloadargs
+  whdload "GlobulusPR.slave" $whdloadargs
+ELSE
+  whdload "GlobulusPR.slave"
+ENDIF

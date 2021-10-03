@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:G/Globdule/Globdule.Slave
+;RunFile=A-Games:G/Globdule/Globdule.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:G/Globdule/"
 IF EXISTS ENV:whdloadargs
-  whdload "Globdule.Slave" $whdloadargs
+  whdload "Globdule.slave" $whdloadargs
 ELSE
-  whdload "Globdule.Slave"
+  whdload "Globdule.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

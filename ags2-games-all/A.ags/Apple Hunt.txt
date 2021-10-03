@@ -1,0 +1,6 @@
+Name      : Apple Hunt
+Publisher : Unknown
+Year      : 1994
+Genre     : Maze Game
+Players   : 1
+RunFile   : AppleHunt.slave

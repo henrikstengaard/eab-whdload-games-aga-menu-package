@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:S/SperisLegacyAGA/SperisLegacyAGA.Slave
+;RunFile=A-Games:S/SperisLegacyAGA/SperisLegacyAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:S/SperisLegacyAGA/"
 IF EXISTS ENV:whdloadargs
-  whdload "SperisLegacyAGA.Slave" $whdloadargs
+  whdload "SperisLegacyAGA.slave" $whdloadargs
 ELSE
-  whdload "SperisLegacyAGA.Slave"
+  whdload "SperisLegacyAGA.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,0 +1,7 @@
+Name      : Hare Raising Havoc
+Version   : NTSC
+Publisher : Infogrames
+Year      : 1992
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+RunFile   : HareRaisingHavocNTSC.slave

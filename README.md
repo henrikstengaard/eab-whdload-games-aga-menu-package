@@ -2,9 +2,18 @@
 
 EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in Retroplay's WHDLoad packs at English Amiga Board. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
 
-Screenshots and details for all AGA games are based on Retroplay's WHDLoad packs downloaded February 26th 2019.
+Screenshots and details for all AGA games are based on Retroplay's WHDLoad packs downloaded September 28th 2021.
 
 **Note that this package only supports Retroplay's WHDLoad packs at English Amiga Board as paths to start games are specifically generated for Retroplay's WHDLoad packs.**
+
+## Features
+
+EAB WHDLoad Games AGA Menu package contains following features:
+
+- Arcade Game Selector 2 v2020-04-14, https://github.com/MagerValp/ArcadeGameSelector.
+- Arcade Game Selector 2 preconfigured menu with screenshots at resolution 320x128 and 200 colors and game details.
+- iGame v2.0 2020-10-16, https://github.com/MrZammler/iGame.
+- iGame preconfigured menu with screenshots at resolution 320x128/320x256 and 255 colors.
 
 ## Requirements
 

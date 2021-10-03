@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:T/TempleOfEnlightenedSouls/TempleOfEnlightenedSouls.slave
+
+; Run WHDLoad
+cd "A-Games:T/TempleOfEnlightenedSouls/"
+IF EXISTS ENV:whdloadargs
+  whdload "TempleOfEnlightenedSouls.slave" $whdloadargs
+ELSE
+  whdload "TempleOfEnlightenedSouls.slave"
+ENDIF

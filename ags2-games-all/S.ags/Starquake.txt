@@ -1,0 +1,6 @@
+Name      : Starquake
+Publisher : Fusion Retro Books / Psytronik
+Year      : 2018
+Genre     : Platform
+Players   : 1
+RunFile   : Starquake.slave

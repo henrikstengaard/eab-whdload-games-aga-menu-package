@@ -1,0 +1,7 @@
+Name      : Strike Force Harrier
+Version   : NTSC
+Publisher : Mirrorsoft
+Year      : 1988
+Genre     : Simulation - Flight
+Players   : 1 Only
+RunFile   : HarrierCombatSimNTSC.slave

@@ -1,0 +1,6 @@
+Name      : Spirilon
+Version   : AGA
+Publisher : Unknown
+Genre     : Shooter
+Players   : 1
+RunFile   : SpirilonAGA.Slave

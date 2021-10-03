@@ -1,0 +1,7 @@
+Name      : Lost Vikings, The
+Version   : Demo
+Publisher : Interplay Productions
+Year      : 1993
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : LostVikingsDemo.Slave

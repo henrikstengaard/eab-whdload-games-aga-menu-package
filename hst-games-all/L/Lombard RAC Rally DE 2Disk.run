@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:L/LombardRACRally2DiskDe/LombardRACRally2DiskDe.Slave
+
+; Run WHDLoad
+cd "A-Games:L/LombardRACRally2DiskDe/"
+IF EXISTS ENV:whdloadargs
+  whdload "LombardRACRally2DiskDe.Slave" $whdloadargs
+ELSE
+  whdload "LombardRACRally2DiskDe.Slave"
+ENDIF

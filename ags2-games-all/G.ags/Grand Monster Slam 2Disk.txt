@@ -1,0 +1,7 @@
+Name      : Grand Monster Slam
+Version   : 2Disk
+Publisher : Rainbow Arts
+Year      : 1989
+Genre     : Arcade - Miscellaneous
+Players   : 1 Only
+RunFile   : GrandMonsterSlam2Disk.slave

@@ -3,4 +3,4 @@ Publisher : Palace Software
 Year      : 1990
 Genre     : Sports - Tennis
 Players   : 1 or 2, Simultaneous
-RunFile   : International3DTennis.Slave
+RunFile   : International3DTennis.slave

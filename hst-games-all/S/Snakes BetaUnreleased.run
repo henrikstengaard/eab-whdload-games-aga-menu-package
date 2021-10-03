@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:S/Snakes/Snakes.Slave
+
+; Run WHDLoad
+cd "A-Beta:S/Snakes/"
+IF EXISTS ENV:whdloadargs
+  whdload "Snakes.Slave" $whdloadargs
+ELSE
+  whdload "Snakes.Slave"
+ENDIF

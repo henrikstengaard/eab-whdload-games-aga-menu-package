@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:L/Liberation/Liberation.Slave
+
+; Run WHDLoad
+cd "A-Beta:L/Liberation/"
+IF EXISTS ENV:whdloadargs
+  whdload "Liberation.Slave" $whdloadargs
+ELSE
+  whdload "Liberation.Slave"
+ENDIF

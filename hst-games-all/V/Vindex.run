@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:V/Vindex/Vindex.Slave
+
+; Run WHDLoad
+cd "A-Games:V/Vindex/"
+IF EXISTS ENV:whdloadargs
+  whdload "Vindex.Slave" $whdloadargs
+ELSE
+  whdload "Vindex.Slave"
+ENDIF

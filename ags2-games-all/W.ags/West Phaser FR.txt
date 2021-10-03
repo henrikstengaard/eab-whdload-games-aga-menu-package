@@ -1,0 +1,6 @@
+Name      : West Phaser
+Language  : French
+Publisher : Loriciel
+Year      : 1989
+Players   : 1 to 6
+RunFile   : WestPhaserFr.Slave

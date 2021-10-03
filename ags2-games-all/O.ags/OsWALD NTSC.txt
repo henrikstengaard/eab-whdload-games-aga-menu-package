@@ -1,0 +1,7 @@
+Name      : OsWALD
+Version   : NTSC
+Publisher : Starvision
+Year      : 1988
+Genre     : Platformer - Scrolling Screen
+Players   : 1 Only
+RunFile   : OswaldNTSC.Slave

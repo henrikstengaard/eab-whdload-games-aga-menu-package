@@ -3,4 +3,4 @@ Publisher : Psygnosis
 Year      : 1987
 Genre     : Arcade - Miscellaneous
 Players   : 1 Only
-RunFile   : BarbarianPsygnosis.Slave
+RunFile   : BarBarianPsygnosis.Slave

@@ -1,0 +1,5 @@
+Name      : Super Gem'Z
+Publisher : Software 2000
+Year      : 1992
+Genre     : Brain - Puzzle
+RunFile   : SuperGemZ.slave

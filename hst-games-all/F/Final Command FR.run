@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:F/FinalCommandFr/FinalCommandFr.Slave
+
+; Run WHDLoad
+cd "A-Games:F/FinalCommandFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "FinalCommandFr.Slave" $whdloadargs
+ELSE
+  whdload "FinalCommandFr.Slave"
+ENDIF

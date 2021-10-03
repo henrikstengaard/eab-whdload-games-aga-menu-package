@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:0-9/4DSportsBoxing/4DSportsBoxing.Slave
+;RunFile=A-Games:0-9/4DSportsBoxing/4DSportsBoxing.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:0-9/4DSportsBoxing/"
 IF EXISTS ENV:whdloadargs
-  whdload "4DSportsBoxing.Slave" $whdloadargs
+  whdload "4DSportsBoxing.slave" $whdloadargs
 ELSE
-  whdload "4DSportsBoxing.Slave"
+  whdload "4DSportsBoxing.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

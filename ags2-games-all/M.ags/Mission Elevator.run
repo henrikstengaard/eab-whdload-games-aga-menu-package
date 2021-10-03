@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:M/MissionElevator/MissionElevator.Slave
+;RunFile=A-Games:M/MissionElevator/MissionElevator.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:M/MissionElevator/"
 IF EXISTS ENV:whdloadargs
-  whdload "MissionElevator.Slave" $whdloadargs
+  whdload "MissionElevator.slave" $whdloadargs
 ELSE
-  whdload "MissionElevator.Slave"
+  whdload "MissionElevator.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

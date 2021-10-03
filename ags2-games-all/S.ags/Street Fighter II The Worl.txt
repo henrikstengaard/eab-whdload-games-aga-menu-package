@@ -2,4 +2,4 @@ Name      : Street Fighter II: The World Warrior
 Publisher : US Gold
 Year      : 1992
 Players   : 1 or 2, Simultaneous
-RunFile   : StreetFighter2.Slave
+RunFile   : StreetFighter2.slave

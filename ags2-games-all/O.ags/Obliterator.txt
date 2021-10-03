@@ -2,4 +2,4 @@ Name      : Obliterator
 Publisher : Psygnosis
 Year      : 1988
 Players   : 1 Only
-RunFile   : Obliterator.Slave
+RunFile   : Obliterator.slave

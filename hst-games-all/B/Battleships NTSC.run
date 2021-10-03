@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BattleshipNTSC/BattleshipNTSC.slave
+
+; Run WHDLoad
+cd "A-Games:B/BattleshipNTSC/"
+IF EXISTS ENV:whdloadargs
+  whdload "BattleshipNTSC.slave" $whdloadargs
+ELSE
+  whdload "BattleshipNTSC.slave"
+ENDIF

@@ -1,0 +1,6 @@
+Name      : Leisure Suit Larry 3
+Language  : German
+Publisher : Sierra
+Year      : 1990
+Players   : 1
+RunFile   : LeisureSuitLarry3De.Slave

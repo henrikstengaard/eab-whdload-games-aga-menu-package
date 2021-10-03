@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Beta:L/Legion/Legion.Slave
+
+; Run WHDLoad
+cd "A-Beta:L/Legion/"
+IF EXISTS ENV:whdloadargs
+  whdload "Legion.Slave" $whdloadargs
+ELSE
+  whdload "Legion.Slave"
+ENDIF

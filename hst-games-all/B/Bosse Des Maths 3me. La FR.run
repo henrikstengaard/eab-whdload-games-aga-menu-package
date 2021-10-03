@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:B/BosseDesMaths3emeFr/BosseDesMaths3emeFr.Slave
+
+; Run WHDLoad
+cd "A-Games:B/BosseDesMaths3emeFr/"
+IF EXISTS ENV:whdloadargs
+  whdload "BosseDesMaths3emeFr.Slave" $whdloadargs
+ELSE
+  whdload "BosseDesMaths3emeFr.Slave"
+ENDIF

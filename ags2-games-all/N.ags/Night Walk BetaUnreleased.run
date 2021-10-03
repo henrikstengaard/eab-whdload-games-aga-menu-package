@@ -1,0 +1,35 @@
+; AGS2 run script
+; ---------------
+;RunFile=A-Beta:N/NightWalk/NightWalk.Slave
+
+; Favourites Mode
+IF EXISTS ENV:ags2favouritesmode
+  execute S:AGS2Favourites "N" "Night Walk BetaUnreleased"
+  IF $ags2favouritesmode EQ "add"
+    SKIP end
+  ENDIF
+  IF $ags2favouritesmode EQ "remove"
+    SKIP end
+  ENDIF
+ENDIF
+
+; Start AGS2 Run Pre Script, if it exists
+IF EXISTS S:AGS2RunPre
+  execute S:AGS2RunPre
+ENDIF
+
+; Run WHDLoad
+cd "A-Beta:N/NightWalk/"
+IF EXISTS ENV:whdloadargs
+  whdload "NightWalk.Slave" $whdloadargs
+ELSE
+  whdload "NightWalk.Slave"
+ENDIF
+
+; Start AGS2 Run Post Script, if it exists
+IF EXISTS S:AGS2RunPost
+  execute S:AGS2RunPost
+ENDIF
+
+; End
+LAB end

@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-Games:M/MetroCross/MetroCross.Slave
+
+; Run WHDLoad
+cd "A-Games:M/MetroCross/"
+IF EXISTS ENV:whdloadargs
+  whdload "MetroCross.Slave" $whdloadargs
+ELSE
+  whdload "MetroCross.Slave"
+ENDIF

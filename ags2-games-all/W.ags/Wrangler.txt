@@ -1,0 +1,6 @@
+Name      : Wrangler
+Publisher : Alternative Software
+Year      : 1989
+Genre     : Platformer - 3D
+Players   : 1 Only
+RunFile   : Wrangler.Slave

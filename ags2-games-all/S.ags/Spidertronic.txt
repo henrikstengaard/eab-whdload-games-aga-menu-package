@@ -1,0 +1,6 @@
+Name      : Spidertronic
+Publisher : ERE Informatique
+Year      : 1988
+Genre     : Arcade - Labyrinth/Maze
+Players   : 1 Only
+RunFile   : Spidertronic.Slave

@@ -1,0 +1,7 @@
+Name      : Bosse Des Maths 3?me, La
+Language  : French
+Publisher : Coktel
+Year      : 1988
+Genre     : Adventure
+Players   : 1
+RunFile   : BosseDesMaths3emeFr.Slave

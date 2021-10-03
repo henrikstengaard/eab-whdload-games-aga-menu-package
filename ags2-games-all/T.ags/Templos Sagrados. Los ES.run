@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:L/LosTemplosSagradosEs/LosTemplosSagradosEs.slave
+;RunFile=A-Games:T/TemplosSagradosEs/TemplosSagradosEs.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,11 +19,11 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Games:L/LosTemplosSagradosEs/"
+cd "A-Games:T/TemplosSagradosEs/"
 IF EXISTS ENV:whdloadargs
-  whdload "LosTemplosSagradosEs.slave" $whdloadargs
+  whdload "TemplosSagradosEs.slave" $whdloadargs
 ELSE
-  whdload "LosTemplosSagradosEs.slave"
+  whdload "TemplosSagradosEs.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

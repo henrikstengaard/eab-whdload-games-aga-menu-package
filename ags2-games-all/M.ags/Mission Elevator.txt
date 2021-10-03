@@ -3,4 +3,4 @@ Publisher : Axxiom
 Year      : 1987
 Genre     : Platformer - Single Screen
 Players   : 1 Only
-RunFile   : MissionElevator.Slave
+RunFile   : MissionElevator.slave

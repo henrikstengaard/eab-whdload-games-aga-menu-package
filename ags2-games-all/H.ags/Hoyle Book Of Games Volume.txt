@@ -1,0 +1,6 @@
+Name      : Hoyle Book Of Games Volume 3: Great Board Games
+Publisher : Sierra
+Year      : 1992
+Genre     : Board Game
+Players   : 4
+RunFile   : HoyleVolume3.slave

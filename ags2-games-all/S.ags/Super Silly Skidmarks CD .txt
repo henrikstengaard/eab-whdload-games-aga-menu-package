@@ -1,0 +1,7 @@
+Name      : Super Silly Skidmarks
+Version   : CD
+Publisher : Acid
+Year      : 1998
+Genre     : Racing
+Players   : 4
+RunFile   : SuperSillySkidmarksLMCD.slave

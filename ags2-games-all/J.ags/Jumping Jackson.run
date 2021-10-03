@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:J/JumpingJackSon/JumpingJackSon.slave
+;RunFile=A-Games:J/JumpingJackSon/JumpingJackSon.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:J/JumpingJackSon/"
 IF EXISTS ENV:whdloadargs
-  whdload "JumpingJackSon.slave" $whdloadargs
+  whdload "JumpingJackSon.Slave" $whdloadargs
 ELSE
-  whdload "JumpingJackSon.slave"
+  whdload "JumpingJackSon.Slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:N/NinjaGaiden2/NinjaGaiden2.Slave
+;RunFile=A-Beta:N/NinjaGaiden2/NinjaGaiden2.Slave
 
 ; Run WHDLoad
-cd "A-Games:N/NinjaGaiden2/"
+cd "A-Beta:N/NinjaGaiden2/"
 IF EXISTS ENV:whdloadargs
   whdload "NinjaGaiden2.Slave" $whdloadargs
 ELSE

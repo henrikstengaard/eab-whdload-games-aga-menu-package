@@ -2,4 +2,4 @@ Name      : Disposable Hero
 Publisher : Gremlin Graphics
 Year      : 1994
 Players   : 1 Only
-RunFile   : DisposableHero.Slave
+RunFile   : DisposableHero.slave

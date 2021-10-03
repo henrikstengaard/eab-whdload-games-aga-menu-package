@@ -3,4 +3,4 @@ Version   : AGA Demo
 Publisher : Power Computing
 Year      : 1996
 Players   : 1 Only
-RunFile   : BreathlessDemo.Slave
+RunFile   : BreathlessDemoAGA.Slave

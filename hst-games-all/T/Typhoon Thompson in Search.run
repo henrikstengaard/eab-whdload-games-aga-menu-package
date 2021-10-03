@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:T/TyphoonThompsonNTSC/TyphoonThompsonNTSC.Slave
+;RunFile=A-Games:T/TyphoonThompson512kNTSC/TyphoonThompson512kNTSC.slave
 
 ; Run WHDLoad
-cd "A-Games:T/TyphoonThompsonNTSC/"
+cd "A-Games:T/TyphoonThompson512kNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "TyphoonThompsonNTSC.Slave" $whdloadargs
+  whdload "TyphoonThompson512kNTSC.slave" $whdloadargs
 ELSE
-  whdload "TyphoonThompsonNTSC.Slave"
+  whdload "TyphoonThompson512kNTSC.slave"
 ENDIF

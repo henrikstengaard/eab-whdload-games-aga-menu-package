@@ -1,0 +1,6 @@
+Name      : Elfmania
+Version   : 512K
+Publisher : Renegade
+Year      : 1994
+Players   : 1 or 2, Simultaneous
+RunFile   : Elfmania512k.slave
