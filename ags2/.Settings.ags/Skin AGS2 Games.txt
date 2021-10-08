@@ -1,0 +1,1 @@
+Change AGS2 to use AGS2 Games skin

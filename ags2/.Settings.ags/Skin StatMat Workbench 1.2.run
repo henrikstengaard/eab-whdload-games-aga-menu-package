@@ -1,0 +1,5 @@
+echo "*ec" NOLINE
+copy AGS:.Settings.ags/StatMat-WB12/#? AGS: CLONE >NIL:
+echo "Changed AGS2 to use StatMat Workbench 1.2 skin"
+wait 1
+echo "*ec" NOLINE

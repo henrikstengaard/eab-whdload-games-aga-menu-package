@@ -1,0 +1,5 @@
+echo "*ec" NOLINE
+copy AGS:.Settings.ags/HstWB-Game-Selector/#? AGS: CLONE >NIL:
+echo "Changed AGS2 to use HstWB Game Selector skin"
+wait 1
+echo "*ec" NOLINE

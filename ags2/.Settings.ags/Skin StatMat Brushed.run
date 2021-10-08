@@ -1,0 +1,5 @@
+echo "*ec" NOLINE
+copy AGS:.Settings.ags/StatMat-Brushed/#? AGS: CLONE >NIL:
+echo "Changed AGS2 to use StatMat Brushed skin"
+wait 1
+echo "*ec" NOLINE
