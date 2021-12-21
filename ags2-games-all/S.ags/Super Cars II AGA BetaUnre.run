@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:S/SuperCars2AGA/SuperCars2AGA.slave
+;RunFile=A-GamesBeta:S/SuperCars2AGA/SuperCars2AGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:S/SuperCars2AGA/"
+cd "A-GamesBeta:S/SuperCars2AGA/"
 IF EXISTS ENV:whdloadargs
   whdload "SuperCars2AGA.slave" $whdloadargs
 ELSE

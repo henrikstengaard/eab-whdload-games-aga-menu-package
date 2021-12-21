@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:T/TFXAGA/TFXAGA.slave
+;RunFile=A-GamesBeta:T/TFXAGA/TFXAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:T/TFXAGA/"
+cd "A-GamesBeta:T/TFXAGA/"
 IF EXISTS ENV:whdloadargs
   whdload "TFXAGA.slave" $whdloadargs
 ELSE

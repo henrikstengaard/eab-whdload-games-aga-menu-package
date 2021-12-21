@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:P/PrisonNTSC/PrisonNTSC.Slave
+;RunFile=A-Games:P/PrisonNTSC/PrisonNTSC.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:P/PrisonNTSC/"
 IF EXISTS ENV:whdloadargs
-  whdload "PrisonNTSC.Slave" $whdloadargs
+  whdload "PrisonNTSC.slave" $whdloadargs
 ELSE
-  whdload "PrisonNTSC.Slave"
+  whdload "PrisonNTSC.slave"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

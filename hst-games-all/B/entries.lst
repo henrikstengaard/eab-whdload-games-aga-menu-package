@@ -156,8 +156,8 @@ Blood Money	B/Blood Money	A-Games:B/BloodMoney/BloodMoney.slave
 BloodNet	B/BloodNet	A-Games:B/BloodNet/Bloodnet.slave
 BloodNet AGA	B/BloodNet AGA	A-Games:B/BloodNetAGA/BloodnetAGA.slave
 Bloodwych	B/Bloodwych	A-Games:B/Bloodwych/Bloodwych.Slave
-Bloodwych ExtendedLevels	B/Bloodwych ExtendedLevels	A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave
-Bloodwych ExtendedLevels	B/Bloodwych ExtendedLevels 	A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave
+Bloodwych ExtendedLevels	B/Bloodwych ExtendedLevels	A-Games:B/Bloodwych&ExtendedLevels/Bloodwych.Slave
+Bloodwych ExtendedLevels	B/Bloodwych ExtendedLevels 	A-Games:B/Bloodwych&ExtendedLevels/ExtendedLevels.Slave
 Blork	B/Blork	A-Games:B/Blork/Blork.Slave
 Blue Angel 69	B/Blue Angel 69	A-Games:B/BlueAngel69/BlueAngel69.slave
 Blue Angels NTSC	B/Blue Angels NTSC	A-Games:B/BlueAngelsNTSC/BlueAngelsNTSC.Slave
@@ -190,7 +190,7 @@ Bone Cruncher	B/Bone Cruncher	A-Games:B/BoneCruncher/BoneCruncher.Slave
 Bone Cruncher	B/Bone Cruncher 	A-Games:B/BoneCruncherEnhanced/BoneCruncherEnhanced.Slave
 Booly	B/Booly	A-Games:B/Booly/Booly.Slave
 Boot, Das NTSC	B/Boot. Das NTSC	A-Games:B/BootNTSC/BootNTSC.Slave
-Boppin' (Beta/Unreleased)	B/Boppin BetaUnreleased	A-Beta:B/Boppin/Boppin.Slave
+Boppin' (Beta/Unreleased)	B/Boppin BetaUnreleased	A-GamesBeta:B/Boppin/Boppin.Slave
 Borobodur: The Planet of Doom	B/Borobodur The Planet of Do	A-Games:B/Borobodur/Borobodur.Slave
 Borrowed Time	B/Borrowed Time	A-Games:B/BorrowedTime/BorrowedTime.Slave
 Bosse Des Maths 3?me, La FR	B/Bosse Des Maths 3me. La FR	A-Games:B/BosseDesMaths3emeFr/BosseDesMaths3emeFr.Slave
@@ -239,8 +239,8 @@ Budokan: The Martial Spirit	B/Budokan The Martial Spirit	A-Games:B/Budokan/Budok
 Buffalo Bill's Wild West Show	B/Buffalo Bills Wild West Sh	A-Games:B/BuffaloBillsWildWestShow/BuffaloBillsWildWestShow.Slave
 Bug Bash	B/Bug Bash	A-Games:B/BugBash/BugBash.Slave
 Bugbomber	B/Bugbomber	A-Games:B/BugBomber/BugBomber.Slave
-Buggy Boy (Beta/Unreleased)	B/Buggy Boy BetaUnreleased	A-Beta:B/BuggyBoy/BuggyBoy.slave
 Buggy Boy	B/Buggy Boy	A-Games:B/BuggyBoy/BuggyBoy.Slave
+Buggy Boy (Beta/Unreleased)	B/Buggy Boy BetaUnreleased	A-GamesBeta:B/BuggyBoy/BuggyBoy.slave
 Builderland	B/Builderland	A-Games:B/Builderland/Builderland.Slave
 Bump 'n' Burn	B/Bump n Burn	A-Games:B/BumpNBurn/BumpNBurn.Slave
 Bump 'n' Burn CD32	B/Bump n Burn CD32	A-Games:B/BumpNBurnCD32/BumpNBurnCD32.Slave

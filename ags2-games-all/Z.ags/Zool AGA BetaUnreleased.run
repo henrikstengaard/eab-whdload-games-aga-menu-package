@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:Z/ZoolAGA/ZoolAGA.slave
+;RunFile=A-GamesBeta:Z/ZoolAGA/ZoolAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:Z/ZoolAGA/"
+cd "A-GamesBeta:Z/ZoolAGA/"
 IF EXISTS ENV:whdloadargs
   whdload "ZoolAGA.slave" $whdloadargs
 ELSE

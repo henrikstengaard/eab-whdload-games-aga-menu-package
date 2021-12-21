@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:U/UntouchablesSE/UntouchablesSE.Slave
+;RunFile=A-GamesBeta:U/UntouchablesSE/UntouchablesSE.Slave
 
 ; Run WHDLoad
-cd "A-Beta:U/UntouchablesSE/"
+cd "A-GamesBeta:U/UntouchablesSE/"
 IF EXISTS ENV:whdloadargs
   whdload "UntouchablesSE.Slave" $whdloadargs
 ELSE

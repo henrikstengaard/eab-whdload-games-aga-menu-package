@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:P/ProjectXSE2017/ProjectXSE2017.slave
+;RunFile=A-GamesBeta:P/ProjectXSE2017/ProjectXSE2017.slave
 
 ; Run WHDLoad
-cd "A-Beta:P/ProjectXSE2017/"
+cd "A-GamesBeta:P/ProjectXSE2017/"
 IF EXISTS ENV:whdloadargs
   whdload "ProjectXSE2017.slave" $whdloadargs
 ELSE

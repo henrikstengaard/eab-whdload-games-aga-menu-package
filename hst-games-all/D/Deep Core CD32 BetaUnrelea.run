@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:D/DeepCoreCD32/DeepCoreCD32.Slave
+;RunFile=A-GamesBeta:D/DeepCoreCD32/DeepCoreCD32.Slave
 
 ; Run WHDLoad
-cd "A-Beta:D/DeepCoreCD32/"
+cd "A-GamesBeta:D/DeepCoreCD32/"
 IF EXISTS ENV:whdloadargs
   whdload "DeepCoreCD32.Slave" $whdloadargs
 ELSE

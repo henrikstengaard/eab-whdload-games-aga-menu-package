@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:A/Armalyte/Armalyte.Slave
+;RunFile=A-GamesBeta:A/Armalyte/Armalyte.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:A/Armalyte/"
+cd "A-GamesBeta:A/Armalyte/"
 IF EXISTS ENV:whdloadargs
   whdload "Armalyte.Slave" $whdloadargs
 ELSE

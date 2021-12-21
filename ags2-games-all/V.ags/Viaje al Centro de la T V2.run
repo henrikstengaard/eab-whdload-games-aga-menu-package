@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.slave
+;RunFile=A-Games:V/ViajeAlCentroDeLaTierraEs/ViajeAlCentroDeLaTierraEs.old
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -21,9 +21,9 @@ ENDIF
 ; Run WHDLoad
 cd "A-Games:V/ViajeAlCentroDeLaTierraEs/"
 IF EXISTS ENV:whdloadargs
-  whdload "ViajeAlCentroDeLaTierraEs.slave" $whdloadargs
+  whdload "ViajeAlCentroDeLaTierraEs.old" $whdloadargs
 ELSE
-  whdload "ViajeAlCentroDeLaTierraEs.slave"
+  whdload "ViajeAlCentroDeLaTierraEs.old"
 ENDIF
 
 ; Start AGS2 Run Post Script, if it exists

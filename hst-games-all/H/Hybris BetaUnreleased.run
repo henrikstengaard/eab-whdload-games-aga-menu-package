@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:H/Hybris/Hybris.slave
+;RunFile=A-GamesBeta:H/Hybris/Hybris.slave
 
 ; Run WHDLoad
-cd "A-Beta:H/Hybris/"
+cd "A-GamesBeta:H/Hybris/"
 IF EXISTS ENV:whdloadargs
   whdload "Hybris.slave" $whdloadargs
 ELSE

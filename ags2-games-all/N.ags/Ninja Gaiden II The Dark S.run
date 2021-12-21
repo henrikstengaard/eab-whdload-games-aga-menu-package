@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:N/NinjaGaiden2/NinjaGaiden2.Slave
+;RunFile=A-GamesBeta:N/NinjaGaiden2/NinjaGaiden2.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:N/NinjaGaiden2/"
+cd "A-GamesBeta:N/NinjaGaiden2/"
 IF EXISTS ENV:whdloadargs
   whdload "NinjaGaiden2.Slave" $whdloadargs
 ELSE

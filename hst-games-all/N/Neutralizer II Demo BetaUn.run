@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:N/Neutralizer2Demo/Neutralizer2Demo.slave
+;RunFile=A-GamesBeta:N/Neutralizer2Demo/Neutralizer2Demo.slave
 
 ; Run WHDLoad
-cd "A-Beta:N/Neutralizer2Demo/"
+cd "A-GamesBeta:N/Neutralizer2Demo/"
 IF EXISTS ENV:whdloadargs
   whdload "Neutralizer2Demo.slave" $whdloadargs
 ELSE

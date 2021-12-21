@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:C/Cobra/Cobra.slave
+;RunFile=A-GamesBeta:C/Cobra/Cobra.slave
 
 ; Run WHDLoad
-cd "A-Beta:C/Cobra/"
+cd "A-GamesBeta:C/Cobra/"
 IF EXISTS ENV:whdloadargs
   whdload "Cobra.slave" $whdloadargs
 ELSE

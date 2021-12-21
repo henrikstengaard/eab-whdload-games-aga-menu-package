@@ -151,7 +151,7 @@ Cluedo: Master Detective	C/Cluedo Master Detective	A-Games:C/CluedoMasterDetecti
 Clue: Master Detective NTSC	C/Clue Master Detective NTSC	A-Games:C/ClueMasterDetectiveNTSC/ClueMasterDetectiveNTSC.slave
 COALA	C/COALA	A-Games:C/Coala/Coala.slave
 COALA AGA	C/COALA AGA	A-Games:C/CoalaAGA/CoalaAGA.slave
-Cobra (Beta/Unreleased)	C/Cobra BetaUnreleased	A-Beta:C/Cobra/Cobra.slave
+Cobra (Beta/Unreleased)	C/Cobra BetaUnreleased	A-GamesBeta:C/Cobra/Cobra.slave
 Code Name: Iceman	C/Code Name Iceman	A-Games:C/CodeNameIceman/CodenameIceman.slave
 Cogans Run	C/Cogans Run	A-Games:C/CogansRun/CogansRun.Slave
 Colonel's Bequest, The	C/Colonels Bequest. The	A-Games:C/ColonelsBequest/ColonelsBequest.slave

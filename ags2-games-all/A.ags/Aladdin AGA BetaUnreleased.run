@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:A/AladdinAGA/AladdinAGA.slave
+;RunFile=A-GamesBeta:A/AladdinAGA/AladdinAGA.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:A/AladdinAGA/"
+cd "A-GamesBeta:A/AladdinAGA/"
 IF EXISTS ENV:whdloadargs
   whdload "AladdinAGA.slave" $whdloadargs
 ELSE

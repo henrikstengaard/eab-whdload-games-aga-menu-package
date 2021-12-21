@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:A/AnotherWorldLostLevel/AnotherWorldLostLevel.Slave
+;RunFile=A-GamesBeta:A/AnotherWorldLostLevel/AnotherWorldLostLevel.Slave
 
 ; Run WHDLoad
-cd "A-Beta:A/AnotherWorldLostLevel/"
+cd "A-GamesBeta:A/AnotherWorldLostLevel/"
 IF EXISTS ENV:whdloadargs
   whdload "AnotherWorldLostLevel.Slave" $whdloadargs
 ELSE

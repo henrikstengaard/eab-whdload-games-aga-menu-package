@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:H/HeroQuestDeFix/HeroQuestDeFix.slave
+;RunFile=A-GamesBeta:H/HeroQuestDeFix/HeroQuestDeFix.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:H/HeroQuestDeFix/"
+cd "A-GamesBeta:H/HeroQuestDeFix/"
 IF EXISTS ENV:whdloadargs
   whdload "HeroQuestDeFix.slave" $whdloadargs
 ELSE

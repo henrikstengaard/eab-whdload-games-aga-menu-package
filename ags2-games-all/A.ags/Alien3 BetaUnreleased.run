@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:A/Alien3/Alien3.slave
+;RunFile=A-GamesBeta:A/Alien3/Alien3.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:A/Alien3/"
+cd "A-GamesBeta:A/Alien3/"
 IF EXISTS ENV:whdloadargs
   whdload "Alien3.slave" $whdloadargs
 ELSE

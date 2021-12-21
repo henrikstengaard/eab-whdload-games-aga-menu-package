@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:B/BuggyBoy/BuggyBoy.slave
+;RunFile=A-GamesBeta:B/BuggyBoy/BuggyBoy.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:B/BuggyBoy/"
+cd "A-GamesBeta:B/BuggyBoy/"
 IF EXISTS ENV:whdloadargs
   whdload "BuggyBoy.slave" $whdloadargs
 ELSE

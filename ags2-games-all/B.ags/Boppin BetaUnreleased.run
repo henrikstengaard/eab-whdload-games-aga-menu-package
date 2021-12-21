@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:B/Boppin/Boppin.Slave
+;RunFile=A-GamesBeta:B/Boppin/Boppin.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:B/Boppin/"
+cd "A-GamesBeta:B/Boppin/"
 IF EXISTS ENV:whdloadargs
   whdload "Boppin.Slave" $whdloadargs
 ELSE

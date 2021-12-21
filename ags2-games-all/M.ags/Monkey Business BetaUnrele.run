@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:M/MonkeyBusiness/MonkeyBusiness.slave
+;RunFile=A-GamesBeta:M/MonkeyBusiness/MonkeyBusiness.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:M/MonkeyBusiness/"
+cd "A-GamesBeta:M/MonkeyBusiness/"
 IF EXISTS ENV:whdloadargs
   whdload "MonkeyBusiness.slave" $whdloadargs
 ELSE

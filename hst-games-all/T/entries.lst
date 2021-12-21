@@ -16,7 +16,7 @@ The Four Crystals of Trazere NTSC	T/The Four Crystals of Traze	A-Games:F/FourCry
 The Four Crystals of Trazere getlegendsavedisk NTSC	T/The Four Crystals of Tr V2	A-Games:F/FourCrystalsOfTrazereNTSC/getlegendsavedisk.slave
 The Games: Summer Edition	T/The Games Summer Edition	A-Games:G/GamesSummerEdition/GamesSummerEdition.Slave
 The Games: Winter Edition	T/The Games Winter Edition	A-Games:G/GamesWinterEdition/GamesWinterEdition.Slave
-The Great Giana Sisters Special Edition (Beta/Unreleased)	T/The Great Giana Sisters Sp	A-Beta:G/GianaSistersSE/GianaSistersSE.slave
+The Great Giana Sisters Special Edition (Beta/Unreleased)	T/The Great Giana Sisters Sp	A-GamesBeta:G/GianaSistersSE/GianaSistersSE.slave
 The Hellrun Machine	T/The Hellrun Machine	A-Games:H/HellrunMachine/HellrunMachine.Slave
 The Hitchhiker's Guide to the Galaxy	T/The Hitchhikers Guide to t	A-Games:H/HitchhikersGuideTTG/HitchhikersGuideTTG.Slave
 The Hunt for Red October	T/The Hunt for Red October	A-Games:H/HuntForRedOctober/HuntForRedOctober.Slave
@@ -157,36 +157,36 @@ Time Runners 27: Red Night	T/Time Runners 27 Red Night	A-Games:T/TimeRunners27/T
 Time Runners 28: Beyond the End	T/Time Runners 28 Beyond the	A-Games:T/TimeRunners28/TimeRunners28.Slave
 Time Runners 29: The Last Revelation	T/Time Runners 29 The Last R	A-Games:T/TimeRunners29/TimeRunners29.Slave
 Time Runners 30: The Final Duel	T/Time Runners 30 The Final	A-Games:T/TimeRunners30/TimeRunners30.Slave
-Time Runners 17: The Living Labyrinth TimeRunners17	T/Time Runners 17 The Liv V2	A-Games:T/TimeRunnersSeries/TimeRunners17.Slave
-Time Runners 16: The Galaxy Emperor TimeRunners16	T/Time Runners 16 The Gal V2	A-Games:T/TimeRunnersSeries/TimeRunners16.Slave
-Time Runners 23: The Time Monarch TimeRunners23	T/Time Runners 23 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners23.Slave
-Time Runners 18: The Killer Shadow TimeRunners18	T/Time Runners 18 The Kil V2	A-Games:T/TimeRunnersSeries/TimeRunners18.Slave
-Time Runners 21: The Black Dragon's Curse TimeRunners21	T/Time Runners 21 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners21.Slave
-Time Runners 20: The Mountains of Death TimeRunners20	T/Time Runners 20 The Mou V2	A-Games:T/TimeRunnersSeries/TimeRunners20.Slave
-Time Runners 19: The Nightmare Prince TimeRunners19	T/Time Runners 19 The Nig V2	A-Games:T/TimeRunnersSeries/TimeRunners19.Slave
-Time Runners 22: The Eternal Damned TimeRunners22	T/Time Runners 22 The Ete V2	A-Games:T/TimeRunnersSeries/TimeRunners22.Slave
-Time Runners 08: The Impregnable Fortress TimeRunners08	T/Time Runners 08 The Imp V2	A-Games:T/TimeRunnersSeries/TimeRunners08.Slave
-Time Runners 11: The Steel City TimeRunners11	T/Time Runners 11 The Steel 	A-Games:T/TimeRunnersSeries/TimeRunners11.Slave
-Time Runners 03: The Big Run TimeRunners03	T/Time Runners 03 The Big V2	A-Games:T/TimeRunnersSeries/TimeRunners03.Slave
-Time Runners 01: Gateways in Time TimeRunners01	T/Time Runners 01 Gateway V2	A-Games:T/TimeRunnersSeries/TimeRunners01.Slave
-Time Runners 02: The Space Stone TimeRunners02	T/Time Runners 02 The Space 	A-Games:T/TimeRunnersSeries/TimeRunners02.Slave
-Time Runners 10: The Time Sentry TimeRunners10	T/Time Runners 10 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners10.Slave
-Time Runners 14: Toraxid - War Star TimeRunners14	T/Time Runners 14 Toraxid - 	A-Games:T/TimeRunnersSeries/TimeRunners14.Slave
-Time Runners 13: Cyberkiller TimeRunners13	T/Time Runners 13 Cyberki V2	A-Games:T/TimeRunnersSeries/TimeRunners13.Slave
-Time Runners 15: At the Speed of Light TimeRunners15	T/Time Runners 15 At the  V2	A-Games:T/TimeRunnersSeries/TimeRunners15.Slave
-Time Runners 09: The Time Demon TimeRunners09	T/Time Runners 09 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners09.Slave
-Time Runners 12: A Target for the Cyborg TimeRunners12	T/Time Runners 12 A Targe V2	A-Games:T/TimeRunnersSeries/TimeRunners12.Slave
-Time Runners 27: Red Night TimeRunners27	T/Time Runners 27 Red Night 	A-Games:T/TimeRunnersSeries/TimeRunners27.Slave
 Time Runners 30: The Final Duel TimeRunners30	T/Time Runners 30 The Final 	A-Games:T/TimeRunnersSeries/TimeRunners30.Slave
-Time Runners 24: Beyond All Dimensions TimeRunners24	T/Time Runners 24 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners24.Slave
+Time Runners 28: Beyond the End TimeRunners28	T/Time Runners 28 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners28.Slave
+Time Runners 29: The Last Revelation TimeRunners29	T/Time Runners 29 The Las V2	A-Games:T/TimeRunnersSeries/TimeRunners29.Slave
+Time Runners 27: Red Night TimeRunners27	T/Time Runners 27 Red Night 	A-Games:T/TimeRunnersSeries/TimeRunners27.Slave
 Time Runners 25: The Lost Planet Earth TimeRunners25	T/Time Runners 25 The Los V2	A-Games:T/TimeRunnersSeries/TimeRunners25.Slave
 Time Runners 26: The Time Warrior TimeRunners26	T/Time Runners 26 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners26.Slave
-Time Runners 29: The Last Revelation TimeRunners29	T/Time Runners 29 The Las V2	A-Games:T/TimeRunnersSeries/TimeRunners29.Slave
-Time Runners 07: In the Land of the Invaders TimeRunners07	T/Time Runners 07 In the  V2	A-Games:T/TimeRunnersSeries/TimeRunners07.Slave
-Time Runners 04: The Castle of Fear TimeRunners04	T/Time Runners 04 The Cas V2	A-Games:T/TimeRunnersSeries/TimeRunners04.Slave
-Time Runners 06: The Bewitched Forest TimeRunners06	T/Time Runners 06 The Bew V2	A-Games:T/TimeRunnersSeries/TimeRunners06.Slave
-Time Runners 28: Beyond the End TimeRunners28	T/Time Runners 28 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners28.Slave
+Time Runners 24: Beyond All Dimensions TimeRunners24	T/Time Runners 24 Beyond  V2	A-Games:T/TimeRunnersSeries/TimeRunners24.Slave
+Time Runners 22: The Eternal Damned TimeRunners22	T/Time Runners 22 The Ete V2	A-Games:T/TimeRunnersSeries/TimeRunners22.Slave
+Time Runners 19: The Nightmare Prince TimeRunners19	T/Time Runners 19 The Nig V2	A-Games:T/TimeRunnersSeries/TimeRunners19.Slave
+Time Runners 20: The Mountains of Death TimeRunners20	T/Time Runners 20 The Mou V2	A-Games:T/TimeRunnersSeries/TimeRunners20.Slave
+Time Runners 21: The Black Dragon's Curse TimeRunners21	T/Time Runners 21 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners21.Slave
+Time Runners 18: The Killer Shadow TimeRunners18	T/Time Runners 18 The Kil V2	A-Games:T/TimeRunnersSeries/TimeRunners18.Slave
+Time Runners 23: The Time Monarch TimeRunners23	T/Time Runners 23 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners23.Slave
+Time Runners 16: The Galaxy Emperor TimeRunners16	T/Time Runners 16 The Gal V2	A-Games:T/TimeRunnersSeries/TimeRunners16.Slave
+Time Runners 17: The Living Labyrinth TimeRunners17	T/Time Runners 17 The Liv V2	A-Games:T/TimeRunnersSeries/TimeRunners17.Slave
+Time Runners 12: A Target for the Cyborg TimeRunners12	T/Time Runners 12 A Targe V2	A-Games:T/TimeRunnersSeries/TimeRunners12.Slave
+Time Runners 15: At the Speed of Light TimeRunners15	T/Time Runners 15 At the  V2	A-Games:T/TimeRunnersSeries/TimeRunners15.Slave
+Time Runners 14: Toraxid - War Star TimeRunners14	T/Time Runners 14 Toraxid - 	A-Games:T/TimeRunnersSeries/TimeRunners14.Slave
+Time Runners 09: The Time Demon TimeRunners09	T/Time Runners 09 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners09.Slave
 Time Runners 05: The Black Knight TimeRunners05	T/Time Runners 05 The Black 	A-Games:T/TimeRunnersSeries/TimeRunners05.Slave
+Time Runners 11: The Steel City TimeRunners11	T/Time Runners 11 The Steel 	A-Games:T/TimeRunnersSeries/TimeRunners11.Slave
+Time Runners 10: The Time Sentry TimeRunners10	T/Time Runners 10 The Tim V2	A-Games:T/TimeRunnersSeries/TimeRunners10.Slave
+Time Runners 13: Cyberkiller TimeRunners13	T/Time Runners 13 Cyberki V2	A-Games:T/TimeRunnersSeries/TimeRunners13.Slave
+Time Runners 04: The Castle of Fear TimeRunners04	T/Time Runners 04 The Cas V2	A-Games:T/TimeRunnersSeries/TimeRunners04.Slave
+Time Runners 07: In the Land of the Invaders TimeRunners07	T/Time Runners 07 In the  V2	A-Games:T/TimeRunnersSeries/TimeRunners07.Slave
+Time Runners 06: The Bewitched Forest TimeRunners06	T/Time Runners 06 The Bew V2	A-Games:T/TimeRunnersSeries/TimeRunners06.Slave
+Time Runners 01: Gateways in Time TimeRunners01	T/Time Runners 01 Gateway V2	A-Games:T/TimeRunnersSeries/TimeRunners01.Slave
+Time Runners 08: The Impregnable Fortress TimeRunners08	T/Time Runners 08 The Imp V2	A-Games:T/TimeRunnersSeries/TimeRunners08.Slave
+Time Runners 03: The Big Run TimeRunners03	T/Time Runners 03 The Big V2	A-Games:T/TimeRunnersSeries/TimeRunners03.Slave
+Time Runners 02: The Space Stone TimeRunners02	T/Time Runners 02 The Space 	A-Games:T/TimeRunnersSeries/TimeRunners02.Slave
 Time Scanner	T/Time Scanner	A-Games:T/TimeScanner/TimeScanner.Slave
 Times of Lore	T/Times of Lore	A-Games:T/TimesOfLore/TimesOfLore.Slave
 Time Soldier	T/Time Soldier	A-Games:T/TimeSoldier/TimeSoldier.Slave
@@ -200,7 +200,7 @@ Tiny Skweeks	T/Tiny Skweeks	A-Games:T/TinySkweeks/TinySkweeks.Slave
 Tiny Troops	T/Tiny Troops	A-Games:T/TinyTroops/TinyTroops.Slave
 Tiny Troops CD	T/Tiny Troops CD	A-Games:T/TinyTroopsCD/TinyTroopsCD.Slave
 Tiny Troops DE CD	T/Tiny Troops DE CD	A-Games:T/TinyTroopsCDDe/TinyTroopsCDDe.Slave
-Tinyus (Beta/Unreleased)	T/Tinyus BetaUnreleased	A-Beta:T/Tinyus/Tinyus.slave
+Tinyus (Beta/Unreleased)	T/Tinyus BetaUnreleased	A-GamesBeta:T/Tinyus/Tinyus.slave
 Tip Off	T/Tip Off	A-Games:T/TipOff/TipOff.Slave
 Tip Off IT FR ES DE	T/Tip Off IT FR ES DE	A-Games:T/TipOffDeEsFrIt/TipOffDeEsFrIt.Slave
 Tip Off NTSC	T/Tip Off NTSC	A-Games:T/TipOffNTSC/TipOffNTSC.Slave
@@ -215,7 +215,7 @@ Tom and the Ghost	T/Tom and the Ghost	A-Games:T/TomAndTheGhost/TomAndTheGhost.Sl
 Tom Landry Strategy Football	T/Tom Landry Strategy Footba	A-Games:T/TomLandryFootball/TomLandryFootball.Slave
 Tom Landry Strategy Football	T/Tom Landry Strategy Foo V2	A-Games:T/TomLandryFootballDeluxe/TomLandryFootballDeluxe.Slave
 Tommy Gun	T/Tommy Gun	A-Games:T/TommyGun/TommyGun.Slave
-Tony & Friends in Kellogg's Land (Beta/Unreleased)	T/Tony Friends in Kelloggs L	A-Beta:T/Tony&Friends/Tony&Friends.Slave
+Tony & Friends in Kellogg's Land (Beta/Unreleased)	T/Tony Friends in Kelloggs L	A-GamesBeta:T/Tony&Friends/Tony&Friends.Slave
 Tony & Friends in Kellogg's Land DE	T/Tony Friends in Kellogg V2	A-Games:T/Tony&FriendsDe/Tony&FriendsDe.Slave
 Toobin'	T/Toobin	A-Games:T/Toobin/Toobin.Slave
 Top Banana	T/Top Banana	A-Games:T/TopBanana/TopBanana.Slave

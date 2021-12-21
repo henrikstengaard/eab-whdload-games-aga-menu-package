@@ -1,0 +1,11 @@
+; Hst Launcher run script
+; -----------------------
+;RunFile=A-GamesBeta:A/AbuSimbelProfAGA/AbuSimbelProfAGA.Slave
+
+; Run WHDLoad
+cd "A-GamesBeta:A/AbuSimbelProfAGA/"
+IF EXISTS ENV:whdloadargs
+  whdload "AbuSimbelProfAGA.Slave" $whdloadargs
+ELSE
+  whdload "AbuSimbelProfAGA.Slave"
+ENDIF

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:L/Liberation/Liberation.Slave
+;RunFile=A-GamesBeta:L/Liberation/Liberation.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:L/Liberation/"
+cd "A-GamesBeta:L/Liberation/"
 IF EXISTS ENV:whdloadargs
   whdload "Liberation.Slave" $whdloadargs
 ELSE

@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:Z/ZiriaxUltimateEdition/ZiriaxUltimateEdition.slave
+;RunFile=A-GamesBeta:Z/ZiriaxUltimateEdition/ZiriaxUltimateEdition.slave
 
 ; Run WHDLoad
-cd "A-Beta:Z/ZiriaxUltimateEdition/"
+cd "A-GamesBeta:Z/ZiriaxUltimateEdition/"
 IF EXISTS ENV:whdloadargs
   whdload "ZiriaxUltimateEdition.slave" $whdloadargs
 ELSE

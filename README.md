@@ -2,7 +2,7 @@
 
 EAB WHDLoad Games AGA Menu package contains menus for AGS2 and iGame with screenshots and details for all AGA games currently available in Retroplay's WHDLoad packs at English Amiga Board. Menus, screenshots and details are generated using powershell scripts and data files from https://github.com/henrikstengaard/amiga-whdload-game-scripts.
 
-Screenshots and details for all AGA games are based on Retroplay's WHDLoad packs downloaded September 28th 2021.
+Screenshots and details for all AGA games are based on Retroplay's WHDLoad packs downloaded December 4th 2021.
 
 **Note that this package only supports Retroplay's WHDLoad packs at English Amiga Board as paths to start games are specifically generated for Retroplay's WHDLoad packs.**
 
@@ -48,13 +48,18 @@ Installation through HstWB Installer will install and configure EAB WHDLoad Game
 Installation of EAB WHDLoad Games AGA Menu package requires and uses following assigns:
 
 - SYSTEMDIR: = DH0:
-- WHDLOADDIR: = DH1:
+- MENUSDIR: = DH1:Menus
+- FRONTENDSDIR: = DH1:
+- GAMESDIR: = DH1:WHDLoad/Games
+- GAMESBETADIR: = DH1:WHDLoad/GamesBeta
+- SAVESDIR: = DH1:WHDLoad/Saves
 
-AGS2 and iGame game frontends, AGS2 support files will be installed and configured in SYSTEMDIR: assign. AGS2 menus and WHDLOAD directories will be installed in WHDLOADDIR: assign.
+AGS2 and iGame game frontends, AGS2 support files will be installed and configured in SYSTEMDIR: assign. AGS2 menus and WHDLOAD directories will be installed in GAMESDIR: and GAMESBETADIR: assigns.
 
-EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/User-Assign, SYSTEMDIR:S/Assign-Startup or SYSTEMDIR:S/Startup-Sequence with following assign:
+EAB WHDLoad Games AGA Menu package will automatically update SYSTEMDIR:S/Assign-Startup following assigns:
 
-- A-Games: = WHDLOADDIR:WHDLoad/Games
+- A-Games: = DH1:WHDLoad/Games
+- A-GamesBeta: = DH1:WHDLoad/GamesBeta
 
 This assign is required for AGS2 to work as run files use it to start games. 
 

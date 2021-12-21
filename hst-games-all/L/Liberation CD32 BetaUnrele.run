@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:L/LiberationCD32/LiberationCD32.Slave
+;RunFile=A-GamesBeta:L/LiberationCD32/LiberationCD32.Slave
 
 ; Run WHDLoad
-cd "A-Beta:L/LiberationCD32/"
+cd "A-GamesBeta:L/LiberationCD32/"
 IF EXISTS ENV:whdloadargs
   whdload "LiberationCD32.Slave" $whdloadargs
 ELSE

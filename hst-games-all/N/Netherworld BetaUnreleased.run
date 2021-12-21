@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:N/Netherworld/Netherworld.slave
+;RunFile=A-GamesBeta:N/Netherworld/Netherworld.slave
 
 ; Run WHDLoad
-cd "A-Beta:N/Netherworld/"
+cd "A-GamesBeta:N/Netherworld/"
 IF EXISTS ENV:whdloadargs
   whdload "Netherworld.slave" $whdloadargs
 ELSE

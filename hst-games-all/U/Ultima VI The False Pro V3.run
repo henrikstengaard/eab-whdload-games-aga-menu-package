@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:U/Ultima6NTSC/Ultima6NTSC.Slave
+;RunFile=A-GamesBeta:U/Ultima6NTSC/Ultima6NTSC.Slave
 
 ; Run WHDLoad
-cd "A-Beta:U/Ultima6NTSC/"
+cd "A-GamesBeta:U/Ultima6NTSC/"
 IF EXISTS ENV:whdloadargs
   whdload "Ultima6NTSC.Slave" $whdloadargs
 ELSE

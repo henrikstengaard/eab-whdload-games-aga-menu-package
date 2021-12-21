@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:T/Tinyus/Tinyus.slave
+;RunFile=A-GamesBeta:T/Tinyus/Tinyus.slave
 
 ; Run WHDLoad
-cd "A-Beta:T/Tinyus/"
+cd "A-GamesBeta:T/Tinyus/"
 IF EXISTS ENV:whdloadargs
   whdload "Tinyus.slave" $whdloadargs
 ELSE

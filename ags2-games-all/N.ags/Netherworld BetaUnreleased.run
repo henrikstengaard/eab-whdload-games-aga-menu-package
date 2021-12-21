@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:N/Netherworld/Netherworld.slave
+;RunFile=A-GamesBeta:N/Netherworld/Netherworld.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:N/Netherworld/"
+cd "A-GamesBeta:N/Netherworld/"
 IF EXISTS ENV:whdloadargs
   whdload "Netherworld.slave" $whdloadargs
 ELSE

@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:Z/ZoolAGA/ZoolAGA.slave
+;RunFile=A-GamesBeta:Z/ZoolAGA/ZoolAGA.slave
 
 ; Run WHDLoad
-cd "A-Beta:Z/ZoolAGA/"
+cd "A-GamesBeta:Z/ZoolAGA/"
 IF EXISTS ENV:whdloadargs
   whdload "ZoolAGA.slave" $whdloadargs
 ELSE

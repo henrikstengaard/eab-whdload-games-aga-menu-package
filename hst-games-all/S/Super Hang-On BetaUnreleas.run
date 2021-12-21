@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:S/SuperHangOn/SuperHangOn.Slave
+;RunFile=A-GamesBeta:S/SuperHangOn/SuperHangOn.Slave
 
 ; Run WHDLoad
-cd "A-Beta:S/SuperHangOn/"
+cd "A-GamesBeta:S/SuperHangOn/"
 IF EXISTS ENV:whdloadargs
   whdload "SuperHangOn.Slave" $whdloadargs
 ELSE

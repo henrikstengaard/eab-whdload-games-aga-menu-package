@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:J/JoanOfArc/JoanOfArc.Slave
+;RunFile=A-GamesBeta:J/JoanOfArc/JoanOfArc.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:J/JoanOfArc/"
+cd "A-GamesBeta:J/JoanOfArc/"
 IF EXISTS ENV:whdloadargs
   whdload "JoanOfArc.Slave" $whdloadargs
 ELSE

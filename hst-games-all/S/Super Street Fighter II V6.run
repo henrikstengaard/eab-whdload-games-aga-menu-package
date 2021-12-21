@@ -1,11 +1,11 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Games:S/SuprStrtFtr2TrboCD32/SuprStrtFtr2TrboCD32.slave
+;RunFile=A-Games:S/SuprStrtFtr2TrboCD32/SuprStrtFtr2TrboIntroCD32.slave
 
 ; Run WHDLoad
 cd "A-Games:S/SuprStrtFtr2TrboCD32/"
 IF EXISTS ENV:whdloadargs
-  whdload "SuprStrtFtr2TrboCD32.slave" $whdloadargs
+  whdload "SuprStrtFtr2TrboIntroCD32.slave" $whdloadargs
 ELSE
-  whdload "SuprStrtFtr2TrboCD32.slave"
+  whdload "SuprStrtFtr2TrboIntroCD32.slave"
 ENDIF

@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:U/UNSquadronEarok/UNSquadronEarok.slave
+;RunFile=A-GamesBeta:U/UNSquadronEarok/UNSquadronEarok.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:U/UNSquadronEarok/"
+cd "A-GamesBeta:U/UNSquadronEarok/"
 IF EXISTS ENV:whdloadargs
   whdload "UNSquadronEarok.slave" $whdloadargs
 ELSE

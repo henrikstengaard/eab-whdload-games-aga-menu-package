@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:G/GhostBattle/GhostBattle.slave
+;RunFile=A-GamesBeta:G/GhostBattle/GhostBattle.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:G/GhostBattle/"
+cd "A-GamesBeta:G/GhostBattle/"
 IF EXISTS ENV:whdloadargs
   whdload "GhostBattle.slave" $whdloadargs
 ELSE

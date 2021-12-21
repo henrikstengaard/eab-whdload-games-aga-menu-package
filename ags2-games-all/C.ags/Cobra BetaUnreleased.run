@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:C/Cobra/Cobra.slave
+;RunFile=A-GamesBeta:C/Cobra/Cobra.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:C/Cobra/"
+cd "A-GamesBeta:C/Cobra/"
 IF EXISTS ENV:whdloadargs
   whdload "Cobra.slave" $whdloadargs
 ELSE

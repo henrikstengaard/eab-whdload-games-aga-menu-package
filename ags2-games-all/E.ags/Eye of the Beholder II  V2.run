@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:E/EyeOfTheBeholder2AGA/EyeOfTheBeholder2AGA.Slave
+;RunFile=A-GamesBeta:E/EyeOfTheBeholder2AGA/EyeOfTheBeholder2AGA.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:E/EyeOfTheBeholder2AGA/"
+cd "A-GamesBeta:E/EyeOfTheBeholder2AGA/"
 IF EXISTS ENV:whdloadargs
   whdload "EyeOfTheBeholder2AGA.Slave" $whdloadargs
 ELSE

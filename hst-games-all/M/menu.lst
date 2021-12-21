@@ -70,7 +70,7 @@ Mean Streets FR	M/Mean Streets FR	A-Games:M/MeanStreetsFr/MeanStreetsFr.slave
 Megaball	M/Megaball	A-Games:M/MegaBall/MegaBall.slave
 Megaball 1MB	M/Megaball 1MB	A-Games:M/MegaBall1MB/Megaball1MB.slave
 Megaball AGA	M/Megaball AGA	A-Games:M/MegaBallAGA/MegaBallAGA.slave
-Mega Block 2 (Beta/Unreleased)	M/Mega Block 2 BetaUnrelease	A-Beta:M/MegaBlock2/MegaBlock2.Slave
+Mega Block 2 (Beta/Unreleased)	M/Mega Block 2 BetaUnrelease	A-GamesBeta:M/MegaBlock2/MegaBlock2.Slave
 Mega lo Mania	M/Mega lo Mania	A-Games:M/MegaLoMania/MegaLoMania.Slave
 Mega lo Mania DE	M/Mega lo Mania DE	A-Games:M/MegaLoManiaDe/MegaLoManiaDe.Slave
 Mega lo Mania FR	M/Mega lo Mania FR	A-Games:M/MegaLoManiaFr/MegaLoManiaFr.Slave
@@ -144,7 +144,7 @@ Missiles over Xerion	M/Missiles over Xerion	A-Games:M/MissilesOverXerion/Missile
 Mission Elevator	M/Mission Elevator	A-Games:M/MissionElevator/MissionElevator.slave
 Mixed-Up Mother Goose	M/Mixed-Up Mother Goose	A-Games:M/MixedUpMotherGoose/MixedUpMotherGoose.Slave
 Moebius NTSC	M/Moebius NTSC	A-Games:M/MoebiusNTSC/MoebiusNTSC.Slave
-Monkey Business (Beta/Unreleased)	M/Monkey Business BetaUnrele	A-Beta:M/MonkeyBusiness/MonkeyBusiness.slave
+Monkey Business (Beta/Unreleased)	M/Monkey Business BetaUnrele	A-GamesBeta:M/MonkeyBusiness/MonkeyBusiness.slave
 Monkey Island 2: LeChuck's Revenge	M/Monkey Island 2 LeChucks R	A-Games:M/MonkeyIsland2/MonkeyIsland2.slave
 Monkey Island 2: LeChuck's Revenge DE	M/Monkey Island 2 LeChuck V2	A-Games:M/MonkeyIsland2De/MonkeyIsland2De.slave
 Monkey Island 2: LeChuck's Revenge ES	M/Monkey Island 2 LeChuck V3	A-Games:M/MonkeyIsland2Es/MonkeyIsland2Es.slave
@@ -177,8 +177,9 @@ MouseQuest NTSC	M/MouseQuest NTSC	A-Games:M/MouseQuestNTSC/MouseQuestNTSC.Slave
 Mousetrap	M/Mousetrap	A-Games:M/Mousetrap/Mousetrap.Slave
 Mr Blobby	M/Mr Blobby	A-Games:M/MrBlobby/MrBlobby.slave
 Mr. HELI	M/Mr. HELI	A-Games:M/MrHeli/MrHeli.slave
-Mr. Men Olympics, The (Beta/Unreleased)	M/Mr. Men Olympics. The Beta	A-Beta:M/MrMenOlympics/MrMenOlympics.slave
+Mr. Men Olympics, The (Beta/Unreleased)	M/Mr. Men Olympics. The Beta	A-GamesBeta:M/MrMenOlympics/MrMenOlympics.slave
 Mr. Nutz	M/Mr. Nutz	A-Games:M/MrNutz/MrNutz.Slave
+Ms. Pacman (Beta/Unreleased)	M/Ms. Pacman BetaUnreleased	A-GamesBeta:M/MsPacMan/MsPacMan.slave
 M.U.D.S.	M/M.U.D.S.	A-Games:M/MUDS/MUDS.slave
 Multi Player Soccer Manager	M/Multi Player Soccer Manage	A-Games:M/MultiPlayerSoccerManager/MultiPlayerSoccerManager.Slave
 Munsters, The	M/Munsters. The	A-Games:M/Munsters/Munsters.slave

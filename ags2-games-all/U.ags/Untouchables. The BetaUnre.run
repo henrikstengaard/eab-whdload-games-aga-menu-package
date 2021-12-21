@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:U/UntouchablesSE/UntouchablesSE.Slave
+;RunFile=A-GamesBeta:U/UntouchablesSE/UntouchablesSE.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:U/UntouchablesSE/"
+cd "A-GamesBeta:U/UntouchablesSE/"
 IF EXISTS ENV:whdloadargs
   whdload "UntouchablesSE.Slave" $whdloadargs
 ELSE

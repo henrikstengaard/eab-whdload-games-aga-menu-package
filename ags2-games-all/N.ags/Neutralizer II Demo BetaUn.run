@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:N/Neutralizer2Demo/Neutralizer2Demo.slave
+;RunFile=A-GamesBeta:N/Neutralizer2Demo/Neutralizer2Demo.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:N/Neutralizer2Demo/"
+cd "A-GamesBeta:N/Neutralizer2Demo/"
 IF EXISTS ENV:whdloadargs
   whdload "Neutralizer2Demo.slave" $whdloadargs
 ELSE

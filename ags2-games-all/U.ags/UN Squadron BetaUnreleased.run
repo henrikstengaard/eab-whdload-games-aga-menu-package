@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:A/Area88/Area88.slave
+;RunFile=A-GamesBeta:A/Area88/Area88.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:A/Area88/"
+cd "A-GamesBeta:A/Area88/"
 IF EXISTS ENV:whdloadargs
   whdload "Area88.slave" $whdloadargs
 ELSE

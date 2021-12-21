@@ -2,7 +2,7 @@
 ; -------------------------------------------------
 ;
 ; Author: Henrik Noerfjand Stengaard
-; Date: 2021-10-03
+; Date: 2021-12-04
 ;
 ; This script extracts and installs zip archives for EAB WHDLoad Games AGA Menu Package.
 
@@ -314,12 +314,12 @@ IF "$eabmenuigameset" EQ "320x128"
   echo "Installing iGame Games All 320x128 Screenshots..."
   unzip -qq -o -x PACKAGEDIR:igame-320x128-all.zip -d GAMESDIR:
   echo "Installing iGame Games Beta 320x128 Screenshots..."
-  unzip -qq -o -x PACKAGEDIR:igame-320x128-beta.zip -d BETADIR:
+  unzip -qq -o -x PACKAGEDIR:igame-320x128-beta.zip -d GAMESBETADIR:
 ELSE
   echo "Installing iGame Games All 320x256 Screenshots..."
   unzip -qq -o -x PACKAGEDIR:igame-320x256-all.zip -d GAMESDIR:
   echo "Installing iGame Games Beta 320x256 Screenshots..."
-  unzip -qq -o -x PACKAGEDIR:igame-320x256-beta.zip -d BETADIR:
+  unzip -qq -o -x PACKAGEDIR:igame-320x256-beta.zip -d GAMESBETADIR:
 ENDIF
 
 echo "Configuring iGame Games Menu..."
@@ -373,16 +373,16 @@ ELSE
   ENDIF   
 ENDIF
 
-; Add or update A-Beta assign
-search SYSTEMDIR:S/Assign-Startup "A-Beta:" >NIL:
+; Add or update A-GamesBeta assign
+search SYSTEMDIR:S/Assign-Startup "A-GamesBeta:" >NIL:
 IF WARN 
-	echo "Assign >NIL: A-Beta: $BETADIR" >>SYSTEMDIR:S/Assign-Startup
+	echo "Assign >NIL: A-GamesBeta: $GAMESBETADIR" >>SYSTEMDIR:S/Assign-Startup
 ELSE
-  setenv updateassign `RequestChoice "Update assign" "A-Beta: assign already exists and must be updated to*Npath '$BETADIR'.*N*NNote: Updating assign requires a reboot after*Ninstallation is done!*N*NDo you want to update A-Beta: assign?" "Yes|No"`
+  setenv updateassign `RequestChoice "Update assign" "A-GamesBeta: assign already exists and must be updated to*Npath '$GAMESBETADIR'.*N*NNote: Updating assign requires a reboot after*Ninstallation is done!*N*NDo you want to update A-GamesBeta: assign?" "Yes|No"`
   IF "$updateassign" EQ "1"
-    echo "$BETADIR" >T:_betadir
-    set assignbetadir "`sed "s/\//\\\//g" T:_betadir`"
-    sed "s/\([Aa]-[Bb][Ee][Tt][Aa]:\)/\1 $assignbetadir;/" "SYSTEMDIR:S/Assign-Startup" >"T:Assign-Startup"
+    echo "$GAMESBETADIR" >T:_gamesbetadir
+    set assignbetadir "`sed "s/\//\\\//g" T:_gamesbetadir`"
+    sed "s/\([Aa]-[Gg][Aa][Mm][Ee][Ss][Bb][Ee][Tt][Aa]:\)/\1 $assignbetadir;/" "SYSTEMDIR:S/Assign-Startup" >"T:Assign-Startup"
     copy >NIL: "T:Assign-Startup" "SYSTEMDIR:S/Assign-Startup"
   ENDIF   
 ENDIF

@@ -1,0 +1,7 @@
+Name      : Abu Simbel: Profanation
+Language  : Spanish
+Version   : AGA
+Year      : 2021
+Genre     : Platformer
+Players   : 1
+RunFile   : AbuSimbelProfAGAEs.Slave

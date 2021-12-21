@@ -1,9 +1,9 @@
 ; Hst Launcher run script
 ; -----------------------
-;RunFile=A-Beta:A/Alien3/Alien3.slave
+;RunFile=A-GamesBeta:A/Alien3/Alien3.slave
 
 ; Run WHDLoad
-cd "A-Beta:A/Alien3/"
+cd "A-GamesBeta:A/Alien3/"
 IF EXISTS ENV:whdloadargs
   whdload "Alien3.slave" $whdloadargs
 ELSE

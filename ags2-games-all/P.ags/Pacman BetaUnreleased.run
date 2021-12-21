@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:P/PacMan/PacMan.slave
+;RunFile=A-GamesBeta:P/PacMan/PacMan.slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:P/PacMan/"
+cd "A-GamesBeta:P/PacMan/"
 IF EXISTS ENV:whdloadargs
   whdload "PacMan.slave" $whdloadargs
 ELSE

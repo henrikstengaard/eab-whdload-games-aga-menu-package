@@ -1,6 +1,6 @@
 ; AGS2 run script
 ; ---------------
-;RunFile=A-Beta:A/AnotherWorldLostLevel/AnotherWorldLostLevel.Slave
+;RunFile=A-GamesBeta:A/AnotherWorldLostLevel/AnotherWorldLostLevel.Slave
 
 ; Favourites Mode
 IF EXISTS ENV:ags2favouritesmode
@@ -19,7 +19,7 @@ IF EXISTS S:AGS2RunPre
 ENDIF
 
 ; Run WHDLoad
-cd "A-Beta:A/AnotherWorldLostLevel/"
+cd "A-GamesBeta:A/AnotherWorldLostLevel/"
 IF EXISTS ENV:whdloadargs
   whdload "AnotherWorldLostLevel.Slave" $whdloadargs
 ELSE

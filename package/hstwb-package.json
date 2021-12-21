@@ -24,8 +24,8 @@
             "path": "DH1:WHDLoad/Games"
         },
         {
-            "name": "BETADIR",
-            "path": "DH1:WHDLoad/Beta"
+            "name": "GAMESBETADIR",
+            "path": "DH1:WHDLoad/GamesBeta"
         },
         {
             "name": "SAVESDIR",

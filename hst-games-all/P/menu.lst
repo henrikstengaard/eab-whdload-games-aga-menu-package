@@ -2,7 +2,7 @@ Picsou: Chasseur De Tr?sor SE	P/Picsou Chasseur De Trsor S	A-Games:J/JoakimVonAn
 P47 Thunderbolt	P/P47 Thunderbolt	A-Games:P/P47Thunderbolt/P47Thunderbolt.Slave
 Pacific Islands	P/Pacific Islands	A-Games:P/PacificIslands/PacificIslands.Slave
 Pac-Land	P/Pac-Land	A-Games:P/PacLand/PacLand.Slave
-Pacman (Beta/Unreleased)	P/Pacman BetaUnreleased	A-Beta:P/PacMan/PacMan.slave
+Pacman (Beta/Unreleased)	P/Pacman BetaUnreleased	A-GamesBeta:P/PacMan/PacMan.slave
 Pac-Mania	P/Pac-Mania	A-Games:P/PacMania/Pacmania.Slave
 Paladin	P/Paladin	A-Games:P/Paladin/Paladin.Slave
 Paladin 2	P/Paladin 2	A-Games:P/Paladin2/Paladin2.Slave
@@ -165,13 +165,13 @@ Prince of Persia	P/Prince of Persia	A-Games:P/PrinceOfPersia/PrinceOfPersia.slav
 Prince of Persia DE	P/Prince of Persia DE	A-Games:P/PrinceOfPersiaDe/PrinceOfPersiaDe.slave
 Prince of Persia NTSC	P/Prince of Persia NTSC	A-Games:P/PrinceOfPersiaNTSC/PrinceOfPersiaNTSC.slave
 Prison	P/Prison	A-Games:P/Prison/Prison.Slave
-Prison NTSC	P/Prison NTSC	A-Games:P/PrisonNTSC/PrisonNTSC.Slave
+Prison NTSC	P/Prison NTSC	A-Games:P/PrisonNTSC/PrisonNTSC.slave
 Pro Boxing Simulator	P/Pro Boxing Simulator	A-Games:P/ProBoxingSimulator/ProBoxingSimulator.Slave
 Profezia IT	P/Profezia IT	A-Games:P/ProfeziaIt/ProfeziaIt.Slave
 Project-X	P/Project-X	A-Games:P/ProjectX/ProjectX.slave
 Project-X	P/Project-X 	A-Games:P/ProjectXBonusLevel/ProjectXBonusLevel.Slave
 Project-X Special Edition 93	P/Project-X Special Edition	A-Games:P/ProjectXSE/ProjectXSE.Slave
-Project-X 2017 (Beta/Unreleased)	P/Project-X 2017 BetaUnrelea	A-Beta:P/ProjectXSE2017/ProjectXSE2017.slave
+Project-X 2017 (Beta/Unreleased)	P/Project-X 2017 BetaUnrelea	A-GamesBeta:P/ProjectXSE2017/ProjectXSE2017.slave
 Project-X Special Edition 93 CD32	P/Project-X Special Edition 	A-Games:P/ProjectXSECD32/ProjectXSECD32.slave
 Project-X	P/Project-X  	A-Games:P/ProjectXv2/ProjectXv2.slave
 Projectyle	P/Projectyle	A-Games:P/Projectyle/Projectyle.slave

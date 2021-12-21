@@ -129,7 +129,7 @@ Fly Fighter	F/Fly Fighter	A-Games:F/FlyFighter/FlyFighter.Slave
 Fly Harder	F/Fly Harder	A-Games:F/FlyHarder/FlyHarder.slave
 Fly Harder CD32	F/Fly Harder CD32	A-Games:F/FlyHarderCD32/FlyHarderCD32.slave
 Flying Shark	F/Flying Shark	A-Games:F/FlyingShark/FlyingShark.Slave
-Flying Shark (Beta/Unreleased)	F/Flying Shark BetaUnrelease	A-Beta:F/FlyingSharkSE/FlyingSharkSE.Slave
+Flying Shark (Beta/Unreleased)	F/Flying Shark BetaUnrelease	A-GamesBeta:F/FlyingSharkSE/FlyingSharkSE.Slave
 Fool's Errand, The	F/Fools Errand. The	A-Games:F/FoolsErrand/FoolsErrand.Slave
 Footballer of the Year 2	F/Footballer of the Year 2	A-Games:F/FootballerOfTheYear2/FootballerOfTheYear2.slave
 Football Glory	F/Football Glory	A-Games:F/FootballGlory/FootballGlory.Slave
@@ -199,4 +199,4 @@ Fetiche Maya, Le FR	F/Fetiche Maya. Le FR	A-Games:M/MayaFr/MayaFr.Slave
 F1-Racer AGA	F/F1-Racer AGA	A-Games:R/RygarAGA/RygarAGA.slave
 F1-Racer AGA CHIP	F/F1-Racer AGA CHIP	A-Games:R/RygarAGAChip/RygarAGAChip.slave
 F1-Racer AGA	F/F1-Racer AGA 	A-Games:T/TFXAGA/TFXAGA.slave
-F1-Racer AGA (Beta/Unreleased)	F/F1-Racer AGA BetaUnrelease	A-Beta:T/TFXAGA/TFXAGA.slave
+F1-Racer AGA (Beta/Unreleased)	F/F1-Racer AGA BetaUnrelease	A-GamesBeta:T/TFXAGA/TFXAGA.slave
